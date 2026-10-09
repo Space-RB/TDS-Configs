@@ -1,10 +1,10 @@
 # Easy
 
-[← Назад к каталогу](../README.md)
+[← Back to catalog](../README.md)
 
-Конфигов в категории: **140**
+Configs in this category: **140**
 
-| Дата | Мод | Карта | Модификаторы | Персонажи | Награда | Конфиг |
+| Date | Mode | Map | Modifiers | Towers | Reward | Config |
 |---|---|---|---|---|---|---|
 | Unknown | Easy | Abyssal Trench | — | Militant, None | — | [Открыть](Abyssal-Trench-2026-08-31-17-46-50.txt) |
 | Unknown | Easy | Abyssal Trench | — | Militant, None | — | [Открыть](Abyssal-Trench-2026-08-31-17-46-56.txt) |
@@ -149,4 +149,4 @@
 
 ---
 
-Поиск по этой странице: **Ctrl+F**.
+Search this page with **Ctrl+F**.

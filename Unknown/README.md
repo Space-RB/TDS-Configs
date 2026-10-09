@@ -1,13 +1,13 @@
 # Unknown
 
-[← Назад к каталогу](../README.md)
+[← Back to catalog](../README.md)
 
-Конфигов в категории: **1**
+Configs in this category: **1**
 
-| Дата | Мод | Карта | Модификаторы | Персонажи | Награда | Конфиг |
+| Date | Mode | Map | Modifiers | Towers | Reward | Config |
 |---|---|---|---|---|---|---|
 | Unknown | Unknown | Unknown | — | Gatling Gun, EvolvedOperator, Farm, Hacker, EvolvedEnforcer | — | [Открыть](Unknown-2026-10-06-22-33-04.txt) |
 
 ---
 
-Поиск по этой странице: **Ctrl+F**.
+Search this page with **Ctrl+F**.

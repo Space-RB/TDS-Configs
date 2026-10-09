@@ -1,10 +1,10 @@
 # Casual
 
-[← Назад к каталогу](../README.md)
+[← Back to catalog](../README.md)
 
-Конфигов в категории: **39**
+Configs in this category: **39**
 
-| Дата | Мод | Карта | Модификаторы | Персонажи | Награда | Конфиг |
+| Date | Mode | Map | Modifiers | Towers | Reward | Config |
 |---|---|---|---|---|---|---|
 | Unknown | Casual | Abyssal Trench | — | EvolvedOperator, EvolvedEnforcer, Commander, None | — | [Открыть](Abyssal-Trench-2026-10-03-13-26-16.txt) |
 | Unknown | Casual | Abyssal Trench | — | Scout, Minigunner, Commander, DJ Booth, Assassin | — | [Открыть](Abyssal-Trench-2026-10-06-22-20-53.txt) |
@@ -48,4 +48,4 @@
 
 ---
 
-Поиск по этой странице: **Ctrl+F**.
+Search this page with **Ctrl+F**.

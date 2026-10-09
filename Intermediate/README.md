@@ -1,10 +1,10 @@
 # Intermediate
 
-[← Назад к каталогу](../README.md)
+[← Back to catalog](../README.md)
 
-Конфигов в категории: **29**
+Configs in this category: **29**
 
-| Дата | Мод | Карта | Модификаторы | Персонажи | Награда | Конфиг |
+| Date | Mode | Map | Modifiers | Towers | Reward | Config |
 |---|---|---|---|---|---|---|
 | Unknown | Intermediate | Abyssal Trench | — | Scout, Minigunner, Commander, DJ Booth, Assassin | — | [Открыть](Abyssal-Trench-2026-10-06-23-29-27.txt) |
 | Unknown | Intermediate | Abyssal Trench | — | Scout, Minigunner, Commander, DJ Booth, Assassin | — | [Открыть](Abyssal-Trench-2026-10-06-23-44-44.txt) |
@@ -38,4 +38,4 @@
 
 ---
 
-Поиск по этой странице: **Ctrl+F**.
+Search this page with **Ctrl+F**.

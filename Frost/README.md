@@ -1,10 +1,10 @@
 # Frost
 
-[← Назад к каталогу](../README.md)
+[← Back to catalog](../README.md)
 
-Конфигов в категории: **167**
+Configs in this category: **167**
 
-| Дата | Мод | Карта | Модификаторы | Персонажи | Награда | Конфиг |
+| Date | Mode | Map | Modifiers | Towers | Reward | Config |
 |---|---|---|---|---|---|---|
 | Unknown | Frost | Abandoned City | — | Soldier, None | — | [Открыть](Abandoned-City-2026-10-02-00-30-39.txt) |
 | Unknown | Frost | Abandoned City | — | Soldier, None | — | [Открыть](Abandoned-City-2026-10-02-00-32-05.txt) |
@@ -176,4 +176,4 @@
 
 ---
 
-Поиск по этой странице: **Ctrl+F**.
+Search this page with **Ctrl+F**.

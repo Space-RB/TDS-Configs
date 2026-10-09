@@ -1,10 +1,10 @@
 # Event / Pizza Party
 
-[← Назад к каталогу](../../README.md)
+[← Back to catalog](../../README.md)
 
-Конфигов в категории: **26**
+Configs in this category: **26**
 
-| Дата | Мод | Карта | Модификаторы | Персонажи | Награда | Конфиг |
+| Date | Mode | Map | Modifiers | Towers | Reward | Config |
 |---|---|---|---|---|---|---|
 | Unknown | PizzaParty | Pizza Party | — | EvolvedOperator, Trapper, None | — | [Открыть](Pizza-Party-2026-09-03-10-22-29.txt) |
 | Unknown | PizzaParty | Pizza Party | — | Assassin, None | — | [Открыть](Pizza-Party-2026-09-06-15-39-50.txt) |
@@ -35,4 +35,4 @@
 
 ---
 
-Поиск по этой странице: **Ctrl+F**.
+Search this page with **Ctrl+F**.

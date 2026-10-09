@@ -1,10 +1,10 @@
 # Sandbox
 
-[← Назад к каталогу](../README.md)
+[← Back to catalog](../README.md)
 
-Конфигов в категории: **26**
+Configs in this category: **26**
 
-| Дата | Мод | Карта | Модификаторы | Персонажи | Награда | Конфиг |
+| Date | Mode | Map | Modifiers | Towers | Reward | Config |
 |---|---|---|---|---|---|---|
 | Unknown | Sandbox | Dev | — | Trapper, Military Base, Mercenary Base, DJ Booth, Gatling Gun | — | [Открыть](Dev-2026-08-29-09-29-30.txt) |
 | Unknown | Sandbox | Dev | — | Trapper, Military Base, Mercenary Base, DJ Booth, Gatling Gun | — | [Открыть](Dev-2026-08-29-10-08-02.txt) |
@@ -35,4 +35,4 @@
 
 ---
 
-Поиск по этой странице: **Ctrl+F**.
+Search this page with **Ctrl+F**.

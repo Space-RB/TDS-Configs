@@ -1,10 +1,10 @@
 # Molten
 
-[← Назад к каталогу](../README.md)
+[← Back to catalog](../README.md)
 
-Конфигов в категории: **75**
+Configs in this category: **75**
 
-| Дата | Мод | Карта | Модификаторы | Персонажи | Награда | Конфиг |
+| Date | Mode | Map | Modifiers | Towers | Reward | Config |
 |---|---|---|---|---|---|---|
 | Unknown | Molten | Abandoned City | — | Scout, Crook Boss, Minigunner, Farm, Hacker | — | [Открыть](Abandoned-City-2026-08-29-23-21-19.txt) |
 | Unknown | Molten | Abandoned City | — | Soldier, Demoman, Sniper, Militant, None | — | [Открыть](Abandoned-City-2026-09-28-01-56-29.txt) |
@@ -84,4 +84,4 @@
 
 ---
 
-Поиск по этой странице: **Ctrl+F**.
+Search this page with **Ctrl+F**.

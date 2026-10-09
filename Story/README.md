@@ -1,11 +1,11 @@
 # Story
 
-[← Назад к каталогу](../README.md)
+[← Back to catalog](../README.md)
 
-Выбери подкатегорию:
+Choose a subcategory:
 
-| Подкатегория | Конфигов |
+| Subcategory | Configs |
 |---|---:|
 | [Act 1](Story/Act%201/README.md) | 2 |
 
-Поиск по списку: **Ctrl+F**.
+Search this list with **Ctrl+F**.

@@ -1,12 +1,12 @@
 # Event
 
-[← Назад к каталогу](../README.md)
+[← Back to catalog](../README.md)
 
-Выбери подкатегорию:
+Choose a subcategory:
 
-| Подкатегория | Конфигов |
+| Subcategory | Configs |
 |---|---:|
 | [Nil Zone II](Event/Nil%20Zone%20II/README.md) | 5 |
 | [Pizza Party](Event/Pizza%20Party/README.md) | 26 |
 
-Поиск по списку: **Ctrl+F**.
+Search this list with **Ctrl+F**.

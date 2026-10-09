@@ -1,10 +1,10 @@
 # Fallen
 
-[← Назад к каталогу](../README.md)
+[← Back to catalog](../README.md)
 
-Конфигов в категории: **115**
+Configs in this category: **115**
 
-| Дата | Мод | Карта | Модификаторы | Персонажи | Награда | Конфиг |
+| Date | Mode | Map | Modifiers | Towers | Reward | Config |
 |---|---|---|---|---|---|---|
 | Unknown | Fallen | Abyssal Trench | HiddenEnemies, Glass, ExplodingEnemies, Limitation, Quarantine, FlyingEnemies, Fog | Gatling Gun, Hacker, EvolvedEnforcer, EvolvedOperator, DJ Booth | — | [Открыть](Abyssal-Trench-2026-10-04-15-31-56.txt) |
 | Unknown | Fallen | Black Spot Exchange | — | Trapper, Mortar, Hacker, EvolvedKingpin, Commando | — | [Открыть](Black-Spot-Exchange-2026-09-23-17-46-26.txt) |
@@ -124,4 +124,4 @@
 
 ---
 
-Поиск по этой странице: **Ctrl+F**.
+Search this page with **Ctrl+F**.

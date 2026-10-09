@@ -1,10 +1,10 @@
 # Event / Nil Zone II
 
-[← Назад к каталогу](../../README.md)
+[← Back to catalog](../../README.md)
 
-Конфигов в категории: **5**
+Configs in this category: **5**
 
-| Дата | Мод | Карта | Модификаторы | Персонажи | Награда | Конфиг |
+| Date | Mode | Map | Modifiers | Towers | Reward | Config |
 |---|---|---|---|---|---|---|
 | Unknown | NilZone2 | Nil Zone II | — | DJ Booth, Hacker, Gatling Gun, Demoman, EvolvedKingpin | — | [Открыть](Nil-Zone-II-2026-09-26-05-10-45.txt) |
 | Unknown | NilZone2 | Nil Zone II | — | Minigunner, DJ Booth, Gatling Gun, EvolvedJuggernaut, Demoman | — | [Открыть](Nil-Zone-II-2026-09-26-14-20-51.txt) |
@@ -14,4 +14,4 @@
 
 ---
 
-Поиск по этой странице: **Ctrl+F**.
+Search this page with **Ctrl+F**.

@@ -1,13 +1,13 @@
 # Trials
 
-[← Назад к каталогу](../README.md)
+[← Back to catalog](../README.md)
 
-Выбери подкатегорию:
+Choose a subcategory:
 
-| Подкатегория | Конфигов |
+| Subcategory | Configs |
 |---|---:|
 | [Dusty Bridges](Trials/Dusty%20Bridges/README.md) | 14 |
 | [Forgetten Docks](Trials/Forgetten%20Docks/README.md) | 1 |
 | [Stained Temple](Trials/Stained%20Temple/README.md) | 2 |
 
-Поиск по списку: **Ctrl+F**.
+Search this list with **Ctrl+F**.

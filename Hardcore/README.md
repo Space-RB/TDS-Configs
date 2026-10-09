@@ -1,10 +1,10 @@
 # Hardcore
 
-[← Назад к каталогу](../README.md)
+[← Back to catalog](../README.md)
 
-Конфигов в категории: **211**
+Configs in this category: **211**
 
-| Дата | Мод | Карта | Модификаторы | Персонажи | Награда | Конфиг |
+| Date | Mode | Map | Modifiers | Towers | Reward | Config |
 |---|---|---|---|---|---|---|
 | Unknown | Hardcore | Outskirts Commune | — | EvolvedEnforcer, EvolvedKingpin, Pyromancer, Hunter, None | — | [Открыть](Outskirts-Commune-2026-08-29-12-10-09.txt) |
 | Unknown | Hardcore | Outskirts Commune | — | Electroshocker, Sniper, None | — | [Открыть](Outskirts-Commune-2026-08-30-16-17-57.txt) |
@@ -220,4 +220,4 @@
 
 ---
 
-Поиск по этой странице: **Ctrl+F**.
+Search this page with **Ctrl+F**.

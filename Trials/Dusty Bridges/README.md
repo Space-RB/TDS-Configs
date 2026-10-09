@@ -1,10 +1,10 @@
 # Trials / Dusty Bridges
 
-[← Назад к каталогу](../../README.md)
+[← Back to catalog](../../README.md)
 
-Конфигов в категории: **14**
+Configs in this category: **14**
 
-| Дата | Мод | Карта | Модификаторы | Персонажи | Награда | Конфиг |
+| Date | Mode | Map | Modifiers | Towers | Reward | Config |
 |---|---|---|---|---|---|---|
 | Unknown | Trial | Dusty Bridges | — | DJ Booth, EvolvedJuggernaut, EvolvedKingpin, Demoman, Farm | — | [Открыть](Dusty-Bridges-2026-08-30-20-30-41.txt) |
 | Unknown | Trial | Dusty Bridges | — | DJ Booth, EvolvedJuggernaut, EvolvedKingpin, Demoman, Farm | — | [Открыть](Dusty-Bridges-2026-08-30-20-32-01.txt) |
@@ -23,4 +23,4 @@
 
 ---
 
-Поиск по этой странице: **Ctrl+F**.
+Search this page with **Ctrl+F**.
