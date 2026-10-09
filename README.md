@@ -783,6 +783,7 @@
 | 2026-10-04 | Intermediate | Winter Bridges | — | Militant, Soldier, Sniper, Demoman, Scout | — | [Открыть](Intermediate/Winter-Bridges-2026-10-04-21-38-08.txt) |
 | 2026-10-06 | Intermediate | Abyssal Trench | — | Scout, Minigunner, Commander, DJ Booth, Assassin | — | [Открыть](Intermediate/Abyssal-Trench-2026-10-06-23-29-27.txt) |
 | 2026-10-06 | Intermediate | Abyssal Trench | — | Scout, Minigunner, Commander, DJ Booth, Assassin | — | [Открыть](Intermediate/Abyssal-Trench-2026-10-06-23-44-44.txt) |
+| 2026-10-09 18:11 UTC | Intermediate | Infernal Abyss | — | Gatling Gun, Pyromancer, EvolvedJuggernaut, Shotgunner, Firework Technician | — | [Открыть](Intermediate/Infernal-Abyss-2026-10-09-18-11-44.txt) |
 
 ## Molten
 
