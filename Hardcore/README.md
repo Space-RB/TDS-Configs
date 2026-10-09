@@ -18,9 +18,9 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
+| Wretched Front | 202 | [Open](Wretched%20Front/README.md) |
 | Outskirts Commune | 7 | [Open](Outskirts%20Commune/README.md) |
 | Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
-| Wretched Front | 202 | [Open](Wretched%20Front/README.md) |
 
 </div>
 

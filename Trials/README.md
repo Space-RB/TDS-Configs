@@ -18,9 +18,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
+| Stained Temple | 2 | [Open](Stained%20Temple/README.md) |
 | Dusty Bridges | 14 | [Open](Dusty%20Bridges/README.md) |
 | Forgetten Docks | 1 | [Open](Forgetten%20Docks/README.md) |
-| Stained Temple | 2 | [Open](Stained%20Temple/README.md) |
 
 </div>
 

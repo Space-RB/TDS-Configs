@@ -18,8 +18,8 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Nil Zone II | 5 | [Open](Nil%20Zone%20II/README.md) |
 | Pizza Party | 26 | [Open](Pizza%20Party/README.md) |
+| Nil Zone II | 5 | [Open](Nil%20Zone%20II/README.md) |
 
 </div>
 
