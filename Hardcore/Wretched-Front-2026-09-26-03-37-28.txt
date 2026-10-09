@@ -1,0 +1,72 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Crook Boss", "Scout", "Shotgunner", "Pyromancer", "Minigunner")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Pyromancer", -7.529508590698242, 0.9690583944320679, -31.860132217407227) -- 1
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Place("Crook Boss", -0.8145856857299805, 0.8197743892669678, -24.740873336791992) -- 2
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Place("Scout", -3.3248586654663086, 0.992323637008667, -33.70529556274414) -- 3
+
+-- [ Wave 15 ] --
+TDS:Place("Crook Boss", 1.1739845275878906, 0.6684406399726868, -22.063901901245117) -- 4
+TDS:Upgrade(4)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Place("Crook Boss", -1.6164908409118652, 0.5923365950584412, -20.680160522460938) -- 5
+
+-- [ Wave 19 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 21 ] --
+TDS:Place("Shotgunner", 1.8672256469726562, 0.5831374526023865, -17.67462158203125) -- 6
+TDS:Place("Minigunner", -1.1700191497802734, 0.3868798017501831, -17.09138298034668) -- 7
+
+-- [ Wave 22 ] --
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]

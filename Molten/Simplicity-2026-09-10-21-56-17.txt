@@ -1,0 +1,194 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("EvolvedKingpin", "Farm", "EvolvedJuggernaut", "Cowboy", "Turret")
+TDS:Mode("Molten")
+TDS:GameInfo("Simplicity", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Cowboy", -11.873737335205078, 1.0000005960464478, -2.8731136322021484) -- 1
+
+-- [ Wave 2 ] --
+TDS:Place("Cowboy", -9.27473258972168, 1.0000004768371582, -2.809446334838867) -- 2
+TDS:Place("Cowboy", -12.39114761352539, 1.0000001192092896, -0.262606143951416) -- 3
+
+-- [ Wave 3 ] --
+TDS:Place("Cowboy", -9.645148277282715, 0.9999831914901733, -0.06956982612609863) -- 4
+
+-- [ Wave 4 ] --
+TDS:Place("Cowboy", -12.44940185546875, 0.9999997019767761, 2.4012184143066406) -- 5
+
+-- [ Wave 5 ] --
+TDS:Place("Cowboy", -9.410959243774414, 0.9999831914901733, 2.649266242980957) -- 6
+TDS:Place("Cowboy", -9.01776123046875, 0.9999991059303284, 5.773377895355225) -- 7
+
+-- [ Wave 6 ] --
+TDS:Place("Cowboy", -11.904953002929688, 0.9999991655349731, 5.687714099884033) -- 8
+TDS:Place("Cowboy", -14.370180130004883, 0.9999993443489075, 4.3982086181640625) -- 9
+TDS:Place("Cowboy", -16.935989379882812, 0.9999994039535522, 4.109847068786621) -- 10
+
+-- [ Wave 7 ] --
+TDS:Place("Cowboy", -6.509864807128906, 0.9999875426292419, -3.4750404357910156) -- 11
+TDS:Place("Cowboy", -3.49216365814209, 0.999991238117218, -3.467184066772461) -- 12
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(11)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(11)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(11)
+
+-- [ Wave 14 ] --
+TDS:Place("Turret", -1.8327362537384033, 0.9999831914901733, 3.1485910415649414) -- 13
+
+-- [ Wave 15 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(13)
+TDS:Place("Turret", 3.097452163696289, 0.9999831914901733, 3.2054848670959473) -- 14
+
+-- [ Wave 19 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 22 ] --
+TDS:Place("Turret", 7.2907257080078125, 0.9999831914901733, 3.3325328826904297) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(15)
+TDS:Place("EvolvedKingpin", 1.761587142944336, 0.999993085861206, -3.1647286415100098, true) -- 16
+
+-- [ Wave 25 ] --
+TDS:Place("EvolvedKingpin", 2.315509080886841, 1.9394091367721558, -2.975768804550171, true) -- 17
+TDS:Place("EvolvedKingpin", 3.601672410964966, 2.4742937088012695, -3.3008344173431396, true) -- 18
+TDS:Place("EvolvedKingpin", 4.061700344085693, 2.484337329864502, -3.2184298038482666, true) -- 19
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(19)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(19)
+TDS:Upgrade(17)
+TDS:Upgrade(16)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(18)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(16, 2)
+TDS:Upgrade(17, 2)
+TDS:Upgrade(18, 2)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Place("EvolvedJuggernaut", 6.407493591308594, 0.9999831914901733, -7.609880447387695) -- 20
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(20)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(20)
+TDS:Upgrade(17, 2)
+TDS:Upgrade(18, 2)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(16, 2)
+TDS:Upgrade(17, 2)
+TDS:Upgrade(16, 2)
+
+-- [[ END OF STRATEGY ]]

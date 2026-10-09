@@ -1,0 +1,109 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Demoman", "EvolvedJuggernaut", "EvolvedKingpin", "DJ Booth", "Farm")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {"Glass", "Quarantine", "ExplodingEnemies"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Farm", 12.876522064208984, 1.0000038146972656, -23.366714477539062, true) -- 1
+TDS:Place("Farm", 15.895496368408203, 0.9999874830245972, -23.407150268554688, true) -- 2
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+game:GetService("ReplicatedStorage").Network.fflags["RE:ask"]:FireServer("consumables.disabled")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Equip", "Damage Flag", "1932D083-537F-470A-95EB-95A8EE6D5CE5")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Consume", "Damage Flag", {direction = Vector3.new(0.436930388212204, -0.7141193151473999, -0.5469236373901367), position = Vector3.new(5.267178058624268, 1.1999822854995728, -4.301764488220215)})
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Unequip", "1932D083-537F-470A-95EB-95A8EE6D5CE5")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Equip", "Range Flag", "3A955FA2-CF42-4BD0-A98B-0B808643F3AA")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Consume", "Range Flag", {direction = Vector3.new(0.2923617959022522, -0.6480109691619873, -0.7032825350761414), position = Vector3.new(7.241803169250488, 1.1999809741973877, -2.710249423980713)})
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Unequip", "3A955FA2-CF42-4BD0-A98B-0B808643F3AA")
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Place("Farm", 12.876522064208984, 1.0000038146972656, -23.366714477539062) -- 3
+TDS:Place("Farm", 15.895496368408203, 0.9999874830245972, -23.407150268554688) -- 4
+TDS:VoteSkip(3)
+TDS:Sell(4)
+TDS:Sell(3)
+TDS:Place("Demoman", 3.0073771476745605, 0.9999831914901733, -3.120429515838623, true) -- 5
+
+-- [ Wave 4 ] --
+TDS:Upgrade(5)
+TDS:VoteSkip(4)
+
+-- [ Wave 5 ] --
+TDS:Place("Demoman", 2.306044101715088, 0.9999831914901733, -3.1168618202209473, true) -- 6
+TDS:SetTarget(6, "Last")
+TDS:SetTarget(6, "Strongest")
+TDS:SetTarget(6, "Weakest")
+TDS:SetTarget(6, "Closest")
+TDS:VoteSkip(5)
+TDS:SetTarget(6, "Farthest")
+TDS:Upgrade(6)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", 11.82659912109375, 1.000003457069397, -20.882047653198242, true) -- 7
+TDS:Place("Farm", 15.751209259033203, 0.9999849796295166, -20.771562576293945, true) -- 8
+TDS:Place("Farm", 18.872867584228516, 1.0000033378601074, -20.753902435302734, true) -- 9
+TDS:Place("Farm", 19.08414077758789, 1.0000028610229492, -17.31839370727539, true) -- 10
+
+-- [ Wave 7 ] --
+TDS:Place("Farm", 15.456439018249512, 1.0000027418136597, -17.008684158325195, true) -- 11
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(11)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(11)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 12 ] --
+TDS:Place("Farm", 18.812135696411133, 1.000002384185791, -14.2203369140625, true) -- 12
+TDS:Place("Farm", 12.560564041137695, 1.0000028610229492, -17.12530517578125, true) -- 13
+TDS:Place("Farm", 20.648456573486328, 3.3153154850006104, -15.870558738708496, true) -- 14
+TDS:Place("Farm", 22.171323776245117, 1.000002145767212, -13.155282974243164, true) -- 15
+TDS:Place("Farm", 21.912281036376953, 1.0000030994415283, -19.099170684814453, true) -- 16
+
+-- [[ END OF STRATEGY ]]

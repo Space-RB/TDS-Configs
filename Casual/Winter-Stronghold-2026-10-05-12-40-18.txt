@@ -1,0 +1,54 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoChain = true -- Enables automatic commander chain logic if used by the script
+_G.SupportCaravan = false -- Automatically uses Support Caravan ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Militant", "Commander", "Farm", "None", "None")
+TDS:Mode("Casual")
+TDS:GameInfo("Winter Stronghold", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 2 ] --
+TDS:Place("Militant", 9.25701904296875, -0.1599988490343094, 5.42955207824707, true) -- 1
+
+-- [ Wave 4 ] --
+TDS:Place("Militant", -17.117464065551758, -0.16001199185848236, 37.0799674987793) -- 2
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Place("Militant", -11.962262153625488, -0.1600121408700943, 27.17615509033203) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Militant", 18.646379470825195, -0.1600104570388794, 3.036764621734619) -- 4
+TDS:Upgrade(4)
+TDS:Place("Farm", -23.94124984741211, -0.9999935626983643, -21.81566047668457) -- 5
+
+-- [ Wave 7 ] --
+TDS:Upgrade(5)
+TDS:Place("Farm", -18.466175079345703, -0.9999935626983643, -24.207876205444336) -- 6
+TDS:Upgrade(6)
+TDS:Place("Commander", -14.394699096679688, -0.1600121408700943, 33.98387908935547) -- 7
+TDS:Place("Farm", -13.607029914855957, -0.9999935626983643, -25.391035079956055) -- 8
+
+-- [[ END OF STRATEGY ]]

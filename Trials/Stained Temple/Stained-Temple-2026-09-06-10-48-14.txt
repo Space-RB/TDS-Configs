@@ -1,0 +1,196 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Gatling Gun", "Trapper", "DJ Booth", "Turret", "EvolvedJuggernaut")
+TDS:Mode("Trial")
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Trapper", -18.896926879882812, -1.412764549255371, 1.6210594177246094, true) -- 1
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:SetOption(1, "Trap", "Landmine")
+
+-- [ Wave 4 ] --
+TDS:Place("Trapper", -19.109880447387695, 0.9424182176589966, 1.534392237663269, true) -- 2
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:SetOption(2, "Trap", "Landmine")
+
+-- [ Wave 7 ] --
+TDS:Place("Trapper", -18.904447555541992, 1.0414936542510986, 1.4535924196243286, true) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+TDS:SetOption(3, "Trap", "Landmine")
+
+-- [ Wave 9 ] --
+TDS:Place("Gatling Gun", -5.710187911987305, 0.4468419551849365, -4.236705303192139) -- 4
+
+-- [ Wave 11 ] --
+TDS:Place("DJ Booth", -9.974693298339844, -2.0958075523376465, -2.4505538940429688) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:SetOption(5, "Track", "Green")
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Ability(5, "Drop The Beat")
+TDS:Upgrade(4)
+TDS:VoteSkip(12)
+
+-- [ Wave 13 ] --
+TDS:Ability(5, "Drop The Beat")
+TDS:Ability(4, "FPS", {enabled = true})
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Ability(5, "Drop The Beat")
+TDS:Upgrade(4)
+
+-- [ Wave 16 ] --
+TDS:Ability(4, "FPS", {enabled = true})
+
+-- [ Wave 17 ] --
+TDS:Ability(5, "Drop The Beat")
+TDS:Upgrade(5)
+
+-- [ Wave 18 ] --
+TDS:Ability(5, "Drop The Beat")
+TDS:SetOption(3, "Trap", "Spike")
+
+-- [ Wave 19 ] --
+TDS:SetOption(3, "Trap", "Landmine")
+TDS:Ability(5, "Drop The Beat")
+TDS:Upgrade(5)
+
+-- [ Wave 20 ] --
+TDS:Ability(5, "Drop The Beat")
+
+-- [ Wave 21 ] --
+TDS:Upgrade(4)
+TDS:Ability(5, "Drop The Beat")
+
+-- [ Wave 23 ] --
+TDS:Ability(5, "Drop The Beat")
+TDS:Upgrade(4)
+
+-- [ Wave 24 ] --
+TDS:Ability(5, "Drop The Beat")
+
+-- [ Wave 26 ] --
+TDS:Ability(5, "Drop The Beat")
+
+-- [ Wave 27 ] --
+TDS:Ability(5, "Drop The Beat")
+TDS:Upgrade(4)
+
+-- [ Wave 29 ] --
+TDS:Place("EvolvedJuggernaut", -8.661699295043945, -1.9141427278518677, -7.365520477294922) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6, 2)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(6, 2)
+
+-- [ Wave 32 ] --
+TDS:Ability(5, "Drop The Beat")
+
+-- [ Wave 33 ] --
+TDS:Upgrade(6, 2)
+TDS:Ability(5, "Drop The Beat")
+
+-- [ Wave 34 ] --
+TDS:Ability(5, "Drop The Beat")
+
+-- [ Wave 35 ] --
+TDS:Ability(5, "Drop The Beat")
+TDS:Upgrade(6, 2)
+
+-- [ Wave 36 ] --
+TDS:Place("Turret", -6.018047332763672, -1.9373738765716553, 0.6185779571533203) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(7)
+TDS:Place("Turret", -2.3428964614868164, -1.8536648750305176, -1.2981834411621094) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Ability(5, "Drop The Beat")
+TDS:Upgrade(8)
+
+-- [ Wave 38 ] --
+TDS:Ability(5, "Drop The Beat")
+TDS:Upgrade(8)
+TDS:Place("Turret", 1.5447654724121094, -1.6002082824707031, -2.6479625701904297) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Ability(5, "Drop The Beat")
+
+-- [ Wave 39 ] --
+TDS:Upgrade(9)
+TDS:SetOption(5, "Track", "Red")
+TDS:Place("Trapper", 4.2692766189575195, -1.356618046760559, -26.953964233398438) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:SetOption(10, "Trap", "Bear Traps")
+TDS:Place("Trapper", 1.1849298477172852, -1.534818172454834, -26.75695037841797) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:SetOption(11, "Trap", "Bear Traps")
+
+-- [ Wave 40 ] --
+TDS:Place("Trapper", 5.577967643737793, -1.232043743133545, -24.10593032836914) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Trapper", 2.50081729888916, -1.3953665494918823, -24.017520904541016) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:SetOption(13, "Trap", "Bear Traps")
+TDS:SetOption(12, "Trap", "Bear Traps")
+
+-- [[ END OF STRATEGY ]]

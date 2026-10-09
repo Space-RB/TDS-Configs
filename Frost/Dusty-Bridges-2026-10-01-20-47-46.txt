@@ -1,0 +1,160 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("DJ Booth", "Gatling Gun", "EvolvedJuggernaut", "Firework Technician", "EvolvedOperator")
+TDS:Mode("Frost")
+TDS:GameInfo("Dusty Bridges", {"HiddenEnemies", "Glass", "ExplodingEnemies", "Limitation", "Committed", "Quarantine"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("EvolvedOperator", 43.02266311645508, 29.0069580078125, -160.5023193359375) -- 1
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("EvolvedOperator", 18.787696838378906, 26.343463897705078, -157.74209594726562) -- 2
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 11 ] --
+TDS:Place("Gatling Gun", 66.49806213378906, 33.089134216308594, -146.02391052246094) -- 3
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Place("DJ Booth", 60.24605941772461, 29.600589752197266, -138.3228759765625) -- 4
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 17 ] --
+TDS:Place("Firework Technician", 72.23487091064453, 28.766305923461914, -145.58050537109375) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 30 ] --
+TDS:Place("EvolvedJuggernaut", 44.287109375, 29.137638092041016, -146.72470092773438) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6, 2)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(6, 2)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(6, 2)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(6, 2)
+
+-- [ Wave 38 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Place("EvolvedOperator", 31.574695587158203, 27.370813369750977, -153.89044189453125) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 39 ] --
+TDS:Place("EvolvedOperator", 30.539710998535156, 28.37190055847168, -164.16368103027344) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("EvolvedOperator", 55.98406982421875, 29.31365394592285, -158.28216552734375) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 40 ] --
+TDS:Place("EvolvedOperator", 16.8770751953125, 27.333904266357422, -145.00897216796875) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("EvolvedOperator", 4.3154191970825195, 28.18502426147461, -147.77197265625) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [[ END OF STRATEGY ]]

@@ -1,0 +1,47 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Scout", "EvolvedEnforcer", "None", "None", "None")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Scout", -0.86, 0.83, -24.76, true) -- 1
+TDS:Place("Scout", 1.61, 0.63, -20.63, true) -- 2
+TDS:Place("Scout", -1.20, 0.72, -23.66, true) -- 3
+TDS:Place("Scout", -0.68, 2.01, -23.67, true) -- 4
+TDS:Place("Scout", -0.33, 2.95, -23.53, true) -- 5
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Place("Scout", 3.24, 1.07, -32.38, true) -- 6
+
+-- [ Wave 3 ] --
+TDS:Place("Scout", 3.27, 2.93, -31.84, true) -- 7
+
+-- [ Wave 4 ] --
+TDS:Place("Scout", 3.48, 0.98, -27.97, true) -- 8
+
+-- [[ END OF STRATEGY ]]

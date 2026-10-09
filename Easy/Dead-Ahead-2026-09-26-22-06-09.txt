@@ -1,0 +1,87 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("EvolvedEnforcer", "EvolvedOperator", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Dead Ahead", {"HiddenEnemies", "Glass", "ExplodingEnemies", "Limitation", "Quarantine", "Fog", "FlyingEnemies"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", -1.2220592498779297, 1.0018515586853027, 2.286561965942383) -- 1
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("EvolvedOperator", 1.9634357690811157, 2.299623489379883, 10.562297821044922, true) -- 2
+
+-- [ Wave 3 ] --
+TDS:Place("EvolvedOperator", -1.9220008850097656, 1.0016160011291504, 5.283907890319824, true) -- 3
+TDS:Place("EvolvedOperator", -1.231959342956543, 1.0009889602661133, 6.0154008865356445, true) -- 4
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+TDS:Place("EvolvedOperator", -1.668791651725769, 2.4582359790802, 4.917075157165527, true) -- 5
+TDS:Place("EvolvedOperator", -3.7076315879821777, 1.0033018589019775, 3.871887683868408, true) -- 6
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:Place("EvolvedEnforcer", 4.924030780792236, 4.151262283325195, 11.711949348449707, true) -- 7
+
+-- [ Wave 14 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+
+-- [ Wave 15 ] --
+TDS:Place("EvolvedOperator", -3.805137872695923, 0.9999935626983643, 39.48394775390625) -- 8
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]

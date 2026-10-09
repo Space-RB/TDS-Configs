@@ -1,0 +1,110 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("EvolvedKingpin", "Shotgunner", "None", "None", "None")
+TDS:Mode("PizzaParty")
+TDS:GameInfo("Pizza Party", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 3 ] --
+TDS:Place("Shotgunner", 4.778059959411621, 1.0368709564208984, -30.56977081298828) -- 1
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Place("Shotgunner", 6.57905912399292, 1.0368714332580566, -14.041129112243652, true) -- 2
+TDS:Place("Shotgunner", 4.798931121826172, 1.0368714332580566, -24.62409782409668, true) -- 3
+TDS:Place("Shotgunner", 5.423649787902832, 1.0368714332580566, -25.088563919067383, true) -- 4
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", -2.4513931274414062, 1.0368704795837402, -19.229101181030273, true) -- 5
+TDS:Place("Shotgunner", 6.624164581298828, 1.0368695259094238, -23.508167266845703, true) -- 6
+TDS:Place("Shotgunner", 7.141753196716309, 1.3442656993865967, -23.29758644104004, true) -- 7
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 15 ] --
+TDS:Place("Shotgunner", 3.0947375297546387, 1.0368704795837402, -24.648521423339844, true) -- 8
+TDS:Place("Shotgunner", 3.9615869522094727, 2.824474573135376, -24.719375610351562, true) -- 9
+TDS:Place("Shotgunner", 2.8700828552246094, 1.0368704795837402, -23.19979476928711, true) -- 10
+TDS:Place("Shotgunner", 3.175248146057129, 1.0368695259094238, -23.354366302490234, true) -- 11
+
+-- [ Wave 16 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 18 ] --
+TDS:Place("EvolvedKingpin", 5.56986665725708, 1.0368709564208984, -14.234516143798828) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 20 ] --
+TDS:Place("EvolvedKingpin", 4.1034159660339355, 1.0368709564208984, -17.00379180908203) -- 13
+
+-- [ Wave 21 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(13)
+TDS:Place("EvolvedKingpin", 4.069730758666992, 1.0368709564208984, -11.560348510742188) -- 14
+
+-- [ Wave 23 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(14)
+
+-- [[ END OF STRATEGY ]]

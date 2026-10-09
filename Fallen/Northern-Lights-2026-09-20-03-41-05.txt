@@ -1,0 +1,53 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Warden", "Minigunner", "Ranger", "Freezer", "Militant")
+TDS:Mode("Fallen")
+TDS:GameInfo("Northern Lights", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 1 ] --
+TDS:Place("Militant", -13.278240203857422, 3.2136783599853516, 10.019439697265625) -- 1
+
+-- [ Wave 4 ] --
+TDS:Place("Militant", -19.21644401550293, 3.0589756965637207, 7.725346565246582) -- 2
+TDS:Place("Militant", -13.26356029510498, 2.3943564891815186, -4.306744575500488) -- 3
+
+-- [ Wave 7 ] --
+TDS:Place("Warden", -13.192566871643066, 2.392768144607544, 1.8274731636047363) -- 4
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Warden", -13.11538314819336, 2.631673574447632, 4.902496337890625, true) -- 5
+
+-- [ Wave 9 ] --
+TDS:Place("Warden", -13.370865821838379, 2.859354257583618, 7.063509941101074, true) -- 6
+
+-- [ Wave 10 ] --
+TDS:Place("Warden", -19.437894821166992, 2.3985631465911865, -4.321135997772217, true) -- 7
+
+-- [ Wave 11 ] --
+TDS:Place("Warden", -20.479135513305664, 3.7531166076660156, -4.723495006561279, true) -- 8
+TDS:Place("Warden", -19.77175521850586, 2.2393436431884766, -5.557717323303223, true) -- 9
+TDS:Place("Warden", -20.96532440185547, 3.3052449226379395, -6.1402587890625, true) -- 10
+
+-- [[ END OF STRATEGY ]]

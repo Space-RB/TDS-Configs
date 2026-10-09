@@ -1,0 +1,135 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("DJ Booth", "Gatling Gun", "Hacker", "Tesla", "Trapper")
+TDS:Mode("Fallen")
+TDS:GameInfo("Summer Castle", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Trapper", 3.398256301879883, 0.9689047336578369, 33.895416259765625) -- 1
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", 6.445545196533203, 0.972996711730957, 33.811767578125) -- 2
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Trapper", 9.503990173339844, 0.988478422164917, 33.95071029663086) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Place("Trapper", 12.588516235351562, 0.9967296123504639, 33.82994079589844) -- 4
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Place("Trapper", 15.652637481689453, 0.9855668544769287, 33.820228576660156) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Place("Gatling Gun", 7.3454132080078125, 0.9645440578460693, 21.55791473388672) -- 6
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:Place("DJ Booth", 7.606834411621094, 0.9694948196411133, 27.373178482055664) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 21 ] --
+TDS:Place("Tesla", 19.312557220458984, 0.9833009243011475, 24.630613327026367) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(8)
+TDS:Place("Tesla", 19.499462127685547, 0.9869089126586914, 28.874717712402344) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Hacker", 23.899375915527344, 0.9812026023864746, 34.81916046142578) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(10, 2)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Place("Trapper", 13.88986587524414, 0.9785223007202148, 27.947877883911133) -- 11
+TDS:Upgrade(11)
+
+-- [[ END OF STRATEGY ]]

@@ -1,0 +1,78 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AutoMercenary = true -- Automatically uses Mercenary Base ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Trapper", "Mercenary Base", "Hacker", "DJ Booth", "Gatling Gun")
+TDS:Mode("Frost")
+TDS:GameInfo("Lay By", {"HiddenEnemies", "Glass", "ExplodingEnemies", "Limitation", "Quarantine", "Fog"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Trapper", -2.858577251434326, 243, 172.8724365234375, true) -- 1
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Place("Trapper", -2.8754303455352783, 243, 171.27745056152344, true) -- 2
+
+-- [ Wave 2 ] --
+TDS:VoteSkip(2)
+TDS:Place("Trapper", 2.873302936553955, 243, 172.23025512695312, true) -- 3
+
+-- [ Wave 3 ] --
+TDS:VoteSkip(3)
+TDS:Place("Trapper", 2.9873461723327637, 243, 164.03073120117188, true) -- 4
+
+-- [ Wave 4 ] --
+TDS:VoteSkip(4)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:VoteSkip(5)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:VoteSkip(6)
+
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:VoteSkip(8)
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+TDS:VoteSkip(9)
+
+-- [ Wave 10 ] --
+TDS:VoteSkip(10)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+
+-- [[ END OF STRATEGY ]]

@@ -1,0 +1,208 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("DJ Booth", "Hacker", "Gatling Gun", "Engineer", "Brawler")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Engineer", -12.471148490905762, 0.9999834895133972, -9.106222152709961) -- 1
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Engineer", -11.962139129638672, 1.0000005960464478, -3.577967643737793) -- 2
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Engineer", -9.169479370117188, 0.9999861121177673, -8.950096130371094) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Place("Engineer", -8.66401481628418, 1.0000005960464478, -3.4886488914489746) -- 4
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Hacker", -18.523971557617188, 0.9999834895133972, -6.791346549987793) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Place("Engineer", -12.596851348876953, 1.0000001192092896, -0.5401020050048828) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Place("Engineer", -9.127008438110352, 1.0000001192092896, -0.2583470344543457) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Place("DJ Booth", -5.100829124450684, 0.9999997615814209, -9.467072486877441) -- 8
+TDS:Upgrade(8)
+TDS:SetOption(8, "Track", "Green")
+TDS:Upgrade(8)
+TDS:Upgrade(2)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(8)
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(3)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Ability(8, "Drop The Beat")
+
+-- [ Wave 16 ] --
+TDS:Upgrade(2)
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(4)
+TDS:Ability(8, "Drop The Beat")
+
+-- [ Wave 17 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 18 ] --
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(8)
+
+-- [ Wave 19 ] --
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(7)
+TDS:Upgrade(3)
+TDS:Ability(8, "Drop The Beat")
+
+-- [ Wave 20 ] --
+TDS:Upgrade(1)
+TDS:Ability(8, "Drop The Beat")
+
+-- [ Wave 21 ] --
+TDS:Upgrade(8)
+TDS:Ability(8, "Drop The Beat")
+
+-- [ Wave 22 ] --
+TDS:Upgrade(3)
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(1)
+
+-- [ Wave 23 ] --
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(2)
+
+-- [ Wave 24 ] --
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(4)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(6)
+TDS:Ability(8, "Drop The Beat")
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(7)
+
+-- [ Wave 26 ] --
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(3)
+
+-- [ Wave 27 ] --
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(1)
+TDS:Ability(8, "Drop The Beat")
+
+-- [ Wave 29 ] --
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(4)
+TDS:Place("Hacker", -4.430167198181152, 0.9999901652336121, -3.679903745651245) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 30 ] --
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(6)
+TDS:Place("Gatling Gun", -8.231958389282227, 0.9999995231628418, 3.296792984008789) -- 10
+
+-- [ Wave 31 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Ability(8, "Drop The Beat")
+
+-- [ Wave 32 ] --
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(5)
+
+-- [ Wave 33 ] --
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(9, 2)
+
+-- [ Wave 34 ] --
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(5, 2)
+
+-- [ Wave 35 ] --
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(10)
+TDS:SetOption(8, "Track", "Red")
+
+-- [ Wave 36 ] --
+TDS:Ability(8, "Drop The Beat")
+
+-- [ Wave 37 ] --
+TDS:Ability(5, "Hologram Tower", {towerPosition = Vector3.new(-13.105568885803223, 0.9999994039535522, 4.131962776184082), towerToClone = 10})
+TDS:Ability(8, "Drop The Beat")
+
+-- [ Wave 38 ] --
+TDS:Ability(8, "Drop The Beat")
+
+-- [ Wave 39 ] --
+TDS:Ability(8, "Drop The Beat")
+
+-- [ Wave 40 ] --
+TDS:Ability(8, "Drop The Beat")
+TDS:Ability(5, "Hologram Tower", {towerPosition = Vector3.new(-9.54615306854248, 0.9999988079071045, 7.748600959777832), towerToClone = 10})
+TDS:Ability(8, "Drop The Beat")
+
+-- [[ END OF STRATEGY ]]

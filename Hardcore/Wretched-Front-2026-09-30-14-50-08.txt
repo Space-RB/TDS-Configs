@@ -1,0 +1,68 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("EvolvedKingpin", "Farm", "Scout", "Pyromancer", "Hunter")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Pyromancer", -7.565108299255371, 0.9702225923538208, -31.93891716003418) -- 1
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Place("EvolvedKingpin", -1.513514518737793, 0.4154863655567169, -17.63653564453125) -- 2
+
+-- [ Wave 11 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Place("Hunter", 6.697941303253174, 0.7047006487846375, 17.66554832458496) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Place("Scout", 3.5416555404663086, 1.4444544315338135, 40.85622024536133) -- 4
+
+-- [ Wave 15 ] --
+TDS:Place("Pyromancer", 13.5861234664917, 1.2024141550064087, 25.949430465698242) -- 5
+TDS:Upgrade(5)
+TDS:Place("Hunter", 9.830869674682617, 0.6809853315353394, 18.155427932739258) -- 6
+
+-- [ Wave 17 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+
+-- [ Wave 20 ] --
+TDS:Place("Pyromancer", -6.979218482971191, -0.31545042991638184, -2.167661666870117) -- 7
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]

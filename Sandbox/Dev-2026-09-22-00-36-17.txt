@@ -1,0 +1,52 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Trapper", "Scout", "None", "None", "None")
+TDS:Mode("Sandbox")
+TDS:GameInfo("Dev", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Scout", 25.09080696105957, 0.9695734977722168, -28.665651321411133, true) -- 1
+TDS:Place("Scout", 1.6262751817703247, 3.8982443809509277, -12.094897270202637, true) -- 2
+TDS:Place("Scout", 11.023902893066406, 3.898388147354126, -14.638422012329102, true) -- 3
+TDS:Place("Scout", 13.143150329589844, 2.8846449851989746, -12.399211883544922, true) -- 4
+TDS:Place("Scout", 11.23460578918457, 0.9695706367492676, -13.451654434204102, true) -- 5
+TDS:Place("Scout", 11.258146286010742, 4.612011909484863, -10.869510650634766, true) -- 6
+TDS:Place("Scout", 10.743420600891113, 5.366837978363037, -10.777532577514648, true) -- 7
+TDS:Place("Scout", 12.302212715148926, 2.1073527336120605, -11.718229293823242, true) -- 8
+TDS:Place("Scout", 11.037505149841309, 4.9743852615356445, -10.544037818908691, true) -- 9
+TDS:Place("Scout", 12.117716789245605, 2.8009307384490967, -11.3153715133667, true) -- 10
+TDS:Place("Scout", 11.712419509887695, 3.0568411350250244, -11.061320304870605, true) -- 11
+TDS:Place("Scout", 11.780653953552246, 3.2701950073242188, -11.183210372924805, true) -- 12
+TDS:Place("Scout", 12.166159629821777, 3.227832078933716, -11.476705551147461, true) -- 13
+TDS:Place("Scout", 12.411897659301758, 3.2138001918792725, -11.632719993591309, true) -- 14
+TDS:Place("Scout", 11.846892356872559, 3.2504794597625732, -11.372977256774902, true) -- 15
+TDS:Place("Scout", 10.48680305480957, 5.673839569091797, -10.464149475097656, true) -- 16
+TDS:Place("Scout", 11.789957046508789, 3.2483575344085693, -11.469308853149414, true) -- 17
+TDS:Place("Scout", 10.472697257995605, 5.697061061859131, -10.564054489135742, true) -- 18
+TDS:Place("Scout", 10.337006568908691, 6.217495918273926, -10.3629789352417, true) -- 19
+TDS:Place("Scout", 12.573638916015625, 3.0123395919799805, -11.716547012329102, true) -- 20
+TDS:Place("Scout", 10.72128677368164, 5.97908878326416, -10.470295906066895, true) -- 21
+TDS:Place("Scout", 11.32088851928711, 5.30411434173584, -10.746420860290527, true) -- 22
+TDS:Place("Scout", 11.554000854492188, 4.73516845703125, -11.16995906829834, true) -- 23
+
+-- [[ END OF STRATEGY ]]

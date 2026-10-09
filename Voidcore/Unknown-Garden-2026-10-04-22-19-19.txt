@@ -1,0 +1,86 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Gatling Gun", "EvolvedKingpin", "Hacker", "Farm", "Engineer")
+TDS:Mode("Hardcore Hard")
+TDS:GameInfo("Unknown Garden", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 14 ] --
+TDS:Place("Engineer", 141.03456115722656, 300.3114929199219, -3.0951642990112305) -- 1
+TDS:Upgrade(1)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 16 ] --
+TDS:Place("Engineer", 67.71231079101562, 302.53729248046875, -7.998950958251953) -- 2
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 17 ] --
+TDS:Place("Engineer", 68.35102844238281, 302.5531005859375, -4.570494651794434) -- 3
+
+-- [ Wave 18 ] --
+TDS:Place("Engineer", 89.74658966064453, 301.5498352050781, 13.707449913024902) -- 4
+TDS:Upgrade(4)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(4)
+TDS:Place("Engineer", 88.66453552246094, 304.155029296875, 9.88911247253418, true) -- 5
+TDS:Place("Engineer", 88.70802307128906, 305.06829833984375, 9.51718521118164, true) -- 6
+
+-- [ Wave 20 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Place("Farm", 150.48916625976562, 299.2659912109375, -33.76372528076172) -- 7
+TDS:Upgrade(7)
+TDS:Place("Farm", 145.75872802734375, 298.7423400878906, -37.719398498535156) -- 8
+TDS:Upgrade(8)
+
+-- [ Wave 22 ] --
+TDS:Place("Farm", 150.27066040039062, 298.72265625, -38.06930923461914) -- 9
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]

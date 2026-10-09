@@ -1,0 +1,65 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Soldier", "EvolvedJuggernaut", "None", "None", "None")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Soldier", -0.9614267349243164, 0.86527019739151, -25.09099769592285) -- 1
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:Place("Soldier", 0.8610415458679199, 0.6853346228599548, -22.646087646484375) -- 2
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", -2.2750658988952637, 0.6620551943778992, -22.34885025024414) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Place("Soldier", -0.44498133659362793, 0.5851661562919617, -19.8881778717041) -- 4
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Soldier", 0.3296332359313965, 0.9759644269943237, -31.930225372314453) -- 5
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Place("Soldier", -2.378319263458252, 0.9781833291053772, -30.33562469482422) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]

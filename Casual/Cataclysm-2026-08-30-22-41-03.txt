@@ -1,0 +1,188 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoNecro = true -- Automatically uses Necromancer ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Pyromancer", "Brawler", "Engineer", "Necromancer", "Accelerator")
+TDS:Mode("Casual")
+TDS:GameInfo("Cataclysm", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Brawler", 5.454955101013184, 1.000009536743164, 38.391815185546875, true) -- 1
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Brawler", 5.509561538696289, 3.3508222103118896, 39.01866149902344, true) -- 2
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Brawler", 5.367404937744141, 1.0000076293945312, 37.247283935546875, true) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Engineer", 4.417476654052734, 1.0000076293945312, 29.673805236816406, true) -- 4
+TDS:Place("Engineer", 3.0259053707122803, 1.000009536743164, 29.545303344726562, true) -- 5
+TDS:Place("Engineer", 1.998193621635437, 1.0000076293945312, 29.641345977783203, true) -- 6
+
+-- [ Wave 5 ] --
+TDS:Place("Engineer", 0.9174259901046753, 1.0000076293945312, 29.7285213470459, true) -- 7
+TDS:Place("Engineer", -0.33730149269104004, 1.0000076293945312, 29.59607696533203, true) -- 8
+
+-- [ Wave 6 ] --
+TDS:Place("Engineer", -1.5997958183288574, 1.000009536743164, 29.462806701660156, true) -- 9
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 10 ] --
+TDS:Place("Brawler", 5.552193641662598, 1.000009536743164, 35.47008514404297, true) -- 10
+TDS:Place("Brawler", 5.625652313232422, 1.0000057220458984, 34.564186096191406, true) -- 11
+TDS:Place("Brawler", 5.523708343505859, 1.0000076293945312, 33.348087310791016, true) -- 12
+TDS:Place("Brawler", 5.661325454711914, 1.0000076293945312, 32.33036422729492, true) -- 13
+TDS:Place("Brawler", 5.513920307159424, 2.688973903656006, 30.838199615478516, true) -- 14
+TDS:Upgrade(10)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+
+-- [ Wave 11 ] --
+TDS:Place("Pyromancer", 0.16175556182861328, 1.000009536743164, 35.387107849121094, true) -- 15
+TDS:Place("Pyromancer", -0.950570821762085, 1.0000114440917969, 35.37592315673828, true) -- 16
+TDS:Place("Pyromancer", -2.0451064109802246, 1.0000057220458984, 35.46148681640625, true) -- 17
+TDS:Place("Pyromancer", -3.232606887817383, 1.000009536743164, 35.256256103515625, true) -- 18
+
+-- [ Wave 12 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Place("Pyromancer", -4.357181549072266, 1.0000057220458984, 35.61544418334961, true) -- 19
+TDS:Place("Pyromancer", -5.45794153213501, 1.0000076293945312, 35.526763916015625, true) -- 20
+
+-- [ Wave 13 ] --
+TDS:Place("Pyromancer", -6.770531177520752, 1.0000076293945312, 35.57402801513672, true) -- 21
+TDS:Place("Pyromancer", -8.022159576416016, 1.000009536743164, 35.30975341796875, true) -- 22
+TDS:Upgrade(19)
+TDS:Upgrade(20)
+TDS:Upgrade(21)
+TDS:Upgrade(22)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(19)
+TDS:Upgrade(20)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(21)
+TDS:Upgrade(22)
+TDS:Place("Necromancer", -3.2310855388641357, 1.0000076293945312, 29.44407081604004, true) -- 23
+
+-- [ Wave 16 ] --
+TDS:Place("Necromancer", -4.757655143737793, 1.0000057220458984, 29.395841598510742, true) -- 24
+TDS:Upgrade(23)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(24)
+TDS:Upgrade(2)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+TDS:Upgrade(14)
+TDS:Place("Necromancer", -6.031947135925293, 1.0000076293945312, 29.223217010498047, true) -- 25
+TDS:Upgrade(25)
+
+-- [ Wave 21 ] --
+TDS:Place("Accelerator", -7.554136276245117, 1.0000076293945312, 29.387805938720703, true) -- 26
+TDS:Upgrade(26)
+TDS:Place("Accelerator", -8.916387557983398, 1.0000038146972656, 29.270002365112305, true) -- 27
+
+-- [ Wave 22 ] --
+TDS:Place("Accelerator", -10.101454734802246, 1.0000076293945312, 29.225223541259766, true) -- 28
+TDS:Upgrade(27)
+TDS:Upgrade(28)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(20)
+TDS:Upgrade(21)
+TDS:Upgrade(22)
+TDS:Upgrade(23)
+TDS:Upgrade(26)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(28)
+TDS:Upgrade(27)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(25)
+TDS:Upgrade(24)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(26)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [[ END OF STRATEGY ]]

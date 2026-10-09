@@ -1,0 +1,37 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("DJ Booth", "EvolvedJuggernaut", "EvolvedKingpin", "Demoman", "Farm")
+TDS:Mode("Trial")
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 8 ] --
+TDS:Place("Demoman", 25.03188705444336, 28.426321029663086, -165.42579650878906, true) -- 11
+
+-- [ Wave 9 ] --
+TDS:Place("Demoman", 24.874099731445312, 28.454763412475586, -166.74269104003906, true) -- 12
+TDS:Place("Demoman", 24.46356201171875, 28.478649139404297, -168.23446655273438, true) -- 13
+TDS:Place("Demoman", 24.018312454223633, 29.2152099609375, -167.73446655273438, true) -- 14
+TDS:Place("Demoman", 24.251270294189453, 30.804763793945312, -166.65200805664062, true) -- 15
+
+-- [[ END OF STRATEGY ]]

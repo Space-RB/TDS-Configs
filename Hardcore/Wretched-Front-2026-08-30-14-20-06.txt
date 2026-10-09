@@ -1,0 +1,115 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("EvolvedOperator", "Brawler", "Engineer", "Minigunner", "Farm")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("EvolvedOperator", -16.32, 1.14, -38.46, true) -- 1
+TDS:Place("EvolvedOperator", -16.30, 1.12, -37.41, true) -- 2
+TDS:Place("EvolvedOperator", -16.38, 1.04, -36.25, true) -- 3
+
+-- [ Wave 2 ] --
+TDS:Place("Brawler", -4.50, 1.07, -43.98, true) -- 4
+TDS:Place("Brawler", 0.84, 1.17, -42.50, true) -- 5
+TDS:Place("Brawler", 0.94, 2.45, -42.09, true) -- 6
+
+-- [ Wave 3 ] --
+TDS:Place("Brawler", -4.47, 1.08, -42.50, true) -- 7
+TDS:Place("Brawler", 0.84, 1.13, -40.95, true) -- 8
+
+-- [ Wave 4 ] --
+TDS:Place("Brawler", -4.53, 1.09, -41.30, true) -- 9
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Place("EvolvedOperator", -13.03, 1.11, -41.13, true) -- 10
+TDS:Place("EvolvedOperator", -11.91, 1.10, -41.21, true) -- 11
+TDS:Place("EvolvedOperator", -10.84, 1.09, -41.13, true) -- 12
+TDS:Place("EvolvedOperator", -9.57, 1.07, -41.10, true) -- 13
+
+-- [ Wave 8 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 10 ] --
+TDS:Place("Engineer", -1.79, 1.02, -35.63, true) -- 14
+TDS:Place("Engineer", -3.40, 1.01, -35.59, true) -- 15
+
+-- [ Wave 11 ] --
+TDS:Place("Engineer", -4.85, 1.00, -35.50, true) -- 16
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+
+-- [ Wave 13 ] --
+TDS:Place("Engineer", 13.73, 1.21, 28.42, true) -- 17
+TDS:Place("Engineer", 14.87, 1.18, 28.13, true) -- 18
+TDS:Upgrade(18)
+TDS:Upgrade(17)
+
+-- [ Wave 14 ] --
+TDS:Place("EvolvedOperator", 17.21, 0.53, 16.03, true) -- 19
+TDS:Place("EvolvedOperator", 17.36, 1.14, 16.29, true) -- 20
+TDS:Place("EvolvedOperator", 17.30, 0.57, 16.89, true) -- 21
+TDS:Upgrade(19)
+TDS:Place("EvolvedOperator", 17.45, 2.51, 17.26, true) -- 22
+TDS:Upgrade(21)
+TDS:Upgrade(22)
+
+-- [ Wave 15 ] --
+TDS:Place("Engineer", -6.43, 0.99, -35.40, true) -- 23
+TDS:Upgrade(18)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(20)
+TDS:Upgrade(17)
+
+-- [ Wave 17 ] --
+TDS:Place("Brawler", 0.93, 1.13, -39.46, true) -- 24
+TDS:Place("Brawler", 0.80, 1.06, -38.32, true) -- 25
+TDS:Place("Brawler", 1.03, 1.09, -37.19, true) -- 26
+TDS:Place("Brawler", -4.47, 1.06, -45.02, true) -- 27
+TDS:Upgrade(26)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(25)
+TDS:Upgrade(24)
+TDS:Upgrade(27)
+
+-- [[ END OF STRATEGY ]]

@@ -1,0 +1,112 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Hacker", "DJ Booth", "Engineer", "Gatling Gun", "EvolvedOperator")
+TDS:Mode("Molten")
+TDS:GameInfo("Black Spot Exchange", {"HiddenEnemies", "ExplodingEnemies", "Limitation", "Committed", "Broke", "Quarantine"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("EvolvedOperator", -17.498733520507812, 2.000000238418579, -4.020875930786133, true) -- 1
+TDS:Place("EvolvedOperator", 17.168800354003906, 2.066023826599121, -2.892040252685547, true) -- 2
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", 17.236366271972656, 2, -1.5301194190979004, true) -- 3
+
+-- [ Wave 2 ] --
+TDS:Place("EvolvedOperator", -17.429723739624023, 2, -2.1821441650390625, true) -- 4
+TDS:Place("EvolvedOperator", -17.456560134887695, 1.9999998807907104, -0.932642936706543, true) -- 5
+
+-- [ Wave 3 ] --
+TDS:Place("EvolvedOperator", 17.131498336791992, 2.066023588180542, -0.3978843688964844, true) -- 6
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Place("Hacker", -12.765167236328125, 1.9991182088851929, -0.2641807794570923, true) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Place("Hacker", 12.512998580932617, 1.999117374420166, -0.16775688529014587, true) -- 8
+
+-- [ Wave 11 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(2)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 17 ] --
+TDS:Place("DJ Booth", 0.2920137047767639, 1.9993816614151, -1.2159725427627563, true) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]

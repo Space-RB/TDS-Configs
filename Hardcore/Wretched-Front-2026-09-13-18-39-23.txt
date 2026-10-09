@@ -1,0 +1,270 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("EvolvedJuggernaut", "DJ Booth", "Pyromancer", "Farm", "Turret")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {"HiddenEnemies"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Farm", 31.009593963623047, 0.2981273829936981, 23.556392669677734) -- 1
+TDS:Place("Farm", 31.417713165283203, -0.018851980566978455, 19.314434051513672) -- 2
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", 30.93037986755371, 0.4860442876815796, 27.087574005126953) -- 3
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", 32.3590087890625, -0.3717181086540222, 15.452682495117188) -- 4
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Place("Farm", 32.77248001098633, -0.5520942807197571, 11.66755199432373) -- 5
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Place("Farm", 29.338844299316406, 0.7566499710083008, 30.278762817382812) -- 6
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Place("Pyromancer", 10.100837707519531, 1.2142986059188843, 21.903127670288086) -- 7
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Place("Pyromancer", -1.3753881454467773, 1.0211472511291504, -35.212398529052734) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Place("Farm", 33.24372100830078, -0.620746374130249, 8.014398574829102) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Farm", 26.595321655273438, 1.017042875289917, 33.64902114868164) -- 10
+TDS:Upgrade(10)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(8)
+
+-- [ Wave 16 ] --
+TDS:Place("DJ Booth", -1.6616268157958984, 0.9741774797439575, -30.90579605102539) -- 11
+TDS:SetOption(11, "Track", "Green")
+
+-- [ Wave 18 ] --
+TDS:Place("Turret", -5.021352767944336, 0.4824715852737427, -20.596900939941406) -- 12
+TDS:Upgrade(4)
+TDS:Upgrade(9)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(10)
+TDS:VoteSkip(19)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(10)
+TDS:Place("Farm", 24.10808563232422, 1.0433975458145142, 37.044044494628906) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:VoteSkip(20)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(6)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 24 ] --
+TDS:VoteSkip(24)
+TDS:Upgrade(8)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Ability(11, "Drop The Beat")
+TDS:Upgrade(12)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(12)
+TDS:VoteSkip(26)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(12)
+TDS:Ability(11, "Drop The Beat")
+TDS:VoteSkip(28)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(11)
+TDS:VoteSkip(29)
+TDS:Ability(11, "Drop The Beat")
+TDS:SetOption(11, "Track", "Red")
+
+-- [ Wave 30 ] --
+TDS:Ability(11, "Drop The Beat")
+TDS:Upgrade(11)
+
+-- [ Wave 31 ] --
+TDS:Place("Turret", -8.50240421295166, 0.2522510588169098, -18.577625274658203) -- 14
+TDS:Place("Turret", -10.396627426147461, 0.6168802380561829, -22.08845329284668) -- 15
+
+-- [ Wave 32 ] --
+TDS:Upgrade(14)
+TDS:SetOption(11, "Track", "Green")
+TDS:Ability(11, "Drop The Beat")
+TDS:Upgrade(14)
+TDS:VoteSkip(32)
+
+-- [ Wave 33 ] --
+TDS:Ability(11, "Drop The Beat")
+TDS:SetOption(11, "Track", "Red")
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Ability(11, "Drop The Beat")
+TDS:Upgrade(14)
+TDS:SetOption(11, "Track", "Green")
+TDS:Ability(11, "Drop The Beat")
+
+-- [ Wave 34 ] --
+TDS:Upgrade(15)
+TDS:VoteSkip(34)
+
+-- [ Wave 35 ] --
+TDS:Ability(11, "Drop The Beat")
+TDS:VoteSkip(35)
+TDS:Ability(11, "Drop The Beat")
+
+-- [ Wave 36 ] --
+TDS:Upgrade(15)
+TDS:SetOption(11, "Track", "Red")
+TDS:Sell(7)
+TDS:Ability(11, "Drop The Beat")
+TDS:SetOption(11, "Track", "Green")
+TDS:Upgrade(12)
+TDS:Ability(11, "Drop The Beat")
+
+-- [ Wave 37 ] --
+TDS:Ability(11, "Drop The Beat")
+TDS:Upgrade(14)
+TDS:SetOption(11, "Track", "Red")
+
+-- [ Wave 38 ] --
+TDS:Ability(11, "Drop The Beat")
+TDS:VoteSkip(38)
+TDS:SetOption(11, "Track", "Green")
+
+-- [ Wave 39 ] --
+TDS:Upgrade(12)
+TDS:Ability(11, "Drop The Beat")
+TDS:VoteSkip(39)
+
+-- [ Wave 40 ] --
+TDS:SetOption(11, "Track", "Red")
+TDS:Ability(11, "Drop The Beat")
+TDS:SetOption(11, "Track", "Green")
+TDS:Ability(11, "Drop The Beat")
+TDS:Upgrade(14)
+
+-- [ Wave 41 ] --
+TDS:Ability(11, "Drop The Beat")
+TDS:SetOption(11, "Track", "Red")
+TDS:SetOption(11, "Track", "Green")
+TDS:Upgrade(15)
+
+-- [ Wave 42 ] --
+TDS:Place("EvolvedJuggernaut", -0.049662113189697266, 0.6172747015953064, -20.422998428344727) -- 16
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Ability(11, "Drop The Beat")
+TDS:SetOption(11, "Track", "Red")
+TDS:VoteSkip(42)
+TDS:Upgrade(16)
+
+-- [ Wave 43 ] --
+TDS:Ability(11, "Drop The Beat")
+TDS:Upgrade(16, 2)
+TDS:Ability(11, "Drop The Beat")
+TDS:Ability(11, "Drop The Beat")
+TDS:SetOption(11, "Track", "Green")
+TDS:Ability(11, "Drop The Beat")
+TDS:Upgrade(16, 2)
+
+-- [ Wave 44 ] --
+TDS:SetOption(11, "Track", "Red")
+TDS:SetOption(11, "Track", "Red")
+TDS:SetOption(11, "Track", "Red")
+TDS:Ability(11, "Drop The Beat")
+TDS:Upgrade(16, 2)
+
+-- [ Wave 45 ] --
+TDS:Sell(9)
+TDS:Sell(5)
+TDS:Sell(4)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(1)
+TDS:Sell(6)
+TDS:Sell(10)
+TDS:Sell(13)
+TDS:Upgrade(16, 2)
+TDS:Place("Farm", -6.659570693969727, 1.0115416049957275, -44.73738098144531) -- 17
+TDS:Place("Farm", -17.817584991455078, 1.0231157541275024, -40.6949462890625) -- 18
+TDS:Place("Farm", -17.84939956665039, 1.0523337125778198, -37.05304718017578) -- 19
+TDS:Place("Farm", -17.82105255126953, 0.966510534286499, -32.922794342041016) -- 20
+TDS:Place("Farm", -21.743003845214844, 0.8504514694213867, -35.230323791503906) -- 21
+TDS:Place("Farm", -22.304668426513672, 0.7402114272117615, -31.472759246826172) -- 22
+TDS:Place("Farm", -19.975404739379883, 0.8287947773933411, -27.710174560546875) -- 23
+TDS:Place("Farm", -20.93604278564453, 0.54780113697052, -23.76966094970703) -- 24
+TDS:Ability(11, "Drop The Beat")
+TDS:Ability(11, "Drop The Beat")
+
+-- [[ END OF STRATEGY ]]

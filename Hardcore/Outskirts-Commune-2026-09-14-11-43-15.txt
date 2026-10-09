@@ -1,0 +1,76 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Minigunner", "Militant", "Scout", "None", "None")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Outskirts Commune", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Militant", -11.940999984741211, 501.3048400878906, 27.17715835571289) -- 1
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", -12.77969741821289, 501.3316650390625, 30.425657272338867) -- 2
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Place("Militant", 1.4255268573760986, 501.317626953125, 23.62782859802246) -- 3
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Place("Militant", 0.673090934753418, 501.2720031738281, 20.549591064453125) -- 4
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Place("Minigunner", -8.29456901550293, 501.32086181640625, 27.555391311645508) -- 5
+TDS:Upgrade(5)
+TDS:Place("Scout", -14.281941413879395, 501.32684326171875, 23.461673736572266) -- 6
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Place("Minigunner", 4.392168045043945, 501.2333984375, 21.10901641845703) -- 7
+TDS:Upgrade(7)
+TDS:Place("Militant", -6.975254058837891, 501.31817626953125, 24.511474609375) -- 8
+
+-- [ Wave 14 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Place("Militant", 16.695186614990234, 501.6158447265625, 2.6012043952941895) -- 9
+TDS:Upgrade(9)
+
+-- [ Wave 16 ] --
+TDS:Place("Minigunner", -0.6170978546142578, 503.8013000488281, -26.52489471435547) -- 10
+
+-- [[ END OF STRATEGY ]]

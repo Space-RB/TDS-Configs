@@ -1,0 +1,61 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Shotgunner", "EvolvedJuggernaut", "Farm", "None", "None")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Farm", -10.802623748779297, 1.545653223991394, 24.613162994384766) -- 1
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:Place("Farm", -10.454191207885742, 1.5254896879196167, 28.622909545898438) -- 2
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Place("Farm", -10.922164916992188, 1.4605350494384766, 32.397186279296875) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Shotgunner", 2.0421299934387207, 1.4367058277130127, 30.52935028076172) -- 4
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:Place("Farm", -10.823101043701172, 1.3578076362609863, 36.5999870300293) -- 5
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Place("Shotgunner", -1.6011807918548584, 1.4715025424957275, 30.742326736450195) -- 6
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:Place("EvolvedJuggernaut", 5.583556175231934, 1.3787645101547241, 36.843162536621094) -- 7
+
+-- [[ END OF STRATEGY ]]

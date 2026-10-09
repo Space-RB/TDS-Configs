@@ -1,0 +1,205 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Gatling Gun", "EvolvedOperator", "Firework Technician", "Farm", "DJ Booth")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Outskirts Commune", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 16 ] --
+TDS:Place("DJ Booth", 2.6120047569274902, 503.54681396484375, -17.25227928161621) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:SetOption(15, "Track", "Green")
+
+-- [ Wave 17 ] --
+TDS:Upgrade(15)
+
+-- [ Wave 18 ] --
+TDS:VoteSkip(18)
+
+-- [ Wave 21 ] --
+TDS:VoteSkip(21)
+
+-- [ Wave 22 ] --
+TDS:Sell(12)
+TDS:Sell(11)
+TDS:VoteSkip(22)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(15)
+
+-- [ Wave 24 ] --
+TDS:VoteSkip(24)
+
+-- [ Wave 25 ] --
+TDS:Place("EvolvedOperator", 2.8001480102539062, 502.5733642578125, -3.113518714904785) -- 16
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(16)
+TDS:Place("EvolvedOperator", -4.473372936248779, 501.7406311035156, 12.977157592773438) -- 17
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("EvolvedOperator", -16.976089477539062, 501.41888427734375, 25.501502990722656) -- 18
+TDS:Sell(18)
+TDS:Place("EvolvedOperator", -16.692724227905273, 501.3960266113281, 24.187606811523438) -- 19
+
+-- [ Wave 27 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(17)
+
+-- [ Wave 28 ] --
+TDS:Place("EvolvedOperator", 0.8410701751708984, 502.5417785644531, -10.7579345703125, true) -- 20
+TDS:Place("EvolvedOperator", 1.6876403093338013, 504.4019470214844, -11.03156852722168, true) -- 21
+TDS:Place("EvolvedOperator", 2.318793296813965, 505.0298156738281, -10.979832649230957, true) -- 22
+TDS:Place("EvolvedOperator", 2.559906005859375, 505.00616455078125, -10.898162841796875, true) -- 23
+TDS:Place("EvolvedOperator", 2.8254289627075195, 504.9100036621094, -10.666952133178711, true) -- 24
+TDS:Place("EvolvedOperator", 3.1282825469970703, 504.6827697753906, -10.421871185302734, true) -- 25
+TDS:Place("EvolvedOperator", 3.45902419090271, 504.9820251464844, -10.42198371887207, true) -- 26
+TDS:Place("EvolvedOperator", 1.2174248695373535, 502.5098571777344, -9.93320369720459, true) -- 27
+TDS:Place("EvolvedOperator", 1.2516206502914429, 503.6202392578125, -10.387829780578613, true) -- 28
+TDS:Place("EvolvedOperator", 0.8576083183288574, 502.6159362792969, -11.662879943847656, true) -- 29
+TDS:Place("EvolvedOperator", 1.3077025413513184, 502.7007751464844, -12.078904151916504, true) -- 30
+TDS:Place("EvolvedOperator", 4.932071685791016, 502.5657043457031, -9.055121421813965, true) -- 31
+TDS:Place("EvolvedOperator", 2.9864554405212402, 502.5382080078125, -9.277097702026367, true) -- 32
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(32)
+TDS:Upgrade(26)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(26)
+TDS:Sell(30)
+TDS:Place("EvolvedOperator", 9.297636985778809, 501.29412841796875, 12.456690788269043) -- 33
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(15)
+TDS:Ability(15, "Drop The Beat")
+TDS:VoteSkip(31)
+
+-- [ Wave 32 ] --
+TDS:VoteSkip(32)
+
+-- [ Wave 33 ] --
+TDS:VoteSkip(33)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(33)
+TDS:SetOption(15, "Track", "Red")
+
+-- [ Wave 42 ] --
+TDS:VoteSkip(42)
+
+-- [[ END OF STRATEGY ]]

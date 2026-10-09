@@ -1,0 +1,38 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AutoMercenary = true -- Automatically uses Mercenary Base ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Trapper", "Mercenary Base", "Hacker", "DJ Booth", "Gatling Gun")
+TDS:Mode("Sandbox")
+TDS:GameInfo("Dev", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Trapper", -2.9989075660705566, 243, 174.94180297851562) -- 1
+TDS:Place("Trapper", 2.9244725704193115, 243, 174.86932373046875) -- 2
+TDS:Place("Trapper", 2.9354183673858643, 243, 169.93528747558594) -- 3
+TDS:Place("Trapper", 3.0539212226867676, 243, 164.86160278320312) -- 4
+TDS:Place("Trapper", 3.0553171634674072, 243, 159.79782104492188) -- 5
+TDS:Place("Trapper", 3.181842088699341, 243, 156.71829223632812) -- 6
+
+-- [[ END OF STRATEGY ]]

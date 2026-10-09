@@ -1,0 +1,77 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Scout", "None", "None", "None", "None")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", -5.861052513122559, -0.13424015045166016, -9.179573059082031) -- 1
+TDS:Place("Scout", -2.6162619590759277, 0.020063553005456924, -8.434048652648926) -- 2
+TDS:Place("Scout", -6.99445915222168, -0.1048486977815628, -12.010923385620117) -- 3
+TDS:Place("Scout", 0.4063854217529297, 0.14811497926712036, -8.146940231323242) -- 4
+TDS:Place("Scout", -13.835492134094238, -0.4338477849960327, -7.504525661468506) -- 5
+
+-- [ Wave 2 ] --
+TDS:Place("Scout", -15.958200454711914, -0.494259774684906, -5.343039035797119) -- 6
+TDS:Place("Scout", 3.924496650695801, 0.2814323902130127, -7.095438003540039) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 3 ] --
+TDS:Place("Scout", 1.2793567180633545, 0.27497512102127075, -3.542264461517334) -- 8
+TDS:Upgrade(8)
+TDS:Place("Scout", 8.182126998901367, 0.44645455479621887, -13.25494384765625) -- 9
+TDS:Place("Scout", 9.366129875183105, 0.5307513475418091, -16.203460693359375) -- 10
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]

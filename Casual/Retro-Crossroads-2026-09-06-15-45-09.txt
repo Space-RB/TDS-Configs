@@ -1,0 +1,189 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("EvolvedJuggernaut", "Militant", "Farm", "DJ Booth", "Electroshocker")
+TDS:Mode("Casual")
+TDS:GameInfo("Retro Crossroads", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Ready()
+TDS:Place("Militant", -124.98855590820312, -44.53631591796875, 29.94296646118164) -- 1
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", -134.9414825439453, -44.53631591796875, 57.321327209472656) -- 2
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", -135.97230529785156, -44.53631591796875, 53.23554611206055) -- 3
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", -135.23609924316406, -44.53631591796875, 49.54755783081055) -- 4
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:Place("Militant", -122.28665924072266, -44.53631591796875, 32.143428802490234) -- 5
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Place("Militant", -125.10478973388672, -44.486289978027344, 33.4653434753418) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+TDS:Place("Militant", -122.17443084716797, -44.53631591796875, 35.415916442871094) -- 7
+TDS:Upgrade(7)
+TDS:Place("DJ Booth", -121.66462707519531, -44.53631591796875, 39.66802978515625) -- 8
+
+-- [ Wave 8 ] --
+TDS:Upgrade(8)
+TDS:SetOption(8, "Track", "Green")
+TDS:Upgrade(8)
+TDS:Place("Militant", -119.69825744628906, -44.53631591796875, 30.44529151916504) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+TDS:Place("Militant", -119.44142150878906, -44.53631591796875, 33.54950714111328) -- 10
+TDS:Upgrade(10)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(10)
+TDS:Place("Militant", -116.73357391357422, -44.53631591796875, 31.541505813598633) -- 11
+
+-- [ Wave 11 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(3)
+TDS:Upgrade(11)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(4)
+TDS:Place("Militant", -118.9850845336914, -44.53631591796875, 36.519798278808594) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+TDS:SetOption(8, "Track", "Red")
+TDS:Place("Electroshocker", -131.85159301757812, -44.53631591796875, 29.44907569885254) -- 13
+TDS:Upgrade(11)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(9)
+TDS:Upgrade(13)
+TDS:Upgrade(2)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(8)
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(7)
+TDS:Upgrade(13)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(12)
+TDS:Ability(8, "Drop The Beat")
+
+-- [ Wave 17 ] --
+TDS:Place("EvolvedJuggernaut", -115.06487274169922, -44.53631591796875, 35.27793502807617) -- 14
+TDS:Upgrade(13)
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(14)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(13)
+TDS:Ability(8, "Drop The Beat")
+
+-- [ Wave 20 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(1)
+TDS:Place("Farm", -138.4718017578125, -44.53631591796875, 60.61299133300781) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(9)
+TDS:Ability(8, "Drop The Beat")
+
+-- [ Wave 22 ] --
+TDS:Upgrade(14)
+TDS:Ability(8, "Drop The Beat")
+TDS:Ability(8, "Drop The Beat")
+
+-- [ Wave 23 ] --
+TDS:Upgrade(14, 2)
+
+-- [ Wave 24 ] --
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(8)
+TDS:Upgrade(11)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(1)
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(5)
+TDS:Upgrade(10)
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(13)
+TDS:Upgrade(5)
+TDS:Upgrade(10)
+TDS:Upgrade(6)
+TDS:Place("Electroshocker", -124.5100326538086, -44.53631591796875, 51.462669372558594) -- 16
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Ability(8, "Drop The Beat")
+TDS:Sell(4)
+TDS:Sell(3)
+TDS:Sell(2)
+TDS:Sell(15)
+TDS:Place("Electroshocker", -117.39358520507812, -44.53631591796875, 52.03929901123047) -- 17
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [[ END OF STRATEGY ]]

@@ -1,0 +1,87 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Militant", "Demoman", "None", "None", "None")
+TDS:Mode("Casual")
+TDS:GameInfo("U-Turn", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 1 ] --
+TDS:Place("Demoman", 11.90, 1.00, -0.44) -- 1
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Demoman", 13.90, 1.00, 14.22) -- 2
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Demoman", 14.00, 1.00, 10.03) -- 3
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Place("Militant", 11.93, 4.15, 4.40, true) -- 4
+TDS:Place("Militant", 13.36, 4.18, 4.62, true) -- 5
+TDS:Place("Militant", 13.19, 1.00, 5.31, true) -- 6
+TDS:Place("Militant", 12.73, 4.03, 3.64, true) -- 7
+TDS:Place("Militant", 11.44, 4.49, 5.04, true) -- 8
+TDS:Place("Militant", 11.81, 5.99, 5.17, true) -- 9
+TDS:Place("Militant", 12.14, 6.21, 4.13, true) -- 10
+TDS:Place("Militant", 13.33, 4.18, 2.68, true) -- 11
+TDS:Place("Militant", 11.55, 2.73, 3.75, true) -- 12
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(11)
+TDS:Upgrade(7)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]

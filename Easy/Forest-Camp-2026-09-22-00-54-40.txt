@@ -1,0 +1,48 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Militant", "None", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Forest Camp", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 5 ] --
+TDS:Place("Militant", 8.65781021118164, 1.000016450881958, 30.3314266204834) -- 1
+
+-- [ Wave 6 ] --
+TDS:Place("Militant", 17.295166015625, 1.000016450881958, 30.857057571411133) -- 2
+TDS:Place("Militant", 14.42550277709961, 1.0500010251998901, 13.384716987609863) -- 3
+
+-- [ Wave 7 ] --
+TDS:Place("Militant", 1.648019790649414, 1.000016450881958, 11.911062240600586) -- 4
+TDS:Place("Militant", 1.9252967834472656, 1.000016450881958, 5.66877555847168) -- 5
+
+-- [ Wave 9 ] --
+TDS:Place("Militant", 8.145744323730469, 1.000016450881958, -0.9213542938232422) -- 6
+
+-- [ Wave 10 ] --
+TDS:Place("Militant", 15.574972152709961, 1.0500010251998901, 2.803499221801758) -- 7
+TDS:Place("Militant", 23.56561279296875, 1.0500010251998901, 7.223409652709961) -- 8
+TDS:Place("Militant", 3.9910144805908203, 1.000016450881958, 30.635984420776367) -- 9
+TDS:Place("Militant", -24.662124633789062, 1.000016450881958, 6.371297836303711) -- 10
+
+-- [[ END OF STRATEGY ]]

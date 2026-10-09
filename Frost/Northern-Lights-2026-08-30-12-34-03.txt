@@ -1,0 +1,440 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoChain = true -- Enables automatic commander chain logic if used by the script
+_G.SupportCaravan = false -- Automatically uses Support Caravan ability
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Assassin", "Crook Boss", "Commander", "DJ Booth", "Turret")
+TDS:Mode("Frost")
+TDS:GameInfo("Northern Lights", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Ready()
+TDS:Place("Assassin", -13.41, 2.39, 1.25) -- 1
+TDS:Place("Assassin", -19.09, 2.42, 1.33) -- 2
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Assassin", -13.75, 2.50, 3.25) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Place("Assassin", -19.26, 2.48, 3.36) -- 4
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Place("Assassin", -19.24, 2.41, -4.20) -- 5
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+TDS:Place("Assassin", -13.77, 2.41, -4.14) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Place("Crook Boss", -11.22, 2.36, -4.01) -- 7
+
+-- [ Wave 11 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Place("Crook Boss", -7.91, 2.13, -4.57) -- 8
+
+-- [ Wave 13 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(8)
+TDS:Place("Crook Boss", -7.60, 2.03, -7.61) -- 9
+
+-- [ Wave 15 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 16 ] --
+TDS:Place("Crook Boss", -10.78, 2.20, -7.26) -- 10
+TDS:Upgrade(10)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(10)
+TDS:Place("Commander", -10.77, 2.41, 1.28) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 20 ] --
+TDS:Place("Commander", -7.72, 2.30, 1.41) -- 12
+TDS:Upgrade(12)
+TDS:Ability(11, "Call Of Arms")
+TDS:Upgrade(12)
+TDS:Place("DJ Booth", -3.57, 2.13, 1.50) -- 13
+TDS:Upgrade(13)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(13)
+TDS:SetOption(13, "Track", "Green")
+TDS:Ability(11, "Call Of Arms")
+TDS:Upgrade(13)
+TDS:Ability(13, "Drop The Beat")
+TDS:Place("Crook Boss", -8.15, 1.87, -10.64) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(1)
+TDS:Ability(11, "Call Of Arms")
+TDS:Ability(13, "Drop The Beat")
+
+-- [ Wave 23 ] --
+TDS:Place("Turret", -1.91, 1.90, -7.86) -- 15
+TDS:Upgrade(15)
+TDS:Ability(13, "Drop The Beat")
+TDS:Ability(11, "Call Of Arms")
+
+-- [ Wave 24 ] --
+TDS:Upgrade(15)
+TDS:Place("Turret", -2.00, 2.08, -3.59) -- 16
+TDS:Upgrade(16)
+
+-- [ Wave 25 ] --
+TDS:Ability(11, "Call Of Arms")
+TDS:Ability(13, "Drop The Beat")
+TDS:Upgrade(16)
+TDS:Place("Turret", 0.55, 2.02, -0.45) -- 17
+TDS:Ability(12, "Call Of Arms")
+TDS:Ability(13, "Drop The Beat")
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 26 ] --
+TDS:Ability(11, "Call Of Arms")
+TDS:Ability(13, "Drop The Beat")
+TDS:Upgrade(8)
+
+-- [ Wave 27 ] --
+TDS:Ability(13, "Drop The Beat")
+TDS:Ability(11, "Call Of Arms")
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+
+-- [ Wave 28 ] --
+TDS:Ability(13, "Drop The Beat")
+TDS:Ability(11, "Call Of Arms")
+TDS:SetOption(13, "Track", "Red")
+TDS:Upgrade(5)
+TDS:Ability(13, "Drop The Beat")
+TDS:Ability(12, "Call Of Arms")
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:SetOption(13, "Track", "Green")
+
+-- [ Wave 29 ] --
+TDS:Place("Assassin", -21.36, 2.27, -4.22) -- 18
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Assassin", -13.75, 2.31, -6.26) -- 19
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Assassin", -11.71, 2.55, 3.61) -- 20
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Assassin", -13.65, 2.64, 5.40) -- 21
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Ability(13, "Drop The Beat")
+TDS:Ability(11, "Call Of Arms")
+TDS:Upgrade(21)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(10)
+TDS:Ability(12, "Call Of Arms")
+TDS:Upgrade(9)
+TDS:Ability(13, "Drop The Beat")
+TDS:Ability(11, "Call Of Arms")
+
+-- [ Wave 31 ] --
+TDS:Ability(12, "Call Of Arms")
+TDS:Upgrade(14)
+TDS:Ability(13, "Drop The Beat")
+TDS:Upgrade(13)
+TDS:Ability(11, "Call Of Arms")
+
+-- [ Wave 32 ] --
+TDS:Upgrade(13)
+TDS:Ability(13, "Drop The Beat")
+TDS:Place("Commander", -11.16, 2.08, -10.42) -- 22
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Ability(22, "Call Of Arms")
+TDS:Ability(22, "Support Caravan")
+TDS:Ability(13, "Drop The Beat")
+TDS:Ability(11, "Call Of Arms")
+
+-- [ Wave 33 ] --
+TDS:Ability(22, "Call Of Arms")
+TDS:Upgrade(8)
+TDS:Ability(12, "Call Of Arms")
+TDS:Ability(13, "Drop The Beat")
+TDS:SetOption(13, "Track", "Red")
+TDS:Ability(11, "Call Of Arms")
+TDS:Ability(22, "Support Caravan")
+TDS:Ability(22, "Call Of Arms")
+TDS:Ability(13, "Drop The Beat")
+TDS:Upgrade(7)
+TDS:Ability(11, "Call Of Arms")
+TDS:SetOption(13, "Track", "Green")
+TDS:Ability(13, "Drop The Beat")
+
+-- [ Wave 34 ] --
+TDS:Ability(22, "Call Of Arms")
+TDS:Ability(22, "Support Caravan")
+TDS:Upgrade(9)
+TDS:Place("Assassin", -19.18, 2.16, -6.37) -- 23
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Place("Assassin", -21.50, 2.10, -6.55) -- 24
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Place("Assassin", -21.24, 2.32, 1.23) -- 25
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Place("Assassin", -23.42, 2.23, 1.25) -- 26
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Place("Assassin", -21.33, 2.51, 3.31) -- 27
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Ability(13, "Drop The Beat")
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Place("Assassin", -19.21, 2.78, 5.41) -- 28
+
+-- [ Wave 35 ] --
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Ability(22, "Call Of Arms")
+TDS:Upgrade(28)
+TDS:SetOption(13, "Track", "Red")
+TDS:Upgrade(28)
+TDS:Place("Assassin", -13.55, 2.91, 7.43) -- 29
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Ability(11, "Call Of Arms")
+TDS:Ability(13, "Drop The Beat")
+TDS:Place("Assassin", -13.68, 2.17, -8.31) -- 30
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(14)
+TDS:SetOption(13, "Track", "Green")
+
+-- [ Wave 36 ] --
+TDS:Ability(22, "Call Of Arms")
+TDS:Ability(13, "Drop The Beat")
+TDS:Upgrade(10)
+TDS:Place("Assassin", -13.69, 2.10, -10.58) -- 31
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Ability(12, "Call Of Arms")
+TDS:Ability(22, "Support Caravan")
+TDS:Ability(13, "Drop The Beat")
+TDS:Ability(22, "Call Of Arms")
+TDS:Ability(11, "Call Of Arms")
+
+-- [ Wave 37 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:SetOption(13, "Track", "Red")
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Ability(13, "Drop The Beat")
+TDS:Ability(22, "Call Of Arms")
+TDS:Ability(11, "Support Caravan")
+TDS:Upgrade(15)
+TDS:Ability(12, "Call Of Arms")
+TDS:Ability(22, "Support Caravan")
+TDS:Upgrade(16)
+TDS:Ability(11, "Call Of Arms")
+TDS:Ability(13, "Drop The Beat")
+TDS:Ability(12, "Support Caravan")
+TDS:Ability(22, "Call Of Arms")
+TDS:Ability(12, "Call Of Arms")
+TDS:Upgrade(17)
+
+-- [ Wave 38 ] --
+TDS:Ability(13, "Drop The Beat")
+TDS:SetOption(13, "Track", "Green")
+TDS:Ability(11, "Call Of Arms")
+TDS:Ability(22, "Call Of Arms")
+TDS:Ability(22, "Support Caravan")
+TDS:Upgrade(15)
+TDS:Ability(13, "Drop The Beat")
+TDS:Ability(11, "Support Caravan")
+TDS:Ability(12, "Support Caravan")
+TDS:Ability(11, "Call Of Arms")
+TDS:Ability(22, "Call Of Arms")
+
+-- [ Wave 39 ] --
+TDS:Ability(13, "Drop The Beat")
+TDS:Ability(12, "Call Of Arms")
+TDS:Upgrade(17)
+TDS:Ability(22, "Support Caravan")
+TDS:Ability(22, "Call Of Arms")
+TDS:Ability(13, "Drop The Beat")
+TDS:Ability(11, "Call Of Arms")
+TDS:Upgrade(15)
+TDS:Ability(11, "Support Caravan")
+TDS:Ability(12, "Call Of Arms")
+TDS:Ability(13, "Drop The Beat")
+TDS:Upgrade(16)
+
+-- [ Wave 40 ] --
+TDS:SetOption(13, "Track", "Red")
+TDS:Place("Assassin", 4.93, 1.58, -11.82) -- 32
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Place("Assassin", 2.81, 1.70, -11.85) -- 33
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Ability(22, "Call Of Arms")
+TDS:Ability(12, "Support Caravan")
+TDS:Place("Assassin", 0.68, 1.82, -11.87) -- 34
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Place("Assassin", -1.38, 1.98, -11.87) -- 35
+TDS:Upgrade(35)
+TDS:Upgrade(35)
+TDS:Upgrade(35)
+TDS:Upgrade(35)
+TDS:Ability(12, "Call Of Arms")
+TDS:Ability(13, "Drop The Beat")
+TDS:Place("Assassin", 4.87, 1.56, -9.73) -- 36
+TDS:Upgrade(36)
+TDS:Upgrade(36)
+TDS:Upgrade(36)
+TDS:Upgrade(36)
+TDS:Place("Assassin", 2.85, 1.64, -9.68) -- 37
+TDS:Upgrade(37)
+TDS:Upgrade(37)
+TDS:Upgrade(37)
+TDS:Upgrade(37)
+TDS:Place("Assassin", 0.71, 1.74, -9.84) -- 38
+TDS:Upgrade(38)
+TDS:Upgrade(38)
+TDS:Upgrade(38)
+TDS:Upgrade(38)
+TDS:Place("Assassin", 4.77, 1.61, -17.08) -- 39
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Place("Assassin", -7.44, 2.08, -13.05) -- 40
+TDS:Upgrade(40)
+TDS:Upgrade(40)
+TDS:Upgrade(40)
+TDS:Upgrade(40)
+TDS:Ability(22, "Call Of Arms")
+TDS:Ability(22, "Support Caravan")
+TDS:Ability(11, "Support Caravan")
+TDS:Ability(11, "Call Of Arms")
+TDS:Ability(13, "Drop The Beat")
+TDS:Ability(12, "Call Of Arms")
+TDS:Ability(12, "Support Caravan")
+TDS:Ability(22, "Call Of Arms")
+TDS:Ability(13, "Drop The Beat")
+TDS:Ability(11, "Call Of Arms")
+TDS:Ability(12, "Call Of Arms")
+TDS:Ability(22, "Support Caravan")
+TDS:Ability(22, "Call Of Arms")
+TDS:Ability(11, "Support Caravan")
+TDS:Ability(13, "Drop The Beat")
+TDS:Ability(11, "Call Of Arms")
+TDS:Ability(12, "Support Caravan")
+TDS:Ability(12, "Call Of Arms")
+TDS:Ability(13, "Drop The Beat")
+TDS:Ability(22, "Call Of Arms")
+TDS:Ability(11, "Call Of Arms")
+TDS:Sell(26)
+TDS:Sell(25)
+TDS:Sell(27)
+TDS:Sell(2)
+TDS:Sell(4)
+TDS:Sell(28)
+TDS:Ability(12, "Call Of Arms")
+TDS:Ability(22, "Support Caravan")
+TDS:Ability(11, "Support Caravan")
+TDS:Ability(13, "Drop The Beat")
+
+-- [[ END OF STRATEGY ]]

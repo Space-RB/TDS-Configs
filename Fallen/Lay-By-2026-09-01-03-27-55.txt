@@ -1,0 +1,76 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Minigunner", "Farm", "Gatling Gun", "Soldier", "Trapper")
+TDS:Mode("Fallen")
+TDS:GameInfo("Lay By", {"Glass", "ExplodingEnemies"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Trapper", 4.104488372802734, 242.99996948242188, 235.2476348876953) -- 1
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", 4.1216278076171875, 242.99998474121094, 231.96221923828125) -- 2
+TDS:Place("Farm", 11.637803077697754, 243.03018188476562, 241.23150634765625) -- 3
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", 15.417878150939941, 243.03016662597656, 240.8682861328125) -- 4
+TDS:Place("Farm", 19.604263305664062, 243.00790405273438, 240.68496704101562) -- 5
+TDS:Place("Farm", 23.52556610107422, 243.03018188476562, 240.52053833007812) -- 6
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", 27.5523738861084, 243.03018188476562, 240.52786254882812) -- 7
+TDS:Place("Farm", 31.55483055114746, 243.03018188476562, 240.6965789794922) -- 8
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+TDS:Place("Farm", 12.090165138244629, 243.03018188476562, 237.37081909179688) -- 9
+TDS:Place("Farm", 16.211284637451172, 243.03018188476562, 236.62210083007812) -- 10
+TDS:Place("Farm", 20.22138023376465, 243.03018188476562, 237.03294372558594) -- 11
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", 23.85365867614746, 243.03018188476562, 236.8821258544922) -- 12
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Upgrade(11)
+TDS:Upgrade(6)
+TDS:Upgrade(12)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(4)
+TDS:Place("Trapper", -3.5437164306640625, 242.99996948242188, 234.9161834716797) -- 13
+
+-- [ Wave 8 ] --
+TDS:Place("Trapper", 3.4180068969726562, 242.99998474121094, 228.58700561523438) -- 14
+TDS:Place("Trapper", -3.0288639068603516, 242.99998474121094, 227.2865753173828) -- 15
+TDS:Upgrade(13)
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]

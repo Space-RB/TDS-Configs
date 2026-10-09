@@ -1,0 +1,315 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("EvolvedOperator", "EvolvedEnforcer", "EvolvedKingpin", "EvolvedJuggernaut", "Hacker")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {"Limitation", "Glass", "Committed", "ExplodingEnemies"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("EvolvedOperator", -15.459614753723145, 0.9999901652336121, -8.891862869262695) -- 1
+TDS:Upgrade(1)
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Place("EvolvedOperator", -12.903568267822266, 0.9999834895133972, -8.87431812286377) -- 2
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("EvolvedOperator", -15.59636402130127, 0.9999938011169434, -11.418067932128906) -- 3
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Place("EvolvedOperator", -13.000421524047852, 0.9999892115592957, -11.433001518249512) -- 4
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Place("EvolvedOperator", -13.0322904586792, 0.9999925494194031, -13.945230484008789) -- 5
+
+-- [ Wave 7 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("EvolvedOperator", -15.6168851852417, 0.9999971985816956, -13.991443634033203) -- 6
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Hacker", -10.140606880187988, 0.9999873638153076, -8.847561836242676) -- 7
+TDS:Upgrade(7)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Place("EvolvedEnforcer", -12.280745506286621, 1.0000005960464478, -3.3082590103149414) -- 8
+
+-- [ Wave 11 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Place("EvolvedEnforcer", -12.267050743103027, 1.000000238418579, -1.284398078918457) -- 9
+TDS:Upgrade(9)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 14 ] --
+TDS:Place("EvolvedEnforcer", -10.490785598754883, 0.9999831914901733, -2.3390207290649414) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 15 ] --
+TDS:Place("EvolvedEnforcer", -8.761026382446289, 1.000000238418579, -1.1415910720825195) -- 11
+TDS:Upgrade(11)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(11)
+TDS:Place("EvolvedEnforcer", -8.653707504272461, 1.0000005960464478, -3.1864166259765625) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 17 ] --
+TDS:Place("EvolvedKingpin", -6.146471977233887, 0.9999879598617554, -3.3863110542297363) -- 13
+TDS:Upgrade(13)
+TDS:SetOption(13, "Unit 1", "Money Runner")
+TDS:Upgrade(13)
+
+-- [ Wave 18 ] --
+TDS:SetOption(13, "Unit 2", "Money Runner")
+TDS:Upgrade(13)
+TDS:Place("EvolvedKingpin", -3.117208957672119, 0.9999917149543762, -3.4571032524108887) -- 14
+
+-- [ Wave 19 ] --
+TDS:Upgrade(14)
+TDS:SetOption(14, "Unit 1", "Money Runner")
+TDS:Upgrade(14)
+TDS:SetOption(14, "Unit 2", "Money Runner")
+TDS:Upgrade(14)
+
+-- [ Wave 20 ] --
+TDS:Place("EvolvedKingpin", -2.5592987537384033, 0.9999831914901733, 2.343686103820801) -- 15
+TDS:Upgrade(15)
+TDS:SetOption(15, "Unit 1", "Money Runner")
+TDS:Upgrade(15)
+TDS:SetOption(15, "Unit 2", "Money Runner")
+TDS:Upgrade(15)
+TDS:Place("EvolvedKingpin", 0.43942728638648987, 0.9999831914901733, 2.2258403301239014) -- 16
+
+-- [ Wave 21 ] --
+TDS:SetOption(16, "Unit 1", "Money Runner")
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:SetOption(16, "Unit 2", "Money Runner")
+TDS:Upgrade(16)
+
+-- [ Wave 22 ] --
+TDS:Place("Hacker", 0.041224002838134766, 0.9999831914901733, -3.495758533477783) -- 17
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8, 2)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(9, 2)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10, 2)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12, 2)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11, 2)
+
+-- [ Wave 28 ] --
+TDS:Place("EvolvedJuggernaut", -7.763856887817383, 0.9999997019767761, 2.2729310989379883) -- 18
+TDS:Upgrade(18)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 30 ] --
+TDS:SetOption(13, "Unit 1", "Lackey")
+TDS:SetOption(13, "Unit 2", "Lackey")
+TDS:SetOption(14, "Unit 1", "Lackey")
+TDS:SetOption(14, "Unit 2", "Lackey")
+TDS:SetOption(15, "Unit 2", "Lackey")
+TDS:SetOption(15, "Unit 1", "Lackey")
+TDS:SetOption(16, "Unit 1", "Lackey")
+TDS:SetOption(16, "Unit 2", "Lackey")
+TDS:Upgrade(18)
+TDS:Upgrade(13, 2)
+TDS:Upgrade(13, 2)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(14, 2)
+TDS:Upgrade(14, 2)
+TDS:Upgrade(15, 2)
+TDS:Upgrade(15, 2)
+
+-- [ Wave 32 ] --
+TDS:Ability(12, "SWAT Van")
+TDS:Ability(11, "SWAT Van")
+TDS:Ability(10, "SWAT Van")
+TDS:Ability(8, "SWAT Van")
+TDS:Ability(9, "SWAT Van")
+TDS:Upgrade(16, 2)
+TDS:Upgrade(16, 2)
+TDS:Upgrade(7)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(17)
+
+-- [ Wave 36 ] --
+TDS:Ability(12, "SWAT Van")
+TDS:Ability(11, "SWAT Van")
+TDS:Ability(10, "SWAT Van")
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(8, 2)
+TDS:Upgrade(8, 2)
+TDS:Upgrade(12, 2)
+TDS:Upgrade(12, 2)
+TDS:Upgrade(10, 2)
+TDS:Upgrade(9, 2)
+TDS:Upgrade(9, 2)
+TDS:Upgrade(11, 2)
+TDS:Upgrade(11, 2)
+
+-- [ Wave 38 ] --
+TDS:Upgrade(13, 2)
+TDS:Upgrade(14, 2)
+TDS:Upgrade(15, 2)
+TDS:Upgrade(16, 2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 39 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("EvolvedOperator", 3.514719009399414, 0.9999831914901733, -3.4476187229156494) -- 19
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("EvolvedOperator", 14.240761756896973, 0.9999816417694092, 9.4646577835083) -- 20
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [ Wave 40 ] --
+TDS:Upgrade(18)
+TDS:Place("EvolvedOperator", -17.975040435791016, 0.9999880194664001, -8.875246047973633) -- 21
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Place("EvolvedOperator", -18.1473331451416, 0.9999912977218628, -11.372300148010254) -- 22
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Place("EvolvedOperator", -18.218229293823242, 0.9999921321868896, -14.004375457763672) -- 23
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Place("EvolvedOperator", -20.537296295166016, 0.9999845027923584, -12.111043930053711) -- 24
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Place("EvolvedOperator", -20.71758460998535, 1.0000025033950806, -14.641023635864258) -- 25
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Ability(12, "SWAT Van")
+TDS:Ability(11, "SWAT Van")
+TDS:Ability(10, "SWAT Van")
+TDS:Ability(8, "SWAT Van")
+TDS:Ability(9, "SWAT Van")
+
+-- [[ END OF STRATEGY ]]

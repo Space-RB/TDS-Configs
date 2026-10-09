@@ -1,0 +1,152 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Brawler", "Hacker", "Gatling Gun", "EvolvedJuggernaut", "DJ Booth")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {"ExplodingEnemies"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Brawler", -17.726604461669922, 0.9999834895133972, -5.967277526855469) -- 1
+TDS:Place("Brawler", -18.681217193603516, 0.9999834895133972, -7.79463529586792) -- 2
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", -18.696571350097656, 0.9999882578849792, -9.853891372680664) -- 3
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:VoteSkip(3)
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:VoteSkip(5)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Place("DJ Booth", -8.301024436950684, 0.9999871850013733, -9.058101654052734) -- 4
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+TDS:VoteSkip(9)
+
+-- [ Wave 10 ] --
+TDS:Place("Hacker", -11.204814910888672, 0.9999828934669495, -11.884504318237305) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Place("Gatling Gun", -2.548516273498535, 0.9999831914901733, 2.239826202392578) -- 6
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 17 ] --
+TDS:Place("Brawler", -18.584110260009766, 1.0000007152557373, -4.1508331298828125) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:SetOption(4, "Track", "Green")
+TDS:Upgrade(4)
+TDS:Ability(4, "Drop The Beat")
+
+-- [ Wave 18 ] --
+TDS:Place("Brawler", -17.93344497680664, 1.0000004768371582, -2.2329049110412598) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Brawler", -16.868188858032227, 0.9999889731407166, -8.935403823852539) -- 9
+
+-- [ Wave 19 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Brawler", -12.25731086730957, 1.0000005960464478, -3.297898769378662) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 20 ] --
+TDS:Place("Brawler", -12.514780044555664, 1.000000238418579, -1.2999210357666016) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Brawler", -10.30310344696045, 0.9999831914901733, -3.7524993419647217) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:VoteSkip(20)
+TDS:Upgrade(12)
+TDS:Place("Brawler", -10.538176536560059, 0.9999831914901733, -1.7051491737365723) -- 13
+
+-- [ Wave 21 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Ability(4, "Drop The Beat")
+TDS:VoteSkip(21)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(6)
+TDS:Ability(4, "Drop The Beat")
+
+-- [ Wave 23 ] --
+TDS:SetOption(4, "Track", "Red")
+TDS:VoteSkip(23)
+
+-- [ Wave 24 ] --
+TDS:VoteSkip(24)
+TDS:Upgrade(6)
+
+-- [ Wave 25 ] --
+TDS:Ability(4, "Drop The Beat")
+TDS:Place("EvolvedJuggernaut", 2.027146339416504, 0.9999831914901733, 2.4456281661987305) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:SetOption(4, "Track", "Green")
+
+-- [ Wave 26 ] --
+TDS:Ability(4, "Drop The Beat")
+TDS:Upgrade(4)
+TDS:Upgrade(14)
+
+-- [ Wave 28 ] --
+TDS:Ability(4, "Drop The Beat")
+TDS:Upgrade(14, 2)
+
+-- [[ END OF STRATEGY ]]

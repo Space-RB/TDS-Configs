@@ -1,0 +1,143 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Minigunner", "Scout", "Hunter", "Farm", "None")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Farm", -32.701812744140625, 0.5311464667320251, 34.496280670166016) -- 1
+TDS:Upgrade(1)
+TDS:Place("Farm", -33.95842742919922, 0.13803255558013916, 30.81293487548828) -- 2
+TDS:Upgrade(2)
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", -29.208965301513672, 1.0722801685333252, 34.48610305786133) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Place("Farm", -25.41788101196289, 1.2273973226547241, 34.592018127441406) -- 4
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Place("Farm", -30.089801788330078, 0.7902885675430298, 31.106874465942383) -- 5
+TDS:Upgrade(5)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Place("Scout", 1.3379554748535156, 1.4478609561920166, 32.27153015136719, true) -- 6
+TDS:Place("Scout", 0.4161761999130249, 5.482053279876709, 33.666805267333984, true) -- 7
+
+-- [ Wave 6 ] --
+TDS:Place("Scout", 0.633549153804779, 4.564691543579102, 31.88768196105957, true) -- 8
+TDS:Place("Scout", 0.9279505610466003, 4.605538368225098, 31.901094436645508, true) -- 9
+TDS:Place("Scout", 1.536421298980713, 1.4406272172927856, 30.210058212280273, true) -- 10
+TDS:Place("Scout", 1.9002842903137207, 3.2477574348449707, 31.52261734008789, true) -- 11
+TDS:Place("Scout", 1.1689788103103638, 6.943237781524658, 33.207611083984375, true) -- 12
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Farm", -26.1431884765625, 1.41362726688385, 30.905029296875) -- 13
+TDS:Upgrade(13)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(13)
+TDS:Place("Farm", -22.292116165161133, 1.4049633741378784, 30.73402214050293) -- 14
+
+-- [ Wave 9 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(10)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(10)
+TDS:Place("Farm", -21.73428726196289, 1.3664275407791138, 34.58129119873047) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 14 ] --
+TDS:Place("Hunter", 6.432822227478027, 1.3897831439971924, 28.118677139282227) -- 16
+TDS:Place("Hunter", 3.4073338508605957, 1.4180355072021484, 27.83472442626953) -- 17
+TDS:Place("Hunter", 6.342995643615723, 1.3787243366241455, 31.157306671142578) -- 18
+
+-- [ Wave 15 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Farm", -22.061311721801758, 1.2205040454864502, 38.13188934326172) -- 19
+TDS:Upgrade(19)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Farm", -26.343994140625, 1.0464354753494263, 38.54185485839844) -- 20
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Hunter", 11.821330070495605, 1.2151496410369873, 29.307844161987305) -- 21
+
+-- [ Wave 17 ] --
+TDS:Place("Hunter", 11.940884590148926, 1.266428828239441, 26.20335578918457) -- 22
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(12)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(12)
+
+-- [[ END OF STRATEGY ]]

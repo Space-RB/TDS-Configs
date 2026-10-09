@@ -1,0 +1,154 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("EvolvedOperator", "EvolvedKingpin", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Mason Arch", {"HiddenEnemies", "Glass"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("EvolvedOperator", -2.1241893768310547, 1.0806553363800049, 58.83232116699219) -- 1
+TDS:Place("EvolvedOperator", 2.404632091522217, 1.0806553363800049, 58.87171173095703) -- 2
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", -2.5737249851226807, 1.0806553363800049, 61.44384765625) -- 3
+
+-- [ Wave 2 ] --
+TDS:Place("EvolvedOperator", 2.252645254135132, 1.0806553363800049, 61.60384750366211) -- 4
+
+-- [ Wave 3 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("EvolvedOperator", -4.680339336395264, 1.0806553363800049, 59.813751220703125) -- 5
+TDS:Upgrade(5)
+TDS:Place("EvolvedOperator", 4.938695907592773, 1.0806553363800049, 58.96076202392578) -- 6
+TDS:Upgrade(6)
+TDS:Place("EvolvedOperator", 4.75663423538208, 1.0806553363800049, 61.47523498535156) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 8 ] --
+TDS:Place("EvolvedOperator", -5.3473076820373535, 1.0806553363800049, 62.25849151611328) -- 8
+TDS:Upgrade(8)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(8)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Upgrade(6)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(7)
+TDS:Place("EvolvedOperator", -12.025757789611816, 1.3999662399291992, 59.21171188354492) -- 9
+TDS:Upgrade(9)
+TDS:Place("EvolvedOperator", -12.494123458862305, 1.3999643325805664, 62.040550231933594) -- 10
+
+-- [ Wave 13 ] --
+TDS:Upgrade(10)
+TDS:Place("EvolvedOperator", 12.09951114654541, 1.3999652862548828, 60.51213073730469) -- 11
+TDS:Upgrade(11)
+TDS:Place("EvolvedOperator", 12, 1.399963617324829, 63.195030212402344) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("EvolvedOperator", 6.5918731689453125, 1.3999825716018677, 63.88441848754883) -- 13
+
+-- [ Wave 18 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("EvolvedOperator", -12.824111938476562, 1.3999677896499634, 56.821067810058594) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("EvolvedOperator", 12.14377212524414, 1.399967074394226, 57.786659240722656) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 19 ] --
+TDS:Place("EvolvedOperator", -12.381093978881836, 1.3999693393707275, 54.28581237792969) -- 16
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 20 ] --
+TDS:Place("EvolvedKingpin", 6.80659294128418, 1.3999813795089722, 53.78154373168945) -- 17
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [[ END OF STRATEGY ]]

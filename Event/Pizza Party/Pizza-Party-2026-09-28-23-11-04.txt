@@ -1,0 +1,71 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Brawler", "Trapper", "None", "None", "None")
+TDS:Mode("PizzaParty")
+TDS:GameInfo("Pizza Party", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Brawler", 4.734882354736328, 0.9999337196350098, -36.62974166870117) -- 1
+TDS:Place("Brawler", -1.2243530750274658, 0.9999328851699829, -36.51298141479492) -- 2
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", 4.513496398925781, 1.0368709564208984, -34.02382278442383) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Place("Trapper", 5.10835075378418, 1.0368709564208984, -31.035829544067383) -- 4
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Place("Trapper", -1.2590352296829224, 1.0368709564208984, -33.849273681640625) -- 5
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Place("Trapper", -0.8878397941589355, 1.0368709564208984, -30.356525421142578) -- 6
+TDS:Upgrade(6)
+
+-- [ Wave 7 ] --
+TDS:Place("Trapper", 7.122491836547852, 1.0368709564208984, -35.78297424316406) -- 7
+TDS:Upgrade(7)
+
+-- [ Wave 8 ] --
+TDS:Place("Trapper", 8.213971138000488, 1.0368709564208984, -30.028480529785156) -- 8
+TDS:Upgrade(8)
+TDS:Place("Trapper", -0.6862132549285889, 1.0368709564208984, -26.843421936035156) -- 9
+
+-- [ Wave 9 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]

@@ -1,0 +1,252 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Gatling Gun", "EvolvedOperator", "EvolvedEnforcer", "DJ Booth", "Trapper")
+TDS:Mode("Molten")
+TDS:GameInfo("Lay By", {"Broke", "Fog"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Trapper", -2.81, 243.00, 234.62) -- 1
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:VoteSkip(2)
+TDS:Place("Trapper", -2.96, 243.00, 228.60) -- 2
+
+-- [ Wave 3 ] --
+TDS:VoteSkip(3)
+TDS:Place("Trapper", -2.98, 243.00, 223.94) -- 3
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:VoteSkip(5)
+TDS:Place("Trapper", 3.14, 243.00, 235.21) -- 4
+
+-- [ Wave 6 ] --
+TDS:Place("Trapper", 3.17, 243.00, 230.29) -- 5
+TDS:VoteSkip(6)
+TDS:Place("Trapper", -3.28, 243.09, 220.84) -- 6
+
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+
+-- [ Wave 9 ] --
+TDS:VoteSkip(9)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+game:GetService("ReplicatedStorage").Network.fflags["RE:ask"]:FireServer("consumables.disabled")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Equip", "Santa’s Air Strike", "92C0065C-DB42-49C2-A22B-E7CA0FB570D4")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Consume", "Santa’s Air Strike", {direction = Vector3.new(-0.7420046925544739, -0.6030150055885315, -0.2929198145866394), position = Vector3.new(0.29258155822753906, 243.16543579101562, 169.690185546875)})
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Unequip", "92C0065C-DB42-49C2-A22B-E7CA0FB570D4")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Equip", "Molten Monster", "60420DF0-F17A-419B-AC19-0BD0E6B44B2A")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Consume", "Molten Monster", {})
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Unequip", "60420DF0-F17A-419B-AC19-0BD0E6B44B2A")
+TDS:VoteSkip(10)
+
+-- [ Wave 11 ] --
+TDS:VoteSkip(11)
+
+-- [ Wave 13 ] --
+TDS:Place("Gatling Gun", -6.43, 245.87, 172.04) -- 7
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Place("DJ Booth", -8.47, 243.00, 175.82) -- 8
+TDS:Upgrade(8)
+TDS:SetOption(8, "Track", "Green")
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(8)
+TDS:Ability(8, "Drop The Beat")
+
+-- [ Wave 17 ] --
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(7)
+
+-- [ Wave 18 ] --
+TDS:Ability(8, "Drop The Beat")
+
+-- [ Wave 19 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:SetOption(1, "Trap", "Landmine")
+TDS:SetOption(2, "Trap", "Landmine")
+TDS:SetOption(3, "Trap", "Landmine")
+TDS:Upgrade(4)
+TDS:SetOption(4, "Trap", "Landmine")
+
+-- [ Wave 22 ] --
+TDS:Upgrade(7)
+TDS:Ability(8, "Drop The Beat")
+
+-- [ Wave 25 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 26 ] --
+TDS:Place("EvolvedEnforcer", -3.18, 243.00, 276.21) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("EvolvedEnforcer", -3.34, 243.00, 274.06) -- 10
+TDS:Upgrade(10)
+TDS:VoteSkip(26)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(9, 2)
+TDS:Ability(9, "SWAT Van")
+
+-- [ Wave 28 ] --
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(10)
+TDS:Place("EvolvedOperator", -3.63, 243.00, 284.06) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 29 ] --
+TDS:Place("EvolvedOperator", -3.63, 243.00, 281.52) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("EvolvedOperator", -6.00, 243.00, 282.73) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("EvolvedOperator", -5.80, 243.00, 279.97) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("EvolvedOperator", -8.61, 243.00, 280.47) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("EvolvedOperator", -7.63, 243.00, 277.92) -- 16
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("EvolvedOperator", -5.04, 243.00, 277.58) -- 17
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("EvolvedOperator", -10.21, 243.00, 278.41) -- 18
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 30 ] --
+TDS:Ability(9, "SWAT Van")
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(10)
+TDS:Ability(8, "Drop The Beat")
+TDS:Ability(9, "SWAT Van")
+
+-- [ Wave 31 ] --
+TDS:Ability(8, "Drop The Beat")
+TDS:Upgrade(7)
+
+-- [ Wave 32 ] --
+TDS:Place("EvolvedEnforcer", 2.97, 243.00, 275.94) -- 19
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19, 2)
+TDS:Place("EvolvedEnforcer", 2.71, 243.00, 273.73) -- 20
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [ Wave 33 ] --
+TDS:Ability(8, "Drop The Beat")
+TDS:Ability(19, "SWAT Van")
+TDS:Ability(9, "SWAT Van")
+TDS:Upgrade(8)
+TDS:VoteSkip(33)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(7)
+TDS:Ability(8, "Drop The Beat")
+TDS:Ability(19, "SWAT Van")
+TDS:Ability(9, "SWAT Van")
+TDS:SetOption(8, "Track", "Red")
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 35 ] --
+TDS:SetOption(1, "Trap", "Bear Traps")
+TDS:SetOption(4, "Trap", "Bear Traps")
+TDS:SetOption(2, "Trap", "Bear Traps")
+TDS:Upgrade(5)
+TDS:SetOption(5, "Trap", "Bear Traps")
+TDS:Upgrade(3)
+TDS:SetOption(3, "Trap", "Bear Traps")
+TDS:Upgrade(6)
+TDS:SetOption(6, "Trap", "Bear Traps")
+TDS:Place("EvolvedEnforcer", -3.44, 243.00, 267.71) -- 21
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Ability(19, "SWAT Van")
+TDS:Ability(9, "SWAT Van")
+TDS:Ability(8, "Drop The Beat")
+
+-- [[ END OF STRATEGY ]]

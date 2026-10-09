@@ -1,0 +1,116 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Soldier", "None", "None", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Abandoned City", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 1 ] --
+TDS:Place("Soldier", -12.259859085083008, 3.535726547241211, -3.631856918334961) -- 1
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", -7.970619201660156, 3.535726547241211, -3.715163469314575) -- 2
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Soldier", -15.996097564697266, 3.535726547241211, -3.6046102046966553) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Soldier", -8.094236373901367, 3.499995708465576, -6.823835372924805) -- 4
+TDS:Upgrade(4)
+TDS:Place("Soldier", -11.973489761352539, 3.499995708465576, -6.996191024780273) -- 5
+TDS:Upgrade(5)
+
+-- [ Wave 5 ] --
+TDS:Place("Soldier", -16.08908462524414, 3.5208933353424072, -6.882662773132324) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Soldier", -8.352933883666992, 3.6184277534484863, -0.6558734178543091) -- 7
+TDS:Upgrade(7)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(7)
+TDS:Place("Soldier", -13.854825973510742, 3.601649522781372, -1.0415394306182861) -- 8
+TDS:Upgrade(8)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(8)
+TDS:Place("Soldier", -16.882482528686523, 3.648961067199707, -0.21205317974090576) -- 9
+TDS:Upgrade(9)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(9)
+TDS:Place("Soldier", -8.622020721435547, 3.609687089920044, 3.3881802558898926) -- 10
+TDS:Upgrade(10)
+TDS:Place("Soldier", -13.564935684204102, 3.595869541168213, 3.3631460666656494) -- 11
+TDS:Upgrade(11)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(11)
+TDS:Place("Soldier", -9.007278442382812, 3.5599987506866455, 6.76616096496582) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+TDS:Place("Soldier", -8.037851333618164, 3.499997615814209, -11.34701156616211) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Soldier", -7.854145050048828, 3.4999992847442627, -15.273605346679688) -- 14
+TDS:Upgrade(14)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+TDS:Place("Soldier", -0.5468959808349609, 3.5579311847686768, -7.921672821044922) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Soldier", -0.5328245162963867, 3.5579965114593506, -4.4148664474487305) -- 16
+
+-- [ Wave 14 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Soldier", -0.8049011826515198, 3.6102914810180664, -0.5868387222290039) -- 17
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Soldier", 2.6675939559936523, 3.5600011348724365, -7.491863250732422) -- 18
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Soldier", 2.845672607421875, 3.560000419616699, -4.156942367553711) -- 19
+
+-- [ Wave 15 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Soldier", 3.353757858276367, 3.5450000762939453, -0.7040247917175293) -- 20
+TDS:Upgrade(20)
+
+-- [[ END OF STRATEGY ]]

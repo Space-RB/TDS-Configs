@@ -1,0 +1,101 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AutoMercenary = true -- Automatically uses Mercenary Base ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Trapper", "DJ Booth", "Mercenary Base", "Gatling Gun", "Hacker")
+TDS:Mode("Fallen")
+TDS:GameInfo("Lay By", {"Broke"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Trapper", -2.89, 243.00, 225.86) -- 1
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Place("Trapper", -2.75, 243.11, 222.65) -- 2
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:SetOption(2, "Trap", "Landmine")
+
+-- [ Wave 8 ] --
+TDS:Place("Trapper", -2.67, 243.12, 219.59) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Place("Gatling Gun", -6.32, 245.87, 172.19) -- 4
+
+-- [ Wave 14 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 17 ] --
+TDS:Place("DJ Booth", -3.85, 243.00, 175.06) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:SetOption(5, "Track", "Green")
+
+-- [ Wave 18 ] --
+TDS:Ability(5, "Drop The Beat")
+
+-- [ Wave 20 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Ability(5, "Drop The Beat")
+
+-- [ Wave 21 ] --
+TDS:Ability(5, "Drop The Beat")
+
+-- [ Wave 23 ] --
+TDS:Ability(5, "Drop The Beat")
+TDS:Upgrade(5)
+
+-- [ Wave 26 ] --
+TDS:Ability(5, "Drop The Beat")
+TDS:Upgrade(4)
+
+-- [ Wave 27 ] --
+TDS:Ability(5, "Drop The Beat")
+TDS:Place("Hacker", -3.01, 243.00, 170.98) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Ability(6, "Hologram Tower")
+
+-- [ Wave 28 ] --
+TDS:Ability(6, "Hologram Tower")
+
+-- [[ END OF STRATEGY ]]

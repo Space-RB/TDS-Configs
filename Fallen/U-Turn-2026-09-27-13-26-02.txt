@@ -1,0 +1,46 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoChain = true -- Enables automatic commander chain logic if used by the script
+_G.SupportCaravan = false -- Automatically uses Support Caravan ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Pyromancer", "EvolvedEnforcer", "EvolvedJuggernaut", "Commander", "Farm")
+TDS:Mode("Fallen")
+TDS:GameInfo("U-Turn", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 11 ] --
+TDS:Place("Pyromancer", 14.829049110412598, 1.0000064373016357, 9.541046142578125) -- 1
+TDS:Place("Pyromancer", 12.311544418334961, 1.0000064373016357, 7.760753631591797, true) -- 2
+TDS:Place("Pyromancer", 12.542075157165527, 3.164637565612793, 7.554896354675293, true) -- 3
+TDS:Place("Pyromancer", 11.328788757324219, 3.280463457107544, 7.665590286254883, true) -- 4
+TDS:Place("Pyromancer", 11.363424301147461, 3.4774041175842285, 7.6630048751831055, true) -- 5
+
+-- [ Wave 12 ] --
+TDS:Place("Pyromancer", 14.278432846069336, 5.823421001434326, 6.219637393951416, true) -- 6
+TDS:Place("Pyromancer", 14.799641609191895, 3.9726672172546387, 9.94117546081543, true) -- 7
+TDS:Place("Pyromancer", 14.864177703857422, 3.464668035507202, 10.180074691772461, true) -- 8
+TDS:Place("Pyromancer", 14.850979804992676, 3.4564857482910156, 10.169149398803711, true) -- 9
+TDS:Place("Pyromancer", 14.85110855102539, 3.4557723999023438, 10.16950798034668, true) -- 10
+TDS:Place("Pyromancer", 14.850997924804688, 3.456753730773926, 10.169116020202637, true) -- 11
+TDS:Place("Pyromancer", 14.848784446716309, 3.472001075744629, 10.16209602355957, true) -- 12
+
+-- [[ END OF STRATEGY ]]

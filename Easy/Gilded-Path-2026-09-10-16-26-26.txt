@@ -1,0 +1,122 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Shotgunner", "Soldier", "EvolvedEnforcer", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Gilded Path", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Ready()
+TDS:Place("Soldier", -1.412203311920166, 0.9576274156570435, 14.333850860595703) -- 1
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", 1.5128989219665527, 0.9539985656738281, 15.032745361328125) -- 2
+TDS:Place("Soldier", -0.5669374465942383, 0.9631615877151489, 17.269168853759766) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Place("Shotgunner", -12.592451095581055, 1.0150076150894165, 25.946863174438477) -- 4
+
+-- [ Wave 8 ] --
+TDS:Place("Shotgunner", 10.991399765014648, 1.0096168518066406, 22.15679931640625) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", -10.522455215454102, 0.9934191703796387, 26.226919174194336) -- 6
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Shotgunner", 11.540772438049316, 0.9705291986465454, 24.16766357421875) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Place("Shotgunner", -13.133951187133789, 1.010912537574768, 23.894678115844727) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Place("Shotgunner", 12.031991958618164, 0.972598671913147, 26.16270637512207) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 14 ] --
+TDS:Place("Shotgunner", -11.146854400634766, 0.9958325028419495, 24.247562408447266) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Shotgunner", 13.545348167419434, 1.0143667459487915, 24.745319366455078) -- 11
+
+-- [ Wave 15 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("EvolvedEnforcer", 12.953405380249023, 1.0174938440322876, 22.661632537841797) -- 12
+TDS:Upgrade(12)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(12)
+TDS:Sell(8)
+TDS:Sell(4)
+TDS:Sell(10)
+TDS:Sell(6)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Soldier", 2.5146584510803223, 0.9606484174728394, 18.00911521911621) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Soldier", 4.537189960479736, 0.9490355253219604, 15.34516716003418) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [[ END OF STRATEGY ]]

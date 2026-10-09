@@ -1,0 +1,317 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoChain = true -- Enables automatic commander chain logic if used by the script
+_G.SupportCaravan = false -- Automatically uses Support Caravan ability
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Scout", "Minigunner", "Commander", "DJ Booth", "Assassin")
+TDS:Mode("Molten")
+TDS:GameInfo("Simplicity", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Assassin", -20.480981826782227, 0.9999847412109375, -12.162500381469727) -- 1
+TDS:Place("Assassin", -20.48201560974121, 1.000002384185791, -14.219505310058594) -- 2
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:SetTarget(1, "Last")
+TDS:SetTarget(1, "Strongest")
+
+-- [ Wave 3 ] --
+TDS:SetTarget(1, "Strongest")
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:SetTarget(2, "Last")
+TDS:SetTarget(2, "Strongest")
+TDS:SetTarget(2, "Strongest")
+
+-- [ Wave 5 ] --
+TDS:Place("Assassin", -18.36928939819336, 0.9999905824661255, -11.113066673278809) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+TDS:SetTarget(3, "Last")
+TDS:SetTarget(3, "Strongest")
+TDS:Place("Assassin", -18.057241439819336, 1.0000003576278687, -1.9183440208435059) -- 4
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Scout", 6.3932695388793945, 0.9999831914901733, -5.181310176849365) -- 5
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(4)
+TDS:SetTarget(4, "Last")
+TDS:SetTarget(4, "Strongest")
+TDS:Place("Assassin", -18.00891876220703, 1.0000007152557373, -4.213325500488281) -- 6
+TDS:Upgrade(6)
+TDS:SetTarget(6, "Last")
+TDS:SetTarget(6, "Strongest")
+TDS:SetTarget(6, "Strongest")
+TDS:Sell(5)
+TDS:Place("Scout", 20.46236801147461, 0.9999984502792358, 10.018141746520996) -- 7
+
+-- [ Wave 9 ] --
+TDS:Upgrade(6)
+TDS:SetTarget(6, "Weakest")
+TDS:SetTarget(6, "Strongest")
+TDS:SetTarget(6, "Strongest")
+TDS:Place("Assassin", -18.102481842041016, 0.9999834895133972, -6.309880256652832) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:SetTarget(8, "Last")
+TDS:SetTarget(8, "Strongest")
+TDS:Place("Commander", -13.406368255615234, 0.9999865293502808, -8.925921440124512) -- 9
+TDS:Upgrade(9)
+
+-- [ Wave 11 ] --
+TDS:Place("DJ Booth", -9.400405883789062, 0.9999822378158569, -8.904542922973633) -- 10
+TDS:Upgrade(10)
+TDS:SetOption(10, "Track", "Green")
+
+-- [ Wave 12 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Ability(9, "Call Of Arms")
+TDS:Ability(10, "Drop The Beat")
+
+-- [ Wave 17 ] --
+TDS:Place("Minigunner", -12.161125183105469, 1.0000005960464478, -3.357334613800049) -- 11
+TDS:Upgrade(11)
+TDS:Place("Minigunner", -9.134870529174805, 1.0000005960464478, -3.459266185760498) -- 12
+TDS:Upgrade(12)
+TDS:Ability(9, "Call Of Arms")
+TDS:Place("Minigunner", -6.024184226989746, 0.9999880790710449, -3.24265193939209) -- 13
+TDS:Upgrade(13)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(8)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 21 ] --
+TDS:Ability(9, "Call Of Arms")
+TDS:Upgrade(2)
+
+-- [ Wave 22 ] --
+TDS:Place("Minigunner", -12.136303901672363, 1.0000001192092896, -0.2598543167114258) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Place("Minigunner", -9.122575759887695, 1.0000001192092896, -0.33498334884643555) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 23 ] --
+TDS:Place("Commander", -12.214604377746582, 0.9999834895133972, -11.772034645080566) -- 16
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Commander", -15.322286605834961, 0.9999931454658508, -11.255578994750977) -- 17
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Ability(9, "Call Of Arms")
+TDS:Place("Assassin", -18.114112854003906, 0.9999874830245972, -8.674203872680664) -- 18
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:SetTarget(18, "Last")
+TDS:SetTarget(18, "Strongest")
+
+-- [ Wave 24 ] --
+TDS:SetTarget(18, "Strongest")
+TDS:Place("Assassin", -20.25121307373047, 1.0000027418136597, -16.290246963500977) -- 19
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:SetTarget(19, "Last")
+TDS:SetTarget(19, "Strongest")
+TDS:Place("Assassin", -18.461549758911133, 0.999990701675415, -13.127366065979004) -- 20
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:SetTarget(20, "Last")
+TDS:SetTarget(20, "Strongest")
+
+-- [ Wave 25 ] --
+TDS:SetTarget(20, "Weakest")
+TDS:SetTarget(20, "Strongest")
+TDS:Place("Assassin", -18.37201690673828, 1.0000026226043701, -15.179632186889648) -- 21
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:SetTarget(21, "Last")
+TDS:SetTarget(21, "Strongest")
+TDS:Ability(9, "Call Of Arms")
+TDS:Upgrade(21)
+TDS:Place("Assassin", -23.842870712280273, 1.000001072883606, -6.462770462036133) -- 22
+TDS:Upgrade(22)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:SetTarget(22, "Last")
+TDS:SetTarget(22, "Strongest")
+TDS:Place("Assassin", -24.024703979492188, 1.0000007152557373, -4.37298583984375) -- 23
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:SetTarget(23, "Last")
+TDS:SetTarget(23, "Strongest")
+TDS:Place("Assassin", -24.01937484741211, 1.0000004768371582, -2.0621113777160645) -- 24
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:SetTarget(24, "Last")
+TDS:SetTarget(24, "Strongest")
+TDS:Ability(17, "Call Of Arms")
+
+-- [ Wave 27 ] --
+TDS:Place("Assassin", -25.932109832763672, 1.0000026226043701, -15.676992416381836) -- 25
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:SetTarget(25, "Last")
+TDS:SetTarget(25, "Strongest")
+TDS:Place("Assassin", -26.16558074951172, 1.0000022649765015, -13.335268020629883) -- 26
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:SetTarget(26, "Last")
+TDS:SetTarget(26, "Strongest")
+TDS:SetTarget(26, "Strongest")
+
+-- [ Wave 28 ] --
+TDS:Place("Assassin", -26.025230407714844, 1.0000017881393433, -10.881429672241211) -- 27
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Ability(9, "Call Of Arms")
+TDS:Upgrade(27)
+TDS:SetTarget(27, "Last")
+TDS:SetTarget(27, "Strongest")
+TDS:Place("Assassin", -26.066143035888672, 1.0000014305114746, -8.50920581817627) -- 28
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:SetTarget(28, "Last")
+TDS:SetTarget(28, "Strongest")
+TDS:SetTarget(28, "Strongest")
+TDS:Place("Assassin", -26.149381637573242, 1.000001072883606, -6.503020286560059) -- 29
+
+-- [ Wave 29 ] --
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:SetTarget(29, "Last")
+TDS:SetTarget(29, "Strongest")
+TDS:Ability(17, "Call Of Arms")
+TDS:Upgrade(10)
+TDS:SetOption(10, "Track", "Red")
+TDS:Place("Assassin", -27.934864044189453, 1.0000015497207642, -14.597940444946289) -- 30
+
+-- [ Wave 30 ] --
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:SetTarget(30, "Last")
+TDS:SetTarget(30, "Strongest")
+TDS:Ability(9, "Call Of Arms")
+TDS:Ability(10, "Drop The Beat")
+TDS:Place("Assassin", -28.142070770263672, 0.999991774559021, -12.55508041381836) -- 31
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:SetTarget(31, "Last")
+TDS:SetTarget(31, "Strongest")
+TDS:Place("Assassin", -27.939144134521484, 0.9999822378158569, -10.237143516540527) -- 32
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:SetTarget(32, "Last")
+TDS:SetTarget(32, "Strongest")
+TDS:SetTarget(32, "Strongest")
+TDS:Place("Minigunner", -3.0156917572021484, 0.9999917149543762, -3.1176838874816895) -- 33
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+TDS:Ability(9, "Call Of Arms")
+TDS:Ability(10, "Drop The Beat")
+TDS:Upgrade(10)
+TDS:Place("Minigunner", -8.339866638183594, 0.9999996423721313, 2.5620737075805664) -- 34
+
+-- [ Wave 31 ] --
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Place("Minigunner", 24.145395278930664, 0.9999985694885254, 9.348130226135254) -- 35
+TDS:Upgrade(35)
+TDS:Upgrade(35)
+TDS:Upgrade(35)
+
+-- [[ END OF STRATEGY ]]

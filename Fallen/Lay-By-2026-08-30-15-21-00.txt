@@ -1,0 +1,218 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("DJ Booth", "Hacker", "Gatling Gun", "Farm", "Trapper")
+TDS:Mode("Fallen")
+TDS:GameInfo("Lay By", {"ExplodingEnemies", "Glass", "Broke", "Fog"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Trapper", -3.37, 243.00, 235.59) -- 1
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Trapper", 2.76, 243.00, 235.62) -- 2
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Trapper", -3.16, 243.00, 232.56) -- 3
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Place("Trapper", 2.78, 243.00, 230.56) -- 4
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Place("Trapper", -2.98, 243.00, 228.47) -- 5
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(5)
+TDS:Place("Trapper", 2.85, 243.00, 225.72) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:Place("Trapper", -2.82, 243.00, 225.41) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 16 ] --
+TDS:Place("Gatling Gun", -11.76, 245.99, 232.64) -- 8
+TDS:Upgrade(8)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(8)
+TDS:Place("Farm", -11.00, 243.00, 220.92) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 21 ] --
+TDS:Place("Farm", -14.57, 243.00, 220.90) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Farm", -18.11, 243.00, 221.00) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Farm", -21.71, 243.00, 221.09) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Farm", -25.26, 243.00, 221.27) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Place("Farm", -28.86, 243.00, 221.30) -- 14
+TDS:Place("Farm", -32.50, 243.00, 221.35) -- 15
+TDS:Place("Farm", -36.04, 243.00, 221.44) -- 16
+TDS:Place("Farm", -39.58, 243.00, 221.52) -- 17
+TDS:Place("Farm", -43.10, 243.00, 221.64) -- 18
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(8)
+TDS:Place("Trapper", -3.37, 243.00, 235.59) -- 19
+TDS:Place("Trapper", 2.76, 243.00, 235.62) -- 20
+TDS:Place("Trapper", -3.16, 243.00, 232.56) -- 21
+TDS:Place("Trapper", 2.78, 243.00, 230.56) -- 22
+TDS:Place("Trapper", -2.98, 243.00, 228.47) -- 23
+TDS:Place("Trapper", 2.85, 243.00, 225.72) -- 24
+TDS:Place("Trapper", -2.82, 243.00, 225.41) -- 25
+TDS:Place("Gatling Gun", -11.76, 245.99, 232.64) -- 26
+TDS:Place("Farm", -11.00, 243.00, 220.92) -- 27
+TDS:Place("Farm", -14.57, 243.00, 220.90) -- 28
+TDS:Place("Farm", -18.11, 243.00, 221.00) -- 29
+
+-- [ Wave 29 ] --
+TDS:Place("Farm", -21.71, 243.00, 221.09) -- 30
+TDS:Place("Farm", -25.26, 243.00, 221.27) -- 31
+TDS:Place("Farm", -28.86, 243.00, 221.30) -- 32
+TDS:Place("Farm", -32.50, 243.00, 221.35) -- 33
+TDS:Place("Farm", -36.04, 243.00, 221.44) -- 34
+TDS:Place("Farm", -39.58, 243.00, 221.52) -- 35
+TDS:Place("Farm", -43.10, 243.00, 221.64) -- 36
+TDS:Place("DJ Booth", -12.59, 243.00, 226.60) -- 37
+TDS:Upgrade(37)
+TDS:Upgrade(37)
+TDS:Upgrade(37)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(26)
+TDS:Upgrade(37)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(37)
+TDS:Place("Hacker", -2.73, 243.11, 221.98) -- 38
+TDS:Upgrade(38)
+TDS:Upgrade(38)
+TDS:Upgrade(38)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(38)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(26)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(26)
+
+-- [ Wave 38 ] --
+TDS:Upgrade(38)
+TDS:Place("Hacker", -17.21, 243.00, 230.88) -- 39
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Upgrade(39, 2)
+
+-- [[ END OF STRATEGY ]]

@@ -1,0 +1,136 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Crook Boss", "Shotgunner", "None", "None", "None")
+TDS:Mode("Casual")
+TDS:GameInfo("Dead Ahead", {"Limitation", "Committed"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Ready()
+
+-- [ Wave 3 ] --
+TDS:Place("Shotgunner", -0.06502914428710938, 1.020004153251648, -30.069721221923828) -- 1
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+game:GetService("ReplicatedStorage").Network.fflags["RE:ask"]:FireServer("consumables.disabled")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Equip", "Blizzard Bomb", "1AE1548D-F907-44FA-B715-837CF56B1E19")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Unequip", "1AE1548D-F907-44FA-B715-837CF56B1E19")
+TDS:Place("Shotgunner", -5.023009300231934, 1.0000048875808716, -30.255367279052734) -- 2
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Place("Shotgunner", 0.18735961616039276, 1.0200035572052002, -28.0587100982666) -- 3
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Place("Shotgunner", -5.002128601074219, 1.0000046491622925, -28.191146850585938) -- 4
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", -5.027968406677246, 1.0000042915344238, -26.181930541992188) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Place("Shotgunner", 0.3217945098876953, 1.0200029611587524, -25.872238159179688) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(2)
+TDS:Place("Crook Boss", 0.21007490158081055, 1.0200021266937256, -23.310131072998047) -- 7
+TDS:Upgrade(7)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 17 ] --
+TDS:Place("Crook Boss", -5.0301690101623535, 1.0000038146972656, -23.614465713500977) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 18 ] --
+TDS:Place("Crook Boss", -7.493913173675537, 1.0000041723251343, -25.47672462463379) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Crook Boss", 2.6999378204345703, 1.0000040531158447, -25.06804656982422) -- 10
+
+-- [ Wave 19 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Shotgunner", -7.063722133636475, 1.000004529953003, -28.04073715209961) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Shotgunner", 2.226231575012207, 1.000004529953003, -27.591793060302734) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 20 ] --
+TDS:Place("Crook Boss", 0.2587242126464844, 1.0200012922286987, -20.15154266357422) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(13)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Place("Shotgunner", -5.054630279541016, 1.000003457069397, -20.983367919921875) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(9)
+TDS:Upgrade(14)
+TDS:Upgrade(5)
+TDS:Upgrade(13)
+
+-- [[ END OF STRATEGY ]]

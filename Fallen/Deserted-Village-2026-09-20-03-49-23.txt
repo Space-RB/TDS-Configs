@@ -1,0 +1,67 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Warden", "Minigunner", "Ranger", "Freezer", "Militant")
+TDS:Mode("Fallen")
+TDS:GameInfo("Deserted Village", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 1 ] --
+TDS:Place("Freezer", -40.269264221191406, 1.0000059604644775, 4.075042724609375) -- 1
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Place("Militant", -33.969207763671875, 1.0000059604644775, 2.237717628479004) -- 2
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Militant", -40.79121398925781, 1.0000059604644775, 1.0693321228027344) -- 3
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Place("Freezer", -34.211673736572266, 1.0000059604644775, 5.43499755859375) -- 4
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Minigunner", -30.385700225830078, 1.0000059604644775, -3.7708377838134766) -- 5
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(1)
+TDS:Place("Militant", 2.2398910522460938, 1.0000059604644775, 1.250596046447754) -- 6
+TDS:Place("Militant", -4.145016670227051, 1.0000059604644775, -0.1030120849609375) -- 7
+
+-- [[ END OF STRATEGY ]]

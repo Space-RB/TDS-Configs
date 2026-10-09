@@ -1,0 +1,112 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoChain = true -- Enables automatic commander chain logic if used by the script
+_G.SupportCaravan = false -- Automatically uses Support Caravan ability
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Assassin", "Commander", "DJ Booth", "Crook Boss", "Turret")
+TDS:Mode("Frost")
+TDS:GameInfo("Northern Lights", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Ready()
+TDS:Place("Assassin", -13.69, 2.39, 1.70) -- 1
+TDS:Place("Assassin", -19.20, 2.40, 1.67) -- 2
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Place("Assassin", -13.81, 2.55, 3.80) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+TDS:Place("Assassin", -19.11, 2.53, 3.67) -- 4
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Assassin", -13.62, 2.40, -4.21) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("Assassin", -19.11, 2.42, -4.17) -- 6
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Place("Crook Boss", -11.06, 2.35, -4.16) -- 7
+
+-- [ Wave 11 ] --
+TDS:Upgrade(7)
+TDS:Place("Crook Boss", -7.96, 2.13, -4.32) -- 8
+
+-- [ Wave 12 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Place("Crook Boss", -7.13, 2.04, -7.33) -- 9
+
+-- [ Wave 14 ] --
+TDS:Upgrade(9)
+TDS:Place("Crook Boss", -10.22, 2.19, -7.04) -- 10
+
+-- [ Wave 15 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 16 ] --
+TDS:Place("Commander", -11.09, 2.41, 1.84) -- 11
+TDS:Upgrade(11)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(11)
+TDS:Ability(11, "Call Of Arms")
+TDS:Place("Commander", -8.01, 2.31, 1.46) -- 12
+TDS:Upgrade(12)
+
+-- [ Wave 19 ] --
+TDS:Place("DJ Booth", -3.82, 2.14, 1.48) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:SetOption(13, "Track", "Green")
+TDS:Upgrade(13)
+
+-- [[ END OF STRATEGY ]]

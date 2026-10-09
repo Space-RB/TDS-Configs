@@ -1,0 +1,163 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Farm", "Engineer", "Accelerator", "EvolvedJuggernaut", "Hacker")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Engineer", -12.30019474029541, 1.0000005960464478, -3.282644271850586) -- 1
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", -29.163301467895508, 0.9999978542327881, 13.07740306854248) -- 2
+TDS:Place("Farm", -25.105310440063477, 0.9999978542327881, 13.173591613769531) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", -29.174400329589844, 0.9999985098838806, 9.303327560424805) -- 4
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", -25.076549530029297, 0.9999984502792358, 9.655312538146973) -- 5
+TDS:Upgrade(5)
+TDS:Place("Farm", -25.743236541748047, 0.9999990463256836, 5.747682571411133) -- 6
+TDS:Upgrade(6)
+
+-- [ Wave 5 ] --
+TDS:Place("Engineer", -11.855425834655762, 1.0000001192092896, -0.23883676528930664) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+TDS:Place("Farm", -29.71457290649414, 0.9999785423278809, 5.437617301940918) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+TDS:Place("Farm", -27.620195388793945, 0.9999876022338867, 2.4526636600494385) -- 9
+
+-- [ Wave 8 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+TDS:Place("Farm", -21.354446411132812, 0.9999979138374329, 13.270374298095703) -- 10
+TDS:Upgrade(10)
+TDS:Place("Farm", -20.861827850341797, 0.999998927116394, 6.9266815185546875) -- 11
+
+-- [ Wave 9 ] --
+TDS:Place("Farm", -18.803991317749023, 0.9999983906745911, 10.246785163879395) -- 12
+TDS:Place("Engineer", -9.184024810791016, 1.0000007152557373, -3.5786352157592773) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 10 ] --
+TDS:Place("Engineer", -8.690801620483398, 1.0000001192092896, -0.5058956146240234) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+
+-- [ Wave 11 ] --
+TDS:Place("Hacker", -6.04154109954834, 0.9999881386756897, -3.522583484649658) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(12)
+
+-- [ Wave 13 ] --
+TDS:Place("Accelerator", -1.9766058921813965, 0.9999831914901733, 2.5471553802490234) -- 16
+TDS:Upgrade(16)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(10)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(16)
+
+-- [ Wave 17 ] --
+TDS:Place("EvolvedJuggernaut", -1.3933022022247314, 0.9999831914901733, -3.129427909851074) -- 17
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(12)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(9)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(10)
+TDS:Upgrade(2)
+TDS:Upgrade(8)
+TDS:Upgrade(4)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+TDS:Upgrade(1)
+TDS:Upgrade(7)
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]

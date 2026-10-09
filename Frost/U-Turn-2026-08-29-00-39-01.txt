@@ -1,0 +1,436 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoChain = true -- Enables automatic commander chain logic if used by the script
+_G.SupportCaravan = false -- Automatically uses Support Caravan ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Farm", "Militant", "Crook Boss", "Turret", "Commander")
+TDS:Mode("Frost")
+TDS:GameInfo("U-Turn", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Militant", 8.96, 1.00, -8.42) -- 1
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", 2.37, 1.00, -28.10) -- 2
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", -1.13, 1.00, -29.77) -- 3
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Militant", 3.78, 1.00, 0.40) -- 4
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Place("Farm", -1.07, 1.00, -26.07) -- 5
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Militant", 3.80, 1.00, -2.67) -- 6
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+TDS:Place("Farm", 2.45, 1.00, -24.32) -- 7
+TDS:Upgrade(7)
+TDS:Place("Militant", 9.03, 1.00, -5.38) -- 8
+TDS:Upgrade(2)
+TDS:Place("Farm", -1.13, 1.00, -22.49) -- 9
+
+-- [ Wave 8 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+TDS:Place("Farm", -4.64, 1.00, -29.88) -- 10
+
+-- [ Wave 9 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(8)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 11 ] --
+TDS:Place("Militant", 8.93, 1.00, -2.31) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 12 ] --
+TDS:Place("Crook Boss", 3.82, 1.00, -5.76) -- 12
+TDS:Upgrade(12)
+TDS:Place("Farm", -4.62, 1.00, -26.19) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Farm", -4.65, 1.00, -22.45) -- 14
+
+-- [ Wave 13 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Farm", -8.24, 1.00, -32.36) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Farm", -8.49, 1.01, -28.32) -- 16
+TDS:Upgrade(16)
+
+-- [ Wave 14 ] --
+TDS:Place("Commander", 1.18, 1.00, -4.19) -- 17
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Place("Militant", 8.93, 1.00, 0.77) -- 18
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(17)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(16)
+TDS:Upgrade(15)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(9)
+TDS:Upgrade(5)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+TDS:Place("Commander", 1.19, 1.00, -1.15) -- 19
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [ Wave 19 ] --
+TDS:Place("Crook Boss", 1.12, 1.00, 1.90) -- 20
+TDS:Place("Turret", -2.40, 1.00, 1.81) -- 21
+TDS:Upgrade(21)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(21)
+TDS:Upgrade(14)
+TDS:Upgrade(9)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(20)
+TDS:Upgrade(3)
+TDS:Upgrade(13)
+
+-- [ Wave 23 ] --
+TDS:Place("Turret", -2.20, 1.00, -2.21) -- 22
+TDS:Upgrade(22)
+TDS:Upgrade(10)
+TDS:Upgrade(16)
+TDS:Upgrade(15)
+TDS:Place("Commander", 1.15, 1.00, -7.28) -- 23
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Place("Crook Boss", 3.77, 1.00, 3.50) -- 24
+
+-- [ Wave 24 ] --
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+
+-- [ Wave 25 ] --
+TDS:Place("Crook Boss", 3.82, 1.00, -2.63) -- 25
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Place("Crook Boss", 3.86, 1.00, 0.48) -- 26
+TDS:Upgrade(26)
+TDS:Place("Militant", 9.00, 1.00, 3.84) -- 27
+TDS:Place("Militant", 21.06, 1.00, 9.66) -- 28
+TDS:Place("Militant", 20.97, 1.00, -14.80) -- 29
+TDS:Upgrade(26)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(26)
+TDS:Upgrade(22)
+TDS:Upgrade(23)
+TDS:Upgrade(17)
+TDS:Upgrade(19)
+TDS:Upgrade(23)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(20)
+TDS:Upgrade(21)
+TDS:Upgrade(22)
+
+-- [ Wave 29 ] --
+TDS:Place("Turret", -2.25, 1.00, -6.26) -- 30
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(21)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(27)
+TDS:Upgrade(18)
+TDS:Upgrade(11)
+TDS:Upgrade(8)
+TDS:Place("Militant", 11.69, 1.00, -6.95) -- 31
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Place("Militant", 11.69, 1.00, -3.71) -- 32
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(1)
+TDS:Upgrade(22)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(30)
+TDS:Place("Militant", 11.71, 1.00, -0.70) -- 33
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Place("Militant", 11.74, 1.00, 2.43) -- 34
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Upgrade(33)
+TDS:Upgrade(34)
+
+-- [ Wave 33 ] --
+TDS:Place("Militant", 3.69, 1.00, -8.97) -- 35
+TDS:Upgrade(35)
+TDS:Upgrade(35)
+TDS:Upgrade(35)
+TDS:Place("Militant", 0.78, 1.00, -10.31) -- 36
+TDS:Upgrade(36)
+TDS:Upgrade(36)
+TDS:Upgrade(36)
+TDS:Place("Militant", 3.68, 1.00, 6.51) -- 37
+TDS:Upgrade(37)
+TDS:Upgrade(37)
+TDS:Upgrade(37)
+TDS:Place("Militant", 8.91, 1.00, -11.62) -- 38
+TDS:Upgrade(38)
+TDS:Upgrade(38)
+TDS:Upgrade(38)
+TDS:Place("Militant", 11.66, 1.00, -9.96) -- 39
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Upgrade(31)
+TDS:Upgrade(32)
+TDS:Place("Militant", -2.18, 1.00, -9.81) -- 40
+TDS:Upgrade(40)
+TDS:Upgrade(40)
+TDS:Upgrade(40)
+TDS:Place("Militant", 8.88, 1.00, 6.97) -- 41
+TDS:Upgrade(41)
+TDS:Upgrade(41)
+TDS:Upgrade(41)
+TDS:Place("Militant", 11.60, 1.00, 5.62) -- 42
+TDS:Upgrade(42)
+TDS:Upgrade(42)
+TDS:Upgrade(42)
+TDS:Upgrade(21)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(22)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(30)
+TDS:Upgrade(26)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(25)
+TDS:Upgrade(24)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(37)
+TDS:Upgrade(11)
+TDS:Upgrade(18)
+TDS:Upgrade(36)
+TDS:Upgrade(40)
+TDS:Upgrade(42)
+TDS:Upgrade(8)
+TDS:Upgrade(1)
+TDS:Upgrade(38)
+
+-- [ Wave 38 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(35)
+TDS:Upgrade(39)
+TDS:Upgrade(31)
+TDS:Upgrade(32)
+TDS:Upgrade(33)
+TDS:Upgrade(34)
+TDS:Upgrade(27)
+TDS:Upgrade(41)
+
+-- [ Wave 39 ] --
+TDS:Place("Militant", 3.54, 1.00, -11.99) -- 43
+TDS:Upgrade(43)
+TDS:Upgrade(43)
+TDS:Upgrade(43)
+TDS:Upgrade(43)
+TDS:Place("Militant", -2.37, 1.00, 6.63) -- 44
+TDS:Upgrade(44)
+TDS:Upgrade(44)
+TDS:Upgrade(44)
+TDS:Upgrade(44)
+TDS:Place("Militant", 3.46, 1.00, 9.56) -- 45
+TDS:Upgrade(45)
+TDS:Upgrade(45)
+TDS:Upgrade(45)
+TDS:Upgrade(45)
+TDS:Place("Militant", 9.12, 1.00, -14.64) -- 46
+TDS:Upgrade(46)
+TDS:Upgrade(46)
+TDS:Upgrade(46)
+TDS:Upgrade(46)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Place("Militant", 0.86, 1.00, -13.36) -- 47
+TDS:Upgrade(47)
+TDS:Upgrade(47)
+TDS:Upgrade(47)
+TDS:Upgrade(47)
+TDS:Place("Militant", -2.22, 1.00, -12.97) -- 48
+TDS:Upgrade(48)
+TDS:Upgrade(48)
+TDS:Upgrade(48)
+TDS:Upgrade(48)
+TDS:Place("Militant", 14.38, 1.00, -8.44) -- 49
+TDS:Upgrade(49)
+TDS:Upgrade(49)
+TDS:Upgrade(49)
+TDS:Upgrade(49)
+TDS:Place("Militant", 14.41, 1.00, -5.25) -- 50
+TDS:Upgrade(50)
+TDS:Upgrade(50)
+TDS:Upgrade(50)
+TDS:Upgrade(50)
+TDS:Place("Militant", 14.40, 1.00, -2.05) -- 51
+TDS:Upgrade(51)
+TDS:Upgrade(51)
+TDS:Upgrade(51)
+TDS:Upgrade(51)
+TDS:Place("Militant", 14.47, 1.00, 1.05) -- 52
+TDS:Upgrade(52)
+TDS:Upgrade(52)
+TDS:Upgrade(52)
+TDS:Upgrade(52)
+
+-- [ Wave 40 ] --
+TDS:Place("Militant", 14.26, 1.00, 4.11) -- 53
+TDS:Upgrade(53)
+TDS:Upgrade(53)
+TDS:Upgrade(53)
+TDS:Upgrade(53)
+TDS:Place("Militant", 8.97, 1.00, 10.03) -- 54
+TDS:Upgrade(54)
+TDS:Upgrade(54)
+TDS:Upgrade(54)
+TDS:Upgrade(54)
+TDS:Place("Militant", 11.75, 1.00, 8.74) -- 55
+TDS:Upgrade(55)
+TDS:Upgrade(55)
+TDS:Upgrade(55)
+TDS:Upgrade(55)
+TDS:Place("Militant", 14.45, 1.00, 7.13) -- 56
+TDS:Upgrade(56)
+TDS:Upgrade(56)
+TDS:Upgrade(56)
+TDS:Upgrade(56)
+TDS:Place("Militant", 0.63, 1.00, 10.64) -- 57
+TDS:Upgrade(57)
+TDS:Upgrade(57)
+TDS:Upgrade(57)
+TDS:Upgrade(57)
+TDS:Place("Militant", -2.27, 1.00, 9.66) -- 58
+TDS:Upgrade(58)
+TDS:Upgrade(58)
+TDS:Upgrade(58)
+TDS:Upgrade(58)
+TDS:Place("Militant", 3.71, 1.00, -15.11) -- 59
+TDS:Upgrade(59)
+TDS:Upgrade(59)
+TDS:Upgrade(59)
+TDS:Upgrade(59)
+TDS:Place("Militant", 14.29, 1.00, -11.64) -- 60
+TDS:Upgrade(60)
+TDS:Upgrade(60)
+TDS:Upgrade(60)
+TDS:Upgrade(60)
+TDS:Place("Militant", 14.59, 1.00, 10.18) -- 61
+TDS:Upgrade(61)
+TDS:Upgrade(61)
+TDS:Upgrade(61)
+TDS:Upgrade(61)
+TDS:Place("Militant", 0.98, 1.00, -16.42) -- 62
+TDS:Upgrade(62)
+TDS:Upgrade(62)
+TDS:Upgrade(62)
+TDS:Upgrade(62)
+TDS:Place("Militant", -8.29, 1.00, -7.71) -- 63
+TDS:Upgrade(63)
+TDS:Upgrade(63)
+TDS:Upgrade(63)
+TDS:Upgrade(63)
+TDS:Place("Militant", -8.35, 1.00, -4.62) -- 64
+TDS:Upgrade(64)
+TDS:Upgrade(64)
+TDS:Upgrade(64)
+TDS:Upgrade(64)
+
+-- [[ END OF STRATEGY ]]

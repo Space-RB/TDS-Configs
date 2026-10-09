@@ -1,0 +1,91 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Gatling Gun", "Demoman", "Hacker", "EvolvedJuggernaut", "EvolvedKingpin")
+TDS:Mode("NilZone2")
+TDS:GameInfo("Nil Zone II", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Demoman", -14.909942626953125, 0.19999992847442627, 2.0277061462402344) -- 1
+TDS:Upgrade(1)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Demoman", -12.887843132019043, 0.39999979734420776, -0.23873448371887207) -- 2
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Hacker", -15.197321891784668, 0.39999979734420776, -2.1914126873016357) -- 3
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:SetTarget(3, "Last")
+TDS:SetTarget(3, "Strongest")
+TDS:SetTarget(3, "Weakest")
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Gatling Gun", -13.221210479736328, 3.8000001907348633, -1.5785633325576782) -- 4
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3, 2)
+
+-- [ Wave 13 ] --
+TDS:Ability(3, "Hologram Tower")
+TDS:Ability(3, "Hologram Tower", {towerPosition = Vector3.new(-16.436126708984375, 3.799999713897705, -9.285758018493652), towerToClone = 4})
+TDS:Place("EvolvedJuggernaut", -4.199742317199707, -5.960464477539063e-08, -3.3701915740966797) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5, 2)
+TDS:Upgrade(5, 2)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5, 2)
+TDS:Upgrade(5, 2)
+
+-- [[ END OF STRATEGY ]]

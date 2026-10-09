@@ -1,0 +1,102 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Scout", "EvolvedJuggernaut", "Farm", "Minigunner", "DJ Booth")
+TDS:Mode("Frost")
+TDS:GameInfo("Portland", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Scout", -9.83, 4.04, 38.48) -- 1
+TDS:Place("Scout", -12.86, 4.04, 38.21) -- 2
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Place("Scout", -6.64, 4.04, 38.23) -- 3
+
+-- [ Wave 2 ] --
+TDS:Upgrade(3)
+TDS:Place("Scout", -16.36, 4.04, 37.95) -- 4
+
+-- [ Wave 3 ] --
+TDS:Upgrade(4)
+TDS:Place("Farm", 16.75, 4.04, 48.48) -- 5
+TDS:Place("Farm", 18.39, 4.04, 45.18) -- 6
+
+-- [ Wave 4 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 5 ] --
+TDS:Place("Farm", 18.37, 4.04, 41.45) -- 7
+TDS:Upgrade(3)
+TDS:Upgrade(7)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Place("Farm", 14.63, 4.04, 44.80) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Farm", 14.55, 4.04, 41.10) -- 9
+
+-- [ Wave 8 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 15 ] --
+TDS:Place("DJ Booth", -10.87, 4.00, 29.96) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Minigunner", -6.87, 4.00, 28.96) -- 11
+TDS:Upgrade(11)
+
+-- [[ END OF STRATEGY ]]

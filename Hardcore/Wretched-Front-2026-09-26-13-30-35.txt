@@ -1,0 +1,79 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoChain = true -- Enables automatic commander chain logic if used by the script
+_G.SupportCaravan = false -- Automatically uses Support Caravan ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Shotgunner", "Scout", "Commander", "Crook Boss", "Minigunner")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 6 ] --
+TDS:Place("Scout", 6.618181228637695, 0.5732607841491699, -15.630768775939941) -- 1
+TDS:Place("Scout", 3.197098731994629, 0.5275402069091797, -15.884886741638184) -- 2
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Place("Scout", 7.92197847366333, 3.7047479152679443, -12.153887748718262, true) -- 3
+
+-- [ Wave 9 ] --
+TDS:Place("Scout", 8.532054901123047, 2.8093090057373047, -12.768706321716309, true) -- 4
+TDS:Place("Scout", 8.664031982421875, 3.6854610443115234, -13.232072830200195, true) -- 5
+TDS:Place("Scout", 9.798008918762207, 0.5426415205001831, -16.239368438720703, true) -- 6
+TDS:Place("Scout", 0.370215505361557, 3.690565586090088, -14.754192352294922, true) -- 7
+
+-- [ Wave 10 ] --
+TDS:Place("Scout", -3.0949368476867676, 0.3299884498119354, -17.596738815307617, true) -- 8
+TDS:Place("Scout", -2.304764747619629, 1.5142812728881836, -17.247705459594727, true) -- 9
+TDS:Place("Scout", -2.654106616973877, 3.756115674972534, -18.18926429748535, true) -- 10
+TDS:Place("Scout", -5.948404312133789, 0.3035789728164673, -19.283451080322266, true) -- 11
+TDS:Place("Scout", -4.21054744720459, 3.6497185230255127, -17.930395126342773, true) -- 12
+TDS:Place("Scout", -3.5240256786346436, 2.191227912902832, -19.87395668029785, true) -- 13
+TDS:Place("Scout", -1.9579169750213623, 6.021337509155273, -16.71806526184082, true) -- 14
+TDS:Place("Scout", -3.2331371307373047, 6.268112659454346, -16.567211151123047, true) -- 15
+TDS:Place("Scout", -3.0164599418640137, 3.114727258682251, -19.951263427734375, true) -- 16
+TDS:Place("Scout", -1.8773479461669922, 0.7156083583831787, -23.531787872314453, true) -- 17
+
+-- [ Wave 11 ] --
+TDS:Place("Scout", 1.9450360536575317, 2.712153673171997, -18.762676239013672, true) -- 18
+TDS:Place("Scout", -0.20405572652816772, 3.7216780185699463, -15.624634742736816, true) -- 19
+TDS:Place("Scout", 0.15985161066055298, 3.740267753601074, -15.51604175567627, true) -- 20
+TDS:Place("Scout", 0.1747598648071289, 0.5146776437759399, -17.758636474609375, true) -- 21
+TDS:Place("Scout", -0.3811894655227661, 2.8129570484161377, -16.693099975585938, true) -- 22
+TDS:Place("Scout", -0.3764301538467407, 3.1263954639434814, -16.77245330810547, true) -- 23
+TDS:Place("Scout", -0.2923043966293335, 3.1263957023620605, -16.91503143310547, true) -- 24
+
+-- [ Wave 12 ] --
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Scout", -2.4166507720947266, 3.0188136100769043, -17.844724655151367, true) -- 25
+TDS:Upgrade(10)
+TDS:Place("Scout", -3.7848117351531982, 2.941706418991089, -17.725475311279297, true) -- 26
+TDS:Place("Scout", -4.191235065460205, 2.911806583404541, -17.218910217285156, true) -- 27
+
+-- [[ END OF STRATEGY ]]

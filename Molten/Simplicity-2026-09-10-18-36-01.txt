@@ -1,0 +1,225 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Gatling Gun", "EvolvedEnforcer", "EvolvedKingpin", "Cowboy", "DJ Booth")
+TDS:Mode("Molten")
+TDS:GameInfo("Simplicity", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Cowboy", -18.150728225708008, 1.0000004768371582, -2.2082295417785645) -- 1
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Cowboy", -12.521149635314941, 0.9999997615814209, 1.959693193435669) -- 2
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Place("Cowboy", -12.597709655761719, 1.000000238418579, -0.7118520736694336) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Cowboy", -12.08052921295166, 1.0000005960464478, -3.341762065887451) -- 4
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Cowboy", -14.553930282592773, 0.9999995231628418, 3.491888999938965) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("Cowboy", -10.290506362915039, 1, 0.4871821403503418) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", -2.535161018371582, 0.9999831914901733, 2.4675045013427734) -- 7
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Place("Cowboy", -17.21687126159668, 0.9999995231628418, 3.315913438796997) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Place("Cowboy", -19.84930419921875, 0.9999995231628418, 3.351125955581665) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Cowboy", -22.48382568359375, 0.9999995231628418, 3.4118714332580566) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Cowboy", -18.283430099487305, 0.9999834895133972, -4.7558722496032715) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 14 ] --
+TDS:Place("Cowboy", -18.010709762573242, 0.9999859929084778, -7.498642921447754) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Cowboy", -9.422531127929688, 1.0000007152557373, -3.7509379386901855) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 17 ] --
+TDS:Place("DJ Booth", -8.379841804504395, 0.9999831914901733, 3.758451461791992) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 27 ] --
+TDS:Place("EvolvedEnforcer", -18.514326095581055, 0.9999991655349731, 5.440613269805908) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 28 ] --
+TDS:Place("EvolvedEnforcer", -8.781600952148438, 1.000000238418579, -1.3631281852722168) -- 16
+TDS:Upgrade(16)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("EvolvedEnforcer", -6.943634510040283, 0.999987006187439, -3.4826579093933105) -- 17
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("EvolvedEnforcer", -16.417522430419922, 0.9999895691871643, -9.2560396194458) -- 18
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 30 ] --
+TDS:Place("EvolvedEnforcer", -13.843118667602539, 0.9999873638153076, -8.954545974731445) -- 19
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(7)
+TDS:Place("EvolvedKingpin", -12.275739669799805, 0.9999992251396179, 5.229147911071777) -- 20
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(20, 2)
+TDS:Upgrade(20, 2)
+TDS:Upgrade(20, 2)
+TDS:Place("EvolvedKingpin", -4.30258321762085, 0.9999902248382568, -3.2993106842041016) -- 21
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21, 2)
+TDS:Upgrade(21, 2)
+TDS:Upgrade(21, 2)
+
+-- [ Wave 34 ] --
+TDS:Place("EvolvedKingpin", -11.12954330444336, 0.9999822378158569, -9.33039379119873) -- 22
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22, 2)
+TDS:Upgrade(22, 2)
+TDS:Upgrade(22, 2)
+TDS:Place("EvolvedKingpin", -7.786059856414795, 0.9999880194664001, -9.649662017822266) -- 23
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23, 2)
+TDS:Upgrade(23, 2)
+TDS:Upgrade(23, 2)
+
+-- [[ END OF STRATEGY ]]

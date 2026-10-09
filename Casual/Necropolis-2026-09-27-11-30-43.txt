@@ -1,0 +1,50 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Assassin", "Trapper", "None", "None", "None")
+TDS:Mode("Casual")
+TDS:GameInfo("Necropolis", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Assassin", 4.51678466796875, 1, -0.4879312515258789) -- 1
+TDS:Place("Assassin", 2.3256492614746094, 1, -7.866523742675781) -- 2
+
+-- [ Wave 2 ] --
+TDS:Place("Assassin", -10.230493545532227, 1, -27.97442626953125) -- 3
+
+-- [ Wave 3 ] --
+TDS:Place("Assassin", 0.003160715103149414, 1.0124974250793457, -17.484458923339844) -- 4
+TDS:Place("Assassin", 0.9161891937255859, 1.0124974250793457, -13.491878509521484) -- 5
+TDS:Place("Assassin", -0.4781064987182617, 1.0124969482421875, -27.78789520263672) -- 6
+
+-- [ Wave 4 ] --
+TDS:Place("Assassin", 5.748329162597656, 1, -26.85415267944336) -- 7
+TDS:Place("Assassin", 10.35958480834961, 1, -22.15473747253418) -- 8
+
+-- [ Wave 5 ] --
+TDS:Place("Assassin", 10.105426788330078, 1, -10.543228149414062) -- 9
+TDS:Place("Assassin", 10.388561248779297, 1, -15.75355052947998) -- 10
+TDS:Place("Assassin", 3.0361175537109375, 1, -27.395103454589844) -- 11
+TDS:Place("Trapper", -23.011028289794922, 1.0124974250793457, 0.023153305053710938) -- 12
+TDS:Place("Trapper", -14.55772590637207, 1, 0.8614921569824219) -- 13
+
+-- [[ END OF STRATEGY ]]

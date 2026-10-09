@@ -1,0 +1,131 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AutoMercenary = true -- Automatically uses Mercenary Base ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Trapper", "Hacker", "Mercenary Base", "Gatling Gun", "DJ Booth")
+TDS:Mode("Frost")
+TDS:GameInfo("Lay By", {"HiddenEnemies", "Glass", "ExplodingEnemies", "Limitation", "Quarantine", "Fog"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Trapper", -2.8299343585968018, 243, 172.59591674804688, true) -- 1
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Place("Trapper", -2.726767063140869, 243, 170.9311981201172, true) -- 2
+
+-- [ Wave 2 ] --
+TDS:VoteSkip(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Trapper", 2.7528162002563477, 243, 166.555419921875, true) -- 3
+TDS:VoteSkip(3)
+TDS:Place("Trapper", 2.6909289360046387, 243, 161.2702178955078, true) -- 4
+
+-- [ Wave 4 ] --
+TDS:VoteSkip(4)
+TDS:Place("Trapper", -2.7646050453186035, 243, 169.40492248535156, true) -- 5
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+TDS:VoteSkip(5)
+
+-- [ Wave 6 ] --
+TDS:VoteSkip(6)
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+TDS:VoteSkip(7)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:VoteSkip(8)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+TDS:SetOption(5, "Trap", "Landmine")
+TDS:VoteSkip(9)
+TDS:SetOption(5, "Trap", "Spike")
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:VoteSkip(10)
+TDS:Upgrade(3)
+
+-- [ Wave 11 ] --
+TDS:VoteSkip(11)
+
+-- [ Wave 12 ] --
+TDS:VoteSkip(12)
+TDS:Place("Gatling Gun", -10.5825777053833, 245.99295043945312, 167.7743377685547, true) -- 6
+
+-- [ Wave 13 ] --
+TDS:Upgrade(6)
+TDS:VoteSkip(13)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6)
+TDS:VoteSkip(15)
+
+-- [ Wave 16 ] --
+TDS:Place("DJ Booth", -4.750357627868652, 243, 165.0136260986328, true) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:SetOption(7, "Track", "Green")
+TDS:Upgrade(7)
+TDS:Ability(7, "Drop The Beat")
+
+-- [ Wave 17 ] --
+TDS:Place("Mercenary Base", -5.53967809677124, 243, 160.90309143066406, true) -- 8
+TDS:Place("Mercenary Base", -4.209218502044678, 245.99154663085938, 161.2127685546875, true) -- 9
+TDS:VoteSkip(17)
+TDS:Upgrade(8)
+
+-- [ Wave 18 ] --
+TDS:Ability(7, "Drop The Beat")
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 19 ] --
+TDS:Ability(7, "Drop The Beat")
+TDS:VoteSkip(19)
+TDS:Upgrade(9)
+
+-- [ Wave 20 ] --
+TDS:VoteSkip(20)
+TDS:Ability(7, "Drop The Beat")
+
+-- [ Wave 21 ] --
+TDS:Upgrade(9)
+TDS:SetOption(9, "Unit 1", "Riot Guard")
+TDS:SetOption(9, "Unit 2", "Riot Guard")
+TDS:SetOption(9, "Unit 3", "Riot Guard")
+TDS:VoteSkip(21)
+
+-- [ Wave 22 ] --
+TDS:VoteSkip(22)
+
+-- [[ END OF STRATEGY ]]

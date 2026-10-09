@@ -1,0 +1,299 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoChain = true -- Enables automatic commander chain logic if used by the script
+_G.SupportCaravan = false -- Automatically uses Support Caravan ability
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Pyromancer", "Shotgunner", "DJ Booth", "Commander", "Accelerator")
+TDS:Mode("Fallen")
+TDS:GameInfo("Wrecked Battlefield II", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", -7.698040962219238, 0.2631436586380005, 3.0496435165405273) -- 1
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Place("Shotgunner", -2.658907413482666, -0.011943638324737549, 8.801185607910156) -- 2
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Place("Shotgunner", -0.6093759536743164, -0.05001336336135864, 9.018865585327148) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+TDS:Place("Shotgunner", -2.8448610305786133, -0.02945256233215332, 10.878639221191406) -- 4
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Place("Shotgunner", -0.8400087356567383, 0.0039217472076416016, 11.218644142150879) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Place("Shotgunner", 1.4708044528961182, -0.3219328224658966, 9.130973815917969) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 14 ] --
+TDS:Place("Shotgunner", 1.2497200965881348, -0.03838217258453369, 11.198951721191406) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Place("Shotgunner", -3.055969715118408, -0.05393671989440918, 12.93850326538086) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 16 ] --
+TDS:Place("Shotgunner", -1.0524725914001465, -0.035856008529663086, 13.280858039855957) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Shotgunner", 0.9494328498840332, -0.022779643535614014, 13.369924545288086) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 17 ] --
+TDS:Place("DJ Booth", -1.9051990509033203, 0.1698395013809204, 3.649171829223633) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(1)
+TDS:Upgrade(11)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(4)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 23 ] --
+TDS:Place("Commander", 2.282519817352295, 0.041612088680267334, 3.846973419189453) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+TDS:Upgrade(12)
+
+-- [ Wave 24 ] --
+TDS:Place("Accelerator", -1.7773475646972656, 0.43713557720184326, -0.5930156707763672) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(13)
+TDS:Place("Accelerator", -7.267507553100586, 0.6477283239364624, -0.32343578338623047) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(14)
+TDS:Place("Accelerator", -6.816972732543945, 1.0690765380859375, -3.83331298828125) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(15)
+TDS:Place("Accelerator", 0.17867088317871094, 0.7123029232025146, -3.721160888671875) -- 16
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(16)
+TDS:Place("Accelerator", 1.9242305755615234, 0.19355499744415283, -0.43048095703125) -- 17
+
+-- [ Wave 29 ] --
+TDS:Place("Commander", 4.752793312072754, -0.21324872970581055, 1.4721565246582031) -- 18
+TDS:Place("Commander", 5.090356826782227, -0.14689284563064575, -1.6196298599243164) -- 19
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(11)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(1)
+TDS:Upgrade(12)
+TDS:Upgrade(18)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(14)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(13)
+TDS:Upgrade(16)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(14)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(13)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+
+-- [ Wave 37 ] --
+TDS:Place("Pyromancer", -8.135040283203125, 0.05817461013793945, 8.856555938720703) -- 20
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Pyromancer", -11.203444480895996, 0.3965378403663635, 2.808816909790039) -- 21
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Place("Pyromancer", -11.176982879638672, 0.17002421617507935, 8.60936450958252) -- 22
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+
+-- [ Wave 38 ] --
+TDS:Place("Pyromancer", -14.339212417602539, 0.3639306426048279, 8.388145446777344) -- 23
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Place("Pyromancer", -14.600555419921875, 0.5148351192474365, 2.823465347290039) -- 24
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Place("Pyromancer", -23.198463439941406, 1.6663517951965332, -5.1619391441345215) -- 25
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Place("Pyromancer", -16.65058708190918, 0.6639410853385925, 0.5254025459289551) -- 26
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+
+-- [ Wave 39 ] --
+TDS:Place("Pyromancer", -17.763267517089844, 0.428888738155365, 8.361051559448242) -- 27
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Place("Pyromancer", -20.19750213623047, 0.7753013372421265, 6.248334884643555) -- 28
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Place("Pyromancer", -22.013731002807617, 1.1251004934310913, 2.8747787475585938) -- 29
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Place("Pyromancer", -16.96806526184082, 0.6678735017776489, -2.676403045654297) -- 30
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Place("Pyromancer", -22.450454711914062, 1.5119209289550781, -0.9532690048217773) -- 31
+TDS:Upgrade(31)
+
+-- [ Wave 40 ] --
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Place("Pyromancer", -17.349790573120117, 0.7131084203720093, -5.808216094970703) -- 32
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Place("Commander", 3.3349647521972656, 0.687011182308197, -4.928664684295654) -- 33
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Place("Commander", -6.399494171142578, 1.3389379978179932, -7.114808082580566) -- 34
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+
+-- [[ END OF STRATEGY ]]

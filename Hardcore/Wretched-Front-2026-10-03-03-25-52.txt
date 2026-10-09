@@ -1,0 +1,174 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Farm", "Electroshocker", "Crook Boss", "None", "None")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Farm", -12.528751373291016, 1.554894208908081, 26.249309539794922) -- 1
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", -12.474847793579102, 1.5176243782043457, 30.624757766723633) -- 2
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", -12.630707740783691, 1.3646260499954224, 35.093719482421875) -- 3
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Electroshocker", 9.731939315795898, 1.2376883029937744, 21.99983787536621) -- 4
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+TDS:Place("Farm", -16.70043182373047, 1.4970420598983765, 25.681671142578125) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+TDS:Place("Farm", -16.48273468017578, 1.5212424993515015, 30.037126541137695) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(6)
+TDS:Place("Farm", -16.726045608520508, 1.504453420639038, 33.879119873046875) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(7)
+TDS:Place("Farm", -18.189605712890625, 1.2623623609542847, 38.14250564575195) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Place("Farm", -14.209410667419434, 1.226462483406067, 39.23299789428711) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Crook Boss", 6.239519119262695, 1.392143726348877, 28.361967086791992) -- 10
+TDS:Upgrade(10)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 13 ] --
+TDS:Place("Crook Boss", 2.114922046661377, 1.4313000440597534, 28.28438377380371) -- 11
+TDS:Upgrade(11)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(11)
+TDS:Place("Crook Boss", 6.045977592468262, 1.381716012954712, 32.47169876098633) -- 12
+TDS:Upgrade(12)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(12)
+TDS:Place("Crook Boss", 2.6698074340820312, 1.4336788654327393, 31.632335662841797) -- 13
+
+-- [ Wave 16 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Crook Boss", -0.7980189323425293, 1.462843418121338, 30.315929412841797) -- 14
+
+-- [ Wave 17 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(4)
+TDS:Place("Electroshocker", 5.8142900466918945, 1.3177286386489868, 22.12656593322754) -- 15
+TDS:Upgrade(15)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(15)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(15)
+TDS:Place("Electroshocker", 2.211214780807495, 1.34853994846344, 21.402297973632812) -- 16
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(16)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(16)
+TDS:Place("Electroshocker", 8.220088958740234, 0.8034332990646362, 18.490909576416016) -- 17
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(17)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(17)
+TDS:Place("Electroshocker", -0.2317320555448532, 1.4250564575195312, 19.46918487548828) -- 18
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(18)
+TDS:Place("Electroshocker", 11.781641006469727, 1.2413341999053955, 27.791746139526367) -- 19
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(19)
+TDS:Place("Electroshocker", 3.8487777709960938, 1.4101201295852661, 36.035179138183594) -- 20
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [[ END OF STRATEGY ]]

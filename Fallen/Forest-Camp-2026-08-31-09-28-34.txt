@@ -1,0 +1,99 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Farm", "Brawler", "EvolvedEnforcer", "Accelerator", "Pursuit")
+TDS:Mode("Fallen")
+TDS:GameInfo("Forest Camp", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Brawler", -16.316959381103516, 1.0275025367736816, -14.301545143127441) -- 1
+TDS:Place("Brawler", -15.570011138916016, 1.000016450881958, -20.329757690429688) -- 2
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", -35.03045654296875, 1.0499980449676514, -13.442163467407227) -- 3
+TDS:Place("Farm", -35.08070755004883, 1.000016450881958, -17.119922637939453) -- 4
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", -35.09394836425781, 1.0499986410140991, -20.67731475830078) -- 5
+TDS:Place("Brawler", -17.535449981689453, 1.000016450881958, -19.882251739501953) -- 6
+
+-- [ Wave 4 ] --
+TDS:Place("Brawler", -15.266216278076172, 1.000016450881958, -22.392940521240234) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Place("Farm", -35.1113166809082, 1.000016450881958, -24.23086929321289) -- 8
+
+-- [ Wave 5 ] --
+TDS:Place("Farm", -35.12424850463867, 1.000016450881958, -27.775657653808594) -- 9
+TDS:Place("Brawler", -16.597553253173828, 1.0275025367736816, -12.292040824890137) -- 10
+TDS:Place("Brawler", -14.35931396484375, 1.000016450881958, -14.913469314575195) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", -31.388822555541992, 1.0499941110610962, -13.546794891357422) -- 12
+TDS:Place("Farm", -31.469650268554688, 1.000016450881958, -17.16576385498047) -- 13
+TDS:Place("Farm", -31.498939514160156, 1.000016450881958, -20.785783767700195) -- 14
+TDS:Place("Farm", -31.388456344604492, 1.0500006675720215, -24.292877197265625) -- 15
+TDS:Place("Farm", -31.39119529724121, 1.0499999523162842, -27.952495574951172) -- 16
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Place("EvolvedEnforcer", -14.498311996459961, 1.0275025367736816, -12.86485481262207) -- 17
+
+-- [ Wave 9 ] --
+TDS:Upgrade(17)
+
+-- [ Wave 10 ] --
+TDS:Place("EvolvedEnforcer", -14.405302047729492, 1.0275025367736816, -10.769373893737793) -- 18
+TDS:Upgrade(18)
+TDS:Upgrade(16)
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 13 ] --
+TDS:Place("Brawler", -3.678363800048828, 1.000016450881958, 28.909154891967773) -- 19
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [[ END OF STRATEGY ]]

@@ -1,0 +1,36 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Militant", "None", "None", "None", "None")
+TDS:Mode("Intermediate")
+TDS:GameInfo("Candy Valley", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 4 ] --
+TDS:Place("Militant", 4.421421527862549, 0.6263399124145508, -58.58154296875, true) -- 1
+TDS:Place("Militant", -11.370538711547852, 0.6266670227050781, -57.059024810791016, true) -- 2
+
+-- [ Wave 6 ] --
+TDS:Place("Militant", -12.417482376098633, 0.6265087127685547, -19.02781867980957, true) -- 3
+TDS:Place("Militant", -11.848190307617188, 0.6264510154724121, -20.982643127441406, true) -- 4
+
+-- [[ END OF STRATEGY ]]

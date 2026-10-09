@@ -1,0 +1,101 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Pyromancer", "Cowboy", "EvolvedKingpin", "EvolvedJuggernaut", "DJ Booth")
+TDS:Mode("PizzaParty")
+TDS:GameInfo("Pizza Party", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Cowboy", 11.936088562011719, 1.0368709564208984, -17.982336044311523) -- 1
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Cowboy", 11.776373863220215, 1.0368709564208984, -15.169694900512695) -- 2
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Pyromancer", 7.829894065856934, 1.0368709564208984, -23.78064727783203) -- 3
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Cowboy", 11.473161697387695, 1.0368709564208984, -12.595026016235352) -- 4
+TDS:Upgrade(4)
+TDS:Place("Cowboy", 8.758842468261719, 1.0368709564208984, -18.271331787109375) -- 5
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Place("Cowboy", 8.454106330871582, 1.0368709564208984, -14.906875610351562) -- 6
+TDS:Upgrade(6)
+TDS:Place("Cowboy", 8.298848152160645, 1.0368709564208984, -12.258989334106445) -- 7
+TDS:Upgrade(7)
+
+-- [ Wave 8 ] --
+TDS:Place("Cowboy", 13.202924728393555, 1.0368709564208984, -26.60511016845703) -- 8
+TDS:Upgrade(8)
+TDS:Place("Cowboy", 5.416264533996582, 1.0368709564208984, -16.681007385253906) -- 9
+TDS:Upgrade(9)
+
+-- [ Wave 9 ] --
+TDS:Place("Cowboy", 6.039857864379883, 1.0368709564208984, -13.93984603881836) -- 10
+TDS:Upgrade(10)
+
+-- [ Wave 10 ] --
+TDS:Place("Pyromancer", 15.5754976272583, 1.0368709564208984, -24.679912567138672) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 11 ] --
+TDS:Place("Cowboy", 3.347229480743408, 1.0368709564208984, -19.12665557861328) -- 12
+TDS:Upgrade(12)
+TDS:Place("Cowboy", 2.6550331115722656, 1.0368709564208984, -23.011568069458008) -- 13
+TDS:Upgrade(13)
+TDS:Place("Cowboy", 2.6254520416259766, 1.0368709564208984, -16.176902770996094) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(1)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+TDS:Upgrade(6)
+TDS:Upgrade(10)
+TDS:Upgrade(1)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(14)
+TDS:Upgrade(4)
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(7)
+TDS:Upgrade(3)
+
+-- [[ END OF STRATEGY ]]

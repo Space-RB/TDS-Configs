@@ -1,0 +1,61 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Shotgunner", "EvolvedJuggernaut", "Farm", "None", "None")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Shotgunner", 7.404727458953857, 0.5415122509002686, -15.937946319580078) -- 1
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", 4.137544631958008, 1.0410995483398438, -29.368730545043945) -- 2
+TDS:Upgrade(2)
+TDS:Place("Farm", 6.824861526489258, 0.9371904730796814, -25.914854049682617) -- 3
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Place("Shotgunner", 6.7523322105407715, 0.523510217666626, -13.967259407043457) -- 4
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Sell(4)
+TDS:Sell(1)
+
+-- [ Wave 14 ] --
+TDS:Sell(3)
+TDS:Sell(2)
+TDS:Place("EvolvedJuggernaut", 1.5381250381469727, 1.4421453475952148, 30.79917335510254) -- 5
+
+-- [[ END OF STRATEGY ]]

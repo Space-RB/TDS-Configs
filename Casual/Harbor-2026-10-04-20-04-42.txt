@@ -1,0 +1,162 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Militant", "Shotgunner", "None", "None", "None")
+TDS:Mode("Casual")
+TDS:GameInfo("Harbor", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 1 ] --
+TDS:Place("Militant", 22.528060913085938, -2.3498833179473877, 71.87885284423828) -- 1
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Militant", 26.11823272705078, -2.3498833179473877, 72.23975372314453) -- 2
+TDS:Upgrade(2)
+TDS:Place("Militant", 29.269744873046875, -2.3498833179473877, 72.106201171875) -- 3
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Militant", 32.526763916015625, -2.3498833179473877, 72.11032104492188) -- 4
+TDS:Upgrade(4)
+TDS:Place("Militant", 22.482717514038086, -2.3498833179473877, 75.00994110107422) -- 5
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Place("Militant", 26.57485580444336, -2.3498833179473877, 75.48676300048828) -- 6
+TDS:Upgrade(6)
+TDS:Place("Militant", 30.09160614013672, -2.3498833179473877, 75.64933776855469) -- 7
+TDS:Upgrade(7)
+TDS:Place("Militant", 33.086273193359375, -2.3498833179473877, 75.30481719970703) -- 8
+
+-- [ Wave 8 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(8)
+TDS:Place("Shotgunner", 27.404338836669922, -2.3500256538391113, 65.29024505615234) -- 9
+TDS:Upgrade(9)
+
+-- [ Wave 12 ] --
+TDS:Place("Shotgunner", 34.284698486328125, -2.350022315979004, 64.94551086425781) -- 10
+TDS:Upgrade(10)
+
+-- [ Wave 13 ] --
+TDS:Place("Militant", 34.25220489501953, -2.3498833179473877, 67.60781860351562) -- 11
+TDS:Place("Militant", 35.409942626953125, -2.3498833179473877, 71.12100982666016) -- 12
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Militant", 24.44007682800293, -2.350019693374634, 64.6988525390625) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 14 ] --
+TDS:Place("Shotgunner", 28.043275833129883, -2.3499937057495117, 62.114418029785156) -- 14
+TDS:Place("Shotgunner", 33.91954803466797, -2.349987745285034, 61.517005920410156) -- 15
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(11)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+TDS:Upgrade(1)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(11)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Place("Militant", 34.95846176147461, -2.3498833179473877, 83.84854125976562) -- 16
+TDS:Place("Militant", 29.913803100585938, -2.3498833179473877, 83.57210540771484) -- 17
+TDS:Place("Militant", 25.862979888916016, -2.3498833179473877, 83.47348022460938) -- 18
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [[ END OF STRATEGY ]]

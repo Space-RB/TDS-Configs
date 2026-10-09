@@ -1,0 +1,49 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Scout", "Crook Boss", "Minigunner", "Shotgunner", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("Lay By", {"HiddenEnemies", "Quarantine", "Limitation", "Fog"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", -3.312933921813965, 242.99998474121094, 286.06072998046875, true) -- 1
+TDS:Place("Scout", -3.312933921813965, 242.99998474121094, 286.06072998046875, true) -- 2
+TDS:Place("Scout", -3.312933921813965, 242.99998474121094, 286.06072998046875, true) -- 3
+TDS:Place("Scout", -3.312933921813965, 242.99998474121094, 286.06072998046875, true) -- 4
+TDS:Place("Scout", -3.510263442993164, 242.99998474121094, 284.609375, true) -- 5
+
+-- [ Wave 2 ] --
+TDS:Place("Scout", -3.044245719909668, 244.56752014160156, 283.2781677246094, true) -- 6
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Place("Shotgunner", -3.141374111175537, 242.99998474121094, 280.9967956542969, true) -- 7
+
+-- [ Wave 7 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Place("Minigunner", -11.78486442565918, 243, 174.22581481933594, true) -- 8
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]

@@ -1,0 +1,80 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Pyromancer", "Hunter", "None", "None", "None")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Pyromancer", -2.258115291595459, 1.0140436887741089, -35.135589599609375) -- 1
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Place("Hunter", 6.189014434814453, 1.3922351598739624, 28.178302764892578) -- 2
+
+-- [ Wave 13 ] --
+TDS:Place("Hunter", 3.0440216064453125, 1.4228383302688599, 28.46436882019043) -- 3
+
+-- [ Wave 14 ] --
+TDS:Place("Hunter", -0.5491943359375, 1.4573638439178467, 28.81424903869629) -- 4
+
+-- [ Wave 15 ] --
+TDS:Place("Hunter", -3.967686891555786, 1.4891719818115234, 28.669408798217773) -- 5
+
+-- [ Wave 16 ] --
+TDS:Place("Hunter", 6.332998275756836, 1.3787813186645508, 31.691614151000977) -- 6
+
+-- [ Wave 17 ] --
+TDS:Place("Hunter", 3.286632537841797, 1.4274260997772217, 31.45742416381836) -- 7
+
+-- [ Wave 18 ] --
+TDS:Place("Hunter", 0.2451181411743164, 1.4568126201629639, 31.764842987060547) -- 8
+
+-- [ Wave 19 ] --
+TDS:Place("Hunter", -3.2679131031036377, 1.4896031618118286, 32.28200149536133) -- 9
+
+-- [ Wave 20 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(9)
+TDS:Upgrade(4)
+TDS:Upgrade(8)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(7)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]

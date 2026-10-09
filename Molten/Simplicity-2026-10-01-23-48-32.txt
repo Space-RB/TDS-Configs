@@ -1,0 +1,144 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Brawler", "EvolvedEnforcer", "EvolvedJuggernaut", "DJ Booth", "Engineer")
+TDS:Mode("Molten")
+TDS:GameInfo("Simplicity", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Brawler", -18.31958770751953, 1.0000007152557373, -3.851846218109131) -- 1
+TDS:Place("Brawler", -18.337791442871094, 1.0000007152557373, -3.8283634185791016) -- 2
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", -18.31714630126953, 1.0000007152557373, -3.84975004196167) -- 3
+
+-- [ Wave 2 ] --
+TDS:Place("Brawler", -18.068260192871094, 1.0000007152557373, -4.128481864929199) -- 4
+TDS:Place("Brawler", -18.067432403564453, 1.0000007152557373, -4.129408359527588) -- 5
+
+-- [ Wave 3 ] --
+TDS:Place("Brawler", -17.785053253173828, 0.9999834895133972, -4.445650100708008) -- 6
+TDS:Place("Brawler", -17.786060333251953, 0.9999834895133972, -4.444521427154541) -- 7
+
+-- [ Wave 4 ] --
+TDS:Place("Brawler", -18.31560516357422, 1.0000007152557373, -3.8514761924743652) -- 8
+TDS:Place("Brawler", -17.78615951538086, 0.9999834895133972, -4.444410800933838) -- 9
+TDS:Place("Brawler", -18.068830490112305, 1.0000007152557373, -4.127841472625732) -- 10
+
+-- [ Wave 6 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(9)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(6)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(10)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(2)
+TDS:Upgrade(6)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(1)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+
+-- [ Wave 23 ] --
+TDS:Place("EvolvedEnforcer", -14.25564956665039, 0.9999886155128479, -9.32667350769043) -- 11
+TDS:Place("EvolvedEnforcer", -14.36410140991211, 0.9999883770942688, -9.034219741821289) -- 12
+TDS:Place("EvolvedEnforcer", -14.369134902954102, 0.9999883770942688, -9.020272254943848) -- 13
+TDS:Place("EvolvedEnforcer", -14.274884223937988, 0.999988853931427, -9.476609230041504) -- 14
+TDS:Place("EvolvedEnforcer", -14.407445907592773, 0.9999885559082031, -9.109289169311523) -- 15
+
+-- [ Wave 24 ] --
+TDS:Place("DJ Booth", -12.122187614440918, 1.0000005960464478, -3.0754880905151367) -- 16
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Engineer", -2.2767515182495117, 0.9999831914901733, 3.0962791442871094) -- 17
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(17)
+TDS:Place("Engineer", 1.2877073287963867, 0.9999831914901733, 3.288087844848633) -- 18
+TDS:Place("Engineer", 0.8445737957954407, 0.9999831914901733, 3.5124597549438477) -- 19
+
+-- [[ END OF STRATEGY ]]

@@ -1,0 +1,185 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Farm", "Brawler", "EvolvedEnforcer", "Warden", "Accelerator")
+TDS:Mode("Fallen")
+TDS:GameInfo("Wrecked Battlefield II", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", -2.4597320556640625, -0.02197122573852539, 9.010106086730957) -- 1
+TDS:Place("Brawler", -1.9739885330200195, 0.18295425176620483, 3.3635377883911133) -- 2
+TDS:Place("Brawler", -8.126688003540039, 0.06324499845504761, 8.715473175048828) -- 3
+
+-- [ Wave 2 ] --
+TDS:Upgrade(3)
+TDS:Place("Brawler", -7.498538970947266, 0.25186699628829956, 3.3421268463134766) -- 4
+TDS:Upgrade(4)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", 6.1995086669921875, 2.1344969272613525, 44.194087982177734) -- 5
+TDS:Place("Farm", 2.5430707931518555, 2.094533920288086, 44.2684440612793) -- 6
+TDS:Place("Farm", -1.0881481170654297, 2.0088560581207275, 44.220611572265625) -- 7
+
+-- [ Wave 4 ] --
+TDS:Place("Brawler", -0.3846883773803711, -0.07341164350509644, 9.060653686523438) -- 8
+TDS:Place("Brawler", 0.046813011169433594, 0.12016516923904419, 3.4948577880859375) -- 9
+
+-- [ Wave 5 ] --
+TDS:Place("Brawler", -10.214530944824219, 0.10339587926864624, 8.647607803344727) -- 10
+TDS:Place("Brawler", -9.531630516052246, 0.31360524892807007, 3.091360092163086) -- 11
+TDS:Place("Farm", -4.6085205078125, 1.7388793230056763, 43.784828186035156) -- 12
+TDS:Place("Farm", -8.262571334838867, 0.404441237449646, 43.576385498046875) -- 13
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", -11.760927200317383, 0.5010424852371216, 42.97113037109375) -- 14
+TDS:Place("Farm", -11.380609512329102, 0.9798815250396729, 39.3554801940918) -- 15
+TDS:Place("Farm", -7.917242050170898, 1.5358654260635376, 39.365562438964844) -- 16
+TDS:Place("Farm", -4.364444732666016, 1.1375842094421387, 39.812740325927734) -- 17
+TDS:Place("Farm", -0.8432741165161133, 0.9222398996353149, 40.147010803222656) -- 18
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(8)
+TDS:Upgrade(2)
+TDS:Upgrade(9)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(17)
+TDS:Upgrade(16)
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Place("Brawler", -2.7922897338867188, -0.028683125972747803, 11.078625679016113) -- 19
+
+-- [ Wave 9 ] --
+TDS:Place("Brawler", -8.393054962158203, -0.01037520170211792, 10.7731294631958) -- 20
+TDS:Upgrade(20)
+TDS:Upgrade(19)
+TDS:Place("Warden", 1.6239128112792969, -0.3169512450695038, 9.284648895263672) -- 21
+TDS:Upgrade(21)
+
+-- [ Wave 10 ] --
+TDS:Place("Warden", -12.251440048217773, 0.23897838592529297, 8.597597122192383) -- 22
+TDS:Upgrade(22)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Place("EvolvedEnforcer", -0.7805805206298828, 0.0049645304679870605, 11.132013320922852) -- 23
+TDS:Upgrade(23)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(21)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(23)
+TDS:Place("Warden", 2.1579127311706543, 0.056785404682159424, 3.5753135681152344) -- 24
+TDS:Upgrade(24)
+TDS:Upgrade(18)
+TDS:Upgrade(17)
+TDS:Upgrade(16)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+
+-- [ Wave 15 ] --
+TDS:Place("Warden", -2.995692729949951, -0.06827360391616821, 13.172985076904297) -- 25
+TDS:Upgrade(25)
+TDS:Place("EvolvedEnforcer", -0.9220089912414551, -0.04413694143295288, 13.445642471313477) -- 26
+TDS:Upgrade(26)
+TDS:Upgrade(12)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 16 ] --
+TDS:Place("EvolvedEnforcer", -1.0441298484802246, -0.189226895570755, 15.59396743774414) -- 27
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(18)
+TDS:Upgrade(17)
+TDS:Upgrade(16)
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(23)
+TDS:Upgrade(12)
+
+-- [ Wave 18 ] --
+TDS:Place("Warden", 3.7920827865600586, -0.49636346101760864, 9.210397720336914) -- 28
+TDS:Place("Warden", 5.938314437866211, -0.7616549730300903, 10.585243225097656) -- 29
+TDS:Place("Warden", 6.061100482940674, -1.0841976404190063, 14.482091903686523) -- 30
+TDS:Place("Warden", 4.647073745727539, -1.025995135307312, 16.21133041381836) -- 31
+TDS:Place("Warden", 2.557769536972046, -0.7248098254203796, 16.468582153320312) -- 32
+TDS:Upgrade(32)
+TDS:Upgrade(31)
+TDS:Upgrade(30)
+TDS:Upgrade(29)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(28)
+TDS:Place("Warden", 5.285690784454346, -0.8691855669021606, 12.521905899047852) -- 33
+TDS:Upgrade(33)
+TDS:Place("Warden", -8.527932167053223, -0.08375132083892822, 12.815704345703125) -- 34
+
+-- [ Wave 20 ] --
+TDS:Place("Warden", -7.341089248657227, 0.3882051706314087, 1.297891616821289) -- 35
+TDS:Upgrade(35)
+TDS:Upgrade(34)
+TDS:Upgrade(23)
+TDS:Upgrade(23, 2)
+TDS:Upgrade(26)
+TDS:Place("EvolvedEnforcer", 1.3040516376495361, -0.06161391735076904, 13.341024398803711) -- 36
+TDS:Upgrade(36)
+TDS:Upgrade(36)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(36)
+TDS:Upgrade(1)
+TDS:Upgrade(8)
+TDS:Upgrade(19)
+TDS:Upgrade(2)
+TDS:Upgrade(9)
+TDS:Upgrade(4)
+TDS:Upgrade(11)
+TDS:Upgrade(3)
+TDS:Upgrade(20)
+TDS:Upgrade(10)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(36)
+
+-- [[ END OF STRATEGY ]]

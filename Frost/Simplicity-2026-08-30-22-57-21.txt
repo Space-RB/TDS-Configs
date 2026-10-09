@@ -1,0 +1,73 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Demoman", "EvolvedJuggernaut", "EvolvedKingpin", "DJ Booth", "Farm")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {"Glass", "Quarantine", "ExplodingEnemies"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 15 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Demoman", 1.4042389392852783, 1.687812089920044, -2.845285654067993, true) -- 14
+TDS:Upgrade(14)
+
+-- [ Wave 16 ] --
+TDS:VoteSkip(16)
+TDS:Upgrade(13)
+
+-- [ Wave 17 ] --
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+TDS:Sell(5)
+TDS:Sell(6)
+TDS:Sell(7)
+TDS:Sell(8)
+TDS:Sell(9)
+TDS:Sell(10)
+TDS:Sell(11)
+TDS:Sell(12)
+TDS:Sell(13)
+TDS:Sell(14)
+TDS:Place("Demoman", 3.0073771476745605, 0.9999831914901733, -3.120429515838623) -- 15
+TDS:Place("Demoman", 2.306044101715088, 0.9999831914901733, -3.1168618202209473) -- 16
+TDS:Place("Farm", 11.82659912109375, 1.000003457069397, -20.882047653198242) -- 17
+
+-- [ Wave 16 ] --
+TDS:Place("Farm", 15.751209259033203, 1.000003457069397, -20.771562576293945) -- 18
+TDS:Place("Farm", 18.872867584228516, 1.000003457069397, -20.753902435302734) -- 19
+TDS:Place("Farm", 19.08414077758789, 1.0000028610229492, -17.31839370727539) -- 20
+TDS:Place("Farm", 15.456439018249512, 1.0000027418136597, -17.008684158325195) -- 21
+TDS:Place("Farm", 18.812135696411133, 1.0000022649765015, -14.2203369140625) -- 22
+TDS:Place("Farm", 12.560564041137695, 1.0000027418136597, -17.12530517578125) -- 23
+TDS:Place("Farm", 20.648456573486328, 1.0000026226043701, -15.870558738708496) -- 24
+TDS:Place("Farm", 22.171323776245117, 1.000002145767212, -13.155282974243164) -- 25
+TDS:Place("Farm", 21.912281036376953, 1.0000030994415283, -19.099170684814453) -- 26
+TDS:Place("EvolvedKingpin", -2.4372611045837402, 0.9999831914901733, 2.280796527862549) -- 27
+TDS:Place("Demoman", 1.4042389392852783, 0.9999831914901733, -2.845285654067993) -- 28
+TDS:Upgrade(28)
+TDS:VoteSkip(16)
+
+-- [[ END OF STRATEGY ]]

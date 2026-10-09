@@ -1,0 +1,148 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Pyromancer", "Farm", "Shotgunner", "EvolvedEnforcer", "EvolvedKingpin")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Pyromancer", -5.9817891120910645, 0.9527356028556824, -31.620271682739258) -- 1
+TDS:Place("Farm", -10.438535690307617, 1.53973388671875, 23.308582305908203) -- 2
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(2)
+TDS:Place("Farm", -10.67099380493164, 1.548828363418579, 26.91473388671875) -- 3
+
+-- [ Wave 2 ] --
+TDS:Upgrade(3)
+TDS:Place("Farm", -10.497658729553223, 1.496278166770935, 30.494373321533203) -- 4
+TDS:Upgrade(4)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", -10.438600540161133, 1.4271180629730225, 34.07194137573242) -- 5
+TDS:Upgrade(5)
+TDS:Place("Farm", -10.451817512512207, 1.3387970924377441, 37.640995025634766) -- 6
+TDS:Upgrade(6)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+TDS:Place("Shotgunner", 11.585954666137695, 0.5216051340103149, -14.26600456237793) -- 7
+
+-- [ Wave 9 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", 10.348597526550293, 0.48956334590911865, -12.65578556060791) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Place("Shotgunner", 9.054586410522461, 0.48103535175323486, -11.124124526977539) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(1)
+TDS:Place("Shotgunner", 7.099915981292725, 0.4540521502494812, -11.689926147460938) -- 10
+
+-- [ Wave 16 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Shotgunner", 8.40789794921875, 0.45080915093421936, -13.20763111114502) -- 11
+TDS:Upgrade(11)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(11)
+TDS:Place("Shotgunner", 9.655540466308594, 0.5030220746994019, -14.804275512695312) -- 12
+TDS:Upgrade(12)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(12)
+TDS:Place("Shotgunner", 10.27074909210205, 0.5662736296653748, -16.718978881835938) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 19 ] --
+TDS:Place("Shotgunner", 5.174127578735352, 0.4373934864997864, -12.589593887329102) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Shotgunner", 8.274592399597168, 0.506058931350708, -16.334941864013672) -- 15
+
+-- [ Wave 20 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("EvolvedEnforcer", 7.0489068031311035, 0.5713682174682617, -14.686904907226562) -- 16
+TDS:Upgrade(16)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(16)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(16)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(16)
+TDS:Place("EvolvedKingpin", 2.775752544403076, 0.39442744851112366, -13.644617080688477) -- 17
+TDS:Upgrade(17)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(17)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(16)
+TDS:Place("EvolvedEnforcer", 5.004278659820557, 0.5646763443946838, -15.072563171386719) -- 18
+TDS:Upgrade(18)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(18)
+
+-- [[ END OF STRATEGY ]]

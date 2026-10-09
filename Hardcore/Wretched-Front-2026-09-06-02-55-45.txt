@@ -1,0 +1,63 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Hunter", "Pyromancer", "EvolvedJuggernaut", "None", "None")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Pyromancer", -5.6838788986206055, 0.9705352783203125, -33.214454650878906) -- 1
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Place("Hunter", 6.477792739868164, 1.3888273239135742, 27.870647430419922) -- 2
+
+-- [ Wave 14 ] --
+TDS:Place("Hunter", 6.50192928314209, 1.3755030632019043, 30.882186889648438) -- 3
+TDS:Place("Hunter", 3.5495481491088867, 1.418283224105835, 28.5897216796875) -- 4
+
+-- [ Wave 15 ] --
+TDS:Place("Hunter", 3.4713425636291504, 1.4266412258148193, 31.822694778442383) -- 5
+
+-- [ Wave 16 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 22 ] --
+TDS:Place("EvolvedJuggernaut", -0.3925652503967285, 1.459022045135498, 30.311800003051758) -- 6
+
+-- [[ END OF STRATEGY ]]

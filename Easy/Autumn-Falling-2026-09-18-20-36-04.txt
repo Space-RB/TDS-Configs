@@ -1,0 +1,45 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Militant", "None", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Autumn Falling", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 2 ] --
+TDS:Place("Militant", -14.165496826171875, 0.9999940395355225, -27.111316680908203, true) -- 1
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Place("Militant", 5.32320499420166, 0.9999911785125732, -38.21859359741211, true) -- 2
+
+-- [ Wave 5 ] --
+TDS:Place("Militant", 4.181829452514648, 0.9999907612800598, -36.988033294677734, true) -- 3
+TDS:Place("Militant", 7.879768371582031, 0.9999916553497314, -48.19505310058594, true) -- 4
+
+-- [ Wave 6 ] --
+TDS:Place("Militant", 6.658674240112305, 0.9999903440475464, -46.94038391113281, true) -- 5
+TDS:Place("Militant", 2.892007827758789, 0.999989926815033, -47.259971618652344, true) -- 6
+TDS:Place("Militant", 9.096508026123047, 0.9999857544898987, -29.58071517944336, true) -- 7
+TDS:Place("Militant", 9.550314903259277, 2.238751173019409, -29.443166732788086, true) -- 8
+
+-- [[ END OF STRATEGY ]]

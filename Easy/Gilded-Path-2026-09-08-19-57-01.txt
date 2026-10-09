@@ -1,0 +1,53 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Soldier", "Shotgunner", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Gilded Path", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", 1.5953304767608643, 0.9662317037582397, 20.266084671020508) -- 2
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Place("Soldier", -4.424150466918945, 0.9984967708587646, 21.10017967224121) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Shotgunner", -12.645122528076172, 1.014203429222107, 25.64238166809082) -- 4
+
+-- [ Wave 6 ] --
+TDS:Place("Shotgunner", 13.397714614868164, 0.973346471786499, 29.64255142211914) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+TDS:Place("Shotgunner", -13.161806106567383, 1.0097100734710693, 23.5328426361084) -- 6
+
+-- [ Wave 8 ] --
+TDS:Place("Shotgunner", 12.76209831237793, 0.9734947681427002, 27.63272476196289) -- 7
+
+-- [[ END OF STRATEGY ]]

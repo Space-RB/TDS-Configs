@@ -1,0 +1,313 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("DJ Booth", "EvolvedJuggernaut", "Pyromancer", "Shotgunner", "Minigunner")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", 7.36, 1.00, -8.99) -- 1
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Pyromancer", -12.80, 1.00, -8.94) -- 2
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Shotgunner", -17.98, 1.00, -1.90) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Place("Shotgunner", -17.82, 1.00, -4.01) -- 4
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Place("Shotgunner", -17.79, 1.00, -6.07) -- 5
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", -11.98, 1.00, -3.70) -- 6
+
+-- [ Wave 12 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Shotgunner", -9.98, 1.00, -3.76) -- 7
+TDS:Upgrade(7)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Place("Shotgunner", -12.40, 1.00, -1.70) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Shotgunner", -10.32, 1.00, -1.74) -- 9
+TDS:Upgrade(9)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(9)
+TDS:Place("Shotgunner", -12.62, 1.00, 0.38) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 16 ] --
+TDS:Place("Shotgunner", -10.55, 1.00, 0.32) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("DJ Booth", -2.44, 1.00, 2.27) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(12)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(12)
+TDS:Place("Minigunner", -7.55, 1.00, -3.03) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Minigunner", -4.51, 1.00, -3.34) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Minigunner", -1.48, 1.00, -3.40) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Minigunner", 1.58, 1.00, -3.23) -- 16
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Minigunner", 4.61, 1.00, -3.33) -- 17
+
+-- [ Wave 32 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Minigunner", 7.25, 1.00, -4.86) -- 18
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 33 ] --
+TDS:Place("Minigunner", 5.37, 1.00, -7.21) -- 19
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Minigunner", 5.33, 1.00, -10.27) -- 20
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [ Wave 34 ] --
+TDS:Place("Minigunner", 7.98, 1.00, -8.84) -- 21
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Place("Minigunner", 9.11, 1.00, -11.64) -- 22
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Place("Minigunner", 11.17, 1.00, -9.09) -- 23
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Place("Pyromancer", 12.51, 1.00, -3.73) -- 24
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Place("Minigunner", 12.32, 1.00, -0.66) -- 25
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(25)
+TDS:Place("Minigunner", 1.55, 1.00, 3.40) -- 26
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+
+-- [ Wave 36 ] --
+TDS:Place("Minigunner", 4.38, 1.00, 2.26) -- 27
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Place("Minigunner", 6.88, 1.00, 4.01) -- 28
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Place("Minigunner", 9.35, 1.00, 2.21) -- 29
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Place("Minigunner", 11.80, 1.00, 4.05) -- 30
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Place("Minigunner", -7.96, 1.00, 0.17) -- 31
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+
+-- [ Wave 37 ] --
+TDS:Place("Minigunner", -7.80, 1.00, 3.19) -- 32
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Place("EvolvedJuggernaut", -11.85, 1.00, 4.02) -- 33
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(33, 2)
+TDS:Place("Minigunner", -8.49, 1.00, 6.27) -- 34
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Place("Minigunner", -7.95, 1.00, 9.34) -- 35
+TDS:Upgrade(35)
+TDS:Upgrade(35)
+TDS:Upgrade(35)
+TDS:Place("Minigunner", -11.04, 1.00, 8.06) -- 36
+TDS:Upgrade(36)
+TDS:Upgrade(36)
+TDS:Upgrade(36)
+TDS:Place("Minigunner", -15.89, 1.00, 3.27) -- 37
+TDS:Upgrade(37)
+TDS:Upgrade(37)
+TDS:Upgrade(37)
+TDS:Place("Minigunner", -15.30, 1.00, 6.23) -- 38
+TDS:Upgrade(38)
+TDS:Upgrade(38)
+TDS:Upgrade(38)
+TDS:Place("Minigunner", -4.91, 1.00, 9.42) -- 39
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Place("Minigunner", -1.84, 1.00, 9.21) -- 40
+TDS:Upgrade(40)
+
+-- [ Wave 38 ] --
+TDS:Upgrade(40)
+TDS:Upgrade(40)
+TDS:Place("Minigunner", 1.16, 1.00, 9.37) -- 41
+TDS:Upgrade(41)
+TDS:Upgrade(41)
+TDS:Upgrade(41)
+TDS:Place("Minigunner", 4.25, 1.00, 9.32) -- 42
+TDS:Upgrade(42)
+TDS:Upgrade(42)
+TDS:Upgrade(42)
+TDS:Upgrade(13)
+TDS:Upgrade(31)
+TDS:Upgrade(14)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(19)
+TDS:Upgrade(18)
+TDS:Upgrade(20)
+TDS:Upgrade(23)
+TDS:Upgrade(21)
+
+-- [ Wave 39 ] --
+TDS:Upgrade(22)
+TDS:Upgrade(15)
+TDS:Upgrade(32)
+TDS:Upgrade(34)
+TDS:Upgrade(36)
+TDS:Upgrade(38)
+TDS:Upgrade(37)
+
+-- [ Wave 40 ] --
+TDS:Upgrade(35)
+TDS:Upgrade(40)
+TDS:Upgrade(39)
+TDS:Upgrade(41)
+TDS:Upgrade(26)
+TDS:Upgrade(27)
+TDS:Upgrade(28)
+TDS:Upgrade(29)
+TDS:Upgrade(30)
+TDS:Upgrade(25)
+TDS:Upgrade(42)
+
+-- [[ END OF STRATEGY ]]

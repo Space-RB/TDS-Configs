@@ -1,0 +1,309 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Scout", "Crook Boss", "Minigunner", "Farm", "Hacker")
+TDS:Mode("Molten")
+TDS:GameInfo("Sky Islands", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Farm", -16.21, 0.50, 9.51) -- 1
+TDS:Place("Scout", 4.89, 1.00, 27.40) -- 2
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:Place("Farm", -17.19, 0.53, 2.06) -- 3
+
+-- [ Wave 2 ] --
+TDS:Upgrade(3)
+TDS:Place("Scout", 7.94, 1.00, 27.63) -- 4
+
+-- [ Wave 3 ] --
+TDS:Place("Scout", 10.94, 1.00, 27.03) -- 5
+TDS:Place("Farm", -20.06, 0.50, 6.69) -- 6
+TDS:Upgrade(6)
+TDS:Place("Farm", -22.00, 0.50, 0.15) -- 7
+
+-- [ Wave 4 ] --
+TDS:Upgrade(7)
+TDS:Place("Farm", -11.15, 1.00, 1.24) -- 8
+TDS:Place("Farm", -18.11, 0.97, -4.02) -- 9
+TDS:Place("Farm", -23.00, 0.50, -5.75) -- 10
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(9)
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(10)
+TDS:Place("Farm", -14.40, 0.50, 15.69) -- 11
+TDS:Place("Farm", -13.83, 1.00, -1.30) -- 12
+TDS:Place("Farm", -11.48, 1.00, 6.21) -- 13
+
+-- [ Wave 7 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(12)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(13)
+
+-- [ Wave 10 ] --
+TDS:Place("Scout", 8.81, 1.00, 30.70) -- 14
+TDS:Place("Scout", 11.88, 1.00, 30.67) -- 15
+TDS:Place("Scout", 15.28, 1.00, 30.65) -- 16
+TDS:Place("Scout", 13.92, 1.00, 27.81) -- 17
+TDS:Place("Scout", 17.16, 1.00, 27.32) -- 18
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(16)
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Place("Minigunner", 4.59, 1.00, 7.08) -- 19
+TDS:Upgrade(19)
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 13 ] --
+TDS:Place("Crook Boss", 13.45, 1.00, 16.72) -- 20
+TDS:Place("Crook Boss", 14.14, 1.00, 19.92) -- 21
+TDS:Upgrade(3)
+TDS:Upgrade(8)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(11)
+TDS:Place("Scout", 1.81, 1.00, 36.47) -- 22
+TDS:Place("Scout", 1.88, 1.00, 33.47) -- 23
+TDS:Place("Scout", -1.32, 1.00, 36.55) -- 24
+TDS:Place("Scout", -1.24, 1.00, 33.31) -- 25
+TDS:Place("Scout", 18.38, 1.00, 30.40) -- 26
+TDS:Place("Scout", 18.40, 1.00, 33.43) -- 27
+TDS:Place("Scout", 11.41, 1.00, 38.74) -- 28
+
+-- [ Wave 15 ] --
+TDS:Place("Scout", 17.16, 1.00, 37.93) -- 29
+TDS:Upgrade(11)
+TDS:Upgrade(6)
+TDS:Upgrade(12)
+TDS:Upgrade(23)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(20)
+TDS:Upgrade(21)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Place("Minigunner", 6.50, 1.00, 20.08) -- 30
+TDS:Upgrade(30)
+TDS:Upgrade(8)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(19)
+TDS:Place("Hacker", 11.07, 1.00, 20.51) -- 31
+TDS:Place("Hacker", 3.38, 1.00, 20.24) -- 32
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(21)
+TDS:Upgrade(20)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(6)
+TDS:Upgrade(11)
+TDS:Upgrade(3)
+TDS:Upgrade(10)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(12)
+TDS:Upgrade(32)
+TDS:Upgrade(30)
+TDS:Place("Crook Boss", -3.95, 1.00, 29.67) -- 33
+TDS:Place("Crook Boss", -4.48, 1.00, 33.44) -- 34
+
+-- [ Wave 22 ] --
+TDS:Place("Crook Boss", -4.37, 1.00, 36.63) -- 35
+TDS:Upgrade(31)
+TDS:Upgrade(30)
+TDS:Place("Minigunner", 16.71, 1.00, 17.54) -- 36
+
+-- [ Wave 23 ] --
+TDS:Place("Minigunner", -3.39, 1.00, 20.49) -- 37
+TDS:Place("Minigunner", -3.56, 1.00, 17.43) -- 38
+TDS:Place("Minigunner", -3.38, 1.00, 14.19) -- 39
+TDS:Upgrade(36)
+TDS:Upgrade(36)
+TDS:Place("Minigunner", -0.43, 1.00, 12.94) -- 40
+TDS:Place("Minigunner", 2.02, 1.00, 34.48) -- 41
+
+-- [ Wave 24 ] --
+TDS:Place("Minigunner", -1.02, 1.00, 34.29) -- 42
+TDS:Place("Minigunner", -1.23, 1.00, 37.42) -- 43
+TDS:Upgrade(42)
+TDS:Upgrade(42)
+TDS:Upgrade(42)
+TDS:Upgrade(41)
+TDS:Upgrade(41)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Upgrade(35)
+TDS:Upgrade(35)
+TDS:Upgrade(40)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(40)
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Upgrade(38)
+TDS:Upgrade(38)
+TDS:Upgrade(37)
+TDS:Upgrade(37)
+TDS:Upgrade(43)
+TDS:Upgrade(17)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(18)
+TDS:Upgrade(33)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(30)
+TDS:Upgrade(36)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(36)
+TDS:Upgrade(31)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(27)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(43)
+TDS:Upgrade(43)
+TDS:Upgrade(41)
+TDS:Upgrade(41)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(42)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(43)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(33)
+TDS:Upgrade(34)
+TDS:Upgrade(40)
+TDS:Upgrade(39)
+TDS:Upgrade(38)
+TDS:Upgrade(35)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(26)
+TDS:Upgrade(27)
+TDS:Upgrade(29)
+TDS:Upgrade(18)
+TDS:Upgrade(28)
+TDS:Upgrade(37)
+TDS:Upgrade(37)
+TDS:Upgrade(38)
+TDS:Upgrade(32)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(31)
+TDS:Upgrade(39)
+TDS:Upgrade(40)
+TDS:Upgrade(34)
+TDS:Upgrade(35)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(32, 2)
+TDS:Upgrade(16)
+
+-- [[ END OF STRATEGY ]]

@@ -1,0 +1,140 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Soldier", "None", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Dead Ahead", {"HiddenEnemies", "Glass", "ExplodingEnemies", "FlyingEnemies", "Limitation", "Fog"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Soldier", 0.4256024956703186, 1.0200022459030151, -23.738988876342773) -- 1
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Soldier", 0.24698328971862793, 1.0200014114379883, -20.684898376464844) -- 2
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Soldier", 0.36610889434814453, 1.0200031995773315, -26.74102783203125) -- 3
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Soldier", 0.1806802749633789, 1.0200040340423584, -29.75600814819336) -- 4
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Soldier", 2.939944267272949, 1.0000035762786865, -22.04755210876465) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Place("Soldier", 3.050574779510498, 1.0000040531158447, -25.22216796875) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Place("Soldier", 2.931303024291992, 1.0000046491622925, -28.368892669677734) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Place("Soldier", -5.018886566162109, 1.0000048875808716, -29.688697814941406) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Soldier", -5.03452205657959, 1.0000042915344238, -26.637657165527344) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 11 ] --
+TDS:Place("Soldier", -5.024764060974121, 1.0000038146972656, -23.580142974853516) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Soldier", -5.011909484863281, 1.0000033378601074, -20.52009391784668) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 12 ] --
+TDS:Place("Soldier", -7.681653022766113, 0.9999955296516418, -28.192134857177734) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Soldier", -7.674681186676025, 1.0000040531158447, -25.125484466552734) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 13 ] --
+TDS:Place("Soldier", -7.640833377838135, 1.0000035762786865, -22.011180877685547) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Soldier", -7.611111640930176, 1.0000030994415283, -18.95770835876465) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 14 ] --
+TDS:Place("Soldier", -5.026233673095703, 1.0000028610229492, -17.401813507080078) -- 16
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Soldier", 0.5755882263183594, 1.0000028610229492, -17.566974639892578) -- 17
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Soldier", 3.213778018951416, 1.0000030994415283, -19.037179946899414) -- 18
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(8)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(7)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(3)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(6)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(10)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+TDS:Upgrade(11)
+TDS:Upgrade(16)
+TDS:Upgrade(15)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(17)
+
+-- [[ END OF STRATEGY ]]

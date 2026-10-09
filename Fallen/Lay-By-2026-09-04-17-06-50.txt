@@ -1,0 +1,219 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoMercenary = true -- Automatically uses Mercenary Base ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Farm", "Gatling Gun", "Hacker", "Mercenary Base", "Trapper")
+TDS:Mode("Fallen")
+TDS:GameInfo("Lay By", {"HiddenEnemies", "Glass", "Quarantine", "ExplodingEnemies"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Trapper", -3.629180908203125, 242.99998474121094, 207.0924835205078, true) -- 1
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:VoteSkip(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Trapper", 3.4001541137695312, 243, 206.86972045898438, true) -- 2
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:VoteSkip(8)
+
+-- [ Wave 9 ] --
+TDS:VoteSkip(9)
+TDS:Sell(2)
+
+-- [ Wave 10 ] --
+TDS:Sell(1)
+TDS:Place("Gatling Gun", 3.201157569885254, 243, 175.3618621826172) -- 3
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+TDS:Place("Farm", 15.617775917053223, 243.2108612060547, 167.89256286621094, true) -- 4
+
+-- [ Wave 12 ] --
+TDS:Place("Farm", 18.741966247558594, 243.39878845214844, 168.52835083007812, true) -- 5
+TDS:Place("Farm", 21.94709014892578, 243, 168.92959594726562, true) -- 6
+TDS:Place("Farm", 25.22306251525879, 243, 169.41244506835938, true) -- 7
+TDS:Place("Farm", 28.66448974609375, 243, 169.82090759277344, true) -- 8
+TDS:Place("Farm", 23.034996032714844, 243, 173.43865966796875, true) -- 9
+TDS:Place("Farm", 26.496517181396484, 243, 173.74972534179688, true) -- 10
+TDS:Place("Farm", 30.264911651611328, 242.99998474121094, 173.80014038085938, true) -- 11
+TDS:Place("Farm", 30.515779495239258, 245.536376953125, 172.4461212158203, true) -- 12
+TDS:Place("Farm", 31.25437355041504, 245.4692840576172, 170.70335388183594, true) -- 13
+
+-- [ Wave 14 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+TDS:Upgrade(11)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+TDS:Upgrade(10)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(9)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(10)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 25 ] --
+TDS:Place("Hacker", 4.674991607666016, 242.99998474121094, 270.3157958984375, true) -- 14
+TDS:Place("Hacker", 4.525598526000977, 242.99998474121094, 267.7353820800781, true) -- 15
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 29 ] --
+TDS:VoteSkip(29)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(15, 2)
+TDS:Place("Mercenary Base", -3.3200106620788574, 243, 175.0458526611328, true) -- 16
+TDS:Place("Mercenary Base", -3.3267571926116943, 243, 170.41757202148438, true) -- 17
+TDS:Place("Mercenary Base", -3.2981932163238525, 243, 166.3088836669922, true) -- 18
+TDS:Upgrade(16)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:SetOption(16, "Unit 1", "Riot Guard")
+TDS:SetOption(16, "Unit 2", "Riot Guard")
+TDS:SetOption(16, "Unit 3", "Riot Guard")
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:SetOption(17, "Unit 1", "Riot Guard")
+TDS:SetOption(17, "Unit 2", "Riot Guard")
+TDS:SetOption(17, "Unit 3", "Riot Guard")
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:SetOption(18, "Unit 1", "Riot Guard")
+TDS:SetOption(18, "Unit 2", "Riot Guard")
+TDS:SetOption(18, "Unit 3", "Riot Guard")
+
+-- [ Wave 36 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(17)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(18)
+TDS:Ability(15, "Hologram Tower")
+
+-- [ Wave 38 ] --
+TDS:Ability(15, "Hologram Tower", {towerPosition = Vector3.new(7.154608726501465, 243, 156.5451202392578), towerToClone = 3})
+
+-- [ Wave 39 ] --
+TDS:Ability(18, "Air-Drop", {directionCFrame = CFrame.new(0, 243.125, 185.66419982910156, 0.9938324093818665, 0, 0.11089306324720383, 0, 1.0000001192092896, -0, -0.11089306324720383, 0, 0.9938324093818665), dist = 106.50398254394531, pathName = 1})
+TDS:Ability(17, "Air-Drop", {directionCFrame = CFrame.new(0, 243.125, 191.94332885742188, 0.9955313205718994, 0, 0.09443198889493942, 0, 1, -0, -0.09443198889493942, 0, 0.9955313205718994), dist = 109.5, pathName = 1})
+TDS:Ability(16, "Air-Drop", {directionCFrame = CFrame.new(0, 243.125, 182.50950622558594, 0.9925891160964966, 0, 0.12151936441659927, 0, 1.0000001192092896, -0, -0.12151936441659927, 0, 0.9925891160964966), dist = 109.5, pathName = 1})
+
+-- [[ END OF STRATEGY ]]

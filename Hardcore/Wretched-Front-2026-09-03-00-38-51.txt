@@ -1,0 +1,180 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoMercenary = true -- Automatically uses Mercenary Base ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Farm", "Hacker", "Gatling Gun", "EvolvedEnforcer", "Mercenary Base")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Farm", -11.31981372833252, 1.5517067909240723, 25.234500885009766) -- 1
+TDS:Place("Farm", -15.57712173461914, 1.529370903968811, 25.106231689453125) -- 2
+TDS:Ready()
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", -11.37840747833252, 1.5080472230911255, 29.058452606201172) -- 3
+TDS:Place("Farm", -15.061371803283691, 1.5600990056991577, 28.860441207885742) -- 4
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", -11.28144645690918, 1.4497191905975342, 32.58803176879883) -- 5
+TDS:Place("Farm", -15.052124977111816, 1.5411401987075806, 32.57228469848633) -- 6
+TDS:Upgrade(5)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Place("Farm", -11.184904098510742, 1.358079195022583, 36.34250259399414) -- 7
+TDS:Place("Farm", -15.173734664916992, 1.4131240844726562, 36.18593215942383) -- 8
+
+-- [ Wave 5 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 7 ] --
+TDS:Place("EvolvedEnforcer", 6.042949676513672, 1.3934189081192017, 28.07976531982422) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Place("Farm", -11.468560218811035, 1.2515839338302612, 39.90334701538086) -- 10
+TDS:Place("Farm", -15.132475852966309, 1.1906590461730957, 39.91920471191406) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 12 ] --
+TDS:Place("EvolvedEnforcer", 6.148526191711426, 1.382312297821045, 30.16945457458496) -- 12
+TDS:Upgrade(12)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+
+-- [ Wave 15 ] --
+TDS:Place("Gatling Gun", -7.411011219024658, 4.447683811187744, 11.921984672546387) -- 13
+
+-- [ Wave 16 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(6)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+TDS:Upgrade(11)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Place("Mercenary Base", -19.824657440185547, 1.4233851432800293, 32.41579818725586) -- 14
+TDS:Upgrade(14)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(12)
+
+-- [ Wave 21 ] --
+TDS:Place("Hacker", 3.6711058616638184, 1.418973445892334, 29.486114501953125) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(12)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(13)
+TDS:Ability(15, "Hologram Tower", {towerPosition = Vector3.new(5.939496040344238, 1.3838609457015991, 32.33278274536133), towerToClone = 12})
+
+-- [ Wave 24 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(12)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(15)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(12, 2)
+TDS:Upgrade(9)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(14)
+
+-- [ Wave 32 ] --
+TDS:Place("Mercenary Base", -19.747262954711914, 1.3397495746612549, 37.136802673339844) -- 16
+TDS:Place("Mercenary Base", -24.458789825439453, 1.1828341484069824, 37.19098663330078) -- 17
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(14)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(14)
+
+-- [[ END OF STRATEGY ]]

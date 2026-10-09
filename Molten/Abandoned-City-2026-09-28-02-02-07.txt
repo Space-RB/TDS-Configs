@@ -1,0 +1,57 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Soldier", "Demoman", "Sniper", "Militant", "None")
+TDS:Mode("Molten")
+TDS:GameInfo("Abandoned City", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 23 ] --
+TDS:Place("Demoman", -27.277301788330078, 3.544989585876465, 10.104795455932617, true) -- 1
+TDS:Place("Demoman", -26.348430633544922, 4.9206390380859375, 9.994614601135254, true) -- 2
+TDS:Place("Demoman", -25.910274505615234, 5.569544315338135, 9.942641258239746, true) -- 3
+TDS:Place("Demoman", -25.739086151123047, 5.830819606781006, 9.891709327697754, true) -- 4
+TDS:Place("Demoman", -28.002382278442383, 3.5449888706207275, 9.96346378326416, true) -- 5
+TDS:Place("Demoman", -27.51314926147461, 5.675658702850342, 10.060665130615234, true) -- 6
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("Demoman", -26.394081115722656, 5.804396629333496, 9.88233757019043, true) -- 7
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Place("Demoman", -25.433502197265625, 5.570381164550781, 9.864748001098633, true) -- 8
+TDS:Upgrade(4)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Place("Demoman", -24.99177360534668, 5.542431354522705, 10.061634063720703, true) -- 9
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 25 ] --
+TDS:Place("Demoman", -26.73008155822754, 5.808410167694092, 9.9533052444458, true) -- 10
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]

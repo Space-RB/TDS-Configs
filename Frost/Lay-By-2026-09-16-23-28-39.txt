@@ -1,0 +1,290 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AutoMercenary = true -- Automatically uses Mercenary Base ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Trapper", "Hacker", "Mercenary Base", "Gatling Gun", "DJ Booth")
+TDS:Mode("Frost")
+TDS:GameInfo("Lay By", {"HiddenEnemies", "Glass", "ExplodingEnemies", "Limitation", "Quarantine", "Fog"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Trapper", -2.8622570037841797, 242.99998474121094, 174.0251922607422, true) -- 1
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Place("Trapper", -2.837550163269043, 243, 172.35125732421875, true) -- 2
+
+-- [ Wave 2 ] --
+TDS:VoteSkip(2)
+TDS:Place("Trapper", 2.6983425617218018, 243, 167.72940063476562, true) -- 3
+
+-- [ Wave 3 ] --
+TDS:VoteSkip(3)
+TDS:Place("Trapper", 2.7082762718200684, 243, 164.7294158935547, true) -- 4
+
+-- [ Wave 4 ] --
+TDS:VoteSkip(4)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:VoteSkip(5)
+
+-- [ Wave 6 ] --
+TDS:VoteSkip(6)
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+TDS:VoteSkip(8)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+TDS:VoteSkip(9)
+
+-- [ Wave 10 ] --
+TDS:VoteSkip(10)
+
+-- [ Wave 11 ] --
+TDS:VoteSkip(11)
+TDS:Place("Gatling Gun", -7.058011054992676, 245.99295043945312, 167.1126708984375, true) -- 5
+
+-- [ Wave 12 ] --
+TDS:Place("Mercenary Base", -3.547811508178711, 243, 156.04556274414062, true) -- 6
+TDS:VoteSkip(12)
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:VoteSkip(13)
+TDS:Upgrade(5)
+
+-- [ Wave 15 ] --
+TDS:VoteSkip(15)
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Place("DJ Booth", -3.493298053741455, 243, 163.41259765625, true) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:SetOption(7, "Track", "Green")
+TDS:VoteSkip(16)
+TDS:Upgrade(7)
+
+-- [ Wave 17 ] --
+TDS:Ability(7, "Drop The Beat")
+TDS:Upgrade(6)
+TDS:VoteSkip(17)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 19 ] --
+TDS:Ability(7, "Drop The Beat")
+
+-- [ Wave 20 ] --
+TDS:Upgrade(6)
+TDS:SetOption(6, "Unit 1", "Riot Guard")
+TDS:SetOption(6, "Unit 2", "Riot Guard")
+TDS:SetOption(6, "Unit 3", "Riot Guard")
+TDS:VoteSkip(20)
+TDS:Place("Mercenary Base", -5.761146068572998, 243, 159.43942260742188, true) -- 8
+
+-- [ Wave 21 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Ability(7, "Drop The Beat")
+TDS:VoteSkip(21)
+TDS:Upgrade(8)
+
+-- [ Wave 22 ] --
+TDS:VoteSkip(22)
+TDS:Upgrade(8)
+TDS:SetOption(8, "Unit 1", "Riot Guard")
+TDS:SetOption(8, "Unit 2", "Riot Guard")
+TDS:SetOption(8, "Unit 3", "Riot Guard")
+
+-- [ Wave 23 ] --
+TDS:Ability(7, "Drop The Beat")
+TDS:VoteSkip(23)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(5)
+TDS:Ability(7, "Drop The Beat")
+TDS:Place("Mercenary Base", -3.6096158027648926, 243, 167.40122985839844, true) -- 9
+TDS:VoteSkip(24)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(9)
+TDS:SetOption(9, "Unit 1", "Riot Guard")
+TDS:SetOption(9, "Unit 2", "Riot Guard")
+TDS:SetOption(9, "Unit 3", "Riot Guard")
+TDS:Ability(7, "Drop The Beat")
+TDS:Upgrade(9)
+TDS:Ability(9, "Air-Drop", {directionCFrame = CFrame.new(0, 243.12501525878906, 154.6653594970703, -0.8562888503074646, 0, -0.5164973139762878, 0, 1, -0, 0.5164973139762878, -0, -0.8562888503074646), dist = 140, pathName = 1})
+
+-- [ Wave 26 ] --
+TDS:Upgrade(6)
+TDS:SetOption(6, "Unit 3", "Field Medic")
+TDS:Ability(6, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9989663362503052, 0, -0.04545660316944122, 0, 1, -0, 0.04545660316944122, -0, -0.9989663362503052), dist = 140, pathName = 1})
+TDS:Ability(7, "Drop The Beat")
+
+-- [ Wave 27 ] --
+TDS:Upgrade(8)
+TDS:Ability(8, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9992215037345886, 0, -0.039450861513614655, 0, 1, -0, 0.039450861513614655, -0, -0.9992215037345886), dist = 140, pathName = 1})
+TDS:Ability(9, "Air-Drop", {directionCFrame = CFrame.new(0, 243.12501525878906, 156.6805419921875, -0.7226908802986145, 0, -0.6911713480949402, 0, 0.9999999403953552, -0, 0.691171407699585, -0, -0.7226908206939697), dist = 140, pathName = 1})
+
+-- [ Wave 28 ] --
+TDS:Ability(7, "Drop The Beat")
+TDS:Ability(6, "Air-Drop", {directionCFrame = CFrame.new(0, 243.12501525878906, 158.12933349609375, -0.6580429077148438, 0, -0.7529804110527039, 0, 1, -0, 0.7529804110527039, -0, -0.6580429077148438), dist = 132.8599853515625, pathName = 1})
+TDS:Upgrade(5)
+TDS:Ability(8, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9988043904304504, 0, -0.048886988312006, 0, 1, -0, 0.048886995762586594, -0, -0.9988042712211609), dist = 132.8599853515625, pathName = 1})
+TDS:Ability(7, "Drop The Beat")
+TDS:Place("Hacker", -2.7357749938964844, 242.99996948242188, 235.67721557617188) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 29 ] --
+TDS:Place("Hacker", -2.921074390411377, 242.99998474121094, 266.63568115234375) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Ability(9, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9994136691093445, 0, -0.0342407189309597, 0, 1.0000001192092896, -0, 0.0342407189309597, -0, -0.9994136691093445), dist = 109.5, pathName = 1})
+TDS:Ability(6, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9988806247711182, 0, -0.04730311408638954, 0, 0.9999999403953552, -0, 0.04730312153697014, -0, -0.9988805055618286), dist = 119.53999328613281, pathName = 1})
+TDS:VoteSkip(29)
+
+-- [ Wave 30 ] --
+TDS:Ability(8, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9980437159538269, 0, -0.06252054125070572, 0, 1.0000001192092896, -0, 0.06252054125070572, -0, -0.9980437159538269), dist = 125.94000244140625, pathName = 1})
+TDS:Upgrade(9)
+TDS:Ability(9, "Air-Drop", {directionCFrame = CFrame.new(0, 243.125, 170.23812866210938, -0.44926533102989197, 0, -0.8933984637260437, 0, 1.0000001192092896, -0, 0.8933984637260437, -0, -0.44926533102989197), dist = 125.94000244140625, pathName = 1})
+TDS:Ability(7, "Drop The Beat")
+TDS:VoteSkip(30)
+TDS:Ability(6, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9981885552406311, 0, -0.060163989663124084, 0, 1, -0, 0.06016399711370468, -0, -0.9981884360313416), dist = 119.53999328613281, pathName = 1})
+
+-- [ Wave 31 ] --
+TDS:Ability(8, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9983149170875549, 0, -0.05802871286869049, 0, 1, -0, 0.05802871286869049, -0, -0.9983149170875549), dist = 125.94000244140625, pathName = 1})
+TDS:Upgrade(8)
+TDS:Ability(9, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9995362758636475, 0, -0.03045348823070526, 0, 1.0000001192092896, -0, 0.03045349195599556, -0, -0.9995361566543579), dist = 140, pathName = 1})
+
+-- [ Wave 32 ] --
+TDS:Ability(7, "Drop The Beat")
+TDS:Upgrade(10)
+TDS:Ability(6, "Air-Drop", {directionCFrame = CFrame.new(0, 243.125, 171.78692626953125, -0.4639585018157959, 0, -0.8858569264411926, 0, 1, -0, 0.8858569264411926, -0, -0.4639585018157959), dist = 119.53999328613281, pathName = 1})
+TDS:Ability(10, "Hologram Tower")
+TDS:Ability(8, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9987367987632751, 0, -0.05024758726358414, 0, 1, -0, 0.05024758726358414, -0, -0.9987367987632751), dist = 132.8599853515625, pathName = 1})
+TDS:Ability(7, "Drop The Beat")
+TDS:VoteSkip(32)
+TDS:VoteSkip(32)
+TDS:SetOption(7, "Track", "Red")
+
+-- [ Wave 33 ] --
+TDS:Ability(10, "Hologram Tower", {towerPosition = Vector3.new(-25.014015197753906, 243, 172.2784881591797), towerToClone = 5})
+TDS:Ability(9, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.998955488204956, 0, -0.04569554328918457, 0, 1.0000001192092896, -0, 0.04569554328918457, -0, -0.998955488204956), dist = 132.8599853515625, pathName = 1})
+TDS:Upgrade(6)
+TDS:Ability(6, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.998955488204956, 0, -0.04569554328918457, 0, 1.0000001192092896, -0, 0.04569554328918457, -0, -0.998955488204956), dist = 132.8599853515625, pathName = 1})
+TDS:Ability(7, "Drop The Beat")
+TDS:Ability(8, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.998955488204956, 0, -0.04569554328918457, 0, 1.0000001192092896, -0, 0.04569554328918457, -0, -0.998955488204956), dist = 132.8599853515625, pathName = 1})
+TDS:Ability(9, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9973772764205933, 0, -0.07237859070301056, 0, 0.9999999403953552, -0, 0.07237859815359116, -0, -0.9973771572113037), dist = 125.94000244140625, pathName = 1})
+TDS:VoteSkip(33)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(5)
+TDS:Ability(6, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9974912405014038, 0, -0.07078994065523148, 0, 1, -0, 0.07078994065523148, -0, -0.9974912405014038), dist = 125.94000244140625, pathName = 1})
+TDS:Ability(8, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9974912405014038, 0, -0.07078994065523148, 0, 1, -0, 0.07078994065523148, -0, -0.9974912405014038), dist = 125.94000244140625, pathName = 1})
+TDS:Ability(7, "Drop The Beat")
+TDS:VoteSkip(34)
+TDS:Ability(9, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9974912405014038, 0, -0.07078994065523148, 0, 1, -0, 0.07078994065523148, -0, -0.9974912405014038), dist = 119.53999328613281, pathName = 1})
+
+-- [ Wave 35 ] --
+TDS:Ability(6, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9974912405014038, 0, -0.07078994065523148, 0, 1, -0, 0.07078994065523148, -0, -0.9974912405014038), dist = 125.94000244140625, pathName = 1})
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Ability(8, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9974912405014038, 0, -0.07078994065523148, 0, 1, -0, 0.07078994065523148, -0, -0.9974912405014038), dist = 132.8599853515625, pathName = 1})
+TDS:Ability(7, "Drop The Beat")
+TDS:Ability(9, "Air-Drop", {directionCFrame = CFrame.new(0, 243.12501525878906, 175.47389221191406, -0.10797424614429474, 0, -0.9941536784172058, 0, 1.0000001192092896, -0, 0.9941537976264954, -0, -0.10797423124313354), dist = 119.53999328613281, pathName = 1})
+
+-- [ Wave 36 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Ability(6, "Air-Drop", {directionCFrame = CFrame.new(0, 243.125, 186.5117950439453, -0.8323648571968079, 0, -0.5542281270027161, 0, 1.0000001192092896, -0, 0.5542281270027161, -0, -0.8323648571968079), dist = 104.77200317382812, pathName = 1})
+TDS:Ability(8, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.998680591583252, 0, -0.05135440453886986, 0, 1.0000001192092896, -0, 0.051354411989450455, -0, -0.9986804723739624), dist = 113.96000671386719, pathName = 1})
+TDS:Ability(7, "Drop The Beat")
+
+-- [ Wave 37 ] --
+TDS:Upgrade(11)
+TDS:Ability(9, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9922615885734558, 0, -0.12416504323482513, 0, 1, -0, 0.12416504323482513, -0, -0.9922615885734558), dist = 106.50398254394531, pathName = 1})
+TDS:Upgrade(10)
+TDS:Upgrade(10, 2)
+TDS:Ability(6, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9919917583465576, 0, -0.1263027936220169, 0, 1, -0, 0.1263027936220169, -0, -0.9919917583465576), dist = 104.77200317382812, pathName = 1})
+TDS:Ability(8, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9920057058334351, 0, -0.1261935532093048, 0, 1.0000001192092896, -0, 0.1261935532093048, -0, -0.9920057058334351), dist = 106.50398254394531, pathName = 1})
+TDS:VoteSkip(37)
+
+-- [ Wave 38 ] --
+TDS:Ability(7, "Drop The Beat")
+TDS:Ability(10, "Hologram Tower")
+TDS:Ability(9, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.994152307510376, 0, -0.1079874187707901, 0, 1, -0, 0.1079874336719513, -0, -0.9941521883010864), dist = 104.77200317382812, pathName = 1})
+TDS:Ability(6, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.994152307510376, 0, -0.1079874187707901, 0, 1, -0, 0.1079874336719513, -0, -0.9941521883010864), dist = 119.53999328613281, pathName = 1})
+TDS:Ability(8, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.994152307510376, 0, -0.1079874038696289, 0, 1, -0, 0.1079874187707901, -0, -0.9941521883010864), dist = 119.53999328613281, pathName = 1})
+
+-- [ Wave 39 ] --
+TDS:Ability(9, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.994152307510376, 0, -0.1079874187707901, 0, 1, -0, 0.1079874336719513, -0, -0.9941521883010864), dist = 113.96000671386719, pathName = 1})
+TDS:Ability(6, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.994152307510376, 0, -0.1079874187707901, 0, 1, -0, 0.1079874336719513, -0, -0.9941521883010864), dist = 113.96000671386719, pathName = 1})
+TDS:Ability(10, "Hologram Tower", {towerPosition = Vector3.new(-24.386852264404297, 243, 171.13214111328125), towerToClone = 5})
+TDS:Ability(8, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9937103986740112, 0, -0.11198069900274277, 0, 1, -0, 0.11198069900274277, -0, -0.9937103986740112), dist = 104.77200317382812, pathName = 1})
+
+-- [ Wave 40 ] --
+TDS:Ability(7, "Drop The Beat")
+TDS:Ability(9, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9921349883079529, 0, -0.12517313659191132, 0, 1, -0, 0.1251731514930725, -0, -0.9921348690986633), dist = 109.5, pathName = 1})
+TDS:Ability(11, "Hologram Tower")
+TDS:Ability(6, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9917482137680054, 0, -0.1282009333372116, 0, 1, -0, 0.1282009333372116, -0, -0.9917482137680054), dist = 109.5, pathName = 1})
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:SetOption(2, "Trap", "Bear Traps")
+TDS:SetOption(1, "Trap", "Bear Traps")
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:SetOption(3, "Trap", "Bear Traps")
+TDS:Ability(8, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9917482137680054, 0, -0.1282009333372116, 0, 1, -0, 0.1282009333372116, -0, -0.9917482137680054), dist = 113.96000671386719, pathName = 1})
+TDS:Ability(10, "Hologram Tower")
+TDS:Ability(9, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9917482137680054, 0, -0.1282009333372116, 0, 1, -0, 0.1282009333372116, -0, -0.9917482137680054), dist = 109.5, pathName = 1})
+TDS:Ability(6, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9917482137680054, 0, -0.1282009333372116, 0, 1, -0, 0.1282009333372116, -0, -0.9917482137680054), dist = 109.5, pathName = 1})
+TDS:Ability(7, "Drop The Beat")
+TDS:Ability(8, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9917482137680054, 0, -0.1282009333372116, 0, 1, -0, 0.1282009333372116, -0, -0.9917482137680054), dist = 104.77200317382812, pathName = 1})
+TDS:Ability(10, "Hologram Tower")
+TDS:Ability(9, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9917482137680054, 0, -0.1282009333372116, 0, 1, -0, 0.1282009333372116, -0, -0.9917482137680054), dist = 100.72799682617188, pathName = 1})
+TDS:Ability(10, "Hologram Tower", {towerPosition = Vector3.new(14.979513168334961, 243, 174.2237548828125), towerToClone = 5})
+TDS:Ability(6, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9917482137680054, 0, -0.1282009333372116, 0, 1, -0, 0.1282009333372116, -0, -0.9917482137680054), dist = 97.27198791503906, pathName = 1})
+TDS:Ability(10, "Hologram Tower", {towerPosition = Vector3.new(15.232368469238281, 243, 173.94619750976562), towerToClone = 5})
+TDS:Ability(10, "Hologram Tower", {towerPosition = Vector3.new(15.082601547241211, 243, 174.01510620117188), towerToClone = 5})
+TDS:Ability(8, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9917482137680054, 0, -0.1282009333372116, 0, 1, -0, 0.1282009333372116, -0, -0.9917482137680054), dist = 113.96000671386719, pathName = 1})
+
+-- [[ END OF STRATEGY ]]

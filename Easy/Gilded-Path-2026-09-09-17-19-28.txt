@@ -1,0 +1,128 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("EvolvedOperator", "Soldier", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Gilded Path", {"Glass"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Soldier", -0.3489508628845215, 0.9614115953445435, 16.51561164855957) -- 1
+
+-- [ Wave 1 ] --
+TDS:Place("Soldier", -3.2276570796966553, 1.0113742351531982, 15.439360618591309) -- 2
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", 2.5158772468566895, 0.9600518941879272, 17.743675231933594) -- 3
+
+-- [ Wave 3 ] --
+TDS:Place("Soldier", 0.10143041610717773, 0.9670004844665527, 19.676895141601562) -- 4
+
+-- [ Wave 4 ] --
+TDS:Place("Soldier", -2.873054265975952, 1.0119320154190063, 18.86600685119629) -- 5
+
+-- [ Wave 5 ] --
+TDS:Place("Soldier", 3.047473192214966, 0.9652457237243652, 20.71639633178711) -- 6
+TDS:Place("Soldier", 0.6214480400085449, 0.972516655921936, 22.846771240234375) -- 7
+TDS:Place("Soldier", -2.2900443077087402, 0.9747276306152344, 22.063888549804688) -- 8
+
+-- [ Wave 6 ] --
+TDS:Place("Soldier", -5.200800895690918, 0.9765642881393433, 21.089557647705078) -- 9
+TDS:Place("Soldier", -5.789488792419434, 0.9714491367340088, 18.08005142211914) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 11 ] --
+TDS:Place("EvolvedOperator", 0.5594797134399414, 0.973069429397583, 25.815502166748047) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 12 ] --
+TDS:Place("EvolvedOperator", -3.842193603515625, 0.9817283153533936, 24.630870819091797) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+
+-- [ Wave 17 ] --
+TDS:Place("EvolvedOperator", 8.083847045898438, 0.9418506026268005, 12.59315013885498) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(6)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]

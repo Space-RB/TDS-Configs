@@ -1,0 +1,65 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Engineer", "Minigunner", "Farm", "Shotgunner", "Crook Boss")
+TDS:Mode("Molten")
+TDS:GameInfo("Coral Deep", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 1 ] --
+TDS:Place("Engineer", 394.30, 54.13, -108.78) -- 1
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Engineer", 391.22, 54.54, -109.72) -- 2
+TDS:Place("Farm", 407.20, 52.77, -100.02) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", 407.58, 52.47, -103.96) -- 4
+TDS:Upgrade(4)
+TDS:Place("Farm", 407.21, 52.49, -108.21) -- 5
+TDS:Upgrade(5)
+
+-- [ Wave 5 ] --
+TDS:Place("Farm", 410.90, 53.75, -100.34) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", 411.44, 52.83, -104.19) -- 7
+TDS:Upgrade(7)
+TDS:Place("Farm", 411.79, 52.45, -108.21) -- 8
+TDS:Upgrade(8)
+
+-- [ Wave 7 ] --
+TDS:Place("Shotgunner", 438.06, 49.60, -118.37) -- 9
+
+-- [ Wave 8 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 9 ] --
+TDS:Place("Shotgunner", 394.69, 54.14, -113.03) -- 10
+
+-- [[ END OF STRATEGY ]]

@@ -1,0 +1,287 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoMercenary = true -- Automatically uses Mercenary Base ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Mercenary Base", "Hacker", "Gatling Gun", "EvolvedEnforcer", "Farm")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {"HiddenEnemies", "ExplodingEnemies", "Limitation", "Committed", "Fog"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Farm", -10.800009727478027, 1.545933485031128, 24.772171020507812) -- 1
+TDS:Place("Farm", -11.23302173614502, 1.5110948085784912, 28.971763610839844) -- 2
+TDS:Place("Farm", -11.545028686523438, 1.4186151027679443, 33.660247802734375) -- 3
+TDS:Place("Farm", -15.072225570678711, 1.559543490409851, 26.227935791015625) -- 4
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(4)
+TDS:Place("Farm", -11.557319641113281, 1.314777135848999, 37.74683380126953) -- 5
+TDS:Place("Farm", -15.254596710205078, 1.5500837564468384, 30.90814971923828) -- 6
+
+-- [ Wave 3 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Place("Farm", -15.428126335144043, 1.4412771463394165, 35.5020637512207) -- 7
+TDS:Place("Farm", -15.994909286499023, 1.1867034435272217, 39.576560974121094) -- 8
+
+-- [ Wave 4 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Place("Farm", -19.02024269104004, 1.4836393594741821, 26.670188903808594) -- 9
+TDS:Upgrade(9)
+TDS:Place("Farm", -19.275474548339844, 1.43551504611969, 31.185775756835938) -- 10
+TDS:Upgrade(10)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+TDS:Upgrade(10)
+
+-- [ Wave 11 ] --
+TDS:Place("Gatling Gun", -5.35050106048584, 1.3813166618347168, 39.5421028137207) -- 11
+TDS:Upgrade(9)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(11)
+
+-- [ Wave 13 ] --
+TDS:Place("EvolvedEnforcer", 13.43955135345459, 1.2204675674438477, 27.387590408325195) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 15 ] --
+TDS:Place("EvolvedEnforcer", 13.673782348632812, 0.9734838008880615, 19.02589225769043) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(2)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Place("Mercenary Base", 1.8695735931396484, 1.4216551780700684, 43.56096649169922) -- 14
+
+-- [ Wave 18 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(14)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(14)
+TDS:Place("Mercenary Base", 2.1118059158325195, 1.4421663284301758, 38.95380783081055) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(8)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(15)
+TDS:Place("Mercenary Base", -4.492135047912598, 1.5028901100158691, 33.2520866394043) -- 16
+
+-- [ Wave 23 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:SetOption(16, "Unit 1", "Riot Guard")
+TDS:SetOption(16, "Unit 2", "Riot Guard")
+TDS:SetOption(16, "Unit 3", "Riot Guard")
+
+-- [ Wave 25 ] --
+TDS:Place("EvolvedEnforcer", -0.7731084823608398, 0.7054682970046997, -23.216970443725586) -- 17
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:SetOption(15, "Unit 1", "Riot Guard")
+TDS:SetOption(15, "Unit 2", "Riot Guard")
+TDS:SetOption(15, "Unit 3", "Riot Guard")
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:SetOption(14, "Unit 1", "Riot Guard")
+TDS:SetOption(14, "Unit 2", "Riot Guard")
+TDS:SetOption(14, "Unit 3", "Riot Guard")
+
+-- [ Wave 30 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(16)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(14)
+
+-- [ Wave 33 ] --
+TDS:Place("Hacker", 8.028169631958008, 0.6490495204925537, 17.518590927124023) -- 18
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Ability(18, "Hologram Tower", {towerPosition = Vector3.new(3.6719675064086914, 1.4217448234558105, 30.666519165039062), towerToClone = 11})
+TDS:Upgrade(11)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(15)
+TDS:VoteSkip(34)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(15)
+TDS:Ability(16, "Air-Drop", {directionCFrame = CFrame.new(4.391794204711914, 0.3414115905761719, 8.240169525146484, 0.9126672148704529, 0, -0.4087035357952118, -0, 1, -0, 0.4087035357952118, 0, 0.9126672148704529), dist = 155.8195731639862, pathName = 1})
+TDS:Ability(15, "Air-Drop", {directionCFrame = CFrame.new(4.434743404388428, 0.3427235782146454, 8.28446102142334, 0.9132788181304932, 0, -0.407335102558136, -0, 1, -0, 0.40733516216278076, 0, 0.9132786989212036), dist = 155.8195731639862, pathName = 1})
+TDS:Ability(14, "Air-Drop", {directionCFrame = CFrame.new(4.434743404388428, 0.3427235782146454, 8.28446102142334, 0.9132788181304932, 0, -0.407335102558136, -0, 1, -0, 0.40733516216278076, 0, 0.9132786989212036), dist = 155.8195731639862, pathName = 1})
+TDS:VoteSkip(35)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(18)
+TDS:Upgrade(18, 2)
+TDS:Place("Hacker", -3.1489267349243164, 0.9901659488677979, -33.35675048828125) -- 19
+
+-- [ Wave 37 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:VoteSkip(37)
+
+-- [ Wave 38 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:VoteSkip(38)
+
+-- [ Wave 39 ] --
+TDS:VoteSkip(39)
+
+-- [ Wave 40 ] --
+TDS:Ability(19, "Hologram Tower")
+TDS:Ability(18, "Hologram Tower", {towerPosition = Vector3.new(3.523613929748535, 1.4240086078643799, 31.000438690185547), towerToClone = 11})
+
+-- [ Wave 41 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("EvolvedEnforcer", -6.249757766723633, 0.9580497741699219, -32.1690559387207) -- 20
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("EvolvedEnforcer", 0.16629600524902344, 1.0001728534698486, -33.097412109375) -- 21
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+
+-- [ Wave 42 ] --
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+
+-- [ Wave 43 ] --
+TDS:Ability(18, "Hologram Tower")
+TDS:Ability(18, "Hologram Tower", {towerPosition = Vector3.new(3.800238609313965, 1.4215737581253052, 31.06378936767578), towerToClone = 11})
+
+-- [ Wave 44 ] --
+TDS:VoteSkip(44)
+
+-- [ Wave 45 ] --
+TDS:Ability(18, "Hologram Tower", {towerPosition = Vector3.new(3.4750142097473145, 1.4209585189819336, 29.55992317199707), towerToClone = 11})
+TDS:Ability(16, "Air-Drop", {directionCFrame = CFrame.new(-0.9110597968101501, 0.1748226433992386, 3.3747198581695557, 0.6917713284492493, 0, -0.7221166491508484, -0, 1, -0, 0.7221167087554932, 0, 0.6917712688446045), dist = 148.19475746154785, pathName = 1})
+TDS:Ability(15, "Air-Drop", {directionCFrame = CFrame.new(-0.9486677050590515, 0.17356212437152863, 3.3505821228027344, 0.6908721327781677, 0, -0.7229769229888916, -0, 0.9999998807907104, -0, 0.7229769825935364, 0, 0.690872073173523), dist = 148.19475746154785, pathName = 1})
+TDS:Ability(14, "Air-Drop", {directionCFrame = CFrame.new(-0.9777175784111023, 0.17258843779563904, 3.331937074661255, 0.6901772022247314, 0, -0.7236403822898865, -0, 1, -0, 0.7236403822898865, 0, 0.6901772022247314), dist = 148.19475746154785, pathName = 1})
+TDS:Ability(19, "Hologram Tower", {towerPosition = Vector3.new(2.579531669616699, 1.4329626560211182, 31.03154182434082), towerToClone = 11})
+TDS:Ability(19, "Hologram Tower", {towerPosition = Vector3.new(1.6959176063537598, 1.4438862800598145, 32.037166595458984), towerToClone = 11})
+TDS:Ability(16, "Air-Drop", {directionCFrame = CFrame.new(6.599495887756348, 0.4086129367351532, 10.54814624786377, 0.8598214387893677, 0, -0.5105949640274048, -0, 1.0000001192092896, -0, 0.5105949640274048, 0, 0.8598214387893677), dist = 158.43416905403137, pathName = 1})
+TDS:Ability(15, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, 0.48505109548568726, 0, -0.8744857907295227, -0, 1, -0, 0.8744859099388123, 0, 0.4850510358810425), dist = 160.40947365760803, pathName = 1})
+TDS:Ability(14, "Air-Drop", {directionCFrame = CFrame.new(9.110198974609375, 0.49058347940444946, 13.340081214904785, 0.9219836592674255, 0, -0.3872288763523102, -0, 1, -0, 0.3872288763523102, 0, 0.9219836592674255), dist = 162.33486956357956, pathName = 1})
+
+-- [[ END OF STRATEGY ]]

@@ -1,0 +1,68 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AutoMercenary = true -- Automatically uses Mercenary Base ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Gatling Gun", "Mercenary Base", "DJ Booth", "Hacker", "Trapper")
+TDS:Mode("Frost")
+TDS:GameInfo("Lay By", {"HiddenEnemies", "Broke", "Committed", "ExplodingEnemies", "Limitation", "Quarantine", "Fog", "SpeedyEnemies"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 10 ] --
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+TDS:Sell(5)
+TDS:Place("Trapper", -2.925196647644043, 242.99998474121094, 175.8734588623047, true) -- 6
+
+-- [ Wave 1 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", 2.7756502628326416, 243, 175.9156036376953, true) -- 7
+
+-- [ Wave 3 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 4 ] --
+TDS:Place("Trapper", 2.797910690307617, 243, 171.16831970214844, true) -- 8
+
+-- [ Wave 5 ] --
+TDS:Upgrade(8)
+TDS:Place("Trapper", -2.530085563659668, 243, 171.08993530273438, true) -- 9
+
+-- [ Wave 6 ] --
+TDS:Upgrade(9)
+TDS:Place("Trapper", -2.8126163482666016, 243, 166.34432983398438, true) -- 10
+
+-- [ Wave 7 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]

@@ -1,0 +1,112 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Farm", "Mortar", "Turret", "Pyromancer", "Crook Boss")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Farm", -25.06399154663086, 1.6454249620437622, 27.710233688354492) -- 1
+TDS:Upgrade(1)
+TDS:Place("Farm", -24.90151596069336, 1.3451582193374634, 31.4205265045166) -- 2
+TDS:Upgrade(2)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", -24.88150405883789, 1.2514723539352417, 35.13774490356445) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Place("Farm", -21.180709838867188, 1.3900433778762817, 34.968589782714844) -- 4
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Place("Farm", -20.97740936279297, 1.186143159866333, 38.621177673339844) -- 5
+TDS:Upgrade(5)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Place("Pyromancer", 1.2137670516967773, 1.4524831771850586, 33.598175048828125) -- 6
+TDS:Upgrade(6)
+TDS:Place("Farm", -20.927017211914062, 1.3738969564437866, 31.29292106628418) -- 7
+TDS:Upgrade(7)
+TDS:Place("Farm", -17.164047241210938, 1.5019179582595825, 30.879989624023438) -- 8
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(8)
+TDS:Place("Farm", -17.22933578491211, 1.4615229368209839, 34.813682556152344) -- 9
+TDS:Upgrade(9)
+TDS:Place("Farm", -17.015186309814453, 1.214778184890747, 38.7849006652832) -- 10
+
+-- [ Wave 9 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(5)
+TDS:Place("Farm", -24.933292388916016, 1.0539426803588867, 39.02458572387695) -- 11
+TDS:Upgrade(11)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Place("Mortar", 9.811347961425781, 3.4251747131347656, 6.851046562194824) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(12)
+TDS:Place("Mortar", 7.473423004150391, 3.127448558807373, 4.799811363220215) -- 13
+
+-- [ Wave 15 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [[ END OF STRATEGY ]]

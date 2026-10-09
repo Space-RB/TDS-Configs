@@ -1,0 +1,37 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("DJ Booth", "EvolvedJuggernaut", "EvolvedKingpin", "Demoman", "Farm")
+TDS:Mode("Trial")
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 5 ] --
+TDS:VoteSkip(5)
+TDS:Place("Farm", 85.9964599609375, 28.295780181884766, -150.30694580078125, true) -- 7
+TDS:Place("Farm", 85.66584014892578, 28.32636833190918, -144.6766815185547, true) -- 8
+TDS:Place("Farm", 84.88726806640625, 28.313764572143555, -147.57366943359375, true) -- 9
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", 83.00682830810547, 28.388402938842773, -144.25146484375, true) -- 10
+
+-- [[ END OF STRATEGY ]]

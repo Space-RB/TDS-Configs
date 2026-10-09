@@ -1,0 +1,60 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("EvolvedJuggernaut", "Pyromancer", "Hunter", "None", "None")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Pyromancer", -6.1138505935668945, 0.9570655822753906, -32.15786361694336) -- 1
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Place("Hunter", 5.9452667236328125, 1.394410490989685, 28.107973098754883) -- 2
+
+-- [ Wave 13 ] --
+TDS:Place("Hunter", 2.843661308288574, 1.4238767623901367, 28.053672790527344) -- 3
+
+-- [ Wave 14 ] --
+TDS:Place("Hunter", 5.429495811462402, 1.393819808959961, 31.794795989990234) -- 4
+
+-- [ Wave 16 ] --
+TDS:Place("Hunter", 2.4607009887695312, 1.434436559677124, 31.168601989746094) -- 5
+
+-- [ Wave 20 ] --
+TDS:Place("EvolvedJuggernaut", 3.774423122406006, 0.8834723234176636, 18.055410385131836, true) -- 6
+
+-- [ Wave 22 ] --
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]

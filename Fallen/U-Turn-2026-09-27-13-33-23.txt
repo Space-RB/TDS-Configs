@@ -1,0 +1,78 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoChain = true -- Enables automatic commander chain logic if used by the script
+_G.SupportCaravan = false -- Automatically uses Support Caravan ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Pyromancer", "EvolvedEnforcer", "EvolvedJuggernaut", "Commander", "Farm")
+TDS:Mode("Fallen")
+TDS:GameInfo("U-Turn", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 17 ] --
+TDS:Place("EvolvedEnforcer", 13.150218963623047, 1.0000064373016357, 3.0264530181884766, true) -- 1
+TDS:Place("EvolvedEnforcer", 12.99743366241455, 3.632248640060425, 4.682606220245361, true) -- 2
+TDS:Place("EvolvedEnforcer", 13.111598014831543, 3.4674129486083984, 4.97270393371582, true) -- 3
+TDS:Place("EvolvedEnforcer", 13.297137260437012, 3.4358816146850586, 5.076567649841309, true) -- 4
+TDS:Place("EvolvedEnforcer", 13.413150787353516, 3.3946752548217773, 5.353954792022705, true) -- 5
+
+-- [ Wave 19 ] --
+TDS:Upgrade(2)
+TDS:Place("EvolvedEnforcer", 12.993101119995117, 4.841322422027588, 5.831907272338867, true) -- 6
+TDS:Place("EvolvedEnforcer", 12.926558494567871, 4.165319919586182, 7.0228095054626465, true) -- 7
+TDS:Place("EvolvedEnforcer", 13.301823616027832, 5.865533828735352, 7.256326675415039, true) -- 8
+TDS:Place("EvolvedEnforcer", 12.262601852416992, 1.0000064373016357, 8.647174835205078, true) -- 9
+TDS:Place("EvolvedEnforcer", 13.270084381103516, 5.699171543121338, 7.1950201988220215, true) -- 10
+TDS:Place("EvolvedEnforcer", 12.145212173461914, 4.079702854156494, 4.473809242248535, true) -- 11
+TDS:Place("EvolvedEnforcer", 13.094444274902344, 6.440938472747803, 5.2504801750183105, true) -- 12
+TDS:Place("EvolvedEnforcer", 12.057254791259766, 2.8247013092041016, 5.026145935058594, true) -- 13
+TDS:Place("EvolvedEnforcer", 13.8372220993042, 6.41641902923584, 5.728980541229248, true) -- 14
+TDS:Upgrade(14)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(11)
+TDS:Place("EvolvedEnforcer", 9.773868560791016, 1.0000064373016357, 4.571937561035156) -- 15
+TDS:Place("EvolvedEnforcer", 15.349579811096191, 1.0000064373016357, 7.058597564697266) -- 16
+TDS:Upgrade(16)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(13)
+TDS:Place("EvolvedEnforcer", 14.816731452941895, 4.164803981781006, 7.202002048492432, true) -- 17
+TDS:Upgrade(12)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(17)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(17)
+
+-- [ Wave 24 ] --
+TDS:Place("EvolvedJuggernaut", 3.7503561973571777, 1.0000064373016357, -4.43310022354126) -- 18
+TDS:Upgrade(18)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(18)
+
+-- [[ END OF STRATEGY ]]

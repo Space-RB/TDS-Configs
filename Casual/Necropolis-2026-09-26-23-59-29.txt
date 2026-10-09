@@ -1,0 +1,60 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Scout", "Assassin", "Soldier", "Shotgunner", "Hunter")
+TDS:Mode("Casual")
+TDS:GameInfo("Necropolis", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 4 ] --
+TDS:Place("Assassin", 0.6781454086303711, 3.6006219387054443, -19.30284309387207, true) -- 1
+TDS:Place("Assassin", 0.6816039085388184, 3.5994324684143066, -19.3922061920166, true) -- 2
+TDS:Place("Assassin", 0.7040433287620544, 3.5994324684143066, -19.423498153686523, true) -- 3
+TDS:Place("Assassin", 0.7157964706420898, 3.5994324684143066, -19.427528381347656, true) -- 4
+TDS:Place("Assassin", 0.6159030795097351, 3.5994322299957275, -19.324951171875, true) -- 5
+TDS:Place("Assassin", 0.7503999471664429, 3.5994324684143066, -19.398624420166016, true) -- 6
+TDS:Place("Assassin", 0.7440557479858398, 3.5994322299957275, -19.340330123901367, true) -- 7
+TDS:Place("Assassin", 0.8125779032707214, 3.5994324684143066, -19.3029727935791, true) -- 8
+
+-- [ Wave 5 ] --
+TDS:Place("Assassin", 0.8399959802627563, 3.5994324684143066, -19.280824661254883, true) -- 9
+TDS:Place("Assassin", 0.7329038977622986, 3.5994324684143066, -19.21250343322754, true) -- 10
+TDS:Place("Assassin", 0.730144202709198, 3.5994324684143066, -19.19845962524414, true) -- 11
+TDS:Place("Assassin", 0.7356317639350891, 3.5994324684143066, -19.210689544677734, true) -- 12
+TDS:Place("Assassin", 0.7314193844795227, 3.5994324684143066, -19.205354690551758, true) -- 13
+
+-- [ Wave 8 ] --
+TDS:Place("Assassin", 0.8836402893066406, 3.5994324684143066, -19.24947166442871, true) -- 14
+TDS:Place("Assassin", 0.8028460144996643, 3.5994327068328857, -19.15289878845215, true) -- 15
+TDS:Place("Assassin", 0.792945384979248, 3.5994324684143066, -19.193071365356445, true) -- 16
+TDS:Place("Assassin", 0.7837855219841003, 3.5994324684143066, -19.122129440307617, true) -- 17
+TDS:Place("Assassin", 0.7607195377349854, 3.5994324684143066, -19.0999698638916, true) -- 18
+TDS:Place("Assassin", 0.7794066667556763, 3.5994324684143066, -19.101247787475586, true) -- 19
+TDS:Place("Assassin", 0.7685487270355225, 3.5994324684143066, -19.082441329956055, true) -- 20
+TDS:Place("Assassin", 0.7738471031188965, 3.5994324684143066, -19.058225631713867, true) -- 21
+TDS:Place("Assassin", 0.7642279863357544, 3.5994324684143066, -19.042640686035156, true) -- 22
+TDS:Place("Assassin", 0.740382969379425, 3.5994324684143066, -19.009075164794922, true) -- 23
+TDS:Place("Assassin", 0.7359033226966858, 3.5994327068328857, -18.987852096557617, true) -- 24
+TDS:Place("Assassin", 0.7182961702346802, 3.5994324684143066, -19.008821487426758, true) -- 25
+TDS:Place("Assassin", 0.7111309170722961, 3.5994327068328857, -19.018753051757812, true) -- 26
+
+-- [[ END OF STRATEGY ]]

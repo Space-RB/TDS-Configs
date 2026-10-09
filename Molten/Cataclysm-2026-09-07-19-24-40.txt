@@ -1,0 +1,57 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoChain = true -- Enables automatic commander chain logic if used by the script
+_G.SupportCaravan = false -- Automatically uses Support Caravan ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Gladiator", "Commander", "Shotgunner", "Crook Boss", "Pyromancer")
+TDS:Mode("Molten")
+TDS:GameInfo("Cataclysm", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Ready()
+TDS:Place("Gladiator", 0.18152189254760742, 1.0000081062316895, 35.24436950683594) -- 1
+
+-- [ Wave 2 ] --
+TDS:VoteSkip(2)
+TDS:Place("Gladiator", 0.4691157341003418, 1.0000081062316895, 37.3547477722168) -- 2
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Ability(1, "War Cry")
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:Place("Gladiator", 0.5069968700408936, 1.0000081062316895, 39.45116424560547) -- 3
+
+-- [ Wave 7 ] --
+TDS:Place("Gladiator", -1.5531847476959229, 1.0000081062316895, 37.00950241088867) -- 4
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Ability(1, "War Cry")
+
+-- [[ END OF STRATEGY ]]

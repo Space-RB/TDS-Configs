@@ -1,0 +1,81 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Pyromancer", "Shotgunner", "EvolvedEnforcer", "EvolvedKingpin", "EvolvedJuggernaut")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Pyromancer", -4.057895183563232, 1.0021851062774658, -35.24623489379883) -- 1
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Place("Shotgunner", -8.238240242004395, 0.9861246347427368, -32.80622863769531) -- 2
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", -6.222580909729004, 0.9628500938415527, -32.68830490112305) -- 3
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Place("Shotgunner", -7.353628158569336, 0.958366334438324, -30.967758178710938) -- 4
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Place("EvolvedEnforcer", 0.14275741577148438, 1.4542614221572876, 30.415771484375) -- 5
+
+-- [ Wave 19 ] --
+TDS:Place("EvolvedKingpin", 4.508144378662109, 1.331019639968872, 22.052461624145508) -- 6
+
+-- [ Wave 20 ] --
+TDS:SetOption(6, "Unit 1", "Money Runner")
+
+-- [ Wave 22 ] --
+TDS:Sell(1)
+TDS:Sell(4)
+TDS:Sell(3)
+TDS:Sell(2)
+TDS:Place("EvolvedJuggernaut", 7.162197589874268, 0.732293426990509, 17.84841537475586) -- 7
+
+-- [[ END OF STRATEGY ]]

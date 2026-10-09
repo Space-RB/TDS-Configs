@@ -1,0 +1,75 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Shotgunner", "Pyromancer", "None", "None", "None")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 3 ] --
+TDS:Place("Shotgunner", 6.4639177322387695, 1.3829665184020996, 29.19189453125) -- 1
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Place("Shotgunner", 4.277913570404053, 1.41273832321167, 29.24957275390625) -- 2
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 11 ] --
+TDS:Place("Pyromancer", -3.39802885055542, 0.9775395393371582, -32.253562927246094) -- 3
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 19 ] --
+TDS:Place("Shotgunner", 2.2709031105041504, 1.4321987628936768, 29.517810821533203) -- 4
+TDS:Upgrade(4)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 21 ] --
+TDS:Place("Shotgunner", 6.484580039978027, 1.3759411573410034, 31.236268997192383) -- 5
+TDS:Upgrade(5)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 23 ] --
+TDS:Place("Shotgunner", 4.501600742340088, 1.409759521484375, 31.699966430664062) -- 6
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]

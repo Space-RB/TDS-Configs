@@ -1,0 +1,96 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoChain = true -- Enables automatic commander chain logic if used by the script
+_G.SupportCaravan = false -- Automatically uses Support Caravan ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Commander", "Demoman", "Gatling Gun", "Hacker", "Accelerator")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 1 ] --
+TDS:Place("Demoman", -6.374080657958984, 0.9628109335899353, -32.51502227783203) -- 1
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 12 ] --
+TDS:Place("Gatling Gun", -10.502941131591797, 4.103979110717773, 10.619129180908203) -- 2
+
+-- [ Wave 14 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 23 ] --
+TDS:Place("Accelerator", -5.6219892501831055, -0.05174524337053299, -11.579978942871094) -- 3
+TDS:Place("Commander", -4.3734588623046875, -0.05126448720693588, -6.949282646179199) -- 4
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 27 ] --
+TDS:Place("Accelerator", -2.1342360973358154, 0.07944506406784058, -10.0068998336792) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 28 ] --
+TDS:Place("Commander", -8.508012771606445, -0.1465580016374588, 6.4683756828308105) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(4)
+TDS:Place("Accelerator", -9.258444786071777, -0.21613258123397827, -10.893383026123047) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 33 ] --
+TDS:Place("Accelerator", -0.3683290481567383, 1.4634521007537842, 32.10039138793945) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]

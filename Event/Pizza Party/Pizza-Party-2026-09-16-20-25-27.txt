@@ -1,0 +1,145 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Gatling Gun", "EvolvedOperator", "Farm", "EvolvedJuggernaut", "Hacker")
+TDS:Mode("PizzaParty")
+TDS:GameInfo("Pizza Party", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Ready()
+TDS:Place("EvolvedOperator", 7.9806694984436035, 1.0368709564208984, -12.846175193786621) -- 1
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", 8.0113525390625, 1.0368709564208984, -15.483390808105469) -- 2
+TDS:Place("Farm", -1.306107521057129, 1.0368709564208984, -7.992706775665283) -- 3
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", -2.3914337158203125, 1.0368709564208984, -13.725831985473633) -- 4
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Farm", -6.3419294357299805, 1.0368709564208984, -16.739788055419922) -- 5
+TDS:Upgrade(5)
+TDS:VoteSkip(5)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:VoteSkip(6)
+
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+
+-- [ Wave 8 ] --
+TDS:VoteSkip(8)
+
+-- [ Wave 9 ] --
+TDS:Place("Gatling Gun", -5.201100826263428, 7.007404327392578, -7.20770263671875) -- 6
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+TDS:Place("Farm", -7.722814559936523, 1.0368709564208984, -20.317367553710938) -- 7
+TDS:Place("Farm", -11.998652458190918, 1.0368709564208984, -22.246906280517578) -- 8
+TDS:Place("Farm", -12.371455192565918, 1.0368709564208984, -26.883304595947266) -- 9
+TDS:Place("Farm", -8.130278587341309, 1.0368709564208984, -30.142414093017578) -- 10
+TDS:Place("Farm", -3.7248597145080566, 1.0368709564208984, -28.54454803466797) -- 11
+TDS:Place("Farm", -0.09613090753555298, 1.0368709564208984, -25.946273803710938) -- 12
+TDS:Place("Farm", 1.124060869216919, 1.0368709564208984, -21.099185943603516) -- 13
+
+-- [ Wave 11 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:Upgrade(13)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+TDS:VoteSkip(15)
+TDS:Upgrade(3)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(5)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [[ END OF STRATEGY ]]

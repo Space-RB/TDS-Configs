@@ -1,0 +1,37 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Scout", "None", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Crossroads", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 3 ] --
+TDS:Place("Scout", 13.090436935424805, 0.9999982714653015, 10.599557876586914, true) -- 1
+TDS:Place("Scout", -5.540798187255859, 0.9999986290931702, 8.3027982711792, true) -- 2
+TDS:Place("Scout", -16.506441116333008, 0.9999991059303284, 5.470485687255859, true) -- 3
+TDS:Place("Scout", -11.236482620239258, 0.9999995231628418, 2.6832971572875977, true) -- 4
+TDS:Place("Scout", -8.861405372619629, 0.9999993443489075, 3.939157485961914, true) -- 5
+TDS:Place("Scout", -2.804533004760742, 1.0000085830688477, -7.497676849365234, true) -- 6
+TDS:Place("Scout", -6.37895393371582, 1.0000076293945312, -7.39642333984375, true) -- 7
+
+-- [[ END OF STRATEGY ]]

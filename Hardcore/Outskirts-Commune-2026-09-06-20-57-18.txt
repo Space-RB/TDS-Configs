@@ -1,0 +1,178 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Farm", "Minigunner", "Turret", "Gatling Gun", "EvolvedJuggernaut")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Outskirts Commune", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Farm", 1.2932841777801514, 505.29296875, -41.48093032836914) -- 1
+TDS:Place("Farm", 1.252671241760254, 505.3033142089844, -45.039573669433594) -- 2
+TDS:Place("Farm", 1.302331566810608, 505.2684020996094, -48.57166290283203) -- 3
+TDS:Place("Farm", 1.3386218547821045, 505.26446533203125, -52.15558624267578) -- 4
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:VoteSkip(1)
+TDS:Place("Farm", 1.3516738414764404, 505.2785339355469, -55.76902770996094) -- 5
+TDS:Upgrade(5)
+
+-- [ Wave 2 ] --
+TDS:VoteSkip(2)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", -2.2591309547424316, 505.29656982421875, -41.413856506347656) -- 6
+TDS:Upgrade(6)
+TDS:VoteSkip(3)
+TDS:Upgrade(6)
+
+-- [ Wave 4 ] --
+TDS:VoteSkip(4)
+TDS:Upgrade(6)
+
+-- [ Wave 5 ] --
+TDS:VoteSkip(5)
+TDS:Upgrade(1)
+TDS:Place("Farm", -2.367142677307129, 505.2848205566406, -44.99584197998047) -- 7
+TDS:Upgrade(7)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:VoteSkip(6)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:VoteSkip(7)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:VoteSkip(8)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Place("Minigunner", -9.204051971435547, 502.66058349609375, -11.330923080444336) -- 8
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(8)
+TDS:Place("Farm", -2.251117706298828, 505.26971435546875, -48.55717086791992) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Farm", -2.182616710662842, 505.27227783203125, -52.08354187011719) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Farm", -2.194727897644043, 505.2840881347656, -55.72108459472656) -- 11
+
+-- [ Wave 11 ] --
+TDS:Place("Minigunner", 6.283932685852051, 501.68450927734375, 8.856395721435547) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(4)
+TDS:Upgrade(9)
+
+-- [ Wave 14 ] --
+TDS:Place("Turret", 4.251551151275635, 501.6208190917969, 11.748335838317871) -- 13
+
+-- [ Wave 15 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 16 ] --
+TDS:Place("Gatling Gun", 4.3717546463012695, 505.3883972167969, 5.503167629241943) -- 14
+TDS:Upgrade(5)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(7)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(6)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(4)
+TDS:Upgrade(10)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(13)
+TDS:Place("EvolvedJuggernaut", -0.2636852264404297, 502.5556945800781, 1.7389039993286133, true) -- 15
+TDS:Upgrade(15)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(15, 2)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 31 ] --
+TDS:Ability(14, "FPS", {enabled = true})
+
+-- [ Wave 32 ] --
+TDS:Upgrade(14)
+
+-- [[ END OF STRATEGY ]]

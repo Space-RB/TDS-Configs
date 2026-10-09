@@ -1,0 +1,162 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Gatling Gun", "EvolvedOperator", "Farm", "Hacker", "EvolvedEnforcer")
+TDS:Mode("PizzaParty")
+TDS:GameInfo("Pizza Party", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Ready()
+TDS:Place("EvolvedOperator", 7.7134785652160645, 1.0368709564208984, -16.507217407226562) -- 1
+TDS:Place("EvolvedOperator", 7.77345609664917, 1.0368709564208984, -13.739503860473633) -- 2
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:VoteSkip(6)
+
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+
+-- [ Wave 8 ] --
+TDS:VoteSkip(8)
+
+-- [ Wave 9 ] --
+TDS:Place("Gatling Gun", -4.940751075744629, 7.007404327392578, -7.290014266967773) -- 3
+
+-- [ Wave 10 ] --
+TDS:Place("Farm", 23.438274383544922, 0.9999655485153198, -32.084224700927734) -- 4
+TDS:Place("Farm", 18.218679428100586, 1.0368709564208984, -32.46530532836914) -- 5
+TDS:Place("Farm", 22.931964874267578, 0.999941349029541, -27.33403778076172) -- 6
+TDS:Place("Farm", 23.189477920532227, 0.9999195337295532, -21.516143798828125) -- 7
+TDS:Place("Farm", 18.139896392822266, 1.0368709564208984, -26.949180603027344) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Place("EvolvedEnforcer", 12.332427978515625, 1.0368709564208984, -18.240585327148438) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(5)
+TDS:VoteSkip(15)
+TDS:Upgrade(3)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(9)
+TDS:Place("EvolvedEnforcer", 13.005114555358887, 1.0368709564208984, -16.218765258789062) -- 10
+TDS:Upgrade(10)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(10)
+TDS:Place("EvolvedEnforcer", 13.015226364135742, 1.0368709564208984, -14.182696342468262) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:VoteSkip(19)
+TDS:Upgrade(3)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+TDS:Place("Farm", 12.371788024902344, 0.9999087452888489, -39.853389739990234) -- 12
+TDS:Place("Farm", 12.564506530761719, 1.0368709564208984, -34.28327941894531) -- 13
+TDS:Place("Farm", 13.935194969177246, 1.0368709564208984, -30.280248641967773) -- 14
+TDS:Place("Farm", 7.420406341552734, 1.0000064373016357, -39.496986389160156) -- 15
+TDS:Place("Farm", 7.375040054321289, 1.0368709564208984, -33.85559844970703) -- 16
+TDS:Upgrade(14)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(12)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:VoteSkip(23)
+TDS:Place("EvolvedEnforcer", -5.79738187789917, 0.9999205470085144, 40.23915100097656) -- 17
+
+-- [ Wave 24 ] --
+TDS:Place("EvolvedEnforcer", -5.180824279785156, 0.9999342560768127, 38.000038146972656) -- 18
+
+-- [[ END OF STRATEGY ]]

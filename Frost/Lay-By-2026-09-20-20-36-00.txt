@@ -1,0 +1,188 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AutoMercenary = true -- Automatically uses Mercenary Base ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Trapper", "Hacker", "Mercenary Base", "Gatling Gun", "DJ Booth")
+TDS:Mode("Frost")
+TDS:GameInfo("Lay By", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Trapper", -2.5976667404174805, 243, 174.33151245117188) -- 1
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Place("Trapper", -2.617136001586914, 243, 171.25857543945312) -- 2
+
+-- [ Wave 2 ] --
+TDS:VoteSkip(2)
+TDS:Place("Trapper", 2.5436391830444336, 243, 166.12464904785156) -- 3
+
+-- [ Wave 3 ] --
+TDS:VoteSkip(3)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:VoteSkip(4)
+
+-- [ Wave 5 ] --
+TDS:VoteSkip(5)
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:VoteSkip(6)
+
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+TDS:VoteSkip(8)
+TDS:Upgrade(3)
+TDS:Place("Trapper", 2.5725088119506836, 243, 163.11155700683594) -- 4
+
+-- [ Wave 9 ] --
+TDS:VoteSkip(9)
+
+-- [ Wave 10 ] --
+TDS:VoteSkip(10)
+
+-- [ Wave 11 ] --
+TDS:VoteSkip(11)
+TDS:Place("Gatling Gun", -6.265664100646973, 245.99295043945312, 166.14447021484375) -- 5
+
+-- [ Wave 12 ] --
+TDS:VoteSkip(12)
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:VoteSkip(13)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 15 ] --
+TDS:Place("Mercenary Base", -3.0597453117370605, 243, 155.0375213623047) -- 6
+TDS:Upgrade(6)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 17 ] --
+TDS:VoteSkip(17)
+TDS:Upgrade(6)
+
+-- [ Wave 19 ] --
+TDS:VoteSkip(19)
+TDS:Upgrade(6)
+TDS:SetOption(6, "Unit 1", "Riot Guard")
+TDS:SetOption(6, "Unit 2", "Riot Guard")
+TDS:SetOption(6, "Unit 3", "Riot Guard")
+
+-- [ Wave 20 ] --
+TDS:Place("Mercenary Base", -2.766803741455078, 243, 159.55641174316406) -- 7
+TDS:Upgrade(7)
+TDS:VoteSkip(20)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(7)
+TDS:VoteSkip(21)
+TDS:Upgrade(7)
+
+-- [ Wave 22 ] --
+TDS:VoteSkip(22)
+TDS:Upgrade(7)
+TDS:SetOption(7, "Unit 1", "Riot Guard")
+TDS:SetOption(7, "Unit 2", "Riot Guard")
+TDS:SetOption(7, "Unit 3", "Riot Guard")
+
+-- [ Wave 23 ] --
+TDS:VoteSkip(23)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(5)
+TDS:VoteSkip(24)
+TDS:Place("Mercenary Base", -2.587221145629883, 243, 164.16690063476562) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:SetOption(8, "Unit 1", "Riot Guard")
+TDS:SetOption(8, "Unit 2", "Riot Guard")
+TDS:SetOption(8, "Unit 3", "Riot Guard")
+
+-- [ Wave 27 ] --
+TDS:Place("DJ Booth", -7.1013593673706055, 243, 161.73306274414062) -- 9
+TDS:Upgrade(5)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:SetOption(9, "Track", "Green")
+TDS:Ability(9, "Drop The Beat")
+
+-- [ Wave 28 ] --
+TDS:Upgrade(8)
+TDS:Ability(8, "Air-Drop", {directionCFrame = CFrame.new(0, 243.12501525878906, 154.7532958984375, -0.8955408930778503, 0, -0.4449792802333832, 0, 0.9999999403953552, -0, 0.44497933983802795, -0, -0.8955407738685608), dist = 140, pathName = 1})
+TDS:Upgrade(7)
+TDS:Ability(7, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9966344833374023, 0, -0.08197471499443054, 0, 1.0000001192092896, -0, 0.08197471499443054, -0, -0.9966344833374023), dist = 140, pathName = 1})
+TDS:Upgrade(6)
+TDS:Ability(6, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9966344833374023, 0, -0.08197471499443054, 0, 1.0000001192092896, -0, 0.08197471499443054, -0, -0.9966344833374023), dist = 140, pathName = 1})
+
+-- [ Wave 29 ] --
+TDS:VoteSkip(29)
+TDS:Ability(8, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9985117316246033, 0, -0.0545383021235466, 0, 1.0000001192092896, -0, 0.0545383021235466, -0, -0.9985117316246033), dist = 140, pathName = 1})
+
+-- [ Wave 30 ] --
+TDS:Ability(7, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.998083770275116, 0, -0.061877649277448654, 0, 1.0000001192092896, -0, 0.061877649277448654, -0, -0.998083770275116), dist = 140, pathName = 1})
+TDS:Ability(6, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9977353811264038, 0, -0.06726203858852386, 0, 0.9999999403953552, -0, 0.06726204603910446, -0, -0.9977352619171143), dist = 132.8599853515625, pathName = 1})
+TDS:Upgrade(5)
+
+-- [ Wave 31 ] --
+TDS:Ability(8, "Air-Drop", {directionCFrame = CFrame.new(0, 243.12501525878906, 155.38616943359375, -0.5900363326072693, 0, -0.8073767423629761, 0, 1, -0, 0.8073767423629761, -0, -0.5900363326072693), dist = 140, pathName = 1})
+TDS:Ability(9, "Drop The Beat")
+
+-- [ Wave 32 ] --
+TDS:Ability(7, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9982525706291199, 0, -0.05909213051199913, 0, 0.9999999403953552, -0, 0.05909213796257973, -0, -0.9982524514198303), dist = 132.8599853515625, pathName = 1})
+TDS:Ability(6, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9982525706291199, 0, -0.05909213051199913, 0, 0.9999999403953552, -0, 0.05909213796257973, -0, -0.9982524514198303), dist = 132.8599853515625, pathName = 1})
+TDS:Ability(9, "Drop The Beat")
+TDS:Upgrade(8)
+TDS:Ability(8, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.9979677796363831, 0, -0.06372048705816269, 0, 1, -0, 0.06372048705816269, -0, -0.9979677796363831), dist = 132.8599853515625, pathName = 1})
+TDS:VoteSkip(32)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+TDS:Sell(5)
+TDS:Sell(6)
+TDS:Sell(7)
+TDS:Sell(8)
+TDS:Sell(9)
+TDS:Place("Trapper", -2.586197853088379, 243, 173.5284881591797) -- 10
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]

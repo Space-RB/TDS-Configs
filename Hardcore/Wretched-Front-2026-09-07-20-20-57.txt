@@ -1,0 +1,154 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Farm", "Pyromancer", "Shotgunner", "EvolvedKingpin", "None")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Pyromancer", -6.550821304321289, 0.9572858214378357, -31.754825592041016) -- 1
+TDS:Place("Farm", -21.583215713500977, -0.3552660048007965, -10.434906005859375) -- 2
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", -23.77946662902832, -0.55647212266922, -6.762030601501465) -- 3
+
+-- [ Wave 2 ] --
+TDS:Upgrade(3)
+TDS:Place("Farm", -23.342487335205078, -0.6404082775115967, -2.823604106903076) -- 4
+TDS:Place("Farm", -23.18545913696289, -0.5166419744491577, 0.7175278663635254) -- 5
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", -22.5541934967041, -0.4881553649902344, 4.592139720916748) -- 6
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 8 ] --
+TDS:Place("Shotgunner", 5.483574867248535, 0.5461550951004028, -14.608936309814453) -- 7
+TDS:Upgrade(7)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", 7.103542327880859, 0.5514097809791565, -15.982511520385742) -- 8
+
+-- [ Wave 12 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Shotgunner", 5.035382270812988, 0.6069504022598267, -16.59365463256836) -- 9
+
+-- [ Wave 13 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(2)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Place("Shotgunner", 9.395567893981934, 0.5624696612358093, -17.487695693969727) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 17 ] --
+TDS:Place("Shotgunner", 10.71202278137207, 0.5519746541976929, -15.691777229309082) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Shotgunner", 11.1924467086792, 0.4945307672023773, -13.719766616821289) -- 12
+
+-- [ Wave 18 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 19 ] --
+TDS:Place("Shotgunner", 9.77290153503418, 0.48420917987823486, -12.145549774169922) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Shotgunner", 8.903546333312988, 0.5032962560653687, -14.747282028198242) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 20 ] --
+TDS:Place("Shotgunner", 7.202591896057129, 0.4478719234466553, -13.200950622558594) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 21 ] --
+TDS:Place("Pyromancer", 1.2275104522705078, 1.4525747299194336, 33.682945251464844) -- 16
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("EvolvedKingpin", 7.019369125366211, 1.2739300727844238, 21.901020050048828) -- 17
+
+-- [ Wave 22 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 23 ] --
+TDS:Sell(17)
+TDS:Place("EvolvedKingpin", 5.803516387939453, 1.1530801057815552, 19.818050384521484) -- 18
+TDS:Upgrade(9)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 25 ] --
+TDS:Place("EvolvedKingpin", 2.2205991744995117, 1.4434148073196411, 42.654510498046875) -- 19
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [ Wave 26 ] --
+TDS:Sell(19)
+TDS:Upgrade(18)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [[ END OF STRATEGY ]]

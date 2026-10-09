@@ -1,0 +1,159 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Trapper", "DJ Booth", "Gatling Gun", "EvolvedJuggernaut", "EvolvedKingpin")
+TDS:Mode("Fallen")
+TDS:GameInfo("Lay By", {"Limitation", "Glass", "ExplodingEnemies"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Trapper", -3.0361599922180176, 243.0894317626953, 223.29891967773438) -- 1
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", -2.7698023319244385, 243.11260986328125, 220.24635314941406) -- 2
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Trapper", -2.532987594604492, 242.99998474121094, 217.189697265625) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", -5.0371575355529785, 245.87611389160156, 171.42678833007812) -- 4
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 30 ] --
+TDS:Place("DJ Booth", 4.357944488525391, 243.00001525878906, 217.40158081054688) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("EvolvedJuggernaut", 5.667499542236328, 243, 206.80787658691406) -- 6
+
+-- [ Wave 31 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6, 2)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(6, 2)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(6, 2)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(6, 2)
+TDS:Place("EvolvedKingpin", 4.426151275634766, 243, 210.71533203125) -- 7
+TDS:Place("EvolvedKingpin", 6.281867980957031, 242.99998474121094, 213.20709228515625) -- 8
+
+-- [ Wave 37 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7, 2)
+TDS:Upgrade(7, 2)
+TDS:Upgrade(7, 2)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8, 2)
+TDS:Upgrade(8, 2)
+TDS:Upgrade(8, 2)
+
+-- [ Wave 38 ] --
+TDS:Place("EvolvedKingpin", -3.053079605102539, 242.99998474121094, 208.0093536376953) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9, 2)
+TDS:Upgrade(9, 2)
+TDS:Upgrade(9, 2)
+TDS:Place("EvolvedKingpin", -2.675931930541992, 242.99998474121094, 211.65032958984375) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10, 2)
+TDS:Upgrade(10, 2)
+TDS:Upgrade(10, 2)
+
+-- [ Wave 39 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Place("Trapper", -3.3120269775390625, 242.99998474121094, 226.52308654785156) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Trapper", -5.38189697265625, 242.99998474121094, 218.54489135742188) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 40 ] --
+TDS:Place("Trapper", -5.7910614013671875, 242.99998474121094, 221.7452850341797) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Trapper", -5.996423721313477, 242.99998474121094, 224.91058349609375) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [[ END OF STRATEGY ]]

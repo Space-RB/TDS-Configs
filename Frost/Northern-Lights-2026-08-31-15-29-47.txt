@@ -1,0 +1,111 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoChain = true -- Enables automatic commander chain logic if used by the script
+_G.SupportCaravan = false -- Automatically uses Support Caravan ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Hacker", "Commander", "Crook Boss", "Brawler", "Shotgunner")
+TDS:Mode("Frost")
+TDS:GameInfo("Northern Lights", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Brawler", -19.446983337402344, 2.400165557861328, 1.722081184387207) -- 1
+TDS:Place("Brawler", -13.462324142456055, 2.3936688899993896, 1.3194923400878906) -- 2
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Place("Brawler", -19.28638458251953, 2.4117910861968994, -4.048011779785156) -- 3
+
+-- [ Wave 3 ] --
+TDS:Place("Brawler", -13.855069160461426, 2.4059667587280273, -4.091876983642578) -- 4
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Place("Brawler", -11.246198654174805, 2.403447151184082, 1.398472785949707) -- 5
+
+-- [ Wave 5 ] --
+TDS:Place("Brawler", -19.286083221435547, 2.5769565105438232, 3.903806686401367) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Place("Crook Boss", -11.228006362915039, 2.357710123062134, -4.004649639129639) -- 7
+
+-- [ Wave 8 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", -19.68636703491211, 2.144683837890625, -6.159891128540039) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Place("Commander", -12.532356262207031, 2.5542428493499756, 3.7312731742858887) -- 9
+TDS:Upgrade(9)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Place("Crook Boss", -8.423787117004395, 2.1409709453582764, -5.579089641571045) -- 10
+TDS:Upgrade(10)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(10)
+TDS:Place("Hacker", -12.835005760192871, 2.824963092803955, 6.819279670715332) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 16 ] --
+TDS:Place("Hacker", -19.809606552124023, 2.9449312686920166, 6.500311851501465) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 17 ] --
+TDS:Place("Shotgunner", -21.32714080810547, 2.2627291679382324, -4.63148832321167) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 18 ] --
+TDS:Place("Crook Boss", -12.647896766662598, 2.2581028938293457, -6.899788856506348) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(9)
+TDS:Place("Crook Boss", -9.828454971313477, 2.1088650226593018, -8.397425651550293) -- 15
+TDS:Upgrade(15)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(15)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]

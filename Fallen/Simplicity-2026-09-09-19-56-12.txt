@@ -1,0 +1,306 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Brawler", "Engineer", "Turret", "Hacker", "DJ Booth")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Brawler", -17.724275588989258, 0.9999834895133972, -5.8180084228515625) -- 1
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", -18.669879913330078, 0.9999834895133972, -7.6358771324157715) -- 2
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Place("DJ Booth", -9.117877960205078, 0.9999861717224121, -8.965486526489258) -- 3
+
+-- [ Wave 8 ] --
+TDS:Place("Hacker", -11.893815994262695, 0.999987006187439, -11.890007019042969) -- 4
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+TDS:Place("Brawler", -18.62441062927246, 1.0000007152557373, -3.9890151023864746) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Place("Brawler", -18.632625579833984, 0.9999881982803345, -9.726224899291992) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(3)
+TDS:SetOption(3, "Track", "Green")
+TDS:Ability(3, "Drop The Beat")
+
+-- [ Wave 15 ] --
+TDS:Place("Brawler", -16.790531158447266, 0.9999890923500061, -8.914678573608398) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Brawler", -20.532987594604492, 0.9999846816062927, -12.257986068725586) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Brawler", -18.395397186279297, 0.9999914169311523, -11.719367980957031) -- 9
+TDS:Upgrade(9)
+TDS:VoteSkip(15)
+TDS:Upgrade(9)
+TDS:Ability(3, "Drop The Beat")
+
+-- [ Wave 16 ] --
+TDS:Upgrade(9)
+TDS:Place("Brawler", -16.499563217163086, 0.9999916553497314, -10.91370964050293) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Brawler", -14.656119346618652, 0.9999890923500061, -9.175149917602539) -- 11
+TDS:VoteSkip(16)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 17 ] --
+TDS:Place("Brawler", -17.908891677856445, 1.0000003576278687, -2.054901123046875) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Ability(3, "Drop The Beat")
+
+-- [ Wave 18 ] --
+TDS:Place("Engineer", -8.09929084777832, 0.9999856948852539, -3.7542147636413574) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(13)
+TDS:Ability(3, "Drop The Beat")
+TDS:Place("Engineer", -5.013392448425293, 0.9999895095825195, -3.790314197540283) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(14)
+TDS:Ability(3, "Drop The Beat")
+
+-- [ Wave 21 ] --
+TDS:Upgrade(3)
+TDS:Ability(3, "Drop The Beat")
+TDS:VoteSkip(21)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(3)
+TDS:VoteSkip(22)
+
+-- [ Wave 23 ] --
+TDS:Ability(3, "Drop The Beat")
+TDS:Upgrade(14)
+TDS:Place("Engineer", -1.9492130279541016, 0.9999931454658508, -3.5913424491882324) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 24 ] --
+TDS:Ability(3, "Drop The Beat")
+TDS:Upgrade(15)
+TDS:Place("Engineer", -5.067530632019043, 0.9999972581863403, -9.256834030151367) -- 16
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(16)
+TDS:Ability(3, "Drop The Beat")
+TDS:Upgrade(16)
+TDS:Place("Engineer", -1.979492425918579, 0.9999949336051941, -9.031265258789062) -- 17
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:VoteSkip(25)
+TDS:Upgrade(17)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(17)
+TDS:Ability(3, "Drop The Beat")
+TDS:SetOption(3, "Track", "Red")
+TDS:Upgrade(12)
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(6)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(11)
+TDS:SetOption(3, "Track", "Green")
+TDS:Ability(3, "Drop The Beat")
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Ability(3, "Drop The Beat")
+TDS:Upgrade(6)
+TDS:SetOption(3, "Track", "Red")
+TDS:Upgrade(2)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+TDS:Ability(3, "Drop The Beat")
+TDS:VoteSkip(29)
+TDS:Upgrade(12)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:SetOption(3, "Track", "Green")
+TDS:Place("Engineer", -7.785242080688477, 1.0000001192092896, -0.6627411842346191) -- 18
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Ability(3, "Drop The Beat")
+TDS:VoteSkip(30)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(13)
+TDS:Place("Hacker", 6.335111141204834, 0.9999887943267822, -11.00865364074707) -- 19
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Ability(3, "Drop The Beat")
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:VoteSkip(31)
+
+-- [ Wave 32 ] --
+TDS:Ability(3, "Drop The Beat")
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+
+-- [ Wave 33 ] --
+TDS:Ability(3, "Drop The Beat")
+TDS:Place("Turret", -2.5332529544830322, 0.9999831914901733, 2.3220763206481934) -- 20
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:VoteSkip(33)
+TDS:Ability(3, "Drop The Beat")
+
+-- [ Wave 34 ] --
+TDS:Place("Turret", 1.624547004699707, 0.9999831914901733, 2.4512038230895996) -- 21
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:VoteSkip(34)
+
+-- [ Wave 35 ] --
+TDS:Place("Turret", 1.5845932960510254, 0.9999831914901733, -3.2252635955810547) -- 22
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Ability(3, "Drop The Beat")
+TDS:SetOption(3, "Track", "Red")
+TDS:Upgrade(22)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(20)
+TDS:Upgrade(21)
+TDS:VoteSkip(36)
+TDS:Upgrade(22)
+
+-- [ Wave 37 ] --
+TDS:Ability(3, "Drop The Beat")
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4, 2)
+TDS:Ability(4, "Hologram Tower", {towerPosition = Vector3.new(-8.40701961517334, 0.9999831914901733, 2.877808094024658), towerToClone = 20})
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19, 2)
+TDS:Ability(3, "Drop The Beat")
+TDS:Ability(19, "Hologram Tower")
+
+-- [ Wave 38 ] --
+TDS:Ability(19, "Hologram Tower", {towerPosition = Vector3.new(-4.373409748077393, 0.999993085861206, -12.351272583007812), towerToClone = 15})
+TDS:Ability(3, "Drop The Beat")
+
+-- [ Wave 39 ] --
+TDS:Ability(4, "Hologram Tower", {towerPosition = Vector3.new(-1.2714080810546875, 1.0000019073486328, -11.967126846313477), towerToClone = 17})
+TDS:Ability(3, "Drop The Beat")
+TDS:Ability(19, "Hologram Tower", {towerPosition = Vector3.new(-11.376890182495117, 1.0000005960464478, -3.307610034942627), towerToClone = 13})
+TDS:VoteSkip(39)
+
+-- [ Wave 40 ] --
+TDS:Ability(3, "Drop The Beat")
+TDS:Ability(4, "Hologram Tower", {towerPosition = Vector3.new(-10.920295715332031, 1.0000001192092896, -0.17809581756591797), towerToClone = 13})
+TDS:Ability(3, "Drop The Beat")
+TDS:Ability(19, "Hologram Tower", {towerPosition = Vector3.new(-3.282724380493164, 0.9999837875366211, -14.464383125305176), towerToClone = 15})
+TDS:Ability(3, "Drop The Beat")
+TDS:Ability(4, "Hologram Tower", {towerPosition = Vector3.new(5.380800724029541, 0.9999831914901733, 2.5503063201904297), towerToClone = 15})
+TDS:Ability(11, "Reposition", {position = Vector3.new(9.263397216796875, 0.9999953508377075, -11.162075996398926)})
+TDS:Ability(7, "Reposition", {position = Vector3.new(12.109807968139648, 0.9999933242797852, -10.119497299194336)})
+TDS:Ability(10, "Reposition", {position = Vector3.new(9.81722640991211, 0.9999913573265076, -9.074030876159668)})
+TDS:Ability(1, "Reposition", {position = Vector3.new(6.892453670501709, 0.9999831914901733, -7.995466232299805)})
+TDS:Ability(12, "Reposition", {position = Vector3.new(6.622190952301025, 0.9999831914901733, -5.40521764755249)})
+TDS:Ability(2, "Reposition", {position = Vector3.new(6.511865139007568, 0.9999831914901733, -3.4754886627197266)})
+TDS:Ability(2, "Reposition", {position = Vector3.new(12.677486419677734, 0.9999805688858032, -3.419522285461426)})
+TDS:Ability(5, "Reposition", {position = Vector3.new(15.129661560058594, 0.9999971389770508, -3.1921136379241943)})
+TDS:Ability(6, "Reposition", {position = Vector3.new(17.55043601989746, 0.9999973773956299, -3.45173716545105)})
+TDS:Ability(9, "Reposition", {position = Vector3.new(13.842817306518555, 0.9999948740005493, -0.8385214805603027)})
+TDS:Ability(8, "Reposition", {position = Vector3.new(13.51466178894043, 0.9999945163726807, -0.4207935333251953)})
+TDS:Ability(8, "Reposition", {position = Vector3.new(15.752613067626953, 0.9999632835388184, 0.35320425033569336)})
+TDS:Ability(3, "Drop The Beat")
+
+-- [[ END OF STRATEGY ]]

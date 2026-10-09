@@ -1,0 +1,171 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("DJ Booth", "Hacker", "Gatling Gun", "Demoman", "EvolvedKingpin")
+TDS:Mode("NilZone2")
+TDS:GameInfo("Nil Zone II", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Demoman", -14.308103561401367, 0.19999992847442627, 2.4673871994018555) -- 1
+TDS:Upgrade(1)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Demoman", 5.363458633422852, -5.960464477539063e-08, -10.394149780273438) -- 2
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Gatling Gun", -5.7803497314453125, -5.960464477539063e-08, 9.66440486907959) -- 3
+TDS:Place("DJ Booth", -12, 0.39999979734420776, -0.8678536415100098) -- 4
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:SetOption(4, "Track", "Green")
+TDS:Ability(4, "Drop The Beat")
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+TDS:Ability(4, "Drop The Beat")
+TDS:Upgrade(3)
+TDS:Ability(4, "Drop The Beat")
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Ability(4, "Drop The Beat")
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Ability(4, "Drop The Beat")
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Ability(4, "Drop The Beat")
+
+-- [ Wave 10 ] --
+TDS:Place("Hacker", -17.001928329467773, -5.960464477539063e-08, 7.91745662689209) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Ability(4, "Drop The Beat")
+TDS:Ability(4, "Drop The Beat")
+TDS:Upgrade(3)
+
+-- [ Wave 11 ] --
+TDS:Place("EvolvedKingpin", -10.822000503540039, -5.960464477539063e-08, -5.324687957763672) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Sell(6)
+TDS:Place("EvolvedKingpin", -10.326661109924316, -5.960464477539063e-08, -4.989259719848633) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7, 2)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(7, 2)
+TDS:Ability(4, "Drop The Beat")
+TDS:Ability(4, "Drop The Beat")
+TDS:Upgrade(7, 2)
+
+-- [ Wave 13 ] --
+TDS:Place("EvolvedKingpin", -10.152464866638184, -5.960464477539063e-08, -8.279306411743164) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8, 2)
+TDS:Upgrade(8, 2)
+TDS:Upgrade(8, 2)
+TDS:Ability(4, "Drop The Beat")
+TDS:Place("EvolvedKingpin", -7.545477390289307, -5.960464477539063e-08, -3.48325252532959) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9, 2)
+TDS:Upgrade(9, 2)
+TDS:Upgrade(9, 2)
+
+-- [ Wave 14 ] --
+TDS:Ability(4, "Drop The Beat")
+TDS:Place("EvolvedKingpin", -7.631891250610352, -5.960464477539063e-08, -0.445171594619751) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10, 2)
+TDS:Upgrade(10, 2)
+TDS:Upgrade(10, 2)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5, 2)
+TDS:SetOption(4, "Track", "Red")
+TDS:Ability(4, "Drop The Beat")
+TDS:Ability(5, "Hologram Tower", {towerPosition = Vector3.new(-1.1599817276000977, -5.960464477539063e-08, 10.543254852294922), towerToClone = 3})
+
+-- [ Wave 15 ] --
+TDS:Upgrade(1)
+TDS:Ability(4, "Drop The Beat")
+TDS:Place("Demoman", -13.585485458374023, -5.960464477539063e-08, 8.199836730957031) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Demoman", 3.349673271179199, -5.960464477539063e-08, 0.13864409923553467) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Hacker", 3.338441848754883, -5.960464477539063e-08, -5.67771577835083) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13, 2)
+TDS:Ability(13, "Hologram Tower", {towerPosition = Vector3.new(-1.5918166637420654, -5.960464477539063e-08, 11.183452606201172), towerToClone = 3})
+TDS:Ability(4, "Drop The Beat")
+TDS:Ability(5, "Hologram Tower", {towerPosition = Vector3.new(-10.777303695678711, -5.960464477539063e-08, -4.821612358093262), towerToClone = 7})
+TDS:Place("Demoman", 1.3725454807281494, -5.960464477539063e-08, -9.144189834594727) -- 14
+TDS:Ability(4, "Drop The Beat")
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Demoman", 7.014913082122803, 0.19999992847442627, -3.4035563468933105) -- 15
+TDS:Upgrade(15)
+TDS:Ability(4, "Drop The Beat")
+TDS:Ability(4, "Drop The Beat")
+
+-- [[ END OF STRATEGY ]]

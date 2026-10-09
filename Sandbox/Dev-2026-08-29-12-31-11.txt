@@ -1,0 +1,45 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AutoMercenary = true -- Automatically uses Mercenary Base ability
+_G.AutoMilitary = true -- Automatically uses Military Base ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Trapper", "Military Base", "Mercenary Base", "DJ Booth", "Gatling Gun")
+TDS:Mode("Sandbox")
+TDS:GameInfo("Dev", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Trapper", 2.99, 243.00, 175.12) -- 1
+TDS:Place("Trapper", 3.04, 243.00, 172.07) -- 2
+TDS:Place("Trapper", 2.97, 243.00, 169.05) -- 3
+TDS:Place("Trapper", 3.11, 243.00, 166.03) -- 4
+TDS:Place("Trapper", 3.06, 243.00, 163.02) -- 5
+TDS:Place("Mercenary Base", -2.81, 243.00, 157.62) -- 6
+TDS:Place("Mercenary Base", -2.81, 243.00, 162.33) -- 7
+TDS:Place("Mercenary Base", -2.76, 243.00, 167.07) -- 8
+TDS:Place("DJ Booth", -8.50, 243.00, 162.04) -- 9
+TDS:Place("Gatling Gun", -11.16, 245.99, 167.43) -- 10
+TDS:Place("Trapper", -3.32, 243.00, 207.20) -- 11
+TDS:Place("Trapper", -3.24, 243.00, 234.80) -- 12
+
+-- [[ END OF STRATEGY ]]

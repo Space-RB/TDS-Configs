@@ -1,0 +1,65 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Scout", "Farm", "Crook Boss", "Turret", "Minigunner")
+TDS:Mode("Easy")
+TDS:GameInfo("Tropical Industries", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Scout", 12.689489364624023, 11.838224411010742, -24.452190399169922, true) -- 1
+TDS:Place("Scout", 0.5030031204223633, 11.838132858276367, -24.66954803466797, true) -- 2
+TDS:Place("Scout", 0.6472702026367188, 11.838130950927734, -24.380016326904297, true) -- 3
+TDS:Place("Scout", 5.392672061920166, 11.838092803955078, -15.896612167358398, true) -- 4
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", 13.110892295837402, 11.838033676147461, -2.8968400955200195) -- 5
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", 9.990232467651367, 11.838043212890625, -6.602565288543701) -- 6
+TDS:Upgrade(6)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", 4.03915548324585, 11.838024139404297, -9.45376205444336) -- 7
+TDS:Place("Scout", 5.968251705169678, 13.685309410095215, -15.594827651977539, true) -- 8
+TDS:Place("Scout", 15.436822891235352, 11.838109970092773, -9.386701583862305) -- 9
+
+-- [ Wave 5 ] --
+TDS:Place("Minigunner", 8.46676254272461, 11.838180541992188, -23.25094985961914) -- 10
+
+-- [ Wave 6 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 7 ] --
+TDS:Place("Crook Boss", 11.036458969116211, 11.83818244934082, -21.23210334777832) -- 11
+
+-- [ Wave 8 ] --
+TDS:Place("Crook Boss", 13.080192565917969, 14.846385955810547, -18.95791244506836, true) -- 12
+
+-- [ Wave 9 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 16 ] --
+TDS:Place("Minigunner", 29.743316650390625, 13.119850158691406, 15.96882152557373) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [[ END OF STRATEGY ]]

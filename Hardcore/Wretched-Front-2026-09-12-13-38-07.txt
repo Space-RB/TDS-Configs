@@ -1,0 +1,151 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("EvolvedEnforcer", "Farm", "Shotgunner", "None", "None")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Farm", 20.606468200683594, 1.0502524375915527, 39.63290786743164) -- 1
+TDS:Place("Farm", 17.005661010742188, 1.174896240234375, 39.192623138427734) -- 2
+TDS:Place("Farm", 13.37458324432373, 1.247239589691162, 38.90224838256836) -- 3
+TDS:Place("Farm", 23.22366714477539, 1.0440194606781006, 36.329288482666016) -- 4
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", 23.206043243408203, 1.0137981176376343, 32.630897521972656) -- 5
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", 26.70441436767578, 1.0430792570114136, 34.4222297668457) -- 6
+TDS:Place("Farm", 29.291051864624023, 0.7785857915878296, 30.640636444091797) -- 7
+TDS:Place("Farm", 31.09425163269043, 0.4630526304244995, 26.85283851623535) -- 8
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", 31.541791915893555, 0.22823181748390198, 22.922517776489258) -- 9
+TDS:Place("Farm", 30.776695251464844, 0.020635396242141724, 18.83370590209961) -- 10
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+TDS:Place("Shotgunner", 16.371156692504883, 0.5725204348564148, 16.561182022094727) -- 11
+TDS:Upgrade(11)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Place("EvolvedEnforcer", 12.019363403320312, 1.2002404928207397, 22.156694412231445) -- 12
+
+-- [ Wave 13 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 14 ] --
+TDS:Place("Shotgunner", 12.402301788330078, 1.209610939025879, 29.235544204711914) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+
+-- [ Wave 15 ] --
+TDS:Place("EvolvedEnforcer", -5.200922966003418, 1.4995861053466797, 28.05386734008789) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(12)
+TDS:Place("EvolvedEnforcer", 5.3217573165893555, 1.4025087356567383, 29.120689392089844) -- 15
+
+-- [ Wave 18 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 19 ] --
+TDS:Place("EvolvedEnforcer", 2.351593494415283, 1.4310708045959473, 29.325218200683594) -- 16
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 26 ] --
+TDS:Place("EvolvedEnforcer", -4.810863494873047, 1.5055490732192993, 33.07674789428711) -- 17
+
+-- [ Wave 27 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17, 2)
+TDS:Upgrade(12, 2)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(16, 2)
+
+-- [[ END OF STRATEGY ]]

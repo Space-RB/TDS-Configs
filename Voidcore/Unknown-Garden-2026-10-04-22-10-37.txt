@@ -1,0 +1,37 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Gatling Gun", "EvolvedKingpin", "Hacker", "Farm", "Engineer")
+TDS:Mode("Hardcore Hard")
+TDS:GameInfo("Unknown Garden", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 12 ] --
+TDS:Place("Engineer", 149.84170532226562, 301.7787170410156, 12.681533813476562, true) -- 1
+TDS:Place("Farm", 149.91778564453125, 299.56927490234375, -29.2609920501709) -- 2
+
+-- [ Wave 13 ] --
+TDS:Upgrade(2)
+TDS:Place("Farm", 146.630859375, 299.1802673339844, -33.00316619873047) -- 3
+
+-- [[ END OF STRATEGY ]]

@@ -1,0 +1,43 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Pyromancer", "Hunter", "EvolvedEnforcer", "None", "None")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 11 ] --
+TDS:Place("Hunter", 2.679039716720581, 1.341203212738037, 21.30302619934082) -- 1
+
+-- [ Wave 12 ] --
+TDS:Place("Hunter", 2.679039716720581, 1.341203212738037, 21.30302619934082) -- 2
+
+-- [ Wave 14 ] --
+TDS:Place("Hunter", 2.679039716720581, 1.341203212738037, 21.30302619934082) -- 3
+
+-- [ Wave 15 ] --
+TDS:Place("Hunter", 2.679039716720581, 1.341203212738037, 21.30302619934082) -- 4
+
+-- [ Wave 20 ] --
+TDS:Place("EvolvedEnforcer", 2.679039716720581, 1.341203212738037, 21.30302619934082) -- 5
+
+-- [[ END OF STRATEGY ]]

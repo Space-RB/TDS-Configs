@@ -1,0 +1,141 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("DJ Booth", "EvolvedEnforcer", "Gatling Gun", "EvolvedOperator", "Trapper")
+TDS:Mode("Molten")
+TDS:GameInfo("Lay By", {"Broke", "Fog"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 1 ] --
+TDS:Place("Trapper", -3.05, 243.00, 233.04) -- 1
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Trapper", -2.84, 243.00, 229.64) -- 2
+TDS:VoteSkip(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Trapper", -3.25, 243.00, 226.57) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Trapper", -3.43, 243.07, 223.40) -- 4
+TDS:VoteSkip(6)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Trapper", 3.27, 243.00, 234.48) -- 5
+TDS:Upgrade(5)
+TDS:Place("Trapper", 3.56, 243.00, 229.92) -- 6
+TDS:Upgrade(6)
+
+-- [ Wave 12 ] --
+TDS:Place("Gatling Gun", -4.77, 245.83, 215.92) -- 7
+TDS:Ability(7, "FPS", {enabled = true})
+
+-- [ Wave 13 ] --
+TDS:Ability(7, "FPS", {enabled = false})
+TDS:Upgrade(7)
+TDS:Ability(7, "FPS", {enabled = true})
+
+-- [ Wave 15 ] --
+TDS:Ability(7, "FPS", {enabled = false})
+TDS:VoteSkip(15)
+TDS:Ability(7, "FPS", {enabled = true})
+
+-- [ Wave 16 ] --
+TDS:Ability(7, "FPS", {enabled = false})
+game:GetService("ReplicatedStorage").Network.fflags["RE:ask"]:FireServer("consumables.disabled")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Equip", "Molten Monster", "DA6B6162-DA12-4E71-9212-E4A6AE648D6E")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Consume", "Molten Monster", {})
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Unequip", "DA6B6162-DA12-4E71-9212-E4A6AE648D6E")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Equip", "Santa’s Air Strike", "53DBAAF9-BED8-4205-BFD7-CC5CC7513FD7")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Unequip", "53DBAAF9-BED8-4205-BFD7-CC5CC7513FD7")
+TDS:VoteSkip(16)
+TDS:Upgrade(7)
+
+-- [ Wave 17 ] --
+TDS:Ability(7, "FPS", {enabled = true})
+TDS:Ability(7, "FPS", {enabled = false})
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:VoteSkip(17)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 18 ] --
+TDS:SetOption(1, "Trap", "Landmine")
+TDS:SetOption(2, "Trap", "Landmine")
+TDS:Ability(7, "FPS", {enabled = true})
+TDS:Ability(7, "FPS", {enabled = false})
+
+-- [ Wave 19 ] --
+TDS:Place("EvolvedEnforcer", -3.00, 243.00, 275.67) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 20 ] --
+TDS:Place("EvolvedEnforcer", -2.98, 243.00, 277.75) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 21 ] --
+TDS:Ability(7, "FPS", {enabled = true})
+TDS:Ability(7, "FPS", {enabled = false})
+TDS:Upgrade(9)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(9)
+TDS:Place("DJ Booth", -5.97, 243.00, 219.31) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 24 ] --
+TDS:SetOption(10, "Track", "Green")
+TDS:Place("EvolvedEnforcer", -3.30, 243.00, 273.69) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(8)
+TDS:Place("EvolvedEnforcer", -3.26, 243.00, 271.63) -- 12
+TDS:Ability(10, "Drop The Beat")
+TDS:Ability(7, "FPS", {enabled = true})
+TDS:Ability(7, "FPS", {enabled = false})
+TDS:Ability(7, "FPS", {enabled = true})
+
+-- [[ END OF STRATEGY ]]

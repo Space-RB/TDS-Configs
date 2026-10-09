@@ -1,0 +1,106 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoChain = true -- Enables automatic commander chain logic if used by the script
+_G.SupportCaravan = false -- Automatically uses Support Caravan ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Scout", "Commander", "Shotgunner", "Pyromancer", "Freezer")
+TDS:Mode("Intermediate")
+TDS:GameInfo("Dead Ahead", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Scout", 1.8337767124176025, 1.025001049041748, 13.726388931274414) -- 1
+TDS:Place("Scout", 2.0290727615356445, 0.9499585032463074, 16.78104019165039) -- 2
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", 0.6689910888671875, 0.9499640464782715, 19.536508560180664) -- 3
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:VoteSkip(2)
+
+-- [ Wave 3 ] --
+TDS:VoteSkip(3)
+
+-- [ Wave 4 ] --
+TDS:VoteSkip(4)
+TDS:Place("Shotgunner", -0.40488338470458984, 1.0199898481369019, -3.911068916320801) -- 4
+
+-- [ Wave 5 ] --
+TDS:VoteSkip(5)
+
+-- [ Wave 6 ] --
+TDS:VoteSkip(6)
+TDS:Place("Shotgunner", -3.0099411010742188, 1.001965045928955, 0.5154838562011719) -- 5
+
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+
+-- [ Wave 8 ] --
+TDS:Place("Shotgunner", -1.2701973915100098, 1.0019348859786987, 1.8761358261108398) -- 6
+TDS:VoteSkip(8)
+TDS:Place("Shotgunner", 1.3669023513793945, 0.9999910593032837, -2.819941520690918) -- 7
+
+-- [ Wave 9 ] --
+TDS:Place("Shotgunner", -0.9353389739990234, 0.9999913573265076, -5.882443428039551) -- 8
+
+-- [ Wave 10 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:VoteSkip(10)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+
+-- [ Wave 11 ] --
+TDS:VoteSkip(11)
+TDS:Place("Commander", -3.6521692276000977, 1.0034186840057373, 2.9821462631225586) -- 9
+
+-- [ Wave 12 ] --
+TDS:Upgrade(9)
+TDS:VoteSkip(12)
+TDS:Upgrade(9)
+
+-- [ Wave 13 ] --
+TDS:Ability(9, "Call Of Arms")
+TDS:Place("Shotgunner", -0.3899412155151367, 1.0199931859970093, 3.7428789138793945) -- 10
+TDS:Upgrade(10)
+TDS:VoteSkip(13)
+TDS:VoteSkip(13)
+TDS:Place("Shotgunner", 0.16320371627807617, 1.0199899673461914, 5.824522972106934) -- 11
+
+-- [ Wave 14 ] --
+TDS:Place("Shotgunner", 3.252596855163574, 0.9999932050704956, -1.5877952575683594) -- 12
+TDS:Ability(9, "Call Of Arms")
+TDS:VoteSkip(14)
+
+-- [ Wave 15 ] --
+TDS:Place("Commander", -2.4181032180786133, 1.0017009973526, 5.9169840812683105) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Ability(13, "Call Of Arms")
+TDS:Place("Shotgunner", 4.0171027183532715, 0.9999999403953552, 0.34389495849609375) -- 14
+TDS:Ability(9, "Call Of Arms")
+
+-- [[ END OF STRATEGY ]]

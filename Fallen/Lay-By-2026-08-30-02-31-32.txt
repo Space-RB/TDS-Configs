@@ -1,0 +1,69 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Slime Trooper", "Crook Boss", "Soldier", "Militant", "Scout")
+TDS:Mode("Fallen")
+TDS:GameInfo("Lay By", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Scout", 5.42, 243.00, 267.13) -- 1
+TDS:Place("Scout", -5.24, 243.00, 267.94) -- 2
+TDS:Place("Scout", -4.14, 243.00, 271.85) -- 3
+
+-- [ Wave 1 ] --
+TDS:Place("Soldier", 4.66, 243.00, 234.92) -- 4
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", 4.75, 243.00, 231.30) -- 5
+
+-- [ Wave 3 ] --
+TDS:Upgrade(4)
+TDS:Place("Soldier", 4.78, 243.00, 227.85) -- 6
+
+-- [ Wave 4 ] --
+TDS:Upgrade(6)
+TDS:Place("Soldier", -3.75, 243.00, 266.91) -- 7
+
+-- [ Wave 5 ] --
+TDS:Place("Soldier", 4.33, 243.00, 268.49) -- 8
+TDS:Upgrade(7)
+TDS:Place("Soldier", 4.26, 243.00, 213.51) -- 9
+TDS:Place("Soldier", 4.95, 243.00, 207.78) -- 10
+TDS:Place("Scout", 4.92, 243.00, 157.18) -- 11
+
+-- [ Wave 6 ] --
+TDS:Place("Soldier", 6.87, 243.00, 211.26) -- 12
+TDS:Place("Militant", -6.25, 243.00, 227.30, true) -- 13
+
+-- [ Wave 7 ] --
+TDS:Place("Militant", 3.10, 243.00, 218.43, true) -- 14
+TDS:Place("Militant", 20.15, 243.00, 214.92, true) -- 15
+
+-- [ Wave 8 ] --
+TDS:Place("Militant", -14.79, 243.00, 227.85, true) -- 16
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Place("Militant", -7.65, 245.84, 216.31, true) -- 17
+TDS:Place("Soldier", -5.63, 243.00, 222.94) -- 18
+
+-- [[ END OF STRATEGY ]]

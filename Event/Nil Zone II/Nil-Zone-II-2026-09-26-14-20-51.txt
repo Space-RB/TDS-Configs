@@ -1,0 +1,99 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Minigunner", "DJ Booth", "Gatling Gun", "EvolvedJuggernaut", "Demoman")
+TDS:Mode("NilZone2")
+TDS:GameInfo("Nil Zone II", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Demoman", -14.618118286132812, 0.20000040531158447, 2.257143974304199, true) -- 1
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:Place("Demoman", -14.377534866333008, 2.034461736679077, 2.837186813354492, true) -- 2
+TDS:Place("Demoman", -13.983375549316406, 2.550097942352295, 2.9913432598114014, true) -- 3
+TDS:Place("Demoman", -14.026251792907715, 2.550097942352295, 2.9812982082366943, true) -- 4
+
+-- [ Wave 2 ] --
+TDS:Place("Demoman", -14.284590721130371, 2.6206541061401367, 2.69083833694458, true) -- 5
+TDS:Place("Demoman", -14.274127006530762, 2.6551313400268555, 2.6971328258514404, true) -- 6
+TDS:Place("Demoman", -14.273397445678711, 2.657388687133789, 2.6975693702697754, true) -- 7
+TDS:Place("Demoman", -14.273380279541016, 2.6574978828430176, 2.697608470916748, true) -- 8
+
+-- [ Wave 3 ] --
+TDS:Place("Demoman", -14.643584251403809, 2.6482086181640625, 2.2066736221313477, true) -- 9
+TDS:Place("Demoman", -14.640692710876465, 2.6568763256073, 2.208575963973999, true) -- 10
+TDS:Upgrade(9)
+TDS:Place("Demoman", -14.695096015930176, 2.648986577987671, 2.1852900981903076, true) -- 11
+TDS:Place("Demoman", -14.716687202453613, 2.6553940773010254, 2.1929123401641846, true) -- 12
+TDS:Place("Demoman", -14.71629810333252, 2.657561779022217, 2.1937549114227295, true) -- 13
+
+-- [ Wave 4 ] --
+TDS:Place("Demoman", -14.708684921264648, 2.703848361968994, 1.999996542930603, true) -- 14
+TDS:Place("Demoman", -14.688496589660645, 2.646677017211914, 2.0757312774658203, true) -- 15
+TDS:Place("Demoman", -14.718568801879883, 2.653841018676758, 2.0872180461883545, true) -- 16
+TDS:Place("Demoman", -14.729095458984375, 2.651780128479004, 2.117567300796509, true) -- 17
+TDS:Place("Demoman", -14.727755546569824, 2.6580514907836914, 2.119821548461914, true) -- 18
+TDS:Place("Demoman", -14.727755546569824, 2.6580514907836914, 2.119821548461914, true) -- 19
+TDS:Place("Demoman", -14.727755546569824, 2.6580514907836914, 2.119821548461914, true) -- 20
+
+-- [ Wave 5 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 6 ] --
+TDS:Place("Demoman", -14.477334976196289, 2.6395015716552734, 2.8296098709106445, true) -- 21
+TDS:Place("Demoman", -14.499691009521484, 2.6537351608276367, 2.8253369331359863, true) -- 22
+TDS:Place("Demoman", -14.499190330505371, 2.657611846923828, 2.826678514480591, true) -- 23
+TDS:Place("Demoman", -14.48902702331543, 2.716156244277954, 2.846609354019165, true) -- 24
+TDS:Place("Demoman", -14.488672256469727, 2.7180335521698, 2.8472561836242676, true) -- 25
+TDS:Place("Demoman", -14.488672256469727, 2.7180335521698, 2.8472561836242676, true) -- 26
+TDS:Place("Demoman", -14.488672256469727, 2.7180335521698, 2.8472561836242676, true) -- 27
+TDS:Place("Demoman", -14.404036521911621, 2.7815022468566895, 2.814699411392212, true) -- 28
+TDS:Place("Demoman", -14.332581520080566, 2.7645263671875, 2.837124824523926, true) -- 29
+TDS:Place("Demoman", -14.334212303161621, 2.7787632942199707, 2.854191780090332, true) -- 30
+TDS:Place("Demoman", -14.334212303161621, 2.7787632942199707, 2.854191780090332, true) -- 31
+TDS:Place("Demoman", -14.334212303161621, 2.7787630558013916, 2.8541924953460693, true) -- 32
+TDS:Place("Demoman", -14.334212303161621, 2.7787630558013916, 2.8541924953460693, true) -- 33
+TDS:Place("Demoman", -14.334212303161621, 2.7787630558013916, 2.8541924953460693, true) -- 34
+TDS:Place("Demoman", -14.333372116088867, 2.783764362335205, 2.855905771255493, true) -- 35
+TDS:Place("Demoman", -14.333874702453613, 2.7807986736297607, 2.854896306991577, true) -- 36
+TDS:Upgrade(27)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(26)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(14)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+
+-- [[ END OF STRATEGY ]]

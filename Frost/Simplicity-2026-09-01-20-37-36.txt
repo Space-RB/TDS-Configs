@@ -1,0 +1,128 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoChain = true -- Enables automatic commander chain logic if used by the script
+_G.SupportCaravan = false -- Automatically uses Support Caravan ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Assassin", "Freezer", "Crook Boss", "Commander", "EvolvedJuggernaut")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Assassin", -18.175487518310547, 1.0000004768371582, -2.221039295196533) -- 1
+TDS:Place("Assassin", -17.94438934326172, 0.9999834895133972, -4.464202880859375) -- 2
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", -18.151378631591797, 0.9999834895133972, -6.485690116882324) -- 3
+
+-- [ Wave 2 ] --
+TDS:Place("Assassin", -18.106109619140625, 0.9999879598617554, -8.998373031616211) -- 4
+
+-- [ Wave 3 ] --
+TDS:Place("Assassin", -16.097991943359375, 0.9999909996986389, -9.929447174072266) -- 5
+
+-- [ Wave 4 ] --
+TDS:Place("Assassin", -24.040075302124023, 1.000001072883606, -6.144277572631836) -- 6
+TDS:Place("Assassin", -24.288005828857422, 1.0000007152557373, -3.7508859634399414) -- 7
+
+-- [ Wave 5 ] --
+TDS:Place("Assassin", -12.245651245117188, 1.0000005960464478, -3.0773210525512695) -- 8
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Place("Freezer", -11.245990753173828, 1.0000001192092896, -0.44823646545410156) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 12 ] --
+TDS:Place("Crook Boss", -6.212970733642578, 0.999987781047821, -3.126511335372925) -- 10
+
+-- [ Wave 13 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(10)
+TDS:Place("Commander", -9.260117530822754, 1.0000005960464478, -2.9331560134887695) -- 11
+
+-- [ Wave 15 ] --
+TDS:Place("Crook Boss", -1.6177029609680176, 0.9999831914901733, 3.5448522567749023) -- 12
+TDS:Upgrade(12)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 17 ] --
+TDS:Place("Freezer", -11.38510513305664, 0.9999996423721313, 2.570136785507202) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Crook Boss", -3.1260862350463867, 0.9999915957450867, -3.139756679534912) -- 14
+TDS:Upgrade(14)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Crook Boss", 0.34139013290405273, 0.9999831914901733, -3.163094997406006) -- 15
+TDS:Upgrade(15)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(1)
+TDS:Upgrade(8)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [[ END OF STRATEGY ]]

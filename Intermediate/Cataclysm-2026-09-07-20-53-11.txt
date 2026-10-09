@@ -1,0 +1,187 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoChain = true -- Enables automatic commander chain logic if used by the script
+_G.SupportCaravan = false -- Automatically uses Support Caravan ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Scout", "Commander", "Shotgunner", "Pyromancer", "Freezer")
+TDS:Mode("Intermediate")
+TDS:GameInfo("Cataclysm", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Ready()
+TDS:Place("Scout", 5.555332183837891, 1.0000081062316895, 32.210025787353516) -- 1
+TDS:Place("Scout", 5.5747551918029785, 1.0000081062316895, 35.44204330444336) -- 2
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", 5.603338241577148, 1.0000081062316895, 38.536216735839844) -- 3
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Place("Shotgunner", -1.6846437454223633, 1.0000081062316895, 35.093910217285156) -- 4
+
+-- [ Wave 6 ] --
+TDS:Place("Shotgunner", -1.7508537769317627, 1.0000081062316895, 37.09418869018555) -- 5
+TDS:Place("Shotgunner", -3.739597797393799, 1.0000081062316895, 35.09678649902344) -- 6
+
+-- [ Wave 8 ] --
+TDS:Place("Shotgunner", -4.479076862335205, 1.0000081062316895, 36.955265045166016) -- 7
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Place("Pyromancer", -6.249881744384766, 1.0000081062316895, 35.18996047973633) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Place("Shotgunner", -7.457584381103516, 1.0000081062316895, 29.962047576904297) -- 9
+
+-- [ Wave 14 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Shotgunner", -5.392881393432617, 1.0000081062316895, 29.984020233154297) -- 10
+TDS:VoteSkip(14)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 15 ] --
+TDS:Place("Shotgunner", -3.2849626541137695, 1.0000081062316895, 30.01849937438965) -- 11
+TDS:VoteSkip(15)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 16 ] --
+TDS:Place("Shotgunner", -6.359267234802246, 1.0000081062316895, 28.183143615722656) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 17 ] --
+TDS:Place("Shotgunner", -4.269012928009033, 1.0000081062316895, 28.253604888916016) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Commander", -0.7779151201248169, 1.0000081062316895, 29.9470272064209) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 18 ] --
+TDS:Place("Commander", -1.9077064990997314, 1.0000081062316895, 27.101184844970703) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Ability(14, "Call Of Arms")
+TDS:Upgrade(11)
+TDS:VoteSkip(18)
+TDS:Ability(15, "Call Of Arms")
+TDS:Upgrade(10)
+
+-- [ Wave 19 ] --
+TDS:Place("Commander", -4.669487476348877, 1.0000081062316895, 25.781208038330078) -- 16
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Ability(14, "Call Of Arms")
+TDS:Upgrade(9)
+TDS:Ability(15, "Call Of Arms")
+TDS:Upgrade(13)
+
+-- [ Wave 20 ] --
+TDS:Ability(16, "Call Of Arms")
+TDS:Ability(14, "Call Of Arms")
+TDS:Upgrade(12)
+
+-- [ Wave 21 ] --
+TDS:Ability(15, "Call Of Arms")
+TDS:Upgrade(5)
+TDS:Ability(16, "Call Of Arms")
+TDS:VoteSkip(21)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+
+-- [ Wave 22 ] --
+TDS:Ability(14, "Call Of Arms")
+TDS:Upgrade(8)
+TDS:Ability(15, "Call Of Arms")
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:VoteSkip(22)
+TDS:Ability(16, "Call Of Arms")
+
+-- [ Wave 23 ] --
+TDS:Upgrade(14)
+TDS:Ability(14, "Call Of Arms")
+TDS:VoteSkip(23)
+TDS:Upgrade(15)
+TDS:Ability(15, "Call Of Arms")
+
+-- [ Wave 24 ] --
+TDS:Ability(15, "Support Caravan")
+TDS:Ability(14, "Support Caravan")
+TDS:Ability(16, "Call Of Arms")
+TDS:Upgrade(16)
+TDS:Ability(16, "Support Caravan")
+TDS:VoteSkip(24)
+TDS:Ability(14, "Call Of Arms")
+
+-- [ Wave 25 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(4)
+TDS:Ability(15, "Call Of Arms")
+TDS:Upgrade(10)
+TDS:VoteSkip(25)
+
+-- [ Wave 26 ] --
+TDS:Ability(14, "Call Of Arms")
+TDS:Upgrade(9)
+TDS:Ability(15, "Support Caravan")
+TDS:Ability(14, "Support Caravan")
+TDS:Ability(15, "Call Of Arms")
+TDS:VoteSkip(26)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+TDS:Sell(5)
+TDS:Sell(6)
+TDS:Sell(7)
+TDS:Sell(8)
+TDS:Sell(9)
+TDS:Sell(10)
+TDS:Sell(11)
+TDS:Sell(12)
+TDS:Sell(13)
+TDS:Sell(14)
+TDS:Sell(15)
+TDS:Sell(16)
+
+-- [[ END OF STRATEGY ]]

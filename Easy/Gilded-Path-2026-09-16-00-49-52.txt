@@ -1,0 +1,145 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Boomerang", "Militant", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Gilded Path", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 1 ] --
+TDS:Place("Boomerang", 11.756143569946289, 0.9164508581161499, -3.5595455169677734) -- 1
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Boomerang", 6.98785924911499, 0.9336567521095276, -5.38909912109375) -- 2
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Militant", 13.41141414642334, 0.9668951034545898, -14.146689414978027) -- 3
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Militant", 15.364442825317383, 0.9748069047927856, -16.79195785522461) -- 4
+TDS:Place("Militant", 11.646003723144531, 0.9840238094329834, -17.14399528503418) -- 5
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Place("Militant", 10.39288330078125, 0.9816606044769287, -19.91730308532715) -- 6
+TDS:Upgrade(6)
+TDS:Place("Militant", 15.61193561553955, 0.9871509075164795, -19.826601028442383) -- 7
+
+-- [ Wave 8 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Place("Militant", 14.178633689880371, 0.9904923439025879, -22.58538818359375) -- 8
+TDS:Place("Militant", 11.19859504699707, 0.9798541069030762, -23.05864715576172) -- 9
+TDS:Place("Militant", 8.165472984313965, 1.009350061416626, -22.26881980895996) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 13 ] --
+TDS:Place("Militant", 7.662611961364746, 1.0098800659179688, -18.42530632019043) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 14 ] --
+TDS:Place("Boomerang", 10.692502975463867, 0.9362925291061401, -7.186013221740723) -- 12
+TDS:Place("Boomerang", 8.00166130065918, 0.9667922854423523, -12.225988388061523) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(11)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+
+-- [ Wave 18 ] --
+TDS:Place("Militant", 5.511952877044678, 1.014769196510315, -20.577388763427734) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Militant", 10.099048614501953, 0.978569746017456, -25.991098403930664) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(3)
+TDS:Place("Militant", 2.575740098953247, 0.9470110535621643, -21.593658447265625) -- 16
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Militant", 5.239958763122559, 1.015514612197876, -23.59528350830078) -- 17
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 20 ] --
+TDS:Place("Militant", 7.090270519256592, 0.9525037407875061, -25.96088218688965) -- 18
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(16)
+TDS:Upgrade(14)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]

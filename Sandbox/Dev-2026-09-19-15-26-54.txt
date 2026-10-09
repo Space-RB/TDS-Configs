@@ -1,0 +1,230 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Minigunner", "DJ Booth", "Militant", "Engineer", "Cowboy")
+TDS:Mode("Sandbox")
+TDS:GameInfo("Dev", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Militant", 4.449853897094727, 0.9695734977722168, 6.557712554931641, true) -- 1
+TDS:Place("Militant", 4.241009712219238, 0.9695696830749512, 6.135381698608398, true) -- 2
+TDS:Place("Militant", 3.6584582328796387, 2.400128126144409, 5.597133636474609, true) -- 3
+TDS:Place("Militant", 3.278695583343506, 2.975029230117798, 5.397871017456055, true) -- 4
+TDS:Place("Militant", 2.951080799102783, 3.2962381839752197, 5.4618821144104, true) -- 5
+TDS:Place("Militant", 2.562143325805664, 3.2192435264587402, 5.643220901489258, true) -- 6
+TDS:Place("Militant", 1.820075511932373, 2.6886379718780518, 5.445173263549805, true) -- 7
+TDS:Place("Militant", 1.739688515663147, 2.028395175933838, 5.059538841247559, true) -- 8
+TDS:Place("Militant", 2.4996354579925537, 0.9695696830749512, 4.704664707183838, true) -- 9
+TDS:Place("Militant", 3.3629164695739746, 2.376359462738037, 4.290773391723633, true) -- 10
+TDS:Place("Militant", 3.9842097759246826, 2.747476577758789, 4.336286544799805, true) -- 11
+TDS:Place("Militant", 4.359993934631348, 3.216494560241699, 4.487985610961914, true) -- 12
+TDS:Place("Militant", 5.173295021057129, 0.9695734977722168, 5.660341262817383, true) -- 13
+TDS:Place("Militant", 5.110206604003906, 2.1846909523010254, 5.410772800445557, true) -- 14
+TDS:Place("Militant", 5.18941593170166, 2.2002344131469727, 4.902995586395264, true) -- 15
+TDS:Place("Militant", 5.0341339111328125, 2.6988179683685303, 4.421322822570801, true) -- 16
+TDS:Place("Militant", 4.698034286499023, 2.5547497272491455, 3.6932926177978516, true) -- 17
+TDS:Place("Militant", 3.9628443717956543, 2.34637713432312, 3.285158157348633, true) -- 18
+TDS:Place("Militant", 3.2526347637176514, 0.9695734977722168, 3.3739607334136963, true) -- 19
+TDS:Place("Militant", 2.5447311401367188, 2.4656741619110107, 3.1629557609558105, true) -- 20
+TDS:Place("Militant", 1.9689280986785889, 0.9695696830749512, 3.9067821502685547, true) -- 21
+TDS:Place("Militant", 1.7188811302185059, 2.828603744506836, 3.730738878250122, true) -- 22
+TDS:Place("Militant", 1.8839471340179443, 3.3652474880218506, 4.156609058380127, true) -- 23
+TDS:Place("Militant", 2.9817652702331543, 3.072284698486328, 5.225591659545898, true) -- 24
+TDS:Place("Militant", 3.8540494441986084, 3.2388885021209717, 4.597355842590332, true) -- 25
+TDS:Place("Militant", 2.7179384231567383, 2.769580364227295, 4.488744735717773, true) -- 26
+TDS:Place("Militant", 3.800929307937622, 3.4695966243743896, 4.533134937286377, true) -- 27
+TDS:Place("Militant", 3.9505512714385986, 3.474684238433838, 4.422672748565674, true) -- 28
+TDS:Place("Militant", 3.8797683715820312, 3.4387898445129395, 4.188931941986084, true) -- 29
+TDS:Place("Militant", 3.278005599975586, 3.422023296356201, 4.090793609619141, true) -- 30
+TDS:Place("Militant", 2.711517810821533, 3.439704656600952, 4.345317363739014, true) -- 31
+TDS:Place("Militant", 3.500959634780884, 3.21331787109375, 4.671050071716309, true) -- 32
+TDS:Place("Militant", 3.454214334487915, 3.404618740081787, 4.077544689178467, true) -- 33
+TDS:Place("Militant", 3.8835010528564453, 3.4408414363861084, 4.09864616394043, true) -- 34
+TDS:Place("Militant", 3.692770481109619, 3.4564554691314697, 4.409343719482422, true) -- 35
+TDS:Place("Militant", 3.0873403549194336, 3.38248872756958, 4.989017009735107, true) -- 36
+TDS:Place("Militant", 2.9486796855926514, 3.4404871463775635, 5.295647621154785, true) -- 37
+TDS:Place("Militant", 4.650811672210693, 3.1852333545684814, 5.338414192199707, true) -- 38
+TDS:Place("Militant", 4.365482807159424, 3.44026780128479, 4.311351776123047, true) -- 39
+TDS:Place("Militant", 4.417304992675781, 2.7900071144104004, 5.877561569213867, true) -- 40
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Upgrade(35)
+TDS:Upgrade(35)
+TDS:Upgrade(35)
+TDS:Upgrade(35)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(38)
+TDS:Upgrade(38)
+TDS:Upgrade(38)
+TDS:Upgrade(38)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(40)
+TDS:Upgrade(40)
+TDS:Upgrade(40)
+TDS:Upgrade(40)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(37)
+TDS:Upgrade(37)
+TDS:Upgrade(37)
+TDS:Upgrade(37)
+TDS:Upgrade(36)
+TDS:Upgrade(36)
+TDS:Upgrade(36)
+TDS:Upgrade(36)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]

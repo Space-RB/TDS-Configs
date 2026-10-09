@@ -1,0 +1,225 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoChain = true -- Enables automatic commander chain logic if used by the script
+_G.SupportCaravan = false -- Automatically uses Support Caravan ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Ace Pilot", "Crook Boss", "Commander", "Accelerator", "Farm")
+TDS:Mode("Fallen")
+TDS:GameInfo("Summer Castle", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Ace Pilot", 13.755367279052734, 0.9789588451385498, 28.732940673828125) -- 1
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Place("Farm", -11.063702583312988, 0.9019827842712402, 48.920143127441406) -- 2
+TDS:Place("Farm", -18.083131790161133, 0.6591763496398926, 48.85022735595703) -- 3
+TDS:Place("Farm", -24.87961196899414, 0.3642261028289795, 48.84093475341797) -- 4
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", -31.69623374938965, 0.7995240688323975, 47.32221984863281) -- 5
+TDS:Place("Farm", -20.340972900390625, 0.811469316482544, 42.30180358886719) -- 6
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(6)
+TDS:Place("Farm", -26.14197540283203, 0.8508851528167725, 41.6563720703125) -- 7
+TDS:Place("Farm", -14.061059951782227, 0.9003462791442871, 42.79950714111328) -- 8
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 9 ] --
+TDS:Place("Farm", -32.15058898925781, 0.8710381984710693, 41.044349670410156) -- 9
+TDS:Place("Farm", -8.097381591796875, 0.9486517906188965, 42.89002227783203) -- 10
+TDS:Place("Farm", -20.355512619018555, 0.8578770160675049, 36.841487884521484) -- 11
+
+-- [ Wave 10 ] --
+TDS:Place("Crook Boss", 18.69757843017578, 0.9836127758026123, 26.087522506713867) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+
+-- [ Wave 12 ] --
+TDS:Place("Commander", 14.179969787597656, 0.9764871597290039, 24.870677947998047) -- 13
+TDS:Upgrade(13)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(13)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(11)
+TDS:Upgrade(2)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 17 ] --
+TDS:Place("Accelerator", 21.889965057373047, 0.9878585338592529, 27.331579208374023) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(8)
+TDS:Upgrade(6)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(6)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 23 ] --
+TDS:Place("Ace Pilot", 9.919090270996094, 0.9740114212036133, 29.096473693847656) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Accelerator", 25.83709716796875, 0.9872057437896729, 26.98450469970703) -- 16
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(16)
+
+-- [ Wave 25 ] --
+TDS:Place("Crook Boss", 17.341121673583984, 0.986403226852417, 31.962488174438477) -- 17
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Commander", 10.66067123413086, 0.9724457263946533, 25.83380126953125) -- 18
+TDS:Upgrade(18)
+TDS:Upgrade(11)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(6)
+TDS:Place("Accelerator", 29.886192321777344, 0.9865634441375732, 26.893632888793945) -- 19
+TDS:Upgrade(19)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(7)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(5)
+TDS:Place("Ace Pilot", 6.115001678466797, 0.9695403575897217, 30.007568359375) -- 20
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [ Wave 29 ] --
+TDS:Place("Crook Boss", 18.895076751708984, 0.9513101577758789, 16.62361717224121) -- 21
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Place("Crook Boss", 22.21246337890625, 0.9676260948181152, 16.73859214782715) -- 22
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+
+-- [ Wave 30 ] --
+TDS:Place("Commander", 7.141361236572266, 0.9677362442016602, 25.951236724853516) -- 23
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Place("Accelerator", 28.970417022705078, 0.9884955883026123, 21.91376495361328) -- 24
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+
+-- [ Wave 31 ] --
+TDS:Place("Crook Boss", -18.993152618408203, 0.988079309463501, 4.778505325317383) -- 25
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+
+-- [[ END OF STRATEGY ]]

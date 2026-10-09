@@ -1,0 +1,209 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Engineer", "Hacker", "EvolvedEnforcer", "EvolvedJuggernaut", "DJ Booth")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {"HiddenEnemies", "Glass", "ExplodingEnemies", "Limitation", "Committed"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Engineer", -7.55, 1.00, -3.78) -- 1
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Engineer", -7.77, 1.00, -0.70) -- 2
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+TDS:Place("Engineer", -7.78, 1.00, 2.38) -- 3
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Place("Engineer", -4.47, 1.00, -3.76) -- 4
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(4)
+TDS:Place("Engineer", -1.34, 1.00, -3.75) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Place("Engineer", 1.72, 1.00, -3.76) -- 6
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(6)
+TDS:Place("Hacker", -12.79, 1.00, -9.11) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Place("DJ Booth", -8.68, 1.00, -9.03) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Place("EvolvedEnforcer", -12.26, 1.00, -3.33) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("EvolvedEnforcer", -10.16, 1.00, -3.78) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 16 ] --
+TDS:Place("EvolvedEnforcer", -12.68, 1.00, -1.31) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("EvolvedEnforcer", -10.67, 1.00, -1.74) -- 12
+
+-- [ Wave 17 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 18 ] --
+TDS:Place("EvolvedEnforcer", -12.59, 1.00, 0.69) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(3)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9, 2)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10, 2)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11, 2)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12, 2)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(13, 2)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Place("EvolvedJuggernaut", -2.29, 1.00, 2.28) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(14)
+TDS:Place("Hacker", 5.05, 1.00, -3.70) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(7)
+TDS:Upgrade(7, 2)
+TDS:Upgrade(15, 2)
+TDS:Upgrade(9, 2)
+TDS:Upgrade(10, 2)
+
+-- [ Wave 38 ] --
+TDS:Upgrade(12, 2)
+TDS:Upgrade(11, 2)
+TDS:Upgrade(13, 2)
+
+-- [[ END OF STRATEGY ]]

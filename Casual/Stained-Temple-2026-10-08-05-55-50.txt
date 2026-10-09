@@ -1,0 +1,111 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("DJ Booth", "Assassin", "Minigunner", "Mortar", "Turret")
+TDS:Mode("Casual")
+TDS:GameInfo("Stained Temple", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Assassin", -10.708662986755371, -1.5838984251022339, -30.644834518432617) -- 1
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", -8.665566444396973, -1.568350076675415, -30.55337142944336) -- 2
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Place("Minigunner", -7.087883472442627, -1.8400052785873413, -15.98938274383545) -- 3
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Place("DJ Booth", -11.448699951171875, -1.7874221801757812, -18.60149383544922) -- 4
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Place("Turret", -7.298045635223389, -1.8240373134613037, -9.981241226196289) -- 5
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 17 ] --
+TDS:Place("Mortar", -0.34427666664123535, 2.6496620178222656, -9.497392654418945) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Minigunner", -4.065471172332764, -1.775789499282837, -16.779813766479492) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(3)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 22 ] --
+TDS:Place("Turret", -9.531122207641602, -1.95452082157135, -6.6094136238098145) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+
+-- [ Wave 24 ] --
+TDS:Place("Assassin", -5.284754276275635, -1.7345762252807617, -23.834550857543945) -- 9
+TDS:Upgrade(8)
+TDS:Place("Mortar", 2.6952760219573975, 3.0759389400482178, -10.604032516479492) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 25 ] --
+TDS:Place("Turret", -3.3857831954956055, -1.6855846643447876, -11.07435131072998) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(4)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Place("Minigunner", -12.845412254333496, -1.9086757898330688, -11.760538101196289) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(4)
+TDS:Upgrade(11)
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]

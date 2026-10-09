@@ -1,0 +1,53 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("EvolvedJuggernaut", "Farm", "Assassin", "None", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("Cataclysm", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", -11.324592590332031, 1.0749995708465576, -16.816755294799805) -- 1
+TDS:Place("Farm", -9.498202323913574, 1.074996829032898, -13.821477890014648) -- 2
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Place("Farm", -11.069982528686523, 1.0000081062316895, -10.522998809814453) -- 3
+TDS:Place("Farm", -10.628669738769531, 1.0000081062316895, -6.653866767883301) -- 4
+
+-- [ Wave 3 ] --
+TDS:Upgrade(4)
+TDS:Place("Farm", -11.26917839050293, 1.0750032663345337, -20.990428924560547) -- 5
+
+-- [ Wave 4 ] --
+TDS:Upgrade(5)
+TDS:Place("Farm", -10.73229694366455, 1.075000286102295, -25.68579864501953) -- 6
+TDS:Upgrade(6)
+TDS:Place("Farm", -11.915475845336914, 1.0750017166137695, -30.033050537109375) -- 7
+TDS:Upgrade(7)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(7)
+TDS:Place("Farm", -11.987151145935059, 1.0750032663345337, -34.64177703857422) -- 8
+
+-- [[ END OF STRATEGY ]]

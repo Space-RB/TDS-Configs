@@ -1,0 +1,96 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoChain = true -- Enables automatic commander chain logic if used by the script
+_G.SupportCaravan = false -- Automatically uses Support Caravan ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("EvolvedEnforcer", "Scout", "Commander", "Trapper", "Crook Boss")
+TDS:Mode("Casual")
+TDS:GameInfo("Gilded Path", {"Limitation", "ExplodingEnemies", "HiddenEnemies", "Fog"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Scout", 5.888407230377197, 0.9491471648216248, -25.5081844329834) -- 1
+TDS:Upgrade(1)
+TDS:Place("Scout", 6.7323808670043945, 1.016480803489685, -22.32284927368164) -- 2
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Scout", 9.706418991088867, 0.9754541516304016, -24.263547897338867) -- 3
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Place("Scout", 9.670682907104492, 0.9752232432365417, -21.16972541809082) -- 4
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Place("Trapper", 13.136651992797852, 0.9679214954376221, -14.25942611694336) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:SetOption(5, "Trap", "Landmine")
+
+-- [ Wave 7 ] --
+TDS:Place("Scout", 12.831631660461426, 0.9856155514717102, -22.728065490722656) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Commander", 10.357820510864258, 0.9879860877990723, -17.76207733154297) -- 7
+
+-- [ Wave 8 ] --
+TDS:Upgrade(7)
+TDS:Place("Scout", 6.7386674880981445, 1.0137332677841187, -18.586246490478516) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 9 ] --
+TDS:Place("Scout", 3.773346424102783, 1.0111494064331055, -21.42382049560547) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 10 ] --
+TDS:Place("Trapper", 15.050704956054688, 0.9804506301879883, -17.901546478271484) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:SetOption(10, "Trap", "Landmine")
+TDS:Ability(7, "Call Of Arms")
+TDS:Place("EvolvedEnforcer", 8.484113693237305, 0.9637852907180786, -12.00792407989502) -- 11
+
+-- [ Wave 11 ] --
+TDS:Upgrade(11)
+TDS:Ability(7, "Call Of Arms")
+TDS:Upgrade(11)
+
+-- [ Wave 12 ] --
+TDS:Place("Scout", 2.7388663291931152, 0.9393365979194641, -24.704626083374023) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [[ END OF STRATEGY ]]

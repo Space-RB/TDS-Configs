@@ -1,0 +1,116 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Crook Boss", "Militant", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Dead Ahead", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Militant", 0.7315034866333008, 1.0000051259994507, -31.620288848876953) -- 1
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Militant", 0.6799163818359375, 1.0000046491622925, -28.545360565185547) -- 2
+
+-- [ Wave 4 ] --
+TDS:Place("Militant", 0.7630634307861328, 1.0000041723251343, -25.42757797241211) -- 3
+TDS:Place("Militant", -5.000882148742676, 1.0000051259994507, -31.356895446777344) -- 4
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Place("Militant", -5.022271156311035, 1.0000046491622925, -28.325519561767578) -- 5
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:Place("Militant", -5.0473551750183105, 1.0000041723251343, -25.2069091796875) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Place("Militant", -7.721102714538574, 0.9999995827674866, -29.86487579345703) -- 7
+TDS:Place("Militant", -7.748554706573486, 1.0000044107437134, -26.751728057861328) -- 8
+
+-- [ Wave 8 ] --
+TDS:Place("Militant", 3.3946590423583984, 1.0000048875808716, -30.078147888183594) -- 9
+TDS:Place("Militant", 3.398927688598633, 1.0000044107437134, -27.043031692504883) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(9)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(7)
+TDS:Place("Crook Boss", 1.1977663040161133, 1.000003695487976, -22.38713264465332) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(9)
+TDS:Upgrade(3)
+TDS:Upgrade(10)
+TDS:Upgrade(6)
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]

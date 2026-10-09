@@ -1,0 +1,129 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Farm", "Minigunner", "Gatling Gun", "EvolvedJuggernaut", "DJ Booth")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Outskirts Commune", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Farm", -0.6820907592773438, 505.29620361328125, -41.64765167236328) -- 1
+TDS:Place("Farm", -0.6962947845458984, 505.29254150390625, -45.2076301574707) -- 2
+TDS:Place("Farm", -0.6899409294128418, 505.26715087890625, -48.79409408569336) -- 3
+TDS:Place("Farm", -0.6936771869659424, 505.2714538574219, -52.36637496948242) -- 4
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(4)
+TDS:Place("Farm", -0.7037801742553711, 505.282470703125, -55.97590255737305) -- 5
+TDS:Upgrade(5)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", -4.4343767166137695, 505.28900146484375, -41.637855529785156) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+TDS:Place("Farm", -4.436234474182129, 505.2729797363281, -45.26792526245117) -- 7
+TDS:Upgrade(7)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Place("Minigunner", -11.19349479675293, 502.77655029296875, -13.378087997436523) -- 8
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(8)
+TDS:Place("Farm", -4.44593620300293, 505.2566833496094, -48.789669036865234) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Farm", -4.43291711807251, 505.2745666503906, -52.35600280761719) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 11 ] --
+TDS:Place("Farm", -4.411792278289795, 505.2881164550781, -55.87821578979492) -- 11
+TDS:Place("Minigunner", 6.297978401184082, 501.6847229003906, 8.812651634216309) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(10)
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Place("DJ Booth", 5.704128265380859, 501.21905517578125, 16.82231903076172) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:SetOption(13, "Track", "Red")
+TDS:SetOption(13, "Track", "Red")
+TDS:Upgrade(9)
+TDS:Ability(13, "Drop The Beat")
+
+-- [ Wave 15 ] --
+TDS:Upgrade(2)
+TDS:Place("Gatling Gun", -0.6237068176269531, 504.7177734375, 9.161046981811523) -- 14
+
+-- [ Wave 16 ] --
+TDS:Upgrade(5)
+TDS:Ability(13, "Drop The Beat")
+TDS:Ability(13, "Drop The Beat")
+
+-- [ Wave 17 ] --
+TDS:Upgrade(13)
+
+-- [[ END OF STRATEGY ]]

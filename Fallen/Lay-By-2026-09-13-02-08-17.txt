@@ -1,0 +1,79 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Trapper", "None", "None", "None", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("Lay By", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Trapper", 3.0551605224609375, 242.99998474121094, 224.8863525390625) -- 1
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", -3.0269546508789062, 242.99998474121094, 224.67623901367188) -- 2
+
+-- [ Wave 3 ] --
+TDS:Place("Trapper", 2.852140426635742, 242.99998474121094, 230.29803466796875) -- 3
+
+-- [ Wave 4 ] --
+TDS:Place("Trapper", 2.857158660888672, 242.99998474121094, 220.9236297607422) -- 4
+TDS:Place("Trapper", -2.534433364868164, 243.1234130859375, 221.4224853515625) -- 5
+
+-- [ Wave 5 ] --
+TDS:Place("Trapper", -2.8574447631835938, 242.99998474121094, 217.28173828125) -- 6
+TDS:Place("Trapper", 2.9762802124023438, 243.00001525878906, 217.14715576171875) -- 7
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]

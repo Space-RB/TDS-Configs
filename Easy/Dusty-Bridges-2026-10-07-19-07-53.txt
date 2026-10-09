@@ -1,0 +1,35 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Assassin", "Militant", "Scout", "Shotgunner", "Sniper")
+TDS:Mode("Easy")
+TDS:GameInfo("Dusty Bridges", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 4 ] --
+TDS:Place("Militant", 88.17695617675781, 28.288583755493164, -148.2673797607422) -- 1
+TDS:Place("Militant", 85.2679214477539, 28.3110294342041, -149.08633422851562) -- 2
+
+-- [ Wave 5 ] --
+TDS:Place("Militant", 85.29972076416016, 28.316749572753906, -145.7806396484375) -- 3
+
+-- [[ END OF STRATEGY ]]

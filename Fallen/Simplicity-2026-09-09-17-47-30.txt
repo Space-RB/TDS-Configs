@@ -1,0 +1,425 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoChain = true -- Enables automatic commander chain logic if used by the script
+_G.SupportCaravan = false -- Automatically uses Support Caravan ability
+_G.AutoMercenary = true -- Automatically uses Mercenary Base ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Assassin", "Commander", "Engineer", "Mercenary Base", "Hacker")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Assassin", -18.257734298706055, 1.0000007152557373, -4.227776527404785) -- 1
+TDS:Ready()
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", -18.68238067626953, 0.9999834895133972, -6.2439422607421875) -- 2
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Assassin", -18.696598052978516, 0.9999859929084778, -8.265385627746582) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Place("Assassin", -20.52240753173828, 0.9999845027923584, -12.035360336303711) -- 4
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(4)
+TDS:Place("Assassin", -18.672164916992188, 0.9999889135360718, -10.287957191467285) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Place("Assassin", -18.23946762084961, 1.0000004768371582, -2.1708450317382812) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6)
+TDS:Place("Hacker", -11.823225975036621, 0.9999868273735046, -8.91818618774414) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Place("Assassin", -16.868967056274414, 0.9999892115592957, -9.109722137451172) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Engineer", -7.8415303230285645, 0.9999859929084778, -3.7314629554748535) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 16 ] --
+TDS:Place("Assassin", -18.53189468383789, 0.9999898672103882, -12.335441589355469) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Commander", -12.00684642791748, 1.0000005960464478, -3.519695281982422) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Ability(11, "Call Of Arms")
+TDS:VoteSkip(16)
+TDS:Upgrade(9)
+
+-- [ Wave 17 ] --
+TDS:Place("Engineer", -4.837673187255859, 0.9999896883964539, -3.7709200382232666) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(12)
+TDS:Ability(11, "Call Of Arms")
+TDS:Place("Engineer", -7.766679763793945, 1.0000001192092896, -0.7133431434631348) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 19 ] --
+TDS:Place("Commander", -10.812825202941895, 1.000000238418579, -0.691624641418457) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Ability(14, "Call Of Arms")
+TDS:Place("Commander", -8.765013694763184, 0.9999866485595703, -9.124104499816895) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Ability(11, "Call Of Arms")
+
+-- [ Wave 20 ] --
+TDS:Place("Engineer", -5.73229455947876, 0.9999986886978149, -9.018732070922852) -- 16
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Ability(15, "Call Of Arms")
+TDS:Place("Engineer", -4.912263870239258, 0.9999922513961792, -11.905759811401367) -- 17
+TDS:Upgrade(17)
+TDS:VoteSkip(20)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 21 ] --
+TDS:Ability(14, "Call Of Arms")
+TDS:Upgrade(17)
+TDS:Ability(11, "Call Of Arms")
+TDS:Ability(15, "Call Of Arms")
+TDS:VoteSkip(21)
+
+-- [ Wave 22 ] --
+TDS:Ability(14, "Call Of Arms")
+
+-- [ Wave 23 ] --
+TDS:Place("Mercenary Base", -2.6101293563842773, 0.9999831914901733, 2.5293636322021484) -- 18
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Ability(15, "Call Of Arms")
+TDS:Upgrade(18)
+TDS:Ability(11, "Call Of Arms")
+
+-- [ Wave 24 ] --
+TDS:Ability(14, "Call Of Arms")
+TDS:Place("Mercenary Base", 25.021709442138672, 0.9999979734420776, 12.928948402404785) -- 19
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Ability(15, "Call Of Arms")
+TDS:VoteSkip(24)
+
+-- [ Wave 25 ] --
+TDS:Ability(11, "Call Of Arms")
+TDS:Upgrade(19)
+TDS:Ability(14, "Call Of Arms")
+TDS:SetOption(19, "Unit 1", "Riot Guard")
+TDS:SetOption(19, "Unit 2", "Riot Guard")
+TDS:SetOption(19, "Unit 3", "Riot Guard")
+TDS:Place("Mercenary Base", 25.376243591308594, 0.9999970197677612, 18.748184204101562) -- 20
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Ability(15, "Call Of Arms")
+TDS:SetOption(18, "Unit 1", "Riot Guard")
+TDS:SetOption(18, "Unit 2", "Riot Guard")
+TDS:SetOption(18, "Unit 1", "Rifleman")
+TDS:SetOption(18, "Unit 2", "Rifleman")
+TDS:Ability(11, "Call Of Arms")
+TDS:Ability(14, "Call Of Arms")
+TDS:SetOption(18, "Unit 1", "Riot Guard")
+TDS:SetOption(18, "Unit 2", "Riot Guard")
+TDS:SetOption(18, "Unit 3", "Riot Guard")
+TDS:Upgrade(20)
+
+-- [ Wave 26 ] --
+TDS:SetOption(19, "Unit 1", "Rifleman")
+TDS:SetOption(19, "Unit 2", "Rifleman")
+TDS:SetOption(19, "Unit 3", "Rifleman")
+TDS:Ability(15, "Call Of Arms")
+TDS:Upgrade(20)
+TDS:Ability(14, "Call Of Arms")
+TDS:Place("Hacker", 5.9696044921875, 0.9999922513961792, -10.171844482421875) -- 21
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:VoteSkip(26)
+TDS:Ability(11, "Call Of Arms")
+TDS:Upgrade(18)
+
+-- [ Wave 27 ] --
+TDS:Ability(15, "Call Of Arms")
+
+-- [ Wave 29 ] --
+TDS:Upgrade(18)
+TDS:Ability(18, "Air-Drop", {directionCFrame = CFrame.new(-1.9571757316589355, 1.125002384185791, 6.65728759765625, -0.3020160496234894, 0, 0.953302800655365, 0, 1, -0, -0.9533029198646545, 0, -0.302016019821167), dist = 121.22320288419724, pathName = 1})
+TDS:VoteSkip(29)
+TDS:Upgrade(19)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(19)
+TDS:Ability(19, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.6895001530647278, 0, 0.7242855429649353, 0, 1, -0, -0.7242856025695801, 0, -0.689500093460083), dist = 128.56032413244247, pathName = 1})
+TDS:Ability(18, "Air-Drop", {directionCFrame = CFrame.new(-3.1602776050567627, 1.125002384185791, 6.735870361328125, -0.5474750995635986, 0, 0.836821973323822, 0, 1, -0, -0.836821973323822, 0, -0.5474750995635986), dist = 118.64695066213608, pathName = 1})
+TDS:Ability(14, "Call Of Arms")
+TDS:VoteSkip(30)
+TDS:Upgrade(20)
+
+-- [ Wave 31 ] --
+TDS:Ability(19, "Air-Drop", {directionCFrame = CFrame.new(4.848644256591797, 1.125002384185791, 6.539121627807617, -0.1623520851135254, 0, 0.9867329001426697, 0, 1, -0, -0.9867329001426697, 0, -0.1623520851135254), dist = 128.56032413244247, pathName = 1})
+TDS:Ability(20, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.521699070930481, 0, 0.8531296253204346, 0, 1.0000001192092896, -0, -0.8531296253204346, 0, -0.521699070930481), dist = 128.56032413244247, pathName = 1})
+TDS:Ability(11, "Call Of Arms")
+TDS:Ability(18, "Air-Drop", {directionCFrame = CFrame.new(5.638544082641602, 1.125002384185791, 6.5279669761657715, -0.20701716840267181, 0, 0.9783373475074768, 0, 1.0000001192092896, -0, -0.9783373475074768, 0, -0.20701716840267181), dist = 128.56032413244247, pathName = 1})
+TDS:SetOption(20, "Unit 3", "Field Medic")
+TDS:Ability(14, "Call Of Arms")
+TDS:Ability(15, "Call Of Arms")
+TDS:Upgrade(20)
+TDS:Upgrade(17)
+TDS:Upgrade(16)
+TDS:Ability(11, "Call Of Arms")
+TDS:VoteSkip(31)
+TDS:Upgrade(9)
+
+-- [ Wave 32 ] --
+TDS:Ability(19, "Air-Drop", {directionCFrame = CFrame.new(0.8482584953308105, 1.125002384185791, 6.615265846252441, -0.3792913854122162, 0, 0.9252773523330688, 0, 1.0000001192092896, -0, -0.9252773523330688, 0, -0.3792913854122162), dist = 124.73594158887863, pathName = 1})
+TDS:Ability(20, "Air-Drop", {directionCFrame = CFrame.new(0.8694335222244263, 1.125002384185791, 6.614831924438477, -0.3787379264831543, 0, 0.9255040287971497, 0, 1.0000001192092896, -0, -0.9255040287971497, 0, -0.3787379264831543), dist = 124.73594158887863, pathName = 1})
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Ability(18, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.6866320371627808, 0, 0.727005124092102, 0, 1, -0, -0.727005124092102, 0, -0.6866320371627808), dist = 121.22320288419724, pathName = 1})
+TDS:Ability(14, "Call Of Arms")
+TDS:Ability(11, "Call Of Arms")
+TDS:Upgrade(9)
+TDS:VoteSkip(32)
+
+-- [ Wave 33 ] --
+TDS:Ability(15, "Call Of Arms")
+TDS:Upgrade(12)
+TDS:Ability(19, "Air-Drop", {directionCFrame = CFrame.new(-5.253756046295166, 1.125002384185791, 6.240772724151611, -0.36161282658576965, 0, 0.9323284029960632, 0, 1.0000001192092896, -0, -0.9323284029960632, 0, -0.36161282658576965), dist = 115.27454680204391, pathName = 1})
+TDS:Ability(20, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.5566498637199402, 0, 0.8307472467422485, 0, 1, -0, -0.8307472467422485, 0, -0.5566498637199402), dist = 115.27454680204391, pathName = 1})
+TDS:Ability(14, "Call Of Arms")
+TDS:Ability(18, "Air-Drop", {directionCFrame = CFrame.new(-5.1190972328186035, 1.125002384185791, 6.749869346618652, -0.31305620074272156, 0, 0.949734628200531, 0, 1, -0, -0.949734628200531, 0, -0.31305620074272156), dist = 115.76516261696815, pathName = 1})
+
+-- [ Wave 34 ] --
+TDS:Ability(11, "Call Of Arms")
+TDS:Ability(15, "Call Of Arms")
+TDS:Upgrade(13)
+TDS:Upgrade(16)
+TDS:Ability(14, "Call Of Arms")
+TDS:VoteSkip(34)
+TDS:Ability(11, "Call Of Arms")
+TDS:Upgrade(17)
+
+-- [ Wave 35 ] --
+TDS:Ability(18, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.45777657628059387, 0, 0.8890672326087952, 0, 1, -0, -0.8890673518180847, 0, -0.4577765166759491), dist = 118.64695066213608, pathName = 1})
+TDS:Ability(19, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.45777657628059387, 0, 0.8890672326087952, 0, 1, -0, -0.8890673518180847, 0, -0.4577765166759491), dist = 117.16271859407425, pathName = 1})
+TDS:Ability(20, "Air-Drop", {directionCFrame = CFrame.new(-3.9755725860595703, 1.125002384185791, 6.86630392074585, -0.15266107022762299, 0, 0.9882785677909851, 0, 1, -0, -0.9882786870002747, 0, -0.1526610553264618), dist = 117.16271859407425, pathName = 1})
+TDS:Ability(15, "Call Of Arms")
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(8)
+TDS:Upgrade(5)
+TDS:Upgrade(10)
+TDS:Upgrade(4)
+TDS:Ability(14, "Call Of Arms")
+
+-- [ Wave 36 ] --
+TDS:Place("Assassin", -14.635618209838867, 0.999988853931427, -9.001178741455078) -- 22
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Place("Assassin", -16.8328914642334, 0.9999919533729553, -11.23819637298584) -- 23
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Place("Assassin", -14.803631782531738, 0.9999920129776001, -11.112778663635254) -- 24
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Place("Assassin", -12.695516586303711, 0.9999998807907104, 1.0932879447937012) -- 25
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(11)
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+TDS:Upgrade(11)
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+TDS:Ability(11, "Call Of Arms")
+TDS:Ability(11, "Support Caravan")
+TDS:Ability(14, "Support Caravan")
+TDS:Ability(15, "Support Caravan")
+TDS:VoteSkip(36)
+TDS:Ability(14, "Call Of Arms")
+TDS:Ability(18, "Air-Drop", {directionCFrame = CFrame.new(-4.184411525726318, 1.125002384185791, 6.924778461456299, -0.5440521240234375, 0, 0.8390514850616455, 0, 1.0000001192092896, -0, -0.8390514850616455, 0, -0.5440521240234375), dist = 117.16271859407425, pathName = 1})
+TDS:Ability(19, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.706285297870636, 0, 0.7079272866249084, 0, 1, -0, -0.7079272866249084, 0, -0.706285297870636), dist = 115.27454680204391, pathName = 1})
+
+-- [ Wave 37 ] --
+TDS:Ability(20, "Air-Drop", {directionCFrame = CFrame.new(-5.266114711761475, 1.125002384185791, 6.185982704162598, -0.652235746383667, 0, 0.7580162286758423, 0, 1, -0, -0.7580162286758423, 0, -0.652235746383667), dist = 115.27454680204391, pathName = 1})
+TDS:Place("Assassin", -12.83476448059082, 0.9999872446060181, -11.577409744262695) -- 26
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Ability(15, "Call Of Arms")
+TDS:Place("Assassin", -23.859628677368164, 1.0000011920928955, -6.639997482299805) -- 27
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:VoteSkip(37)
+TDS:Place("Assassin", -23.7462215423584, 1.0000007152557373, -4.421174049377441) -- 28
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+
+-- [ Wave 38 ] --
+TDS:Ability(11, "Call Of Arms")
+TDS:Place("Assassin", -23.77669906616211, 1.0000004768371582, -2.3210277557373047) -- 29
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Place("Assassin", -23.86655616760254, 1.0000001192092896, -0.24729633331298828) -- 30
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Ability(14, "Call Of Arms")
+TDS:Place("Assassin", -23.884220123291016, 0.9999997615814209, 1.7686471939086914) -- 31
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Place("Assassin", -25.92197608947754, 1.0000011920928955, -6.612814903259277) -- 32
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Ability(15, "Call Of Arms")
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7, 2)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21, 2)
+TDS:Ability(7, "Hologram Tower", {towerPosition = Vector3.new(19.952381134033203, 0.9999980926513672, 12.231754302978516), towerToClone = 19})
+TDS:Ability(11, "Call Of Arms")
+TDS:Ability(18, "Air-Drop", {directionCFrame = CFrame.new(-5.269609451293945, 1.125002384185791, 6.170488357543945, -0.39760977029800415, 0, 0.9175546169281006, 0, 1, -0, -0.9175546169281006, 0, -0.39760977029800415), dist = 115.27454680204391, pathName = 1})
+TDS:Ability(19, "Air-Drop", {directionCFrame = CFrame.new(-5.269609451293945, 1.125002384185791, 6.170488357543945, -0.39760977029800415, 0, 0.9175546169281006, 0, 1, -0, -0.9175546169281006, 0, -0.39760977029800415), dist = 115.27454680204391, pathName = 1})
+TDS:Ability(20, "Air-Drop", {directionCFrame = CFrame.new(-5.273463726043701, 1.125002384185791, 6.153401851654053, -0.4003297984600067, 0, 0.9163711667060852, 0, 1, -0, -0.9163711667060852, 0, -0.4003297984600067), dist = 115.27454680204391, pathName = 1})
+TDS:Ability(14, "Support Caravan")
+TDS:Ability(11, "Support Caravan")
+TDS:Ability(15, "Support Caravan")
+TDS:Ability(21, "Hologram Tower", {towerPosition = Vector3.new(20.849109649658203, 0.9999967217445374, 20.416549682617188), towerToClone = 19})
+
+-- [ Wave 39 ] --
+TDS:Ability(14, "Call Of Arms")
+TDS:Ability(15, "Call Of Arms")
+TDS:Ability(11, "Call Of Arms")
+TDS:Ability(14, "Call Of Arms")
+TDS:Ability(18, "Air-Drop", {directionCFrame = CFrame.new(-5.386500358581543, 1.125002384185791, 5.652273178100586, -0.42861407995224, 0, 0.9034876823425293, 0, 1, -0, -0.9034876823425293, 0, -0.42861407995224), dist = 115.27454680204391, pathName = 1})
+TDS:Ability(19, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.5512315034866333, 0, 0.8343523740768433, 0, 1, -0, -0.8343523740768433, 0, -0.5512315034866333), dist = 115.27454680204391, pathName = 1})
+TDS:Ability(20, "Air-Drop", {directionCFrame = CFrame.new(-5.307633876800537, 1.125002384185791, 6.001914024353027, -0.40289372205734253, 0, 0.915246844291687, 0, 1.0000001192092896, -0, -0.915246844291687, 0, -0.40289372205734253), dist = 115.27454680204391, pathName = 1})
+TDS:VoteSkip(39)
+TDS:Ability(7, "Hologram Tower", {towerPosition = Vector3.new(21.769676208496094, 0.9999986886978149, 8.13955307006836), towerToClone = 19})
+
+-- [ Wave 40 ] --
+TDS:Ability(7, "Hologram Tower", {towerPosition = Vector3.new(13.347113609313965, 0.9999983906745911, 10.332393646240234), towerToClone = 19})
+TDS:Ability(15, "Call Of Arms")
+TDS:SetOption(19, "Unit 1", "Riot Guard")
+TDS:SetOption(19, "Unit 3", "Riot Guard")
+TDS:SetOption(19, "Unit 2", "Riot Guard")
+TDS:SetOption(20, "Unit 1", "Riot Guard")
+TDS:SetOption(20, "Unit 2", "Riot Guard")
+TDS:Ability(21, "Hologram Tower", {towerPosition = Vector3.new(21.176891326904297, 0.9999988079071045, 7.338192939758301), towerToClone = 19})
+TDS:Ability(21, "Hologram Tower", {towerPosition = Vector3.new(9.944429397583008, 0.9999831914901733, 3.6031856536865234), towerToClone = 19})
+TDS:Ability(14, "Support Caravan")
+TDS:Ability(11, "Support Caravan")
+TDS:Ability(15, "Support Caravan")
+TDS:Ability(18, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.441700279712677, 0, 0.8971627354621887, 0, 1.0000001192092896, -0, -0.8971627354621887, 0, -0.441700279712677), dist = 47.181684136390686, pathName = 1})
+TDS:Ability(19, "Air-Drop", {directionCFrame = CFrame.new(-2.811555862426758, 1.125002384185791, -6.3398895263671875, -0.8167266249656677, 0, 0.5770248174667358, 0, 1, -0, -0.5770248174667358, 0, -0.8167266249656677), dist = 47.181684136390686, pathName = 1})
+TDS:Ability(20, "Air-Drop", {directionCFrame = CFrame.new(-2.753909111022949, 1.125002384185791, -6.3398895263671875, -0.814853310585022, 0, 0.579667329788208, 0, 1.0000001192092896, -0, -0.5796673893928528, 0, -0.8148531913757324), dist = 47.181684136390686, pathName = 1})
+TDS:Ability(21, "Hologram Tower", {towerPosition = Vector3.new(21.567209243774414, 0.9999988675117493, 7.043086051940918), towerToClone = 19})
+TDS:Ability(21, "Hologram Tower")
+TDS:Ability(21, "Hologram Tower")
+TDS:Ability(21, "Hologram Tower", {towerPosition = Vector3.new(20.096431732177734, 0.9999980926513672, 12.174871444702148), towerToClone = 19})
+TDS:Ability(7, "Hologram Tower", {towerPosition = Vector3.new(16.149864196777344, 0.9999969005584717, 19.246707916259766), towerToClone = 19})
+TDS:Ability(7, "Hologram Tower", {towerPosition = Vector3.new(19.940391540527344, 0.9999966621398926, 20.22709846496582), towerToClone = 20})
+TDS:Ability(18, "Air-Drop", {directionCFrame = CFrame.new(2.794670581817627, 1.125002384185791, -10.9758882522583, -0.9863313436508179, 0, 0.1647738814353943, 0, 1, -0, -0.1647738814353943, 0, -0.9863313436508179), dist = 57.5629178583622, pathName = 1})
+TDS:Ability(19, "Air-Drop", {directionCFrame = CFrame.new(2.794670581817627, 1.125002384185791, -10.9758882522583, -0.9863313436508179, 0, 0.1647738814353943, 0, 1, -0, -0.1647738814353943, 0, -0.9863313436508179), dist = 57.5629178583622, pathName = 1})
+TDS:Ability(20, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, -0.997076690196991, 0, 0.07640788704156876, 0, 1.0000001192092896, -0, -0.07640788704156876, 0, -0.997076690196991), dist = 57.5629178583622, pathName = 1})
+TDS:Ability(15, "Support Caravan")
+TDS:Ability(14, "Support Caravan")
+TDS:Ability(11, "Support Caravan")
+TDS:Ability(15, "Call Of Arms")
+TDS:Ability(14, "Call Of Arms")
+TDS:Ability(11, "Call Of Arms")
+TDS:Ability(15, "Call Of Arms")
+
+-- [[ END OF STRATEGY ]]

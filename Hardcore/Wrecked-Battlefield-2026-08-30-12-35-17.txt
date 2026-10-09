@@ -1,0 +1,99 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoMercenary = true -- Automatically uses Mercenary Base ability
+_G.AutoMilitary = true -- Automatically uses Military Base ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Militant", "Ranger", "Military Base", "Mercenary Base", "Pursuit")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wrecked Battlefield", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Military Base", -16.84, 7.38, 24.38, true) -- 1
+TDS:Place("Military Base", -20.48, 24.25, 10.68, true) -- 2
+TDS:Place("Military Base", -19.24, 6.77, 22.52, true) -- 3
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Military Base", -31.54, 32.16, 9.18, true) -- 4
+
+-- [ Wave 3 ] --
+TDS:Place("Military Base", -30.28, 29.00, 10.95, true) -- 5
+
+-- [ Wave 5 ] --
+TDS:Place("Militant", 4.06, 3.60, 2.84) -- 6
+TDS:Place("Militant", 0.63, 3.60, 3.41) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+
+-- [ Wave 6 ] --
+TDS:Sell(7)
+
+-- [ Wave 7 ] --
+TDS:Place("Militant", -3.91, 3.60, 5.21) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(6)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(2)
+TDS:VoteSkip(17)
+
+-- [ Wave 18 ] --
+TDS:Place("Militant", -1.74, 3.60, -1.89) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Militant", 4.56, 3.60, -3.70) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 19 ] --
+TDS:VoteSkip(19)
+
+-- [[ END OF STRATEGY ]]

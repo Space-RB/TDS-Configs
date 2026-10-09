@@ -1,0 +1,219 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Gatling Gun", "EvolvedJuggernaut", "DJ Booth", "Farm", "EvolvedOperator")
+TDS:Mode("Molten")
+TDS:GameInfo("Wrecked Battlefield", {"HiddenEnemies", "Quarantine", "Limitation", "ExplodingEnemies"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("EvolvedOperator", 9.310508728027344, 3.5999808311462402, 18.993911743164062) -- 1
+TDS:Place("Farm", 29.873634338378906, 3.599977493286133, 19.499597549438477) -- 2
+
+-- [ Wave 1 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", 29.988506317138672, 3.599982500076294, 15.311386108398438, true) -- 3
+TDS:Place("Farm", 29.06296730041504, 6.947810173034668, 13.99506950378418, true) -- 4
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", 29.001323699951172, 6.947815895080566, 13.730186462402344, true) -- 5
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Farm", 28.431875228881836, 3.5999791622161865, 9.32364273071289, true) -- 6
+TDS:Place("Farm", 28.77016258239746, 5.60855770111084, 10.957647323608398, true) -- 7
+TDS:Place("Farm", 30.38865089416504, 6.947802543640137, 11.832040786743164, true) -- 8
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(8)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 7 ] --
+TDS:Place("EvolvedOperator", 9.502760887145996, 3.5999886989593506, 16.207719802856445, true) -- 9
+TDS:Place("EvolvedOperator", 9.26476001739502, 3.599994659423828, 14.348600387573242, true) -- 10
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(9)
+TDS:Place("EvolvedOperator", 6.553781032562256, 3.59997820854187, 19.186885833740234, true) -- 11
+TDS:Upgrade(11)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(10)
+
+-- [ Wave 11 ] --
+TDS:Place("Gatling Gun", 8.68869400024414, 8.509937286376953, 1.6295745372772217) -- 12
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(12)
+
+-- [ Wave 13 ] --
+TDS:Place("DJ Booth", 7.438427448272705, 0.9999545216560364, 11.41606330871582, true) -- 13
+
+-- [ Wave 14 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(8)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(13)
+
+-- [ Wave 21 ] --
+TDS:Place("EvolvedJuggernaut", 1.670868158340454, 3.59997820854187, 15.464155197143555, true) -- 14
+
+-- [ Wave 22 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(14, 2)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(14, 2)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(14, 2)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(14, 2)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 34 ] --
+TDS:Place("EvolvedOperator", 7.115551471710205, 5.55950927734375, 12.97917366027832, true) -- 15
+TDS:Place("EvolvedOperator", 5.423805236816406, 3.59997820854187, 17.527297973632812, true) -- 16
+TDS:Place("EvolvedOperator", 5.057922840118408, 3.59997820854187, 15.051603317260742, true) -- 17
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 35 ] --
+TDS:Place("EvolvedOperator", 7.851394176483154, 3.59997820854187, 16.939693450927734, true) -- 18
+TDS:Place("EvolvedOperator", 5.507138729095459, 4.095887184143066, 14.815232276916504, true) -- 19
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [[ END OF STRATEGY ]]

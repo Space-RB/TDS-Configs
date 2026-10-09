@@ -1,0 +1,84 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Pyromancer", "Shotgunner", "Crook Boss", "None", "None")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Pyromancer", -3.7939577102661133, 1.0071187019348145, -35.555267333984375) -- 1
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Shotgunner", -8.276490211486816, 0.9782520532608032, -31.961719512939453) -- 2
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Place("Shotgunner", -8.027935981750488, 0.9534021615982056, -29.774816513061523) -- 3
+
+-- [ Wave 15 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(3)
+TDS:Place("Shotgunner", -10.099491119384766, 0.970665454864502, -29.392292022705078) -- 4
+
+-- [ Wave 17 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 19 ] --
+TDS:Place("Shotgunner", -5.633217811584473, 0.9371070861816406, -29.773698806762695) -- 5
+TDS:Upgrade(5)
+TDS:Place("Crook Boss", 2.4085617065429688, 1.4324312210083008, 30.210430145263672) -- 6
+TDS:Place("Crook Boss", -0.9628331661224365, 1.4641965627670288, 30.240703582763672) -- 7
+
+-- [ Wave 20 ] --
+TDS:Place("Pyromancer", -10.576455116271973, 1.0131773948669434, -33.01937484741211) -- 8
+
+-- [ Wave 21 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 22 ] --
+TDS:Place("Shotgunner", -3.461285352706909, 1.4153478145599365, 39.4066162109375) -- 9
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]

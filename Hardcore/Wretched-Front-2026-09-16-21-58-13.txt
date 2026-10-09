@@ -1,0 +1,46 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Farm", "EvolvedEnforcer", "Engineer", "EvolvedKingpin", "Pyromancer")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Engineer", 3.4435644149780273, 1.3548109531402588, 22.137359619140625) -- 1
+
+-- [ Wave 3 ] --
+TDS:Place("Engineer", 0.6327860355377197, 1.4134254455566406, 20.130130767822266) -- 2
+
+-- [ Wave 4 ] --
+TDS:Place("Engineer", 6.22996711730957, 1.1810660362243652, 20.195446014404297) -- 3
+TDS:Place("Engineer", 3.4124741554260254, 0.9774190783500671, 18.40391731262207) -- 4
+
+-- [ Wave 8 ] --
+TDS:Place("EvolvedEnforcer", -6.549254417419434, 0.9538379907608032, -31.405441284179688) -- 5
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Place("EvolvedEnforcer", 13.050875663757324, 1.206596851348877, 23.559673309326172) -- 6
+
+-- [[ END OF STRATEGY ]]

@@ -1,0 +1,151 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Scout", "None", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Abyssal Trench", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", -24.270469665527344, 0.4474813938140869, -15.78510570526123) -- 1
+TDS:Place("Scout", -21.05615997314453, 0.44748154282569885, -14.670534133911133) -- 2
+TDS:Place("Scout", -16.105247497558594, 0.4474814832210541, -14.997886657714844) -- 3
+TDS:Place("Scout", -21.400840759277344, 0.44748228788375854, -18.000808715820312) -- 4
+
+-- [ Wave 2 ] --
+TDS:Place("Scout", -18.259624481201172, 0.44748228788375854, -17.27735137939453) -- 5
+
+-- [ Wave 3 ] --
+TDS:Place("Scout", -25.76272201538086, 0.44747868180274963, -7.125678062438965) -- 6
+TDS:Place("Scout", -27.791488647460938, 0.44748079776763916, -14.296148300170898) -- 7
+
+-- [ Wave 4 ] --
+TDS:Place("Scout", -12.969886779785156, 0.4474814534187317, -15.170074462890625) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 5 ] --
+TDS:Place("Scout", -16.62610626220703, 0.44747912883758545, -7.644290924072266) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+TDS:Place("Scout", -9.13216781616211, 0.4474810063838959, -14.178776741027832) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(10)
+TDS:Place("Scout", -8.579906463623047, 0.44747990369796753, -10.851058959960938) -- 11
+TDS:Place("Scout", -8.67706298828125, 0.44747889041900635, -7.829268932342529) -- 12
+TDS:Place("Scout", -16.918987274169922, 0.4474780857563019, -4.416659355163574) -- 13
+
+-- [ Wave 10 ] --
+TDS:Place("Scout", -17.502845764160156, 0.4474771320819855, -1.4218603372573853) -- 14
+TDS:Upgrade(6)
+TDS:Place("Scout", -15.20145034790039, 0.44748255610466003, -18.365171432495117) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(14)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+TDS:Upgrade(15)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Place("Scout", -7.624610900878906, 0.4474778175354004, -4.870492935180664) -- 16
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Scout", -20.804718017578125, 0.44747766852378845, -2.764404773712158) -- 17
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [[ END OF STRATEGY ]]

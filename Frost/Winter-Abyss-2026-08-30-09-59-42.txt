@@ -1,0 +1,167 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AutoMercenary = true -- Automatically uses Mercenary Base ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Mercenary Base", "Hacker", "DJ Booth", "Gatling Gun", "Trapper")
+TDS:Mode("Frost")
+TDS:GameInfo("Winter Abyss", {"HiddenEnemies", "Glass", "Fog", "ExplodingEnemies"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Trapper", 12.31, 2.94, -6.25) -- 1
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", 17.21, 2.96, -11.90) -- 2
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Trapper", 22.78, 3.14, -10.45) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Trapper", 23.02, 3.26, -16.81) -- 4
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:Place("Trapper", 16.75, 3.07, -23.17) -- 5
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Place("Trapper", 11.08, 3.04, -23.83) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 14 ] --
+TDS:Place("Gatling Gun", 7.69, 7.55, -49.04) -- 7
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+TDS:Place("Mercenary Base", 5.89, 4.93, -54.67) -- 8
+
+-- [ Wave 16 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 23 ] --
+TDS:Place("Mercenary Base", 0.08, 5.06, -55.77) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 25 ] --
+TDS:Place("Mercenary Base", -1.68, 4.95, -50.41) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 26 ] --
+TDS:Place("DJ Booth", 3.54, 4.94, -50.48) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(10)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(7)
+TDS:Place("Trapper", 0.45, 2.94, -2.15) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Hacker", -6.30, 0.98, 48.63) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(13, 2)
+
+-- [[ END OF STRATEGY ]]
