@@ -25,11 +25,11 @@ Find a mode, choose a map, and open a ready-to-use strategy in just a few clicks
 | Mode | Strategies | Open |
 |:---:|---:|:---:|
 | **Story** | 2 | [Browse →](Story/README.md) |
-| Act1Easy | 2 | [Open](Act1Easy/README.md) |
+| Fallen | 116 | [Open](Fallen/README.md) |
 | **Casual** | 39 | [Browse →](Casual/README.md) |
 | **Intermediate** | 29 | [Browse →](Intermediate/README.md) |
 | Easy | 141 | [Open](Easy/README.md) |
-| **Fallen** | 115 | [Browse →](Fallen/README.md) |
+| Molten | 76 | [Open](Molten/README.md) |
 | **Frost** | 167 | [Browse →](Frost/README.md) |
 | **Badlands** | 3 | [Browse →](Badlands/README.md) |
 | **Hardcore** | 211 | [Browse →](Hardcore/README.md) |
@@ -39,7 +39,7 @@ Find a mode, choose a map, and open a ready-to-use strategy in just a few clicks
 | **Sandbox** | 26 | [Browse →](Sandbox/README.md) |
 | **Unknown** | 1 | [Browse →](Unknown/README.md) |
 
-| Molten | 76 | [Open](Molten/README.md) |
+| Act1Easy | 2 | [Open](Act1Easy/README.md) |
 </div>
 
 ---
