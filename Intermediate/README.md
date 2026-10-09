@@ -4,6 +4,8 @@
 
 Configs in this category: **29**
 
+<div align="center">
+
 | Date | Mode | Map | Modifiers | Towers | Reward | Config |
 |---|---|---|---|---|---|---|
 | Unknown | Intermediate | Abyssal Trench | — | Scout, Minigunner, Commander, DJ Booth, Assassin | — | [Открыть](Abyssal-Trench-2026-10-06-23-29-27.txt) |
@@ -35,6 +37,8 @@ Configs in this category: **29**
 | Unknown | Intermediate | Winter Bridges | — | Sniper, Demoman, Soldier, Militant, None | — | [Открыть](Winter-Bridges-2026-09-28-01-20-14.txt) |
 | Unknown | Intermediate | Winter Bridges | — | Militant, Soldier, Sniper, Demoman, Scout | — | [Открыть](Winter-Bridges-2026-10-04-21-38-08.txt) |
 | Unknown | Intermediate | Wrecked Battlefield II | — | EvolvedOperator, EvolvedEnforcer, None | — | [Открыть](Wrecked-Battlefield-II-2026-09-27-12-23-23.txt) |
+
+</div>
 
 ---
 

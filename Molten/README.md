@@ -4,6 +4,8 @@
 
 Configs in this category: **75**
 
+<div align="center">
+
 | Date | Mode | Map | Modifiers | Towers | Reward | Config |
 |---|---|---|---|---|---|---|
 | Unknown | Molten | Abandoned City | — | Scout, Crook Boss, Minigunner, Farm, Hacker | — | [Открыть](Abandoned-City-2026-08-29-23-21-19.txt) |
@@ -81,6 +83,8 @@ Configs in this category: **75**
 | Unknown | Molten | U-Turn | — | Crook Boss, Farm, Soldier, Minigunner, Commander | — | [Открыть](U-Turn-2026-09-17-21-36-16.txt) |
 | Unknown | Molten | Winter Bridges | — | Assassin, Militant, Shotgunner, None | — | [Открыть](Winter-Bridges-2026-09-23-21-01-13.txt) |
 | Unknown | Molten | Wrecked Battlefield | HiddenEnemies, Quarantine, Limitation, ExplodingEnemies | Gatling Gun, EvolvedJuggernaut, DJ Booth, Farm, EvolvedOperator | — | [Открыть](Wrecked-Battlefield-2026-09-27-20-58-51.txt) |
+
+</div>
 
 ---
 

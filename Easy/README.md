@@ -4,6 +4,8 @@
 
 Configs in this category: **140**
 
+<div align="center">
+
 | Date | Mode | Map | Modifiers | Towers | Reward | Config |
 |---|---|---|---|---|---|---|
 | Unknown | Easy | Abyssal Trench | — | Militant, None | — | [Открыть](Abyssal-Trench-2026-08-31-17-46-50.txt) |
@@ -146,6 +148,8 @@ Configs in this category: **140**
 | Unknown | Easy | Wrecked Battlefield | — | Hacker, Saboteur, Pyromancer, Soldier, Farm | — | [Открыть](Wrecked-Battlefield-2026-09-01-16-29-02.txt) |
 | Unknown | Easy | Wrecked Battlefield | — | Hacker, Saboteur, Pyromancer, Soldier, Farm | — | [Открыть](Wrecked-Battlefield-2026-09-01-16-37-26.txt) |
 | Unknown | Easy | Wrecked Battlefield | — | Pyromancer, Turret, Military Base, Farm, Soldier | — | [Открыть](Wrecked-Battlefield-2026-09-20-12-39-56.txt) |
+
+</div>
 
 ---
 

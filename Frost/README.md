@@ -4,6 +4,8 @@
 
 Configs in this category: **167**
 
+<div align="center">
+
 | Date | Mode | Map | Modifiers | Towers | Reward | Config |
 |---|---|---|---|---|---|---|
 | Unknown | Frost | Abandoned City | — | Soldier, None | — | [Открыть](Abandoned-City-2026-10-02-00-30-39.txt) |
@@ -173,6 +175,8 @@ Configs in this category: **167**
 | Unknown | Frost | U-Turn | — | Electroshocker, DJ Booth, Accelerator, EvolvedJuggernaut, Mortar | — | [Открыть](U-Turn-2026-09-28-22-35-42.txt) |
 | Unknown | Frost | Winter Abyss | HiddenEnemies, Glass, Fog, ExplodingEnemies | Mercenary Base, Hacker, DJ Booth, Gatling Gun, Trapper | — | [Открыть](Winter-Abyss-2026-08-30-09-59-42.txt) |
 | Unknown | Frost | Winter Abyss | HiddenEnemies, Glass, Fog, ExplodingEnemies | Mercenary Base, Hacker, DJ Booth, Gatling Gun, Trapper | — | [Открыть](Winter-Abyss-2026-08-30-10-01-47.txt) |
+
+</div>
 
 ---
 

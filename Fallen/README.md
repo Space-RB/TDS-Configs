@@ -4,6 +4,8 @@
 
 Configs in this category: **115**
 
+<div align="center">
+
 | Date | Mode | Map | Modifiers | Towers | Reward | Config |
 |---|---|---|---|---|---|---|
 | Unknown | Fallen | Abyssal Trench | HiddenEnemies, Glass, ExplodingEnemies, Limitation, Quarantine, FlyingEnemies, Fog | Gatling Gun, Hacker, EvolvedEnforcer, EvolvedOperator, DJ Booth | — | [Открыть](Abyssal-Trench-2026-10-04-15-31-56.txt) |
@@ -121,6 +123,8 @@ Configs in this category: **115**
 | Unknown | Fallen | Wrecked Battlefield II | — | Farm, Brawler, EvolvedEnforcer, Warden, Accelerator | — | [Открыть](Wrecked-Battlefield-II-2026-08-31-09-15-03.txt) |
 | Unknown | Fallen | Wrecked Battlefield II | — | Farm, Brawler, EvolvedEnforcer, Warden, Accelerator | — | [Открыть](Wrecked-Battlefield-II-2026-08-31-09-20-44.txt) |
 | Unknown | Fallen | Wrecked Battlefield II | — | Pyromancer, Shotgunner, DJ Booth, Commander, Accelerator | — | [Открыть](Wrecked-Battlefield-II-2026-09-06-00-36-50.txt) |
+
+</div>
 
 ---
 

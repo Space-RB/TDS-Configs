@@ -4,6 +4,8 @@
 
 Configs in this category: **211**
 
+<div align="center">
+
 | Date | Mode | Map | Modifiers | Towers | Reward | Config |
 |---|---|---|---|---|---|---|
 | Unknown | Hardcore | Outskirts Commune | — | EvolvedEnforcer, EvolvedKingpin, Pyromancer, Hunter, None | — | [Открыть](Outskirts-Commune-2026-08-29-12-10-09.txt) |
@@ -217,6 +219,8 @@ Configs in this category: **211**
 | Unknown | Hardcore | Wretched Front | — | Farm, Crook Boss, Boomerang, None | — | [Открыть](Wretched-Front-2026-10-09-16-34-41.txt) |
 | Unknown | Hardcore | Wretched Front | — | Crook Boss, Boomerang, Farm, Commander, EvolvedJuggernaut | — | [Открыть](Wretched-Front-2026-10-09-18-13-50.txt) |
 | Unknown | Hardcore | Wretched Front | — | Crook Boss, Boomerang, Farm, Commander, EvolvedJuggernaut | — | [Открыть](Wretched-Front-2026-10-09-18-22-53.txt) |
+
+</div>
 
 ---
 

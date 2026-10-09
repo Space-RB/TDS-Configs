@@ -4,6 +4,8 @@
 
 Configs in this category: **26**
 
+<div align="center">
+
 | Date | Mode | Map | Modifiers | Towers | Reward | Config |
 |---|---|---|---|---|---|---|
 | Unknown | Sandbox | Dev | — | Trapper, Military Base, Mercenary Base, DJ Booth, Gatling Gun | — | [Открыть](Dev-2026-08-29-09-29-30.txt) |
@@ -32,6 +34,8 @@ Configs in this category: **26**
 | Unknown | Sandbox | Dev | — | Trapper, Scout, None | — | [Открыть](Dev-2026-09-22-00-38-43.txt) |
 | Unknown | Sandbox | Dev | — | Trapper, Scout, None | — | [Открыть](Dev-2026-09-22-00-40-26.txt) |
 | Unknown | Sandbox | Dev | — | Gatling Gun, Hacker, Commander, Medic, Scout | — | [Открыть](Dev-2026-10-04-04-54-50.txt) |
+
+</div>
 
 ---
 

@@ -4,6 +4,8 @@
 
 Configs in this category: **14**
 
+<div align="center">
+
 | Date | Mode | Map | Modifiers | Towers | Reward | Config |
 |---|---|---|---|---|---|---|
 | Unknown | Trial | Dusty Bridges | — | DJ Booth, EvolvedJuggernaut, EvolvedKingpin, Demoman, Farm | — | [Открыть](Dusty-Bridges-2026-08-30-20-30-41.txt) |
@@ -20,6 +22,8 @@ Configs in this category: **14**
 | Unknown | Trial | Dusty Bridges | — | DJ Booth, EvolvedJuggernaut, EvolvedKingpin, Demoman, Farm | — | [Открыть](Dusty-Bridges-2026-08-30-20-53-21.txt) |
 | Unknown | Trial | Dusty Bridges | — | DJ Booth, EvolvedJuggernaut, EvolvedKingpin, Demoman, Farm | — | [Открыть](Dusty-Bridges-2026-08-30-21-01-00.txt) |
 | Unknown | Trial | Dusty Bridges | — | DJ Booth, EvolvedJuggernaut, EvolvedKingpin, Demoman, Farm | — | [Открыть](Dusty-Bridges-2026-08-30-21-03-51.txt) |
+
+</div>
 
 ---
 

@@ -4,6 +4,8 @@
 
 Configs in this category: **26**
 
+<div align="center">
+
 | Date | Mode | Map | Modifiers | Towers | Reward | Config |
 |---|---|---|---|---|---|---|
 | Unknown | PizzaParty | Pizza Party | — | EvolvedOperator, Trapper, None | — | [Открыть](Pizza-Party-2026-09-03-10-22-29.txt) |
@@ -32,6 +34,8 @@ Configs in this category: **26**
 | Unknown | PizzaParty | Pizza Party | — | Pyromancer, Cowboy, EvolvedKingpin, EvolvedJuggernaut, DJ Booth | — | [Открыть](Pizza-Party-2026-10-08-06-27-34.txt) |
 | Unknown | PizzaParty | Pizza Party | — | Pyromancer, Cowboy, EvolvedKingpin, EvolvedJuggernaut, DJ Booth | — | [Открыть](Pizza-Party-2026-10-08-06-36-15.txt) |
 | Unknown | PizzaParty | Pizza Party | — | Trapper, None | — | [Открыть](Pizza-Party-2026-10-09-02-06-38.txt) |
+
+</div>
 
 ---
 

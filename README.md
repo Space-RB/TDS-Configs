@@ -10,6 +10,8 @@ Space Hub strategy collection, sorted by mode and date.
 
 ## Catalog
 
+<div align="center">
+
 | Category | Configs | Open |
 |---|---:|---|
 | Story | 2 | [Open category](Story/README.md) |
@@ -26,6 +28,8 @@ Space Hub strategy collection, sorted by mode and date.
 | Trials | 17 | [Open category](Trials/README.md) |
 | Sandbox | 26 | [Open category](Sandbox/README.md) |
 | Unknown | 1 | [Open category](Unknown/README.md) |
+
+</div>
 
 ---
 

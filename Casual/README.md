@@ -4,6 +4,8 @@
 
 Configs in this category: **39**
 
+<div align="center">
+
 | Date | Mode | Map | Modifiers | Towers | Reward | Config |
 |---|---|---|---|---|---|---|
 | Unknown | Casual | Abyssal Trench | — | EvolvedOperator, EvolvedEnforcer, Commander, None | — | [Открыть](Abyssal-Trench-2026-10-03-13-26-16.txt) |
@@ -45,6 +47,8 @@ Configs in this category: **39**
 | Unknown | Casual | The Heights | — | Farm, Shotgunner, Crook Boss, Scout, Electroshocker | — | [Открыть](The-Heights-2026-10-02-22-52-15.txt) |
 | Unknown | Casual | U-Turn | — | Militant, Demoman, None | — | [Открыть](U-Turn-2026-08-28-22-24-54.txt) |
 | Unknown | Casual | Winter Stronghold | — | Militant, Commander, Farm, None | — | [Открыть](Winter-Stronghold-2026-10-05-12-40-18.txt) |
+
+</div>
 
 ---
 
