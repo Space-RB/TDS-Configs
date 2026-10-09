@@ -18,10 +18,9 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
-| Crossroads | 1 | [Open](Crossroads/README.md) |
+| U-Turn | 8 | [Open](U-Turn/README.md) |
 | Lay By | 43 | [Open](Lay%20By/README.md) |
 | Simplicity | 32 | [Open](Simplicity/README.md) |
-| U-Turn | 7 | [Open](U-Turn/README.md) |
 | Cataclysm | 6 | [Open](Cataclysm/README.md) |
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
 | Dead Ahead | 3 | [Open](Dead%20Ahead/README.md) |
@@ -32,6 +31,7 @@ Choose one of the maps below to continue.
 | Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
 | Black Spot Exchange | 1 | [Open](Black%20Spot%20Exchange/README.md) |
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
+| Crossroads | 1 | [Open](Crossroads/README.md) |
 | Cyber City | 1 | [Open](Cyber%20City/README.md) |
 | Farm Lands | 1 | [Open](Farm%20Lands/README.md) |
 | Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
