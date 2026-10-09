@@ -18,7 +18,7 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
-| Dead Ahead | 46 | [Open](Dead%20Ahead/README.md) |
+| Dead Ahead | 47 | [Open](Dead%20Ahead/README.md) |
 | Gilded Path | 28 | [Open](Gilded%20Path/README.md) |
 | Lay By | 9 | [Open](Lay%20By/README.md) |
 | Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
