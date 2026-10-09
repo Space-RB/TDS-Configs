@@ -1,0 +1,83 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoChain = true -- Enables automatic commander chain logic if used by the script
+_G.SupportCaravan = false -- Automatically uses Support Caravan ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Engineer", "Commander", "Hacker", "Pyromancer", "Gatling Gun")
+TDS:Mode("Act1Easy")
+TDS:GameInfo("Sorrowful Remains", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 2 ] --
+TDS:Place("Engineer", 12.947772026062012, 2.0910751819610596, 200.26234436035156) -- 1
+
+-- [ Wave 3 ] --
+TDS:Place("Engineer", 15.921995162963867, 2.0009982585906982, 199.4442901611328) -- 2
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Engineer", 13.081850051879883, 2.045299768447876, 197.17926025390625) -- 3
+TDS:Upgrade(3)
+TDS:Place("Engineer", 16.073816299438477, 2.0405943393707275, 196.30239868164062) -- 4
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Place("Engineer", 8.152807235717773, 2.0009987354278564, 196.87115478515625) -- 5
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+TDS:Place("Hacker", 14.179644584655762, 2.0009992122650146, 193.5441131591797) -- 6
+TDS:Upgrade(6)
+TDS:Place("Hacker", 17.521392822265625, 2.0009992122650146, 193.6252899169922) -- 7
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Place("Gatling Gun", 6.558138370513916, 2.000999689102173, 191.0144500732422) -- 8
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]
