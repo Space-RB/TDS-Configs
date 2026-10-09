@@ -1,32 +1,67 @@
-# TDS Configs
+<div align="center">
 
-Space Hub strategy collection, sorted by mode, map, and date.
+<img src="Logo.png" alt="Space Hub" width="220">
 
-## Quick search
+# Space Hub · TDS Configs
 
-- [Search this repository on GitHub](https://github.com/Space-RB/TDS-Configs/search)
-- [Search config files only](https://github.com/Space-RB/TDS-Configs/search?q=extension%3Atxt&type=code)
-- Open a mode, then a map. Configs are numbered chronologically inside each map.
+**A curated collection of Tower Defense Simulator strategies.**
 
-## Catalog
+Find a mode, choose a map, and open a ready-to-use strategy in just a few clicks.
+
+**📦 858 strategies &nbsp; • &nbsp; 🎮 14 categories &nbsp; • &nbsp; 🗺️ Sorted by map**
+
+[![Browse Configs](https://img.shields.io/badge/Browse-Strategies-8A2BE2?style=for-the-badge)](#-strategy-catalog)
+[![Search](https://img.shields.io/badge/Search-Repository-181717?style=for-the-badge&logo=github)](https://github.com/Space-RB/TDS-Configs/search)
+
+</div>
+
+---
+
+<h2 align="center">🔎 Find a strategy</h2>
+
+<p align="center">Choose a category below, open the required map, then select a numbered strategy.<br>Use <b>Ctrl+F</b> on any index page to quickly find a map, tower, modifier, or mode.</p>
+
+<p align="center"><a href="https://github.com/Space-RB/TDS-Configs/search?q=extension%3Atxt&type=code"><b>Search config files only →</b></a></p>
+
+---
+
+<h2 align="center">📚 Strategy catalog</h2>
 
 <div align="center">
 
-| Category | Configs | Open |
-|---|---:|---|
-| Story | 2 | [Open category](Story/README.md) |
-| Easy | 140 | [Open category](Easy/README.md) |
-| Casual | 39 | [Open category](Casual/README.md) |
-| Intermediate | 29 | [Open category](Intermediate/README.md) |
-| Molten | 75 | [Open category](Molten/README.md) |
-| Fallen | 115 | [Open category](Fallen/README.md) |
-| Frost | 167 | [Open category](Frost/README.md) |
-| Badlands | 3 | [Open category](Badlands/README.md) |
-| Hardcore | 211 | [Open category](Hardcore/README.md) |
-| Voidcore | 2 | [Open category](Voidcore/README.md) |
-| Event | 31 | [Open category](Event/README.md) |
-| Trials | 17 | [Open category](Trials/README.md) |
-| Sandbox | 26 | [Open category](Sandbox/README.md) |
-| Unknown | 1 | [Open category](Unknown/README.md) |
+| Mode | Strategies | Open |
+|:---:|---:|:---:|
+| **Story** | 2 | [Browse →](Story/README.md) |
+| **Easy** | 140 | [Browse →](Easy/README.md) |
+| **Casual** | 39 | [Browse →](Casual/README.md) |
+| **Intermediate** | 29 | [Browse →](Intermediate/README.md) |
+| **Molten** | 75 | [Browse →](Molten/README.md) |
+| **Fallen** | 115 | [Browse →](Fallen/README.md) |
+| **Frost** | 167 | [Browse →](Frost/README.md) |
+| **Badlands** | 3 | [Browse →](Badlands/README.md) |
+| **Hardcore** | 211 | [Browse →](Hardcore/README.md) |
+| **Voidcore** | 2 | [Browse →](Voidcore/README.md) |
+| **Event** | 31 | [Browse →](Event/README.md) |
+| **Trials** | 17 | [Browse →](Trials/README.md) |
+| **Sandbox** | 26 | [Browse →](Sandbox/README.md) |
+| **Unknown** | 1 | [Browse →](Unknown/README.md) |
 
 </div>
+
+---
+
+<h2 align="center">🗂️ Repository structure</h2>
+
+<p align="center"><code>Mode / Map / Number-Timestamp.txt</code></p>
+
+<p align="center">Event, Trial, and Story strategies include one extra category level.<br>Numbers are assigned separately for every map, in chronological order.</p>
+
+```text
+Easy/
+└── Abyssal Trench/
+    ├── 1-2026-08-31-17-46-50.txt
+    ├── 2-2026-08-31-17-46-56.txt
+    └── README.md
+```
+
+<p align="center"><sub>Maintained automatically by <b>Space Hub - API</b> 💜</sub></p>
