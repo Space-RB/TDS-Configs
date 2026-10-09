@@ -18,9 +18,9 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
-| U-Turn | 9 | [Open](U-Turn/README.md) |
+| Simplicity | 33 | [Open](Simplicity/README.md) |
 | Lay By | 43 | [Open](Lay%20By/README.md) |
-| Simplicity | 32 | [Open](Simplicity/README.md) |
+| U-Turn | 9 | [Open](U-Turn/README.md) |
 | Cataclysm | 6 | [Open](Cataclysm/README.md) |
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
 | Dead Ahead | 3 | [Open](Dead%20Ahead/README.md) |
