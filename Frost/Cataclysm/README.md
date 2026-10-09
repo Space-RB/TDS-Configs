@@ -1,13 +1,23 @@
-# Frost / Cataclysm
+<div align="center">
 
-[← Back](../README.md)
+# 🎯 Frost / Cataclysm
 
-Configs for this map: **11**
+[← Back to the previous catalog](../README.md)
+
+**📦 11 recorded strategies available for this map**
+
+Select a strategy below and open its config file.
+
+</div>
+
+---
+
+<h2 align="center">📋 Available strategies</h2>
 
 <div align="center">
 
 | # | Date | Mode | Modifiers | Towers | Reward | Config |
-|---:|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 2026-09-20 | Frost | — | EvolvedOperator, Gatling Gun, EvolvedJuggernaut, DJ Booth, Firework Technician | — | [Open](1-2026-09-20-04-22-56.txt) |
 | 2 | 2026-09-20 | Frost | — | EvolvedOperator, Gatling Gun, DJ Booth, Mercenary Base, Hacker | — | [Open](2-2026-09-20-04-43-03.txt) |
 | 3 | 2026-09-20 | Frost | — | EvolvedOperator, Gatling Gun, DJ Booth, Tesla, Mercenary Base | — | [Open](3-2026-09-20-04-48-08.txt) |
@@ -22,4 +32,4 @@ Configs for this map: **11**
 
 </div>
 
-Search this page with **Ctrl+F**.
+<p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>

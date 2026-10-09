@@ -1,17 +1,27 @@
-# Hardcore
+<div align="center">
 
-[← Back](../README.md)
+# 🗺️ Hardcore
 
-## Maps
+[← Back to the previous catalog](../README.md)
+
+**📦 211 strategies across 3 maps**
+
+Choose one of the maps below to continue.
+
+</div>
+
+---
+
+<h2 align="center">📚 Maps</h2>
 
 <div align="center">
 
-| Map | Configs | Open |
-|---|---:|---|
+| Map | Strategies | Open |
+|:---:|---:|:---:|
 | Outskirts Commune | 7 | [Open](Outskirts%20Commune/README.md) |
 | Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
 | Wretched Front | 202 | [Open](Wretched%20Front/README.md) |
 
 </div>
 
-Search this list with **Ctrl+F**.
+<p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>

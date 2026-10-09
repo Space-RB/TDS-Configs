@@ -1,16 +1,26 @@
-# Easy / Sugar Rush
+<div align="center">
 
-[← Back](../README.md)
+# 🎯 Easy / Sugar Rush
 
-Configs for this map: **2**
+[← Back to the previous catalog](../README.md)
+
+**📦 2 recorded strategies available for this map**
+
+Select a strategy below and open its config file.
+
+</div>
+
+---
+
+<h2 align="center">📋 Available strategies</h2>
 
 <div align="center">
 
 | # | Date | Mode | Modifiers | Towers | Reward | Config |
-|---:|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 2026-09-03 | Easy | — | Scout, Crook Boss, Minigunner, Shotgunner, None | — | [Open](1-2026-09-03-14-36-58.txt) |
 | 2 | 2026-10-05 | Easy | — | EvolvedOperator, EvolvedKingpin, Farm, EvolvedJuggernaut, Saboteur | — | [Open](2-2026-10-05-12-15-13.txt) |
 
 </div>
 
-Search this page with **Ctrl+F**.
+<p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>

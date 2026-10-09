@@ -1,13 +1,23 @@
-# Event / Nil Zone II / Nil Zone II
+<div align="center">
 
-[← Back](../README.md)
+# 🎯 Event / Nil Zone II / Nil Zone II
 
-Configs for this map: **5**
+[← Back to the previous catalog](../README.md)
+
+**📦 5 recorded strategies available for this map**
+
+Select a strategy below and open its config file.
+
+</div>
+
+---
+
+<h2 align="center">📋 Available strategies</h2>
 
 <div align="center">
 
 | # | Date | Mode | Modifiers | Towers | Reward | Config |
-|---:|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 2026-09-26 | NilZone2 | — | DJ Booth, Hacker, Gatling Gun, Demoman, EvolvedKingpin | — | [Open](1-2026-09-26-05-10-45.txt) |
 | 2 | 2026-09-26 | NilZone2 | — | Minigunner, DJ Booth, Gatling Gun, EvolvedJuggernaut, Demoman | — | [Open](2-2026-09-26-14-20-51.txt) |
 | 3 | 2026-09-26 | NilZone2 | — | Minigunner, DJ Booth, Gatling Gun, EvolvedJuggernaut, Demoman | — | [Open](3-2026-09-26-14-29-15.txt) |
@@ -16,4 +26,4 @@ Configs for this map: **5**
 
 </div>
 
-Search this page with **Ctrl+F**.
+<p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>

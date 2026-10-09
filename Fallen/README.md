@@ -1,13 +1,23 @@
-# Fallen
+<div align="center">
 
-[← Back](../README.md)
+# 🗺️ Fallen
 
-## Maps
+[← Back to the previous catalog](../README.md)
+
+**📦 115 strategies across 21 maps**
+
+Choose one of the maps below to continue.
+
+</div>
+
+---
+
+<h2 align="center">📚 Maps</h2>
 
 <div align="center">
 
-| Map | Configs | Open |
-|---|---:|---|
+| Map | Strategies | Open |
+|:---:|---:|:---:|
 | Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
 | Black Spot Exchange | 1 | [Open](Black%20Spot%20Exchange/README.md) |
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
@@ -32,4 +42,4 @@
 
 </div>
 
-Search this list with **Ctrl+F**.
+<p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>

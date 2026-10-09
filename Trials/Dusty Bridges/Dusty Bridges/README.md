@@ -1,13 +1,23 @@
-# Trials / Dusty Bridges / Dusty Bridges
+<div align="center">
 
-[← Back](../README.md)
+# 🎯 Trials / Dusty Bridges / Dusty Bridges
 
-Configs for this map: **14**
+[← Back to the previous catalog](../README.md)
+
+**📦 14 recorded strategies available for this map**
+
+Select a strategy below and open its config file.
+
+</div>
+
+---
+
+<h2 align="center">📋 Available strategies</h2>
 
 <div align="center">
 
 | # | Date | Mode | Modifiers | Towers | Reward | Config |
-|---:|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 2026-08-30 | Trial | — | DJ Booth, EvolvedJuggernaut, EvolvedKingpin, Demoman, Farm | — | [Open](1-2026-08-30-20-30-41.txt) |
 | 2 | 2026-08-30 | Trial | — | DJ Booth, EvolvedJuggernaut, EvolvedKingpin, Demoman, Farm | — | [Open](2-2026-08-30-20-32-01.txt) |
 | 3 | 2026-08-30 | Trial | — | DJ Booth, EvolvedJuggernaut, EvolvedKingpin, Demoman, Farm | — | [Open](3-2026-08-30-20-33-52.txt) |
@@ -25,4 +35,4 @@ Configs for this map: **14**
 
 </div>
 
-Search this page with **Ctrl+F**.
+<p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>

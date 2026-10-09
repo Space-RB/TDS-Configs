@@ -1,13 +1,23 @@
-# Easy / Gilded Path
+<div align="center">
 
-[← Back](../README.md)
+# 🎯 Easy / Gilded Path
 
-Configs for this map: **28**
+[← Back to the previous catalog](../README.md)
+
+**📦 28 recorded strategies available for this map**
+
+Select a strategy below and open its config file.
+
+</div>
+
+---
+
+<h2 align="center">📋 Available strategies</h2>
 
 <div align="center">
 
 | # | Date | Mode | Modifiers | Towers | Reward | Config |
-|---:|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 2026-08-29 | Easy | — | Scout, None | — | [Open](1-2026-08-29-00-06-43.txt) |
 | 2 | 2026-09-08 | Easy | — | Shotgunner, Soldier, EvolvedKingpin, None | — | [Open](2-2026-09-08-19-00-55.txt) |
 | 3 | 2026-09-08 | Easy | — | Shotgunner, Soldier, EvolvedKingpin, None | — | [Open](3-2026-09-08-19-56-36.txt) |
@@ -39,4 +49,4 @@ Configs for this map: **28**
 
 </div>
 
-Search this page with **Ctrl+F**.
+<p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>

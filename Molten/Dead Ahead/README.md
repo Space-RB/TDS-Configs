@@ -1,13 +1,23 @@
-# Molten / Dead Ahead
+<div align="center">
 
-[← Back](../README.md)
+# 🎯 Molten / Dead Ahead
 
-Configs for this map: **7**
+[← Back to the previous catalog](../README.md)
+
+**📦 7 recorded strategies available for this map**
+
+Select a strategy below and open its config file.
+
+</div>
+
+---
+
+<h2 align="center">📋 Available strategies</h2>
 
 <div align="center">
 
 | # | Date | Mode | Modifiers | Towers | Reward | Config |
-|---:|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 2026-08-31 | Molten | — | EvolvedOperator, EvolvedKingpin, Hacker, EvolvedJuggernaut, Farm | — | [Open](1-2026-08-31-10-47-11.txt) |
 | 2 | 2026-08-31 | Molten | — | EvolvedOperator, EvolvedKingpin, Hacker, EvolvedJuggernaut, Farm | — | [Open](2-2026-08-31-10-53-33.txt) |
 | 3 | 2026-08-31 | Molten | — | EvolvedOperator, EvolvedKingpin, Hacker, EvolvedJuggernaut, Farm | — | [Open](3-2026-08-31-11-02-29.txt) |
@@ -18,4 +28,4 @@ Configs for this map: **7**
 
 </div>
 
-Search this page with **Ctrl+F**.
+<p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>

@@ -1,13 +1,23 @@
-# Easy
+<div align="center">
 
-[← Back](../README.md)
+# 🗺️ Easy
 
-## Maps
+[← Back to the previous catalog](../README.md)
+
+**📦 140 strategies across 28 maps**
+
+Choose one of the maps below to continue.
+
+</div>
+
+---
+
+<h2 align="center">📚 Maps</h2>
 
 <div align="center">
 
-| Map | Configs | Open |
-|---|---:|---|
+| Map | Strategies | Open |
+|:---:|---:|:---:|
 | Abyssal Trench | 5 | [Open](Abyssal%20Trench/README.md) |
 | Autumn Falling | 2 | [Open](Autumn%20Falling/README.md) |
 | Black Spot Exchange | 2 | [Open](Black%20Spot%20Exchange/README.md) |
@@ -39,4 +49,4 @@
 
 </div>
 
-Search this list with **Ctrl+F**.
+<p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>

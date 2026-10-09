@@ -1,13 +1,23 @@
-# Intermediate / Cataclysm
+<div align="center">
 
-[← Back](../README.md)
+# 🎯 Intermediate / Cataclysm
 
-Configs for this map: **9**
+[← Back to the previous catalog](../README.md)
+
+**📦 9 recorded strategies available for this map**
+
+Select a strategy below and open its config file.
+
+</div>
+
+---
+
+<h2 align="center">📋 Available strategies</h2>
 
 <div align="center">
 
 | # | Date | Mode | Modifiers | Towers | Reward | Config |
-|---:|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 2026-09-07 | Intermediate | — | Scout, Commander, Shotgunner, Pyromancer, Freezer | — | [Open](1-2026-09-07-20-47-01.txt) |
 | 2 | 2026-09-07 | Intermediate | — | Scout, Commander, Shotgunner, Pyromancer, Freezer | — | [Open](2-2026-09-07-20-53-11.txt) |
 | 3 | 2026-09-07 | Intermediate | — | Scout, Commander, Shotgunner, Pyromancer, Freezer | — | [Open](3-2026-09-07-23-23-37.txt) |
@@ -20,4 +30,4 @@ Configs for this map: **9**
 
 </div>
 
-Search this page with **Ctrl+F**.
+<p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>

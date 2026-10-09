@@ -1,13 +1,23 @@
-# Frost
+<div align="center">
 
-[← Back](../README.md)
+# 🗺️ Frost
 
-## Maps
+[← Back to the previous catalog](../README.md)
+
+**📦 167 strategies across 17 maps**
+
+Choose one of the maps below to continue.
+
+</div>
+
+---
+
+<h2 align="center">📚 Maps</h2>
 
 <div align="center">
 
-| Map | Configs | Open |
-|---|---:|---|
+| Map | Strategies | Open |
+|:---:|---:|:---:|
 | Abandoned City | 2 | [Open](Abandoned%20City/README.md) |
 | Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
 | Atlas Colosseum | 13 | [Open](Atlas%20Colosseum/README.md) |
@@ -28,4 +38,4 @@
 
 </div>
 
-Search this list with **Ctrl+F**.
+<p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>

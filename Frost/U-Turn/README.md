@@ -1,13 +1,23 @@
-# Frost / U-Turn
+<div align="center">
 
-[← Back](../README.md)
+# 🎯 Frost / U-Turn
 
-Configs for this map: **8**
+[← Back to the previous catalog](../README.md)
+
+**📦 8 recorded strategies available for this map**
+
+Select a strategy below and open its config file.
+
+</div>
+
+---
+
+<h2 align="center">📋 Available strategies</h2>
 
 <div align="center">
 
 | # | Date | Mode | Modifiers | Towers | Reward | Config |
-|---:|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 2026-08-29 | Frost | — | Farm, Militant, Crook Boss, Turret, Commander | — | [Open](1-2026-08-29-00-39-01.txt) |
 | 2 | 2026-09-04 | Frost | — | DJ Booth, Trapper, Mercenary Base, Hacker, Gatling Gun | — | [Open](2-2026-09-04-05-48-28.txt) |
 | 3 | 2026-09-10 | Frost | — | Engineer, Minigunner, Accelerator, Necromancer, Crook Boss | — | [Open](3-2026-09-10-16-30-10.txt) |
@@ -19,4 +29,4 @@ Configs for this map: **8**
 
 </div>
 
-Search this page with **Ctrl+F**.
+<p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>

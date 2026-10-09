@@ -1,13 +1,23 @@
-# Event / Pizza Party / Pizza Party
+<div align="center">
 
-[← Back](../README.md)
+# 🎯 Event / Pizza Party / Pizza Party
 
-Configs for this map: **26**
+[← Back to the previous catalog](../README.md)
+
+**📦 26 recorded strategies available for this map**
+
+Select a strategy below and open its config file.
+
+</div>
+
+---
+
+<h2 align="center">📋 Available strategies</h2>
 
 <div align="center">
 
 | # | Date | Mode | Modifiers | Towers | Reward | Config |
-|---:|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 2026-09-03 | PizzaParty | — | EvolvedOperator, Trapper, None | — | [Open](1-2026-09-03-10-22-29.txt) |
 | 2 | 2026-09-06 | PizzaParty | — | Assassin, None | — | [Open](2-2026-09-06-15-39-50.txt) |
 | 3 | 2026-09-07 | PizzaParty | — | EvolvedKingpin, Shotgunner, None | — | [Open](3-2026-09-07-22-57-48.txt) |
@@ -37,4 +47,4 @@ Configs for this map: **26**
 
 </div>
 
-Search this page with **Ctrl+F**.
+<p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>

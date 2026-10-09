@@ -1,16 +1,26 @@
-# Event
+<div align="center">
 
-[← Back](../README.md)
+# 🗺️ Event
 
-## Categories
+[← Back to the previous catalog](../README.md)
+
+**📦 31 strategies across 2 categories**
+
+Choose one of the categories below to continue.
+
+</div>
+
+---
+
+<h2 align="center">📚 Categories</h2>
 
 <div align="center">
 
-| Categorie | Configs | Open |
-|---|---:|---|
+| Categorie | Strategies | Open |
+|:---:|---:|:---:|
 | Nil Zone II | 5 | [Open](Nil%20Zone%20II/README.md) |
 | Pizza Party | 26 | [Open](Pizza%20Party/README.md) |
 
 </div>
 
-Search this list with **Ctrl+F**.
+<p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>

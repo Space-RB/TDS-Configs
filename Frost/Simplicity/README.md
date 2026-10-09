@@ -1,13 +1,23 @@
-# Frost / Simplicity
+<div align="center">
 
-[← Back](../README.md)
+# 🎯 Frost / Simplicity
 
-Configs for this map: **37**
+[← Back to the previous catalog](../README.md)
+
+**📦 37 recorded strategies available for this map**
+
+Select a strategy below and open its config file.
+
+</div>
+
+---
+
+<h2 align="center">📋 Available strategies</h2>
 
 <div align="center">
 
 | # | Date | Mode | Modifiers | Towers | Reward | Config |
-|---:|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 2026-08-27 | Frost | — | EvolvedOperator, Brawler, None | — | [Open](1-2026-08-27-23-45-19.txt) |
 | 2 | 2026-08-28 | Frost | — | Soldier, Shotgunner, Commander, None | — | [Open](2-2026-08-28-11-56-03.txt) |
 | 3 | 2026-08-28 | Frost | — | Soldier, Shotgunner, Commander, None | — | [Open](3-2026-08-28-12-11-45.txt) |
@@ -48,4 +58,4 @@ Configs for this map: **37**
 
 </div>
 
-Search this page with **Ctrl+F**.
+<p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>

@@ -1,13 +1,23 @@
-# Easy / Dead Ahead
+<div align="center">
 
-[← Back](../README.md)
+# 🎯 Easy / Dead Ahead
 
-Configs for this map: **46**
+[← Back to the previous catalog](../README.md)
+
+**📦 46 recorded strategies available for this map**
+
+Select a strategy below and open its config file.
+
+</div>
+
+---
+
+<h2 align="center">📋 Available strategies</h2>
 
 <div align="center">
 
 | # | Date | Mode | Modifiers | Towers | Reward | Config |
-|---:|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 2026-08-28 | Easy | Limitation, FlyingEnemies, ExplodingEnemies | Militant, None | — | [Open](1-2026-08-28-12-37-43.txt) |
 | 2 | 2026-08-28 | Easy | Limitation, FlyingEnemies, ExplodingEnemies | Militant, None | — | [Open](2-2026-08-28-20-57-07.txt) |
 | 3 | 2026-09-06 | Easy | — | Soldier, Scout, Sniper, Militant, Shotgunner | — | [Open](3-2026-09-06-17-14-21.txt) |
@@ -57,4 +67,4 @@ Configs for this map: **46**
 
 </div>
 
-Search this page with **Ctrl+F**.
+<p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>

@@ -1,13 +1,23 @@
-# Hardcore / Outskirts Commune
+<div align="center">
 
-[← Back](../README.md)
+# 🎯 Hardcore / Outskirts Commune
 
-Configs for this map: **7**
+[← Back to the previous catalog](../README.md)
+
+**📦 7 recorded strategies available for this map**
+
+Select a strategy below and open its config file.
+
+</div>
+
+---
+
+<h2 align="center">📋 Available strategies</h2>
 
 <div align="center">
 
 | # | Date | Mode | Modifiers | Towers | Reward | Config |
-|---:|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 2026-08-29 | Hardcore | — | EvolvedEnforcer, EvolvedKingpin, Pyromancer, Hunter, None | — | [Open](1-2026-08-29-12-10-09.txt) |
 | 2 | 2026-08-30 | Hardcore | — | Electroshocker, Sniper, None | — | [Open](2-2026-08-30-16-17-57.txt) |
 | 3 | 2026-09-06 | Hardcore | — | Farm, Minigunner, Gatling Gun, EvolvedJuggernaut, DJ Booth | — | [Open](3-2026-09-06-09-33-31.txt) |
@@ -18,4 +28,4 @@ Configs for this map: **7**
 
 </div>
 
-Search this page with **Ctrl+F**.
+<p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>

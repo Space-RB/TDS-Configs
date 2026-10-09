@@ -1,13 +1,23 @@
-# Molten
+<div align="center">
 
-[← Back](../README.md)
+# 🗺️ Molten
 
-## Maps
+[← Back to the previous catalog](../README.md)
+
+**📦 75 strategies across 26 maps**
+
+Choose one of the maps below to continue.
+
+</div>
+
+---
+
+<h2 align="center">📚 Maps</h2>
 
 <div align="center">
 
-| Map | Configs | Open |
-|---|---:|---|
+| Map | Strategies | Open |
+|:---:|---:|:---:|
 | Abandoned City | 5 | [Open](Abandoned%20City/README.md) |
 | Black Spot Exchange | 4 | [Open](Black%20Spot%20Exchange/README.md) |
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
@@ -37,4 +47,4 @@
 
 </div>
 
-Search this list with **Ctrl+F**.
+<p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>

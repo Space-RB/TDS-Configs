@@ -1,15 +1,25 @@
-# Sandbox
+<div align="center">
 
-[← Back](../README.md)
+# 🗺️ Sandbox
 
-## Maps
+[← Back to the previous catalog](../README.md)
+
+**📦 26 strategies across 1 maps**
+
+Choose one of the maps below to continue.
+
+</div>
+
+---
+
+<h2 align="center">📚 Maps</h2>
 
 <div align="center">
 
-| Map | Configs | Open |
-|---|---:|---|
+| Map | Strategies | Open |
+|:---:|---:|:---:|
 | Dev | 26 | [Open](Dev/README.md) |
 
 </div>
 
-Search this list with **Ctrl+F**.
+<p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>

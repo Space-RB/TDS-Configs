@@ -1,13 +1,23 @@
-# Easy / Mason Arch
+<div align="center">
 
-[← Back](../README.md)
+# 🎯 Easy / Mason Arch
 
-Configs for this map: **4**
+[← Back to the previous catalog](../README.md)
+
+**📦 4 recorded strategies available for this map**
+
+Select a strategy below and open its config file.
+
+</div>
+
+---
+
+<h2 align="center">📋 Available strategies</h2>
 
 <div align="center">
 
 | # | Date | Mode | Modifiers | Towers | Reward | Config |
-|---:|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 2026-09-06 | Easy | — | Pyromancer, Militant, Shotgunner, Commander, DJ Booth | — | [Open](1-2026-09-06-15-56-36.txt) |
 | 2 | 2026-09-10 | Easy | HiddenEnemies, Glass, Limitation, FlyingEnemies | Militant, Shotgunner, None | — | [Open](2-2026-09-10-13-29-54.txt) |
 | 3 | 2026-09-10 | Easy | HiddenEnemies, Glass, Limitation | Militant, Shotgunner, None | — | [Open](3-2026-09-10-13-46-50.txt) |
@@ -15,4 +25,4 @@ Configs for this map: **4**
 
 </div>
 
-Search this page with **Ctrl+F**.
+<p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
