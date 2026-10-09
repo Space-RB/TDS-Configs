@@ -16,9 +16,9 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-08-29 | Casual | — | Gladiator, Accelerator, Farm, DJ Booth, Engineer | — | [Open](1-2026-08-29-20-07-48.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-08-29 | Casual | — | Gladiator, Accelerator, Farm, DJ Booth, Engineer | [Open](1-2026-08-29-20-07-48.txt) |
 
 </div>
 

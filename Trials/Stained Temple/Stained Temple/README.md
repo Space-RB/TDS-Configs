@@ -16,10 +16,10 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-09-06 | Trial | — | Gatling Gun, Trapper, DJ Booth, Turret, EvolvedJuggernaut | — | [Open](1-2026-09-06-10-10-44.txt) |
-| 2 | 2026-09-06 | Trial | — | Gatling Gun, Trapper, DJ Booth, Turret, EvolvedJuggernaut | — | [Open](2-2026-09-06-10-48-14.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-09-06 | Trial | — | Gatling Gun, Trapper, DJ Booth, Turret, EvolvedJuggernaut | [Open](1-2026-09-06-10-10-44.txt) |
+| 2 | 2026-09-06 | Trial | — | Gatling Gun, Trapper, DJ Booth, Turret, EvolvedJuggernaut | [Open](2-2026-09-06-10-48-14.txt) |
 
 </div>
 

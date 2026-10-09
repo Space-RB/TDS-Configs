@@ -16,9 +16,9 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-09-23 | Molten | — | Assassin, Militant, Shotgunner, None | — | [Open](1-2026-09-23-21-01-13.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-09-23 | Molten | — | Assassin, Militant, Shotgunner, None | [Open](1-2026-09-23-21-01-13.txt) |
 
 </div>
 

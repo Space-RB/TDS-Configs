@@ -16,9 +16,9 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-10-02 | Easy | — | Soldier, None | — | [Open](1-2026-10-02-02-43-51.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-10-02 | Easy | — | Soldier, None | [Open](1-2026-10-02-02-43-51.txt) |
 
 </div>
 

@@ -16,9 +16,9 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-10-06 | Unknown | — | Gatling Gun, EvolvedOperator, Farm, Hacker, EvolvedEnforcer | — | [Open](1-2026-10-06-22-33-04.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-10-06 | Unknown | — | Gatling Gun, EvolvedOperator, Farm, Hacker, EvolvedEnforcer | [Open](1-2026-10-06-22-33-04.txt) |
 
 </div>
 

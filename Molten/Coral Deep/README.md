@@ -16,9 +16,9 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-08-30 | Molten | — | Engineer, Minigunner, Farm, Shotgunner, Crook Boss | — | [Open](1-2026-08-30-21-53-31.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-08-30 | Molten | — | Engineer, Minigunner, Farm, Shotgunner, Crook Boss | [Open](1-2026-08-30-21-53-31.txt) |
 
 </div>
 

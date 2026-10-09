@@ -16,10 +16,10 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-09-04 | Easy | — | Commander, Accelerator, Farm, Scout, Demoman | — | [Open](1-2026-09-04-03-54-08.txt) |
-| 2 | 2026-09-04 | Easy | — | Commander, Accelerator, Farm, Scout, Demoman | — | [Open](2-2026-09-04-03-54-08.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-09-04 | Easy | — | Commander, Accelerator, Farm, Scout, Demoman | [Open](1-2026-09-04-03-54-08.txt) |
+| 2 | 2026-09-04 | Easy | — | Commander, Accelerator, Farm, Scout, Demoman | [Open](2-2026-09-04-03-54-08.txt) |
 
 </div>
 

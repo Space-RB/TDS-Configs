@@ -16,10 +16,10 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-08-30 | Frost | HiddenEnemies, Glass, Fog, ExplodingEnemies | Mercenary Base, Hacker, DJ Booth, Gatling Gun, Trapper | — | [Open](1-2026-08-30-09-59-42.txt) |
-| 2 | 2026-08-30 | Frost | HiddenEnemies, Glass, Fog, ExplodingEnemies | Mercenary Base, Hacker, DJ Booth, Gatling Gun, Trapper | — | [Open](2-2026-08-30-10-01-47.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-08-30 | Frost | HiddenEnemies, Glass, Fog, ExplodingEnemies | Mercenary Base, Hacker, DJ Booth, Gatling Gun, Trapper | [Open](1-2026-08-30-09-59-42.txt) |
+| 2 | 2026-08-30 | Frost | HiddenEnemies, Glass, Fog, ExplodingEnemies | Mercenary Base, Hacker, DJ Booth, Gatling Gun, Trapper | [Open](2-2026-08-30-10-01-47.txt) |
 
 </div>
 

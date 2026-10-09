@@ -16,9 +16,9 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-09-29 | Molten | Glass | Brawler, EvolvedOperator, Crook Boss, Commander, Necromancer | — | [Open](1-2026-09-29-16-10-13.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-09-29 | Molten | Glass | Brawler, EvolvedOperator, Crook Boss, Commander, Necromancer | [Open](1-2026-09-29-16-10-13.txt) |
 
 </div>
 

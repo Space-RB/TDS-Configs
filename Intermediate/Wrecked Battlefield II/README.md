@@ -16,9 +16,9 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-09-27 | Intermediate | — | EvolvedOperator, EvolvedEnforcer, None | — | [Open](1-2026-09-27-12-23-23.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-09-27 | Intermediate | — | EvolvedOperator, EvolvedEnforcer, None | [Open](1-2026-09-27-12-23-23.txt) |
 
 </div>
 

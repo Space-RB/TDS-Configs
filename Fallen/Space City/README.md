@@ -16,10 +16,10 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-09-03 | Fallen | ExplodingEnemies | Brawler, Engineer, Minigunner, Mortar, DJ Booth | — | [Open](1-2026-09-03-20-56-44.txt) |
-| 2 | 2026-09-12 | Fallen | Glass | Cowboy, Commander, Crook Boss, Sledger, Warlock | — | [Open](2-2026-09-12-16-15-18.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-09-03 | Fallen | ExplodingEnemies | Brawler, Engineer, Minigunner, Mortar, DJ Booth | [Open](1-2026-09-03-20-56-44.txt) |
+| 2 | 2026-09-12 | Fallen | Glass | Cowboy, Commander, Crook Boss, Sledger, Warlock | [Open](2-2026-09-12-16-15-18.txt) |
 
 </div>
 

@@ -16,9 +16,9 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-09-22 | Frost | — | DJ Booth, Necromancer, Turret, Cowboy, Ranger | — | [Open](1-2026-09-22-23-10-52.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-09-22 | Frost | — | DJ Booth, Necromancer, Turret, Cowboy, Ranger | [Open](1-2026-09-22-23-10-52.txt) |
 
 </div>
 

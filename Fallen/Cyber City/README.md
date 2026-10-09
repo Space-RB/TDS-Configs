@@ -16,9 +16,9 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-08-30 | Fallen | — | Engineer, EvolvedEnforcer, Commander, Minigunner, Rocketeer | — | [Open](1-2026-08-30-06-47-20.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-08-30 | Fallen | — | Engineer, EvolvedEnforcer, Commander, Minigunner, Rocketeer | [Open](1-2026-08-30-06-47-20.txt) |
 
 </div>
 

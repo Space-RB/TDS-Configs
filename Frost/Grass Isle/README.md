@@ -16,9 +16,9 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-09-03 | Frost | — | EvolvedOperator, EvolvedJuggernaut, Shotgunner, None | — | [Open](1-2026-09-03-03-55-44.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-09-03 | Frost | — | EvolvedOperator, EvolvedJuggernaut, Shotgunner, None | [Open](1-2026-09-03-03-55-44.txt) |
 
 </div>
 

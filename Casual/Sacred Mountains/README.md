@@ -16,9 +16,9 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-10-02 | Casual | — | Farm, Shotgunner, Crook Boss, Scout, Electroshocker | — | [Open](1-2026-10-02-23-36-56.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-10-02 | Casual | — | Farm, Shotgunner, Crook Boss, Scout, Electroshocker | [Open](1-2026-10-02-23-36-56.txt) |
 
 </div>
 

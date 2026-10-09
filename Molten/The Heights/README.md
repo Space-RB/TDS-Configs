@@ -16,9 +16,9 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-09-22 | Molten | Limitation, HiddenEnemies, ExplodingEnemies | Cowboy, EvolvedJuggernaut, Hacker, Accelerator, EvolvedEnforcer | — | [Open](1-2026-09-22-19-01-22.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-09-22 | Molten | Limitation, HiddenEnemies, ExplodingEnemies | Cowboy, EvolvedJuggernaut, Hacker, Accelerator, EvolvedEnforcer | [Open](1-2026-09-22-19-01-22.txt) |
 
 </div>
 

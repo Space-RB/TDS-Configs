@@ -16,9 +16,9 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-09-07 | Molten | — | Gladiator, Commander, Shotgunner, Crook Boss, Pyromancer | — | [Open](1-2026-09-07-19-24-40.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-09-07 | Molten | — | Gladiator, Commander, Shotgunner, Crook Boss, Pyromancer | [Open](1-2026-09-07-19-24-40.txt) |
 
 </div>
 

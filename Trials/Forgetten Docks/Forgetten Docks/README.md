@@ -16,9 +16,9 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-08-28 | Trial | — | Trapper, Farm, EvolvedJuggernaut, DJ Booth, Rocketeer | — | [Open](1-2026-08-28-13-52-05.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-08-28 | Trial | — | Trapper, Farm, EvolvedJuggernaut, DJ Booth, Rocketeer | [Open](1-2026-08-28-13-52-05.txt) |
 
 </div>
 

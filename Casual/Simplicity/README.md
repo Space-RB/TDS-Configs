@@ -16,9 +16,9 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-09-06 | Casual | — | Militant, Shotgunner, Trapper, None | — | [Open](1-2026-09-06-18-24-00.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-09-06 | Casual | — | Militant, Shotgunner, Trapper, None | [Open](1-2026-09-06-18-24-00.txt) |
 
 </div>
 

@@ -16,10 +16,10 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-08-28 | Fallen | — | Gatling Gun, DJ Booth, Brawler, EvolvedKingpin, Engineer | — | [Open](1-2026-08-28-23-47-03.txt) |
-| 2 | 2026-08-28 | Fallen | — | Gatling Gun, DJ Booth, Brawler, EvolvedKingpin, Engineer | — | [Open](2-2026-08-28-23-54-53.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-08-28 | Fallen | — | Gatling Gun, DJ Booth, Brawler, EvolvedKingpin, Engineer | [Open](1-2026-08-28-23-47-03.txt) |
+| 2 | 2026-08-28 | Fallen | — | Gatling Gun, DJ Booth, Brawler, EvolvedKingpin, Engineer | [Open](2-2026-08-28-23-54-53.txt) |
 
 </div>
 

@@ -16,10 +16,10 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-09-26 | Casual | — | Scout, Assassin, Soldier, Shotgunner, Hunter | — | [Open](1-2026-09-26-23-59-29.txt) |
-| 2 | 2026-09-27 | Casual | — | Assassin, Trapper, None | — | [Open](2-2026-09-27-11-30-43.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-09-26 | Casual | — | Scout, Assassin, Soldier, Shotgunner, Hunter | [Open](1-2026-09-26-23-59-29.txt) |
+| 2 | 2026-09-27 | Casual | — | Assassin, Trapper, None | [Open](2-2026-09-27-11-30-43.txt) |
 
 </div>
 

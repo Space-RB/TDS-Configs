@@ -16,9 +16,9 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-10-09 | Intermediate | — | Gatling Gun, Pyromancer, EvolvedJuggernaut, Shotgunner, Firework Technician | — | [Open](1-2026-10-09-18-11-44.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-10-09 | Intermediate | — | Gatling Gun, Pyromancer, EvolvedJuggernaut, Shotgunner, Firework Technician | [Open](1-2026-10-09-18-11-44.txt) |
 
 </div>
 

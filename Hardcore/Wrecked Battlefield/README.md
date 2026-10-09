@@ -16,10 +16,10 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-08-30 | Hardcore | — | Militant, Ranger, Military Base, Mercenary Base, Pursuit | — | [Open](1-2026-08-30-12-22-42.txt) |
-| 2 | 2026-08-30 | Hardcore | — | Militant, Ranger, Military Base, Mercenary Base, Pursuit | — | [Open](2-2026-08-30-12-35-17.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-08-30 | Hardcore | — | Militant, Ranger, Military Base, Mercenary Base, Pursuit | [Open](1-2026-08-30-12-22-42.txt) |
+| 2 | 2026-08-30 | Hardcore | — | Militant, Ranger, Military Base, Mercenary Base, Pursuit | [Open](2-2026-08-30-12-35-17.txt) |
 
 </div>
 

@@ -16,10 +16,10 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-09-08 | Easy | — | Shotgunner, Soldier, EvolvedKingpin, None | — | [Open](1-2026-09-08-18-39-47.txt) |
-| 2 | 2026-09-08 | Easy | — | Shotgunner, Soldier, EvolvedKingpin, None | — | [Open](2-2026-09-08-18-47-00.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-09-08 | Easy | — | Shotgunner, Soldier, EvolvedKingpin, None | [Open](1-2026-09-08-18-39-47.txt) |
+| 2 | 2026-09-08 | Easy | — | Shotgunner, Soldier, EvolvedKingpin, None | [Open](2-2026-09-08-18-47-00.txt) |
 
 </div>
 

@@ -16,10 +16,10 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-10-02 | Frost | — | Soldier, None | — | [Open](1-2026-10-02-00-30-39.txt) |
-| 2 | 2026-10-02 | Frost | — | Soldier, None | — | [Open](2-2026-10-02-00-32-05.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-10-02 | Frost | — | Soldier, None | [Open](1-2026-10-02-00-30-39.txt) |
+| 2 | 2026-10-02 | Frost | — | Soldier, None | [Open](2-2026-10-02-00-32-05.txt) |
 
 </div>
 

@@ -16,9 +16,9 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-09-25 | Molten | — | Soldier, EvolvedJuggernaut, DJ Booth, None | — | [Open](1-2026-09-25-13-39-57.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-09-25 | Molten | — | Soldier, EvolvedJuggernaut, DJ Booth, None | [Open](1-2026-09-25-13-39-57.txt) |
 
 </div>
 

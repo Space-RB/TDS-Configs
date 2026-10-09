@@ -16,9 +16,9 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-09-28 | Molten | — | Hacker, DJ Booth, Engineer, Shotgunner, Crook Boss | — | [Open](1-2026-09-28-22-51-10.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-09-28 | Molten | — | Hacker, DJ Booth, Engineer, Shotgunner, Crook Boss | [Open](1-2026-09-28-22-51-10.txt) |
 
 </div>
 

@@ -16,9 +16,9 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-08-31 | Fallen | — | Farm, Brawler, EvolvedEnforcer, Accelerator, Pursuit | — | [Open](1-2026-08-31-09-28-34.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-08-31 | Fallen | — | Farm, Brawler, EvolvedEnforcer, Accelerator, Pursuit | [Open](1-2026-08-31-09-28-34.txt) |
 
 </div>
 

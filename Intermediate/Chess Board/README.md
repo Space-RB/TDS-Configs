@@ -16,10 +16,10 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-09-18 | Intermediate | — | Farm, Pyromancer, Militant, Soldier, Warden | — | [Open](1-2026-09-18-22-04-23.txt) |
-| 2 | 2026-09-18 | Intermediate | — | Farm, Pyromancer, Militant, Soldier, Warden | — | [Open](2-2026-09-18-22-05-14.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-09-18 | Intermediate | — | Farm, Pyromancer, Militant, Soldier, Warden | [Open](1-2026-09-18-22-04-23.txt) |
+| 2 | 2026-09-18 | Intermediate | — | Farm, Pyromancer, Militant, Soldier, Warden | [Open](2-2026-09-18-22-05-14.txt) |
 
 </div>
 

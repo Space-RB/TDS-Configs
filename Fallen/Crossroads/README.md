@@ -16,9 +16,9 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-10-07 | Fallen | — | Cowboy, Engineer, Minigunner, None | — | [Open](1-2026-10-07-09-59-26.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-10-07 | Fallen | — | Cowboy, Engineer, Minigunner, None | [Open](1-2026-10-07-09-59-26.txt) |
 
 </div>
 

@@ -16,9 +16,9 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-09-19 | Fallen | — | Engineer, Hacker, Commander, Turret, DJ Booth | — | [Open](1-2026-09-19-16-57-05.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-09-19 | Fallen | — | Engineer, Hacker, Commander, Turret, DJ Booth | [Open](1-2026-09-19-16-57-05.txt) |
 
 </div>
 

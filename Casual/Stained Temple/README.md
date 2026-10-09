@@ -16,9 +16,9 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-10-08 | Casual | — | DJ Booth, Assassin, Minigunner, Mortar, Turret | — | [Open](1-2026-10-08-05-55-50.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-10-08 | Casual | — | DJ Booth, Assassin, Minigunner, Mortar, Turret | [Open](1-2026-10-08-05-55-50.txt) |
 
 </div>
 

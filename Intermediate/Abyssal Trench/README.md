@@ -16,10 +16,10 @@ Select a strategy below and open its config file.
 
 <div align="center">
 
-| # | Date | Mode | Modifiers | Towers | Reward | Config |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2026-10-06 | Intermediate | — | Scout, Minigunner, Commander, DJ Booth, Assassin | — | [Open](1-2026-10-06-23-29-27.txt) |
-| 2 | 2026-10-06 | Intermediate | — | Scout, Minigunner, Commander, DJ Booth, Assassin | — | [Open](2-2026-10-06-23-44-44.txt) |
+| # | Date | Mode | Modifiers | Towers | Config |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2026-10-06 | Intermediate | — | Scout, Minigunner, Commander, DJ Booth, Assassin | [Open](1-2026-10-06-23-29-27.txt) |
+| 2 | 2026-10-06 | Intermediate | — | Scout, Minigunner, Commander, DJ Booth, Assassin | [Open](2-2026-10-06-23-44-44.txt) |
 
 </div>
 
