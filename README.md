@@ -25,7 +25,7 @@ Find a mode, choose a map, and open a ready-to-use strategy in just a few clicks
 | Mode | Strategies | Open |
 |:---:|---:|:---:|
 | **Story** | 2 | [Browse →](Story/README.md) |
-| Fallen | 119 | [Open](Fallen/README.md) |
+| Fallen | 120 | [Open](Fallen/README.md) |
 | **Casual** | 39 | [Browse →](Casual/README.md) |
 | **Intermediate** | 29 | [Browse →](Intermediate/README.md) |
 | Easy | 141 | [Open](Easy/README.md) |
