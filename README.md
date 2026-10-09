@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="TDS.png" alt="Space Hub TDS" width="220">
+<img src="TDS.png" alt="Space Hub TDS" width="700">
 
 # Space Hub · TDS Configs
 
@@ -13,8 +13,6 @@ Find a mode, choose a map, and open a ready-to-use strategy in just a few clicks
 [![Browse Configs](https://img.shields.io/badge/Browse-Strategies-8A2BE2?style=for-the-badge)](#-strategy-catalog)
 
 </div>
-
----
 
 <h2 align="center">🔎 Find a strategy</h2>
 
