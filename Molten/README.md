@@ -18,9 +18,8 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
-| Farm Lands | 2 | [Open](Farm%20Lands/README.md) |
+| Simplicity | 11 | [Open](Simplicity/README.md) |
 | Lay By | 12 | [Open](Lay%20By/README.md) |
-| Simplicity | 10 | [Open](Simplicity/README.md) |
 | U-Turn | 8 | [Open](U-Turn/README.md) |
 | Dead Ahead | 7 | [Open](Dead%20Ahead/README.md) |
 | Abandoned City | 5 | [Open](Abandoned%20City/README.md) |
@@ -28,6 +27,7 @@ Choose one of the maps below to continue.
 | Medieval Times | 4 | [Open](Medieval%20Times/README.md) |
 | Crossroads | 3 | [Open](Crossroads/README.md) |
 | Cyber City | 2 | [Open](Cyber%20City/README.md) |
+| Farm Lands | 2 | [Open](Farm%20Lands/README.md) |
 | Retro Crossroads | 2 | [Open](Retro%20Crossroads/README.md) |
 | Sky Islands | 2 | [Open](Sky%20Islands/README.md) |
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
