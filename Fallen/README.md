@@ -18,7 +18,7 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
-| U-Turn | 8 | [Open](U-Turn/README.md) |
+| U-Turn | 9 | [Open](U-Turn/README.md) |
 | Lay By | 43 | [Open](Lay%20By/README.md) |
 | Simplicity | 32 | [Open](Simplicity/README.md) |
 | Cataclysm | 6 | [Open](Cataclysm/README.md) |
