@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 34 recorded strategies available for this map**
+**📦 35 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -53,6 +53,7 @@ Select a strategy below and open its config file.
 
 | 33 | 2026-10-09 23:12 UTC | Fallen | — | Assassin, Shotgunner, Crook Boss, None | [Open](33-2026-10-09-23-12-47.txt) |
 | 34 | 2026-10-09 23:16 UTC | Fallen | — | Assassin, Shotgunner, Crook Boss, None | [Open](34-2026-10-09-23-16-59.txt) |
+| 35 | 2026-10-09 23:29 UTC | Fallen | — | Assassin, Shotgunner, Crook Boss, None | [Open](35-2026-10-09-23-29-24.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
