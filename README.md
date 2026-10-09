@@ -25,11 +25,11 @@ Find a mode, choose a map, and open a ready-to-use strategy in just a few clicks
 | Mode | Strategies | Open |
 |:---:|---:|:---:|
 | **Story** | 2 | [Browse →](Story/README.md) |
-| Hardcore Hard | 1 | [Open](Hardcore%20Hard/README.md) |
+| Fallen | 118 | [Open](Fallen/README.md) |
 | **Casual** | 39 | [Browse →](Casual/README.md) |
 | **Intermediate** | 29 | [Browse →](Intermediate/README.md) |
 | Easy | 141 | [Open](Easy/README.md) |
-| Fallen | 117 | [Open](Fallen/README.md) |
+| Molten | 76 | [Open](Molten/README.md) |
 | **Frost** | 167 | [Browse →](Frost/README.md) |
 | **Badlands** | 3 | [Browse →](Badlands/README.md) |
 | **Hardcore** | 211 | [Browse →](Hardcore/README.md) |
@@ -39,9 +39,9 @@ Find a mode, choose a map, and open a ready-to-use strategy in just a few clicks
 | **Sandbox** | 26 | [Browse →](Sandbox/README.md) |
 | **Unknown** | 1 | [Browse →](Unknown/README.md) |
 
-| Molten | 76 | [Open](Molten/README.md) |
 | Act1Easy | 2 | [Open](Act1Easy/README.md) |
 | Act1 | 1 | [Open](Act1/README.md) |
+| Hardcore Hard | 1 | [Open](Hardcore%20Hard/README.md) |
 </div>
 
 ---
