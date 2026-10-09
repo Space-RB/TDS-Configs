@@ -28,7 +28,7 @@ Find a mode, choose a map, and open a ready-to-use strategy in just a few clicks
 | **Easy** | 140 | [Browse →](Easy/README.md) |
 | **Casual** | 39 | [Browse →](Casual/README.md) |
 | **Intermediate** | 29 | [Browse →](Intermediate/README.md) |
-| **Molten** | 75 | [Browse →](Molten/README.md) |
+| Molten | 76 | [Open](Molten/README.md) |
 | **Fallen** | 115 | [Browse →](Fallen/README.md) |
 | **Frost** | 167 | [Browse →](Frost/README.md) |
 | **Badlands** | 3 | [Browse →](Badlands/README.md) |
