@@ -1,18 +1,15 @@
 # Trials / Stained Temple
 
-[← Back to catalog](../../README.md)
+[← Back](../README.md)
 
-Configs in this category: **2**
+## Maps
 
 <div align="center">
 
-| Date | Mode | Map | Modifiers | Towers | Reward | Config |
-|---|---|---|---|---|---|---|
-| Unknown | Trial | Stained Temple | — | Gatling Gun, Trapper, DJ Booth, Turret, EvolvedJuggernaut | — | [Открыть](Stained-Temple-2026-09-06-10-10-44.txt) |
-| Unknown | Trial | Stained Temple | — | Gatling Gun, Trapper, DJ Booth, Turret, EvolvedJuggernaut | — | [Открыть](Stained-Temple-2026-09-06-10-48-14.txt) |
+| Map | Configs | Open |
+|---|---:|---|
+| Stained Temple | 2 | [Open](Stained%20Temple/README.md) |
 
 </div>
 
----
-
-Search this page with **Ctrl+F**.
+Search this list with **Ctrl+F**.

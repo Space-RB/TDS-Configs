@@ -1,14 +1,14 @@
 # Story
 
-[← Back to catalog](../README.md)
+[← Back](../README.md)
 
-Choose a subcategory:
+## Categories
 
 <div align="center">
 
-| Subcategory | Configs |
-|---|---:|
-| [Act 1](Story/Act%201/README.md) | 2 |
+| Categorie | Configs | Open |
+|---|---:|---|
+| Act 1 | 2 | [Open](Act%201/README.md) |
 
 </div>
 

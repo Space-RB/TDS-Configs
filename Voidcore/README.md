@@ -1,18 +1,15 @@
 # Voidcore
 
-[← Back to catalog](../README.md)
+[← Back](../README.md)
 
-Configs in this category: **2**
+## Maps
 
 <div align="center">
 
-| Date | Mode | Map | Modifiers | Towers | Reward | Config |
-|---|---|---|---|---|---|---|
-| Unknown | Voidcore | Unknown Garden | — | Gatling Gun, EvolvedKingpin, Hacker, Farm, Engineer | — | [Открыть](Unknown-Garden-2026-10-04-22-10-37.txt) |
-| Unknown | Voidcore | Unknown Garden | — | Gatling Gun, EvolvedKingpin, Hacker, Farm, Engineer | — | [Открыть](Unknown-Garden-2026-10-04-22-19-19.txt) |
+| Map | Configs | Open |
+|---|---:|---|
+| Unknown Garden | 2 | [Open](Unknown%20Garden/README.md) |
 
 </div>
 
----
-
-Search this page with **Ctrl+F**.
+Search this list with **Ctrl+F**.

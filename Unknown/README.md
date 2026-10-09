@@ -1,17 +1,15 @@
 # Unknown
 
-[← Back to catalog](../README.md)
+[← Back](../README.md)
 
-Configs in this category: **1**
+## Maps
 
 <div align="center">
 
-| Date | Mode | Map | Modifiers | Towers | Reward | Config |
-|---|---|---|---|---|---|---|
-| Unknown | Unknown | Unknown | — | Gatling Gun, EvolvedOperator, Farm, Hacker, EvolvedEnforcer | — | [Открыть](Unknown-2026-10-06-22-33-04.txt) |
+| Map | Configs | Open |
+|---|---:|---|
+| Unknown | 1 | [Open](Unknown/README.md) |
 
 </div>
 
----
-
-Search this page with **Ctrl+F**.
+Search this list with **Ctrl+F**.

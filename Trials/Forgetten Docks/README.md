@@ -1,17 +1,15 @@
 # Trials / Forgetten Docks
 
-[← Back to catalog](../../README.md)
+[← Back](../README.md)
 
-Configs in this category: **1**
+## Maps
 
 <div align="center">
 
-| Date | Mode | Map | Modifiers | Towers | Reward | Config |
-|---|---|---|---|---|---|---|
-| Unknown | Trial | Forgetten Docks | — | Trapper, Farm, EvolvedJuggernaut, DJ Booth, Rocketeer | — | [Открыть](Forgetten-Docks-2026-08-28-13-52-05.txt) |
+| Map | Configs | Open |
+|---|---:|---|
+| Forgetten Docks | 1 | [Open](Forgetten%20Docks/README.md) |
 
 </div>
 
----
-
-Search this page with **Ctrl+F**.
+Search this list with **Ctrl+F**.

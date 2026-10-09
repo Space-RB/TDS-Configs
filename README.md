@@ -1,12 +1,12 @@
 # TDS Configs
 
-Space Hub strategy collection, sorted by mode and date.
+Space Hub strategy collection, sorted by mode, map, and date.
 
 ## Quick search
 
 - [Search this repository on GitHub](https://github.com/Space-RB/TDS-Configs/search)
 - [Search config files only](https://github.com/Space-RB/TDS-Configs/search?q=extension%3Atxt&type=code)
-- Use **Ctrl+F** inside a category to find a map, mode, or tower.
+- Open a mode, then a map. Configs are numbered chronologically inside each map.
 
 ## Catalog
 
@@ -30,7 +30,3 @@ Space Hub strategy collection, sorted by mode and date.
 | Unknown | 1 | [Open category](Unknown/README.md) |
 
 </div>
-
----
-
-New strategies are appended to the bottom of their category.

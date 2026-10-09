@@ -1,16 +1,16 @@
 # Trials
 
-[← Back to catalog](../README.md)
+[← Back](../README.md)
 
-Choose a subcategory:
+## Categories
 
 <div align="center">
 
-| Subcategory | Configs |
-|---|---:|
-| [Dusty Bridges](Trials/Dusty%20Bridges/README.md) | 14 |
-| [Forgetten Docks](Trials/Forgetten%20Docks/README.md) | 1 |
-| [Stained Temple](Trials/Stained%20Temple/README.md) | 2 |
+| Categorie | Configs | Open |
+|---|---:|---|
+| Dusty Bridges | 14 | [Open](Dusty%20Bridges/README.md) |
+| Forgetten Docks | 1 | [Open](Forgetten%20Docks/README.md) |
+| Stained Temple | 2 | [Open](Stained%20Temple/README.md) |
 
 </div>
 
