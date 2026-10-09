@@ -12,7 +12,7 @@ Choose one of the categories below to continue.
 
 ---
 
-<h2 align="center">📚 Categories</h2>
+<p align="center"><strong><big>📚 Categories</big></strong></p>
 
 <div align="center">
 

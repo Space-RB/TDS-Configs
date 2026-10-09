@@ -12,7 +12,7 @@ Choose one of the maps below to continue.
 
 ---
 
-<h2 align="center">📚 Maps</h2>
+<p align="center"><strong><big>📚 Maps</big></strong></p>
 
 <div align="center">
 
