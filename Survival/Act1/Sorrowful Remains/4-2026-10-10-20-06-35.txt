@@ -1,0 +1,87 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Pyromancer", "Soldier", "None", "None", "None")
+TDS:Mode("Act1")
+TDS:GameInfo("Sorrowful Remains", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Pyromancer", 20.106584548950195, 2.0009984970092773, 197.75636291503906) -- 1
+TDS:Upgrade(1)
+TDS:SetTarget(1, "Random")
+TDS:SetTarget(1, "Farthest")
+TDS:SetTarget(1, "Closest")
+TDS:SetTarget(1, "Farthest")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Soldier", -10.273618698120117, 2.0145208835601807, 198.62493896484375) -- 2
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", -7.256960391998291, 2.014910936355591, 198.5338134765625) -- 3
+
+-- [ Wave 3 ] --
+TDS:Place("Soldier", -8.744300842285156, 2.003371238708496, 201.22909545898438) -- 4
+
+-- [ Wave 4 ] --
+TDS:Place("Pyromancer", -3.2856099605560303, 2.0266079902648926, 210.87489318847656) -- 5
+
+-- [ Wave 5 ] --
+TDS:Place("Pyromancer", 13.000232696533203, 2.0302631855010986, 194.75856018066406) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Place("Soldier", -5.6242146492004395, 2.00370717048645, 201.15065002441406) -- 7
+TDS:Place("Soldier", -11.761384963989258, 2.0031204223632812, 201.2876739501953) -- 8
+TDS:Place("Soldier", -7.1699323654174805, 2.0272984504699707, 203.8190460205078) -- 9
+TDS:Place("Soldier", -10.234577178955078, 2.0934090614318848, 203.89764404296875) -- 10
+
+-- [ Wave 7 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Place("Pyromancer", -26.123390197753906, 2.0009989738464355, 195.06895446777344) -- 11
+
+-- [ Wave 10 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]
