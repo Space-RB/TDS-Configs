@@ -18,8 +18,7 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
-| Winter Bridges | 1 | [Open](Winter%20Bridges/README.md) |
-| Dead Ahead | 47 | [Open](Dead%20Ahead/README.md) |
+| Dead Ahead | 48 | [Open](Dead%20Ahead/README.md) |
 | Gilded Path | 28 | [Open](Gilded%20Path/README.md) |
 | Lay By | 9 | [Open](Lay%20By/README.md) |
 | Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
@@ -46,8 +45,9 @@ Choose one of the maps below to continue.
 | Sacred Mountains | 1 | [Open](Sacred%20Mountains/README.md) |
 | Sky Islands | 1 | [Open](Sky%20Islands/README.md) |
 | The Heights | 1 | [Open](The%20Heights/README.md) |
-
 | Tropical Industries | 1 | [Open](Tropical%20Industries/README.md) |
+
+| Winter Bridges | 1 | [Open](Winter%20Bridges/README.md) |
 | Winter Stronghold | 1 | [Open](Winter%20Stronghold/README.md) |
 </div>
 
