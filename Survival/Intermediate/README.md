@@ -18,7 +18,7 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
-| Retro The Heights | 1 | [Open](Retro%20The%20Heights/README.md) |
+| Retro The Heights | 2 | [Open](Retro%20The%20Heights/README.md) |
 | Cataclysm | 9 | [Open](Cataclysm/README.md) |
 | Dead Ahead | 7 | [Open](Dead%20Ahead/README.md) |
 | Winter Bridges | 3 | [Open](Winter%20Bridges/README.md) |
