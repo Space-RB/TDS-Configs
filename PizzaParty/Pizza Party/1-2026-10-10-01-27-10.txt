@@ -1,0 +1,71 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Crook Boss", "Militant", "Shotgunner", "None", "None")
+TDS:Mode("PizzaParty")
+TDS:GameInfo("Pizza Party", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Militant", 12.210153579711914, 1.0368709564208984, -18.871257781982422) -- 1
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Shotgunner", 12.931280136108398, 1.0368709564208984, -27.771196365356445) -- 2
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Place("Crook Boss", 7.7029829025268555, 1.0368709564208984, -24.05685043334961) -- 3
+
+-- [ Wave 8 ] --
+TDS:Place("Crook Boss", 7.44777250289917, 1.0368709564208984, -20.96190071105957) -- 4
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", 13.120288848876953, 1.0368709564208984, -25.774368286132812) -- 5
+TDS:Upgrade(5)
+TDS:Place("Shotgunner", 12.149822235107422, 1.0368709564208984, -29.727157592773438) -- 6
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:Place("Crook Boss", 4.605528831481934, 1.0368709564208984, -24.388408660888672) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(4)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 15 ] --
+TDS:Place("Shotgunner", 4.709728240966797, 1.0368709564208984, -30.939573287963867) -- 8
+TDS:Upgrade(8)
+
+-- [ Wave 16 ] --
+TDS:Place("Crook Boss", 8.154708862304688, 1.0368709564208984, -21.921289443969727) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
