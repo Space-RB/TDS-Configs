@@ -1,0 +1,193 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Brawler", "Shotgunner", "Hacker", "DJ Booth", "EvolvedJuggernaut")
+TDS:Mode("Molten")
+TDS:GameInfo("Simplicity", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Brawler", -20.512025833129883, 0.9999845623970032, -12.099782943725586) -- 1
+TDS:Place("Brawler", -20.571313858032227, 1.000002384185791, -14.11362075805664) -- 2
+
+-- [ Wave 3 ] --
+TDS:Place("Shotgunner", -23.719356536865234, 1.0000011920928955, -6.710992813110352) -- 3
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Shotgunner", -23.72464370727539, 1.0000008344650269, -4.6845703125) -- 4
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", -18.52157211303711, 0.9999914169311523, -11.859122276306152) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", -18.670814514160156, 0.999988317489624, -9.844136238098145) -- 6
+TDS:Upgrade(6)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:Place("Hacker", -12.490579605102539, 0.9999834895133972, -9.027819633483887) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(2)
+TDS:Place("Brawler", -18.687633514404297, 0.9999834895133972, -7.761663436889648) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Place("Brawler", -18.589086532592773, 0.9999834895133972, -5.717101097106934) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Brawler", -18.563261032104492, 1.0000007152557373, -3.682251453399658) -- 10
+TDS:Upgrade(10)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(1)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 23 ] --
+TDS:Place("DJ Booth", -8.48620891571045, 0.9999868869781494, -8.844002723693848) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 25 ] --
+TDS:Place("Shotgunner", -16.829307556152344, 0.9999891519546509, -9.02003288269043) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Shotgunner", -16.62001609802246, 0.9999916553497314, -11.0135498046875) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Shotgunner", -14.959474563598633, 0.9999904632568359, -9.747782707214355) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Shotgunner", -14.73557186126709, 0.9999927878379822, -11.737300872802734) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Shotgunner", -16.78667449951172, 0.9999943971633911, -13.068161010742188) -- 16
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(12)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(5)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Hacker", -12.21609878540039, 1.0000005960464478, -3.111607551574707) -- 17
+TDS:Upgrade(17)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("EvolvedJuggernaut", -4.874176025390625, 0.9999842643737793, -21.044485092163086) -- 18
+TDS:Upgrade(18)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(18)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(18)
+
+-- [[ END OF STRATEGY ]]
