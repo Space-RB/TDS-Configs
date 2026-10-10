@@ -18,8 +18,9 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 36 | [Open](Simplicity/README.md) |
+| Abyssal Trench | 2 | [Open](Abyssal%20Trench/README.md) |
 | Lay By | 43 | [Open](Lay%20By/README.md) |
+| Simplicity | 36 | [Open](Simplicity/README.md) |
 | U-Turn | 9 | [Open](U-Turn/README.md) |
 | Cataclysm | 6 | [Open](Cataclysm/README.md) |
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
@@ -28,7 +29,6 @@ Choose one of the maps below to continue.
 | Deserted Village | 2 | [Open](Deserted%20Village/README.md) |
 | Space City | 2 | [Open](Space%20City/README.md) |
 | Winter Abyss | 2 | [Open](Winter%20Abyss/README.md) |
-| Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
 | Black Spot Exchange | 1 | [Open](Black%20Spot%20Exchange/README.md) |
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
 | Crossroads | 1 | [Open](Crossroads/README.md) |
