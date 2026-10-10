@@ -18,6 +18,7 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
+| Wrecked Battlefield | 4 | [Open](Wrecked%20Battlefield/README.md) |
 | Dead Ahead | 47 | [Open](Dead%20Ahead/README.md) |
 | Gilded Path | 28 | [Open](Gilded%20Path/README.md) |
 | Lay By | 9 | [Open](Lay%20By/README.md) |
@@ -29,7 +30,6 @@ Choose one of the maps below to continue.
 | Crossroads | 3 | [Open](Crossroads/README.md) |
 | Four Seasons | 3 | [Open](Four%20Seasons/README.md) |
 | Meltdown | 3 | [Open](Meltdown/README.md) |
-| Wrecked Battlefield | 3 | [Open](Wrecked%20Battlefield/README.md) |
 | Autumn Falling | 2 | [Open](Autumn%20Falling/README.md) |
 | Black Spot Exchange | 2 | [Open](Black%20Spot%20Exchange/README.md) |
 | Honey Valley | 2 | [Open](Honey%20Valley/README.md) |
