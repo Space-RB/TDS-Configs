@@ -25,7 +25,7 @@ Find a mode, choose a map, and open a ready-to-use strategy in just a few clicks
 | Mode | Strategies | Open |
 |:---:|---:|:---:|
 | **Story** | 2 | [Browse →](Story/README.md) |
-| PizzaParty | 1 | [Open](PizzaParty/README.md) |
+| Act1 | 2 | [Open](Act1/README.md) |
 | **Casual** | 39 | [Browse →](Casual/README.md) |
 | **Intermediate** | 29 | [Browse →](Intermediate/README.md) |
 | Easy | 141 | [Open](Easy/README.md) |
@@ -41,8 +41,8 @@ Find a mode, choose a map, and open a ready-to-use strategy in just a few clicks
 
 | Molten | 76 | [Open](Molten/README.md) |
 | Act1Easy | 2 | [Open](Act1Easy/README.md) |
-| Act1 | 1 | [Open](Act1/README.md) |
 | Hardcore Hard | 1 | [Open](Hardcore%20Hard/README.md) |
+| PizzaParty | 1 | [Open](PizzaParty/README.md) |
 </div>
 
 ---
