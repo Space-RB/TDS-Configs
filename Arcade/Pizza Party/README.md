@@ -18,7 +18,7 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
-| Pizza Party | 27 | [Open](Pizza%20Party/README.md) |
+| Pizza Party | 28 | [Open](Pizza%20Party/README.md) |
 
 </div>
 
