@@ -18,7 +18,7 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 11 | [Open](Simplicity/README.md) |
+| Simplicity | 12 | [Open](Simplicity/README.md) |
 | Lay By | 12 | [Open](Lay%20By/README.md) |
 | U-Turn | 8 | [Open](U-Turn/README.md) |
 | Dead Ahead | 7 | [Open](Dead%20Ahead/README.md) |
