@@ -16,7 +16,7 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
-| Sorrowful Remains | 1 | [Open](Sorrowful%20Remains/README.md) |
+| Sorrowful Remains | 2 | [Open](Sorrowful%20Remains/README.md) |
 
 </div>
 
