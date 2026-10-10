@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 12 recorded strategies available for this map**
+**📦 13 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -31,6 +31,7 @@ Select a strategy below and open its config file.
 | 11 | 2026-10-09 | Molten | Glass | Commander, Minigunner, Pulse Trooper, EvolvedOperator, Farm | [Open](11-2026-10-09-20-21-09.txt) |
 
 | 12 | 2026-10-10 12:01 UTC | Molten | — | Brawler, Shotgunner, Hacker, DJ Booth, EvolvedJuggernaut | [Open](12-2026-10-10-12-01-27.txt) |
+| 13 | 2026-10-10 21:25 UTC | Molten | — | Shotgunner, DJ Booth, Commander, Medic, Brawler | [Open](13-2026-10-10-21-25-58.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
