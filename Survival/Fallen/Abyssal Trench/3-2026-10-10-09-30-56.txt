@@ -1,0 +1,147 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Hacker", "EvolvedOperator", "EvolvedEnforcer", "DJ Booth", "Gatling Gun")
+TDS:Mode("Fallen")
+TDS:GameInfo("Abyssal Trench", {"HiddenEnemies", "Glass", "ExplodingEnemies", "Limitation", "Quarantine", "FlyingEnemies", "Fog"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("EvolvedOperator", -7.176666259765625, 0.44747862219810486, -7.292716026306152) -- 1
+TDS:Ready()
+TDS:Ready()
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("EvolvedOperator", 5.5599212646484375, 0.44747865200042725, -7.087856769561768) -- 2
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Sell(1)
+TDS:Sell(2)
+
+-- [ Wave 9 ] --
+TDS:Place("Gatling Gun", 59.99797058105469, 5.183538436889648, -6.462732791900635) -- 3
+TDS:Place("DJ Booth", 60.05849838256836, 0.46380358934402466, -10.352167129516602) -- 4
+TDS:Upgrade(4)
+TDS:SetOption(4, "Track", "Green")
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+TDS:SetOption(4, "Track", "Red")
+
+-- [ Wave 15 ] --
+TDS:SetOption(4, "Track", "Green")
+
+-- [ Wave 16 ] --
+TDS:Upgrade(3)
+TDS:SetOption(4, "Track", "Red")
+TDS:SetOption(4, "Track", "Red")
+TDS:SetOption(4, "Track", "Red")
+TDS:Upgrade(4)
+
+-- [ Wave 17 ] --
+TDS:Ability(4, "Drop The Beat")
+
+-- [ Wave 18 ] --
+TDS:Ability(4, "Drop The Beat")
+
+-- [ Wave 19 ] --
+TDS:SetOption(4, "Track", "Green")
+TDS:Upgrade(3)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(4)
+TDS:SetOption(4, "Track", "Red")
+TDS:SetOption(4, "Track", "Red")
+TDS:Ability(4, "Drop The Beat")
+
+-- [ Wave 23 ] --
+TDS:Ability(4, "Drop The Beat")
+TDS:SetOption(4, "Track", "Green")
+
+-- [ Wave 24 ] --
+TDS:Upgrade(3)
+TDS:SetOption(4, "Track", "Red")
+TDS:SetOption(4, "Track", "Red")
+
+-- [ Wave 25 ] --
+TDS:Ability(4, "Drop The Beat")
+
+-- [ Wave 27 ] --
+TDS:Ability(4, "Drop The Beat")
+TDS:SetOption(4, "Track", "Green")
+
+-- [ Wave 28 ] --
+TDS:Upgrade(3)
+TDS:SetOption(4, "Track", "Red")
+TDS:SetOption(4, "Track", "Red")
+TDS:Ability(4, "Drop The Beat")
+
+-- [ Wave 29 ] --
+TDS:Ability(4, "Drop The Beat")
+
+-- [ Wave 30 ] --
+TDS:Upgrade(4)
+TDS:Place("EvolvedEnforcer", -7.5230255126953125, 0.44747859239578247, -7.19968318939209) -- 5
+TDS:Place("EvolvedOperator", 6.19059944152832, 0.4474796652793884, -10.795806884765625) -- 6
+
+-- [ Wave 31 ] --
+TDS:Place("Hacker", -24.911846160888672, 0.4474814236164093, -15.997998237609863) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7, 2)
+TDS:Ability(4, "Drop The Beat")
+
+-- [ Wave 32 ] --
+TDS:Ability(4, "Drop The Beat")
+
+-- [ Wave 33 ] --
+TDS:Ability(7, "Hologram Tower", {towerPosition = Vector3.new(73.78425598144531, 4.29094123840332, -6.973550319671631), towerToClone = 3})
+TDS:Ability(4, "Drop The Beat")
+
+-- [ Wave 36 ] --
+TDS:Ability(4, "Drop The Beat")
+
+-- [ Wave 37 ] --
+TDS:Ability(4, "Drop The Beat")
+
+-- [ Wave 38 ] --
+TDS:Ability(4, "Drop The Beat")
+
+-- [[ END OF STRATEGY ]]
