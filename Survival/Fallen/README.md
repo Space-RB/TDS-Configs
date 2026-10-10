@@ -18,12 +18,12 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
-| Abyssal Trench | 3 | [Open](Abyssal%20Trench/README.md) |
+| Simplicity | 37 | [Open](Simplicity/README.md) |
 | Lay By | 43 | [Open](Lay%20By/README.md) |
-| Simplicity | 36 | [Open](Simplicity/README.md) |
 | U-Turn | 9 | [Open](U-Turn/README.md) |
 | Cataclysm | 6 | [Open](Cataclysm/README.md) |
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
+| Abyssal Trench | 3 | [Open](Abyssal%20Trench/README.md) |
 | Dead Ahead | 3 | [Open](Dead%20Ahead/README.md) |
 | Wrecked Battlefield II | 3 | [Open](Wrecked%20Battlefield%20II/README.md) |
 | Deserted Village | 2 | [Open](Deserted%20Village/README.md) |
