@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 27 recorded strategies available for this map**
+**📦 28 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -46,6 +46,7 @@ Select a strategy below and open its config file.
 | 26 | 2026-10-09 | PizzaParty | — | Trapper, None | [Open](26-2026-10-09-02-06-38.txt) |
 | 27 | 2026-10-10 | PizzaParty | — | Crook Boss, Militant, Shotgunner, None | [Open](27-2026-10-10-01-27-10.txt) |
 
+| 28 | 2026-10-10 08:30 UTC | PizzaParty | — | Scout, Commander, Pyromancer, None | [Open](28-2026-10-10-08-30-15.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
