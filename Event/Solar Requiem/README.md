@@ -1,10 +1,10 @@
 <div align="center">
 
-# 🗺️ Event
+# 🗺️ Event / Solar Requiem
 
 [← Back to the previous catalog](../README.md)
 
-**📦 12 strategies across 2 categories**
+**📦 7 strategies across 2 categories**
 
 Choose one of the categories below to continue.
 
@@ -18,8 +18,8 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Solar Requiem | 7 | [Open](Solar%20Requiem/README.md) |
-| Nil Zone II | 5 | [Open](Nil%20Zone%20II/README.md) |
+| Night 1 - Hard | 4 | [Open](Night%201%20-%20Hard/README.md) |
+| Night 1 - Easy | 3 | [Open](Night%201%20-%20Easy/README.md) |
 
 </div>
 

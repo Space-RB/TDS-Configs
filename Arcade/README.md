@@ -1,10 +1,10 @@
 <div align="center">
 
-# 🗺️ Event
+# 🗺️ Arcade
 
 [← Back to the previous catalog](../README.md)
 
-**📦 12 strategies across 2 categories**
+**📦 47 strategies across 3 categories**
 
 Choose one of the categories below to continue.
 
@@ -18,8 +18,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Solar Requiem | 7 | [Open](Solar%20Requiem/README.md) |
-| Nil Zone II | 5 | [Open](Nil%20Zone%20II/README.md) |
+| Pizza Party | 27 | [Open](Pizza%20Party/README.md) |
+| Trials | 17 | [Open](Trials/README.md) |
+| Badlands | 3 | [Open](Badlands/README.md) |
 
 </div>
 

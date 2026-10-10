@@ -8,7 +8,7 @@
 
 Find a mode, choose a map, and open a ready-to-use strategy in just a few clicks.
 
-**📦 858 strategies &nbsp; • &nbsp; 🎮 14 categories &nbsp; • &nbsp; 🗺️ Sorted by map**
+**📦 873 strategies &nbsp; • &nbsp; 🎮 5 categories &nbsp; • &nbsp; 🗺️ Sorted by map**
 
 [![Browse Configs](https://img.shields.io/badge/Browse-Strategies-8A2BE2?style=for-the-badge)](#-strategy-catalog)
 
@@ -24,25 +24,12 @@ Find a mode, choose a map, and open a ready-to-use strategy in just a few clicks
 
 | Mode | Strategies | Open |
 |:---:|---:|:---:|
-| **Story** | 2 | [Browse →](Story/README.md) |
-| Fallen | 121 | [Open](Fallen/README.md) |
-| **Casual** | 39 | [Browse →](Casual/README.md) |
-| **Intermediate** | 29 | [Browse →](Intermediate/README.md) |
-| Easy | 141 | [Open](Easy/README.md) |
-| Molten | 76 | [Open](Molten/README.md) |
-| **Frost** | 167 | [Browse →](Frost/README.md) |
-| **Badlands** | 3 | [Browse →](Badlands/README.md) |
-| **Hardcore** | 211 | [Browse →](Hardcore/README.md) |
-| **Voidcore** | 2 | [Browse →](Voidcore/README.md) |
-| **Event** | 31 | [Browse →](Event/README.md) |
-| **Trials** | 17 | [Browse →](Trials/README.md) |
+| **Event** | 12 | [Browse →](Event/README.md) |
+| **Survival** | 788 | [Browse →](Survival/README.md) |
+| **Story** | 0 | [Browse →](Story/README.md) |
+| **Arcade** | 47 | [Browse →](Arcade/README.md) |
 | **Sandbox** | 26 | [Browse →](Sandbox/README.md) |
-| **Unknown** | 1 | [Browse →](Unknown/README.md) |
 
-| Act1 | 3 | [Open](Act1/README.md) |
-| Act1Easy | 2 | [Open](Act1Easy/README.md) |
-| Hardcore Hard | 1 | [Open](Hardcore%20Hard/README.md) |
-| PizzaParty | 1 | [Open](PizzaParty/README.md) |
 </div>
 
 ---
@@ -61,16 +48,17 @@ Find a mode, choose a map, and open a ready-to-use strategy in just a few clicks
 
 <h2 align="center">🗂️ Repository structure</h2>
 
-<p align="center"><code>Mode / Map / Number-Timestamp.txt</code></p>
+<p align="center"><code>Category / Mode / Map / Number-Timestamp.txt</code></p>
 
-<p align="center">Event, Trial, and Story strategies include one extra category level.<br>Numbers are assigned separately for every map, in chronological order.</p>
+<p align="center">Event stages and Arcade trials include an additional category level.<br>Numbers are assigned separately for every map, in chronological order.</p>
 
 ```text
-Easy/
-└── Abyssal Trench/
-    ├── 1-2026-08-31-17-46-50.txt
-    ├── 2-2026-08-31-17-46-56.txt
-    └── README.md
+Survival/
+└── Easy/
+    └── Abyssal Trench/
+        ├── 1-2026-08-31-17-46-50.txt
+        ├── 2-2026-08-31-17-46-56.txt
+        └── README.md
 ```
 
 ---

@@ -1,10 +1,10 @@
 <div align="center">
 
-# 🗺️ Event
+# 🗺️ Arcade / Trials
 
 [← Back to the previous catalog](../README.md)
 
-**📦 12 strategies across 2 categories**
+**📦 17 strategies across 3 categories**
 
 Choose one of the categories below to continue.
 
@@ -18,8 +18,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Solar Requiem | 7 | [Open](Solar%20Requiem/README.md) |
-| Nil Zone II | 5 | [Open](Nil%20Zone%20II/README.md) |
+| Stained Temple | 2 | [Open](Stained%20Temple/README.md) |
+| Dusty Bridges | 14 | [Open](Dusty%20Bridges/README.md) |
+| Forgetten Docks | 1 | [Open](Forgetten%20Docks/README.md) |
 
 </div>
 
