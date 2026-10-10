@@ -18,7 +18,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Hardcore Easy | 1 | [Open](Hardcore%20Easy/README.md) |
+| Act1 | 1 | [Open](Act1/README.md) |
 | Hardcore | 211 | [Open](Hardcore/README.md) |
 | Frost | 167 | [Open](Frost/README.md) |
 | Easy | 141 | [Open](Easy/README.md) |
@@ -28,6 +28,7 @@ Choose one of the categories below to continue.
 | Intermediate | 29 | [Open](Intermediate/README.md) |
 | Voidcore | 3 | [Open](Voidcore/README.md) |
 
+| Hardcore Easy | 1 | [Open](Hardcore%20Easy/README.md) |
 | Unknown | 1 | [Open](Unknown/README.md) |
 </div>
 
