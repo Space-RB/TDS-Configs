@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 1 recorded strategy available for this map**
+**📦 2 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -20,6 +20,7 @@ Select a strategy below and open its config file.
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 2026-10-10 06:56 UTC | Act1 | — | Militant, Rocketeer, None | [Open](1-2026-10-10-06-56-40.txt) |
 
+| 2 | 2026-10-10 07:09 UTC | Act1 | — | Militant, Rocketeer, None | [Open](2-2026-10-10-07-09-03.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
