@@ -18,15 +18,15 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
-| Wrecked Battlefield | 4 | [Open](Wrecked%20Battlefield/README.md) |
+| Mason Arch | 5 | [Open](Mason%20Arch/README.md) |
 | Dead Ahead | 47 | [Open](Dead%20Ahead/README.md) |
 | Gilded Path | 28 | [Open](Gilded%20Path/README.md) |
 | Lay By | 9 | [Open](Lay%20By/README.md) |
 | Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
 | Abyssal Trench | 5 | [Open](Abyssal%20Trench/README.md) |
 | Lighthaos | 4 | [Open](Lighthaos/README.md) |
-| Mason Arch | 4 | [Open](Mason%20Arch/README.md) |
 | Simplicity | 4 | [Open](Simplicity/README.md) |
+| Wrecked Battlefield | 4 | [Open](Wrecked%20Battlefield/README.md) |
 | Crossroads | 3 | [Open](Crossroads/README.md) |
 | Four Seasons | 3 | [Open](Four%20Seasons/README.md) |
 | Meltdown | 3 | [Open](Meltdown/README.md) |
