@@ -18,7 +18,7 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
-| Abyssal Trench | 2 | [Open](Abyssal%20Trench/README.md) |
+| Abyssal Trench | 3 | [Open](Abyssal%20Trench/README.md) |
 | Lay By | 43 | [Open](Lay%20By/README.md) |
 | Simplicity | 36 | [Open](Simplicity/README.md) |
 | U-Turn | 9 | [Open](U-Turn/README.md) |
