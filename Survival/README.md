@@ -18,7 +18,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Act1Easy | 1 | [Open](Act1Easy/README.md) |
+| Act1Easy | 2 | [Open](Act1Easy/README.md) |
 | Hardcore | 211 | [Open](Hardcore/README.md) |
 | Frost | 167 | [Open](Frost/README.md) |
 | Easy | 141 | [Open](Easy/README.md) |
