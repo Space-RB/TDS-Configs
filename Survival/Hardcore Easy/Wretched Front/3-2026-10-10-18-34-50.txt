@@ -1,0 +1,57 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Minigunner", "Hunter", "None", "None", "None")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 3 ] --
+TDS:Place("Minigunner", 6.100743293762207, 1.3932898044586182, 28.27846908569336) -- 1
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Place("Hunter", -1.699814796447754, 1.403059959411621, 22.099973678588867) -- 2
+
+-- [ Wave 10 ] --
+TDS:Place("Minigunner", 5.946063041687012, 1.3053679466247559, 22.020971298217773) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 14 ] --
+TDS:Place("Hunter", 1.3719658851623535, 1.3712513446807861, 21.990995407104492) -- 4
+TDS:Upgrade(4)
+
+-- [ Wave 16 ] --
+TDS:Place("Minigunner", 9.122644424438477, 1.2446956634521484, 21.967144012451172) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [[ END OF STRATEGY ]]
