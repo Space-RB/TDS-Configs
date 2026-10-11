@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 7 recorded strategies available for this map**
+**📦 8 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -26,6 +26,7 @@ Select a strategy below and open its config file.
 | 5 | 2026-10-11 06:34 UTC | Hardcore Easy | — | Scout, None | [Open](5-2026-10-11-06-34-50.txt) |
 | 6 | 2026-10-11 06:34 UTC | Hardcore Easy | — | Scout, None | [Open](6-2026-10-11-06-34-57.txt) |
 | 7 | 2026-10-11 06:43 UTC | Hardcore Easy | — | Pyromancer, Soldier, Crook Boss, Minigunner, Shotgunner | [Open](7-2026-10-11-06-43-45.txt) |
+| 8 | 2026-10-11 12:17 UTC | Hardcore Easy | — | EvolvedOperator, Farm, Tesla, EvolvedJuggernaut, None | [Open](8-2026-10-11-12-17-34.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
