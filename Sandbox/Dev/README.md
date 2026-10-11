@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 32 recorded strategies available for this map**
+**📦 33 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -51,6 +51,7 @@ Select a strategy below and open its config file.
 | 30 | 2026-10-11 16:46 UTC | Sandbox | — | Trapper, Mercenary Base, Military Base, DJ Booth, Gatling Gun | [Open](30-2026-10-11-16-46-22.txt) |
 | 31 | 2026-10-11 16:46 UTC | Sandbox | — | Trapper, Mercenary Base, Military Base, DJ Booth, Gatling Gun | [Open](31-2026-10-11-16-46-46.txt) |
 | 32 | 2026-10-11 16:47 UTC | Sandbox | — | Trapper, Mercenary Base, Military Base, DJ Booth, Gatling Gun | [Open](32-2026-10-11-16-47-26.txt) |
+| 33 | 2026-10-11 16:48 UTC | Sandbox | — | Trapper, Mercenary Base, Military Base, DJ Booth, Gatling Gun | [Open](33-2026-10-11-16-48-01.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
