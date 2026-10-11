@@ -25,7 +25,7 @@ Find a mode, choose a map, and open a ready-to-use strategy in just a few clicks
 | Mode | Strategies | Open |
 |:---:|---:|:---:|
 | **Event** | 12 | [Browse →](Event/README.md) |
-| Arcade | 50 | [Open](Arcade/README.md) |
+| Arcade | 51 | [Open](Arcade/README.md) |
 | **Story** | 0 | [Browse →](Story/README.md) |
 | Survival | 845 | [Open](Survival/README.md) |
 | Sandbox | 33 | [Open](Sandbox/README.md) |
