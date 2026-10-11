@@ -18,7 +18,7 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
-| Tropical Isles | 1 | [Open](Tropical%20Isles/README.md) |
+| Sugar Rush | 3 | [Open](Sugar%20Rush/README.md) |
 | Dead Ahead | 50 | [Open](Dead%20Ahead/README.md) |
 | Gilded Path | 28 | [Open](Gilded%20Path/README.md) |
 | Lay By | 9 | [Open](Lay%20By/README.md) |
@@ -35,7 +35,6 @@ Choose one of the maps below to continue.
 | Black Spot Exchange | 2 | [Open](Black%20Spot%20Exchange/README.md) |
 | Honey Valley | 2 | [Open](Honey%20Valley/README.md) |
 | Spring Fever | 2 | [Open](Spring%20Fever/README.md) |
-| Sugar Rush | 2 | [Open](Sugar%20Rush/README.md) |
 | Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
 | Hot Spot | 1 | [Open](Hot%20Spot/README.md) |
 | Infernal Abyss | 1 | [Open](Infernal%20Abyss/README.md) |
@@ -46,8 +45,9 @@ Choose one of the maps below to continue.
 | Sacred Mountains | 1 | [Open](Sacred%20Mountains/README.md) |
 | Sky Islands | 1 | [Open](Sky%20Islands/README.md) |
 | The Heights | 1 | [Open](The%20Heights/README.md) |
-
 | Tropical Industries | 1 | [Open](Tropical%20Industries/README.md) |
+
+| Tropical Isles | 1 | [Open](Tropical%20Isles/README.md) |
 | Winter Bridges | 1 | [Open](Winter%20Bridges/README.md) |
 | Winter Stronghold | 1 | [Open](Winter%20Stronghold/README.md) |
 </div>
