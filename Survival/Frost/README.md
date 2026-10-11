@@ -18,7 +18,7 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
-| Lay By | 77 | [Open](Lay%20By/README.md) |
+| Lay By | 78 | [Open](Lay%20By/README.md) |
 | Simplicity | 37 | [Open](Simplicity/README.md) |
 | Atlas Colosseum | 13 | [Open](Atlas%20Colosseum/README.md) |
 | Cataclysm | 11 | [Open](Cataclysm/README.md) |
