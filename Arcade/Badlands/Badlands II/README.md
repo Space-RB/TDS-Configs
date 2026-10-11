@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 3 recorded strategies available for this map**
+**📦 4 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -22,6 +22,7 @@ Select a strategy below and open its config file.
 | 2 | 2026-09-15 | Badlands | — | Soldier, Militant, None | [Open](2-2026-09-15-07-12-43.txt) |
 | 3 | 2026-09-15 | Badlands | — | Soldier, Militant, None | [Open](3-2026-09-15-07-19-20.txt) |
 
+| 4 | 2026-10-11 03:16 UTC | Badlands | — | Hacker, Gatling Gun, Mercenary Base, Soldier, Necromancer | [Open](4-2026-10-11-03-16-45.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
