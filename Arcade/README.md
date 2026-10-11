@@ -18,9 +18,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Badlands | 4 | [Open](Badlands/README.md) |
+| Trials | 18 | [Open](Trials/README.md) |
 | Pizza Party | 28 | [Open](Pizza%20Party/README.md) |
-| Trials | 17 | [Open](Trials/README.md) |
+| Badlands | 4 | [Open](Badlands/README.md) |
 
 </div>
 
