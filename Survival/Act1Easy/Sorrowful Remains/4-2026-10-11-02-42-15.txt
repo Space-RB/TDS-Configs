@@ -1,0 +1,153 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("None", "None", "None", "None", "None")
+TDS:Mode("Act1Easy")
+TDS:GameInfo("Sorrowful Remains", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Militant", -8.48598575592041, 2.039264678955078, 204.7454833984375) -- 1
+TDS:Upgrade(1)
+TDS:Place("Militant", -12.230932235717773, 2.3242745399475098, 208.90914916992188, true) -- 2
+TDS:Sell(2)
+TDS:Ready()
+TDS:Place("Assassin", -0.5330888032913208, 2.004272699356079, 215.19155883789062) -- 3
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:VoteSkip(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Assassin", -0.3075571060180664, 2.0034303665161133, 213.0049285888672) -- 4
+
+-- [ Wave 3 ] --
+TDS:VoteSkip(3)
+TDS:Upgrade(1)
+TDS:Place("Assassin", -0.6074762344360352, 2.0057950019836426, 210.83114624023438) -- 5
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:VoteSkip(5)
+TDS:Place("Medic", -8.552621841430664, 2.012486457824707, 199.10009765625) -- 6
+
+-- [ Wave 6 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:MedicSelect(6, 1)
+TDS:Place("Militant", -7.065206527709961, 2.0040245056152344, 202.0171356201172) -- 7
+TDS:MedicSelect(6, 7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Commander", -10.986593246459961, 2.0163915157318115, 201.9959259033203) -- 8
+TDS:Upgrade(8)
+TDS:Place("Assassin", -26.981338500976562, 2.0009994506835938, 192.306396484375) -- 9
+TDS:VoteSkip(8)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 9 ] --
+TDS:Place("Assassin", -33.59608459472656, 2.0010006427764893, 185.3313751220703) -- 10
+TDS:Sell(10)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Sell(9)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Place("Medic", -5.186338424682617, 2.0377964973449707, 204.63182067871094) -- 11
+TDS:Upgrade(11)
+TDS:MedicSelect(11, 5)
+TDS:MedicSelect(11, 4)
+TDS:Upgrade(11)
+TDS:MedicSelect(11, 3)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Place("Assassin", -2.378452777862549, 2.009401559829712, 214.36390686035156) -- 12
+
+-- [ Wave 12 ] --
+TDS:Place("Assassin", -14.307363510131836, 2.0839269161224365, 216.83843994140625) -- 13
+TDS:Sell(13)
+TDS:Place("Assassin", -4.25202751159668, 2.0013341903686523, 213.25253295898438) -- 14
+TDS:Place("Assassin", -6.567048072814941, 2.0103912353515625, 212.40049743652344) -- 15
+TDS:Place("Assassin", -0.8540935516357422, 2.0077390670776367, 208.65013122558594) -- 16
+TDS:Place("Assassin", -0.8826413154602051, 2.0079641342163086, 206.22718811035156) -- 17
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(6)
+TDS:MedicSelect(6, 8)
+TDS:MedicSelect(6, 8)
+TDS:MedicSelect(6, 16)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(1)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+TDS:MedicSelect(6, 16)
+TDS:Place("Militant", -5.450514793395996, 2.0121114253997803, 199.1876983642578) -- 18
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:MedicSelect(6, 18)
+TDS:Upgrade(8)
+TDS:Ability(8, "Call Of Arms")
+TDS:Upgrade(8)
+TDS:Upgrade(6)
+TDS:Upgrade(18)
+TDS:Ability(6, "Ubercharge")
+TDS:Place("Militant", -13.950578689575195, 2.119295358657837, 205.19236755371094) -- 19
+TDS:Upgrade(8)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Ability(8, "Support Caravan")
+TDS:SetTarget(19, "Last")
+TDS:SetTarget(19, "Strongest")
+TDS:Upgrade(19)
+TDS:VoteSkip(15)
+TDS:Ability(8, "Call Of Arms")
+
+-- [[ END OF STRATEGY ]]
