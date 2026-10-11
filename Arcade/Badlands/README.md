@@ -18,7 +18,7 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
-| Badlands II | 3 | [Open](Badlands%20II/README.md) |
+| Badlands II | 4 | [Open](Badlands%20II/README.md) |
 
 </div>
 
