@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 9 recorded strategies available for this map**
+**📦 10 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -28,6 +28,7 @@ Select a strategy below and open its config file.
 | 8 | 2026-09-15 | Easy | HiddenEnemies, ExplodingEnemies, Limitation, Inflation, SpeedyEnemies, FlyingEnemies | EvolvedKingpin, Soldier, Gatling Gun, None | [Open](8-2026-09-15-02-18-40.txt) |
 | 9 | 2026-09-28 | Easy | HiddenEnemies, Glass | EvolvedOperator, EvolvedKingpin, None | [Open](9-2026-09-28-16-51-20.txt) |
 
+| 10 | 2026-10-11 14:29 UTC | Easy | — | Militant, None | [Open](10-2026-10-11-14-29-19.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
