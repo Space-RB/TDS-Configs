@@ -18,10 +18,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Stained Temple | 2 | [Open](Stained%20Temple/README.md) |
+| Unknown Trial | 1 | [Open](Unknown%20Trial/README.md) |
 | Dusty Bridges | 14 | [Open](Dusty%20Bridges/README.md) |
-| Forgetten Docks | 1 | [Open](Forgetten%20Docks/README.md) |
+| Stained Temple | 2 | [Open](Stained%20Temple/README.md) |
 
+| Forgetten Docks | 1 | [Open](Forgetten%20Docks/README.md) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>
