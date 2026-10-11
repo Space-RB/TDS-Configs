@@ -18,10 +18,10 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
-| Cataclysm | 11 | [Open](Cataclysm/README.md) |
-| Lay By | 76 | [Open](Lay%20By/README.md) |
+| Lay By | 77 | [Open](Lay%20By/README.md) |
 | Simplicity | 37 | [Open](Simplicity/README.md) |
 | Atlas Colosseum | 13 | [Open](Atlas%20Colosseum/README.md) |
+| Cataclysm | 11 | [Open](Cataclysm/README.md) |
 | U-Turn | 8 | [Open](U-Turn/README.md) |
 | Northern Lights | 7 | [Open](Northern%20Lights/README.md) |
 | Abandoned City | 2 | [Open](Abandoned%20City/README.md) |
