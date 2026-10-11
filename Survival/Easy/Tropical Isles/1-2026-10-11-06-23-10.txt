@@ -1,0 +1,147 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Soldier", "Scout", "Sniper", "Pyromancer", "Militant")
+TDS:Mode("Easy")
+TDS:GameInfo("Tropical Isles", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Scout", 5.913952827453613, 0.2499929666519165, 43.21814727783203) -- 1
+TDS:Place("Scout", 5.225037574768066, 0.2499934732913971, 40.05388641357422) -- 2
+TDS:Place("Scout", -1.432978630065918, 0.24999268352985382, 44.85090255737305) -- 3
+TDS:Place("Scout", -1.2925786972045898, 0.2499932050704956, 41.685462951660156) -- 4
+
+-- [ Wave 2 ] --
+TDS:Place("Scout", 6.252423286437988, 0.24999243021011353, 46.4133415222168) -- 5
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Militant", 6.168781280517578, 0.24999162554740906, 51.446659088134766) -- 6
+TDS:Upgrade(6)
+
+-- [ Wave 5 ] --
+TDS:Place("Sniper", 8.153740882873535, 4.3499555587768555, 34.31084442138672) -- 7
+TDS:Place("Sniper", -4.308926582336426, 3.9467320442199707, 33.45940017700195) -- 8
+
+-- [ Wave 6 ] --
+TDS:Place("Sniper", -7.834162712097168, 3.9467456340789795, 31.88807487487793) -- 9
+TDS:Place("Sniper", 10.121143341064453, 4.349974155426025, 37.178009033203125) -- 10
+
+-- [ Wave 7 ] --
+TDS:Place("Pyromancer", -0.3192939758300781, 0.24999403953552246, 36.469451904296875) -- 11
+TDS:Upgrade(11)
+
+-- [ Wave 8 ] --
+TDS:Place("Sniper", 9.895007133483887, 4.349994659423828, 31.753204345703125) -- 12
+TDS:Place("Sniper", -2.5539731979370117, 4.233092308044434, 29.15216827392578) -- 13
+TDS:Place("Sniper", -5.2326884269714355, 3.349987745285034, 37.93876266479492) -- 14
+
+-- [ Wave 9 ] --
+TDS:Place("Sniper", -5.34836483001709, 3.3499739170074463, 40.67455291748047) -- 15
+TDS:Place("Pyromancer", 6.286585330963135, 0.24999089539051056, 55.991676330566406) -- 16
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(7)
+TDS:Place("Militant", -1.2705278396606445, 0.24999207258224487, 48.597145080566406) -- 17
+TDS:Upgrade(17)
+
+-- [ Wave 11 ] --
+TDS:Place("Sniper", -8.130239486694336, 3.3499739170074463, 41.05836486816406) -- 18
+TDS:Place("Sniper", -8.41476058959961, 3.3499815464019775, 37.897132873535156) -- 19
+TDS:Place("Sniper", -11.197931289672852, 3.3499739170074463, 40.74671173095703) -- 20
+
+-- [ Wave 12 ] --
+TDS:Place("Sniper", -6.512415885925293, 3.9467320442199707, 34.699161529541016) -- 21
+TDS:Place("Sniper", -5.1564483642578125, 3.9467403888702393, 31.05219078063965) -- 22
+TDS:Place("Sniper", -9.992897987365723, 3.9467263221740723, 34.69075393676758) -- 23
+TDS:Place("Sniper", 13.404579162597656, 4.349974632263184, 39.0025749206543) -- 24
+TDS:Place("Sniper", 11.343996047973633, 4.3499555587768555, 34.64741897583008) -- 25
+TDS:Place("Sniper", 13.95147705078125, 4.349977970123291, 36.245819091796875) -- 26
+
+-- [ Wave 13 ] --
+TDS:Place("Sniper", -4.847268104553223, 4.2331037521362305, 27.978721618652344) -- 27
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Place("Militant", 6.0658416748046875, 0.24999399483203888, 36.84245300292969) -- 28
+TDS:Place("Militant", -0.7184348106384277, 0.24999460577964783, 33.03056335449219) -- 29
+TDS:Place("Militant", 5.919576644897461, 0.24999451637268066, 33.692588806152344) -- 30
+TDS:Upgrade(30)
+TDS:Upgrade(29)
+TDS:Upgrade(28)
+TDS:Upgrade(7)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(22)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(17)
+TDS:Place("Sniper", -4.606282711029053, 4.233096599578857, 25.179798126220703) -- 31
+TDS:Place("Sniper", -7.409377098083496, 4.23309326171875, 25.223106384277344) -- 32
+TDS:Place("Sniper", -7.694703102111816, 4.23311185836792, 28.139354705810547) -- 33
+TDS:Place("Sniper", -10.144330978393555, 3.9467453956604004, 30.695735931396484) -- 34
+TDS:Place("Sniper", -11.985097885131836, 3.946714401245117, 32.987796783447266) -- 35
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
