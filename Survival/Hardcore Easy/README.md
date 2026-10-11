@@ -16,7 +16,7 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
-| Wretched Front | 4 | [Open](Wretched%20Front/README.md) |
+| Wretched Front | 5 | [Open](Wretched%20Front/README.md) |
 
 </div>
 
