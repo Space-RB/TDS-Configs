@@ -18,7 +18,7 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
-| Sugar Rush | 3 | [Open](Sugar%20Rush/README.md) |
+| Sugar Rush | 4 | [Open](Sugar%20Rush/README.md) |
 | Dead Ahead | 50 | [Open](Dead%20Ahead/README.md) |
 | Gilded Path | 28 | [Open](Gilded%20Path/README.md) |
 | Lay By | 9 | [Open](Lay%20By/README.md) |
