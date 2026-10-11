@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 26 recorded strategies available for this map**
+**📦 27 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -45,6 +45,7 @@ Select a strategy below and open its config file.
 | 25 | 2026-09-22 | Sandbox | — | Trapper, Scout, None | [Open](25-2026-09-22-00-40-26.txt) |
 | 26 | 2026-10-04 | Sandbox | — | Gatling Gun, Hacker, Commander, Medic, Scout | [Open](26-2026-10-04-04-54-50.txt) |
 
+| 27 | 2026-10-11 07:34 UTC | Sandbox | — | Gatling Gun, EvolvedOperator, Hacker, EvolvedEnforcer, Gladiator | [Open](27-2026-10-11-07-34-18.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
