@@ -1,0 +1,68 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AutoMercenary = true -- Automatically uses Mercenary Base ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Mercenary Base", "Turret", "Trapper", "Farm", "DJ Booth")
+TDS:Mode("Trial")
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Trapper", 0.2963685989379883, -1.5165201425552368, -18.243608474731445) -- 1
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Place("Trapper", -9.712431907653809, -2.091341018676758, -5.240082740783691) -- 2
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:SetOption(2, "Trap", "Landmine")
+
+-- [ Wave 7 ] --
+TDS:Place("DJ Booth", -4.617922782897949, -1.745755910873413, -9.845383644104004) -- 3
+TDS:Upgrade(3)
+TDS:SetOption(3, "Track", "Green")
+
+-- [ Wave 9 ] --
+TDS:Place("Farm", -31.497962951660156, -0.9374831914901733, -1.3577022552490234) -- 4
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Place("Farm", -32.24311447143555, -0.7186721563339233, 3.12353515625) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Place("Farm", -35.712135314941406, -0.7699757814407349, -1.4008150100708008) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:VoteSkip(10)
+
+-- [[ END OF STRATEGY ]]
