@@ -1,0 +1,216 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Snowballer", "None", "None", "None", "None")
+TDS:Mode("Act1")
+TDS:GameInfo("Sorrowful Remains", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 1 ] --
+TDS:Place("Snowballer", 15.52379035949707, 2.061215400695801, 197.91598510742188) -- 1
+TDS:Place("Snowballer", 12.84627914428711, 2.0392465591430664, 197.79554748535156) -- 2
+TDS:Place("Snowballer", 14.088665962219238, 2.014441728591919, 195.45089721679688) -- 3
+TDS:Place("Snowballer", 13.919707298278809, 2.070937156677246, 200.12860107421875) -- 4
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Place("Snowballer", 11.301048278808594, 2.0679845809936523, 199.8611602783203) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 4 ] --
+TDS:Place("Snowballer", 16.51077651977539, 2.000998020172119, 200.31712341308594) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Snowballer", 17.039745330810547, 2.0009989738464355, 195.44680786132812) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Snowballer", 11.386677742004395, 2.0411148071289062, 195.51950073242188) -- 8
+TDS:Upgrade(8)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(8)
+TDS:Place("Snowballer", 9.939491271972656, 2.093212842941284, 197.71775817871094) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Snowballer", 8.670023918151855, 2.0009982585906982, 200.08926391601562) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Snowballer", 8.70068359375, 2.023508310317993, 195.3245849609375) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 6 ] --
+TDS:Place("Snowballer", 7.203166961669922, 2.0009984970092773, 197.88320922851562) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Snowballer", 10.250958442687988, 2.0009992122650146, 193.1569061279297) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Snowballer", 8.846129417419434, 2.022488832473755, 202.81004333496094) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 7 ] --
+TDS:Place("Snowballer", 6.482097148895264, 2.000998020172119, 201.75119018554688) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Snowballer", 5.0535688400268555, 2.0009982585906982, 199.40870666503906) -- 16
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Snowballer", 12.843385696411133, 2.0029125213623047, 192.6571044921875) -- 17
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Snowballer", 15.391119003295898, 2.0009992122650146, 193.27969360351562) -- 18
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Snowballer", 7.684569358825684, 2.0009994506835938, 192.69850158691406) -- 19
+
+-- [ Wave 8 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Snowballer", 5.989803314208984, 2.0009989738464355, 195.16146850585938) -- 20
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Snowballer", 5.1268768310546875, 2.0009994506835938, 192.61361694335938) -- 21
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+
+-- [ Wave 9 ] --
+TDS:Place("Snowballer", 18.101552963256836, 2.0009984970092773, 197.87059020996094) -- 22
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Place("Snowballer", 12.980820655822754, 2.000999689102173, 190.09498596191406) -- 23
+TDS:Place("Snowballer", 15.695837020874023, 2.000999689102173, 190.4439697265625) -- 24
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Place("Snowballer", 9.759446144104004, 2.000999689102173, 190.33636474609375) -- 25
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Place("Snowballer", 7.001497268676758, 2.000999689102173, 190.0607147216797) -- 26
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Place("Snowballer", 5.3055853843688965, 2.0135114192962646, 204.0418243408203) -- 27
+
+-- [ Wave 10 ] --
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Place("Snowballer", 0.0021257400512695312, 2.0009989738464355, 194.98316955566406) -- 28
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Place("Snowballer", -0.033820878714323044, 2.0015556812286377, 197.70199584960938) -- 29
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Place("Snowballer", -0.1446094512939453, 2.003376007080078, 200.41722106933594) -- 30
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Place("Snowballer", -0.05156898871064186, 2.0014123916625977, 203.05491638183594) -- 31
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Place("Snowballer", -0.12904095649719238, 2.002023220062256, 205.82855224609375) -- 32
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Place("Snowballer", -0.02348613552749157, 2.0011909008026123, 208.71524047851562) -- 33
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Place("Snowballer", -2.3538424968719482, 2.024444341659546, 196.30715942382812) -- 34
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Place("Snowballer", -2.5576515197753906, 2.0123291015625, 199.13687133789062) -- 35
+TDS:Upgrade(35)
+TDS:Upgrade(35)
+TDS:Place("Snowballer", -2.413177251815796, 2.001577138900757, 201.64813232421875) -- 36
+TDS:Upgrade(36)
+TDS:Upgrade(36)
+TDS:Place("Snowballer", -2.6205625534057617, 2.021665096282959, 204.55712890625) -- 37
+TDS:Upgrade(37)
+TDS:Upgrade(37)
+
+-- [ Wave 11 ] --
+TDS:Place("Snowballer", -2.594789981842041, 2.0214619636535645, 207.36087036132812) -- 38
+TDS:Upgrade(38)
+TDS:Upgrade(38)
+TDS:Place("Snowballer", 7.601556301116943, 2.0200796127319336, 205.225830078125) -- 39
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Place("Snowballer", -2.504586935043335, 2.0207507610321045, 209.8855743408203) -- 40
+TDS:Upgrade(40)
+TDS:Upgrade(40)
+TDS:Upgrade(26)
+TDS:Upgrade(19)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(21)
+TDS:Upgrade(20)
+TDS:Upgrade(12)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(10)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(39)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(27)
+TDS:Upgrade(11)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(25)
+TDS:Upgrade(13)
+TDS:Upgrade(23)
+TDS:Upgrade(9)
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(17)
+TDS:Upgrade(24)
+TDS:Upgrade(18)
+TDS:Upgrade(7)
+TDS:Upgrade(22)
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+TDS:Upgrade(28)
+TDS:Upgrade(29)
+TDS:Upgrade(30)
+TDS:Upgrade(31)
+TDS:Upgrade(32)
+TDS:Upgrade(33)
+TDS:Upgrade(34)
+TDS:Upgrade(35)
+TDS:Upgrade(36)
+TDS:Upgrade(37)
+TDS:Upgrade(38)
+TDS:Upgrade(40)
+
+-- [[ END OF STRATEGY ]]
