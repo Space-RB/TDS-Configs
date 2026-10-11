@@ -18,7 +18,7 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
-| Dev | 32 | [Open](Dev/README.md) |
+| Dev | 33 | [Open](Dev/README.md) |
 
 </div>
 
