@@ -16,7 +16,7 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 1 | [Open](Unknown/README.md) |
+| Unknown | 2 | [Open](Unknown/README.md) |
 
 </div>
 
