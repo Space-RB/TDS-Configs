@@ -1,0 +1,72 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Militant", "Gatling Gun", "EvolvedEnforcer", "EvolvedOperator", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {"HiddenEnemies", "Glass", "FlyingEnemies", "ExplodingEnemies"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Militant", -10.035073280334473, 0.9999998807907104, 1.2870349884033203) -- 1
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Militant", -10.119974136352539, 0.9999831914901733, -1.8009157180786133) -- 2
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Militant", -10.274620056152344, 0.9999993443489075, 4.336549758911133) -- 3
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Place("Gatling Gun", -13.553788185119629, 0.9999990463256836, 6.355595588684082) -- 4
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 16 ] --
+TDS:Place("EvolvedOperator", -10.242891311645508, 0.9999831914901733, -2.9274349212646484) -- 5
+TDS:Place("EvolvedEnforcer", -7.391539096832275, 0.9999862909317017, -2.9257450103759766) -- 6
+
+-- [ Wave 17 ] --
+TDS:Place("EvolvedOperator", -12.499683380126953, 1.8661880493164062, 22.80023193359375) -- 7
+TDS:Place("EvolvedEnforcer", -16.74848175048828, 1.8661880493164062, 22.87887191772461) -- 8
+TDS:Place("EvolvedEnforcer", -16.261051177978516, 1.8662080764770508, 19.405902862548828) -- 9
+TDS:Place("EvolvedEnforcer", -18.79119300842285, 1.8661689758300781, 19.66396713256836) -- 10
+TDS:Place("EvolvedEnforcer", -19.214733123779297, 1.8661880493164062, 23.49588394165039) -- 11
+TDS:Place("EvolvedOperator", -12.334626197814941, 1.866196870803833, 19.776641845703125) -- 12
+TDS:Place("EvolvedOperator", -8.282255172729492, 1.8661892414093018, 18.029644012451172) -- 13
+TDS:Place("EvolvedOperator", -8.675939559936523, 1.8661880493164062, 23.00226593017578) -- 14
+TDS:Place("EvolvedOperator", -2.637568473815918, 1.866207480430603, 22.08890151977539) -- 15
+TDS:Place("EvolvedOperator", -5.4887895584106445, 1.8661892414093018, 18.387950897216797) -- 16
+
+-- [[ END OF STRATEGY ]]
