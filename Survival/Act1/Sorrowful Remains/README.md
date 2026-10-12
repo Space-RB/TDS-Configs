@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 4 recorded strategies available for this map**
+**📦 5 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -23,6 +23,7 @@ Select a strategy below and open its config file.
 | 2 | 2026-10-12 14:41 UTC | Act1 | — | Gatling Gun, Pyromancer, Militant, None | [Open](2-2026-10-12-14-41-46.txt) |
 | 3 | 2026-10-12 14:45 UTC | Act1 | — | Gatling Gun, Pyromancer, Militant, None | [Open](3-2026-10-12-14-45-34.txt) |
 | 4 | 2026-10-12 14:47 UTC | Act1 | — | Gatling Gun, Pyromancer, Militant, None | [Open](4-2026-10-12-14-47-22.txt) |
+| 5 | 2026-10-12 14:51 UTC | Act1 | — | Gatling Gun, Pyromancer, Militant, None | [Open](5-2026-10-12-14-51-00.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
