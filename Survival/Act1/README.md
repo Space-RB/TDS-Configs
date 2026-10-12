@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Sorrowful Remains | 2 | [Open](Sorrowful%20Remains/README.md) |
+| Sorrowful Remains | 3 | [Open](Sorrowful%20Remains/README.md) |
 
 </div>
 
