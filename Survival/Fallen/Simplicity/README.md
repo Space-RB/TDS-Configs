@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 7 recorded strategies available for this map**
+**📦 8 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -26,6 +26,7 @@ Select a strategy below and open its config file.
 | 5 | 2026-10-12 19:50 UTC | Fallen | HiddenEnemies, Glass, FlyingEnemies, ExplodingEnemies | Militant, Gatling Gun, EvolvedEnforcer, EvolvedOperator, None | [Open](5-2026-10-12-19-50-54.txt) |
 | 6 | 2026-10-12 20:02 UTC | Fallen | HiddenEnemies, Glass, FlyingEnemies, ExplodingEnemies | Militant, Gatling Gun, EvolvedEnforcer, EvolvedOperator, None | [Open](6-2026-10-12-20-02-41.txt) |
 | 7 | 2026-10-12 20:10 UTC | Fallen | — | Militant, Gatling Gun, EvolvedEnforcer, EvolvedOperator, None | [Open](7-2026-10-12-20-10-14.txt) |
+| 8 | 2026-10-12 20:25 UTC | Fallen | FlyingEnemies, Glass, HiddenEnemies, ExplodingEnemies | Gatling Gun, EvolvedEnforcer, EvolvedOperator, EvolvedKingpin, None | [Open](8-2026-10-12-20-25-42.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
