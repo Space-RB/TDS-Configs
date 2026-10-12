@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Dead Ahead | 1 | [Open](Dead%20Ahead/README.md) |
+| Spring Fever | 1 | [Open](Spring%20Fever/README.md) |
 
+| Dead Ahead | 1 | [Open](Dead%20Ahead/README.md) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>
