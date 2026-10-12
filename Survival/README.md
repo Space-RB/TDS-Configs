@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Intermediate | 2 | [Open](Intermediate/README.md) |
+| Hardcore Easy | 1 | [Open](Hardcore%20Easy/README.md) |
 
+| Intermediate | 2 | [Open](Intermediate/README.md) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>
