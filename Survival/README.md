@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Intermediate | 1 | [Open](Intermediate/README.md) |
+| Intermediate | 2 | [Open](Intermediate/README.md) |
 
 </div>
 
