@@ -1,0 +1,33 @@
+-- Recorder edition: Free
+-- Strategy mode: Intermediate
+-- Strategy map: Ruby Escort
+-- Strategy type: Survival
+-- Strategy modifiers: None
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMedic = true
+_G.AutoNecro = true
+_G.AutoPickups = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.MercenaryPath = 0
+_G.MilitaryPath = 0
+_G.StreamerMode = true
+_G.SupportCaravan = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.ignore_sounds = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Library.lua"))()
+
+TDS:Loadout("Gatling Gun", "EvolvedOperator", "Hacker", "EvolvedEnforcer", "Gladiator")
+TDS:Mode("Intermediate")
+TDS:GameInfo("Ruby Escort", {})
+TDS:Place("Gladiator", -39.30748748779297, 1.024997353553772, -32.72450637817383)
+
+-- [ Wave 2 ] --
+TDS:Place("Gladiator", -37.42277145385742, 1.024997591972351, -33.50518035888672)
+TDS:Place("Gladiator", -40.08816146850586, 1.0249966382980347, -30.839792251586914)
+
+-- [[ END OF STRATEGY ]]
