@@ -18,7 +18,7 @@ Choose one of the maps below to continue.
 
 | Map | Strategies | Open |
 |:---:|---:|:---:|
-| Stained Temple | 1 | [Open](Stained%20Temple/README.md) |
+| Simplicity | 2 | [Open](Simplicity/README.md) |
 | Dead Ahead | 10 | [Open](Dead%20Ahead/README.md) |
 | Deserted Village | 3 | [Open](Deserted%20Village/README.md) |
 | Gilded Path | 3 | [Open](Gilded%20Path/README.md) |
@@ -34,7 +34,7 @@ Choose one of the maps below to continue.
 | Lay By | 1 | [Open](Lay%20By/README.md) |
 | Medieval Times | 1 | [Open](Medieval%20Times/README.md) |
 | Sacred Mountains | 1 | [Open](Sacred%20Mountains/README.md) |
-| Simplicity | 1 | [Open](Simplicity/README.md) |
+| Stained Temple | 1 | [Open](Stained%20Temple/README.md) |
 | The Heights | 1 | [Open](The%20Heights/README.md) |
 | U-Turn | 1 | [Open](U-Turn/README.md) |
 | Winter Stronghold | 1 | [Open](Winter%20Stronghold/README.md) |
