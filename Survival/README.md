@@ -16,14 +16,14 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Hardcore Easy | 5 | [Open](Hardcore%20Easy/README.md) |
+| Molten | 2 | [Open](Molten/README.md) |
 
 | Act1 | 6 | [Open](Act1/README.md) |
+| Hardcore Easy | 5 | [Open](Hardcore%20Easy/README.md) |
 | Easy | 2 | [Open](Easy/README.md) |
 | Intermediate | 2 | [Open](Intermediate/README.md) |
 | Fallen | 1 | [Open](Fallen/README.md) |
 | Hardcore Hard | 1 | [Open](Hardcore%20Hard/README.md) |
-| Molten | 1 | [Open](Molten/README.md) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>
