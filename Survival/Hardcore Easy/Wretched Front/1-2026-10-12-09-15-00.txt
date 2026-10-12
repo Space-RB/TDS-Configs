@@ -1,0 +1,56 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Pyromancer", "Crook Boss", "None", "None", "None")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Pyromancer", -6.138885498046875, 0.9513047337532043, -31.589630126953125) -- 1
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Place("Crook Boss", 1.2519783973693848, 0.6468190550804138, -21.44753646850586) -- 2
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 21 ] --
+TDS:Place("Crook Boss", -0.9323892593383789, 0.7219718098640442, -23.61227798461914) -- 3
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [[ END OF STRATEGY ]]
