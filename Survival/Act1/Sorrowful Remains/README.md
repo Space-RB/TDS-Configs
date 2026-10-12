@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 12 recorded strategies available for this map**
+**📦 13 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -31,6 +31,7 @@ Select a strategy below and open its config file.
 | 10 | 2026-10-11 16:19 UTC | Act1 | — | Snowballer, None | [Open](10-2026-10-11-16-19-03.txt) |
 | 11 | 2026-10-11 17:51 UTC | Act1 | — | Snowballer, None | [Open](11-2026-10-11-17-51-33.txt) |
 | 12 | 2026-10-11 18:04 UTC | Act1 | — | Snowballer, None | [Open](12-2026-10-11-18-04-55.txt) |
+| 13 | 2026-10-12 00:59 UTC | Act1 | — | Scout, EvolvedKingpin, EvolvedJuggernaut, Commander, DJ Booth | [Open](13-2026-10-12-00-59-39.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
