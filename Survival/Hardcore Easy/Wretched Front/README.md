@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 3 recorded strategies available for this map**
+**📦 4 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -22,6 +22,7 @@ Select a strategy below and open its config file.
 
 | 2 | 2026-10-12 11:02 UTC | Hardcore Easy | — | EvolvedEnforcer, EvolvedKingpin, None | [Open](2-2026-10-12-11-02-28.txt) |
 | 3 | 2026-10-12 11:02 UTC | Hardcore Easy | — | EvolvedEnforcer, EvolvedKingpin, None | [Open](3-2026-10-12-11-02-35.txt) |
+| 4 | 2026-10-12 16:08 UTC | Hardcore Easy | — | Pyromancer, Crook Boss, Minigunner, None | [Open](4-2026-10-12-16-08-52.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
