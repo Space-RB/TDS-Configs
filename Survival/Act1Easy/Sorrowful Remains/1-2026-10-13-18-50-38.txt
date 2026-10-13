@@ -1,0 +1,120 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoChain = true -- Enables automatic commander chain logic if used by the script
+_G.SupportCaravan = false -- Automatically uses Support Caravan ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Commander", "Demoman", "None", "None", "None")
+TDS:Mode("Act1Easy")
+TDS:GameInfo("Sorrowful Remains", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Demoman", 14.86144733428955, 2.0009989738464355, 195.13925170898438) -- 1
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Demoman", 11.726434707641602, 2.04939603805542, 195.4668731689453) -- 2
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Place("Demoman", 14.73096752166748, 2.0917093753814697, 198.35031127929688) -- 3
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Demoman", 11.68128776550293, 2.0393483638763428, 198.74673461914062) -- 4
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Commander", 8.594974517822266, 2.01995587348938, 197.20022583007812) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Place("Demoman", 11.206911087036133, 2.0369298458099365, 192.27239990234375) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Demoman", 14.80128288269043, 2.0009994506835938, 192.13914489746094) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Place("Demoman", 18.07316780090332, 2.0009994506835938, 191.7235565185547) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Demoman", 18.0356502532959, 2.0009989738464355, 195.0178680419922) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 11 ] --
+TDS:Place("Demoman", 17.921749114990234, 2.0009984970092773, 198.67691040039062) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Demoman", 8.094199180603027, 2.0009992122650146, 193.13967895507812) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 12 ] --
+TDS:Place("Demoman", 8.17032241821289, 2.000998020172119, 200.3064727783203) -- 12
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(1)
+
+-- [ Wave 13 ] --
+TDS:Place("Demoman", 5.068920135498047, 2.0009994506835938, 192.49703979492188) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Demoman", 5.4663801193237305, 2.0009989738464355, 195.82313537597656) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Demoman", 5.420403957366943, 2.0009982585906982, 198.88436889648438) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+TDS:Upgrade(12)
+TDS:Upgrade(5)
+TDS:Upgrade(11)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(12)
+
+-- [[ END OF STRATEGY ]]
