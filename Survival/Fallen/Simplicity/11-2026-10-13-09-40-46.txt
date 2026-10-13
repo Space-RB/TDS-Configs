@@ -1,0 +1,47 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("EvolvedOperator", "Militant", "Gatling Gun", "None", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {"HiddenEnemies", "Glass", "SpeedyEnemies", "FlyingEnemies", "ExplodingEnemies"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("EvolvedOperator", -1.7935495376586914, 0.9999932050704956, -3.122684955596924, true) -- 1
+TDS:Place("EvolvedOperator", -2.566828966140747, 1.929656744003296, -2.825939893722534, true) -- 2
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", -0.5580987930297852, 0.9999937415122986, -3.358818531036377, true) -- 3
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Place("EvolvedOperator", 1.7679738998413086, 0.9999831914901733, -2.967802047729492, true) -- 4
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]
