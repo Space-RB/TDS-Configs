@@ -1,0 +1,57 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("EvolvedOperator", "Militant", "Gatling Gun", "None", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {"HiddenEnemies", "Glass", "SpeedyEnemies", "FlyingEnemies", "ExplodingEnemies"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("EvolvedOperator", -3.220040798187256, 0.9999914765357971, -3.138333797454834) -- 1
+TDS:Place("EvolvedOperator", -7.672806739807129, 0.9999860525131226, -3.2567129135131836) -- 2
+
+-- [ Wave 1 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Place("EvolvedOperator", 0.21406173706054688, 0.9999831914901733, -3.2777299880981445) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Place("EvolvedOperator", -10.820298194885254, 0.9999997019767761, 2.3517403602600098) -- 4
+TDS:Place("EvolvedOperator", -10.910468101501465, 0.9999992251396179, 5.052077293395996) -- 5
+
+-- [ Wave 9 ] --
+TDS:Place("EvolvedOperator", -11.024603843688965, 1.0000001192092896, -0.17689990997314453) -- 6
+TDS:Place("EvolvedOperator", 20.696170806884766, 0.9999984502792358, 10.000627517700195) -- 7
+
+-- [[ END OF STRATEGY ]]
