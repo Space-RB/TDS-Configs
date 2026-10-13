@@ -1,0 +1,67 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AutoMercenary = true -- Automatically uses Mercenary Base ability
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Trapper", "Mercenary Base", "DJ Booth", "Gatling Gun", "EvolvedEnforcer")
+TDS:Mode("Sandbox")
+TDS:GameInfo("Dev", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("EvolvedEnforcer", -2.5455379486083984, 242.99998474121094, 226.7678680419922) -- 1
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1, 2)
+TDS:Upgrade(1, 2)
+TDS:Place("EvolvedEnforcer", -2.6244029998779297, 242.99998474121094, 224.6114044189453) -- 2
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2, 2)
+TDS:Upgrade(2, 2)
+TDS:Place("EvolvedEnforcer", -2.675570487976074, 243.11373901367188, 222.54713439941406) -- 3
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3, 2)
+TDS:Upgrade(3, 2)
+TDS:Place("EvolvedEnforcer", 2.644603729248047, 242.99998474121094, 225.1798553466797) -- 4
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4, 2)
+TDS:Upgrade(4, 2)
+TDS:Place("EvolvedEnforcer", 2.8619556427001953, 242.99998474121094, 223.07012939453125) -- 5
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5, 2)
+TDS:Upgrade(5, 2)
+
+-- [[ END OF STRATEGY ]]
