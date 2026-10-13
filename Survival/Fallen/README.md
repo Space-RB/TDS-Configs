@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 9 | [Open](Simplicity/README.md) |
+| Simplicity | 10 | [Open](Simplicity/README.md) |
 
 </div>
 
