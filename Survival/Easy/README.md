@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Retro Lighthouse | 1 | [Open](Retro%20Lighthouse/README.md) |
+| Dead Ahead | 1 | [Open](Dead%20Ahead/README.md) |
 
 | Lay By | 1 | [Open](Lay%20By/README.md) |
+| Retro Lighthouse | 1 | [Open](Retro%20Lighthouse/README.md) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>
