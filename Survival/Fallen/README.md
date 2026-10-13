@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 12 | [Open](Simplicity/README.md) |
+| U-Turn | 1 | [Open](U-Turn/README.md) |
 
+| Simplicity | 12 | [Open](Simplicity/README.md) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>
