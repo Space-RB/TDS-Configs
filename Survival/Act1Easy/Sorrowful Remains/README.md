@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 3 recorded strategies available for this map**
+**📦 4 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -22,6 +22,7 @@ Select a strategy below and open its config file.
 
 | 2 | 2026-10-13 19:10 UTC | Act1Easy | — | Commander, Demoman, None | [Open](2-2026-10-13-19-10-43.txt) |
 | 3 | 2026-10-13 20:10 UTC | Act1Easy | — | Assassin, Scout, Crook Boss, None | [Open](3-2026-10-13-20-10-56.txt) |
+| 4 | 2026-10-13 20:15 UTC | Act1Easy | — | Assassin, Scout, Warden, None | [Open](4-2026-10-13-20-15-20.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
