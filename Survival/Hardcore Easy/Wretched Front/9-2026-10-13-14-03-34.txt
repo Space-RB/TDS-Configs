@@ -1,0 +1,61 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("EvolvedJuggernaut", "Hunter", "Pyromancer", "None", "None")
+TDS:Mode("Hardcore Easy")
+TDS:GameInfo("Wretched Front", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Pyromancer", -2.839423179626465, 1.0131573677062988, -35.47106170654297) -- 1
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Place("Hunter", 6.465420722961426, 1.228653907775879, 21.361202239990234) -- 2
+
+-- [ Wave 13 ] --
+TDS:Place("Hunter", 2.8415231704711914, 1.340885877609253, 21.885128021240234) -- 3
+
+-- [ Wave 14 ] --
+TDS:Place("Hunter", -0.759335994720459, 1.3959767818450928, 22.12023162841797) -- 4
+
+-- [ Wave 15 ] --
+TDS:Place("Hunter", -3.885067939758301, 1.4279544353485107, 21.912769317626953) -- 5
+
+-- [ Wave 21 ] --
+TDS:Place("EvolvedJuggernaut", 3.713937759399414, 1.4199461936950684, 30.12738800048828) -- 6
+
+-- [ Wave 22 ] --
+TDS:Place("Hunter", -0.09490251541137695, 1.4528040885925293, 28.663753509521484) -- 7
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
