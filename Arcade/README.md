@@ -16,9 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Badlands | 1 | [Open](Badlands/README.md) |
+| Pizza Party | 6 | [Open](Pizza%20Party/README.md) |
 
-| Pizza Party | 5 | [Open](Pizza%20Party/README.md) |
+| Badlands | 1 | [Open](Badlands/README.md) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>
