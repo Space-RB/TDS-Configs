@@ -1,0 +1,114 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoDJ = true -- Automatically manages DJ Booth support
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Assassin", "Crook Boss", "Minigunner", "DJ Booth", "Hacker")
+TDS:Mode("Badlands")
+TDS:GameInfo("Badlands II", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("Assassin", -4.603185653686523, 1.0000022649765015, 6.748941898345947) -- 1
+TDS:Place("Assassin", 0.28077220916748047, 1.0000022649765015, 7.797052383422852) -- 2
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Assassin", -6.6182050704956055, 1.0000022649765015, 7.113080978393555) -- 3
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Assassin", 2.286135196685791, 1.0000022649765015, 7.827986717224121) -- 4
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Place("Assassin", -4.709902286529541, 1.0000022649765015, 12.190987586975098) -- 5
+
+-- [ Wave 6 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Place("Assassin", 0.02594280242919922, 1.0000022649765015, 12.41472053527832) -- 6
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("DJ Booth", -4.678954124450684, 1.0000022649765015, 0.8381862640380859) -- 7
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Place("Crook Boss", -4.882156848907471, 0.9999865293502808, -3.200430154800415) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Place("Crook Boss", -5.072312355041504, 0.9999865293502808, -6.205510139465332) -- 9
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 12 ] --
+TDS:Place("Crook Boss", -7.946484088897705, 0.9999865293502808, -3.2981464862823486) -- 10
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 13 ] --
+TDS:Place("Crook Boss", -8.149162292480469, 0.9999865293502808, -6.327919006347656) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Crook Boss", -11.075091361999512, 0.9999865293502808, -3.2342419624328613) -- 12
+TDS:Upgrade(12)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(12)
+TDS:Place("Hacker", 0.9864718914031982, 1.0000022649765015, -7.610374450683594) -- 13
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Hacker", -17.6408634185791, 1.0000022649765015, 1.375345230102539) -- 14
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(7)
+TDS:Place("Assassin", -4.57721471786499, 1.0000022649765015, 4.739019393920898) -- 15
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Assassin", 0.3462843894958496, 1.0000022649765015, 5.793949127197266) -- 16
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Assassin", 2.379504680633545, 1.0000022649765015, 5.77962064743042) -- 17
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Minigunner", 0.6462278366088867, 1.0000022649765015, 3.2896556854248047) -- 18
+TDS:Upgrade(18)
+
+-- [[ END OF STRATEGY ]]
