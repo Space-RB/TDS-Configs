@@ -1,0 +1,68 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.AutoGatling = true -- Automatically uses Gatling Gun ability if equipped
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("EvolvedOperator", "Militant", "Gatling Gun", "None", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {"HiddenEnemies", "Glass", "SpeedyEnemies", "FlyingEnemies", "ExplodingEnemies"})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+TDS:Place("EvolvedOperator", -0.6943840980529785, 0.9999831914901733, -3.5098328590393066) -- 1
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", -3.283113956451416, 0.9999915361404419, -3.541172981262207) -- 2
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("EvolvedOperator", -5.895573616027832, 0.9999882578849792, -3.3187289237976074) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", -6.81719970703125, 1.8661627769470215, 16.30669403076172) -- 4
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]
