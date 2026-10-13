@@ -16,11 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Easy | 3 | [Open](Easy/README.md) |
+| Act1 | 9 | [Open](Act1/README.md) |
 
 | Fallen | 12 | [Open](Fallen/README.md) |
-| Act1 | 8 | [Open](Act1/README.md) |
 | Hardcore Easy | 5 | [Open](Hardcore%20Easy/README.md) |
+| Easy | 3 | [Open](Easy/README.md) |
 | Intermediate | 2 | [Open](Intermediate/README.md) |
 | Molten | 2 | [Open](Molten/README.md) |
 | Hardcore Hard | 1 | [Open](Hardcore%20Hard/README.md) |
