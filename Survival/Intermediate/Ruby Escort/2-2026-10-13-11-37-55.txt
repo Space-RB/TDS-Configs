@@ -1,0 +1,24 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.StreamerMode = true
+_G.GatlingRate = 100
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Library.lua"))()
+
+TDS:Loadout("EvolvedEnforcer", "EvolvedOperator", "Gatling Gun", "Gladiator", "Hacker")
+TDS:Mode("Intermediate")
+TDS:GameInfo("Ruby Escort", {})
+TDS:Ready()
+TDS:VoteSkip(0)
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Gladiator", -37.955169677734375, 1.0249944925308228, -31.811426162719727, true)
+TDS:Place("Gladiator", -37.29282760620117, 1.0249946117401123, -32.43328094482422, true)
+
+-- [ Wave 4 ] --
+TDS:Place("Gladiator", -37.39491271972656, 1.024997353553772, -32.894378662109375)
+
+-- [[ END OF STRATEGY ]]
