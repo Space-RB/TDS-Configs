@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 8 recorded strategies available for this map**
+**📦 9 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -27,6 +27,7 @@ Select a strategy below and open its config file.
 | 6 | 2026-10-13 13:02 UTC | Hardcore Easy | — | Soldier, EvolvedJuggernaut, Boomerang, None | [Open](6-2026-10-13-13-02-15.txt) |
 | 7 | 2026-10-13 13:54 UTC | Hardcore Easy | — | EvolvedJuggernaut, Hunter, Pyromancer, None | [Open](7-2026-10-13-13-54-54.txt) |
 | 8 | 2026-10-13 13:56 UTC | Hardcore Easy | — | EvolvedJuggernaut, Hunter, Pyromancer, None | [Open](8-2026-10-13-13-56-30.txt) |
+| 9 | 2026-10-13 14:03 UTC | Hardcore Easy | — | EvolvedJuggernaut, Hunter, Pyromancer, None | [Open](9-2026-10-13-14-03-34.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
