@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Pizza Party | 3 | [Open](Pizza%20Party/README.md) |
+| Pizza Party | 4 | [Open](Pizza%20Party/README.md) |
 
 </div>
 
