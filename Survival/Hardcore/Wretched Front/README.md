@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 3 recorded strategies available for this map**
+**📦 4 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -22,6 +22,7 @@ Select a strategy below and open its config file.
 
 | 2 | 2026-10-14 17:11 UTC | Hardcore | — | Pyromancer, Hunter, None | [Open](2-2026-10-14-17-11-46.txt) |
 | 3 | 2026-10-14 17:16 UTC | Hardcore | — | Pyromancer, Hunter, None | [Open](3-2026-10-14-17-16-05.txt) |
+| 4 | 2026-10-14 18:30 UTC | Hardcore | — | Shotgunner, Scout, EvolvedJuggernaut, None | [Open](4-2026-10-14-18-30-40.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
