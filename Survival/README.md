@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Easy | 4 | [Open](Easy/README.md) |
+| Easy | 5 | [Open](Easy/README.md) |
 
 | Fallen | 14 | [Open](Fallen/README.md) |
 | Act1 | 10 | [Open](Act1/README.md) |
