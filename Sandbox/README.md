@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Dev | 5 | [Open](Dev/README.md) |
+| Dev | 6 | [Open](Dev/README.md) |
 
 </div>
 
