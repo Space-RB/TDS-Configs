@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Dead Ahead | 2 | [Open](Dead%20Ahead/README.md) |
+| Dead Ahead | 3 | [Open](Dead%20Ahead/README.md) |
 
 | Unknown | 3 | [Open](Unknown/README.md) |
 | Lay By | 1 | [Open](Lay%20By/README.md) |
