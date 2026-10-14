@@ -1,0 +1,15 @@
+_G.AntiLag = true
+_G.AutoPickups = true
+_G.AutoReady = true
+_G.AutoSkip = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.gui_hidden = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Pyromancer", "Hunter", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
