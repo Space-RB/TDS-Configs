@@ -1,0 +1,44 @@
+_G.AntiLag = true
+_G.AutoGatling = true
+_G.AutoPickups = true
+_G.AutoReady = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.gui_hidden = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Slime Trooper", "Demoman", "Hunter", "Farm", "Shotgunner")
+TDS:Mode("Chapter1Mission1")
+TDS:GameInfo("Abandoned City_SM", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Demoman", -27.163169860839844, 1.0449973344802856, -8.023178100585938)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", -8.476959228515625, 1.059996485710144, 13.847168922424316)
+TDS:Place("Farm", -12.337404251098633, 1.059997320175171, 13.650338172912598)
+TDS:Place("Farm", -16.09463119506836, 1.059905767440796, 13.536520957946777)
+TDS:Place("Farm", -15.692289352416992, 1.0599948167800903, 8.993085861206055)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Place("Farm", -11.876310348510742, 1.0599985122680664, 9.380644798278809)
+TDS:Place("Farm", -8.292430877685547, 1.0599935054779053, 9.75146484375)
+
+-- [ Wave 5 ] --
+TDS:Place("Farm", -16.050777435302734, 1.0596150159835815, 4.88287353515625)
+TDS:Place("Farm", -11.944131851196289, 1.0599982738494873, 5.170956611633301)
+TDS:Place("Farm", -8.212152481079102, 1.0599961280822754, 5.320461273193359)
+TDS:Place("Farm", -15.774916648864746, 1.1319258213043213, 0.8042221069335938)
+
+-- [ Wave 6 ] --
+TDS:Place("Shotgunner", -29.98263931274414, 1.0449931621551514, -8.155603408813477)
+TDS:Upgrade(12)
+TDS:Place("Hunter", -11.801534652709961, 1.0357266664505005, -1.597625494003296)
+
+-- [[ END OF STRATEGY ]]
