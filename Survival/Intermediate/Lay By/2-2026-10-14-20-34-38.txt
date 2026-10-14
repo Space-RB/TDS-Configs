@@ -1,0 +1,78 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMedic = true
+_G.AutoNecro = true
+_G.AutoPickups = true
+_G.AutoReady = true
+_G.AutoRejoin = false
+_G.AutoSkip = true
+_G.ClaimRewards = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Necromancer", "Soldier", "Crook Boss", "Cowboy", "Commander")
+TDS:Mode("Intermediate")
+TDS:GameInfo("Lay By", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Cowboy", 3.5560226440429688, 242.99996948242188, 235.51393127441406)
+
+-- [ Wave 2 ] --
+TDS:Place("Cowboy", 3.4570159912109375, 242.99998474121094, 232.94143676757812)
+
+-- [ Wave 3 ] --
+TDS:Place("Cowboy", 3.840320587158203, 242.99998474121094, 230.20848083496094)
+
+-- [ Wave 4 ] --
+TDS:Place("Cowboy", 6.430629730224609, 242.99998474121094, 235.30506896972656)
+
+-- [ Wave 5 ] --
+TDS:Place("Cowboy", 6.520503997802734, 242.99998474121094, 232.36033630371094)
+TDS:Place("Cowboy", 6.346595764160156, 242.99998474121094, 229.36341857910156)
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+TDS:Place("Soldier", 3.5303306579589844, 243, 206.4167022705078)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 8 ] --
+TDS:Place("Soldier", 3.4499950408935547, 243, 209.4556427001953)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Soldier", 6.672603607177734, 243, 206.30020141601562)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 9 ] --
+TDS:Place("Soldier", 4.962421417236328, 242.99998474121094, 212.18431091308594)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+
+-- [ Wave 11 ] --
+TDS:Place("Commander", 4.589839935302734, 242.99998474121094, 225.9836883544922)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
