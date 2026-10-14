@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Lay By | 2 | [Open](Lay%20By/README.md) |
+| Lay By | 3 | [Open](Lay%20By/README.md) |
 
 | Simplicity | 2 | [Open](Simplicity/README.md) |
 | Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
