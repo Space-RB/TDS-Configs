@@ -16,10 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
+| Lay By | 2 | [Open](Lay%20By/README.md) |
 
 | Simplicity | 2 | [Open](Simplicity/README.md) |
-| Lay By | 1 | [Open](Lay%20By/README.md) |
+| Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
 | Retro Crossroads | 1 | [Open](Retro%20Crossroads/README.md) |
 | Spring Fever | 1 | [Open](Spring%20Fever/README.md) |
 | Unknown | 1 | [Open](Unknown/README.md) |
