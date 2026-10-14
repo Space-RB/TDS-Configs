@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Chapter1Mission1 | 1 | [Open](Chapter1Mission1/README.md) |
+| Hardcore | 3 | [Open](Hardcore/README.md) |
 
 | Fallen | 27 | [Open](Fallen/README.md) |
 | Hardcore Easy | 13 | [Open](Hardcore%20Easy/README.md) |
@@ -27,7 +27,7 @@ Choose one of the categories below to continue.
 | Frost | 4 | [Open](Frost/README.md) |
 | Molten | 3 | [Open](Molten/README.md) |
 | Unknown | 3 | [Open](Unknown/README.md) |
-| Hardcore | 2 | [Open](Hardcore/README.md) |
+| Chapter1Mission1 | 1 | [Open](Chapter1Mission1/README.md) |
 | Hardcore Hard | 1 | [Open](Hardcore%20Hard/README.md) |
 </div>
 
