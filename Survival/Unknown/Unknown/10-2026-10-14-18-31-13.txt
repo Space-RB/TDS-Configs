@@ -1,0 +1,15 @@
+_G.AutoGatling = true
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.GatlingRate = 100
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.ignore_sounds = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Trapper", "DJ Booth", "Gatling Gun", "Hacker", "Mercenary Base")
+TDS:Mode("Unknown")
+TDS:GameInfo("Unknown", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
