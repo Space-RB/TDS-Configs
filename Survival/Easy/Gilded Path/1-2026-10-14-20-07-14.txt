@@ -1,0 +1,62 @@
+_G.AutoChain = true
+_G.AutoPickups = true
+_G.ClaimRewards = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Commander", "Militant", "Pyromancer", "Shotgunner", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Gilded Path", {})
+TDS:Ready()
+TDS:Place("Militant", 11.2516450881958, 0.939185619354248, -7.937788009643555)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Pyromancer", 10.290815353393555, 0.9262329339981079, -5.053623199462891)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Place("Pyromancer", 13.068424224853516, 0.9659230709075928, -13.839408874511719)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Place("Militant", 13.330815315246582, 0.9214751720428467, -5.053623199462891)
+TDS:Place("Militant", 7.482219696044922, 0.9369380474090576, -6.216984748840332)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Place("Commander", 14.73788070678711, 0.9742363691329956, -16.379981994628906)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 12 ] --
+TDS:Place("Pyromancer", 8.892507553100586, 0.9635400772094727, -12.06010913848877)
+TDS:Place("Pyromancer", 15.860591888427734, 0.9421929121017456, -9.976869583129883)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
