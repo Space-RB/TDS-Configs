@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 16 recorded strategies available for this map**
+**📦 17 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -35,6 +35,7 @@ Select a strategy below and open its config file.
 | 14 | 2026-10-14 19:24 UTC | Unknown | — | Hunter, Pyromancer, None | [Open](14-2026-10-14-19-24-53.txt) |
 | 15 | 2026-10-14 19:37 UTC | Unknown | — | Shotgunner, Executioner, Spotlight Tech, Toxic Gunner, None | [Open](15-2026-10-14-19-37-08.txt) |
 | 16 | 2026-10-14 19:57 UTC | Unknown | — | Accelerator, Commander, Engineer, DJ Booth, Tesla | [Open](16-2026-10-14-19-57-43.txt) |
+| 17 | 2026-10-14 23:09 UTC | Unknown | — | Crook Boss, Pyromancer, None | [Open](17-2026-10-14-23-09-01.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
