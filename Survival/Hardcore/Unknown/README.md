@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 3 recorded strategies available for this map**
+**📦 4 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -22,6 +22,7 @@ Select a strategy below and open its config file.
 
 | 2 | 2026-10-14 16:34 UTC | Hardcore | — | Boomerang, Golden Crook Boss, Farm, Freezer, None | [Open](2-2026-10-14-16-34-11.txt) |
 | 3 | 2026-10-14 17:05 UTC | Hardcore | — | Golden Crook Boss, Hacker, Farm, EvolvedJuggernaut, DJ Booth | [Open](3-2026-10-14-17-05-58.txt) |
+| 4 | 2026-10-14 21:14 UTC | Hardcore | — | Gatling Gun, Hacker, Firework Technician, Golden Minigunner, Farm | [Open](4-2026-10-14-21-14-02.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
