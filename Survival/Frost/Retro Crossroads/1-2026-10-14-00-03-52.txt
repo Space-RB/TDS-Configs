@@ -1,0 +1,88 @@
+_G.PrivateCode = "" -- Private server link code; works only on PC
+_G.ClaimRewards = true -- Claims lobby rewards after matches
+_G.AutoPickups = true -- Collects event pickups/tokens in match
+_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AntiLag = false -- Reduces effects/animations to lower lag
+_G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
+_G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
+_G.TimeScale = false -- Enables the time scale settings below
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Sends match result notifications to webhook
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" -- Discord webhook URL
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/Scripts/TDS/Recorders/Library.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Pyromancer", "Crook Boss", "None", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Retro Crossroads", {})
+
+-- [[ TIME SCALE SETTINGS ]]
+if _G.TimeScale then
+    TDS:UnlockTimeScale()
+    TDS:TimeScale(2)
+end
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", -125.87286376953125, -44.53631591796875, 29.183895111083984) -- 1
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Place("Pyromancer", -126.14024353027344, -44.486289978027344, 32.21070098876953) -- 2
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Place("Crook Boss", -120.42327880859375, -44.53631591796875, 35.08015060424805) -- 3
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Place("Crook Boss", -123.4407958984375, -44.486289978027344, 35.267189025878906) -- 4
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 14 ] --
+TDS:Place("Crook Boss", -122.11214447021484, -44.53631591796875, 32.53940963745117) -- 5
+TDS:Upgrade(5)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 17 ] --
+TDS:Place("Crook Boss", -119.09184265136719, -44.53631591796875, 32.239952087402344) -- 6
+TDS:Place("Crook Boss", -117.39601135253906, -44.53631591796875, 34.89483642578125) -- 7
+TDS:Upgrade(7)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 20 ] --
+TDS:Place("Pyromancer", -122.80738830566406, -44.53631591796875, 29.069507598876953) -- 8
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
