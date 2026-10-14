@@ -1,0 +1,20 @@
+
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Shotgunner", "Scout", "EvolvedJuggernaut", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 3 ] --
+TDS:Place("Shotgunner", 13.899619102478027, 1.0529006719589233, 21.8840274810791)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+TDS:Place("Scout", 13.536091804504395, 1.2205688953399658, 26.921485900878906)
+
+-- [[ END OF STRATEGY ]]
