@@ -16,10 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Lay By | 1 | [Open](Lay%20By/README.md) |
+| Unknown | 8 | [Open](Unknown/README.md) |
 
 | Simplicity | 15 | [Open](Simplicity/README.md) |
-| Unknown | 7 | [Open](Unknown/README.md) |
+| Lay By | 1 | [Open](Lay%20By/README.md) |
 | U-Turn | 1 | [Open](U-Turn/README.md) |
 </div>
 
