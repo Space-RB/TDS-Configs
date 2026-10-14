@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| false | 3 | [Open](false/README.md) |
+| false | 4 | [Open](false/README.md) |
 
 | Pizza Party | 7 | [Open](Pizza%20Party/README.md) |
 | Badlands | 1 | [Open](Badlands/README.md) |
