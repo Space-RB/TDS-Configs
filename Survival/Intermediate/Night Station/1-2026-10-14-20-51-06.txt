@@ -1,0 +1,87 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMedic = true
+_G.AutoNecro = true
+_G.AutoPickups = true
+_G.AutoReady = true
+_G.AutoRejoin = false
+_G.AutoSkip = true
+_G.ClaimRewards = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Necromancer", "Crook Boss", "Cowboy", "Commander", "Pyromancer")
+TDS:Mode("Intermediate")
+TDS:GameInfo("Night Station", {})
+TDS:Ready()
+
+-- [ Wave 3 ] --
+TDS:Place("Cowboy", 138.21160888671875, 2.0749998092651367, -48.543487548828125)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Place("Cowboy", 138.1451873779297, 2.0749998092651367, -42.45623779296875)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:Place("Pyromancer", 138.82965087890625, 2.0749998092651367, -55.35927200317383)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Place("Necromancer", 137.16342163085938, 2.0749998092651367, -34.36212921142578)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Place("Necromancer", 134.1237030029297, 2.0749998092651367, -34.321136474609375)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(6)
+TDS:Place("Pyromancer", 118.6176986694336, 2.0749998092651367, -34.71989822387695)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Crook Boss", 133.3008270263672, 2.0749998092651367, 24.65909767150879)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Cowboy", 138.28851318359375, 2.0749998092651367, -42.963661193847656)
+TDS:Place("Pyromancer", 135.4798583984375, 2.0749998092651367, -48.79084396362305)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Crook Boss", 131.86895751953125, 2.0749998092651367, -44.659149169921875)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Necromancer", 125.8847427368164, 2.0749998092651367, -42.57445526123047)
+TDS:Upgrade(12)
+TDS:Place("Necromancer", 122.38935089111328, 2.0749998092651367, -41.60651397705078)
+TDS:Upgrade(13)
+TDS:Place("Necromancer", 129.00758361816406, 2.0749998092651367, -42.49249267578125)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Crook Boss", 133.8256072998047, 2.0749998092651367, 17.706607818603516)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Crook Boss", 130.23741149902344, 2.0749998092651367, 17.603607177734375)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [[ END OF STRATEGY ]]
