@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Dead Ahead | 4 | [Open](Dead%20Ahead/README.md) |
+| Lay By | 1 | [Open](Lay%20By/README.md) |
 
+| Dead Ahead | 4 | [Open](Dead%20Ahead/README.md) |
 | Ruby Escort | 2 | [Open](Ruby%20Escort/README.md) |
 | Unknown | 1 | [Open](Unknown/README.md) |
 </div>
