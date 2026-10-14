@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 4 | [Open](Unknown/README.md) |
+| Unknown | 5 | [Open](Unknown/README.md) |
 
 | Simplicity | 14 | [Open](Simplicity/README.md) |
 | U-Turn | 1 | [Open](U-Turn/README.md) |
