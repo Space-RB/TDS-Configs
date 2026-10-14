@@ -1,0 +1,20 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoPickups = true
+_G.AutoRestart = false
+_G.ClaimRewards = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.auto_fire = false
+_G.GatlingRate = 100
+_G.AutoGatlingSettings.gui_hidden = true
+_G.AutoGatlingSettings.ignore_lead_mutation = false
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Library.lua"))()
+
+TDS:Loadout("Trapper", "DJ Booth", "Gatling Gun", "Hacker", "Mercenary Base")
+TDS:Mode("Fallen")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
