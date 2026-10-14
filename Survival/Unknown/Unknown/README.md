@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 5 recorded strategies available for this map**
+**📦 6 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -24,6 +24,7 @@ Select a strategy below and open its config file.
 | 3 | 2026-10-14 16:22 UTC | Unknown | — | Trapper, DJ Booth, Gatling Gun, Hacker, Mercenary Base | [Open](3-2026-10-14-16-22-25.txt) |
 | 4 | 2026-10-14 17:11 UTC | Unknown | — | Warlock, Commander, Golden Scout, Medic, Spotlight Tech | [Open](4-2026-10-14-17-11-08.txt) |
 | 5 | 2026-10-14 17:16 UTC | Unknown | — | Crook Boss, Assassin, None | [Open](5-2026-10-14-17-16-45.txt) |
+| 6 | 2026-10-14 17:20 UTC | Unknown | — | Trapper, Mercenary Base, Hacker, DJ Booth, Gatling Gun | [Open](6-2026-10-14-17-20-55.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
