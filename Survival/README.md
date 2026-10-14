@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Hardcore Easy | 11 | [Open](Hardcore%20Easy/README.md) |
+| Hardcore Easy | 12 | [Open](Hardcore%20Easy/README.md) |
 
 | Fallen | 14 | [Open](Fallen/README.md) |
 | Act1 | 10 | [Open](Act1/README.md) |
