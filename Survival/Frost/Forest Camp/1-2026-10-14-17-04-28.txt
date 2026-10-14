@@ -1,0 +1,43 @@
+_G.AutoPickups = true
+_G.AutoReady = true
+_G.AutoSkip = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Brawler", "Pyromancer", "Commander", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Forest Camp", {})
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Brawler", -21.726112365722656, 1.000016450881958, -16.395780563354492)
+TDS:Place("Brawler", -15.250038146972656, 1.000016450881958, -14.916143417358398)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Pyromancer", -16.922344207763672, 1.0275025367736816, -10.79014778137207)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(5)
+TDS:Place("Pyromancer", -22.629749298095703, 1.000016450881958, -14.021957397460938)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(6)
+TDS:Place("Brawler", -13.210037231445312, 1.000016450881958, -14.916143417358398)
+TDS:Place("Brawler", -16.374034881591797, 1.000016450881958, -20.263538360595703)
+TDS:Place("Brawler", -18.677345275878906, 1.000016450881958, -19.979721069335938)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [[ END OF STRATEGY ]]
