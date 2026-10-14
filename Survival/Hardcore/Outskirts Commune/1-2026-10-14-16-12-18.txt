@@ -1,0 +1,14 @@
+_G.AutoPickups = true
+_G.AutoReady = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.GatlingRate = 100
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Electroshocker", "Sniper", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Outskirts Commune", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
