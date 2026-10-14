@@ -1,0 +1,40 @@
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoPickups = true
+_G.AutoRejoin = false
+_G.AutoSkip = true
+_G.ClaimRewards = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Hacker", "Trapper", "Mercenary Base", "DJ Booth", "Gatling Gun")
+TDS:Mode("Frost")
+TDS:GameInfo("Spring Fever", {})
+TDS:Ready()
+TDS:Place("Trapper", -10.194131851196289, 1.0229392051696777, -27.85260581970215)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Trapper", -10.479248046875, 1.0229392051696777, -24.826005935668945)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Trapper", -10.202254295349121, 1.0229392051696777, -21.79865264892578)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+TDS:Place("Trapper", -7.162254333496094, 1.0229392051696777, -21.79865264892578)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Trapper", -7.439248085021973, 1.0229392051696777, -24.826005935668945)
+TDS:Upgrade(5)
+TDS:Place("Trapper", -7.154131889343262, 1.0229392051696777, -27.85260581970215)
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
