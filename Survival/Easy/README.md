@@ -16,9 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 3 | [Open](Unknown/README.md) |
+| Dead Ahead | 2 | [Open](Dead%20Ahead/README.md) |
 
-| Dead Ahead | 1 | [Open](Dead%20Ahead/README.md) |
+| Unknown | 3 | [Open](Unknown/README.md) |
 | Lay By | 1 | [Open](Lay%20By/README.md) |
 | Retro Lighthouse | 1 | [Open](Retro%20Lighthouse/README.md) |
 </div>
