@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 1 | [Open](Unknown/README.md) |
+| Outskirts Commune | 1 | [Open](Outskirts%20Commune/README.md) |
 
+| Unknown | 1 | [Open](Unknown/README.md) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>
