@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
+| Rocket Arena | 1 | [Open](Rocket%20Arena/README.md) |
 
 | Dead Ahead | 1 | [Open](Dead%20Ahead/README.md) |
+| Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Spring Fever | 1 | [Open](Spring%20Fever/README.md) |
 | Unknown | 1 | [Open](Unknown/README.md) |
 | Wrecked Battlefield | 1 | [Open](Wrecked%20Battlefield/README.md) |
