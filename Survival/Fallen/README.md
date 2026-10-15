@@ -16,11 +16,12 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| U-Turn | 2 | [Open](U-Turn/README.md) |
+| Cataclysm | 1 | [Open](Cataclysm/README.md) |
 
 | Simplicity | 15 | [Open](Simplicity/README.md) |
 | Unknown | 9 | [Open](Unknown/README.md) |
 | Lay By | 2 | [Open](Lay%20By/README.md) |
+| U-Turn | 2 | [Open](U-Turn/README.md) |
 | Summer Castle | 1 | [Open](Summer%20Castle/README.md) |
 </div>
 
