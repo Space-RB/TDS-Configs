@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Pier Pressure | 1 | [Open](Pier%20Pressure/README.md) |
+| Pier Pressure | 2 | [Open](Pier%20Pressure/README.md) |
 
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
 | Lay By | 3 | [Open](Lay%20By/README.md) |
