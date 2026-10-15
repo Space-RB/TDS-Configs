@@ -1,0 +1,15 @@
+_G.AutoReady = false
+_G.AutoRestart = false
+_G.StreamerMode = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.auto_fire = false
+_G.AutoGatlingSettings.gui_hidden = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("DJ Booth", "Gatling Gun", "Mercenary Base", "Military Base", "Trapper")
+TDS:Mode("Frost")
+TDS:GameInfo("Lay By", {Committed = true, ExplodingEnemies = true, Fog = true, Glass = true, HiddenEnemies = true, Limitation = true, Quarantine = true})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
