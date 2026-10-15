@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
+| Wrecked Battlefield | 1 | [Open](Wrecked%20Battlefield/README.md) |
 
 | Lay By | 3 | [Open](Lay%20By/README.md) |
 | Summer Castle | 3 | [Open](Summer%20Castle/README.md) |
@@ -24,6 +24,7 @@ Choose one of the categories below to continue.
 | Unknown | 2 | [Open](Unknown/README.md) |
 | Cataclysm | 1 | [Open](Cataclysm/README.md) |
 | Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
+| Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Retro Crossroads | 1 | [Open](Retro%20Crossroads/README.md) |
 | Spring Fever | 1 | [Open](Spring%20Fever/README.md) |
 </div>
