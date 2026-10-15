@@ -1,0 +1,14 @@
+_G.AutoPickups = true
+_G.AutoReady = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Minigunner", "Ranger", "Commander", "DJ Booth", "Cowboy")
+TDS:Mode("Frost")
+TDS:GameInfo("Retro Rocket Arena", {})
+TDS:Ready()
+TDS:Place("Cowboy", 2.507763385772705, 0.5004997253417969, -2.9475016593933105)
+
+-- [[ END OF STRATEGY ]]
