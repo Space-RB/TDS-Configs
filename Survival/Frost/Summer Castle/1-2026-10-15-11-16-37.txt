@@ -1,0 +1,66 @@
+_G.AutoPickups = true
+_G.AutoReady = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Electroshocker", "Sniper", "EvolvedEnforcer", "Soldier", "EvolvedJuggernaut")
+TDS:Mode("Frost")
+TDS:GameInfo("Summer Castle", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Soldier", 13.19253921508789, 0.9764354228973389, 26.510936737060547)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Place("Soldier", 10.15611457824707, 0.9721758365631104, 26.363536834716797)
+TDS:Upgrade(2)
+TDS:Place("Soldier", 16.226253509521484, 0.9804208278656006, 26.315563201904297)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Soldier", 10.984689712524414, 0.9709272384643555, 23.35206413269043)
+TDS:Upgrade(4)
+TDS:Place("Soldier", 10.463836669921875, 0.974984884262085, 29.387922286987305)
+TDS:Upgrade(5)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Place("Electroshocker", 13.500263214111328, 0.9792447090148926, 29.535322189331055)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Place("Sniper", -9.914024353027344, 5.578561305999756, 29.973575592041016)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 13 ] --
+TDS:Place("Soldier", -16.372026443481445, 0.9456000328063965, 7.876396179199219)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Soldier", -16.705062866210938, 0.9580082893371582, 4.393218994140625)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Soldier", -16.085941314697266, 0.933305025100708, 11.349727630615234)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 15 ] --
+TDS:Place("EvolvedJuggernaut", -30.29625129699707, 0.9861071109771729, -20.57887077331543)
+
+-- [[ END OF STRATEGY ]]
