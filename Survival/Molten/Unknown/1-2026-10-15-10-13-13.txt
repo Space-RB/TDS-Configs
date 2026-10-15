@@ -1,0 +1,35 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoPickups = true
+_G.AutoReady = true
+_G.AutoRejoin = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.SupportCaravan = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("EvolvedJuggernaut", "EvolvedOperator", "Gatling Gun", "EvolvedEnforcer", "Farm")
+TDS:Mode("Molten")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", 26.372726440429688, 27.384794235229492, -150.18734741210938)
+
+-- [ Wave 2 ] --
+TDS:Place("EvolvedOperator", 28.49321174621582, 27.470985412597656, -149.9564971923828, true)
+TDS:Place("EvolvedOperator", 29.036888122558594, 27.49187469482422, -150.2879638671875, true)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2, true)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2, true)
+TDS:Upgrade(3, true)
+
+-- [[ END OF STRATEGY ]]
