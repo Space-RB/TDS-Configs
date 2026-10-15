@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 11 recorded strategies available for this map**
+**📦 12 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -30,6 +30,7 @@ Select a strategy below and open its config file.
 | 9 | 2026-10-15 06:16 UTC | Hardcore | — | Gatling Gun, Hacker, Firework Technician, Golden Minigunner, Farm | [Open](9-2026-10-15-06-16-23.txt) |
 | 10 | 2026-10-15 07:23 UTC | Hardcore | — | Gatling Gun, Hacker, Golden Minigunner, Farm, Turret | [Open](10-2026-10-15-07-23-09.txt) |
 | 11 | 2026-10-15 09:57 UTC | Hardcore | — | Pyromancer, Scout, Shotgunner, None | [Open](11-2026-10-15-09-57-58.txt) |
+| 12 | 2026-10-15 10:37 UTC | Hardcore | — | Gatling Gun, Hacker, DJ Booth, Mercenary Base, Trapper | [Open](12-2026-10-15-10-37-06.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
