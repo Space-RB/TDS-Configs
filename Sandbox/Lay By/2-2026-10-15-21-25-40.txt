@@ -1,0 +1,22 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMedic = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoNecro = true
+_G.AutoPickups = true
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.StreamerMode = true
+_G.SupportCaravan = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("DJ Booth", "Gatling Gun", "Mercenary Base", "Military Base", "Trapper")
+TDS:Mode("Sandbox")
+TDS:GameInfo("Lay By", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
