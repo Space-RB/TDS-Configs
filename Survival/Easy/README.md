@@ -16,10 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Gilded Path | 1 | [Open](Gilded%20Path/README.md) |
+| Unknown | 4 | [Open](Unknown/README.md) |
 
 | Dead Ahead | 3 | [Open](Dead%20Ahead/README.md) |
-| Unknown | 3 | [Open](Unknown/README.md) |
+| Gilded Path | 1 | [Open](Gilded%20Path/README.md) |
 | Lay By | 1 | [Open](Lay%20By/README.md) |
 | Retro Lighthouse | 1 | [Open](Retro%20Lighthouse/README.md) |
 </div>
