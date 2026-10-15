@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Retro Rocket Arena | 1 | [Open](Retro%20Rocket%20Arena/README.md) |
+| Pier Pressure | 1 | [Open](Pier%20Pressure/README.md) |
 
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
 | Lay By | 3 | [Open](Lay%20By/README.md) |
@@ -27,6 +27,7 @@ Choose one of the categories below to continue.
 | Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Retro Crossroads | 1 | [Open](Retro%20Crossroads/README.md) |
+| Retro Rocket Arena | 1 | [Open](Retro%20Rocket%20Arena/README.md) |
 | Spring Fever | 1 | [Open](Spring%20Fever/README.md) |
 | Wrecked Battlefield | 1 | [Open](Wrecked%20Battlefield/README.md) |
 </div>
