@@ -16,11 +16,12 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Pier Pressure | 2 | [Open](Pier%20Pressure/README.md) |
+| Portland | 1 | [Open](Portland/README.md) |
 
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
 | Lay By | 3 | [Open](Lay%20By/README.md) |
 | Unknown | 3 | [Open](Unknown/README.md) |
+| Pier Pressure | 2 | [Open](Pier%20Pressure/README.md) |
 | Simplicity | 2 | [Open](Simplicity/README.md) |
 | Abandoned City | 1 | [Open](Abandoned%20City/README.md) |
 | Cataclysm | 1 | [Open](Cataclysm/README.md) |
