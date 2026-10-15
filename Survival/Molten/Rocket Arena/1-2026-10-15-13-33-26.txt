@@ -1,0 +1,17 @@
+_G.AutoPickups = true
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.ClaimRewards = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Accelerator", "Engineer", "Farm", "Electroshocker", "Minigunner")
+TDS:Mode("Molten")
+TDS:GameInfo("Rocket Arena", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Electroshocker", 3.5884625911712646, 2, 3.5319626331329346)
+
+-- [[ END OF STRATEGY ]]
