@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 32 | [Open](Unknown/README.md) |
+| Chapter1Mission5 | 1 | [Open](Chapter1Mission5/README.md) |
 
 | Fallen | 33 | [Open](Fallen/README.md) |
+| Unknown | 32 | [Open](Unknown/README.md) |
 | Hardcore | 30 | [Open](Hardcore/README.md) |
 | Frost | 23 | [Open](Frost/README.md) |
 | Hardcore Easy | 13 | [Open](Hardcore%20Easy/README.md) |
