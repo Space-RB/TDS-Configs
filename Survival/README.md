@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Frost | 15 | [Open](Frost/README.md) |
+| Frost | 16 | [Open](Frost/README.md) |
 
 | Fallen | 32 | [Open](Fallen/README.md) |
 | Unknown | 22 | [Open](Unknown/README.md) |
