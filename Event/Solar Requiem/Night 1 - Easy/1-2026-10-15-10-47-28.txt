@@ -1,0 +1,95 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoPickups = true
+_G.AutoReady = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.GatlingRate = 100
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Brawler", "Gatling Gun", "None", "None", "None")
+TDS:Mode("Act1Easy")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", 29.946144104003906, 2.0009982585906982, 199.2585906982422)
+TDS:Upgrade(1)
+TDS:Place("Brawler", 27.918094635009766, 2.0009982585906982, 199.0764617919922)
+TDS:Place("Brawler", 26.114715576171875, 2.0009984970092773, 198.1597137451172)
+TDS:Place("Brawler", 29.811992645263672, 2.000997543334961, 204.2898406982422)
+TDS:Place("Brawler", 27.771991729736328, 2.000997543334961, 204.2898406982422)
+TDS:Place("Brawler", 25.731990814208984, 2.000997543334961, 204.2898406982422)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Brawler", 28.7919921875, 2.000997304916382, 206.05653381347656)
+TDS:Place("Brawler", 26.75199317932129, 2.0144529342651367, 206.05653381347656)
+TDS:Place("Brawler", 27.81920623779297, 2.0009987354278564, 197.0388641357422)
+
+-- [ Wave 4 ] --
+TDS:Place("Brawler", 29.851076126098633, 2.0009987354278564, 197.22080993652344)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", 18.647615432739258, 2.010512590408325, 203.71507263183594)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(1)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(10)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:VoteSkip(15)
+
+-- [[ END OF STRATEGY ]]
