@@ -1,0 +1,19 @@
+_G.AutoPickups = true
+_G.AutoReady = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Electroshocker", "Sniper", "EvolvedEnforcer", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 5 ] --
+TDS:Place("EvolvedEnforcer", 1.0094022750854492, 1.4492413997650146, 31.615854263305664)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
