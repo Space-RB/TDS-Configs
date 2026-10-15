@@ -16,10 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Outskirts Commune | 3 | [Open](Outskirts%20Commune/README.md) |
+| Wretched Front | 16 | [Open](Wretched%20Front/README.md) |
 
-| Wretched Front | 15 | [Open](Wretched%20Front/README.md) |
 | Unknown | 8 | [Open](Unknown/README.md) |
+| Outskirts Commune | 3 | [Open](Outskirts%20Commune/README.md) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>
