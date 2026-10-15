@@ -1,0 +1,74 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.GatlingRate = 100
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Medic", "Cowboy", "Golden Pyromancer", "Engineer", "EvolvedOperator")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Pyromancer", -2.562969207763672, 1.483420968055725, 31.847850799560547)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("EvolvedOperator", 6.256903648376465, 1.39115571975708, 27.9749755859375)
+TDS:Place("EvolvedOperator", 6.414101600646973, 1.377143144607544, 30.510107040405273)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Place("EvolvedOperator", 3.7338619232177734, 1.415842056274414, 28.268129348754883)
+TDS:Place("EvolvedOperator", 3.892606258392334, 1.4210638999938965, 31.295856475830078)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Place("Engineer", 14.653298377990723, 1.1806645393371582, 28.532962799072266)
+TDS:Upgrade(6)
+
+-- [ Wave 12 ] --
+TDS:Place("Engineer", 11.619808197021484, 1.2340167760849, 28.33411979675293)
+TDS:Upgrade(7)
+TDS:Place("Engineer", 12.224003791809082, 1.2577003240585327, 25.35478973388672)
+
+-- [ Wave 13 ] --
+TDS:Place("Engineer", 15.257494926452637, 1.0738420486450195, 25.55360984802246)
+TDS:Upgrade(9)
+TDS:Upgrade(6)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 16 ] --
+TDS:Place("Medic", 4.968313217163086, 1.3952594995498657, 34.376834869384766)
+TDS:Upgrade(10)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(10)
+
+-- [[ END OF STRATEGY ]]
