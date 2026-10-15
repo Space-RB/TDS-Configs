@@ -16,10 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Portland | 1 | [Open](Portland/README.md) |
+| Lay By | 4 | [Open](Lay%20By/README.md) |
 
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
-| Lay By | 3 | [Open](Lay%20By/README.md) |
 | Unknown | 3 | [Open](Unknown/README.md) |
 | Pier Pressure | 2 | [Open](Pier%20Pressure/README.md) |
 | Simplicity | 2 | [Open](Simplicity/README.md) |
@@ -27,6 +26,7 @@ Choose one of the categories below to continue.
 | Cataclysm | 1 | [Open](Cataclysm/README.md) |
 | Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
+| Portland | 1 | [Open](Portland/README.md) |
 | Retro Crossroads | 1 | [Open](Retro%20Crossroads/README.md) |
 | Retro Rocket Arena | 1 | [Open](Retro%20Rocket%20Arena/README.md) |
 | Spring Fever | 1 | [Open](Spring%20Fever/README.md) |
