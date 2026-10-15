@@ -1,0 +1,14 @@
+_G.AutoMercenary = true
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.StreamerMode = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("DJ Booth", "Gatling Gun", "Mercenary Base", "Military Base", "Trapper")
+TDS:Mode("Sandbox")
+TDS:GameInfo("Lay By", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
