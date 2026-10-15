@@ -1,0 +1,42 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.MatchTrackerEnabled = false
+_G.GatlingRate = 100
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Demoman", "Sniper", "Soldier", "Militant", "Assassin")
+TDS:Mode("Casual")
+TDS:GameInfo("Retro Crossroads", {})
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Militant", -132.8114471435547, -44.53631591796875, 21.196758270263672, true)
+
+-- [ Wave 3 ] --
+TDS:Place("Militant", -125.82594299316406, -44.361289978027344, 37.133827209472656, true)
+TDS:Place("Militant", -132.59793090820312, -44.53631591796875, 22.02716064453125, true)
+
+-- [ Wave 5 ] --
+TDS:Place("Militant", -125.4163818359375, -44.53631591796875, 23.00341033935547, true)
+TDS:Place("Militant", -125.60108947753906, -44.53631591796875, 22.367389678955078, true)
+
+-- [ Wave 6 ] --
+TDS:Place("Militant", -125.43829345703125, -44.53631591796875, 21.803075790405273, true)
+TDS:Place("Militant", -132.7508087158203, -44.53631591796875, 20.201047897338867, true)
+
+-- [ Wave 7 ] --
+TDS:Place("Militant", -125.73799133300781, -43.509620666503906, -1.994384765625, true)
+TDS:Place("Militant", -125.70040130615234, -44.53631591796875, 20.657432556152344, true)
+
+-- [ Wave 8 ] --
+TDS:Place("Militant", -132.66354370117188, -44.53631591796875, 19.224708557128906, true)
+TDS:Place("Militant", -132.31439208984375, -44.53631591796875, 23.792911529541016, true)
+TDS:Place("Militant", -125.1163101196289, -44.336341857910156, 24.048757553100586, true)
+TDS:Place("Militant", -124.7693862915039, -44.53631591796875, 23.971071243286133, true)
+TDS:Place("Militant", -123.59437561035156, -44.53631591796875, 23.79149055480957, true)
+
+-- [ Wave 9 ] --
+TDS:Place("Militant", -134.44845581054688, -44.53631591796875, 23.83298683166504, true)
+
+-- [[ END OF STRATEGY ]]
