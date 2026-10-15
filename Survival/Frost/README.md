@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Summer Castle | 3 | [Open](Summer%20Castle/README.md) |
+| Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 
 | Lay By | 3 | [Open](Lay%20By/README.md) |
+| Summer Castle | 3 | [Open](Summer%20Castle/README.md) |
 | Simplicity | 2 | [Open](Simplicity/README.md) |
 | Unknown | 2 | [Open](Unknown/README.md) |
 | Cataclysm | 1 | [Open](Cataclysm/README.md) |
