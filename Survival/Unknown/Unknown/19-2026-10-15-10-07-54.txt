@@ -1,0 +1,17 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoPickups = true
+_G.AutoReady = true
+_G.AutoRejoin = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.SupportCaravan = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("EvolvedOperator", "EvolvedJuggernaut", "EvolvedKingpin", "EvolvedEnforcer", "None")
+TDS:Mode("Unknown")
+TDS:GameInfo("Unknown", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
