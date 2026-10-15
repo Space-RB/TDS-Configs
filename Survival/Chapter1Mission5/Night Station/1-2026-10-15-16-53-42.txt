@@ -1,0 +1,56 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Farm", "Assassin", "Demoman", "Crook Boss", "Rocketeer")
+TDS:Mode("Chapter1Mission5")
+TDS:GameInfo("Night Station", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 141.75311279296875, 2.0749998092651367, -48.723819732666016)
+TDS:Upgrade(1)
+TDS:Place("Farm", 123.53062438964844, 2.0749998092651367, -62.66673278808594)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", 127.96764373779297, 2.0749998092651367, -62.39555358886719)
+
+-- [ Wave 3 ] --
+TDS:Place("Demoman", 139.33944702148438, 2.0749998092651367, -45.27973175048828)
+TDS:Upgrade(4)
+TDS:Place("Assassin", 118.8876953125, 2.0774998664855957, -17.084806442260742)
+TDS:Upgrade(5)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Place("Rocketeer", 128.6062469482422, 1.5, -24.961837768554688)
+TDS:Upgrade(1)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 6 ] --
+TDS:Place("Crook Boss", 134.34466552734375, 2.0749998092651367, -48.05931854248047)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Crook Boss", 134.3830108642578, 2.0749998092651367, -44.83367919921875)
+TDS:Upgrade(8)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(8)
+TDS:Place("Rocketeer", 123.2782211303711, 2.0749998092651367, -49.02838897705078)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
