@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
+| Abandoned City | 1 | [Open](Abandoned%20City/README.md) |
 
+| Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
 | Lay By | 3 | [Open](Lay%20By/README.md) |
 | Unknown | 3 | [Open](Unknown/README.md) |
 | Simplicity | 2 | [Open](Simplicity/README.md) |
