@@ -16,9 +16,8 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Chapter1Mission5 | 1 | [Open](Chapter1Mission5/README.md) |
+| Fallen | 34 | [Open](Fallen/README.md) |
 
-| Fallen | 33 | [Open](Fallen/README.md) |
 | Unknown | 32 | [Open](Unknown/README.md) |
 | Hardcore | 30 | [Open](Hardcore/README.md) |
 | Frost | 23 | [Open](Frost/README.md) |
@@ -32,6 +31,7 @@ Choose one of the categories below to continue.
 | Chapter1Mission3 | 2 | [Open](Chapter1Mission3/README.md) |
 | Chapter1Mission1 | 1 | [Open](Chapter1Mission1/README.md) |
 | Chapter1Mission4 | 1 | [Open](Chapter1Mission4/README.md) |
+| Chapter1Mission5 | 1 | [Open](Chapter1Mission5/README.md) |
 | Hardcore Hard | 1 | [Open](Hardcore%20Hard/README.md) |
 </div>
 
