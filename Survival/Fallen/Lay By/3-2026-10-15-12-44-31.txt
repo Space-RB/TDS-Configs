@@ -1,0 +1,14 @@
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoReady = false
+_G.ClaimRewards = true
+_G.GatlingRate = 100
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Gatling Gun", "DJ Booth", "Hacker", "Mercenary Base", "Soldier")
+TDS:Mode("Fallen")
+TDS:GameInfo("Lay By", {Committed = true, ExplodingEnemies = true, FlyingEnemies = true, Fog = true, Glass = true, HiddenEnemies = true, Limitation = true, Quarantine = true, SpeedyEnemies = true})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
