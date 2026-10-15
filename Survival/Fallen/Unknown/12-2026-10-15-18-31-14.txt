@@ -1,0 +1,19 @@
+_G.AutoRejoin = false
+_G.StreamerMode = true
+_G.TimeScaleEnabled = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Assassin", "Turret", "Golden Crook Boss", "DJ Booth", "Commander")
+TDS:Mode("Fallen")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", -20.56468963623047, 0.9999845623970032, -12.20948600769043)
+TDS:Place("Assassin", -20.56468963623047, 1.000002384185791, -14.24948501586914)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
