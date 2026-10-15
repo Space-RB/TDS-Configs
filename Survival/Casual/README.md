@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 2 | [Open](Unknown/README.md) |
+| Farm Lands | 1 | [Open](Farm%20Lands/README.md) |
 
+| Unknown | 2 | [Open](Unknown/README.md) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>
