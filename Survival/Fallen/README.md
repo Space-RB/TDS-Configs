@@ -16,10 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Lay By | 2 | [Open](Lay%20By/README.md) |
+| Summer Castle | 1 | [Open](Summer%20Castle/README.md) |
 
 | Simplicity | 15 | [Open](Simplicity/README.md) |
 | Unknown | 9 | [Open](Unknown/README.md) |
+| Lay By | 2 | [Open](Lay%20By/README.md) |
 | U-Turn | 1 | [Open](U-Turn/README.md) |
 </div>
 
