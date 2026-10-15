@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Casual | 2 | [Open](Casual/README.md) |
+| Casual | 3 | [Open](Casual/README.md) |
 
 | Fallen | 29 | [Open](Fallen/README.md) |
 | Unknown | 18 | [Open](Unknown/README.md) |
