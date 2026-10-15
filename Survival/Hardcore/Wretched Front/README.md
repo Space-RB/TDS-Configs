@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 7 recorded strategies available for this map**
+**📦 8 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -26,6 +26,7 @@ Select a strategy below and open its config file.
 | 5 | 2026-10-14 21:57 UTC | Hardcore | — | Gatling Gun, Hacker, Firework Technician, Golden Minigunner, Farm | [Open](5-2026-10-14-21-57-10.txt) |
 | 6 | 2026-10-14 22:04 UTC | Hardcore | — | Electroshocker, Sniper, EvolvedEnforcer, None | [Open](6-2026-10-14-22-04-55.txt) |
 | 7 | 2026-10-15 04:31 UTC | Hardcore | — | Electroshocker, Sniper, EvolvedEnforcer, None | [Open](7-2026-10-15-04-31-51.txt) |
+| 8 | 2026-10-15 05:29 UTC | Hardcore | — | Pyromancer, Shotgunner, Scout, Crook Boss, Minigunner | [Open](8-2026-10-15-05-29-50.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
