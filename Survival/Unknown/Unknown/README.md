@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 22 recorded strategies available for this map**
+**📦 23 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -41,6 +41,7 @@ Select a strategy below and open its config file.
 | 20 | 2026-10-15 10:56 UTC | Unknown | — | Sniper, None | [Open](20-2026-10-15-10-56-53.txt) |
 | 21 | 2026-10-15 10:57 UTC | Unknown | — | Sniper, None | [Open](21-2026-10-15-10-57-02.txt) |
 | 22 | 2026-10-15 11:07 UTC | Unknown | — | Farm, EvolvedJuggernaut, Shotgunner, Medic, Warlock | [Open](22-2026-10-15-11-07-02.txt) |
+| 23 | 2026-10-15 13:37 UTC | Unknown | — | Scout, Assassin, None | [Open](23-2026-10-15-13-37-56.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
