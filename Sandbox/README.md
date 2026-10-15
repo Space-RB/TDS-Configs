@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Dev | 12 | [Open](Dev/README.md) |
+| Lay By | 1 | [Open](Lay%20By/README.md) |
 
+| Dev | 12 | [Open](Dev/README.md) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>
