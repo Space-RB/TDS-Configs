@@ -16,10 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 2 | [Open](Unknown/README.md) |
+| Summer Castle | 1 | [Open](Summer%20Castle/README.md) |
 
 | Lay By | 3 | [Open](Lay%20By/README.md) |
 | Simplicity | 2 | [Open](Simplicity/README.md) |
+| Unknown | 2 | [Open](Unknown/README.md) |
 | Cataclysm | 1 | [Open](Cataclysm/README.md) |
 | Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
 | Retro Crossroads | 1 | [Open](Retro%20Crossroads/README.md) |
