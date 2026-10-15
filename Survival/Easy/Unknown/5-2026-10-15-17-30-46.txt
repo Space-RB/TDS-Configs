@@ -1,0 +1,56 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.GatlingRate = 100
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("EvolvedOperator", "EvolvedJuggernaut", "Saboteur", "EvolvedKingpin", "Hacker")
+TDS:Mode("Easy")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", -11.83958911895752, 1.0000007152557373, -3.78297758102417)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Saboteur", -18.292871475219727, 1.0000004768371582, -2.2668213844299316)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Place("Hacker", -12.168004035949707, 1.000000238418579, -0.8311576843261719)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Place("EvolvedKingpin", -8.828324317932129, 1.0000007152557373, -3.6455459594726562)
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Place("EvolvedJuggernaut", -8.542998313903809, 0.9999999403953552, 0.8831100463867188)
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(3)
+
+-- [[ END OF STRATEGY ]]
