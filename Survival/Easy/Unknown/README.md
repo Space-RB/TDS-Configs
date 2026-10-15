@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 4 recorded strategies available for this map**
+**📦 5 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -23,6 +23,7 @@ Select a strategy below and open its config file.
 | 2 | 2026-10-14 00:44 UTC | Easy | — | Militant, None | [Open](2-2026-10-14-00-44-19.txt) |
 | 3 | 2026-10-14 00:49 UTC | Easy | — | Militant, None | [Open](3-2026-10-14-00-49-28.txt) |
 | 4 | 2026-10-15 07:45 UTC | Easy | — | Golden Soldier, None | [Open](4-2026-10-15-07-45-01.txt) |
+| 5 | 2026-10-15 17:30 UTC | Easy | — | EvolvedOperator, EvolvedJuggernaut, Saboteur, EvolvedKingpin, Hacker | [Open](5-2026-10-15-17-30-46.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
