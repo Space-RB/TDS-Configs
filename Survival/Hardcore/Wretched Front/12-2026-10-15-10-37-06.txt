@@ -1,0 +1,19 @@
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoPickups = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.StreamerMode = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Gatling Gun", "Hacker", "DJ Booth", "Mercenary Base", "Trapper")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 7 ] --
+TDS:Place("Gatling Gun", -10.683627128601074, 2.6639461517333984, -4.603202819824219)
+
+-- [[ END OF STRATEGY ]]
