@@ -1,0 +1,13 @@
+_G.AutoPickups = true
+_G.AutoReady = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Minigunner", "Ranger", "Commander", "DJ Booth", "Accelerator")
+TDS:Mode("Frost")
+TDS:GameInfo("Abandoned City", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
