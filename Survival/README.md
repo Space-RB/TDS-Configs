@@ -16,10 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Hardcore | 31 | [Open](Hardcore/README.md) |
+| Fallen | 35 | [Open](Fallen/README.md) |
 
-| Fallen | 34 | [Open](Fallen/README.md) |
 | Unknown | 32 | [Open](Unknown/README.md) |
+| Hardcore | 31 | [Open](Hardcore/README.md) |
 | Frost | 23 | [Open](Frost/README.md) |
 | Hardcore Easy | 13 | [Open](Hardcore%20Easy/README.md) |
 | Act1 | 11 | [Open](Act1/README.md) |
