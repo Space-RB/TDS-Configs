@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Rocket Arena | 1 | [Open](Rocket%20Arena/README.md) |
+| Rocket Arena | 2 | [Open](Rocket%20Arena/README.md) |
 
 | Dead Ahead | 1 | [Open](Dead%20Ahead/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
