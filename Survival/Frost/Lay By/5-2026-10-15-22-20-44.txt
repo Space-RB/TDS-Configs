@@ -1,0 +1,16 @@
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoPickups = true
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.StreamerMode = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("DJ Booth", "Gatling Gun", "Mercenary Base", "Military Base", "Trapper")
+TDS:Mode("Frost")
+TDS:GameInfo("Lay By", {Committed = true, ExplodingEnemies = true, Fog = true, Glass = true, HiddenEnemies = true, Limitation = true, Quarantine = true})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
