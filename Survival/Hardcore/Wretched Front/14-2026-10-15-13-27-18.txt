@@ -1,0 +1,12 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.GatlingRate = 100
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Crook Boss", "Pyromancer", "EvolvedKingpin", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
