@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 27 recorded strategies available for this map**
+**📦 28 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -46,6 +46,7 @@ Select a strategy below and open its config file.
 | 25 | 2026-10-15 14:50 UTC | Unknown | — | Trapper, None | [Open](25-2026-10-15-14-50-49.txt) |
 | 26 | 2026-10-15 15:19 UTC | Unknown | — | Minigunner, Soldier, None | [Open](26-2026-10-15-15-19-02.txt) |
 | 27 | 2026-10-15 15:19 UTC | Unknown | — | Minigunner, Soldier, None | [Open](27-2026-10-15-15-19-13.txt) |
+| 28 | 2026-10-15 15:19 UTC | Unknown | — | Minigunner, Soldier, None | [Open](28-2026-10-15-15-19-24.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
