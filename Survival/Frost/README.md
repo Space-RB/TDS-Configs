@@ -16,12 +16,13 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Abandoned City | 1 | [Open](Abandoned%20City/README.md) |
+| Retro Rocket Arena | 1 | [Open](Retro%20Rocket%20Arena/README.md) |
 
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
 | Lay By | 3 | [Open](Lay%20By/README.md) |
 | Unknown | 3 | [Open](Unknown/README.md) |
 | Simplicity | 2 | [Open](Simplicity/README.md) |
+| Abandoned City | 1 | [Open](Abandoned%20City/README.md) |
 | Cataclysm | 1 | [Open](Cataclysm/README.md) |
 | Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
