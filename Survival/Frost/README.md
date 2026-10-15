@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Summer Castle | 2 | [Open](Summer%20Castle/README.md) |
+| Summer Castle | 3 | [Open](Summer%20Castle/README.md) |
 
 | Lay By | 3 | [Open](Lay%20By/README.md) |
 | Simplicity | 2 | [Open](Simplicity/README.md) |
