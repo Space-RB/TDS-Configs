@@ -1,0 +1,61 @@
+_G.AutoPickups = true
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.MatchTrackerEnabled = false
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Brawler", "Hacker", "DJ Booth", "Turret", "Crook Boss")
+TDS:Mode("Fallen")
+TDS:GameInfo("Cataclysm", {})
+TDS:Ready()
+TDS:Place("Brawler", 0.17861270904541016, 1.0000081062316895, 35.187530517578125)
+TDS:Place("Brawler", -1.859994649887085, 1.0000081062316895, 35.11216354370117)
+
+-- [ Wave 2 ] --
+TDS:Place("Brawler", 0.03813064098358154, 1.0000081062316895, 37.222686767578125)
+
+-- [ Wave 3 ] --
+TDS:Place("Brawler", -3.8987412452697754, 1.0000081062316895, 35.04066848754883)
+TDS:Place("Brawler", -4.679415702819824, 1.0000081062316895, 36.925384521484375)
+
+-- [ Wave 4 ] --
+TDS:Place("Brawler", -5.931809902191162, 1.0000081062316895, 35.20869064331055)
+TDS:Place("Brawler", -7.9680938720703125, 1.0000081062316895, 35.08561706542969)
+TDS:Place("Brawler", -6.76081657409668, 1.0000081062316895, 37.07265090942383)
+
+-- [ Wave 5 ] --
+TDS:Place("Brawler", -9.9719877243042, 1.0000081062316895, 35.46772766113281)
+TDS:Place("Brawler", -8.800270080566406, 1.0000081062316895, 37.13766098022461)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(7)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Place("Hacker", -4.318270206451416, 1.0000081062316895, 25.373952865600586)
+TDS:Upgrade(11)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 9 ] --
+TDS:Place("DJ Booth", 1.3571820259094238, 1.0000081062316895, 25.46356773376465)
+TDS:Upgrade(12)
+
+-- [ Wave 10 ] --
+TDS:Place("Brawler", -0.9465303421020508, 1.0000081062316895, -11.050050735473633)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Brawler", 0.6165957450866699, 1.0000081062316895, -30.55988121032715)
+TDS:Upgrade(14)
+
+-- [[ END OF STRATEGY ]]
