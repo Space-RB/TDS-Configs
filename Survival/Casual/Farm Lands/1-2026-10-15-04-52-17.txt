@@ -1,0 +1,15 @@
+_G.AntiLag = true
+_G.AutoPickups = true
+_G.AutoReady = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Demoman", "Sniper", "Soldier", "Militant", "Assassin")
+TDS:Mode("Casual")
+TDS:GameInfo("Farm Lands", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
