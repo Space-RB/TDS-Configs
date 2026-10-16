@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 4 | [Open](Unknown/README.md) |
+| Unknown | 5 | [Open](Unknown/README.md) |
 
 | Lay By | 5 | [Open](Lay%20By/README.md) |
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
