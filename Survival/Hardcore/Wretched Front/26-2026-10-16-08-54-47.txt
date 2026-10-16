@@ -1,0 +1,59 @@
+_G.AutoPickups = true
+_G.AutoReady = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.SelectedXPTower = "Crook Boss"
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Electroshocker", "Crook Boss", "Pyromancer", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Pyromancer", -6.097014427185059, 0.9569550156593323, -32.13427734375)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Place("Crook Boss", 6.616095542907715, 1.167938470840454, 20.225425720214844)
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 15 ] --
+TDS:Place("Crook Boss", 3.074411392211914, 1.2625335454940796, 19.616640090942383)
+TDS:Upgrade(3)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 18 ] --
+TDS:Place("Electroshocker", 9.254386901855469, 0.8049150705337524, 18.71512222290039)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 19 ] --
+TDS:Place("Electroshocker", 12.124223709106445, 0.9927741289138794, 19.717941284179688)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 23 ] --
+TDS:Place("Electroshocker", -4.23015832901001, 1.3283746242523193, 42.81922149658203)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
