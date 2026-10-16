@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 6 recorded strategies available for this map**
+**📦 7 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -25,6 +25,7 @@ Select a strategy below and open its config file.
 | 4 | 2026-10-14 20:00 UTC | Pizza Party | — | Trapper, Crook Boss, None | [Open](4-2026-10-14-20-00-18.txt) |
 | 5 | 2026-10-14 20:23 UTC | Pizza Party | — | Trapper, Crook Boss, None | [Open](5-2026-10-14-20-23-50.txt) |
 | 6 | 2026-10-16 10:55 UTC | Pizza Party | — | Farm, Crook Boss, Rocketeer, Trapper, Assassin | [Open](6-2026-10-16-10-55-03.txt) |
+| 7 | 2026-10-16 11:11 UTC | Pizza Party | — | Farm, Crook Boss, Rocketeer, Trapper, Assassin | [Open](7-2026-10-16-11-11-00.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
