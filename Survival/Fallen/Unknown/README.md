@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 13 recorded strategies available for this map**
+**📦 14 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -32,6 +32,7 @@ Select a strategy below and open its config file.
 | 11 | 2026-10-15 16:57 UTC | Fallen | — | EvolvedJuggernaut, DJ Booth, Farm, Engineer, Golden Minigunner | [Open](11-2026-10-15-16-57-41.txt) |
 | 12 | 2026-10-15 18:31 UTC | Fallen | — | Assassin, Turret, Golden Crook Boss, DJ Booth, Commander | [Open](12-2026-10-15-18-31-14.txt) |
 | 13 | 2026-10-16 04:46 UTC | Fallen | — | Tesla, Turret, EvolvedJuggernaut, Engineer, DJ Booth | [Open](13-2026-10-16-04-46-02.txt) |
+| 14 | 2026-10-16 14:50 UTC | Fallen | — | Gatling Gun, DJ Booth, Firework Technician, Hacker, Elf Camp | [Open](14-2026-10-16-14-50-58.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
