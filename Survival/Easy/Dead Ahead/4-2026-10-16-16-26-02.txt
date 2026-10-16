@@ -1,0 +1,13 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Militant", "Scout", "Crook Boss", "Minigunner", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Dead Ahead", {})
+TDS:Ready()
+TDS:Place("Militant", -45.29114532470703, 0.9000034332275391, -47.967491149902344, true)
+
+-- [[ END OF STRATEGY ]]
