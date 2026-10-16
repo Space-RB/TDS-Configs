@@ -1,0 +1,40 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Militant", "Scout", "Crook Boss", "Minigunner", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Militant", 0.7355899810791016, 1.0000015497207642, -37.042606353759766)
+
+-- [ Wave 2 ] --
+TDS:Place("Militant", 2.8486270904541016, 0.8999996185302734, -65.49806213378906, true)
+
+-- [ Wave 3 ] --
+TDS:Place("Militant", 9.3121976852417, 2.488557815551758, -19.904756546020508, true)
+
+-- [ Wave 4 ] --
+TDS:Place("Militant", 8.95649528503418, 0.9000015258789062, -46.73828125, true)
+TDS:Place("Militant", 0.9752864837646484, 0.9999974966049194, -34.92650604248047, true)
+
+-- [ Wave 5 ] --
+TDS:Place("Militant", 0.6945152282714844, 0.9999987483024597, -35.95880126953125, true)
+
+-- [ Wave 6 ] --
+TDS:Place("Militant", 0.5332355499267578, 0.9999967813491821, -35.28387451171875, true)
+TDS:Place("Militant", 9.585602760314941, 1.0000029802322388, -18.229820251464844, true)
+TDS:Place("Militant", 1.5253958702087402, 2.546729564666748, -30.627408981323242, true)
+
+-- [ Wave 7 ] --
+TDS:Place("Militant", 9.65835189819336, 1.0000030994415283, -19.189743041992188, true)
+TDS:Place("Militant", -6.218682289123535, 1.0000028610229492, -34.86308670043945, true)
+
+-- [ Wave 8 ] --
+TDS:Place("Militant", -7.306398391723633, 0.9999960660934448, -33.83672332763672, true)
+
+-- [[ END OF STRATEGY ]]
