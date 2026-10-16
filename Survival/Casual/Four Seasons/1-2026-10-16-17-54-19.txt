@@ -1,0 +1,97 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Scout", "Sniper", "Demoman", "Militant", "None")
+TDS:Mode("Casual")
+TDS:GameInfo("Four Seasons", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Militant", 36.06786346435547, 0.7500001788139343, -7.060571670532227)
+
+-- [ Wave 4 ] --
+TDS:Place("Militant", 49.51726531982422, 4.44998025894165, 7.275382995605469, true)
+TDS:Upgrade(1)
+TDS:Upgrade(2, true)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2, true)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2, true)
+
+-- [ Wave 10 ] --
+TDS:Place("Militant", 37.79498291015625, 0.7499997615814209, -4.644924163818359, true)
+TDS:Place("Militant", 41.39408493041992, 0.7500001192092896, -6.668596267700195, true)
+TDS:Upgrade(3, true)
+TDS:Upgrade(3, true)
+TDS:Place("Militant", 41.91266632080078, 0.7500001192092896, -6.7364397048950195, true)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(5, true)
+TDS:Upgrade(5, true)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(5, true)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3, true)
+
+-- [ Wave 14 ] --
+TDS:Place("Militant", 38.62433624267578, 0.7499998807907104, -5.415563583374023)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Militant", 39.20975112915039, 0.7499994039535522, -2.4324631690979004)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Place("Militant", 36.47949981689453, 0.7499992251396179, -1.0955510139465332)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(5, true)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(2, true)
+TDS:Upgrade(1)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(3, true)
+TDS:Place("Militant", 40.422508239746094, 0.749998927116394, 0.35515594482421875)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Militant", 37.692256927490234, 0.7499987483024597, 1.6920673847198486)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Demoman", 11.015070915222168, 0.7499975562095642, 10.317157745361328)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Militant", -13.383684158325195, 1.3499839305877686, -17.505521774291992)
+TDS:Upgrade(12)
+TDS:Place("Demoman", -20.836570739746094, 0.7499985694885254, 1.29241943359375)
+TDS:Upgrade(13)
+
+-- [[ END OF STRATEGY ]]
