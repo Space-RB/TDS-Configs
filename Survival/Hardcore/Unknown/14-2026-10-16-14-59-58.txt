@@ -1,0 +1,81 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("EvolvedOperator", "Golden Crook Boss", "Farm", "EvolvedJuggernaut", "DJ Booth")
+TDS:Mode("Hardcore")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", -6.05682897567749, 0.7657518982887268, -22.60542106628418)
+TDS:Upgrade(1)
+TDS:Place("EvolvedOperator", -3.2148990631103516, 0.8157976269721985, -23.69115447998047)
+TDS:Upgrade(2)
+TDS:Place("Farm", -19.47663116455078, 0.7329409718513489, -24.8927001953125)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("EvolvedOperator", -0.4091763496398926, 0.9732630252838135, -31.436065673828125)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Farm", -16.293804168701172, 0.9133161306381226, -26.350688934326172)
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(5)
+TDS:Place("Farm", -19.654617309570312, 0.8921573162078857, -28.978796005249023)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+TDS:Place("EvolvedOperator", -2.6673293113708496, 0.9778409600257874, -30.077959060668945)
+TDS:Upgrade(7)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(7)
+TDS:Place("Farm", -16.323104858398438, 0.961136519908905, -30.175722122192383)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+TDS:Place("Farm", -16.275257110595703, 0.961810827255249, -34.1065673828125)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Farm", -20.023929595947266, 0.8884358406066895, -32.7371826171875)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 12 ] --
+TDS:Place("Crook Boss", -0.5688791275024414, 0.8007950782775879, -24.548828125)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 16 ] --
+TDS:Place("EvolvedJuggernaut", 2.005552291870117, 1.3847384452819824, 22.5938720703125)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(12)
+
+-- [[ END OF STRATEGY ]]
