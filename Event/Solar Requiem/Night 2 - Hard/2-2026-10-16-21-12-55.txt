@@ -1,0 +1,29 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.TimeScaleEnabled = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Gatling Gun", "Hacker", "EvolvedKingpin", "EvolvedJuggernaut", "Snowballer")
+TDS:Mode("Act2")
+TDS:Ready()
+
+-- [ Wave 20 ] --
+TDS:VoteSkip(20)
+TDS:WaitForWave(20)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+TDS:Sell(5)
+TDS:Sell(6)
+TDS:Sell(7)
+TDS:Sell(8)
+TDS:Sell(9)
+TDS:Sell(10)
+TDS:Sell(11)
+TDS:Sell(12)
+
+-- [[ END OF STRATEGY ]]
