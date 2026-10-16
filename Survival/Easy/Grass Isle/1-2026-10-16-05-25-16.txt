@@ -1,0 +1,11 @@
+_G.AutoPickups = true
+_G.AutoSkip = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("None", "None", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Grass Isle", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
