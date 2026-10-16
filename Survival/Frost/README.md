@@ -16,11 +16,12 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 3 | [Open](Simplicity/README.md) |
+| Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 
 | Lay By | 6 | [Open](Lay%20By/README.md) |
 | Unknown | 6 | [Open](Unknown/README.md) |
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
+| Simplicity | 3 | [Open](Simplicity/README.md) |
 | Pier Pressure | 2 | [Open](Pier%20Pressure/README.md) |
 | Abandoned City | 1 | [Open](Abandoned%20City/README.md) |
 | Cataclysm | 1 | [Open](Cataclysm/README.md) |
