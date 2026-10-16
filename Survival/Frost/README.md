@@ -16,10 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Lay By | 5 | [Open](Lay%20By/README.md) |
+| Unknown | 4 | [Open](Unknown/README.md) |
 
+| Lay By | 5 | [Open](Lay%20By/README.md) |
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
-| Unknown | 3 | [Open](Unknown/README.md) |
 | Pier Pressure | 2 | [Open](Pier%20Pressure/README.md) |
 | Simplicity | 2 | [Open](Simplicity/README.md) |
 | Abandoned City | 1 | [Open](Abandoned%20City/README.md) |
