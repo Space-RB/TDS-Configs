@@ -1,0 +1,15 @@
+_G.AntiLag = true
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Assassin", "Golden Scout", "None", "None", "None")
+TDS:Mode("Act1")
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
