@@ -1,0 +1,63 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Militant", "EvolvedEnforcer", "EvolvedJuggernaut", "EvolvedOperator", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Northern Lights", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Militant", -12.90936279296875, 3.1323094367980957, 9.09870719909668)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Militant", -11.223904609680176, 3.4529972076416016, 16.172468185424805)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Place("EvolvedOperator", -7.571490287780762, 3.5690035820007324, 16.0594482421875)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Place("EvolvedEnforcer", -4.295586585998535, 4.023891925811768, 30.083755493164062)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 15 ] --
+TDS:Place("EvolvedJuggernaut", -4.6285295486450195, 3.237657070159912, 10.376667022705078)
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]
