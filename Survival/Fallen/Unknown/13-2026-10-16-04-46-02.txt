@@ -1,0 +1,11 @@
+_G.AutoPickups = true
+_G.AutoSkip = true
+
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Tesla", "Turret", "EvolvedJuggernaut", "Engineer", "DJ Booth")
+TDS:Mode("Fallen")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
