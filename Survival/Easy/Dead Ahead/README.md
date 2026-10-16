@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 3 recorded strategies available for this map**
+**📦 4 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -22,6 +22,7 @@ Select a strategy below and open its config file.
 
 | 2 | 2026-10-14 13:16 UTC | Easy | HiddenEnemies, Glass, ExplodingEnemies, Limitation, Committed, Fog | Scout, DJ Booth, None | [Open](2-2026-10-14-13-16-50.txt) |
 | 3 | 2026-10-14 13:31 UTC | Easy | HiddenEnemies, Glass, ExplodingEnemies, Limitation, Committed, Quarantine, Fog | Scout, DJ Booth, None | [Open](3-2026-10-14-13-31-59.txt) |
+| 4 | 2026-10-16 16:26 UTC | Easy | — | Militant, Scout, Crook Boss, Minigunner, None | [Open](4-2026-10-16-16-26-02.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
