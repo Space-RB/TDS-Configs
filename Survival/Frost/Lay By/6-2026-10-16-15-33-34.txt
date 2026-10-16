@@ -1,0 +1,14 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.GatlingRate = 100
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Trapper", "None", "None", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Lay By", {})
+TDS:Ready()
+TDS:Place("Trapper", 3.8264694213867188, 243, 174.0049591064453)
+
+-- [[ END OF STRATEGY ]]
