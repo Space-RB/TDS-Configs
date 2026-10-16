@@ -16,9 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Lay By | 6 | [Open](Lay%20By/README.md) |
+| Unknown | 6 | [Open](Unknown/README.md) |
 
-| Unknown | 5 | [Open](Unknown/README.md) |
+| Lay By | 6 | [Open](Lay%20By/README.md) |
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
 | Pier Pressure | 2 | [Open](Pier%20Pressure/README.md) |
 | Simplicity | 2 | [Open](Simplicity/README.md) |
