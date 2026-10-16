@@ -1,0 +1,114 @@
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Gatling Gun", "DJ Booth", "Firework Technician", "Hacker", "Elf Camp")
+TDS:Mode("Fallen")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Elf Camp", 18.496257781982422, 0.9999861717224121, 3.337183713912964)
+TDS:Place("Elf Camp", 21.562171936035156, 0.9999988079071045, 7.365383148193359)
+TDS:VoteSkip(0)
+
+-- [ Wave 1 ] --
+TDS:Place("Elf Camp", 14.258244514465332, 0.9999816417694092, 10.014620780944824)
+
+-- [ Wave 2 ] --
+TDS:Place("Elf Camp", 14.293597221374512, 0.9999977350234985, 14.142659187316895)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Place("Gatling Gun", -2.0239405632019043, 0.9999831914901733, 2.3782520294189453)
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 25 ] --
+TDS:Place("Firework Technician", 2.975748062133789, 0.9999831914901733, 3.2687253952026367)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 27 ] --
+TDS:Place("DJ Booth", -9.603562355041504, 0.9999831914901733, -0.9559049606323242)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:SetOption(7, "Track", "Red")
+
+-- [ Wave 28 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 29 ] --
+TDS:Place("Hacker", -1.3331103324890137, 0.9999831914901733, -3.5414342880249023)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(8, 2)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 35 ] --
+TDS:Place("Hacker", -4.356058597564697, 0.9999901652336121, -3.4264583587646484)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
