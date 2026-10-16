@@ -16,9 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 11 | [Open](Unknown/README.md) |
+| Wretched Front | 22 | [Open](Wretched%20Front/README.md) |
 
-| Wretched Front | 21 | [Open](Wretched%20Front/README.md) |
+| Unknown | 11 | [Open](Unknown/README.md) |
 | Outskirts Commune | 4 | [Open](Outskirts%20Commune/README.md) |
 </div>
 
