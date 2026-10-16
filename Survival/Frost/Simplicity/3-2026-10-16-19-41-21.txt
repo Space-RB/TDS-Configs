@@ -1,0 +1,66 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Soldier", "Shotgunner", "Scout", "Minigunner", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {"Glass"})
+TDS:Ready()
+TDS:Place("Soldier", -0.32466602325439453, 0.9999971985816956, -9.825847625732422)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Soldier", -3.8545825481414795, 1.0000015497207642, -9.66596508026123)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Place("Shotgunner", -18.188945770263672, 1.0000004768371582, -2.6522274017333984)
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", -18.229793548583984, 0.9999834895133972, -4.6918182373046875)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Place("Shotgunner", -17.994821548461914, 0.9999834895133972, -6.718240737915039)
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(5)
+TDS:Place("Shotgunner", -12.48396110534668, 1.0000005960464478, -3.0555782318115234)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Place("Shotgunner", -18.03774642944336, 0.9999878406524658, -8.834203720092773)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Shotgunner", -10.063749313354492, 1.0000005960464478, -3.535409927368164)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 16 ] --
+TDS:Place("Shotgunner", -12.437397003173828, 1.000000238418579, -0.6409220695495605)
+
+-- [[ END OF STRATEGY ]]
