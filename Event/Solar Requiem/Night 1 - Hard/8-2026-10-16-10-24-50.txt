@@ -1,0 +1,100 @@
+_G.AutoPickups = true
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Crook Boss", "Assassin", "None", "None", "None")
+TDS:Mode("Act1")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 27.70663833618164, 2.0009984970092773, 197.41647338867188)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Assassin", 26.57570457458496, 2.0009989738464355, 195.71865844726562)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Crook Boss", -10.175811767578125, 2.0772545337677, 203.3253173828125)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Place("Crook Boss", -10.215391159057617, 2.007411003112793, 200.2855682373047)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Assassin", -0.04245984926819801, 2.001253128051758, 215.2414093017578)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("Assassin", -0.04245984926819801, 2.001340627670288, 213.201416015625)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Place("Assassin", -2.047626495361328, 2.0135936737060547, 215.1864013671875)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Place("Crook Boss", -7.254912376403809, 2.001284122467041, 201.71658325195312)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Place("Crook Boss", -7.454927444458008, 2.0408926010131836, 204.87152099609375)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(6)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Place("Crook Boss", -11.826196670532227, 2.1444144248962402, 205.87832641601562)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+TDS:Place("Assassin", -23.67633819580078, 2.0009994506835938, 191.39920043945312)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Assassin", -23.67633819580078, 2.0009992122650146, 193.43919372558594)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Assassin", -25.716339111328125, 2.0009994506835938, 191.39920043945312)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
