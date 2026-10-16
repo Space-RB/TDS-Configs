@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Retro Crossroads | 3 | [Open](Retro%20Crossroads/README.md) |
+| Four Seasons | 1 | [Open](Four%20Seasons/README.md) |
 
+| Retro Crossroads | 3 | [Open](Retro%20Crossroads/README.md) |
 | Unknown | 2 | [Open](Unknown/README.md) |
 | Farm Lands | 1 | [Open](Farm%20Lands/README.md) |
 </div>
