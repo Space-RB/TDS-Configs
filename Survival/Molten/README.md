@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| U-Turn | 2 | [Open](U-Turn/README.md) |
+| Simplicity | 1 | [Open](Simplicity/README.md) |
 
 | Rocket Arena | 2 | [Open](Rocket%20Arena/README.md) |
+| U-Turn | 2 | [Open](U-Turn/README.md) |
 | Unknown | 2 | [Open](Unknown/README.md) |
 | Dead Ahead | 1 | [Open](Dead%20Ahead/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
