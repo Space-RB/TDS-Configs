@@ -1,0 +1,24 @@
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Trapper", "Mercenary Base", "Military Base", "DJ Booth", "Gatling Gun")
+TDS:Mode("Sandbox")
+TDS:GameInfo("Lay By", {})
+TDS:Ready()
+TDS:Place("Trapper", -2.5700979232788086, 243, 175.9857940673828)
+TDS:Place("Trapper", -2.512939691543579, 243, 166.8992156982422)
+TDS:Place("Trapper", -2.5350961685180664, 243, 157.08387756347656)
+TDS:Place("Trapper", -1.5155500173568726, 243, 150.89456176757812)
+TDS:Place("Trapper", -0.11159871518611908, 243, 149.48904418945312)
+TDS:Place("Trapper", -2.515775680541992, 243, 158.5196533203125)
+
+-- [[ END OF STRATEGY ]]
