@@ -1,0 +1,63 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Farm", "Electroshocker", "Scout", "Crook Boss", "EvolvedJuggernaut")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Farm", 16.328781127929688, 0.939483642578125, -19.107376098632812)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Farm", 10.3709135055542, 0.5351778268814087, -15.372042655944824)
+TDS:Upgrade(19)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", 8.264976501464844, 0.6852928996086121, -22.411693572998047)
+TDS:Upgrade(20)
+TDS:Place("Farm", 6.8869242668151855, 1.015468955039978, -26.818557739257812)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(21)
+TDS:Place("Farm", 5.5641188621521, 1.1299171447753906, -31.13616943359375)
+TDS:Upgrade(22)
+TDS:Place("Farm", -0.42002010345458984, 0.691201388835907, -22.85597801208496)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(23)
+TDS:Place("Farm", 3.262493133544922, 0.6233183145523071, -19.397411346435547)
+TDS:Upgrade(24)
+TDS:Place("Farm", 6.138856887817383, 0.5876136422157288, -15.613188743591309)
+TDS:Upgrade(25)
+
+-- [ Wave 5 ] --
+TDS:Place("Farm", 1.4795758724212646, 1.0240478515625, -33.37079620361328)
+TDS:Upgrade(26)
+TDS:Place("Farm", -3.373845100402832, 0.9750003814697266, -31.97731590270996)
+TDS:Upgrade(27)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(27)
+TDS:Upgrade(26)
+TDS:Upgrade(22)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(21)
+TDS:Upgrade(20)
+TDS:Upgrade(19)
+TDS:Upgrade(25)
+
+-- [ Wave 8 ] --
+TDS:Place("Crook Boss", 5.5088396072387695, 1.1761044263839722, 19.878639221191406)
+
+-- [ Wave 9 ] --
+TDS:Place("Crook Boss", 2.433642864227295, 1.3009592294692993, 19.668237686157227)
+TDS:Place("Scout", 11.950654029846191, 0.31837382912635803, 10.696243286132812)
+
+-- [[ END OF STRATEGY ]]
