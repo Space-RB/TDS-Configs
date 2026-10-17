@@ -1,0 +1,15 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoRejoin = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Mortar", "Elf Camp", "Minigunner", "Farm", "Mercenary Base")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wrecked Battlefield", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
