@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 39 recorded strategies available for this map**
+**📦 40 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -58,6 +58,7 @@ Select a strategy below and open its config file.
 | 37 | 2026-10-17 13:59 UTC | Unknown | — | Gatling Gun, Engineer, Farm, Military Base, EvolvedEnforcer | [Open](37-2026-10-17-13-59-38.txt) |
 | 38 | 2026-10-17 14:00 UTC | Unknown | — | Gatling Gun, Engineer, Farm, Military Base, EvolvedEnforcer | [Open](38-2026-10-17-14-00-35.txt) |
 | 39 | 2026-10-17 14:08 UTC | Unknown | — | EvolvedJuggernaut, Farm, Commander, Ranger, Military Base | [Open](39-2026-10-17-14-08-20.txt) |
+| 40 | 2026-10-17 14:09 UTC | Unknown | — | EvolvedJuggernaut, Farm, Commander, Ranger, Military Base | [Open](40-2026-10-17-14-09-31.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
