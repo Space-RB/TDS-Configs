@@ -1,0 +1,27 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Minigunner", "Commander", "Turret", "Trapper", "Militant")
+TDS:Mode("Hardcore")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Trapper", -5.666290760040283, 501.34033203125, 22.247732162475586)
+TDS:Place("Trapper", 0.9171886444091797, 501.3529052734375, 25.495826721191406)
+
+-- [ Wave 3 ] --
+TDS:Place("Militant", 14.92249870300293, 501.32135009765625, 11.263147354125977)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
