@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 3 recorded strategies available for this map**
+**📦 4 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -22,6 +22,7 @@ Select a strategy below and open its config file.
 
 | 2 | 2026-10-16 10:12 UTC | Act1Easy | — | None | [Open](2-2026-10-16-10-12-07.txt) |
 | 3 | 2026-10-17 08:16 UTC | Act1Easy | — | Brawler, Commander, DJ Booth, None | [Open](3-2026-10-17-08-16-11.txt) |
+| 4 | 2026-10-17 17:30 UTC | Act1Easy | — | Brawler, Commander, DJ Booth, None | [Open](4-2026-10-17-17-30-35.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
