@@ -1,0 +1,49 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Brawler", "Commander", "DJ Booth", "None", "None")
+TDS:Mode("Act1")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", 30.458358764648438, 2.0009982585906982, 198.9158477783203)
+TDS:Upgrade(1)
+TDS:Place("Brawler", 28.448837280273438, 2.0009984970092773, 198.5645294189453)
+TDS:Upgrade(2)
+TDS:Place("Brawler", 26.43842315673828, 2.0009984970092773, 198.21835327148438)
+TDS:Upgrade(3)
+
+-- [ Wave 2 ] --
+TDS:Place("Brawler", 30.190731048583984, 2.000997543334961, 204.3076171875)
+TDS:Upgrade(4)
+TDS:Place("Brawler", 28.15073013305664, 2.000997543334961, 204.3076171875)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(5)
+TDS:Place("Brawler", 26.110729217529297, 2.000997543334961, 204.3076171875)
+TDS:Upgrade(6)
+TDS:Place("Brawler", 27.743427276611328, 2.0009987354278564, 196.65037536621094)
+TDS:Upgrade(7)
+
+-- [ Wave 4 ] --
+TDS:Place("Brawler", 29.752948760986328, 2.0009987354278564, 197.00169372558594)
+TDS:Upgrade(8)
+TDS:Place("Brawler", 24.226015090942383, 2.000997543334961, 203.52694702148438)
+TDS:Upgrade(9)
+
+-- [ Wave 5 ] --
+TDS:Place("Brawler", 27.185806274414062, 2.037398338317871, 206.0641326904297)
+TDS:Upgrade(10)
+TDS:Place("Commander", 22.429964065551758, 2.037498950958252, 201.73089599609375)
+TDS:Upgrade(11)
+TDS:Place("DJ Booth", 33.286407470703125, 2.0009987354278564, 196.78659057617188)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]
