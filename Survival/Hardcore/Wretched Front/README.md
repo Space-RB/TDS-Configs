@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 30 recorded strategies available for this map**
+**📦 31 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -49,6 +49,7 @@ Select a strategy below and open its config file.
 | 28 | 2026-10-17 06:30 UTC | Hardcore | — | Electroshocker, Sniper, None | [Open](28-2026-10-17-06-30-58.txt) |
 | 29 | 2026-10-17 06:34 UTC | Hardcore | — | Farm, Freezer, Boomerang, Crook Boss, None | [Open](29-2026-10-17-06-34-48.txt) |
 | 30 | 2026-10-17 06:40 UTC | Hardcore | Glass | Minigunner, Electroshocker, Sniper, Scout, None | [Open](30-2026-10-17-06-40-32.txt) |
+| 31 | 2026-10-17 06:42 UTC | Hardcore | — | Farm, Freezer, Boomerang, Crook Boss, None | [Open](31-2026-10-17-06-42-40.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
