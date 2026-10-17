@@ -16,11 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
+| Wretched Front | 45 | [Open](Wretched%20Front/README.md) |
 
-| Wretched Front | 44 | [Open](Wretched%20Front/README.md) |
 | Unknown | 23 | [Open](Unknown/README.md) |
 | Outskirts Commune | 4 | [Open](Outskirts%20Commune/README.md) |
+| Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>
