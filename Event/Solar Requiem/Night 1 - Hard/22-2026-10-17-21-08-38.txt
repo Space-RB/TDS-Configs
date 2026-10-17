@@ -1,0 +1,37 @@
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Shotgunner", "Golden Scout", "None", "None", "None")
+TDS:Mode("Act1")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", 13.45428466796875, 2.0418155193328857, 196.89151000976562)
+TDS:Place("Scout", 16.41620635986328, 2.0433616638183594, 196.2069549560547)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Place("Scout", 14.342403411865234, 2.0009992122650146, 193.984130859375)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:Place("Shotgunner", 11.9183988571167, 2.0548312664031982, 194.8684844970703)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Scout", 10.414284706115723, 2.0600080490112305, 196.89151000976562)
+
+-- [[ END OF STRATEGY ]]
