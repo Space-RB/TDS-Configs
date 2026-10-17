@@ -1,0 +1,53 @@
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.HideUsername = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Sniper", "Electroshocker", "Soldier", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wrecked Battlefield", {})
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Electroshocker", 16.23053741455078, 0.999982476234436, -28.55235481262207)
+
+-- [ Wave 3 ] --
+TDS:Place("Electroshocker", 16.312217712402344, 0.9999786615371704, -23.15373992919922)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Place("Electroshocker", 17.625656127929688, 0.9999806880950928, -26.056108474731445)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Electroshocker", 16.151634216308594, 0.9999764561653137, -19.953861236572266)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Electroshocker", 20.847736358642578, 0.999981701374054, -27.43677520751953)
+
+-- [ Wave 10 ] --
+TDS:Place("Electroshocker", 22.680055618286133, 0.9999776482582092, -21.638282775878906)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
