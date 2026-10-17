@@ -1,0 +1,39 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Farm", "Freezer", "Boomerang", "Crook Boss", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Farm", -24.987140655517578, -0.5083373188972473, 1.8434300422668457)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:Place("Farm", -21.296356201171875, -0.5429834723472595, 4.119003772735596)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Place("Farm", -24.444759368896484, -0.3619734048843384, 8.624083518981934)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+TDS:Place("Farm", -27.721328735351562, -0.533638060092926, 5.288555145263672)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+TDS:Place("Boomerang", 8.009916305541992, 1.2529453039169312, 21.865314483642578)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [[ END OF STRATEGY ]]
