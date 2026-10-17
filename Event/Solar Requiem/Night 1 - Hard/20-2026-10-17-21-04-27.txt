@@ -1,0 +1,16 @@
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Shotgunner", "Scout", "None", "None", "None")
+TDS:Mode("Act1")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", 13.69813346862793, 2.000999689102173, 190.36483764648438)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
