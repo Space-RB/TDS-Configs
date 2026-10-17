@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 41 recorded strategies available for this map**
+**📦 42 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -60,6 +60,7 @@ Select a strategy below and open its config file.
 | 39 | 2026-10-17 14:08 UTC | Unknown | — | EvolvedJuggernaut, Farm, Commander, Ranger, Military Base | [Open](39-2026-10-17-14-08-20.txt) |
 | 40 | 2026-10-17 14:09 UTC | Unknown | — | EvolvedJuggernaut, Farm, Commander, Ranger, Military Base | [Open](40-2026-10-17-14-09-31.txt) |
 | 41 | 2026-10-17 20:58 UTC | Unknown | — | Trapper, Commander, DJ Booth, Gatling Gun, None | [Open](41-2026-10-17-20-58-38.txt) |
+| 42 | 2026-10-17 21:11 UTC | Unknown | — | Golden Minigunner, Cowboy, None | [Open](42-2026-10-17-21-11-22.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
