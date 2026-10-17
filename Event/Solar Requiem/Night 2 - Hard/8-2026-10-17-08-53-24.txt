@@ -1,0 +1,127 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.GatlingRate = 30
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.gui_hidden = true
+_G.GatlingTargets = 4
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Trapper", "Commander", "DJ Booth", "Gatling Gun", "None")
+TDS:Mode("Act2")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Trapper", 6.535663604736328, 47.793609619140625, -5.352963924407959)
+TDS:Place("Trapper", 3.5415406227111816, 47.863548278808594, -5.982946872711182)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+
+-- [ Wave 8 ] --
+TDS:Place("Gatling Gun", -3.5490522384643555, 47.6105842590332, -7.945265769958496)
+TDS:Place("DJ Booth", 0.16630911827087402, 47.91848373413086, -3.762718439102173)
+TDS:SetOption(4, "Track", "Green")
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+TDS:Place("Trapper", 8.947981834411621, 47.701141357421875, -3.420604944229126)
+TDS:Upgrade(5)
+TDS:Place("Trapper", 10.026610374450684, 47.69700241088867, -0.5733599662780762)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Place("Commander", 2.6934027671813965, 47.65425109863281, -10.959697723388672)
+TDS:Place("Commander", 5.733402729034424, 47.69761657714844, -10.959697723388672)
+TDS:Place("Commander", -0.11519098281860352, 47.62244415283203, -12.123055458068848)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Trapper", -2.0025129318237305, 47.777225494384766, -0.35612571239471436)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Trapper", -1.5258598327636719, 47.68022155761719, 2.6143765449523926)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Trapper", 0.5257225036621094, 47.6226692199707, 5.143892765045166)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:SetOption(12, "Trap", "Bear Traps")
+TDS:SetOption(11, "Trap", "Bear Traps")
+TDS:SetOption(10, "Trap", "Bear Traps")
+TDS:SetOption(1, "Trap", "Bear Traps")
+TDS:SetOption(5, "Trap", "Bear Traps")
+TDS:SetOption(6, "Trap", "Bear Traps")
+TDS:VoteSkip(20)
+
+-- [[ END OF STRATEGY ]]
