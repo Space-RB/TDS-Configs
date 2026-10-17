@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 36 recorded strategies available for this map**
+**📦 37 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -55,6 +55,7 @@ Select a strategy below and open its config file.
 | 34 | 2026-10-16 16:25 UTC | Unknown | — | Assassin, Mortar, Commander, Minigunner, Crook Boss | [Open](34-2026-10-16-16-25-27.txt) |
 | 35 | 2026-10-16 22:58 UTC | Unknown | — | EvolvedOperator, None | [Open](35-2026-10-16-22-58-11.txt) |
 | 36 | 2026-10-17 07:03 UTC | Unknown | — | None | [Open](36-2026-10-17-07-03-11.txt) |
+| 37 | 2026-10-17 13:59 UTC | Unknown | — | Gatling Gun, Engineer, Farm, Military Base, EvolvedEnforcer | [Open](37-2026-10-17-13-59-38.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
