@@ -1,0 +1,108 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.GatlingRate = 30
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.gui_hidden = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Gatling Gun", "Farm", "DJ Booth", "Commander", "Trapper")
+TDS:Mode("Act2")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Place("Trapper", 5.715577125549316, 47.854522705078125, -5.421003341674805)
+TDS:Place("Trapper", 8.408172607421875, 47.75546646118164, -3.964864492416382)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+TDS:Place("DJ Booth", 1.7118520736694336, 47.983760833740234, -4.880830764770508)
+
+-- [ Wave 6 ] --
+TDS:SetOption(3, "Track", "Green")
+TDS:SetOption(3, "Track", "Purple")
+TDS:SetOption(3, "Track", "Purple")
+TDS:SetOption(3, "Track", "Purple")
+TDS:SetOption(3, "Track", "Purple")
+
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+
+-- [ Wave 8 ] --
+TDS:VoteSkip(8)
+TDS:Place("Gatling Gun", -3.5296154022216797, 47.610595703125, -7.939275741577148)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:SetOption(3, "Track", "Green")
+TDS:Upgrade(3)
+TDS:Place("Trapper", -1.46421480178833, 47.726234436035156, -2.3638832569122314)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("Trapper", -1.9607515335083008, 47.79428482055664, 0.620311975479126)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 12 ] --
+TDS:Place("Farm", -9.776418685913086, 47.77315902709961, 0.39598071575164795)
+TDS:Place("Farm", -11.798795700073242, 47.72696304321289, -2.509460926055908)
+TDS:Place("Farm", -11.079911231994629, 47.79827880859375, -5.975698471069336)
+TDS:Place("Farm", -9.690020561218262, 47.86270523071289, -9.23143196105957)
+TDS:Place("Farm", -13.080169677734375, 47.798213958740234, -10.250496864318848)
+TDS:Place("Farm", -14.434860229492188, 48.26776123046875, -6.979963302612305)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Farm", -8.085196495056152, 47.641990661621094, -2.691080093383789)
+TDS:Place("Farm", -7.228520393371582, 47.73573684692383, -6.084321022033691)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(13)
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:SetOption(3, "Track", "Red")
+
+-- [[ END OF STRATEGY ]]
