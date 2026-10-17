@@ -1,0 +1,22 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMedic = true
+_G.AutoNecro = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.SupportCaravan = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.beta_dps = true
+_G.AutoGatlingSettings.gui_hidden = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Hunter", "Rocketeer", "Soldier", "Shotgunner", "Pulse Trooper")
+TDS:Mode("Casual")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
