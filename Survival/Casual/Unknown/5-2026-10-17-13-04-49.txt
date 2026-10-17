@@ -1,0 +1,44 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Golden Soldier", "Pyromancer", "EvolvedKingpin", "None", "None")
+TDS:Mode("Casual")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Soldier", 1.4337053298950195, 1.0000028610229492, -17.491392135620117)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Pyromancer", 0.8513326644897461, 1.0000020265579224, -36.84922790527344)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Place("EvolvedKingpin", 1.1903152465820312, 1.0000041723251343, -25.742162704467773)
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
