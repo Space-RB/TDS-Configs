@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 3 | [Open](Unknown/README.md) |
+| Hot Spot | 1 | [Open](Hot%20Spot/README.md) |
 
+| Unknown | 3 | [Open](Unknown/README.md) |
 | Rocket Arena | 2 | [Open](Rocket%20Arena/README.md) |
 | U-Turn | 2 | [Open](U-Turn/README.md) |
 | Dead Ahead | 1 | [Open](Dead%20Ahead/README.md) |
