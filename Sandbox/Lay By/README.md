@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 9 recorded strategies available for this map**
+**📦 10 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -28,6 +28,7 @@ Select a strategy below and open its config file.
 | 7 | 2026-10-17 18:06 UTC | Sandbox | — | Mercenary Base, Military Base, EvolvedEnforcer, Slime Trooper, None | [Open](7-2026-10-17-18-06-39.txt) |
 | 8 | 2026-10-17 20:23 UTC | Sandbox | — | Trapper, Mercenary Base, Military Base, DJ Booth, Gatling Gun | [Open](8-2026-10-17-20-23-08.txt) |
 | 9 | 2026-10-17 20:24 UTC | Sandbox | — | Trapper, Mercenary Base, Military Base, DJ Booth, Gatling Gun | [Open](9-2026-10-17-20-24-35.txt) |
+| 10 | 2026-10-17 20:30 UTC | Sandbox | — | Trapper, Mercenary Base, Military Base, DJ Booth, Gatling Gun | [Open](10-2026-10-17-20-30-25.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
