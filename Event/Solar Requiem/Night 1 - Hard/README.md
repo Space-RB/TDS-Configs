@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 18 recorded strategies available for this map**
+**📦 19 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -37,6 +37,7 @@ Select a strategy below and open its config file.
 | 16 | 2026-10-17 08:08 UTC | Act1 | — | Brawler, Commander, DJ Booth, None | [Open](16-2026-10-17-08-08-13.txt) |
 | 17 | 2026-10-17 08:42 UTC | Act1 | — | Commander, Golden Scout, Golden Pyromancer, Hacker, None | [Open](17-2026-10-17-08-42-06.txt) |
 | 18 | 2026-10-17 13:37 UTC | Act1 | — | Golden Scout, Golden Pyromancer, None | [Open](18-2026-10-17-13-37-01.txt) |
+| 19 | 2026-10-17 18:27 UTC | Act1 | — | Golden Scout, None | [Open](19-2026-10-17-18-27-24.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
