@@ -1,0 +1,15 @@
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Pyromancer", "Crook Boss", "None", "None", "None")
+TDS:Mode("Intermediate")
+TDS:GameInfo("Coral Deep", {})
+TDS:Ready()
+
+-- [ Wave 4 ] --
+TDS:Place("Pyromancer", 441.06756591796875, 49.65011215209961, -133.7156982421875)
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
