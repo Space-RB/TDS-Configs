@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 17 | [Open](Simplicity/README.md) |
+| Crossroads | 1 | [Open](Crossroads/README.md) |
 
+| Simplicity | 17 | [Open](Simplicity/README.md) |
 | Unknown | 16 | [Open](Unknown/README.md) |
 | Lay By | 3 | [Open](Lay%20By/README.md) |
 | Cataclysm | 2 | [Open](Cataclysm/README.md) |
