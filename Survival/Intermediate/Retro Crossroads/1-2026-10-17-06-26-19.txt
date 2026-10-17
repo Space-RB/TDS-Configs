@@ -1,0 +1,64 @@
+_G.AutoGatling = true
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.beta_dps = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Assassin", "Militant", "Shotgunner", "Hunter", "Pyromancer")
+TDS:Mode("Intermediate")
+TDS:GameInfo("Retro Crossroads", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Militant", -125.41474914550781, -44.53631591796875, 23.019166946411133)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Place("Assassin", -125.71355438232422, -44.53631591796875, 29.738231658935547)
+
+-- [ Wave 6 ] --
+TDS:Place("Shotgunner", -121.79042053222656, -44.53631591796875, 42.49522018432617)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+TDS:Place("Shotgunner", -123.41307067871094, -44.486289978027344, 41.25885009765625)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", -121.52835845947266, -44.53631591796875, 40.47817611694336)
+TDS:Upgrade(5)
+TDS:Place("Militant", -119.22821044921875, -44.53631591796875, 35.87274169921875)
+TDS:Upgrade(6)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", -119.90570831298828, -44.53631591796875, 41.71454620361328)
+TDS:Upgrade(7)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Place("Militant", -119.85042572021484, -44.53631591796875, 32.897098541259766)
+TDS:Place("Militant", -122.11630249023438, -44.53631591796875, 34.92377471923828)
+TDS:Place("Militant", -116.96233367919922, -44.53631591796875, 33.846065521240234)
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]
