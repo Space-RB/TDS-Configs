@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 3 recorded strategies available for this map**
+**📦 4 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -22,6 +22,7 @@ Select a strategy below and open its config file.
 
 | 2 | 2026-10-15 04:50 UTC | Casual | — | Demoman, Sniper, Soldier, Militant, Assassin | [Open](2-2026-10-15-04-50-40.txt) |
 | 3 | 2026-10-17 09:00 UTC | Casual | — | Hunter, Rocketeer, Soldier, Shotgunner, Pulse Trooper | [Open](3-2026-10-17-09-00-47.txt) |
+| 4 | 2026-10-17 11:51 UTC | Casual | — | Golden Soldier, Pyromancer, EvolvedKingpin, None | [Open](4-2026-10-17-11-51-42.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
