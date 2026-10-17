@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 3 | [Open](Simplicity/README.md) |
+| Retro Crossroads | 1 | [Open](Retro%20Crossroads/README.md) |
 
+| Simplicity | 3 | [Open](Simplicity/README.md) |
 | Unknown | 3 | [Open](Unknown/README.md) |
 | Retro Lighthouse | 2 | [Open](Retro%20Lighthouse/README.md) |
 | Rocket Arena | 2 | [Open](Rocket%20Arena/README.md) |
