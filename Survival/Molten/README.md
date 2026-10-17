@@ -16,11 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Retro Lighthouse | 2 | [Open](Retro%20Lighthouse/README.md) |
+| Simplicity | 3 | [Open](Simplicity/README.md) |
 
 | Unknown | 3 | [Open](Unknown/README.md) |
+| Retro Lighthouse | 2 | [Open](Retro%20Lighthouse/README.md) |
 | Rocket Arena | 2 | [Open](Rocket%20Arena/README.md) |
-| Simplicity | 2 | [Open](Simplicity/README.md) |
 | U-Turn | 2 | [Open](U-Turn/README.md) |
 | Dead Ahead | 1 | [Open](Dead%20Ahead/README.md) |
 | Hot Spot | 1 | [Open](Hot%20Spot/README.md) |
