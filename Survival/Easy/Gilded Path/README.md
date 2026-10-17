@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 5 recorded strategies available for this map**
+**📦 6 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -24,6 +24,7 @@ Select a strategy below and open its config file.
 | 3 | 2026-10-17 06:52 UTC | Easy | ExplodingEnemies, Limitation | Soldier, Shotgunner, Scout, Minigunner, Crook Boss | [Open](3-2026-10-17-06-52-48.txt) |
 | 4 | 2026-10-17 07:03 UTC | Easy | ExplodingEnemies, Limitation | Soldier, Shotgunner, Scout, Minigunner, Crook Boss | [Open](4-2026-10-17-07-03-26.txt) |
 | 5 | 2026-10-17 14:56 UTC | Easy | — | Soldier, Shotgunner, Scout, Minigunner, Crook Boss | [Open](5-2026-10-17-14-56-28.txt) |
+| 6 | 2026-10-17 15:28 UTC | Easy | — | Soldier, Shotgunner, None | [Open](6-2026-10-17-15-28-13.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
