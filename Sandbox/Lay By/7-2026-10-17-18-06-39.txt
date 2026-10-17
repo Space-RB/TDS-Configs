@@ -1,0 +1,23 @@
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Mercenary Base", "Military Base", "EvolvedEnforcer", "Slime Trooper", "None")
+TDS:Mode("Sandbox")
+TDS:GameInfo("Lay By", {})
+TDS:Ready()
+TDS:Place("Slime Trooper", -2.5491480827331543, 242.99998474121094, 266)
+TDS:Place("Slime Trooper", -2.5240745544433594, 242.99996948242188, 235.75927734375)
+TDS:Place("Slime Trooper", -2.5218544006347656, 242.99998474121094, 206.45497131347656)
+TDS:Place("Slime Trooper", -2.526583194732666, 243, 175.47445678710938)
+TDS:Place("Slime Trooper", -2.5087761878967285, 243, 165.8611602783203)
+
+-- [[ END OF STRATEGY ]]
