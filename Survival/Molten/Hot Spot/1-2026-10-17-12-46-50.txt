@@ -1,0 +1,27 @@
+_G.AutoRejoin = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Assassin", "Militant", "Shotgunner", "Hunter", "Pyromancer")
+TDS:Mode("Molten")
+TDS:GameInfo("Hot Spot", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Militant", 10.514606475830078, -2.314441204071045, -8.377595901489258)
+
+-- [ Wave 2 ] --
+TDS:Place("Assassin", 3.6532974243164062, -2.2504749298095703, -38.25018310546875)
+
+-- [ Wave 3 ] --
+TDS:Place("Militant", 4.003681182861328, -2.255802631378174, -35.63362121582031)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Place("Assassin", 10.234312057495117, -2.2620718479156494, -40.129852294921875)
+
+-- [ Wave 5 ] --
+TDS:Place("Militant", 0.8332834243774414, -2.2352828979492188, -36.54711151123047)
+
+-- [[ END OF STRATEGY ]]
