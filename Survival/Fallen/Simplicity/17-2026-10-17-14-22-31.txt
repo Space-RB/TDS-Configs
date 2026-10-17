@@ -1,0 +1,86 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("EvolvedOperator", "Cowboy", "EvolvedJuggernaut", "DJ Booth", "Brawler")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {"Limitation"})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", -18.326263427734375, 1.0000007152557373, -4.116323947906494)
+TDS:Upgrade(1)
+TDS:Place("Brawler", -18.42342758178711, 0.9999834895133972, -6.307705402374268)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Place("EvolvedOperator", -10.454713821411133, 0.9999831914901733, -3.7855172157287598)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Place("EvolvedOperator", -7.914789199829102, 0.999985933303833, -3.7659857273101807)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 16 ] --
+TDS:Place("DJ Booth", -2.6893439292907715, 0.9999831914901733, 2.491851806640625)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 19 ] --
+TDS:Place("EvolvedJuggernaut", 2.350511074066162, 0.9999831914901733, 2.4536514282226562)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(6, 2)
+TDS:Place("EvolvedJuggernaut", 2.350511074066162, 0.9999831914901733, 2.4536514282226562)
+TDS:Place("DJ Booth", -2.6893439292907715, 0.9999831914901733, 2.491851806640625)
+TDS:Place("EvolvedOperator", -7.914789199829102, 0.999985933303833, -3.7659857273101807)
+TDS:Place("EvolvedOperator", -10.454713821411133, 0.9999831914901733, -3.7855172157287598)
+TDS:Place("Brawler", -18.42342758178711, 0.9999834895133972, -6.307705402374268)
+TDS:Place("Brawler", -18.326263427734375, 1.0000007152557373, -4.116323947906494)
+TDS:Upgrade(7, 2)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(7, 2)
+TDS:Place("EvolvedJuggernaut", 2.350511074066162, 0.9999831914901733, 2.4536514282226562)
+TDS:Place("DJ Booth", -2.6893439292907715, 0.9999831914901733, 2.491851806640625)
+TDS:Place("EvolvedOperator", -7.914789199829102, 0.999985933303833, -3.7659857273101807)
+TDS:Place("EvolvedOperator", -10.454713821411133, 0.9999831914901733, -3.7855172157287598)
+TDS:Place("Brawler", -18.42342758178711, 0.9999834895133972, -6.307705402374268)
+TDS:Place("Brawler", -18.326263427734375, 1.0000007152557373, -4.116323947906494)
+TDS:Upgrade(13, 2)
+
+-- [[ END OF STRATEGY ]]
