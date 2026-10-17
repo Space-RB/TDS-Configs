@@ -16,13 +16,14 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
+| Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 
 | Dead Ahead | 4 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 2 | [Open](Lay%20By/README.md) |
 | Ruby Escort | 2 | [Open](Ruby%20Escort/README.md) |
 | The Heights | 2 | [Open](The%20Heights/README.md) |
 | Unknown | 2 | [Open](Unknown/README.md) |
+| Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
 | Night Station | 1 | [Open](Night%20Station/README.md) |
 | Retro Crossroads | 1 | [Open](Retro%20Crossroads/README.md) |
 </div>
