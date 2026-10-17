@@ -16,10 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
+| Unknown | 7 | [Open](Unknown/README.md) |
 
 | Lay By | 6 | [Open](Lay%20By/README.md) |
-| Unknown | 6 | [Open](Unknown/README.md) |
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
 | Simplicity | 3 | [Open](Simplicity/README.md) |
 | Pier Pressure | 2 | [Open](Pier%20Pressure/README.md) |
@@ -27,6 +26,7 @@ Choose one of the categories below to continue.
 | Cataclysm | 1 | [Open](Cataclysm/README.md) |
 | Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
+| Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Portland | 1 | [Open](Portland/README.md) |
 | Retro Crossroads | 1 | [Open](Retro%20Crossroads/README.md) |
 | Retro Rocket Arena | 1 | [Open](Retro%20Rocket%20Arena/README.md) |
