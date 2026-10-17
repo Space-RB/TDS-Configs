@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Molten | 9 | [Open](Molten/README.md) |
+| Casual | 11 | [Open](Casual/README.md) |
 
 | Hardcore | 66 | [Open](Hardcore/README.md) |
 | Fallen | 40 | [Open](Fallen/README.md) |
@@ -26,7 +26,7 @@ Choose one of the categories below to continue.
 | Intermediate | 14 | [Open](Intermediate/README.md) |
 | Hardcore Easy | 13 | [Open](Hardcore%20Easy/README.md) |
 | Act1 | 11 | [Open](Act1/README.md) |
-| Casual | 10 | [Open](Casual/README.md) |
+| Molten | 9 | [Open](Molten/README.md) |
 | Act1Easy | 4 | [Open](Act1Easy/README.md) |
 | Chapter1Mission3 | 2 | [Open](Chapter1Mission3/README.md) |
 | Chapter1Mission1 | 1 | [Open](Chapter1Mission1/README.md) |
