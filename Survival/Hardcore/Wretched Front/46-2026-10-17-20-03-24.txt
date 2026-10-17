@@ -1,0 +1,38 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Golden Pyromancer", "Hunter", "EvolvedKingpin", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", -3.39760160446167, 0.9956291913986206, -34.09513473510742)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+TDS:Place("Hunter", -2.7502059936523438, 1.40915846824646, 21.999048233032227)
+
+-- [ Wave 12 ] --
+TDS:Place("Hunter", -2.0730199813842773, 1.398814082145691, 18.555652618408203)
+TDS:Place("Hunter", 1.014206886291504, 1.3730833530426025, 21.942157745361328)
+
+-- [ Wave 13 ] --
+TDS:Place("Hunter", 1.0944174528121948, 1.180892825126648, 17.980863571166992)
+
+-- [ Wave 16 ] --
+TDS:Place("EvolvedKingpin", -0.9632613658905029, 0.11707538366317749, -9.345947265625)
+TDS:Upgrade(6)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
