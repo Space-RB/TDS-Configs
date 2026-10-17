@@ -1,0 +1,13 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("DJ Booth", "Minigunner", "Ranger", "Farm", "Electroshocker")
+TDS:Mode("Molten")
+TDS:GameInfo("U-Turn", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
