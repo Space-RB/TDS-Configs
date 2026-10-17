@@ -1,0 +1,18 @@
+
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Brawler", "Shotgunner", "Hacker", "DJ Booth", "EvolvedKingpin")
+TDS:Mode("Molten")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", -20.475069046020508, 0.9999843835830688, -11.807172775268555)
+TDS:Place("Brawler", -20.742084503173828, 1.000002384185791, -13.803150177001953)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
