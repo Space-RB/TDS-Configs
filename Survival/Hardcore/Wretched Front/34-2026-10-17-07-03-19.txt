@@ -1,0 +1,58 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Minigunner", "Electroshocker", "Sniper", "Scout", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Electroshocker", -6.853740692138672, 0.9538359642028809, -31.064979553222656)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+TDS:Place("Electroshocker", 5.320979118347168, 0.5637703537940979, -14.863725662231445)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Place("Sniper", -9.085007667541504, 2.4258108139038086, -4.370403289794922)
+TDS:Upgrade(5)
+TDS:Place("Sniper", -12.703106880187988, 2.70797061920166, -3.7739815711975098)
+TDS:Upgrade(6)
+
+-- [ Wave 14 ] --
+TDS:Place("Sniper", 6.985292434692383, 2.952521324157715, 0.4556729793548584)
+TDS:Upgrade(7)
+TDS:Place("Sniper", 11.207143783569336, 3.4479334354400635, 0.8311574459075928)
+TDS:Upgrade(8)
+TDS:Place("Sniper", 10.182501792907715, 3.478588819503784, 5.457831382751465)
+TDS:Upgrade(9)
+TDS:Place("Scout", 8.85906982421875, 0.5000364780426025, -15.466450691223145)
+TDS:Place("Minigunner", 2.6178817749023438, 0.608386754989624, -17.685026168823242)
+
+-- [ Wave 15 ] --
+TDS:Place("Sniper", 13.4033784866333, 3.6278138160705566, 3.970763683319092)
+TDS:Upgrade(12)
+TDS:Place("Sniper", 8.9135160446167, 3.3728370666503906, 2.618757486343384)
+TDS:Upgrade(13)
+TDS:Place("Sniper", -10.353269577026367, 2.5285756587982178, -1.904083251953125)
+TDS:Upgrade(14)
+TDS:Place("Sniper", -10.71341323852539, 2.448988199234009, -6.949581623077393)
+TDS:Upgrade(15)
+
+-- [ Wave 16 ] --
+TDS:Place("Sniper", -10.513445854187012, 4.086954593658447, 10.465442657470703)
+TDS:Upgrade(16)
+TDS:Upgrade(11)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(11)
+
+-- [[ END OF STRATEGY ]]
