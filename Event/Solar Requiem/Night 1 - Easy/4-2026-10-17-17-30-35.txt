@@ -1,0 +1,105 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Brawler", "Commander", "DJ Booth", "None", "None")
+TDS:Mode("Act1Easy")
+TDS:Ready()
+TDS:Place("Brawler", 30.1702880859375, 2.000997543334961, 204.30178833007812)
+TDS:Upgrade(1)
+TDS:Place("Brawler", 28.130287170410156, 2.000997543334961, 204.30178833007812)
+TDS:Upgrade(2)
+TDS:Place("Brawler", 26.090286254882812, 2.000997543334961, 204.30178833007812)
+TDS:Upgrade(3)
+TDS:Place("Brawler", 30.701263427734375, 2.0009982585906982, 198.91915893554688)
+TDS:Upgrade(4)
+TDS:VoteSkip(0)
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Place("Brawler", 32.71905517578125, 2.0009982585906982, 198.9486541748047)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 3 ] --
+TDS:Place("Brawler", 28.693511962890625, 2.0009982585906982, 199.28045654296875)
+TDS:Upgrade(6)
+TDS:Place("Brawler", 26.80879783630371, 2.0009984970092773, 198.49978637695312)
+TDS:Upgrade(7)
+
+-- [ Wave 4 ] --
+TDS:Place("Brawler", 25.295475006103516, 2.0009987354278564, 197.16656494140625)
+TDS:Upgrade(8)
+
+-- [ Wave 5 ] --
+TDS:Place("Brawler", 27.224388122558594, 2.0009987354278564, 196.5025634765625)
+
+-- [ Wave 6 ] --
+TDS:Place("Brawler", 29.109102249145508, 2.0009987354278564, 197.28323364257812)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+
+-- [ Wave 7 ] --
+TDS:Place("DJ Booth", 33.10832214355469, 2.0009989738464355, 195.43011474609375)
+
+-- [ Wave 9 ] --
+TDS:Place("Commander", 23.846057891845703, 2.0374958515167236, 203.06524658203125)
+TDS:Upgrade(12)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+TDS:Upgrade(10)
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Ability(8, "Reposition", {position = Vector3.new(5.445652008056641, 2.0009994506835938, 191.89256286621094)})
+TDS:Ability(7, "Reposition", {position = Vector3.new(5.073394775390625, 2.0009992122650146, 194.15199279785156)})
+TDS:Ability(9, "Reposition", {position = Vector3.new(7.832891941070557, 2.000999689102173, 190.72528076171875)})
+TDS:Ability(3, "Reposition", {position = Vector3.new(7.60272741317749, 2.0009992122650146, 193.1309051513672)})
+TDS:VoteSkip(15)
+
+-- [[ END OF STRATEGY ]]
