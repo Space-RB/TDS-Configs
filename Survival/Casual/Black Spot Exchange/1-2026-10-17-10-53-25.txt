@@ -1,0 +1,12 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Farm", "Pyromancer", "Mortar", "Cowboy", "Crook Boss")
+TDS:Mode("Casual")
+TDS:GameInfo("Black Spot Exchange", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
