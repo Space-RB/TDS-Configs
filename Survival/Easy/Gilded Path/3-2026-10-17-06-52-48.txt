@@ -1,0 +1,45 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Soldier", "Shotgunner", "Scout", "Minigunner", "Crook Boss")
+TDS:Mode("Easy")
+TDS:GameInfo("Gilded Path", {"ExplodingEnemies", "Limitation"})
+TDS:Ready()
+TDS:Place("Soldier", -1.5690102577209473, 0.9623595476150513, 16.19849395751953)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", -4.646522521972656, 0.9678062200546265, 16.964988708496094)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Soldier", 0.24923229217529297, 0.9647777080535889, 18.63479995727539)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
