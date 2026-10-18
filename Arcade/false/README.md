@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 9 recorded strategies available for this map**
+**📦 10 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -28,6 +28,7 @@ Select a strategy below and open its config file.
 | 7 | 2026-10-16 11:11 UTC | Pizza Party | — | Farm, Crook Boss, Rocketeer, Trapper, Assassin | [Open](7-2026-10-16-11-11-00.txt) |
 | 8 | 2026-10-17 21:47 UTC | Pizza Party | — | Snowballer, Ace Pilot, Trapper, EvolvedKingpin, None | [Open](8-2026-10-17-21-47-56.txt) |
 | 9 | 2026-10-17 21:57 UTC | Pizza Party | — | Snowballer, Ace Pilot, Trapper, EvolvedKingpin, None | [Open](9-2026-10-17-21-57-04.txt) |
+| 10 | 2026-10-18 10:50 UTC | Pizza Party | — | Farm, DJ Booth, Golden Soldier, Mortar, Minigunner | [Open](10-2026-10-18-10-50-15.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
