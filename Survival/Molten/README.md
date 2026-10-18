@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 5 | [Open](Simplicity/README.md) |
+| Simplicity | 6 | [Open](Simplicity/README.md) |
 
 | Unknown | 3 | [Open](Unknown/README.md) |
 | Retro Lighthouse | 2 | [Open](Retro%20Lighthouse/README.md) |
