@@ -1,0 +1,44 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Boomerang", "Crook Boss", "Farm", "EvolvedKingpin", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", -12.896344184875488, 1.5731797218322754, 24.780712127685547)
+TDS:Upgrade(1)
+TDS:Place("Farm", -12.85319995880127, 1.5482197999954224, 29.377334594726562)
+TDS:Place("Farm", -13.241281509399414, 1.4064066410064697, 34.069297790527344)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Place("Boomerang", 5.068319797515869, 1.266309380531311, 20.984371185302734)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", -13.09916877746582, 1.2658249139785767, 38.531089782714844)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+TDS:Place("Farm", -17.364269256591797, 1.5362964868545532, 25.188888549804688)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
