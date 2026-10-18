@@ -1,0 +1,154 @@
+_G.AutoChain = true
+_G.AutoGatling = true
+_G.AutoMedic = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoNecro = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.ClaimRewards = true
+_G.SupportCaravan = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.gui_hidden = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Farm", "Gatling Gun", "Pyromancer", "Warden", "Tesla")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Pyromancer", -2.426748752593994, 1.0176734924316406, -35.6286735534668)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", 3.7345938682556152, 1.432143211364746, 40.206729888916016)
+
+-- [ Wave 11 ] --
+TDS:Place("Farm", -11.130274772644043, 1.5474936962127686, 23.966413497924805)
+TDS:Place("Farm", -11.132139205932617, 1.5347704887390137, 27.506389617919922)
+TDS:Place("Farm", -10.856487274169922, 1.483710765838623, 31.035640716552734)
+TDS:Place("Farm", -10.786436080932617, 1.4087340831756592, 34.574947357177734)
+TDS:Place("Farm", -11.058712005615234, 1.3142950534820557, 38.104427337646484)
+
+-- [ Wave 12 ] --
+TDS:Place("Farm", -14.62292194366455, 1.5391993522644043, 24.54336166381836)
+TDS:Place("Farm", -14.62292194366455, 1.5731233358383179, 28.083362579345703)
+TDS:Place("Farm", -14.349126815795898, 1.5440257787704468, 31.61275863647461)
+TDS:Place("Farm", -14.27907657623291, 1.424641489982605, 35.15206527709961)
+TDS:Place("Farm", -14.54624080657959, 1.236539602279663, 38.711551666259766)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(4)
+TDS:Upgrade(8)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(7)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(6)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(8)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 23 ] --
+TDS:Place("Tesla", -1.188253402709961, 0.8577324151992798, -24.912141799926758)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(13)
+TDS:Place("Tesla", -0.9853452444076538, 0.6033158302307129, -20.877241134643555)
+TDS:Upgrade(14)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(12)
+TDS:Upgrade(7)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(8)
+TDS:Upgrade(3)
+TDS:Upgrade(9)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(10)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(2)
+TDS:Place("Warden", 13.380576133728027, 1.207728385925293, 25.756086349487305)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [[ END OF STRATEGY ]]
