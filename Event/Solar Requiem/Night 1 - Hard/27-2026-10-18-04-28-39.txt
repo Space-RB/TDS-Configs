@@ -1,0 +1,13 @@
+_G.AutoDJ = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.TimeScaleEnabled = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Gatling Gun", "Commander", "Snowballer", "None", "None")
+TDS:Mode("Act1")
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
