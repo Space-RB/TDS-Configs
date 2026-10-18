@@ -16,16 +16,16 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Construction Crazy | 1 | [Open](Construction%20Crazy/README.md) |
+| Lay By | 7 | [Open](Lay%20By/README.md) |
 
 | Unknown | 7 | [Open](Unknown/README.md) |
-| Lay By | 6 | [Open](Lay%20By/README.md) |
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
 | Simplicity | 3 | [Open](Simplicity/README.md) |
 | Pier Pressure | 2 | [Open](Pier%20Pressure/README.md) |
 | Wrecked Battlefield II | 2 | [Open](Wrecked%20Battlefield%20II/README.md) |
 | Abandoned City | 1 | [Open](Abandoned%20City/README.md) |
 | Cataclysm | 1 | [Open](Cataclysm/README.md) |
+| Construction Crazy | 1 | [Open](Construction%20Crazy/README.md) |
 | Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
