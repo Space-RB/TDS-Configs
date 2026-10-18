@@ -16,13 +16,13 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
+| Unknown | 20 | [Open](Unknown/README.md) |
 
-| Unknown | 19 | [Open](Unknown/README.md) |
 | Simplicity | 17 | [Open](Simplicity/README.md) |
 | Lay By | 3 | [Open](Lay%20By/README.md) |
 | Cataclysm | 2 | [Open](Cataclysm/README.md) |
 | U-Turn | 2 | [Open](U-Turn/README.md) |
+| Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
 | Crossroads | 1 | [Open](Crossroads/README.md) |
 | Summer Castle | 1 | [Open](Summer%20Castle/README.md) |
 </div>
