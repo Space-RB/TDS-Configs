@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 6 | [Open](Unknown/README.md) |
+| Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
 
+| Unknown | 6 | [Open](Unknown/README.md) |
 | Retro Crossroads | 3 | [Open](Retro%20Crossroads/README.md) |
 | Black Spot Exchange | 1 | [Open](Black%20Spot%20Exchange/README.md) |
 | Farm Lands | 1 | [Open](Farm%20Lands/README.md) |
