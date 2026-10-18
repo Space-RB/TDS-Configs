@@ -1,0 +1,68 @@
+_G.AutoRejoin = false
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Crook Boss", "Golden Scout", "None", "None", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("Candy Valley", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", -6.760371208190918, 0.6270053386688232, -2.6335811614990234)
+TDS:Place("Scout", -10.071429252624512, 0.6269960403442383, -2.918243408203125)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Crook Boss", -8.452173233032227, 0.6263337135314941, 0.0325164794921875)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(1)
+TDS:Place("Crook Boss", -11.563368797302246, 0.6263337135314941, -0.1142425537109375)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 16 ] --
+TDS:Place("Crook Boss", -5.116826057434082, 0.6263337135314941, 0.22819137573242188)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 17 ] --
+TDS:Place("Crook Boss", -3.740304708480835, 0.6269938945770264, -2.98114013671875)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(3)
+TDS:Place("Crook Boss", -4.4663519859313965, 0.6264371871948242, -24.04545783996582)
+TDS:Upgrade(7)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(7)
+TDS:Place("Scout", -13.10583209991455, 0.6270020008087158, -2.7338619232177734)
+TDS:Place("Scout", 3.1379289627075195, 0.6263258457183838, -62.47552490234375)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
