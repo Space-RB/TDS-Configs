@@ -1,0 +1,46 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMedic = true
+_G.AutoNecro = true
+_G.AutoReady = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.MatchTrackerEnabled = false
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Golden Scout", "Assassin", "None", "None", "None")
+TDS:Mode("Act1")
+TDS:Ready()
+TDS:Place("Assassin", 27.681819915771484, 2.0009987354278564, 196.900146484375, true)
+TDS:Place("Assassin", 27.681819915771484, 2.0009987354278564, 196.900146484375, true)
+TDS:Place("Assassin", 27.681819915771484, 2.0009987354278564, 196.900146484375, true)
+TDS:Place("Assassin", 27.681819915771484, 2.0009987354278564, 196.900146484375, true)
+TDS:VoteSkip(0)
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Upgrade(1, true)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1, true)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2, true)
+TDS:Upgrade(2, true)
+
+-- [ Wave 4 ] --
+TDS:Place("Assassin", 27.175569534301758, 2.0009987354278564, 196.08668518066406, true)
+TDS:Upgrade(5, true)
+TDS:Upgrade(5, true)
+
+-- [ Wave 6 ] --
+TDS:Place("Assassin", 12.887792587280273, 2.043463706970215, 197.18206787109375, true)
+TDS:Place("Assassin", 12.887792587280273, 2.043463706970215, 197.18206787109375, true)
+
+-- [[ END OF STRATEGY ]]
