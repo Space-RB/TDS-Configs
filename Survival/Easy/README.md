@@ -16,15 +16,15 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Ruby Escort | 1 | [Open](Ruby%20Escort/README.md) |
+| Unknown | 9 | [Open](Unknown/README.md) |
 
 | Gilded Path | 8 | [Open](Gilded%20Path/README.md) |
-| Unknown | 8 | [Open](Unknown/README.md) |
 | Dead Ahead | 4 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 2 | [Open](Lay%20By/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
 | Retro Lighthouse | 1 | [Open](Retro%20Lighthouse/README.md) |
+| Ruby Escort | 1 | [Open](Ruby%20Escort/README.md) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>
