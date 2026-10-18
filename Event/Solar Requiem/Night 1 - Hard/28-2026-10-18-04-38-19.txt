@@ -1,0 +1,81 @@
+_G.AutoDJ = true
+_G.AutoReady = false
+_G.ClaimRewards = true
+_G.TimeScaleEnabled = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Gatling Gun", "Snowballer", "DJ Booth", "None", "None")
+TDS:Mode("Act1")
+TDS:Ready()
+TDS:Place("Snowballer", -6.495253562927246, 2.012338876724243, 199.13455200195312)
+TDS:Place("Snowballer", -8.988164901733398, 2.0106558799743652, 199.5276641845703)
+
+-- [ Wave 1 ] --
+TDS:Place("Snowballer", -6.847903251647949, 2.0033435821533203, 201.96441650390625)
+TDS:Place("Snowballer", -9.509727478027344, 2.0054779052734375, 202.05032348632812)
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Place("Snowballer", -3.973234176635742, 2.0136306285858154, 198.83285522460938)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("Snowballer", -4.215330600738525, 2.0016825199127197, 201.6234893798828)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 5 ] --
+TDS:Place("Snowballer", 10.841421127319336, 2.090579032897949, 201.52569580078125)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Snowballer", -5.854154586791992, 2.023430109024048, 196.54405212402344)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Place("Gatling Gun", -6.933371067047119, 8.861952781677246, 197.36331176757812)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 10 ] --
+TDS:Place("DJ Booth", -0.21382427215576172, 2.004514455795288, 198.82591247558594)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Snowballer", -3.102428436279297, 2.027067184448242, 195.694580078125)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(9)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(9)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
