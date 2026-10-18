@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Gilded Path | 8 | [Open](Gilded%20Path/README.md) |
+| Ruby Escort | 1 | [Open](Ruby%20Escort/README.md) |
 
+| Gilded Path | 8 | [Open](Gilded%20Path/README.md) |
 | Unknown | 8 | [Open](Unknown/README.md) |
 | Dead Ahead | 4 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 2 | [Open](Lay%20By/README.md) |
