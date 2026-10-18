@@ -1,0 +1,17 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Pyromancer", "DJ Booth", "Ace Pilot", "Rocketeer", "Electroshocker")
+TDS:Mode("Act1Easy")
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
