@@ -1,0 +1,12 @@
+_G.AutoMercenary = true
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Scout", "Sniper", "Demoman", "Assassin", "Farm")
+TDS:Mode("Casual")
+TDS:GameInfo("Northern Lights", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
