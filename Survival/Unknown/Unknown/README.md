@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 44 recorded strategies available for this map**
+**📦 45 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -63,6 +63,7 @@ Select a strategy below and open its config file.
 | 42 | 2026-10-17 21:11 UTC | Unknown | — | Golden Minigunner, Cowboy, None | [Open](42-2026-10-17-21-11-22.txt) |
 | 43 | 2026-10-18 04:07 UTC | Unknown | — | Crook Boss, Pyromancer, None | [Open](43-2026-10-18-04-07-16.txt) |
 | 44 | 2026-10-18 11:37 UTC | Unknown | — | Trapper, Commander, DJ Booth, Gatling Gun, None | [Open](44-2026-10-18-11-37-26.txt) |
+| 45 | 2026-10-18 15:06 UTC | Unknown | — | Crook Boss, Farm, Freezer, Boomerang, Turret | [Open](45-2026-10-18-15-06-01.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
