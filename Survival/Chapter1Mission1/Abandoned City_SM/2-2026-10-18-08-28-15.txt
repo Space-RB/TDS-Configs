@@ -1,0 +1,36 @@
+_G.AutoReady = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Pyromancer", "Minigunner", "Crook Boss", "Scout", "Shotgunner")
+TDS:Mode("Chapter1Mission1")
+TDS:GameInfo("Abandoned City_SM", {})
+TDS:Ready()
+TDS:Place("Pyromancer", -43.54890060424805, 0.9999892711639404, 7.849546432495117)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Scout", -40.208560943603516, 0.9999895691871643, 7.985332489013672)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Shotgunner", -46.04380798339844, 0.9999892711639404, 8.261116027832031)
+
+-- [ Wave 5 ] --
+TDS:Place("Minigunner", -30.915237426757812, 1.0449907779693604, 1.591278076171875)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Crook Boss", -27.79769515991211, 1.0449907779693604, 2.4794254302978516)
+
+-- [[ END OF STRATEGY ]]
