@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 5 | [Open](Unknown/README.md) |
+| Unknown | 6 | [Open](Unknown/README.md) |
 
 | Retro Crossroads | 3 | [Open](Retro%20Crossroads/README.md) |
 | Black Spot Exchange | 1 | [Open](Black%20Spot%20Exchange/README.md) |
