@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Abandoned City_SM | 1 | [Open](Abandoned%20City_SM/README.md) |
+| Abandoned City_SM | 2 | [Open](Abandoned%20City_SM/README.md) |
 
 </div>
 
