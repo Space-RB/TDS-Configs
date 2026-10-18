@@ -16,9 +16,8 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Retro Crossroads | 1 | [Open](Retro%20Crossroads/README.md) |
+| Simplicity | 4 | [Open](Simplicity/README.md) |
 
-| Simplicity | 3 | [Open](Simplicity/README.md) |
 | Unknown | 3 | [Open](Unknown/README.md) |
 | Retro Lighthouse | 2 | [Open](Retro%20Lighthouse/README.md) |
 | Rocket Arena | 2 | [Open](Rocket%20Arena/README.md) |
@@ -26,6 +25,7 @@ Choose one of the categories below to continue.
 | Dead Ahead | 1 | [Open](Dead%20Ahead/README.md) |
 | Hot Spot | 1 | [Open](Hot%20Spot/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
+| Retro Crossroads | 1 | [Open](Retro%20Crossroads/README.md) |
 | Spring Fever | 1 | [Open](Spring%20Fever/README.md) |
 | Wrecked Battlefield | 1 | [Open](Wrecked%20Battlefield/README.md) |
 </div>
