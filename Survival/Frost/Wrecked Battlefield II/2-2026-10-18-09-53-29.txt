@@ -1,0 +1,67 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Electroshocker", "Trapper", "None", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Wrecked Battlefield II", {})
+TDS:Ready()
+TDS:Place("Electroshocker", 1.00510835647583, 0.025159716606140137, 12.530903816223145)
+
+-- [ Wave 2 ] --
+TDS:Place("Electroshocker", -2.0238542556762695, -0.0164794921875, 12.272089958190918)
+
+-- [ Wave 3 ] --
+TDS:Place("Electroshocker", -1.6111721992492676, -0.007921934127807617, 9.292180061340332)
+
+-- [ Wave 5 ] --
+TDS:Place("Electroshocker", 1.4288277626037598, -0.28656768798828125, 9.292180061340332)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:Place("Trapper", -2.027212619781494, 0.20308691263198853, 2.8867788314819336)
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Place("Trapper", -8.269510269165039, 0.05124342441558838, 9.057197570800781)
+TDS:Upgrade(6)
+
+-- [ Wave 8 ] --
+TDS:Place("Electroshocker", 4.053627967834473, -0.5483179092407227, 10.924747467041016)
+TDS:Upgrade(7)
+
+-- [ Wave 9 ] --
+TDS:Place("Electroshocker", 4.377638816833496, -0.8336042165756226, 14.097758293151855)
+TDS:Upgrade(8)
+TDS:Place("Electroshocker", -0.9541172981262207, -0.16431710124015808, 15.246317863464355)
+TDS:Upgrade(9)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
