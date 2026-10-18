@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 29 recorded strategies available for this map**
+**📦 30 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -48,6 +48,7 @@ Select a strategy below and open its config file.
 | 27 | 2026-10-18 04:28 UTC | Act1 | — | Gatling Gun, Commander, Snowballer, None | [Open](27-2026-10-18-04-28-39.txt) |
 | 28 | 2026-10-18 04:38 UTC | Act1 | — | Gatling Gun, Snowballer, DJ Booth, None | [Open](28-2026-10-18-04-38-19.txt) |
 | 29 | 2026-10-18 11:39 UTC | Act1 | — | Assassin, Golden Scout, None | [Open](29-2026-10-18-11-39-40.txt) |
+| 30 | 2026-10-18 20:11 UTC | Act1 | — | EvolvedOperator, Golden Scout, Pyromancer, EvolvedEnforcer, None | [Open](30-2026-10-18-20-11-30.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
