@@ -16,10 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 10 | [Open](Unknown/README.md) |
+| Dead Ahead | 5 | [Open](Dead%20Ahead/README.md) |
 
+| Unknown | 10 | [Open](Unknown/README.md) |
 | Gilded Path | 8 | [Open](Gilded%20Path/README.md) |
-| Dead Ahead | 4 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 2 | [Open](Lay%20By/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
