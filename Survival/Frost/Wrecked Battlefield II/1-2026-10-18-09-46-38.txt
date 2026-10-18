@@ -1,0 +1,16 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Electroshocker", "Trapper", "None", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Wrecked Battlefield II", {})
+TDS:Ready()
+TDS:Place("Trapper", 0.8007984161376953, 0.030513525009155273, 12.802165985107422)
+
+-- [[ END OF STRATEGY ]]
