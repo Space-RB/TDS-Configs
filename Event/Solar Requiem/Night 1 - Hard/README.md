@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 25 recorded strategies available for this map**
+**📦 26 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -44,6 +44,7 @@ Select a strategy below and open its config file.
 | 23 | 2026-10-18 00:55 UTC | Act1 | — | Golden Scout, Assassin, None | [Open](23-2026-10-18-00-55-05.txt) |
 | 24 | 2026-10-18 01:04 UTC | Act1 | — | Golden Scout, Assassin, None | [Open](24-2026-10-18-01-04-19.txt) |
 | 25 | 2026-10-18 01:09 UTC | Act1 | — | Golden Scout, Assassin, None | [Open](25-2026-10-18-01-09-02.txt) |
+| 26 | 2026-10-18 01:21 UTC | Act1 | — | Golden Scout, Assassin, None | [Open](26-2026-10-18-01-21-55.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
