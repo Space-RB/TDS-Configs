@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Wrecked Battlefield II | 1 | [Open](Wrecked%20Battlefield%20II/README.md) |
+| Wrecked Battlefield II | 2 | [Open](Wrecked%20Battlefield%20II/README.md) |
 
 | Unknown | 7 | [Open](Unknown/README.md) |
 | Lay By | 6 | [Open](Lay%20By/README.md) |
