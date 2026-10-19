@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 59 recorded strategies available for this map**
+**📦 60 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -78,6 +78,7 @@ Select a strategy below and open its config file.
 | 57 | 2026-10-19 18:09 UTC | Unknown | — | Electroshocker, Sniper, None | [Open](57-2026-10-19-18-09-07.txt) |
 | 58 | 2026-10-19 18:20 UTC | Unknown | — | Trapper, DJ Booth, Hacker, None | [Open](58-2026-10-19-18-20-12.txt) |
 | 59 | 2026-10-19 19:09 UTC | Unknown | — | Ace Pilot, Boomerang, Militant, Hunter, Farm | [Open](59-2026-10-19-19-09-35.txt) |
+| 60 | 2026-10-19 19:11 UTC | Unknown | — | Ace Pilot, Boomerang, Militant, Hunter, Farm | [Open](60-2026-10-19-19-11-45.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
