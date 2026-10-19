@@ -1,0 +1,87 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Minigunner", "Necromancer", "Electroshocker", "Turret", "Military Base")
+TDS:Mode("Casual")
+TDS:GameInfo("Dead Ahead", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Electroshocker", -4.994629383087158, 1.0000027418136597, -17.058086395263672)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Electroshocker", -5.103167533874512, 1.0000022649765015, -13.994969367980957)
+
+-- [ Wave 4 ] --
+TDS:Place("Military Base", -10.160902976989746, 0.9999924302101135, 46.18216323852539)
+TDS:Place("Military Base", -5.136940956115723, 0.9999924302101135, 46.34954833984375)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Place("Electroshocker", -5.537747383117676, 1.0000017881393433, -10.977132797241211)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Place("Military Base", -5.136940956115723, 0.9999932050704956, 41.809547424316406)
+TDS:Place("Military Base", -10.160902976989746, 0.9999932050704956, 41.64216232299805)
+
+-- [ Wave 8 ] --
+TDS:Place("Military Base", -14.092658042907715, 0.999992847442627, 43.91216278076172)
+TDS:Upgrade(8)
+TDS:Upgrade(3)
+TDS:Upgrade(7)
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Place("Necromancer", 5.134360313415527, 0.9999983310699463, 10.27446174621582)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Place("Necromancer", 5.134360313415527, 0.9999978542327881, 13.314461708068848)
+
+-- [ Wave 14 ] --
+TDS:Place("Necromancer", 2.501643180847168, 0.9999892711639404, 11.794462203979492)
+TDS:Place("Electroshocker", 0.18745917081832886, 1.0199838876724243, 24.93069076538086)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 15 ] --
+TDS:Place("Turret", 1.1469454765319824, 1.0250049829483032, 15.064996719360352)
+
+-- [ Wave 16 ] --
+TDS:Place("Minigunner", -4.463278293609619, 0.9499833583831787, 14.389841079711914)
+TDS:Upgrade(14)
+TDS:Place("Minigunner", -5.352285385131836, 0.9499685168266296, 17.296947479248047)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(15)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 19 ] --
+TDS:Place("Electroshocker", 2.501643180847168, 0.9999901652336121, 8.754462242126465)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [[ END OF STRATEGY ]]
