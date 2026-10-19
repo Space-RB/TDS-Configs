@@ -1,0 +1,21 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMedic = true
+_G.AutoMercenary = true
+_G.AutoNecro = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.GatlingRate = 30
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.gui_hidden = true
+_G.GatlingTargets = 4
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Trapper", "Commander", "DJ Booth", "Gatling Gun", "None")
+TDS:Mode("Act2")
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
