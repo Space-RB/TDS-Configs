@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 53 recorded strategies available for this map**
+**📦 54 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -72,6 +72,7 @@ Select a strategy below and open its config file.
 | 51 | 2026-10-19 12:13 UTC | Unknown | — | Golden Scout, Hacker, Commander, Engineer, EvolvedJuggernaut | [Open](51-2026-10-19-12-13-30.txt) |
 | 52 | 2026-10-19 13:24 UTC | Unknown | — | Militant, Commander, Crook Boss, Freezer, Trapper | [Open](52-2026-10-19-13-24-16.txt) |
 | 53 | 2026-10-19 15:23 UTC | Unknown | — | Pyromancer, Crook Boss, None | [Open](53-2026-10-19-15-23-05.txt) |
+| 54 | 2026-10-19 15:40 UTC | Unknown | — | Cowboy, EvolvedKingpin, DJ Booth, Hacker, Minigunner | [Open](54-2026-10-19-15-40-30.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
