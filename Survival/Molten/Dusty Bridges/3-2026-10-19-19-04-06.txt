@@ -1,0 +1,183 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("DJ Booth", "Turret", "Ranger", "Tesla", "Military Base")
+TDS:Mode("Molten")
+TDS:GameInfo("Dusty Bridges", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Military Base", 51.38616180419922, 29.3450927734375, -135.08233642578125)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Military Base", 46.846336364746094, 29.196495056152344, -135.0426788330078)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Military Base", 51.860042572021484, 29.3358154296875, -130.567138671875)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Place("Military Base", 47.32004165649414, 28.5202579498291, -130.567138671875)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Place("Military Base", 42.21343231201172, 28.216466903686523, -135.040283203125)
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Place("DJ Booth", 51.827964782714844, 29.371292114257812, -140.52792358398438)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 20 ] --
+TDS:Place("Turret", 40.382911682128906, 28.74196434020996, -148.8931121826172)
+
+-- [ Wave 21 ] --
+TDS:Place("Turret", 41.947364807128906, 28.508960723876953, -152.6315460205078)
+TDS:Place("Turret", 44.38930892944336, 29.11290740966797, -149.4130859375)
+
+-- [ Wave 22 ] --
+TDS:Place("Tesla", 25.97072410583496, 27.382230758666992, -150.3286590576172)
+
+-- [ Wave 23 ] --
+TDS:Place("Tesla", 52.10111618041992, 29.382976531982422, -146.58642578125)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Place("Ranger", 61.046295166015625, 32.11077117919922, -149.74734497070312)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Ranger", 59.27354431152344, 31.857908248901367, -146.91136169433594)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Ranger", 58.763404846191406, 31.884727478027344, -143.87274169921875)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Ranger", 60.315406799316406, 31.948200225830078, -141.15200805664062)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Ranger", 63.09215545654297, 31.784526824951172, -139.77479553222656)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Ranger", 62.91111373901367, 32.20122146606445, -143.4808349609375)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Ranger", 63.6255989074707, 33.24327850341797, -147.8587646484375)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Ranger", 66.39381408691406, 33.080265045166016, -145.26126098632812)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(18)
+TDS:Upgrade(19)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(18)
+TDS:Upgrade(13)
+TDS:Upgrade(17)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(19)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+
+-- [[ END OF STRATEGY ]]
