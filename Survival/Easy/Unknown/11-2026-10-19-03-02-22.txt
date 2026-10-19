@@ -1,0 +1,105 @@
+_G.AutoGatling = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.gui_hidden = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Militant", "None", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("", {"ExplodingEnemies", "Glass", "HiddenEnemies", "Limitation"})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Militant", -5.316921234130859, 1.000003457069397, -20.8880672454834)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Militant", -5.453964710235596, 1.0000039339065552, -23.924976348876953)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Militant", -5.28132963180542, 1.0000044107437134, -26.960071563720703)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:Place("Militant", -5.119696617126465, 1.0000048875808716, -29.995771408081055)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:Place("Militant", -5.200611591339111, 0.9999976754188538, -33.03469467163086)
+TDS:Upgrade(5)
+TDS:Place("Militant", 1.0012273788452148, 1.0000025033950806, -36.9189567565918)
+TDS:Upgrade(6)
+
+-- [ Wave 7 ] --
+TDS:Place("Militant", 1.131204605102539, 0.9999986290931702, -33.881736755371094)
+TDS:Upgrade(7)
+
+-- [ Wave 8 ] --
+TDS:Place("Militant", 1.189218521118164, 1.0000050067901611, -30.8422908782959)
+TDS:Upgrade(8)
+TDS:Place("Militant", 1.2151679992675781, 1.000004529953003, -27.80240249633789)
+TDS:Upgrade(9)
+
+-- [ Wave 9 ] --
+TDS:Place("Militant", 4.019754409790039, 0.9499622583389282, -37.27964782714844)
+TDS:Upgrade(10)
+TDS:Place("Militant", 4.149731159210205, 0.9999967217445374, -34.242427825927734)
+TDS:Upgrade(11)
+TDS:Place("Militant", -5.015921115875244, 0.9999993443489075, -36.06306457519531)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(12)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(7)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(12)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]
