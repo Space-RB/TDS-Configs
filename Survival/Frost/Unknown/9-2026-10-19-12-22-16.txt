@@ -1,0 +1,70 @@
+_G.AutoPickups = false
+_G.AutoSkip = true
+_G.SellFarms = true
+_G.SellFarmsWave = 40
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Shotgunner", "Scout", "None", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Scout", -12.200610160827637, 1.0000005960464478, -3.4335365295410156)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:Place("Scout", -12.29537296295166, 1.0000001192092896, -0.38685131072998047)
+TDS:Upgrade(2)
+TDS:Place("Scout", -9.161224365234375, 1.0000005960464478, -3.494656562805176)
+TDS:Upgrade(3)
+TDS:Place("Scout", -9.279885292053223, 1.0000001192092896, -0.4569730758666992)
+TDS:Upgrade(4)
+
+-- [ Wave 2 ] --
+TDS:Place("Scout", -12.678882598876953, 0.9999932646751404, -9.275172233581543)
+TDS:Upgrade(5)
+TDS:Place("Scout", -9.656325340270996, 0.9999855160713196, -8.949983596801758)
+TDS:Upgrade(6)
+TDS:Place("Scout", -12.674907684326172, 0.9999917149543762, -12.400344848632812)
+TDS:Upgrade(7)
+
+-- [ Wave 3 ] --
+TDS:Place("Scout", -6.621588706970215, 0.9999892711639404, -9.128788948059082)
+TDS:Upgrade(8)
+TDS:Place("Scout", -6.126384735107422, 0.9999880790710449, -3.6717069149017334)
+TDS:Upgrade(9)
+
+-- [ Wave 4 ] --
+TDS:Place("Scout", -13.158438682556152, 0.999988853931427, -15.401643753051758)
+TDS:Upgrade(10)
+
+-- [ Wave 5 ] --
+TDS:Place("Shotgunner", -18.13745880126953, 1.0000003576278687, -1.8150625228881836)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 9 ] --
+TDS:Place("Shotgunner", -18.12567138671875, 1.0000007152557373, -3.952275276184082)
+TDS:Upgrade(12)
+TDS:Place("Shotgunner", -18.259780883789062, 0.9999834895133972, -6.2564697265625)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+
+-- [ Wave 12 ] --
+TDS:Place("Shotgunner", -18.105632781982422, 0.9999870657920837, -8.377666473388672)
+TDS:Upgrade(14)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(14)
+
+-- [[ END OF STRATEGY ]]
