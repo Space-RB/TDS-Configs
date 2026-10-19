@@ -1,0 +1,26 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.ClaimRewards = true
+_G.TimeScaleEnabled = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.gui_hidden = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Scout", "None", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", -5.435011863708496, 0.9500054121017456, -36.914344787597656)
+TDS:Place("Scout", -0.03462803363800049, 0.94996178150177, -37.590240478515625)
+
+-- [[ END OF STRATEGY ]]
