@@ -16,15 +16,15 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Gilded Path | 1 | [Open](Gilded%20Path/README.md) |
+| Black Spot Exchange | 3 | [Open](Black%20Spot%20Exchange/README.md) |
 
 | Unknown | 6 | [Open](Unknown/README.md) |
 | Retro Crossroads | 3 | [Open](Retro%20Crossroads/README.md) |
-| Black Spot Exchange | 2 | [Open](Black%20Spot%20Exchange/README.md) |
 | Dead Ahead | 2 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 2 | [Open](Lay%20By/README.md) |
 | Farm Lands | 1 | [Open](Farm%20Lands/README.md) |
 | Four Seasons | 1 | [Open](Four%20Seasons/README.md) |
+| Gilded Path | 1 | [Open](Gilded%20Path/README.md) |
 | Moon Base | 1 | [Open](Moon%20Base/README.md) |
 | Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
 </div>
