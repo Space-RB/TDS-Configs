@@ -1,0 +1,53 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Saboteur", "None", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wrecked Battlefield", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Saboteur", -10.491385459899902, 0.9999560713768005, 9.188651084899902)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Saboteur", -13.284213066101074, 0.999957263469696, 7.510663986206055)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Saboteur", -7.276049613952637, 0.9999566674232483, 8.350715637207031)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Saboteur", -4.901547431945801, 0.9999518990516663, 15.165278434753418)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Saboteur", -7.898089408874512, 0.9999512434005737, 16.16236114501953)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Place("Saboteur", -18.068859100341797, 0.9999536275863647, 12.750904083251953)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Place("Saboteur", -15.125926971435547, 0.9999517798423767, 15.343021392822266)
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
