@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 2 recorded strategies available for this map**
+**📦 3 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -21,6 +21,7 @@ Select a strategy below and open its config file.
 | 1 | 2026-10-17 00:18 UTC | Hardcore | — | Mortar, Elf Camp, Minigunner, Farm, Mercenary Base | [Open](1-2026-10-17-00-18-29.txt) |
 
 | 2 | 2026-10-17 16:46 UTC | Hardcore | — | Sniper, Electroshocker, Soldier, None | [Open](2-2026-10-17-16-46-35.txt) |
+| 3 | 2026-10-19 16:48 UTC | Hardcore | — | Saboteur, None | [Open](3-2026-10-19-16-48-37.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
