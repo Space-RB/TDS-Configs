@@ -1,0 +1,43 @@
+_G.AntiLag = true
+_G.AutoReady = false
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Assassin", "Soldier", "Mortar", "None", "None")
+TDS:Mode("Act1")
+TDS:Ready()
+TDS:Place("Assassin", 25.262691497802734, 2.0009987354278564, 196.91729736328125)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 26.720611572265625, 2.0009984970092773, 198.6085662841797)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Place("Assassin", 26.76985740661621, 2.0009989738464355, 195.22756958007812)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Place("Assassin", 28.23027801513672, 2.0009987354278564, 196.93836975097656)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+TDS:Place("Assassin", 28.662267684936523, 2.0009982585906982, 199.2343292236328)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Place("Soldier", -22.17668342590332, 2.0596888065338135, 222.82012939453125)
+
+-- [[ END OF STRATEGY ]]
