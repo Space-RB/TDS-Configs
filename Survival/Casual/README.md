@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
+| Lay By | 1 | [Open](Lay%20By/README.md) |
 
 | Unknown | 6 | [Open](Unknown/README.md) |
 | Retro Crossroads | 3 | [Open](Retro%20Crossroads/README.md) |
@@ -24,6 +24,7 @@ Choose one of the categories below to continue.
 | Farm Lands | 1 | [Open](Farm%20Lands/README.md) |
 | Four Seasons | 1 | [Open](Four%20Seasons/README.md) |
 | Moon Base | 1 | [Open](Moon%20Base/README.md) |
+| Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>
