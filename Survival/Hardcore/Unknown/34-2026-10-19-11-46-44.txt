@@ -1,0 +1,42 @@
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("EvolvedOperator", "EvolvedJuggernaut", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", -3.3978257179260254, 0.975859522819519, -32.082359313964844)
+TDS:Place("EvolvedOperator", -6.404738426208496, 0.9578098654747009, -31.971439361572266)
+TDS:Place("EvolvedOperator", 3.680609703063965, 0.604706346988678, -16.590312957763672)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 16 ] --
+TDS:Place("EvolvedJuggernaut", 1.5405818223953247, 1.3696024417877197, 19.91936683654785)
+
+-- [[ END OF STRATEGY ]]
