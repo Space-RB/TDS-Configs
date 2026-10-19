@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 14 recorded strategies available for this map**
+**📦 15 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -33,6 +33,7 @@ Select a strategy below and open its config file.
 | 12 | 2026-10-19 10:26 UTC | Act2 | — | Trapper, Commander, DJ Booth, Gatling Gun, None | [Open](12-2026-10-19-10-26-03.txt) |
 | 13 | 2026-10-19 11:12 UTC | Act2 | — | Trapper, Commander, DJ Booth, Gatling Gun, None | [Open](13-2026-10-19-11-12-02.txt) |
 | 14 | 2026-10-19 11:57 UTC | Act2 | — | Trapper, Commander, DJ Booth, Gatling Gun, None | [Open](14-2026-10-19-11-57-08.txt) |
+| 15 | 2026-10-19 12:15 UTC | Act2 | — | Trapper, Commander, DJ Booth, Gatling Gun, None | [Open](15-2026-10-19-12-15-02.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
