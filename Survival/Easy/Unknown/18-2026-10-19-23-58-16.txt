@@ -1,0 +1,88 @@
+_G.AutoDJ = true
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.TimeScaleEnabled = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedJuggernaut", "Shotgunner", "DJ Booth", "Golden Cowboy", "Brawler")
+TDS:Mode("Easy")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", 0.16534441709518433, 0.9499655961990356, -37.706634521484375)
+TDS:Place("Brawler", -5.235405921936035, 0.9500025510787964, -36.62211227416992)
+
+-- [ Wave 2 ] --
+TDS:Place("Brawler", -0.12674009799957275, 1.020005702972412, -35.695396423339844)
+TDS:Place("Brawler", -5.235405921936035, 0.9999983310699463, -34.58211135864258)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Place("DJ Booth", -5.187410354614258, 1.0000050067901611, -31.042436599731445)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", 2.046010971069336, 0.9500056505203247, -38.77702331542969)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+TDS:Place("Brawler", 1.9611387252807617, 1.0000046491622925, -36.73878860473633)
+TDS:Upgrade(7)
+TDS:Place("Brawler", -7.250125885009766, 0.9499630331993103, -36.30194854736328)
+TDS:Upgrade(8)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 19 ] --
+TDS:Place("EvolvedJuggernaut", 0.1705378293991089, 1.0200047492980957, -32.1998405456543)
+TDS:Upgrade(9)
+TDS:Upgrade(6)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
