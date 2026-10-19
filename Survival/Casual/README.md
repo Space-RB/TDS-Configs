@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Lay By | 1 | [Open](Lay%20By/README.md) |
+| Lay By | 2 | [Open](Lay%20By/README.md) |
 
 | Unknown | 6 | [Open](Unknown/README.md) |
 | Retro Crossroads | 3 | [Open](Retro%20Crossroads/README.md) |
