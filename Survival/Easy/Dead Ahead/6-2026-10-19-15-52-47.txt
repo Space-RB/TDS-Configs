@@ -1,0 +1,11 @@
+
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("EvolvedOperator", "Executioner", "Commander", "Militant", "Shotgunner")
+TDS:Mode("Easy")
+TDS:GameInfo("Dead Ahead", {"ExplodingEnemies", "FlyingEnemies", "Glass", "HealthyEnemies", "HiddenEnemies", "Limitation"})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
