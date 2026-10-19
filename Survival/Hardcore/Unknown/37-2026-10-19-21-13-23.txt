@@ -1,0 +1,39 @@
+
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("None", "None", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", -7.359137535095215, 0.9674527645111084, -31.886993408203125)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 12 ] --
+TDS:Place("Hunter", 2.6181602478027344, 0.45029759407043457, -15.317842483520508)
+TDS:Place("Hunter", -1.6195077896118164, 0.29656657576560974, -16.280658721923828)
+TDS:Place("Hunter", 1.5346670150756836, 0.6147458553314209, -18.874221801757812)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+
+-- [ Wave 17 ] --
+TDS:Place("Pyromancer", 11.684547424316406, 1.0394561290740967, 20.509185791015625)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [[ END OF STRATEGY ]]
