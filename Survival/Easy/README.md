@@ -16,9 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 13 | [Open](Unknown/README.md) |
+| Gilded Path | 9 | [Open](Gilded%20Path/README.md) |
 
-| Gilded Path | 8 | [Open](Gilded%20Path/README.md) |
+| Unknown | 13 | [Open](Unknown/README.md) |
 | Dead Ahead | 6 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 2 | [Open](Lay%20By/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
