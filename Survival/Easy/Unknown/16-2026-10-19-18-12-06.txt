@@ -1,0 +1,160 @@
+_G.AutoGatling = true
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.ClaimRewards = true
+_G.TimeScaleEnabled = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Scout", "None", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Scout", -5.682757377624512, 0.9500048160552979, -36.96084213256836)
+TDS:Upgrade(1)
+TDS:Place("Scout", 0.34803712368011475, 0.9499651193618774, -37.8961067199707)
+TDS:Upgrade(2)
+TDS:Place("Scout", -5.016132831573486, 0.9999993443489075, -33.887046813964844)
+TDS:Upgrade(3)
+TDS:Place("Scout", 0.34803712368011475, 1.020005464553833, -34.85610580444336)
+TDS:Upgrade(4)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Place("Scout", -7.891963958740234, 0.9499658942222595, -34.87253952026367)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Place("Scout", 3.3880372047424316, 0.9499721527099609, -37.8961067199707)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Scout", 3.3880367279052734, 0.9999999403953552, -34.85610580444336)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Scout", -5.016132831573486, 1.0000050067901611, -30.8470458984375)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 7 ] --
+TDS:Place("Scout", 0.34803712368011475, 1.0200046300888062, -31.816104888916016)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Scout", 3.3880367279052734, 1.0000051259994507, -31.816104888916016)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Scout", -7.891963481903076, 1.0000040531158447, -31.832538604736328)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Scout", -5.016132831573486, 1.000004529953003, -27.807044982910156)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Scout", 0.19140172004699707, 1.0200036764144897, -28.781869888305664)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Scout", -7.891963481903076, 0.9999955296516418, -28.792539596557617)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Scout", 3.2314014434814453, 1.0000046491622925, -28.781869888305664)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Place("Scout", -5.016132831573486, 1.0000040531158447, -24.767044067382812)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Scout", -0.1510583609342575, 1.020002841949463, -25.797513961791992)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Scout", 2.888941764831543, 1.0000041723251343, -25.797513961791992)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Scout", -7.891963005065918, 1.0000041723251343, -25.752540588378906)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(11)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(14)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(19)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+
+-- [ Wave 17 ] --
+TDS:Place("Scout", -5.016132831573486, 1.0000035762786865, -21.72704315185547)
+TDS:Place("Scout", 0.17039060592651367, 1.020002007484436, -22.791837692260742)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(11)
+TDS:Upgrade(7)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(13)
+TDS:Upgrade(15)
+TDS:Upgrade(12)
+TDS:Upgrade(14)
+TDS:Upgrade(19)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(20)
+TDS:Upgrade(21)
+TDS:Upgrade(18)
+
+-- [[ END OF STRATEGY ]]
