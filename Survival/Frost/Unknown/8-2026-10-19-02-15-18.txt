@@ -1,0 +1,67 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Golden Cowboy", "DJ Booth", "EvolvedJuggernaut", "Ranger", "Shotgunner")
+TDS:Mode("Frost")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Cowboy", -17.95056915283203, 1.0000003576278687, -1.8009147644042969)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Cowboy", -17.95056915283203, 0.9999834895133972, -4.340914726257324)
+TDS:Upgrade(2)
+TDS:Place("Cowboy", -12.056304931640625, 1.0000005960464478, -3.617880344390869)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Cowboy", -9.516304969787598, 1.0000007152557373, -3.617880344390869)
+TDS:Place("Cowboy", -12.685465812683105, 1.000000238418579, -1.146191120147705)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+TDS:Place("Cowboy", -10.145488739013672, 0.9999831914901733, -1.1570416688919067)
+TDS:Upgrade(6)
+
+-- [ Wave 6 ] --
+TDS:Place("Cowboy", -6.97630500793457, 0.999987006187439, -3.617880344390869)
+TDS:Upgrade(7)
+TDS:Place("Cowboy", -7.798834800720215, 1.0000001192092896, -0.18502569198608398)
+TDS:Upgrade(8)
+
+-- [ Wave 7 ] --
+TDS:Place("Cowboy", -12.685465812683105, 0.9999998807907104, 1.3938088417053223)
+TDS:Upgrade(9)
+TDS:Place("Cowboy", -10.145488739013672, 0.9999998211860657, 1.3829584121704102)
+TDS:Upgrade(10)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(7)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Place("DJ Booth", -5.120073318481445, 0.999993622303009, -8.84910774230957)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", 12.993463516235352, 0.9999816417694092, 9.21500301361084)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(12)
+
+-- [[ END OF STRATEGY ]]
