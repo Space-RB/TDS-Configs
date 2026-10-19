@@ -1,0 +1,64 @@
+_G.AutoChain = true
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Crook Boss", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Gilded Path", {})
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Pyromancer", 5.586183547973633, 0.9723546504974365, -34.98739242553711)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Place("Pyromancer", 11.352258682250977, 0.9401230812072754, -8.156245231628418)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 16 ] --
+TDS:Place("Pyromancer", 12.815340995788574, 0.9687021970748901, -14.314846992492676)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 17 ] --
+TDS:Place("Pyromancer", 8.08584213256836, 0.9748102426528931, -31.993045806884766)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Place("Pyromancer", 2.6625633239746094, 0.980217456817627, -42.94847106933594)
+
+-- [[ END OF STRATEGY ]]
