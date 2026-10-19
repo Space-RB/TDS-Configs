@@ -1,0 +1,11 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Gatling Gun", "Turret", "Mercenary Base", "Trapper", "None")
+TDS:Mode("Trial")
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
