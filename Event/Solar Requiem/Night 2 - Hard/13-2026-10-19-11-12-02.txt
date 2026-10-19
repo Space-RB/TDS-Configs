@@ -1,0 +1,86 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMedic = true
+_G.AutoMercenary = true
+_G.AutoNecro = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.GatlingRate = 30
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.gui_hidden = true
+_G.GatlingTargets = 4
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Trapper", "Commander", "DJ Booth", "Gatling Gun", "None")
+TDS:Mode("Act2")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Trapper", 5.656267166137695, 47.880653381347656, -5.3694167137146)
+TDS:Place("Trapper", 2.6380317211151123, 47.92633056640625, -5.172858238220215)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Place("Gatling Gun", -0.47559452056884766, 47.793678283691406, -3.488539695739746)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 17 ] --
+TDS:Place("Trapper", -1.764674186706543, 46.9284553527832, -26.763286590576172)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(3)
+TDS:Place("DJ Booth", 9.081430435180664, 47.696372985839844, -3.262627363204956)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("Commander", -3.706493377685547, 47.6107177734375, -8.032548904418945)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Commander", -6.023782730102539, 47.61835861206055, -4.70643949508667)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Commander", -6.471349239349365, 47.719749450683594, -9.296340942382812)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(3)
+
+-- [[ END OF STRATEGY ]]
