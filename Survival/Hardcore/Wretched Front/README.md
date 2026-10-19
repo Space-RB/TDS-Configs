@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 64 recorded strategies available for this map**
+**📦 65 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -83,6 +83,7 @@ Select a strategy below and open its config file.
 | 62 | 2026-10-18 22:25 UTC | Hardcore | ExplodingEnemies, Glass | Trapper, Tesla, Gatling Gun, DJ Booth, Ranger | [Open](62-2026-10-18-22-25-55.txt) |
 | 63 | 2026-10-18 23:30 UTC | Hardcore | ExplodingEnemies, Glass | Trapper, Tesla, Gatling Gun, DJ Booth, Pursuit | [Open](63-2026-10-18-23-30-43.txt) |
 | 64 | 2026-10-18 23:53 UTC | Hardcore | — | Farm, Gatling Gun, Pyromancer, Warden, Tesla | [Open](64-2026-10-18-23-53-44.txt) |
+| 65 | 2026-10-19 00:10 UTC | Hardcore | — | Farm, Gatling Gun, Pyromancer, Warden, Tesla | [Open](65-2026-10-19-00-10-28.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
