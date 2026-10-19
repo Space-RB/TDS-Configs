@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 11 recorded strategies available for this map**
+**📦 12 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -30,6 +30,7 @@ Select a strategy below and open its config file.
 | 9 | 2026-10-18 14:20 UTC | Easy | — | Electroshocker, Militant, Scout, Commander, DJ Booth | [Open](9-2026-10-18-14-20-20.txt) |
 | 10 | 2026-10-18 14:32 UTC | Easy | — | Militant, Scout, Commander, DJ Booth, Slime Trooper | [Open](10-2026-10-18-14-32-26.txt) |
 | 11 | 2026-10-19 03:02 UTC | Easy | ExplodingEnemies, Glass, HiddenEnemies, Limitation | Militant, None | [Open](11-2026-10-19-03-02-22.txt) |
+| 12 | 2026-10-19 15:53 UTC | Easy | — | Pyromancer, Crook Boss, None | [Open](12-2026-10-19-15-53-10.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
