@@ -1,0 +1,28 @@
+_G.AutoChain = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Pyromancer", "Crook Boss", "None", "None", "None")
+TDS:Mode("Intermediate")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 3 ] --
+TDS:Place("Pyromancer", 5.717282295227051, 0.9711441993713379, -34.27410125732422)
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Place("Pyromancer", 11.074996948242188, 0.9342086315155029, -6.889688491821289)
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
