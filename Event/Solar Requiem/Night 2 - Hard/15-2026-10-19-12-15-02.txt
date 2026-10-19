@@ -1,0 +1,83 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMedic = true
+_G.AutoMercenary = true
+_G.AutoNecro = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.GatlingRate = 30
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.gui_hidden = true
+_G.GatlingTargets = 4
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Trapper", "Commander", "DJ Booth", "Gatling Gun", "None")
+TDS:Mode("Act2")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Trapper", 5.409088134765625, 47.910762786865234, -5.3972673416137695)
+TDS:Place("Trapper", 2.3726344108581543, 47.85008239746094, -5.25054931640625)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Place("Gatling Gun", -0.46532583236694336, 47.87451171875, -3.1345198154449463)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Place("Trapper", -0.7654914855957031, 46.80036544799805, -28.372854232788086)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(1)
+TDS:Place("DJ Booth", -1.4076805114746094, 47.839168548583984, 1.3066022396087646)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(5)
+TDS:Place("Commander", 8.042680740356445, 47.98031234741211, -3.4977540969848633)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Commander", 8.944141387939453, 48.03464889526367, -0.5938714742660522)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Commander", 8.980118751525879, 47.9509391784668, 2.6983866691589355)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [[ END OF STRATEGY ]]
