@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Solar Requiem | 53 | [Open](Solar%20Requiem/README.md) |
+| Solar Requiem | 54 | [Open](Solar%20Requiem/README.md) |
 
 </div>
 
