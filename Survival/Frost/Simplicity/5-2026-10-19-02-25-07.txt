@@ -1,0 +1,19 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable or loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+
+TDS:Loadout("Golden Cowboy", "DJ Booth", "EvolvedJuggernaut", "Ranger", "Shotgunner")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Cowboy", -17.95056915283203, 0.9999834895133972, -4.340914726257324)
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
