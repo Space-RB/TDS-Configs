@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Dead Ahead | 1 | [Open](Dead%20Ahead/README.md) |
+| Dead Ahead | 2 | [Open](Dead%20Ahead/README.md) |
 
 | Unknown | 6 | [Open](Unknown/README.md) |
 | Retro Crossroads | 3 | [Open](Retro%20Crossroads/README.md) |
