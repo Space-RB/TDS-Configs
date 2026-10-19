@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
+| Dusty Bridges | 1 | [Open](Dusty%20Bridges/README.md) |
 
 | Simplicity | 6 | [Open](Simplicity/README.md) |
 | Unknown | 4 | [Open](Unknown/README.md) |
@@ -24,6 +24,7 @@ Choose one of the categories below to continue.
 | Rocket Arena | 2 | [Open](Rocket%20Arena/README.md) |
 | U-Turn | 2 | [Open](U-Turn/README.md) |
 | Dead Ahead | 1 | [Open](Dead%20Ahead/README.md) |
+| Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Hot Spot | 1 | [Open](Hot%20Spot/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Retro Crossroads | 1 | [Open](Retro%20Crossroads/README.md) |
