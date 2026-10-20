@@ -1,0 +1,27 @@
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "Mercenary Base", "DJ Booth", "Gatling Gun", "Hacker")
+TDS:Mode("Fallen")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Trapper", 10.556324005126953, 6.703125, 29.00579261779785, true)
+
+-- [ Wave 1 ] --
+TDS:WaitForWave(1)
+TDS:Sell(1)
+TDS:Place("Trapper", 4.765213966369629, 243, 219.9390869140625, true)
+
+-- [[ END OF STRATEGY ]]
