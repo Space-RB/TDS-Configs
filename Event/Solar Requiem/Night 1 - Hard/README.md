@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 34 recorded strategies available for this map**
+**📦 35 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -53,6 +53,7 @@ Select a strategy below and open its config file.
 | 32 | 2026-10-19 16:58 UTC | Act1 | — | Assassin, Soldier, Mortar, None | [Open](32-2026-10-19-16-58-39.txt) |
 | 33 | 2026-10-19 17:15 UTC | Act1 | — | Assassin, Soldier, Mortar, None | [Open](33-2026-10-19-17-15-31.txt) |
 | 34 | 2026-10-20 15:51 UTC | Act1 | — | Scout, Sniper, Demoman, None | [Open](34-2026-10-20-15-51-24.txt) |
+| 35 | 2026-10-20 17:19 UTC | Act1 | — | EvolvedOperator, Golden Demoman, None | [Open](35-2026-10-20-17-19-38.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
