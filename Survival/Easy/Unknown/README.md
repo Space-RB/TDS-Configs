@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 19 recorded strategies available for this map**
+**📦 20 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -38,6 +38,7 @@ Select a strategy below and open its config file.
 | 17 | 2026-10-19 23:51 UTC | Easy | — | EvolvedJuggernaut, Shotgunner, DJ Booth, Golden Cowboy, Brawler | [Open](17-2026-10-19-23-51-06.txt) |
 | 18 | 2026-10-19 23:58 UTC | Easy | — | EvolvedJuggernaut, Shotgunner, DJ Booth, Golden Cowboy, Brawler | [Open](18-2026-10-19-23-58-16.txt) |
 | 19 | 2026-10-20 00:13 UTC | Easy | — | EvolvedJuggernaut, Shotgunner, DJ Booth, Golden Cowboy, Brawler | [Open](19-2026-10-20-00-13-08.txt) |
+| 20 | 2026-10-20 10:47 UTC | Easy | — | Ranger, Minigunner, Pyromancer, Shotgunner, None | [Open](20-2026-10-20-10-47-00.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
