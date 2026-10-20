@@ -1,0 +1,150 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoReady = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.SelectedXPTower = "Crook Boss"
+_G.StreamerMode = true
+_G.GatlingRate = 30
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.gui_hidden = true
+_G.AutoGatlingSettings.ignore_lead_mutation = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedOperator", "Golden Demoman", "None", "None", "None")
+TDS:Mode("Act1")
+TDS:Ready()
+TDS:Place("EvolvedOperator", 13.57859992980957, 2.0416676998138428, 197.87164306640625)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", 11.04336929321289, 2.0557525157928467, 198.0272216796875)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Place("EvolvedOperator", 10.614165306091309, 2.0224387645721436, 195.52374267578125)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Place("EvolvedOperator", 13.14939022064209, 2.0340964794158936, 195.3681640625)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+TDS:Place("EvolvedOperator", 15.663576126098633, 2.0009989738464355, 195.7293701171875)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("Demoman", 13.746374130249023, 2.000999689102173, 190.0906982421875)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(6)
+TDS:Place("EvolvedOperator", 16.092737197875977, 2.003617763519287, 198.23284912109375)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 8 ] --
+TDS:Place("EvolvedOperator", 11.324196815490723, 2.0696592330932617, 200.55165100097656)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 9 ] --
+TDS:Place("EvolvedOperator", 13.827316284179688, 2.0615580081939697, 200.53982543945312)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("EvolvedOperator", 16.357845306396484, 2.000998020172119, 200.75897216796875)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Demoman", 16.786205291748047, 2.000999689102173, 190.12265014648438)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(11)
+TDS:Place("Demoman", 10.720932960510254, 2.000999689102173, 190.3878631591797)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(12)
+TDS:Place("Demoman", 16.73126220703125, 2.0009992122650146, 193.15174865722656)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(13)
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(12)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Place("EvolvedOperator", 8.507989883422852, 2.0105605125427246, 197.87408447265625)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("EvolvedOperator", 8.788817405700684, 2.000998020172119, 200.3985137939453)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(11)
+TDS:Place("EvolvedOperator", 7.816596984863281, 2.0009989738464355, 195.44253540039062)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("EvolvedOperator", 6.309006690979004, 2.000998020172119, 200.94818115234375)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [[ END OF STRATEGY ]]
