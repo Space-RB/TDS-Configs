@@ -1,0 +1,90 @@
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.MatchTrackerEnabled = false
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pursuit", "Necromancer", "Farm", "Minigunner", "Electroshocker")
+TDS:Mode("Fallen")
+TDS:GameInfo("Wrecked Battlefield", {})
+TDS:Ready()
+TDS:Place("Electroshocker", 12.484029769897461, 3.599985361099243, 16.333782196044922)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", 38.68409729003906, 3.5999999046325684, 0.2882823944091797)
+TDS:Place("Farm", 38.64030838012695, 3.5999064445495605, -3.2514467239379883)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Place("Farm", 35.144901275634766, 3.5999064445495605, 0.2129077911376953)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", 35.101654052734375, 3.6000003814697266, -3.3490653038024902)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Place("Farm", 37.18313217163086, 3.6000008583068848, -6.477626323699951)
+TDS:Place("Farm", 33.28498077392578, 3.6000008583068848, -6.387370586395264)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Place("Farm", 40.70567321777344, 3.5999064445495605, -6.12648868560791)
+TDS:Upgrade(8)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+TDS:Place("Farm", 31.593305587768555, 3.599923849105835, -3.3076553344726562)
+TDS:Upgrade(9)
+TDS:Place("Farm", 31.604900360107422, 3.599912643432617, 0.2129077911376953)
+TDS:Upgrade(10)
+
+-- [ Wave 7 ] --
+TDS:Place("Electroshocker", -10.585197448730469, 3.599980354309082, 4.448176383972168)
+TDS:Upgrade(11)
+TDS:Place("Electroshocker", -12.104326248168945, 3.599980354309082, 1.4880139827728271)
+TDS:Place("Farm", 42.16284942626953, 3.5999064445495605, -2.9003090858459473)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+TDS:Upgrade(8)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Place("Necromancer", -2.225766658782959, 0.9999681115150452, -8.011210441589355)
+TDS:Upgrade(8)
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+TDS:Place("Electroshocker", 12.951746940612793, 0.9999852180480957, -32.53373336791992)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(14)
+
+-- [[ END OF STRATEGY ]]
