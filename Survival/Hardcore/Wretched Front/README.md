@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 72 recorded strategies available for this map**
+**📦 73 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -91,6 +91,7 @@ Select a strategy below and open its config file.
 | 70 | 2026-10-19 22:45 UTC | Hardcore | — | Golden Pyromancer, Hunter, None | [Open](70-2026-10-19-22-45-14.txt) |
 | 71 | 2026-10-19 22:53 UTC | Hardcore | — | Golden Pyromancer, Hunter, None | [Open](71-2026-10-19-22-53-21.txt) |
 | 72 | 2026-10-20 01:21 UTC | Hardcore | — | Minigunner, Crook Boss, Pyromancer, Farm, Boomerang | [Open](72-2026-10-20-01-21-23.txt) |
+| 73 | 2026-10-20 01:24 UTC | Hardcore | — | Minigunner, Crook Boss, Pyromancer, Farm, Boomerang | [Open](73-2026-10-20-01-24-57.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
