@@ -16,10 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Lay By | 9 | [Open](Lay%20By/README.md) |
+| Simplicity | 7 | [Open](Simplicity/README.md) |
 
+| Lay By | 9 | [Open](Lay%20By/README.md) |
 | Unknown | 9 | [Open](Unknown/README.md) |
-| Simplicity | 6 | [Open](Simplicity/README.md) |
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
 | Pier Pressure | 2 | [Open](Pier%20Pressure/README.md) |
 | Wrecked Battlefield II | 2 | [Open](Wrecked%20Battlefield%20II/README.md) |
