@@ -1,0 +1,25 @@
+_G.AutoGatling = true
+_G.AutoMoney = true
+_G.AutoSkip = true
+_G.HideUsername = true
+_G.SelectedXPTower = "Scout / Shotgunner"
+_G.StartHubStrategy = "C9F52ED5-0AA4-45E2-B281-C8AEFD8D4480"
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.beta_dps = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Militant", "Shotgunner", "None", "None", "None")
+TDS:Mode("Casual")
+TDS:GameInfo("Sugar Rush", {})
+TDS:Ready()
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", -23.805160522460938, 13.18095874786377, -65.84266662597656, true)
+TDS:Place("Shotgunner", -23.805160522460938, 13.18095874786377, -65.84266662597656, true)
+
+-- [[ END OF STRATEGY ]]
