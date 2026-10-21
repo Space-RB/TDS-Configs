@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 1 recorded strategy available for this map**
+**📦 2 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -20,6 +20,7 @@ Select a strategy below and open its config file.
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 2026-10-21 21:51 UTC | Casual | — | Militant, Shotgunner, None | [Open](1-2026-10-21-21-51-54.txt) |
 
+| 2 | 2026-10-21 21:52 UTC | Casual | — | Militant, Shotgunner, None | [Open](2-2026-10-21-21-52-05.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
