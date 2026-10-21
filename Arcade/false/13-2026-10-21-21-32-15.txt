@@ -1,0 +1,17 @@
+_G.AutoDJ = true
+_G.AutoRestart = false
+_G.ClaimRewards = true
+_G.Disable3DRendering = true
+_G.SelectedXPTower = "Scout / Shotgunner"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Assassin", "Crook Boss", "Minigunner", "DJ Booth", "Hacker")
+TDS:Mode("Badlands")
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
