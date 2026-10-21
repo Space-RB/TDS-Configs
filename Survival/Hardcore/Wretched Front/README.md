@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 84 recorded strategies available for this map**
+**📦 85 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -103,6 +103,7 @@ Select a strategy below and open its config file.
 | 82 | 2026-10-21 13:25 UTC | Hardcore | — | Ace Pilot, Demoman, None | [Open](82-2026-10-21-13-25-36.txt) |
 | 83 | 2026-10-21 13:25 UTC | Hardcore | — | Ace Pilot, Demoman, None | [Open](83-2026-10-21-13-25-48.txt) |
 | 84 | 2026-10-21 13:26 UTC | Hardcore | — | Ace Pilot, Demoman, None | [Open](84-2026-10-21-13-26-03.txt) |
+| 85 | 2026-10-21 18:19 UTC | Hardcore | — | Pyromancer, Hunter, Brawler, None | [Open](85-2026-10-21-18-19-02.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
