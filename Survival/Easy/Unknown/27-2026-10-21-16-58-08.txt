@@ -1,0 +1,68 @@
+_G.AutoChain = true
+_G.AutoRejoin = false
+_G.ClaimRewards = true
+_G.SelectedXPTower = "Scout / Shotgunner"
+_G.TimeScaleEnabled = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "EvolvedOperator", "Necromancer", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", -0.9281051158905029, 0.9999873042106628, 18.481950759887695)
+TDS:Place("EvolvedOperator", -2.6171984672546387, 0.9999877214431763, 16.276412963867188)
+TDS:Place("EvolvedOperator", -3.437758207321167, 0.99998939037323, 18.873411178588867)
+
+-- [ Wave 3 ] --
+TDS:Place("EvolvedOperator", -5.135349750518799, 0.9999958276748657, 16.984024047851562)
+TDS:Place("EvolvedOperator", -4.465322971343994, 0.9499602317810059, 14.533990859985352)
+
+-- [ Wave 4 ] --
+TDS:Place("EvolvedOperator", -0.9219045639038086, 0.9499542713165283, 10.753341674804688)
+TDS:Place("EvolvedOperator", -2.614199638366699, 1.0000898838043213, 8.584280014038086)
+TDS:Place("EvolvedOperator", -5.01470422744751, 1.009987711906433, 10.420948028564453)
+
+-- [ Wave 5 ] --
+TDS:Place("Trapper", 2.6892900466918945, 0.9999884963035583, 22.930883407592773)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]
