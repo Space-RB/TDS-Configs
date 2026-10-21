@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 7 | [Open](Unknown/README.md) |
+| Sugar Rush | 1 | [Open](Sugar%20Rush/README.md) |
 
+| Unknown | 7 | [Open](Unknown/README.md) |
 | Black Spot Exchange | 3 | [Open](Black%20Spot%20Exchange/README.md) |
 | Retro Crossroads | 3 | [Open](Retro%20Crossroads/README.md) |
 | Dead Ahead | 2 | [Open](Dead%20Ahead/README.md) |
