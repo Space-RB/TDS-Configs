@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 6 recorded strategies available for this map**
+**📦 7 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -25,6 +25,7 @@ Select a strategy below and open its config file.
 | 4 | 2026-10-18 19:40 UTC | Frost | — | Pyromancer, Militant, Shotgunner, Commander, EvolvedJuggernaut | [Open](4-2026-10-18-19-40-42.txt) |
 | 5 | 2026-10-19 02:25 UTC | Frost | — | Golden Cowboy, DJ Booth, EvolvedJuggernaut, Ranger, Shotgunner | [Open](5-2026-10-19-02-25-07.txt) |
 | 6 | 2026-10-19 14:56 UTC | Frost | Limitation | Pyromancer, Militant, Shotgunner, Commander, EvolvedKingpin | [Open](6-2026-10-19-14-56-35.txt) |
+| 7 | 2026-10-21 06:37 UTC | Frost | — | Gladiator, Hacker, EvolvedJuggernaut, DJ Booth, Tesla | [Open](7-2026-10-21-06-37-23.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
