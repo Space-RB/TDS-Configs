@@ -1,0 +1,58 @@
+_G.AutoRejoin = false
+_G.SelectedXPTower = "Scout / Shotgunner"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gladiator", "Hacker", "EvolvedJuggernaut", "DJ Booth", "Tesla")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Gladiator", -18.05853271484375, 1.0000004768371582, -2.1760740280151367)
+TDS:Place("Gladiator", -18.149999618530273, 1.0000007152557373, -4.23192024230957)
+
+-- [ Wave 2 ] --
+TDS:Place("Gladiator", -18.043895721435547, 0.9999834895133972, -6.408755302429199)
+
+-- [ Wave 3 ] --
+TDS:Place("Gladiator", -18.1291561126709, 0.9999871253967285, -8.446972846984863)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Place("Hacker", -11.539390563964844, 0.9999924898147583, -9.178110122680664)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Place("DJ Booth", -7.514228820800781, 0.9999914765357971, -8.965313911437988)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 14 ] --
+TDS:Place("Tesla", -2.774749755859375, 0.9999918937683105, -2.869058132171631)
+
+-- [[ END OF STRATEGY ]]
