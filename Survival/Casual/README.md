@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Sugar Rush | 1 | [Open](Sugar%20Rush/README.md) |
+| Sugar Rush | 2 | [Open](Sugar%20Rush/README.md) |
 
 | Unknown | 7 | [Open](Unknown/README.md) |
 | Black Spot Exchange | 3 | [Open](Black%20Spot%20Exchange/README.md) |
