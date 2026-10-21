@@ -1,0 +1,78 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Hunter", "Brawler", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Place("Brawler", -6.096859455108643, -0.2628616988658905, -1.062577247619629)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:Place("Pyromancer", -7.705317497253418, 0.3915611505508423, -20.60732078552246)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Place("Hunter", 8.998112678527832, 0.548987865447998, -17.349336624145508)
+TDS:Place("Brawler", -1.3406600952148438, 0.7939432859420776, -24.3143310546875)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+TDS:Place("Brawler", 7.70646858215332, 0.44941920042037964, -12.24660587310791)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Place("Hunter", 2.098564624786377, 0.6010978817939758, -17.96426010131836)
+
+-- [ Wave 13 ] --
+TDS:Place("Pyromancer", 1.1516194343566895, 1.442941427230835, 29.632164001464844)
+TDS:Upgrade(8)
+
+-- [ Wave 14 ] --
+TDS:Place("Pyromancer", 0.8914005756378174, 0.09124556928873062, -0.9498405456542969)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 15 ] --
+TDS:Place("Hunter", -1.5550155639648438, 0.4206007122993469, -17.722183227539062)
+
+-- [ Wave 16 ] --
+TDS:Place("Brawler", -4.100251197814941, -0.1622662991285324, -1.780632495880127)
+TDS:Upgrade(11)
+TDS:Place("Hunter", 7.696694374084473, 1.2160040140151978, 21.498477935791016)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 18 ] --
+TDS:Place("Hunter", 4.243097305297852, 1.3238697052001953, 21.936386108398438)
+
+-- [ Wave 19 ] --
+TDS:Place("Brawler", 13.344555854797363, 1.2130168676376343, 28.388072967529297)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 20 ] --
+TDS:Place("Hunter", 10.698776245117188, 1.0717799663543701, 21.01982879638672)
+TDS:Place("Brawler", 12.54182243347168, 1.2520534992218018, 26.174396514892578)
+TDS:Upgrade(16)
+
+-- [ Wave 21 ] --
+TDS:Place("Brawler", -4.450117111206055, 1.5017061233520508, 32.839874267578125)
+TDS:Upgrade(17)
+
+-- [[ END OF STRATEGY ]]
