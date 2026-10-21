@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 68 | [Open](Unknown/README.md) |
+| Unknown | 69 | [Open](Unknown/README.md) |
 
 </div>
 
