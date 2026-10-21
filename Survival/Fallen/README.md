@@ -16,11 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Lay By | 8 | [Open](Lay%20By/README.md) |
+| Cataclysm | 3 | [Open](Cataclysm/README.md) |
 
 | Unknown | 22 | [Open](Unknown/README.md) |
 | Simplicity | 18 | [Open](Simplicity/README.md) |
-| Cataclysm | 2 | [Open](Cataclysm/README.md) |
+| Lay By | 8 | [Open](Lay%20By/README.md) |
 | U-Turn | 2 | [Open](U-Turn/README.md) |
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
 | Crossroads | 1 | [Open](Crossroads/README.md) |
