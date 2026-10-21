@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 11 recorded strategies available for this map**
+**📦 12 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -30,6 +30,7 @@ Select a strategy below and open its config file.
 | 9 | 2026-10-17 21:57 UTC | Pizza Party | — | Snowballer, Ace Pilot, Trapper, EvolvedKingpin, None | [Open](9-2026-10-17-21-57-04.txt) |
 | 10 | 2026-10-18 10:50 UTC | Pizza Party | — | Farm, DJ Booth, Golden Soldier, Mortar, Minigunner | [Open](10-2026-10-18-10-50-15.txt) |
 | 11 | 2026-10-21 03:38 UTC | Badlands | — | Militant, Pyromancer, Shotgunner, Commander, None | [Open](11-2026-10-21-03-38-16.txt) |
+| 12 | 2026-10-21 03:56 UTC | Badlands | — | Militant, Pyromancer, Shotgunner, Commander, None | [Open](12-2026-10-21-03-56-54.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
