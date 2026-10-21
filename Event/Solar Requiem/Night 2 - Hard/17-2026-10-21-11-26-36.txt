@@ -1,0 +1,71 @@
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.SelectedXPTower = "Evolved Juggernaut"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Freezer", "Trapper", "Crook Boss", "None")
+TDS:Mode("Act2")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", 0.03645944595336914, 47.5932731628418, 10.553680419921875)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Freezer", 1.2620868682861328, 47.777252197265625, 4.736833095550537)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Freezer", -1.2869853973388672, 47.66545104980469, 3.1524713039398193)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Crook Boss", 3.248701572418213, 47.66917419433594, -11.014899253845215)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Crook Boss", 0.35582780838012695, 47.642093658447266, -11.955805778503418)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Place("Crook Boss", 6.402890205383301, 47.72195816040039, -11.33096981048584)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 11 ] --
+TDS:Place("Crook Boss", 9.151663780212402, 47.712379455566406, -10.032567977905273)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Place("Crook Boss", 4.567144393920898, 47.791297912597656, -13.75411605834961)
+TDS:Upgrade(8)
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Place("Trapper", 3.9402451515197754, 47.7234001159668, 6.175258636474609)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 14 ] --
+TDS:Place("Trapper", 6.985323905944824, 47.81111145019531, 5.228061199188232)
+
+-- [[ END OF STRATEGY ]]
