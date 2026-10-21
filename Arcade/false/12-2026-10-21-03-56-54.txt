@@ -1,0 +1,20 @@
+_G.AutoChain = true
+_G.AutoRejoin = false
+_G.ClaimRewards = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Militant", "Pyromancer", "Shotgunner", "Commander", "None")
+TDS:Mode("Badlands")
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Pyromancer", 0.41971874237060547, 1.0000022649765015, 7.439472198486328)
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
