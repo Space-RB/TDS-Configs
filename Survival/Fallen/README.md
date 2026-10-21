@@ -16,13 +16,13 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
+| Unknown | 23 | [Open](Unknown/README.md) |
 
-| Unknown | 22 | [Open](Unknown/README.md) |
 | Simplicity | 18 | [Open](Simplicity/README.md) |
 | Lay By | 8 | [Open](Lay%20By/README.md) |
 | Cataclysm | 3 | [Open](Cataclysm/README.md) |
 | U-Turn | 2 | [Open](U-Turn/README.md) |
+| Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
 | Crossroads | 1 | [Open](Crossroads/README.md) |
 | Summer Castle | 1 | [Open](Summer%20Castle/README.md) |
