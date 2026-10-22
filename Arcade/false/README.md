@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 13 recorded strategies available for this map**
+**📦 14 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -32,6 +32,7 @@ Select a strategy below and open its config file.
 | 11 | 2026-10-21 03:38 UTC | Badlands | — | Militant, Pyromancer, Shotgunner, Commander, None | [Open](11-2026-10-21-03-38-16.txt) |
 | 12 | 2026-10-21 03:56 UTC | Badlands | — | Militant, Pyromancer, Shotgunner, Commander, None | [Open](12-2026-10-21-03-56-54.txt) |
 | 13 | 2026-10-21 21:32 UTC | Badlands | — | Assassin, Crook Boss, Minigunner, DJ Booth, Hacker | [Open](13-2026-10-21-21-32-15.txt) |
+| 14 | 2026-10-22 08:05 UTC | Badlands | — | Militant, Pyromancer, Shotgunner, Commander, Crook Boss | [Open](14-2026-10-22-08-05-28.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
