@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 6 recorded strategies available for this map**
+**📦 7 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -25,6 +25,7 @@ Select a strategy below and open its config file.
 | 4 | 2026-10-19 20:07 UTC | Molten | — | Soldier, None | [Open](4-2026-10-19-20-07-04.txt) |
 | 5 | 2026-10-22 20:33 UTC | Molten | — | Accelerator, Scout, Shotgunner, Golden Demoman, Soldier | [Open](5-2026-10-22-20-33-44.txt) |
 | 6 | 2026-10-22 20:43 UTC | Molten | — | Accelerator, Scout, Shotgunner, Golden Demoman, Soldier | [Open](6-2026-10-22-20-43-10.txt) |
+| 7 | 2026-10-22 20:50 UTC | Molten | — | Accelerator, Scout, Shotgunner, Golden Demoman, Soldier | [Open](7-2026-10-22-20-50-02.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
