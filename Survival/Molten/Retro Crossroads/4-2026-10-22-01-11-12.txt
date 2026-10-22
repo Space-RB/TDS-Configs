@@ -1,0 +1,262 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedOperator", "EvolvedKingpin", "EvolvedJuggernaut", "Shotgunner", "DJ Booth")
+TDS:Mode("Molten")
+TDS:GameInfo("Retro Crossroads", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", -126.19210815429688, -44.53631591796875, 29.06670570373535)
+TDS:Place("EvolvedOperator", -126.19210815429688, -44.486289978027344, 31.606704711914062)
+TDS:Place("EvolvedOperator", -123.65210723876953, -44.53631591796875, 29.06670570373535)
+
+-- [ Wave 2 ] --
+TDS:Place("EvolvedOperator", -123.65210723876953, -44.53631591796875, 31.606704711914062)
+
+-- [ Wave 4 ] --
+TDS:Place("DJ Booth", -120.0849609375, -44.53631591796875, 30.326251983642578)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Shotgunner", -126.14271545410156, -44.53631591796875, 23.96030616760254)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Place("Shotgunner", -131.24407958984375, -44.53631591796875, 29.009599685668945)
+TDS:SetTarget(6, "Random")
+
+-- [ Wave 11 ] --
+TDS:SetTarget(7, "Random")
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Place("EvolvedKingpin", -124.92210388183594, -44.486289978027344, 34.09089279174805)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(8)
+TDS:SetOption(8, "Unit 1", "Money Runner")
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Place("Shotgunner", -131.27439880371094, -44.53631591796875, 23.994665145874023)
+TDS:Upgrade(9)
+TDS:SetTarget(9, "Random")
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:SetOption(5, "Track", "Green")
+TDS:SetOption(5, "Track", "Purple")
+TDS:SetOption(5, "Track", "Purple")
+TDS:SetOption(5, "Track", "Purple")
+TDS:SetOption(5, "Track", "Purple")
+TDS:SetOption(5, "Track", "Purple")
+TDS:Place("EvolvedOperator", -122.16470336914062, -44.53631591796875, 33.66564178466797)
+TDS:Place("EvolvedOperator", -123.85271453857422, -44.53631591796875, 23.96030616760254)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 17 ] --
+TDS:Place("EvolvedJuggernaut", -122.57805633544922, -44.53631591796875, 37.43303298950195)
+TDS:Upgrade(12)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(12)
+
+-- [ Wave 19 ] --
+TDS:Place("EvolvedOperator", -116.51701354980469, -44.53631591796875, 29.00692367553711)
+TDS:Place("EvolvedOperator", -121.31271362304688, -44.53631591796875, 23.96030616760254)
+TDS:Place("EvolvedOperator", -116.51701354980469, -44.53631591796875, 31.546924591064453)
+TDS:Place("EvolvedOperator", -118.0846939086914, -44.53631591796875, 33.54541778564453)
+TDS:Place("EvolvedOperator", -119.07655334472656, -44.53631591796875, 35.982662200927734)
+TDS:Place("Shotgunner", -131.24407958984375, -44.486289978027344, 31.049598693847656)
+TDS:Place("Shotgunner", -131.24407958984375, -44.486289978027344, 33.089599609375)
+TDS:SetTarget(18, "Random")
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:SetTarget(19, "Random")
+TDS:Upgrade(19)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("EvolvedKingpin", -116.30179595947266, -44.53631591796875, 35.691429138183594)
+TDS:Upgrade(20)
+TDS:SetOption(20, "Unit 1", "Money Runner")
+
+-- [ Wave 21 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(16)
+TDS:WaitForWave(21)
+TDS:Sell(11)
+TDS:Sell(14)
+TDS:Place("Shotgunner", -124.10503387451172, -44.53631591796875, 23.863147735595703)
+TDS:Place("Shotgunner", -125.32745361328125, -44.53631591796875, 22.090293884277344)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(21)
+TDS:SetTarget(21, "Random")
+TDS:Upgrade(21)
+TDS:SetTarget(22, "Random")
+
+-- [ Wave 22 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(5)
+TDS:Place("Shotgunner", -133.28407287597656, -44.53631591796875, 29.009599685668945)
+TDS:Place("Shotgunner", -131.27439880371094, -44.53631591796875, 21.954666137695312)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:SetTarget(24, "Random")
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:SetTarget(23, "Random")
+TDS:Upgrade(20)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Ability(8, "Bounty", {ReplicatorFolder = nil})
+
+-- [ Wave 25 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(20)
+TDS:Place("EvolvedOperator", -113.97764587402344, -44.53631591796875, 29.063709259033203)
+TDS:Place("EvolvedOperator", -113.97764587402344, -44.53631591796875, 31.603710174560547)
+TDS:Place("EvolvedOperator", -124.72933959960938, -44.486289978027344, 40.55329895019531)
+TDS:Place("EvolvedOperator", -122.27596282958984, -44.53631591796875, 41.210975646972656)
+TDS:Place("EvolvedOperator", -119.95826721191406, -44.53631591796875, 40.17179489135742)
+TDS:Place("EvolvedOperator", -118.17923736572266, -44.53631591796875, 38.358882904052734)
+TDS:Place("EvolvedOperator", -113.9804458618164, -44.53631591796875, 34.143707275390625)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(20)
+TDS:Place("EvolvedKingpin", -120.10076904296875, -44.53631591796875, 42.958152770996094)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:SetOption(20, "Unit 2", "Money Runner")
+
+-- [ Wave 27 ] --
+TDS:Place("EvolvedKingpin", -123.25447845458984, -44.53631591796875, 43.823753356933594)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(33, 2)
+TDS:SetOption(33, "Unit 3", "Bouncer")
+
+-- [ Wave 28 ] --
+TDS:Upgrade(32, 2)
+TDS:SetOption(32, "Unit 3", "Bouncer")
+TDS:Ability(20, "Bounty", {ReplicatorFolder = nil})
+TDS:Ability(8, "Bounty", {ReplicatorFolder = nil}, true)
+TDS:Upgrade(31)
+TDS:Upgrade(26)
+TDS:Upgrade(25)
+TDS:Upgrade(6)
+TDS:Upgrade(12)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(18)
+TDS:Upgrade(27)
+TDS:Upgrade(28)
+TDS:Upgrade(29)
+TDS:Upgrade(30)
+TDS:Upgrade(31)
+TDS:Upgrade(26)
+TDS:Upgrade(25)
+TDS:Upgrade(21)
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+TDS:Upgrade(27)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(28)
+TDS:Upgrade(29)
+TDS:Upgrade(30)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(24)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(19)
+TDS:Upgrade(18)
+TDS:Upgrade(7)
+TDS:Upgrade(22)
+TDS:Upgrade(6)
+TDS:Upgrade(22)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(21)
+TDS:SetOption(20, "Unit 1", "Lackey")
+TDS:SetOption(20, "Unit 2", "Lackey")
+TDS:Ability(20, "Bounty", {ReplicatorFolder = nil}, true)
+TDS:Upgrade(24)
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
