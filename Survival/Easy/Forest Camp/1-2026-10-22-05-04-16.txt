@@ -1,0 +1,28 @@
+_G.AutoRejoin = false
+_G.AutoSkip = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Brawler", "Minigunner", "Farm", "Mortar")
+TDS:Mode("Easy")
+TDS:GameInfo("Forest Camp", {})
+TDS:Ready()
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Place("Pyromancer", -9.918449401855469, 1.0275025367736816, 6.201970100402832)
+TDS:Upgrade(3)
+TDS:Place("Brawler", -16.439416885375977, 1.0275025367736816, -14.072366714477539)
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]
