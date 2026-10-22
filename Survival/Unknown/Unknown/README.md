@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 83 recorded strategies available for this map**
+**📦 84 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -102,6 +102,7 @@ Select a strategy below and open its config file.
 | 81 | 2026-10-22 03:35 UTC | Unknown | — | Brawler, Crook Boss, EvolvedKingpin, None | [Open](81-2026-10-22-03-35-32.txt) |
 | 82 | 2026-10-22 05:00 UTC | Unknown | — | Accelerator, Hacker, DJ Booth, Minigunner, EvolvedOperator | [Open](82-2026-10-22-05-00-32.txt) |
 | 83 | 2026-10-22 05:26 UTC | Unknown | — | None | [Open](83-2026-10-22-05-26-54.txt) |
+| 84 | 2026-10-22 06:26 UTC | Unknown | — | Trapper, None | [Open](84-2026-10-22-06-26-07.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
