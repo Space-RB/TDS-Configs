@@ -1,0 +1,59 @@
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.SelectedXPTower = "Scout / Shotgunner"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Accelerator", "Scout", "Shotgunner", "Golden Demoman", "Soldier")
+TDS:Mode("Molten")
+TDS:GameInfo("Dusty Bridges", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Soldier", 42.1285285949707, 29.004785537719727, -160.2748565673828)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", 39.1300048828125, 28.992462158203125, -160.8300018310547)
+TDS:Upgrade(2)
+TDS:Place("Soldier", 41.1080436706543, 28.98920440673828, -163.13845825195312)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+TDS:Place("Soldier", 36.82625961303711, 28.84534454345703, -158.83416748046875)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Place("Demoman", 17.911396026611328, 27.32247543334961, -150.47616577148438)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+TDS:Place("Demoman", 25.789535522460938, 27.381010055541992, -150.34104919433594)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Place("Soldier", 36.255775451660156, 28.992517471313477, -161.82015991210938)
+TDS:Place("Soldier", 38.23381423950195, 28.994413375854492, -164.1286163330078)
+TDS:Place("Soldier", 40.5284309387207, 28.959903717041016, -166.12269592285156)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
