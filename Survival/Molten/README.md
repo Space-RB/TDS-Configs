@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Dusty Bridges | 6 | [Open](Dusty%20Bridges/README.md) |
+| Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
 
 | Simplicity | 6 | [Open](Simplicity/README.md) |
 | Retro Crossroads | 4 | [Open](Retro%20Crossroads/README.md) |
