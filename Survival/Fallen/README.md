@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 23 | [Open](Unknown/README.md) |
+| Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 
+| Unknown | 23 | [Open](Unknown/README.md) |
 | Simplicity | 18 | [Open](Simplicity/README.md) |
 | Lay By | 8 | [Open](Lay%20By/README.md) |
 | Cataclysm | 3 | [Open](Cataclysm/README.md) |
