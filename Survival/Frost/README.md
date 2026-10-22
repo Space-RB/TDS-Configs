@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 10 | [Open](Unknown/README.md) |
+| Spring Fever | 2 | [Open](Spring%20Fever/README.md) |
 
+| Unknown | 10 | [Open](Unknown/README.md) |
 | Lay By | 9 | [Open](Lay%20By/README.md) |
 | Simplicity | 8 | [Open](Simplicity/README.md) |
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
@@ -32,7 +33,6 @@ Choose one of the categories below to continue.
 | Portland | 1 | [Open](Portland/README.md) |
 | Retro Crossroads | 1 | [Open](Retro%20Crossroads/README.md) |
 | Retro Rocket Arena | 1 | [Open](Retro%20Rocket%20Arena/README.md) |
-| Spring Fever | 1 | [Open](Spring%20Fever/README.md) |
 | Wrecked Battlefield | 1 | [Open](Wrecked%20Battlefield/README.md) |
 </div>
 
