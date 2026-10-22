@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 79 recorded strategies available for this map**
+**📦 80 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -98,6 +98,7 @@ Select a strategy below and open its config file.
 | 77 | 2026-10-22 01:30 UTC | Unknown | — | EvolvedKingpin, Hacker, Accelerator, Farm, Spotlight Tech | [Open](77-2026-10-22-01-30-31.txt) |
 | 78 | 2026-10-22 02:16 UTC | Unknown | — | EvolvedKingpin, Hacker, Accelerator, Farm, Spotlight Tech | [Open](78-2026-10-22-02-16-11.txt) |
 | 79 | 2026-10-22 03:02 UTC | Unknown | — | Brawler, Crook Boss, None | [Open](79-2026-10-22-03-02-04.txt) |
+| 80 | 2026-10-22 03:17 UTC | Unknown | — | Brawler, Crook Boss, None | [Open](80-2026-10-22-03-17-53.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
