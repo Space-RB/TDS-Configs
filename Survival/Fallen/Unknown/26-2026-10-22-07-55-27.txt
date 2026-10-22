@@ -1,0 +1,151 @@
+_G.AutoChain = true
+_G.AutoRejoin = false
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Militant", "Pyromancer", "Shotgunner", "Commander", "Crook Boss")
+TDS:Mode("Fallen")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Militant", 5.557750701904297, 0.9549251794815063, 20.17636489868164)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Place("Pyromancer", -4.989288330078125, 0.9527314305305481, 17.230510711669922)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Place("Militant", 5.732308387756348, 0.9754126071929932, 17.134029388427734)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Place("Militant", 2.850815773010254, 0.9585134387016296, 18.7928524017334)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", -2.543842315673828, 0.9763424396514893, 14.421724319458008)
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+TDS:Place("Shotgunner", -2.568474769592285, 0.9627958536148071, 16.461576461791992)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:Place("Shotgunner", -2.7729129791259766, 0.9489465355873108, 18.49130630493164)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Shotgunner", -4.215410232543945, 0.9364369511604309, 19.93380355834961)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Militant", 3.0217342376708984, 0.9789460897445679, 15.757661819458008)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Militant", 8.325791358947754, 0.9840658903121948, 15.548013687133789)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Militant", 5.568990707397461, 0.9825281500816345, 14.098419189453125)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 16 ] --
+TDS:Place("Commander", 3.0045557022094727, 0.9382416605949402, 21.90460777282715)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 18 ] --
+TDS:Place("Shotgunner", -4.574636459350586, 0.9734480381011963, 14.228143692016602)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 19 ] --
+TDS:Place("Pyromancer", -7.678570747375488, 0.9781550765037537, 8.496363639831543)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(12)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(4)
+TDS:Place("Pyromancer", 2.526193618774414, 0.981428861618042, 12.711091995239258)
+TDS:Place("Pyromancer", -0.7567830085754395, 0.8110172748565674, 27.841978073120117)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 24 ] --
+TDS:Place("Crook Boss", 5.047215461730957, 0.9178855419158936, 25.61372947692871)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(1)
+TDS:Upgrade(10)
+
+-- [ Wave 27 ] --
+TDS:Place("Crook Boss", 14.696136474609375, 0.9664238691329956, -1.9908404350280762)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Crook Boss", 12.754708290100098, 0.9758092164993286, 0.7320652008056641)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Crook Boss", 5.492606163024902, 0.9702810049057007, -7.566957473754883)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Crook Boss", 11.06259536743164, 0.9430200457572937, -17.194931030273438)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Place("Commander", 6.790061950683594, 0.936440646648407, -15.00066089630127)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Place("Militant", 0.4133124351501465, 1.0131839513778687, -9.630077362060547)
+
+-- [[ END OF STRATEGY ]]
