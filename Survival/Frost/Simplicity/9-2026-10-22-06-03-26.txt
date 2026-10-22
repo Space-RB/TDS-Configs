@@ -1,0 +1,43 @@
+_G.AutoRejoin = false
+_G.AutoSkip = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Brawler", "Commander", "Cowboy", "Saboteur", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Brawler", -18.21343421936035, 1.0000007152557373, -3.9569969177246094)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Commander", -16.0681095123291, 0.9999909400939941, -9.841794967651367)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+
+-- [[ END OF STRATEGY ]]
