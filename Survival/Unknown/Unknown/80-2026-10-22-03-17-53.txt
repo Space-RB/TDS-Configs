@@ -1,0 +1,16 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Brawler", "Crook Boss", "None", "None", "None")
+TDS:Mode("Unknown")
+TDS:GameInfo("Unknown", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
