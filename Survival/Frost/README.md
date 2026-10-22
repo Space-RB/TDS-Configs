@@ -16,10 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 11 | [Open](Unknown/README.md) |
+| Simplicity | 9 | [Open](Simplicity/README.md) |
 
+| Unknown | 11 | [Open](Unknown/README.md) |
 | Lay By | 9 | [Open](Lay%20By/README.md) |
-| Simplicity | 8 | [Open](Simplicity/README.md) |
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
 | Pier Pressure | 2 | [Open](Pier%20Pressure/README.md) |
 | Spring Fever | 2 | [Open](Spring%20Fever/README.md) |
