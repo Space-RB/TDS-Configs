@@ -1,0 +1,20 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Militant", "Shotgunner", "Commander", "EvolvedJuggernaut")
+TDS:Mode("Frost")
+TDS:GameInfo("", {"Glass"})
+TDS:Ready()
+TDS:Place("Militant", -11.998740196228027, 1.0000005960464478, -3.6398849487304688)
+
+-- [[ END OF STRATEGY ]]
