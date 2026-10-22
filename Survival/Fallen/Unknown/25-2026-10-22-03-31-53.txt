@@ -1,0 +1,79 @@
+_G.AutoRejoin = false
+_G.AutoSkip = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Brawler", "Crook Boss", "EvolvedKingpin", "None", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", -7.178301811218262, 3.607576608657837, 16.75058364868164)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Brawler", -7.281594276428223, 3.6699984073638916, 18.787967681884766)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Brawler", -9.699386596679688, 3.4905807971954346, 16.403961181640625)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Crook Boss", -13.149518966674805, 2.393415689468384, 1.7609891891479492)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Place("Crook Boss", -13.6005859375, 2.5913102626800537, 4.767338752746582)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Place("Crook Boss", -10.142789840698242, 2.44707989692688, 2.2095165252685547)
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 14 ] --
+TDS:Place("Crook Boss", -11.450981140136719, 2.833878993988037, 6.916943550109863)
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 16 ] --
+TDS:Place("Crook Boss", -19.443466186523438, 2.406174659729004, 1.5890092849731445)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 20 ] --
+TDS:Place("EvolvedKingpin", -7.750666618347168, 2.1272568702697754, -4.7082839012146)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
