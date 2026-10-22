@@ -1,0 +1,50 @@
+_G.AutoChain = true
+_G.AutoRejoin = false
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Militant", "Golden Pyromancer", "Shotgunner", "Commander", "Crook Boss")
+TDS:Mode("Frost")
+TDS:GameInfo("Spring Fever", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Militant", -1.3871464729309082, 0.9999983310699463, -23.42426109313965)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Pyromancer", -7.475330352783203, 1.0229392051696777, -23.318767547607422)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Place("Militant", 16.344449996948242, 0.9999923706054688, -12.496546745300293)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Place("Pyromancer", -10.477359771728516, 0.9999909400939941, -8.617427825927734)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Place("Pyromancer", 6.634899616241455, 1.000001072883606, -31.737659454345703)
+TDS:Place("Pyromancer", -8.315945625305176, 1.0229392051696777, -34.90340805053711)
+TDS:Upgrade(6)
+TDS:Place("Militant", -13.087200164794922, 0.9999934434890747, -8.987369537353516)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
