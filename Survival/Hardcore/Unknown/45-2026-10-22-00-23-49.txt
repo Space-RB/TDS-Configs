@@ -1,0 +1,159 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Engineer", "Golden Cowboy", "DJ Booth", "Crook Boss", "Commander")
+TDS:Mode("Hardcore")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Cowboy", -1.002058982849121, 0.865814208984375, -25.085609436035156)
+TDS:Upgrade(1)
+TDS:Place("Cowboy", 0.5292859077453613, 0.7043415904045105, -23.079730987548828)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Place("Cowboy", -3.101806640625, 0.8170632123947144, -23.729013442993164)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Place("Cowboy", -1.5890882015228271, 0.6355185508728027, -21.67478370666504)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Place("Cowboy", 2.1040163040161133, 0.6553906798362732, -20.959712982177734)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(5)
+TDS:Place("Engineer", -4.864988803863525, -0.0865616500377655, -6.157565116882324)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Engineer", -1.8826789855957031, 0.09247281402349472, -5.001619338989258)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 9 ] --
+TDS:Place("Engineer", -2.4759881496429443, 0.004568040370941162, -8.102447509765625)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 10 ] --
+TDS:Place("Engineer", -5.273653507232666, -0.10049760341644287, -9.187950134277344)
+TDS:Upgrade(9)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(9)
+TDS:Place("Engineer", 1.1849983930587769, 0.16813209652900696, -6.855898380279541)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 12 ] --
+TDS:Place("Engineer", 0.8969143629074097, 0.25804373621940613, -3.580033302307129)
+TDS:Upgrade(11)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 14 ] --
+TDS:Place("DJ Booth", -1.0603561401367188, 0.2960881292819977, -15.391331672668457)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 15 ] --
+TDS:Place("Commander", 2.8222270011901855, 0.4168757498264313, -14.329309463500977)
+TDS:Upgrade(13)
+TDS:Place("Cowboy", -0.057497262954711914, 0.588241696357727, -19.61333465576172)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 16 ] --
+TDS:Place("Cowboy", -4.226955413818359, 0.5944632291793823, -21.404115676879883)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Cowboy", -2.7669475078582764, 0.49700018763542175, -19.352937698364258)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Cowboy", 3.6565635204315186, 0.6221050024032593, -18.87482261657715)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 17 ] --
+TDS:Place("Cowboy", -6.727572441101074, 0.4349828362464905, -21.394901275634766)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Cowboy", -5.533407211303711, 0.31985875964164734, -19.17409324645996)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [ Wave 18 ] --
+TDS:Place("Cowboy", 5.008864402770996, 0.6068848371505737, -16.709739685058594)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(6)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(7)
+TDS:Upgrade(19)
+TDS:Upgrade(18)
+TDS:Upgrade(15)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(14)
+TDS:Upgrade(17)
+TDS:Upgrade(20)
+TDS:Upgrade(5)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 28 ] --
+TDS:Place("Crook Boss", 3.725694179534912, 1.4591331481933594, 42.13395690917969)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+
+-- [[ END OF STRATEGY ]]
