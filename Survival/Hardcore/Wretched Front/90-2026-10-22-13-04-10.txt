@@ -1,0 +1,76 @@
+_G.AutoRejoin = false
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Crook Boss", "Farm", "Boomerang", "Minigunner", "Scout")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", -10.993322372436523, 1.5459609031677246, 23.838375091552734)
+TDS:Place("Farm", -10.55483627319336, 1.5439785718917847, 27.351093292236328)
+TDS:Place("Farm", -10.796494483947754, 1.4867725372314453, 30.882835388183594)
+TDS:Place("Farm", -10.840063095092773, 1.411611795425415, 34.42256546020508)
+TDS:Place("Farm", -10.968023300170898, 1.3208651542663574, 37.96022033691406)
+
+-- [ Wave 2 ] --
+TDS:Place("Boomerang", 6.0310821533203125, 1.33359694480896, 22.324321746826172)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(6)
+TDS:Place("Farm", -14.436767578125, 1.5396101474761963, 24.6594295501709)
+TDS:Place("Farm", -14.815075874328613, 1.5680348873138428, 28.17679786682129)
+TDS:Place("Farm", -14.897034645080566, 1.5468599796295166, 31.8220272064209)
+
+-- [ Wave 5 ] --
+TDS:Place("Farm", -14.694594383239746, 1.431891679763794, 35.36319351196289)
+TDS:Place("Farm", -14.740368843078613, 1.2276005744934082, 38.90286636352539)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 11 ] --
+TDS:Place("Crook Boss", 11.667884826660156, 1.2799205780029297, 25.48480796813965)
+TDS:Upgrade(12)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(12)
+
+-- [[ END OF STRATEGY ]]
