@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 29 | [Open](Unknown/README.md) |
+| Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
 
+| Unknown | 29 | [Open](Unknown/README.md) |
 | Gilded Path | 15 | [Open](Gilded%20Path/README.md) |
 | Dead Ahead | 7 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 2 | [Open](Lay%20By/README.md) |
