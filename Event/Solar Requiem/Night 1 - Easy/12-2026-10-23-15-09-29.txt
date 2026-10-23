@@ -1,0 +1,111 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Brawler", "DJ Booth", "Commander", "EvolvedEnforcer", "None")
+TDS:Mode("Act1Easy")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", 27.137588500976562, 2.0009982585906982, 199.26022338867188)
+TDS:Place("Brawler", 29.177589416503906, 2.0009982585906982, 199.26022338867188)
+TDS:Place("Brawler", 31.19414520263672, 2.0009982585906982, 198.9773712158203)
+TDS:Place("Brawler", 25.695091247558594, 2.0009984970092773, 197.81771850585938)
+TDS:Place("Brawler", 30.894977569580078, 2.000997543334961, 204.60401916503906)
+TDS:Place("Brawler", 28.865005493164062, 2.000997543334961, 204.40199279785156)
+TDS:Place("Brawler", 26.82500457763672, 2.000997543334961, 204.40199279785156)
+
+-- [ Wave 2 ] --
+TDS:Place("Brawler", 27.66558265686035, 2.0009987354278564, 197.28973388671875)
+TDS:Place("Brawler", 29.705581665039062, 2.0009987354278564, 197.28973388671875)
+
+-- [ Wave 3 ] --
+TDS:Place("Brawler", 31.726022720336914, 2.0009987354278564, 197.0079345703125)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(8)
+TDS:Place("Commander", 24.41399383544922, 2.000997543334961, 203.69493103027344)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(11)
+TDS:Place("DJ Booth", 35.178340911865234, 2.0009984970092773, 197.68385314941406)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Place("EvolvedEnforcer", 20.21685028076172, 2.000999689102173, 190.06320190429688)
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(10)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(10)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:VoteSkip(15)
+
+-- [[ END OF STRATEGY ]]
