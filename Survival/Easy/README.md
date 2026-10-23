@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 1 | [Open](Simplicity/README.md) |
+| Cataclysm | 1 | [Open](Cataclysm/README.md) |
 
 | Unknown | 34 | [Open](Unknown/README.md) |
 | Gilded Path | 15 | [Open](Gilded%20Path/README.md) |
@@ -28,6 +28,7 @@ Choose one of the categories below to continue.
 | Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
 | Retro Lighthouse | 1 | [Open](Retro%20Lighthouse/README.md) |
 | Ruby Escort | 1 | [Open](Ruby%20Escort/README.md) |
+| Simplicity | 1 | [Open](Simplicity/README.md) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>
