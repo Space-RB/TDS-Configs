@@ -16,9 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 20 | [Open](Simplicity/README.md) |
+| Unknown | 27 | [Open](Unknown/README.md) |
 
-| Unknown | 26 | [Open](Unknown/README.md) |
+| Simplicity | 20 | [Open](Simplicity/README.md) |
 | Lay By | 8 | [Open](Lay%20By/README.md) |
 | Cataclysm | 3 | [Open](Cataclysm/README.md) |
 | U-Turn | 2 | [Open](U-Turn/README.md) |
