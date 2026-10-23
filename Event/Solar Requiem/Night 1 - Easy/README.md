@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 11 recorded strategies available for this map**
+**📦 12 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -30,6 +30,7 @@ Select a strategy below and open its config file.
 | 9 | 2026-10-23 11:25 UTC | Act1Easy | — | Demoman, Gatling Gun, Brawler, Commander, DJ Booth | [Open](9-2026-10-23-11-25-26.txt) |
 | 10 | 2026-10-23 11:34 UTC | Act1Easy | — | Gatling Gun, Brawler, Commander, DJ Booth, Assassin | [Open](10-2026-10-23-11-34-10.txt) |
 | 11 | 2026-10-23 11:40 UTC | Act1Easy | — | Gatling Gun, Brawler, Commander, DJ Booth, Assassin | [Open](11-2026-10-23-11-40-27.txt) |
+| 12 | 2026-10-23 15:09 UTC | Act1Easy | — | Brawler, DJ Booth, Commander, EvolvedEnforcer, None | [Open](12-2026-10-23-15-09-29.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
