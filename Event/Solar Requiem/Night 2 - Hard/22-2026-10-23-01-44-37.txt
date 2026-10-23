@@ -1,0 +1,160 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "Freezer", "Hunter", "Accelerator", "None")
+TDS:Mode("Act2")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Trapper", 7.423880577087402, 48.01435852050781, -4.263052940368652)
+TDS:Place("Trapper", 4.714745998382568, 48.011688232421875, -5.594184398651123)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", 9.209487915039062, 47.817630767822266, -1.8027265071868896)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Trapper", 1.7566280364990234, 48.17995834350586, -4.454492568969727)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Place("Trapper", -0.7481584548950195, 47.86872100830078, -2.731807231903076)
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Place("Hunter", -0.8550539016723633, 47.59333038330078, -12.787158012390137)
+TDS:Place("Hunter", 2.1586663722991943, 47.73564147949219, -12.388443946838379)
+
+-- [ Wave 10 ] --
+TDS:Place("Hunter", 4.967260360717773, 47.70993423461914, -11.225086212158203)
+
+-- [ Wave 11 ] --
+TDS:Place("Hunter", 7.98887825012207, 47.69792556762695, -10.891281127929688)
+TDS:Place("Hunter", 10.925590515136719, 47.75531005859375, -10.105588912963867)
+TDS:Place("Hunter", -0.4649791717529297, 47.50040817260742, -15.89657974243164)
+TDS:Place("Hunter", 2.7195913791656494, 47.52741241455078, -15.924434661865234)
+
+-- [ Wave 12 ] --
+TDS:Place("Hunter", 5.775580406188965, 47.78594970703125, -14.722796440124512)
+TDS:Place("Hunter", 8.770145416259766, 47.72889709472656, -13.814655303955078)
+TDS:Place("Hunter", 13.99940299987793, 47.67030334472656, -10.05655574798584)
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(15)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(15)
+TDS:Upgrade(11)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Place("Freezer", -1.166656494140625, 47.92592239379883, 1.0733466148376465)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Freezer", -0.13422870635986328, 47.5901985168457, 10.938868522644043)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Freezer", -1.7005987167358398, 47.7811279296875, 13.561822891235352)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Freezer", -4.135103225708008, 47.60560989379883, -7.370031356811523)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(1)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(2)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(19)
+TDS:Place("Accelerator", -6.326128005981445, 47.67137908935547, -9.815943717956543)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Accelerator", -8.706382751464844, 47.686134338378906, -12.701370239257812)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+
+-- [[ END OF STRATEGY ]]
