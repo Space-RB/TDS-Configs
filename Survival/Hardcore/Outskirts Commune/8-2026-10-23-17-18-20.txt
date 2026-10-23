@@ -1,0 +1,45 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Sniper", "None", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Outskirts Commune", {})
+TDS:Ready()
+
+-- [ Wave 4 ] --
+TDS:Place("Sniper", -13.75836181640625, 503.8846740722656, 51.5, true)
+TDS:Place("Sniper", -13.701011657714844, 515.9771118164062, 51.5, true)
+TDS:Place("Sniper", -14.151752471923828, 515.18896484375, 51.5, true)
+TDS:Place("Sniper", -14.44998550415039, 515.8794555664062, 51.50000762939453, true)
+
+-- [ Wave 5 ] --
+TDS:Place("Sniper", 17.21004867553711, 511.2695007324219, 42.48217010498047, true)
+TDS:Place("Sniper", 7.3195343017578125, 501.3177490234375, 33.43714141845703, true)
+TDS:Place("Sniper", 5.715862274169922, 505.4544677734375, 3.7601265907287598, true)
+
+-- [ Wave 9 ] --
+TDS:Place("Sniper", -45.66447830200195, 521.7371826171875, 32.444664001464844, true)
+TDS:Place("Sniper", -47.729042053222656, 523.2965698242188, 27.782779693603516, true)
+TDS:Place("Sniper", -47.845333099365234, 523.2377319335938, 27.52017593383789, true)
+TDS:Place("Sniper", -47.83191680908203, 522.9776611328125, 27.55047607421875, true)
+TDS:Place("Sniper", -47.16583251953125, 523.3485107421875, 29.05453872680664, true)
+
+-- [ Wave 10 ] --
+TDS:Place("Sniper", -46.66590881347656, 523.8262329101562, 30.183382034301758, true)
+TDS:Place("Sniper", -17.98258399963379, 501.71160888671875, 12.29730224609375, true)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(1, true)
+TDS:Upgrade(2, true)
+TDS:Upgrade(1, true)
+TDS:Upgrade(3, true)
+TDS:Upgrade(2, true)
+
+-- [[ END OF STRATEGY ]]
