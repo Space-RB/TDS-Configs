@@ -1,0 +1,90 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Scout", "None", "None", "None", "None")
+TDS:Mode("Act1Easy")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", 14.07513427734375, 2.0009992122650146, 193.8662567138672)
+TDS:Place("Scout", 17.13593292236328, 2.0009992122650146, 194.23080444335938)
+TDS:Place("Scout", 10.943804740905762, 2.022623300552368, 193.5116729736328)
+
+-- [ Wave 2 ] --
+TDS:Place("Scout", 16.885074615478516, 2.0009984970092773, 197.88783264160156)
+TDS:Place("Scout", 13.72873306274414, 2.0390405654907227, 197.14193725585938)
+TDS:Place("Scout", 10.197421073913574, 2.0670528411865234, 196.87283325195312)
+TDS:Place("Scout", 16.551910400390625, 2.000998020172119, 201.13937377929688)
+TDS:Place("Scout", 13.426674842834473, 2.07902455329895, 200.39041137695312)
+TDS:Place("Scout", 10.076422691345215, 2.071946620941162, 200.22581481933594)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(7)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
