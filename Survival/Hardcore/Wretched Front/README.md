@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 98 recorded strategies available for this map**
+**📦 99 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -117,6 +117,7 @@ Select a strategy below and open its config file.
 | 96 | 2026-10-22 18:41 UTC | Hardcore | — | DJ Booth, Golden Minigunner, Pyromancer, Ace Pilot, Ranger | [Open](96-2026-10-22-18-41-40.txt) |
 | 97 | 2026-10-22 19:48 UTC | Hardcore | — | Shotgunner, Pyromancer, None | [Open](97-2026-10-22-19-48-59.txt) |
 | 98 | 2026-10-23 07:02 UTC | Hardcore | — | Electroshocker, Sniper, None | [Open](98-2026-10-23-07-02-49.txt) |
+| 99 | 2026-10-23 07:03 UTC | Hardcore | — | Electroshocker, Sniper, None | [Open](99-2026-10-23-07-03-48.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
