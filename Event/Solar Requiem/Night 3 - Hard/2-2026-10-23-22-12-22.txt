@@ -1,0 +1,16 @@
+_G.AutoTrials = true
+_G.SelectedXPTower = "Crook Boss"
+_G.StartHubStrategy = "801FD2A3-DD6A-4765-97FF-8C0E00A33978"
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Medic", "EvolvedEnforcer", "DJ Booth", "Gatling Gun", "EvolvedOperator")
+TDS:Mode("Act3")
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
