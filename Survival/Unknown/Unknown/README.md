@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 89 recorded strategies available for this map**
+**📦 90 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -108,6 +108,7 @@ Select a strategy below and open its config file.
 | 87 | 2026-10-22 12:08 UTC | Unknown | — | None | [Open](87-2026-10-22-12-08-24.txt) |
 | 88 | 2026-10-22 12:19 UTC | Unknown | — | None | [Open](88-2026-10-22-12-19-53.txt) |
 | 89 | 2026-10-22 12:20 UTC | Unknown | — | None | [Open](89-2026-10-22-12-20-19.txt) |
+| 90 | 2026-10-23 09:36 UTC | Unknown | — | Cowboy, Engineer, Hacker, Minigunner, Crook Boss | [Open](90-2026-10-23-09-36-49.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
