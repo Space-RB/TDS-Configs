@@ -1,0 +1,22 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Demoman", "Gatling Gun", "None", "None", "None")
+TDS:Mode("Act2")
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Demoman", -14.193622589111328, 48.24433898925781, -6.814565181732178)
+
+-- [[ END OF STRATEGY ]]
