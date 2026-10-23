@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 44 recorded strategies available for this map**
+**📦 45 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -63,6 +63,7 @@ Select a strategy below and open its config file.
 | 42 | 2026-10-23 16:58 UTC | Act1 | — | Commander, Assassin, Soldier, None | [Open](42-2026-10-23-16-58-26.txt) |
 | 43 | 2026-10-23 17:01 UTC | Act1 | — | Commander, Assassin, Soldier, None | [Open](43-2026-10-23-17-01-55.txt) |
 | 44 | 2026-10-23 17:10 UTC | Act1 | — | Commander, Assassin, Soldier, None | [Open](44-2026-10-23-17-10-05.txt) |
+| 45 | 2026-10-23 17:15 UTC | Act1 | — | Commander, Assassin, Soldier, None | [Open](45-2026-10-23-17-15-18.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
