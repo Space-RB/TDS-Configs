@@ -1,0 +1,112 @@
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRestart = false
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Brawler", "DJ Booth", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+TDS:Place("Brawler", -20.590351104736328, 1.199988603591919, -12.012107849121094, true)
+TDS:Place("Brawler", -20.441669464111328, 0.9999834895133972, -12.176626205444336, true)
+TDS:VoteSkip(0)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1, true)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1, true)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1, true)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2, true)
+TDS:Upgrade(2, true)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2, true)
+
+-- [ Wave 9 ] --
+TDS:Place("DJ Booth", -10.569246292114258, 0.9999878406524658, -8.859148979187012)
+
+-- [ Wave 10 ] --
+TDS:Place("Brawler", -17.699996948242188, 1.1760064363479614, -6.006697177886963, true)
+TDS:Place("Brawler", -17.699996948242188, 1.1760064363479614, -6.006697177886963, true)
+TDS:Place("Brawler", -17.741594314575195, 0.9999834895133972, -5.982454776763916, true)
+TDS:Place("Brawler", -17.741594314575195, 0.9999834895133972, -5.982454776763916, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(7, true)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(7, true)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(7, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(4, true)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4, true)
+TDS:Upgrade(5, true)
+TDS:Upgrade(5, true)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5, true)
+TDS:Place("Brawler", -18.699996948242188, 1.00128972530365, -6.762217044830322, true)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(8, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(8, true)
+TDS:Place("Brawler", -20.219053268432617, 0.9999834895133972, -12.019888877868652, true)
+
+-- [ Wave 16 ] --
+TDS:Place("Brawler", -19.885343551635742, 1.1999984979629517, -11.573071479797363, true)
+TDS:Upgrade(9, true)
+TDS:Upgrade(9, true)
+TDS:Upgrade(9, true)
+TDS:Upgrade(10, true)
+TDS:Upgrade(10, true)
+TDS:Upgrade(10, true)
+
+-- [ Wave 17 ] --
+TDS:SetOption(3, "Track", "Green")
+TDS:Upgrade(9, true)
+TDS:Upgrade(1, true)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(2, true)
+TDS:Place("Brawler", -18.444677352905273, 1.0000007152557373, -4.029356956481934)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(10, true)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:SetOption(3, "Track", "Red")
+TDS:Upgrade(8, true)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(5, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(7, true)
+TDS:Upgrade(11)
+TDS:Upgrade(6, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(11)
+
+-- [[ END OF STRATEGY ]]
