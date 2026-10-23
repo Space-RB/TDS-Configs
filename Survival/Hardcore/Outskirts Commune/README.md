@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 6 recorded strategies available for this map**
+**📦 7 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -25,6 +25,7 @@ Select a strategy below and open its config file.
 | 4 | 2026-10-15 23:04 UTC | Hardcore | — | Electroshocker, Sniper, None | [Open](4-2026-10-15-23-04-15.txt) |
 | 5 | 2026-10-19 18:46 UTC | Hardcore | — | Pyromancer, Hunter, Golden Crook Boss, None | [Open](5-2026-10-19-18-46-11.txt) |
 | 6 | 2026-10-23 09:48 UTC | Hardcore | — | Electroshocker, Sniper, None | [Open](6-2026-10-23-09-48-12.txt) |
+| 7 | 2026-10-23 15:09 UTC | Hardcore | — | Electroshocker, Sniper, None | [Open](7-2026-10-23-15-09-39.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
