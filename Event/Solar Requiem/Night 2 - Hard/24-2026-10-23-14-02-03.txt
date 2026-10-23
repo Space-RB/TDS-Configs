@@ -1,0 +1,130 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoReady = false
+_G.SelectedXPTower = "Crook Boss"
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Pyromancer", "Shotgunner", "Freezer", "Gatling Gun", "Commander")
+TDS:Mode("Act2")
+TDS:Ready()
+TDS:Place("Pyromancer", 0.22071266174316406, 47.59217071533203, 10.572494506835938)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Place("Freezer", 1.2344098091125488, 47.62934112548828, 5.522972583770752)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Freezer", -0.9151945114135742, 47.679039001464844, 3.37336802482605)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Place("Shotgunner", 3.591169595718384, 48.04840850830078, 4.635117053985596)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Place("Shotgunner", 5.631169319152832, 48.21603775024414, 4.635117053985596)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", 7.359528064727783, 48.23232650756836, 3.422085762023926)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", 9.106854438781738, 47.940608978271484, 2.3625285625457764)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Place("Shotgunner", 8.915472030639648, 48.06071090698242, 0.2697288990020752)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Shotgunner", 8.632589340209961, 48.07926940917969, -1.7252542972564697)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 13 ] --
+TDS:Place("Shotgunner", 7.311166763305664, 48.14398193359375, -3.634495735168457)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Shotgunner", 5.451434135437012, 48.20206069946289, -4.653810024261475)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 14 ] --
+TDS:Place("Shotgunner", 3.3080403804779053, 48.206932067871094, -4.741602420806885)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 15 ] --
+TDS:Place("Commander", 0.9962158203125, 48.10138702392578, -3.692521333694458)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(2)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Place("Freezer", -2.053128719329834, 47.780147552490234, 0.5310244560241699)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 18 ] --
+TDS:Place("Freezer", -7.0688018798828125, 47.596473693847656, 1.7160863876342773)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Gatling Gun", 0.838066816329956, 47.68732452392578, -11.799951553344727)
+TDS:Upgrade(16)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [[ END OF STRATEGY ]]
