@@ -16,11 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
+| Unknown | 5 | [Open](Unknown/README.md) |
 
+| Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
 | Simplicity | 6 | [Open](Simplicity/README.md) |
 | Retro Crossroads | 4 | [Open](Retro%20Crossroads/README.md) |
-| Unknown | 4 | [Open](Unknown/README.md) |
 | Retro Lighthouse | 2 | [Open](Retro%20Lighthouse/README.md) |
 | Rocket Arena | 2 | [Open](Rocket%20Arena/README.md) |
 | U-Turn | 2 | [Open](U-Turn/README.md) |
