@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Outskirts Commune | 7 | [Open](Outskirts%20Commune/README.md) |
+| Outskirts Commune | 8 | [Open](Outskirts%20Commune/README.md) |
 
 | Wretched Front | 108 | [Open](Wretched%20Front/README.md) |
 | Unknown | 46 | [Open](Unknown/README.md) |
