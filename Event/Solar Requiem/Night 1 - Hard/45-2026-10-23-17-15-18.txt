@@ -1,0 +1,69 @@
+_G.AutoChain = true
+_G.AutoReady = false
+_G.AutoSkipCutscenes = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Commander", "Assassin", "Soldier", "None", "None")
+TDS:Mode("Act1")
+TDS:Ready()
+TDS:Place("Assassin", 27.11446762084961, 2.0009982585906982, 199.23081970214844)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 25.67197036743164, 2.0009984970092773, 197.78831481933594)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Place("Soldier", 15.507892608642578, 2.021902561187744, 199.52035522460938)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Soldier", 15.493755340576172, 2.024569272994995, 196.4804229736328)
+TDS:Place("Soldier", 15.476853370666504, 2.0009992122650146, 193.4404754638672)
+TDS:Place("Soldier", 12.43758773803711, 2.0187039375305176, 193.37176513671875)
+TDS:Place("Soldier", 12.454129219055176, 2.0507471561431885, 196.43275451660156)
+TDS:Place("Soldier", 12.468265533447266, 2.0481390953063965, 199.47271728515625)
+
+-- [ Wave 7 ] --
+TDS:Place("Soldier", 9.415401458740234, 2.064974784851074, 196.3448028564453)
+TDS:Place("Soldier", 9.429537773132324, 2.0474038124084473, 199.384765625)
+TDS:Place("Commander", 18.51247787475586, 2.0009987354278564, 196.8394775390625)
+TDS:Place("Assassin", 27.689891815185547, 2.0009987354278564, 197.27365112304688)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 9 ] --
+TDS:Place("Assassin", 20.256330490112305, 2.000999689102173, 190.30653381347656)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Assassin", 25.308412551879883, 2.0009989738464355, 195.80123901367188)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(14)
+TDS:Place("Assassin", 29.097131729125977, 2.0009984970092773, 198.7505645751953)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [[ END OF STRATEGY ]]
