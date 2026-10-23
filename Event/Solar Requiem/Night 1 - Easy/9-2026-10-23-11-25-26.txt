@@ -1,0 +1,23 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Demoman", "Gatling Gun", "Brawler", "Commander", "DJ Booth")
+TDS:Mode("Act1Easy")
+TDS:Ready()
+TDS:Place("Brawler", 30.000059127807617, 2.0009982585906982, 199.2450714111328)
+
+-- [[ END OF STRATEGY ]]
