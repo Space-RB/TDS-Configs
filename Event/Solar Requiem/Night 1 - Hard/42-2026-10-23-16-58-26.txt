@@ -1,0 +1,16 @@
+_G.AutoChain = true
+_G.AutoReady = false
+_G.AutoSkipCutscenes = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Commander", "Assassin", "Soldier", "None", "None")
+TDS:Mode("Act1")
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
