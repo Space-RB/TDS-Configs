@@ -1,0 +1,81 @@
+_G.AutoGems = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.SelectedXPTower = "Crook Boss"
+_G.StartHubStrategy = "38b271bb-5ee4-4d45-94fd-01a7d91bdcd9"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Electroshocker", "Sniper", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Sniper", 10.567492485046387, 3.4437434673309326, 1.271286129951477)
+TDS:Place("Sniper", 11.17255973815918, 3.548111915588379, 4.741558074951172)
+TDS:Place("Electroshocker", 4.363387107849121, 1.4101731777191162, 28.425914764404297)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Place("Sniper", -8.834304809570312, 4.637894630432129, 17.240924835205078)
+TDS:Upgrade(4)
+TDS:Place("Sniper", -10.117098808288574, 4.59309720993042, 15.048656463623047)
+TDS:Place("Sniper", -7.6182541847229, 4.5151495933532715, 12.891901969909668)
+
+-- [ Wave 10 ] --
+TDS:Place("Electroshocker", 4.551100730895996, 1.4063425064086914, 32.74598693847656)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Place("Electroshocker", 1.4801502227783203, 1.442916989326477, 30.886226654052734)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Place("Electroshocker", -2.985236167907715, 1.4795706272125244, 28.450180053710938)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 16 ] --
+TDS:Place("Sniper", -12.028973579406738, 4.382131099700928, 20.52571678161621)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(2)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Electroshocker", -2.356207847595215, 1.483276128768921, 32.538429260253906)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 19 ] --
+TDS:Place("Sniper", -15.590105056762695, 4.125541687011719, 16.725147247314453)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Sniper", -13.569480895996094, 4.077993869781494, 14.069787979125977)
+TDS:Upgrade(13)
+
+-- [[ END OF STRATEGY ]]
