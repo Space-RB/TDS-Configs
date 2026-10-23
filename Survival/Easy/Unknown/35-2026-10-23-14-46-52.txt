@@ -1,0 +1,89 @@
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Militant", "DJ Booth", "EvolvedJuggernaut", "Assassin", "Freezer")
+TDS:Mode("Easy")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Militant", -1.8784892559051514, 1.0299999713897705, 20.924470901489258)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Militant", -0.828216552734375, 0.9641352891921997, 17.596298217773438)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Militant", 1.2779803276062012, 0.9687360525131226, 21.34096336364746)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Militant", 2.239905595779419, 0.9611893892288208, 18.10561752319336)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Place("Militant", 1.2509918212890625, 0.9719409942626953, 24.671974182128906)
+TDS:Place("Militant", -1.7043347358703613, 0.9776735305786133, 23.9594783782959)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Place("Militant", -4.903034210205078, 0.9755356311798096, 20.758289337158203)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Militant", 4.395290851593018, 0.9636768102645874, 21.64707374572754)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Place("Militant", -4.095830917358398, 1.0126595497131348, 17.22031593322754)
+TDS:Place("Militant", -4.8893537521362305, 0.9816101789474487, 23.8810977935791)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 12 ] --
+TDS:Place("Militant", 4.370567321777344, 0.9623358249664307, 25.11741828918457)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(7)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+
+-- [ Wave 15 ] --
+TDS:Place("Assassin", 8.028768539428711, 0.9672946929931641, -12.325923919677734)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Assassin", 5.954219341278076, 0.9726746082305908, -34.529232025146484)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [[ END OF STRATEGY ]]
