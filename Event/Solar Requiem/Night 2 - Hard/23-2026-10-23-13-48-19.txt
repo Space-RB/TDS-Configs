@@ -1,0 +1,58 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoReady = false
+_G.SelectedXPTower = "Crook Boss"
+_G.StreamerMode = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.gui_hidden = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Pyromancer", "Shotgunner", "Freezer", "Gatling Gun", "Commander")
+TDS:Mode("Act2")
+TDS:Ready()
+TDS:Place("Pyromancer", 0.036556243896484375, 47.589656829833984, 10.723348617553711)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Freezer", 0.7525649070739746, 47.63072204589844, 5.300085067749023)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Freezer", -1.3098483085632324, 47.68185043334961, 3.0250542163848877)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Place("Shotgunner", 3.1428208351135254, 47.66518020629883, 6.16225528717041)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(4)
+TDS:Place("Shotgunner", 5.182820796966553, 47.67399215698242, 6.16225528717041)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", 7.474069118499756, 47.7170295715332, 5.151532173156738)
+TDS:Upgrade(6)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6)
+TDS:Place("Shotgunner", 8.916444778442383, 47.70787048339844, 3.708918809890747)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
