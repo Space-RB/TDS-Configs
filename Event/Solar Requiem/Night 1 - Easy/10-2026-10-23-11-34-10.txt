@@ -1,0 +1,116 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Brawler", "Commander", "DJ Booth", "Assassin")
+TDS:Mode("Act1Easy")
+TDS:Ready()
+TDS:Place("Assassin", 29.959972381591797, 2.0009982585906982, 199.2770233154297)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:SetTarget(1, "Last")
+TDS:SetTarget(1, "Strongest")
+TDS:Place("Assassin", 30.171541213989258, 2.000997543334961, 204.32586669921875)
+TDS:SetTarget(2, "Last")
+TDS:SetTarget(2, "Strongest")
+TDS:SetTarget(2, "Strongest")
+TDS:Upgrade(2)
+TDS:VoteSkip(0)
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Brawler", 27.919971466064453, 2.0009982585906982, 199.2770233154297)
+TDS:Upgrade(3)
+TDS:Place("Brawler", 26.130573272705078, 2.0009984970092773, 198.24508666992188)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Place("Brawler", 25.349899291992188, 2.0009987354278564, 196.36036682128906)
+TDS:Upgrade(5)
+TDS:Place("Brawler", 27.904138565063477, 2.0009987354278564, 197.23709106445312)
+TDS:Upgrade(6)
+
+-- [ Wave 5 ] --
+TDS:Place("Brawler", 28.131542205810547, 2.000997543334961, 204.32586669921875)
+TDS:Upgrade(7)
+TDS:Place("Brawler", 26.091541290283203, 2.000997543334961, 204.32586669921875)
+TDS:Upgrade(8)
+TDS:Place("Brawler", 24.20682716369629, 2.000997543334961, 203.54519653320312)
+TDS:Upgrade(9)
+
+-- [ Wave 6 ] --
+TDS:Place("Brawler", 25.349899291992188, 2.0009992122650146, 194.32037353515625)
+TDS:Upgrade(10)
+TDS:Place("Brawler", 29.944137573242188, 2.0009987354278564, 197.23709106445312)
+TDS:Upgrade(11)
+
+-- [ Wave 7 ] --
+TDS:Place("Commander", 22.410776138305664, 2.037498950958252, 201.7491455078125)
+TDS:Upgrade(12)
+TDS:Place("DJ Booth", 33.45964431762695, 2.0009984970092773, 198.7442169189453)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(10)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(11)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Ability(10, "Reposition", {position = Vector3.new(-4.457057952880859, 2.0361433029174805, 204.67860412597656)})
+TDS:Ability(5, "Reposition", {position = Vector3.new(-2.912015914916992, 2.0239627361297607, 210.79087829589844)})
+TDS:Ability(4, "Reposition", {position = Vector3.new(-11.70816421508789, 2.0465660095214844, 209.22669982910156)})
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Ability(3, "Reposition", {position = Vector3.new(-7.9326300621032715, 2.0375003814697266, 209.8502197265625)})
+TDS:VoteSkip(15)
+
+-- [[ END OF STRATEGY ]]
