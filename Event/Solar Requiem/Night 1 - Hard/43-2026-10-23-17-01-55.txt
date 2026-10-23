@@ -1,0 +1,69 @@
+_G.AutoChain = true
+_G.AutoReady = false
+_G.AutoSkipCutscenes = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Commander", "Assassin", "Soldier", "None", "None")
+TDS:Mode("Act1")
+TDS:Ready()
+TDS:Place("Assassin", 27.059267044067383, 2.0009982585906982, 199.11978149414062)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 25.271196365356445, 2.0009987354278564, 197.2439727783203)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Place("Soldier", 15.433538436889648, 2.012214183807373, 200.2200164794922)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Soldier", 15.405420303344727, 2.067389965057373, 197.18020629882812)
+TDS:Place("Soldier", 15.560911178588867, 2.0009992122650146, 194.14418029785156)
+TDS:Place("Soldier", 12.255311965942383, 2.06486177444458, 200.02149963378906)
+TDS:Place("Soldier", 12.37177562713623, 2.041081190109253, 196.98373413085938)
+TDS:Place("Soldier", 12.527222633361816, 2.0247161388397217, 193.94776916503906)
+
+-- [ Wave 6 ] --
+TDS:Place("Soldier", 9.488785743713379, 2.0009992122650146, 193.85031127929688)
+TDS:Place("Soldier", 9.33333683013916, 2.06581711769104, 196.88633728027344)
+TDS:Place("Soldier", 18.052101135253906, 2.0009984970092773, 198.67576599121094)
+TDS:Place("Soldier", 9.216872215270996, 2.027946710586548, 199.92410278320312)
+TDS:Place("Commander", 18.20758628845215, 2.0009989738464355, 195.63973999023438)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [[ END OF STRATEGY ]]
