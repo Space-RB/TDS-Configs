@@ -1,0 +1,52 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.HideUsername = true
+_G.SelectedXPTower = "Evolved Juggernaut"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Soldier", "EvolvedJuggernaut", "Shotgunner", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Soldier", -0.7698131799697876, 1.023633360862732, -35.627899169921875)
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", -3.8098130226135254, 1.0077179670333862, -35.627899169921875)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Soldier", -0.639063835144043, 0.9917035102844238, -32.59071350097656)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Soldier", -5.30275821685791, 0.9709714651107788, -32.9797477722168)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+TDS:Place("Soldier", -3.1322379112243652, 0.9619964957237244, -30.85126495361328)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 15 ] --
+TDS:Place("EvolvedJuggernaut", 3.91013240814209, 1.4075841903686523, 38.65663146972656)
+
+-- [[ END OF STRATEGY ]]
