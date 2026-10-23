@@ -1,0 +1,107 @@
+_G.AutoChain = true
+_G.AutoReady = false
+_G.AutoSkipCutscenes = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Commander", "Assassin", "Soldier", "None", "None")
+TDS:Mode("Act1")
+TDS:Ready()
+TDS:Place("Assassin", 26.91714096069336, 2.0009982585906982, 198.97482299804688)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 25.47464370727539, 2.0009984970092773, 197.53231811523438)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Place("Soldier", 14.861577033996582, 2.0540597438812256, 199.67605590820312)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Soldier", 14.814382553100586, 2.012371063232422, 196.6364288330078)
+TDS:Place("Soldier", 14.943936347961426, 2.0009992122650146, 193.5991973876953)
+TDS:Place("Soldier", 11.921610832214355, 2.0368409156799316, 193.271484375)
+TDS:Place("Soldier", 11.792097091674805, 2.0436649322509766, 196.30873107910156)
+TDS:Place("Soldier", 11.839289665222168, 2.040459156036377, 199.34835815429688)
+
+-- [ Wave 7 ] --
+TDS:Place("Soldier", 9.226529121398926, 2.0016162395477295, 194.67794799804688)
+TDS:Place("Commander", 17.884380340576172, 2.0009987354278564, 196.5678253173828)
+TDS:Upgrade(10)
+TDS:Place("Assassin", 27.42803955078125, 2.0009987354278564, 196.9998321533203)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 8 ] --
+TDS:Place("Assassin", 20.222131729125977, 2.000999689102173, 190.10113525390625)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(11)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(9)
+TDS:Upgrade(6)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(10)
+TDS:Place("Commander", 17.884380340576172, 2.0374958515167236, 199.60781860351562)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Commander", 17.50025177001953, 2.0374972820281982, 202.6234588623047)
+TDS:Upgrade(14)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(14)
+TDS:Place("Assassin", 25.47464370727539, 2.0009989738464355, 195.49232482910156)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
