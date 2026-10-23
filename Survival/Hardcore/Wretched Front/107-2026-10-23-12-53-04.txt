@@ -1,0 +1,57 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.HideUsername = true
+_G.SelectedXPTower = "Minigunner"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Shotgunner", "Golden Minigunner", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", -0.6974630355834961, 1.0251004695892334, -35.42939758300781)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Place("Shotgunner", -8.540761947631836, 0.9912387728691101, -32.989013671875)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", -6.518152236938477, 0.9664359092712402, -32.723209381103516)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 16 ] --
+TDS:Place("Shotgunner", -8.86163330078125, 0.974389910697937, -30.974407196044922)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 17 ] --
+TDS:Place("Shotgunner", -6.839024066925049, 0.9501752257347107, -30.708602905273438)
+
+-- [ Wave 18 ] --
+TDS:Place("Shotgunner", 14.343173027038574, 1.1922168731689453, 28.00457191467285)
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
