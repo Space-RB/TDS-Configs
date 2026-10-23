@@ -1,0 +1,112 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Brawler", "Commander", "DJ Booth", "Assassin")
+TDS:Mode("Act1Easy")
+TDS:Ready()
+TDS:Place("Brawler", 30.628887176513672, 2.0009982585906982, 198.97377014160156)
+TDS:Upgrade(1)
+TDS:Place("Brawler", 28.588886260986328, 2.0009982585906982, 198.97377014160156)
+TDS:Upgrade(2)
+TDS:Place("Brawler", 26.53363609313965, 2.0009984970092773, 198.64114379882812)
+TDS:Upgrade(3)
+TDS:Place("Brawler", 25.267719268798828, 2.0009987354278564, 197.0569610595703)
+TDS:Upgrade(4)
+TDS:VoteSkip(0)
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Brawler", 29.863903045654297, 2.000997543334961, 204.3134002685547)
+TDS:Upgrade(5)
+TDS:Place("Brawler", 27.823902130126953, 2.000997543334961, 204.3134002685547)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(6)
+TDS:Place("Brawler", 25.78390121459961, 2.000997543334961, 204.3134002685547)
+TDS:Upgrade(7)
+
+-- [ Wave 4 ] --
+TDS:Place("Brawler", 27.808212280273438, 2.0009987354278564, 197.08905029296875)
+TDS:Upgrade(8)
+TDS:Place("Brawler", 29.84821319580078, 2.0009987354278564, 197.08905029296875)
+TDS:Upgrade(9)
+
+-- [ Wave 5 ] --
+TDS:Place("Brawler", 25.267719268798828, 2.0009989738464355, 195.0169677734375)
+TDS:Upgrade(10)
+
+-- [ Wave 6 ] --
+TDS:Place("Commander", 23.43724822998047, 2.000997543334961, 203.3413848876953)
+TDS:Upgrade(11)
+
+-- [ Wave 7 ] --
+TDS:Place("DJ Booth", 34.168888092041016, 2.0009982585906982, 198.97377014160156)
+TDS:Upgrade(1)
+TDS:Upgrade(9)
+TDS:Upgrade(2)
+TDS:Upgrade(8)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(10)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(9)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(10)
+TDS:Upgrade(2)
+TDS:Upgrade(8)
+TDS:Upgrade(1)
+TDS:Upgrade(9)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(4)
+TDS:Upgrade(10)
+TDS:VoteSkip(15)
+
+-- [[ END OF STRATEGY ]]
