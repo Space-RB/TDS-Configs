@@ -1,0 +1,18 @@
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoRejoin = false
+_G.ClaimRewards = true
+_G.SelectedXPTower = "Evolved Operator"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Turret", "Mercenary Base", "Trapper", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
