@@ -1,0 +1,77 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.SelectedXPTower = "Evolved Operator"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedOperator", "Farm", "EvolvedJuggernaut", "EvolvedEnforcer", "Rocketeer")
+TDS:Mode("Frost")
+TDS:GameInfo("Crossroads", {})
+TDS:Ready()
+TDS:Place("EvolvedOperator", 4.479793548583984, 0.9999985694885254, 8.654573440551758)
+TDS:Place("EvolvedOperator", 7.019357681274414, 0.9999985694885254, 8.607498168945312)
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", 3.257290840148926, 0.999998927116394, 6.428121566772461)
+
+-- [ Wave 2 ] --
+TDS:Place("EvolvedOperator", 5.796864986419678, 0.999998927116394, 6.381604194641113)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Place("EvolvedEnforcer", 4.920313835144043, 0.9999975562095642, 14.897930145263672)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Place("EvolvedJuggernaut", 7.3619704246521, 0.9999979734420776, 12.388731956481934)
+TDS:Upgrade(6)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 19 ] --
+TDS:Place("EvolvedOperator", 2.50313401222229, 0.9999993443489075, 3.945852041244507)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("EvolvedOperator", 5.043113708496094, 0.9999993443489075, 3.956019639968872)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]
