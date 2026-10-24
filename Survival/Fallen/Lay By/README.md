@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 11 recorded strategies available for this map**
+**📦 12 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -30,6 +30,7 @@ Select a strategy below and open its config file.
 | 9 | 2026-10-21 01:44 UTC | Fallen | HiddenEnemies | Gatling Gun, Necromancer, Military Base, Trapper, Frost Blaster | [Open](9-2026-10-21-01-44-39.txt) |
 | 10 | 2026-10-24 02:44 UTC | Fallen | Committed, ExplodingEnemies, FlyingEnemies, Fog, Glass, HealthyEnemies, HiddenEnemies, Limitation, Quarantine | Trapper, Medic, Hacker, Gatling Gun, Mercenary Base | [Open](10-2026-10-24-02-44-52.txt) |
 | 11 | 2026-10-24 02:51 UTC | Fallen | Committed, ExplodingEnemies, Fog, Glass, HealthyEnemies, HiddenEnemies, Limitation, Quarantine | Trapper, Medic, Hacker, Gatling Gun, Mercenary Base | [Open](11-2026-10-24-02-51-20.txt) |
+| 12 | 2026-10-24 02:56 UTC | Fallen | Committed, ExplodingEnemies, Fog, Glass, HiddenEnemies, Limitation, Quarantine, SpeedyEnemies | Trapper, Medic, Hacker, Gatling Gun, Mercenary Base | [Open](12-2026-10-24-02-56-12.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
