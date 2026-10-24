@@ -1,0 +1,65 @@
+_G.AutoDJ = true
+_G.AutoReady = false
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "DJ Booth", "Gatling Gun", "Shotgunner", "Turret")
+TDS:Mode("Frost")
+TDS:GameInfo("Lay By", {})
+TDS:Ready()
+TDS:Place("Trapper", -2.546053647994995, 243, 172.53253173828125)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Trapper", -2.572174549102783, 243, 167.7620086669922)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Trapper", -2.5643179416656494, 243, 162.8650360107422)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Trapper", -2.542548179626465, 243, 158.36196899414062)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Place("Trapper", 2.580000877380371, 243, 168.90866088867188)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Place("Gatling Gun", -2.526397466659546, 243, 153.42355346679688)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 17 ] --
+TDS:Place("DJ Booth", -5.940594673156738, 243, 165.08367919921875)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
