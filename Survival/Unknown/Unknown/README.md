@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 100 recorded strategies available for this map**
+**📦 101 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -119,6 +119,7 @@ Select a strategy below and open its config file.
 | 98 | 2026-10-24 04:49 UTC | Unknown | — | None | [Open](98-2026-10-24-04-49-40.txt) |
 | 99 | 2026-10-24 07:09 UTC | Unknown | — | Commander, DJ Booth, Trapper, Farm, Minigunner | [Open](99-2026-10-24-07-09-30.txt) |
 | 100 | 2026-10-24 09:21 UTC | Unknown | — | Trapper, Accelerator, Gatling Gun, EvolvedJuggernaut, None | [Open](100-2026-10-24-09-21-35.txt) |
+| 101 | 2026-10-24 09:39 UTC | Unknown | — | Shotgunner, Militant, Pyromancer, Commander, None | [Open](101-2026-10-24-09-39-43.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
