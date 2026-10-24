@@ -1,0 +1,33 @@
+_G.AutoDJ = true
+_G.AutoRestart = false
+_G.ClaimRewards = true
+_G.SelectedXPTower = "Minigunner"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Assassin", "Crook Boss", "DJ Booth", "Minigunner", "Ranger")
+TDS:Mode("Act1")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 28.5333251953125, 2.000995635986328, 216.16180419921875)
+TDS:Place("Assassin", 19.934221267700195, 2.0009994506835938, 191.86325073242188)
+TDS:Place("Assassin", 20.20158576965332, 2.0009992122650146, 194.12721252441406)
+TDS:Place("Assassin", 20.240909576416016, 2.0009987354278564, 197.08042907714844)
+TDS:Place("Assassin", 18.117647171020508, 2.000999689102173, 190.7954864501953)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+
+-- [[ END OF STRATEGY ]]
