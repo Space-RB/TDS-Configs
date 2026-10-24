@@ -1,0 +1,28 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.SelectedXPTower = "Evolved Operator"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedOperator", "Assassin", "Engineer", "Commander", "Firework Technician")
+TDS:Mode("Act3")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", -4.1680145263671875, 103.96135711669922, 122.71906280517578, true)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1, true)
+TDS:Upgrade(1, true)
+TDS:Place("EvolvedOperator", -3.865764617919922, 103.78667449951172, 120.99971008300781, true)
+TDS:Place("EvolvedOperator", -6.135621070861816, 103.9339828491211, 122.291259765625, true)
+TDS:Place("EvolvedOperator", -5.736525535583496, 103.75421142578125, 120.48722076416016, true)
+
+-- [ Wave 4 ] --
+TDS:Place("EvolvedOperator", -22.358495712280273, 109.48133850097656, 111.94076538085938, true)
+
+-- [[ END OF STRATEGY ]]
