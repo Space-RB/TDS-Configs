@@ -1,0 +1,142 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMilitary = true
+_G.AutoNecro = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedKingpin", "DJ Booth", "Gatling Gun", "Golden Demoman", "Golden Crook Boss")
+TDS:Mode("Act3")
+TDS:Ready()
+TDS:Place("Demoman", -1.6618127822875977, 103.7859878540039, 121.66412353515625)
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Demoman", -4.69349479675293, 103.89673614501953, 121.88885498046875)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Crook Boss", -1.8037009239196777, 103.02560424804688, 109.64551544189453)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Place("Crook Boss", -4.482367992401123, 103.0150146484375, 108.16659545898438)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Place("Gatling Gun", -11.453731536865234, 103.23717498779297, 105.55096435546875)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Place("DJ Booth", -8.2850923538208, 103.18762969970703, 112.31717681884766)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 11 ] --
+TDS:Place("Demoman", -3.37227725982666, 103.59390258789062, 119.1509780883789)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+
+-- [ Wave 12 ] --
+TDS:Place("Crook Boss", 1.320716381072998, 103.002685546875, 108.9687728881836)
+TDS:Upgrade(8)
+TDS:Place("Crook Boss", 4.439504146575928, 102.97086334228516, 108.3138198852539)
+TDS:Upgrade(9)
+
+-- [ Wave 13 ] --
+TDS:Place("Crook Boss", -5.737763404846191, 102.97596740722656, 105.25223541259766)
+TDS:Upgrade(10)
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(7)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(5)
+TDS:Place("EvolvedKingpin", -2.3224008083343506, 103.01304626464844, 106.02740478515625)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(11, 2)
+TDS:Place("EvolvedKingpin", 0.6335995197296143, 103.0212173461914, 105.41171264648438)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(12, 2)
+TDS:Place("EvolvedKingpin", 3.9210824966430664, 102.91519927978516, 105.16938781738281)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13, 2)
+TDS:Place("EvolvedKingpin", -3.1760456562042236, 102.9962387084961, 102.96671295166016)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14, 2)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(11, 2)
+TDS:Upgrade(14, 2)
+TDS:Upgrade(12, 2)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(13, 2)
+TDS:Upgrade(13, 2)
+TDS:Upgrade(12, 2)
+TDS:Upgrade(11, 2)
+TDS:Upgrade(14, 2)
+TDS:Upgrade(10)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
