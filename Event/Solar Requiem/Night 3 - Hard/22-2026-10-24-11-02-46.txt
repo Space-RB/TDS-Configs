@@ -1,0 +1,37 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.SelectedXPTower = "Crook Boss"
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "Gatling Gun", "EvolvedJuggernaut", "Slasher", "Hacker")
+TDS:Mode("Act3")
+TDS:Ready()
+TDS:VoteSkip(0)
+TDS:Place("Trapper", -4.148648738861084, 101.19981384277344, 85.41068267822266)
+
+-- [ Wave 1 ] --
+TDS:Place("Trapper", 6.469715118408203, 101.03862762451172, 79.20054626464844)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:SetOption(1, "Trap", "Landmine")
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+TDS:SetOption(2, "Trap", "Landmine")
+TDS:VoteSkip(5)
+
+-- [[ END OF STRATEGY ]]
