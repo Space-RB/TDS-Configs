@@ -1,0 +1,84 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.SelectedXPTower = "Crook Boss"
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "EvolvedJuggernaut", "Slasher", "DJ Booth", "EvolvedOperator")
+TDS:Mode("Act3")
+TDS:Ready()
+TDS:Place("EvolvedOperator", -3.675520896911621, 103.71834564208984, 120.34906005859375)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:VoteSkip(0)
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", -4.483104705810547, 103.97429656982422, 122.75725555419922)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("EvolvedOperator", -3.102890968322754, 103.46751403808594, 117.92236328125)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Place("EvolvedOperator", -0.6870574951171875, 103.46879577636719, 118.70680236816406)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Place("EvolvedOperator", -1.2745656967163086, 103.72772979736328, 121.17792510986328)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("EvolvedOperator", -2.046442985534668, 103.98375701904297, 123.5978012084961)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 6 ] --
+TDS:Place("EvolvedOperator", -5.584582328796387, 103.43324279785156, 117.3812484741211)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 7 ] --
+TDS:Place("EvolvedOperator", -6.123149871826172, 103.6744613647461, 119.8293228149414)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("EvolvedOperator", -6.966742515563965, 104.011474609375, 122.22514343261719)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 8 ] --
+TDS:Place("EvolvedOperator", 1.15924072265625, 103.57705688476562, 120.45115661621094)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("EvolvedOperator", 0.5717372894287109, 103.8399887084961, 122.92227935791016)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", 0.0967702865600586, 102.8427734375, 99.76400756835938)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 13 ] --
+TDS:Place("EvolvedJuggernaut", 0.4326428174972534, 103.01770782470703, 104.29156494140625)
+TDS:Upgrade(13)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(13)
+
+-- [[ END OF STRATEGY ]]
