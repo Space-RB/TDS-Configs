@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 13 | [Open](Unknown/README.md) |
+| Crossroads | 1 | [Open](Crossroads/README.md) |
 
+| Unknown | 13 | [Open](Unknown/README.md) |
 | Lay By | 9 | [Open](Lay%20By/README.md) |
 | Simplicity | 9 | [Open](Simplicity/README.md) |
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
