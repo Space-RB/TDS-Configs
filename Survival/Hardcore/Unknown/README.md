@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 53 recorded strategies available for this map**
+**📦 54 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -72,6 +72,7 @@ Select a strategy below and open its config file.
 | 51 | 2026-10-24 11:00 UTC | Hardcore | — | EvolvedOperator, EvolvedKingpin, EvolvedEnforcer, EvolvedJuggernaut, Farm | [Open](51-2026-10-24-11-00-06.txt) |
 | 52 | 2026-10-24 13:57 UTC | Hardcore | — | EvolvedOperator, EvolvedKingpin, EvolvedEnforcer, EvolvedJuggernaut, Farm | [Open](52-2026-10-24-13-57-12.txt) |
 | 53 | 2026-10-24 18:01 UTC | Hardcore | — | EvolvedOperator, EvolvedEnforcer, EvolvedKingpin, Electroshocker, Farm | [Open](53-2026-10-24-18-01-25.txt) |
+| 54 | 2026-10-24 22:05 UTC | Hardcore | — | EvolvedEnforcer, EvolvedOperator, Golden Scout, Shotgunner, None | [Open](54-2026-10-24-22-05-58.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
