@@ -1,0 +1,154 @@
+_G.AutoGatling = true
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.SelectedXPTower = "Crook Boss"
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.beta_dps = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "DJ Booth", "Engineer", "Golden Crook Boss", "Mercenary Base")
+TDS:Mode("Act3")
+TDS:Ready()
+TDS:Place("Engineer", -0.07768678665161133, 102.2589111328125, 98.3809814453125)
+TDS:Place("Engineer", -0.4453597068786621, 102.91435241699219, 101.39866638183594)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Engineer", -0.2303696870803833, 101.64921569824219, 95.34481811523438)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Place("Engineer", -3.028960943222046, 102.54548645019531, 97.9058837890625)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Place("Engineer", -3.4670495986938477, 102.90513610839844, 100.91415405273438)
+TDS:Upgrade(5)
+TDS:Place("Engineer", 2.6114158630371094, 101.91214752197266, 96.96311950683594)
+TDS:Upgrade(6)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+TDS:Place("DJ Booth", 1.6701655387878418, 101.20987701416016, 91.83304595947266)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", -4.302940845489502, 101.14334106445312, 84.43344116210938)
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(8)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(6)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(8)
+TDS:Place("Mercenary Base", -0.466837078332901, 101.0049819946289, 81.15045928955078)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Crook Boss", -3.915987014770508, 101.53651428222656, 91.32989501953125)
+
+-- [ Wave 25 ] --
+TDS:Place("Crook Boss", -4.94510555267334, 102.02645111083984, 94.1904067993164)
+TDS:Place("Crook Boss", -5.948879241943359, 102.48412322998047, 97.05990600585938)
+TDS:Place("Crook Boss", -6.586099147796631, 102.76031494140625, 100.03241729736328)
+TDS:Place("Crook Boss", -8.022799491882324, 102.36785125732422, 94.83719635009766)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [[ END OF STRATEGY ]]
