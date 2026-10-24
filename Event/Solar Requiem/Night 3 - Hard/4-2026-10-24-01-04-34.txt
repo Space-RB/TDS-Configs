@@ -1,0 +1,41 @@
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedKingpin", "EvolvedJuggernaut", "DJ Booth", "Golden Scout", "Gatling Gun")
+TDS:Mode("Act3")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", -1.1416292190551758, 103.83601379394531, 122.34136962890625)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Place("Scout", -4.180716514587402, 103.9029312133789, 122.10932922363281)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Place("Scout", -3.020909309387207, 104.1350326538086, 124.8696517944336)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Place("Scout", -2.628687858581543, 103.61133575439453, 119.55835723876953)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Gatling Gun", 3.645106315612793, 111.55623626708984, 95.38648986816406)
+
+-- [[ END OF STRATEGY ]]
