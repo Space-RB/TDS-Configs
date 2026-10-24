@@ -1,0 +1,17 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.ClaimRewards = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "Medic", "Hacker", "Gatling Gun", "Mercenary Base")
+TDS:Mode("Fallen")
+TDS:GameInfo("Lay By", {"Committed", "ExplodingEnemies", "FlyingEnemies", "Fog", "Glass", "HealthyEnemies", "HiddenEnemies", "Limitation", "Quarantine"})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
