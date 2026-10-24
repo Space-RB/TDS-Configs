@@ -1,0 +1,15 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.SelectedXPTower = "Evolved Kingpin"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Freezer", "Trapper", "Crook Boss", "None")
+TDS:Mode("Act2")
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
