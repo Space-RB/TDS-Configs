@@ -1,0 +1,55 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Hacker", "Brawler", "Commander", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+TDS:Place("Brawler", -18.046619415283203, 0.999987006187439, -8.231572151184082)
+TDS:Place("Brawler", -18.103546142578125, 0.9999834895133972, -6.202619552612305)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Brawler", -18.16669273376465, 1.0000007152557373, -4.163597106933594)
+TDS:Upgrade(3)
+TDS:Place("Brawler", -18.121889114379883, 1.0000004768371582, -2.124089241027832)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Place("Commander", -15.742598533630371, 0.9999906420707703, -9.238273620605469)
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(4)
+TDS:Place("Brawler", 6.089542388916016, 0.9999831914901733, -3.6670384407043457)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
