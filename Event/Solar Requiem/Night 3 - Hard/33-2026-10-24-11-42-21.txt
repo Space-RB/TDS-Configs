@@ -1,0 +1,63 @@
+_G.AutoDJ = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.SelectedXPTower = "Crook Boss"
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "EvolvedJuggernaut", "Slasher", "DJ Booth", "EvolvedOperator")
+TDS:Mode("Act3")
+TDS:Ready()
+TDS:Place("EvolvedOperator", -3.3044614791870117, 103.63536834716797, 119.60166931152344)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:VoteSkip(0)
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", -3.5192975997924805, 103.88573455810547, 122.132568359375)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("EvolvedOperator", -5.603701591491699, 103.77889251708984, 120.68106842041016)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("EvolvedOperator", -5.388867378234863, 103.52031707763672, 118.1501693725586)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Place("EvolvedOperator", -3.0896291732788086, 103.38500213623047, 117.07077026367188)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("EvolvedOperator", -0.959254264831543, 103.45325469970703, 118.45391845703125)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 6 ] --
+TDS:Place("EvolvedOperator", -1.1740856170654297, 103.7061538696289, 120.98481750488281)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 7 ] --
+TDS:Place("EvolvedOperator", 1.125152587890625, 103.52459716796875, 119.9054183959961)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 8 ] --
+TDS:VoteSkip(8)
+
+-- [[ END OF STRATEGY ]]
