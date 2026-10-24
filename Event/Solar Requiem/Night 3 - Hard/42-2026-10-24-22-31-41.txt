@@ -1,0 +1,55 @@
+_G.AutoGatling = true
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.SelectedXPTower = "Crook Boss"
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.beta_dps = true
+_G.AutoGatlingSettings.gui_hidden = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "DJ Booth", "Engineer", "Golden Crook Boss", "Mercenary Base")
+TDS:Mode("Act3")
+TDS:Ready()
+TDS:Place("Engineer", -1.491623878479004, 103.7252426147461, 121.08599853515625)
+TDS:Place("Engineer", -0.5433254241943359, 103.97589874267578, 123.97430419921875)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Engineer", -3.572427749633789, 103.99409484863281, 123.24002075195312)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Place("Engineer", 1.5024518966674805, 103.67943572998047, 121.61241149902344)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Place("Engineer", -2.6279525756835938, 104.25051879882812, 126.18698120117188)
+TDS:Upgrade(5)
+TDS:Place("Engineer", 0.4920005798339844, 103.4358901977539, 118.78234100341797)
+TDS:Upgrade(6)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+
+-- [[ END OF STRATEGY ]]
