@@ -1,0 +1,66 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkipCutscenes = true
+_G.SelectedXPTower = "Evolved Operator"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedEnforcer", "EvolvedOperator", "Golden Scout", "Shotgunner", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Scout", 0.8609064817428589, 7.579943656921387, 5.877081394195557, true)
+TDS:Place("Scout", 0.40306973457336426, 8.431116104125977, 7.9989824295043945, true)
+TDS:Place("Scout", 5.173598766326904, 12.290282249450684, 1.0317556858062744, true)
+TDS:Place("Scout", -1.692237377166748, 0.8371767401695251, -24.48589324951172, true)
+TDS:Place("Scout", -0.722081184387207, 0.9946008324623108, -32.72317123413086, true)
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", -3.783536434173584, 0.9665027260780334, -31.412126541137695, true)
+TDS:Place("Scout", -3.363926887512207, 0.9693217277526855, -31.39185333251953, true)
+
+-- [ Wave 4 ] --
+TDS:Place("Shotgunner", -7.118834495544434, 1.0335973501205444, -43.826454162597656)
+
+-- [ Wave 6 ] --
+TDS:Place("Shotgunner", -5.7314372062683105, 1.0069864988327026, -45.322025299072266)
+
+-- [ Wave 7 ] --
+TDS:Place("Shotgunner", -5.155087471008301, 1.0498061180114746, -43.3924674987793)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 14 ] --
+TDS:Place("EvolvedOperator", -4.320646286010742, 1.0979927778244019, -41.082542419433594)
+TDS:Upgrade(11)
+
+-- [ Wave 15 ] --
+TDS:Place("EvolvedEnforcer", -6.537894248962402, 1.0272551774978638, -41.62605285644531)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(3, true)
+TDS:Upgrade(3, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(5, true)
+
+-- [[ END OF STRATEGY ]]
