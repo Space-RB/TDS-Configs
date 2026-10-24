@@ -16,11 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Lay By | 14 | [Open](Lay%20By/README.md) |
+| Cataclysm | 4 | [Open](Cataclysm/README.md) |
 
 | Unknown | 28 | [Open](Unknown/README.md) |
 | Simplicity | 20 | [Open](Simplicity/README.md) |
-| Cataclysm | 3 | [Open](Cataclysm/README.md) |
+| Lay By | 14 | [Open](Lay%20By/README.md) |
 | U-Turn | 2 | [Open](U-Turn/README.md) |
 | Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
