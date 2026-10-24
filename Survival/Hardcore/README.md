@@ -16,9 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Wretched Front | 127 | [Open](Wretched%20Front/README.md) |
+| Unknown | 51 | [Open](Unknown/README.md) |
 
-| Unknown | 50 | [Open](Unknown/README.md) |
+| Wretched Front | 127 | [Open](Wretched%20Front/README.md) |
 | Outskirts Commune | 9 | [Open](Outskirts%20Commune/README.md) |
 | Wrecked Battlefield | 3 | [Open](Wrecked%20Battlefield/README.md) |
 </div>
