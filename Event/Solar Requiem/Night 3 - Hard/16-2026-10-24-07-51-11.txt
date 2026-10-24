@@ -1,0 +1,39 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMilitary = true
+_G.AutoNecro = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedKingpin", "DJ Booth", "Gatling Gun", "Golden Demoman", "Golden Crook Boss")
+TDS:Mode("Act3")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Demoman", -2.3064146041870117, 103.82539367675781, 121.87631225585938)
+TDS:Upgrade(1)
+TDS:Place("Demoman", -5.334792137145996, 103.8851318359375, 121.6107406616211)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Crook Boss", -2.569951057434082, 103.01764678955078, 109.34981536865234)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+
+-- [[ END OF STRATEGY ]]
