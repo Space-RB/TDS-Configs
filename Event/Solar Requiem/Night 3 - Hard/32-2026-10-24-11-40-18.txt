@@ -1,0 +1,142 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.SelectedXPTower = "Crook Boss"
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "EvolvedJuggernaut", "Slasher", "DJ Booth", "EvolvedOperator")
+TDS:Mode("Act3")
+TDS:Ready()
+TDS:Place("EvolvedOperator", -2.834756851196289, 103.57479858398438, 119.11662292480469)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:VoteSkip(0)
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", -3.2962961196899414, 103.82921600341797, 121.61434173583984)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Place("EvolvedOperator", -3.332721710205078, 104.0751953125, 124.15408325195312)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Place("EvolvedOperator", -5.373849868774414, 103.61509704589844, 119.04875946044922)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Place("EvolvedOperator", -5.835389137268066, 103.86214447021484, 121.54647827148438)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Place("EvolvedOperator", -5.835389137268066, 104.1286849975586, 124.08647918701172)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("EvolvedOperator", -0.3033132553100586, 103.51641082763672, 119.32493591308594)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("EvolvedOperator", -0.7648525238037109, 103.7749252319336, 121.8226547241211)
+TDS:Upgrade(8)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(8)
+TDS:Place("EvolvedOperator", -0.8012781143188477, 104.02090454101562, 124.36239624023438)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 8 ] --
+TDS:Place("EvolvedOperator", -3.072281837463379, 103.3379135131836, 116.58775329589844)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 9 ] --
+TDS:Place("Slasher", 6.331655502319336, 103.19660949707031, 114.5198974609375)
+TDS:Upgrade(11)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 11 ] --
+TDS:Place("Gatling Gun", 2.353882312774658, 102.99529266357422, 108.86485290527344)
+TDS:Place("Slasher", 6.263180732727051, 103.28720092773438, 116.54142761230469)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 13 ] --
+TDS:Place("Slasher", 4.446941375732422, 103.15328216552734, 113.73921966552734)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(12)
+TDS:Place("DJ Booth", 0.5273113250732422, 103.16938018798828, 115.04200744628906)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(12)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(13)
+
+-- [ Wave 19 ] --
+TDS:Place("Slasher", -10.219090461730957, 102.22943878173828, 90.22767639160156)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(12)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(11)
+
+-- [ Wave 22 ] --
+TDS:VoteSkip(22)
+TDS:WaitForWave(22)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+TDS:Sell(5)
+TDS:Sell(6)
+TDS:Sell(7)
+TDS:Sell(8)
+TDS:Sell(9)
+TDS:Sell(10)
+TDS:Sell(11)
+TDS:Sell(12)
+TDS:Sell(13)
+TDS:Sell(14)
+TDS:Sell(15)
+TDS:Sell(16)
+
+-- [[ END OF STRATEGY ]]
