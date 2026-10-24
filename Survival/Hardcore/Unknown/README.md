@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 46 recorded strategies available for this map**
+**📦 47 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -65,6 +65,7 @@ Select a strategy below and open its config file.
 | 44 | 2026-10-21 18:43 UTC | Hardcore | — | Hunter, Pyromancer, Brawler, None | [Open](44-2026-10-21-18-43-45.txt) |
 | 45 | 2026-10-22 00:23 UTC | Hardcore | — | Engineer, Golden Cowboy, DJ Booth, Crook Boss, Commander | [Open](45-2026-10-22-00-23-49.txt) |
 | 46 | 2026-10-23 08:57 UTC | Hardcore | — | Boomerang, Farm, Shotgunner, None | [Open](46-2026-10-23-08-57-51.txt) |
+| 47 | 2026-10-24 06:51 UTC | Hardcore | — | EvolvedJuggernaut, EvolvedOperator, EvolvedKingpin, Farm, Electroshocker | [Open](47-2026-10-24-06-51-07.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
