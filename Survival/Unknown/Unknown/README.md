@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 97 recorded strategies available for this map**
+**📦 98 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -116,6 +116,7 @@ Select a strategy below and open its config file.
 | 95 | 2026-10-24 01:45 UTC | Unknown | — | DJ Booth, Golden Crook Boss, Commander, Golden Demoman, Golden Minigunner | [Open](95-2026-10-24-01-45-33.txt) |
 | 96 | 2026-10-24 02:03 UTC | Unknown | — | None | [Open](96-2026-10-24-02-03-36.txt) |
 | 97 | 2026-10-24 03:30 UTC | Unknown | — | Commander, EvolvedJuggernaut, Frost Blaster, Engineer, Toxic Gunner | [Open](97-2026-10-24-03-30-35.txt) |
+| 98 | 2026-10-24 04:49 UTC | Unknown | — | None | [Open](98-2026-10-24-04-49-40.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
