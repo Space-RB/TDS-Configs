@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 46 recorded strategies available for this map**
+**📦 47 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -65,6 +65,7 @@ Select a strategy below and open its config file.
 | 44 | 2026-10-24 22:45 UTC | Act3 | — | Hacker, EvolvedJuggernaut, Gatling Gun, Brawler, Firework Technician | [Open](44-2026-10-24-22-45-47.txt) |
 | 45 | 2026-10-24 22:49 UTC | Act3 | — | Gatling Gun, DJ Booth, Engineer, Golden Crook Boss, Mercenary Base | [Open](45-2026-10-24-22-49-17.txt) |
 | 46 | 2026-10-24 23:06 UTC | Act3 | — | Gatling Gun, DJ Booth, Engineer, Golden Crook Boss, Mercenary Base | [Open](46-2026-10-24-23-06-01.txt) |
+| 47 | 2026-10-24 23:17 UTC | Act3 | — | EvolvedOperator, EvolvedEnforcer, DJ Booth, Gatling Gun, Slasher | [Open](47-2026-10-24-23-17-01.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
