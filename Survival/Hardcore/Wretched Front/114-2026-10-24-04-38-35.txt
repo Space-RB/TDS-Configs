@@ -1,0 +1,91 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Electroshocker", "Sniper", "Boomerang", "Freezer", "Farm")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Farm", 20.95794677734375, 0.43871766328811646, 9.436223983764648)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", 23.166627883911133, 0.41988521814346313, 12.45455551147461)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", 24.020469665527344, 0.5368242263793945, 16.40936279296875)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", 23.71528434753418, 0.6420468091964722, 19.936214447021484)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Place("Boomerang", 6.604193687438965, 1.2316946983337402, 21.501907348632812)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", 23.463743209838867, 0.7518260478973389, 23.77703857421875)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Farm", 22.01972198486328, 0.8737705945968628, 27.103302001953125)
+TDS:Upgrade(7)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(7)
+TDS:Place("Farm", 22.95846176147461, 0.9342818260192871, 30.516468048095703)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Farm", 22.882347106933594, 1.0250139236450195, 34.05565643310547)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Farm", 18.897296905517578, 1.0999815464019775, 35.460670471191406)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Farm", 21.24340057373047, 1.0334200859069824, 38.11128234863281)
+TDS:Upgrade(11)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(11)
+TDS:Place("Boomerang", 9.64052963256836, 1.19832444190979, 21.6511173248291)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+TDS:Place("Freezer", 5.976238250732422, 0.8563479781150818, 18.569440841674805)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Freezer", 9.014358520507812, 0.8084524869918823, 18.67630386352539)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Freezer", 11.971445083618164, 0.9465968608856201, 19.381452560424805)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [[ END OF STRATEGY ]]
