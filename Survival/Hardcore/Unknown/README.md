@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 49 recorded strategies available for this map**
+**📦 50 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -68,6 +68,7 @@ Select a strategy below and open its config file.
 | 47 | 2026-10-24 06:51 UTC | Hardcore | — | EvolvedJuggernaut, EvolvedOperator, EvolvedKingpin, Farm, Electroshocker | [Open](47-2026-10-24-06-51-07.txt) |
 | 48 | 2026-10-24 07:11 UTC | Hardcore | — | EvolvedJuggernaut, EvolvedOperator, EvolvedKingpin, Farm, Electroshocker | [Open](48-2026-10-24-07-11-14.txt) |
 | 49 | 2026-10-24 07:22 UTC | Hardcore | — | EvolvedJuggernaut, EvolvedOperator, EvolvedKingpin, Farm, Electroshocker | [Open](49-2026-10-24-07-22-04.txt) |
+| 50 | 2026-10-24 08:03 UTC | Hardcore | — | DJ Booth, Mercenary Base, EvolvedOperator, EvolvedJuggernaut, Shotgunner | [Open](50-2026-10-24-08-03-47.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
