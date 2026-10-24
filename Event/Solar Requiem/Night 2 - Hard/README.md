@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 25 recorded strategies available for this map**
+**📦 26 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -44,6 +44,7 @@ Select a strategy below and open its config file.
 | 23 | 2026-10-23 13:48 UTC | Act2 | — | Golden Pyromancer, Shotgunner, Freezer, Gatling Gun, Commander | [Open](23-2026-10-23-13-48-19.txt) |
 | 24 | 2026-10-23 14:02 UTC | Act2 | — | Golden Pyromancer, Shotgunner, Freezer, Gatling Gun, Commander | [Open](24-2026-10-23-14-02-03.txt) |
 | 25 | 2026-10-23 20:31 UTC | Act2 | — | Demoman, Gatling Gun, None | [Open](25-2026-10-23-20-31-00.txt) |
+| 26 | 2026-10-24 03:49 UTC | Act2 | — | Pyromancer, Freezer, Trapper, Crook Boss, None | [Open](26-2026-10-24-03-49-39.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
