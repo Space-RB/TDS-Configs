@@ -16,11 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| U-Turn | 1 | [Open](U-Turn/README.md) |
+| Dead Ahead | 8 | [Open](Dead%20Ahead/README.md) |
 
 | Unknown | 36 | [Open](Unknown/README.md) |
 | Gilded Path | 15 | [Open](Gilded%20Path/README.md) |
-| Dead Ahead | 7 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 2 | [Open](Lay%20By/README.md) |
 | Cataclysm | 1 | [Open](Cataclysm/README.md) |
 | Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
@@ -30,6 +29,7 @@ Choose one of the categories below to continue.
 | Retro Lighthouse | 1 | [Open](Retro%20Lighthouse/README.md) |
 | Ruby Escort | 1 | [Open](Ruby%20Escort/README.md) |
 | Simplicity | 1 | [Open](Simplicity/README.md) |
+| U-Turn | 1 | [Open](U-Turn/README.md) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>
