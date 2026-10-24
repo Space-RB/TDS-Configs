@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 38 recorded strategies available for this map**
+**📦 39 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -57,6 +57,7 @@ Select a strategy below and open its config file.
 | 36 | 2026-10-24 14:16 UTC | Act3 | — | EvolvedOperator, EvolvedEnforcer, DJ Booth, Gatling Gun, Slasher | [Open](36-2026-10-24-14-16-45.txt) |
 | 37 | 2026-10-24 14:41 UTC | Act3 | — | EvolvedOperator, Assassin, Engineer, Commander, Firework Technician | [Open](37-2026-10-24-14-41-49.txt) |
 | 38 | 2026-10-24 14:44 UTC | Act3 | — | EvolvedOperator, Assassin, Engineer, Commander, Firework Technician | [Open](38-2026-10-24-14-44-44.txt) |
+| 39 | 2026-10-24 14:46 UTC | Act3 | — | EvolvedOperator, Assassin, Engineer, Commander, Firework Technician | [Open](39-2026-10-24-14-46-56.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
