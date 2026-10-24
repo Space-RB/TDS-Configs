@@ -1,0 +1,38 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.SelectedXPTower = "Evolved Juggernaut"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedJuggernaut", "Electroshocker", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Electroshocker", 2.731553554534912, 0.4428178668022156, -15.057684898376465)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Place("Electroshocker", 3.3931758403778076, 0.6185654401779175, -18.02481460571289)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 18 ] --
+TDS:Place("EvolvedJuggernaut", -6.398760795593262, -0.08065760135650635, -11.91608715057373)
+
+-- [[ END OF STRATEGY ]]
