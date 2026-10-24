@@ -1,0 +1,21 @@
+_G.AntiLag = true
+_G.AutoChain = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.SelectedXPTower = "Scout / Shotgunner"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Militant", "Pyromancer", "Shotgunner", "Commander", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+
+-- [ Wave 23 ] --
+TDS:Upgrade(10)
+
+-- [[ END OF STRATEGY ]]
