@@ -1,0 +1,65 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedJuggernaut", "EvolvedOperator", "EvolvedKingpin", "Farm", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", -1.0061759948730469, 0.7370076179504395, -23.966053009033203)
+
+-- [ Wave 2 ] --
+TDS:Place("EvolvedOperator", 0.5294297933578491, 0.6553298234939575, -21.94281005859375)
+TDS:Place("EvolvedOperator", -3.148897647857666, 0.677185595035553, -22.48716926574707)
+
+-- [ Wave 3 ] --
+TDS:Place("EvolvedOperator", -1.8155922889709473, 0.5754092335700989, -20.32525062561035)
+TDS:Place("EvolvedOperator", 2.4065332412719727, 0.6341314315795898, -20.231645584106445)
+TDS:Place("EvolvedOperator", -0.17720413208007812, 0.5391777157783508, -18.344350814819336)
+
+-- [ Wave 4 ] --
+TDS:Place("EvolvedOperator", 3.0829310417175293, 0.6171523332595825, -17.783363342285156)
+TDS:Place("EvolvedOperator", 0.536201000213623, 0.3920177221298218, -15.942930221557617)
+TDS:Place("EvolvedOperator", -1.9386820793151855, 0.3002793490886688, -16.514379501342773)
+
+-- [ Wave 5 ] --
+TDS:Place("EvolvedOperator", -3.650545120239258, 0.3883618414402008, -18.619361877441406)
+TDS:Place("EvolvedOperator", -5.254709243774414, 0.49792373180389404, -20.927330017089844)
+
+-- [ Wave 6 ] --
+TDS:Place("EvolvedOperator", -6.182867050170898, 0.19084501266479492, -18.422016143798828)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(12)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+TDS:Upgrade(11)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]
