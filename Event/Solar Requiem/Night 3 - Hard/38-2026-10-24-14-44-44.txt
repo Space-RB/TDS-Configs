@@ -1,0 +1,55 @@
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoXP = true
+_G.SelectedXPTower = "Evolved Operator"
+_G.StartHubStrategy = "B320AFBF-AAD5-41B9-AE0F-7B52445988EC"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedOperator", "Assassin", "Engineer", "Commander", "Firework Technician")
+TDS:Mode("Act3")
+TDS:Ready()
+TDS:Place("EvolvedOperator", -3.694098472595215, 103.7890396118164, 121.07649993896484, true)
+TDS:Place("EvolvedOperator", -3.710927963256836, 103.93800354003906, 122.61617279052734, true)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1, true)
+TDS:Upgrade(2, true)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1, true)
+TDS:Place("EvolvedOperator", -5.166975975036621, 103.95616149902344, 122.3608169555664, true)
+TDS:Place("EvolvedOperator", -5.21675968170166, 103.77967071533203, 120.56820678710938, true)
+TDS:Place("EvolvedOperator", -2.2426023483276367, 103.8514633178711, 122.1661605834961, true)
+TDS:Place("EvolvedOperator", -2.030327796936035, 103.69059753417969, 120.56257629394531, true)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3, true)
+TDS:Upgrade(6, true)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2, true)
+TDS:Upgrade(1, true)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4, true)
+TDS:Upgrade(5, true)
+TDS:Upgrade(2, true)
+
+-- [ Wave 7 ] --
+TDS:Place("Assassin", 5.337733268737793, 103.1404037475586, 113.36030578613281, true)
+TDS:Place("Assassin", 5.807858467102051, 103.16967010498047, 113.96453857421875, true)
+TDS:Place("Assassin", 6.229778289794922, 103.20820617675781, 114.7864990234375, true)
+TDS:Place("Assassin", 6.01053524017334, 103.25369262695312, 115.81706237792969, true)
+TDS:Place("Assassin", 5.5638933181762695, 103.207763671875, 114.83270263671875, true)
+TDS:Place("Assassin", 5.191688537597656, 103.16502380371094, 113.92003631591797, true)
+TDS:Place("Assassin", 4.3720245361328125, 103.16763305664062, 114.0643310546875, true)
+TDS:Place("Assassin", 4.631926536560059, 103.18656921386719, 114.45552825927734, true)
+TDS:Place("Assassin", 4.890725135803223, 103.21369171142578, 115.0276107788086, true)
+TDS:Place("Assassin", 5.165680885314941, 103.2450180053711, 115.69513702392578, true)
+
+-- [[ END OF STRATEGY ]]
