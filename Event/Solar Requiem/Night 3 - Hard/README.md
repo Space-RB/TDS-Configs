@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 17 recorded strategies available for this map**
+**📦 18 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -36,6 +36,7 @@ Select a strategy below and open its config file.
 | 15 | 2026-10-24 07:44 UTC | Act3 | — | EvolvedKingpin, DJ Booth, Gatling Gun, Archer, EvolvedJuggernaut | [Open](15-2026-10-24-07-44-14.txt) |
 | 16 | 2026-10-24 07:51 UTC | Act3 | — | EvolvedKingpin, DJ Booth, Gatling Gun, Golden Demoman, Golden Crook Boss | [Open](16-2026-10-24-07-51-11.txt) |
 | 17 | 2026-10-24 08:00 UTC | Act3 | — | EvolvedKingpin, DJ Booth, Gatling Gun, Golden Demoman, Golden Crook Boss | [Open](17-2026-10-24-08-00-18.txt) |
+| 18 | 2026-10-24 10:57 UTC | Act3 | — | Trapper, Gatling Gun, EvolvedJuggernaut, Slasher, Hacker | [Open](18-2026-10-24-10-57-11.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
