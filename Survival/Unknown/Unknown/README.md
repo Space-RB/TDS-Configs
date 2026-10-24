@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 98 recorded strategies available for this map**
+**📦 99 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -117,6 +117,7 @@ Select a strategy below and open its config file.
 | 96 | 2026-10-24 02:03 UTC | Unknown | — | None | [Open](96-2026-10-24-02-03-36.txt) |
 | 97 | 2026-10-24 03:30 UTC | Unknown | — | Commander, EvolvedJuggernaut, Frost Blaster, Engineer, Toxic Gunner | [Open](97-2026-10-24-03-30-35.txt) |
 | 98 | 2026-10-24 04:49 UTC | Unknown | — | None | [Open](98-2026-10-24-04-49-40.txt) |
+| 99 | 2026-10-24 07:09 UTC | Unknown | — | Commander, DJ Booth, Trapper, Farm, Minigunner | [Open](99-2026-10-24-07-09-30.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
