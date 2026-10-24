@@ -1,0 +1,38 @@
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Electroshocker", "Sniper", "Boomerang", "Freezer", "Farm")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", 18.691951751708984, 1.635082721710205, -23.77355194091797)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Place("Farm", 20.015222549438477, 1.4738694429397583, -20.490320205688477)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", 15.21828556060791, 1.1385350227355957, -23.487751007080078)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Place("Farm", 16.522571563720703, 0.9584323167800903, -19.354543685913086)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+TDS:Place("Boomerang", 4.242625713348389, 1.2994868755340576, 21.362157821655273)
+TDS:Upgrade(5)
+
+-- [[ END OF STRATEGY ]]
