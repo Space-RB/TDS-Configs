@@ -1,0 +1,204 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedOperator", "EvolvedEnforcer", "EvolvedKingpin", "Electroshocker", "Farm")
+TDS:Mode("Hardcore")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Farm", -22.362930297851562, -0.5751497149467468, -3.1383256912231445)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", -20.928361892700195, -0.6008874773979187, 1.0748116970062256)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Place("Farm", -24.716476440429688, -0.5493919253349304, 0.029791831970214844)
+TDS:Upgrade(3)
+TDS:Place("Farm", -23.968666076660156, -0.45763060450553894, 3.532299280166626)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(4)
+TDS:Place("Farm", -20.312824249267578, -0.5740960836410522, 4.641097068786621)
+
+-- [ Wave 4 ] --
+TDS:Place("EvolvedOperator", 10.108847618103027, 1.208274006843567, 21.861278533935547)
+TDS:Upgrade(6)
+TDS:Place("EvolvedOperator", 7.611392021179199, 1.3087681531906128, 22.324220657348633)
+TDS:Upgrade(7)
+
+-- [ Wave 5 ] --
+TDS:Place("Electroshocker", 11.328041076660156, 0.3082689642906189, 11.042218208312988)
+TDS:Upgrade(8)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+TDS:Place("Farm", -23.854543685913086, -0.4052532911300659, 7.070459365844727)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(4)
+TDS:Place("Farm", -27.791484832763672, -0.6351830959320068, 1.7836217880249023)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Farm", -27.03545570373535, -0.47963953018188477, 5.516946315765381)
+TDS:Upgrade(11)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Place("Farm", -29.999080657958984, -0.7861407399177551, -0.9837088584899902)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 14 ] --
+TDS:Place("Farm", -25.431257247924805, -0.7753316164016724, -4.894606590270996)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+TDS:Place("EvolvedOperator", 8.735383033752441, 0.9980839490890503, 19.758398056030273)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("EvolvedOperator", 6.2077131271362305, 1.1587897539138794, 20.00836181640625)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("EvolvedOperator", 4.657871246337891, 1.3255748748779297, 22.020721435546875)
+TDS:Upgrade(16)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("EvolvedOperator", 3.692971706390381, 1.232715368270874, 19.651044845581055)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("EvolvedOperator", 7.335470676422119, 0.697808563709259, 17.639001846313477)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("EvolvedOperator", 11.331642150878906, 0.9500705003738403, 19.634986877441406)
+TDS:Upgrade(19)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("EvolvedOperator", 9.874074935913086, 0.5736768841743469, 17.554819107055664)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("EvolvedOperator", 12.648269653320312, 1.1643259525299072, 21.807104110717773)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(21)
+TDS:Upgrade(8)
+TDS:Place("Electroshocker", 16.379798889160156, 0.6769726872444153, 18.720596313476562)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Place("Electroshocker", 5.756013870239258, 1.3985073566436768, 29.02433204650879)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+
+-- [ Wave 20 ] --
+TDS:Place("EvolvedEnforcer", -11.579591751098633, -0.493272602558136, 0.41252756118774414)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+
+-- [ Wave 21 ] --
+TDS:Place("EvolvedKingpin", 15.431214332580566, 0.9398865103721619, 21.60881233215332)
+TDS:Upgrade(10)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(25)
+TDS:Place("EvolvedEnforcer", -9.12905502319336, -0.37932679057121277, -0.6907558441162109)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+
+-- [ Wave 24 ] --
+TDS:Place("EvolvedEnforcer", -13.552310943603516, -0.5337195992469788, 0.7628283500671387)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(25, 2)
+
+-- [ Wave 26 ] --
+TDS:Place("Electroshocker", 8.945150375366211, 0.2193097025156021, 8.860980987548828)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+
+-- [ Wave 27 ] --
+TDS:Place("Electroshocker", 12.912725448608398, 0.30378663539886475, 7.953741550445557)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Place("EvolvedOperator", 11.676253318786621, 1.2808947563171387, 24.153759002685547)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(30)
+TDS:Place("EvolvedOperator", 2.139439344406128, 1.3398364782333374, 21.69041633605957)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Place("EvolvedOperator", 7.335470199584961, 0.3854193389415741, 15.099000930786133)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Place("EvolvedOperator", 6.148077964782715, 1.3923401832580566, 28.04400634765625)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+
+-- [ Wave 29 ] --
+TDS:Place("EvolvedOperator", 3.533864974975586, 1.4173107147216797, 28.061620712280273)
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+
+-- [[ END OF STRATEGY ]]
