@@ -1,0 +1,16 @@
+_G.AutoDJ = true
+_G.SelectedXPTower = "Crook Boss"
+_G.SupportCaravan = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Commander", "Minigunner", "Shotgunner", "DJ Booth", "Trapper")
+TDS:Mode("Fallen")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
