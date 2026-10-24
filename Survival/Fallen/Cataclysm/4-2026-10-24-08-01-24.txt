@@ -1,0 +1,284 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoReady = false
+_G.AutoRestart = false
+_G.ClaimRewards = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("DJ Booth", "EvolvedOperator", "EvolvedJuggernaut", "Shotgunner", "Commander")
+TDS:Mode("Fallen")
+TDS:GameInfo("Cataclysm", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", -5.568986415863037, 1.0000081062316895, 24.427417755126953)
+TDS:Upgrade(1)
+TDS:Place("EvolvedOperator", -3.0315351486206055, 1.0000081062316895, 24.54117774963379)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Place("EvolvedOperator", -0.491595983505249, 1.0000081062316895, 24.55873680114746)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+TDS:Place("EvolvedOperator", -4.201741695404053, 1.0000081062316895, 22.286800384521484)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+TDS:Place("EvolvedOperator", -1.6618022918701172, 1.0000081062316895, 22.304359436035156)
+TDS:Upgrade(5)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+TDS:Place("EvolvedOperator", -4.39877986907959, 1.0000081062316895, 26.681795120239258)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("EvolvedOperator", -1.6866703033447266, 1.0000081062316895, 26.800029754638672)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 9 ] --
+TDS:Place("EvolvedOperator", 2.047358989715576, 1.0000081062316895, 24.631587982177734)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("EvolvedOperator", 0.8522847294807434, 1.0000081062316895, 26.872880935668945)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 10 ] --
+TDS:Place("EvolvedOperator", 0.849783182144165, 1.0000081062316895, 22.401817321777344)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 11 ] --
+TDS:Place("EvolvedOperator", -3.136230945587158, 1.0000081062316895, 28.885784149169922)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("EvolvedOperator", -0.48716437816619873, 1.0000081062316895, 29.038955688476562)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("EvolvedOperator", -2.916565418243408, 1.0000081062316895, 20.095928192138672)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("EvolvedOperator", -0.371151328086853, 1.0000081062316895, 20.11670684814453)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("DJ Booth", 3.276951313018799, 1.0000081062316895, 19.028120040893555)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(5)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(15)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(15)
+TDS:Place("Commander", 4.269356727600098, 1.0000081062316895, 22.944334030151367)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(9)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(10)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+
+-- [ Wave 25 ] --
+TDS:Place("EvolvedOperator", 6.027822494506836, 1.0000081062316895, 6.6734538078308105)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("EvolvedOperator", 1.5786420106887817, 1.0000081062316895, -10.027910232543945)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Shotgunner", -9.8710355758667, 1.0000081062316895, 28.86417007446289)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [ Wave 26 ] --
+TDS:Place("Shotgunner", -9.719383239746094, 1.0000081062316895, 26.829814910888672)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Shotgunner", -9.88867473602295, 1.0000081062316895, 24.796852111816406)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Place("Shotgunner", -9.78003215789795, 1.0000081062316895, 22.759746551513672)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Place("Shotgunner", -8.160554885864258, 1.0000081062316895, 29.975860595703125)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(23)
+TDS:Place("Shotgunner", -8.053043365478516, 1.0000081062316895, 27.938695907592773)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Place("Shotgunner", -8.043431282043457, 1.0000081062316895, 25.666723251342773)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Place("Shotgunner", -7.934788703918457, 1.0000081062316895, 23.62961769104004)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(26)
+TDS:Place("Shotgunner", -10.379804611206055, 1.0000081062316895, 20.836414337158203)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(19)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(20)
+TDS:Upgrade(21)
+TDS:Upgrade(22)
+TDS:Upgrade(27)
+TDS:Upgrade(23)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(24)
+TDS:Upgrade(25)
+TDS:Upgrade(26)
+TDS:Upgrade(8)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(10)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+TDS:Upgrade(17)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Commander", 6.71872615814209, 1.0000081062316895, 21.143726348876953)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+
+-- [ Wave 34 ] --
+TDS:Place("Commander", 6.461169719696045, 1.0000081062316895, 25.01925277709961)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Place("EvolvedJuggernaut", -4.022714614868164, 1.0749932527542114, 9.780583381652832)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(30)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(30)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(30)
+
+-- [ Wave 38 ] --
+TDS:Place("Commander", 3.9249277114868164, 1.0000081062316895, 26.695281982421875)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+
+-- [[ END OF STRATEGY ]]
