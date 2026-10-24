@@ -1,0 +1,41 @@
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.HideUsername = true
+_G.MatchTrackerEnabled = false
+_G.SelectedXPTower = "Crook Boss"
+_G.StreamerMode = true
+_G.TimeScaleEnabled = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Crook Boss", "Farm", "Accelerator", "Boomerang", "Pyromancer")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Farm", -11.530486106872559, 1.5541894435882568, 25.496402740478516)
+TDS:Place("Farm", -11.657496452331543, 1.5051374435424805, 29.034122467041016)
+TDS:Place("Farm", -11.596827507019043, 1.4444105625152588, 32.586936950683594)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Place("Boomerang", 4.933751106262207, 1.4036478996276855, 27.915021896362305)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Place("Farm", -11.467289924621582, 1.3592605590820312, 36.10251998901367)
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Place("Farm", -11.135244369506836, 1.2635831832885742, 39.7322998046875)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
