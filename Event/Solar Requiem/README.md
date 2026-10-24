@@ -16,11 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Night 1 - Hard | 48 | [Open](Night%201%20-%20Hard/README.md) |
+| Night 3 - Hard | 11 | [Open](Night%203%20-%20Hard/README.md) |
 
+| Night 1 - Hard | 48 | [Open](Night%201%20-%20Hard/README.md) |
 | Night 2 - Hard | 28 | [Open](Night%202%20-%20Hard/README.md) |
 | Night 1 - Easy | 13 | [Open](Night%201%20-%20Easy/README.md) |
-| Night 3 - Hard | 10 | [Open](Night%203%20-%20Hard/README.md) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>
