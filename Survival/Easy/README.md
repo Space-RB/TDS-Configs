@@ -16,11 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Dead Ahead | 9 | [Open](Dead%20Ahead/README.md) |
+| Lay By | 3 | [Open](Lay%20By/README.md) |
 
 | Unknown | 37 | [Open](Unknown/README.md) |
 | Gilded Path | 15 | [Open](Gilded%20Path/README.md) |
-| Lay By | 2 | [Open](Lay%20By/README.md) |
+| Dead Ahead | 9 | [Open](Dead%20Ahead/README.md) |
 | Cataclysm | 1 | [Open](Cataclysm/README.md) |
 | Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
