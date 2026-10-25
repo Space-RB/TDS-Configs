@@ -16,10 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 5 | [Open](Unknown/README.md) |
+| Black Spot Exchange | 1 | [Open](Black%20Spot%20Exchange/README.md) |
 
 | Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
 | Simplicity | 6 | [Open](Simplicity/README.md) |
+| Unknown | 5 | [Open](Unknown/README.md) |
 | Retro Crossroads | 4 | [Open](Retro%20Crossroads/README.md) |
 | Retro Lighthouse | 2 | [Open](Retro%20Lighthouse/README.md) |
 | Rocket Arena | 2 | [Open](Rocket%20Arena/README.md) |
