@@ -1,0 +1,110 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkipCutscenes = true
+_G.SelectedXPTower = "Crook Boss"
+_G.SellFarmsWave = 140
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("DJ Booth", "Commander", "Hacker", "Golden Cowboy", "Golden Minigunner")
+TDS:Mode("Badlands")
+TDS:Ready()
+
+-- [ Wave 3 ] --
+TDS:Place("Cowboy", -6.762351036071777, 1.0000022649765015, 5.588384628295898)
+TDS:Upgrade(3)
+TDS:Place("Cowboy", -8.64045524597168, 1.0000022649765015, 7.253232479095459)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Place("Cowboy", -10.669742584228516, 1.0000022649765015, 5.744822025299072)
+
+-- [ Wave 5 ] --
+TDS:Place("Cowboy", -12.88818645477295, 1.0000022649765015, 7.288989067077637)
+TDS:Upgrade(6)
+TDS:Place("Cowboy", -14.570003509521484, 1.0000022649765015, 5.33865213394165)
+TDS:Upgrade(7)
+TDS:Place("Cowboy", -12.704437255859375, 1.0000022649765015, 3.106477737426758)
+
+-- [ Wave 6 ] --
+TDS:Place("Cowboy", -12.8014497756958, 1.0000022649765015, 0.39098167419433594)
+TDS:Place("Cowboy", -15.23034954071045, 1.0000022649765015, 2.857651710510254)
+TDS:Place("Cowboy", -15.41891098022461, 1.0000022649765015, 0.11830806732177734)
+TDS:Place("Cowboy", -12.099440574645996, 0.9999865293502808, -3.275402784347534)
+TDS:Upgrade(12)
+TDS:Upgrade(9)
+TDS:Upgrade(11)
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+TDS:Upgrade(7)
+
+-- [ Wave 7 ] --
+TDS:Place("Hacker", -14.827838897705078, 0.9999865293502808, -3.8584489822387695)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("DJ Booth", -8.309440612792969, 0.9999865293502808, -3.275402784347534)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 9 ] --
+TDS:Place("Minigunner", 0.17228922247886658, 1.0000022649765015, 7.636260032653809)
+TDS:Upgrade(15)
+
+-- [ Wave 10 ] --
+TDS:Place("Minigunner", 0.443556010723114, 1.0000022649765015, 4.644894599914551)
+TDS:Upgrade(16)
+TDS:Upgrade(15)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Commander", -5.218993663787842, 1.0000022649765015, 1.5251598358154297)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Commander", -5.0828633308410645, 0.9999865293502808, -5.702834129333496)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [[ END OF STRATEGY ]]
