@@ -1,0 +1,19 @@
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRestart = false
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Scout", "Slasher", "DJ Booth", "Gatling Gun", "EvolvedEnforcer")
+TDS:Mode("Act1")
+TDS:Ready()
+TDS:Place("Scout", 20.19310188293457, 2.000999689102173, 190.04751586914062)
+
+-- [[ END OF STRATEGY ]]
