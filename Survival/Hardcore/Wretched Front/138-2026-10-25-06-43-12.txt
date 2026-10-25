@@ -1,0 +1,41 @@
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Crook Boss", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 9 ] --
+TDS:Place("Crook Boss", -7.225941181182861, -0.1092485785484314, -11.71820068359375)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Place("Crook Boss", 0.43872368335723877, 0.15709209442138672, -8.389249801635742)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 18 ] --
+TDS:Place("Crook Boss", 7.7170538902282715, 0.4066466689109802, -5.506877899169922)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(3)
+
+-- [[ END OF STRATEGY ]]
