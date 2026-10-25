@@ -1,0 +1,85 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Shotgunner", "Pyromancer", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Pyromancer", 11.262991905212402, 0.9386112689971924, -7.826745986938477)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 13 ] --
+TDS:Place("Shotgunner", -13.373991012573242, 0.9884255528450012, 20.08670997619629)
+TDS:Upgrade(2)
+
+-- [ Wave 14 ] --
+TDS:Place("Shotgunner", 8.865891456604004, 0.9523720741271973, 16.769990921020508)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Place("Shotgunner", -13.31822395324707, 1.0061808824539185, 22.333831787109375)
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Place("Shotgunner", 7.276969909667969, 0.9567075967788696, 18.410846710205078)
+TDS:Upgrade(5)
+TDS:Place("Shotgunner", -13.082441329956055, 0.9736489057540894, 17.85063362121582)
+TDS:Upgrade(6)
+TDS:Place("Shotgunner", 8.991842269897461, 0.9460777044296265, 14.623857498168945)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 16 ] --
+TDS:Place("Shotgunner", 7.135257720947266, 0.9487848281860352, 15.74200439453125)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Shotgunner", -12.128890991210938, 0.9686336517333984, 15.82266616821289)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 17 ] --
+TDS:Place("Shotgunner", -11.051267623901367, 0.9743272066116333, 18.091020584106445)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 18 ] --
+TDS:Place("Shotgunner", 7.160545349121094, 0.942581057548523, 13.637458801269531)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(7)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(3)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:Upgrade(11)
+
+-- [[ END OF STRATEGY ]]
