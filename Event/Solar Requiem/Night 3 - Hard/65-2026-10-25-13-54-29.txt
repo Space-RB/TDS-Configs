@@ -1,0 +1,104 @@
+_G.AutoMercenary = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.StreamerMode = true
+_G.TimeScaleEnabled = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Firework Technician", "Hacker", "EvolvedJuggernaut", "Golden Demoman")
+TDS:Mode("Act3")
+TDS:Ready()
+TDS:Place("Demoman", -0.8620185852050781, 103.55058288574219, 119.47823333740234)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Demoman", -1.0767841339111328, 103.85043334960938, 122.51063537597656)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Demoman", 1.65673828125, 103.63170623779297, 121.18042755126953)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:VoteSkip(6)
+TDS:Place("Gatling Gun", -1.0900559425354004, 103.01614379882812, 109.29395294189453)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Hacker", -2.0552377700805664, 104.15673065185547, 125.38887023925781)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+TDS:Place("Firework Technician", 2.3841404914855957, 102.98819732666016, 108.61457061767578)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 20 ] --
+TDS:Place("EvolvedJuggernaut", -1.4279718399047852, 103.1448974609375, 115.15293884277344)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5, 2)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(7, 2)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(7, 2)
+TDS:Upgrade(7, 2)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Ability(5, "Hologram Tower")
+TDS:Ability(5, "Hologram Tower", {towerPosition = Vector3.new(-4.785031318664551, 102.99542236328125, 107.01531982421875), towerToClone = 4}, true)
+TDS:Upgrade(7, 2)
+TDS:Place("Hacker", 2.601877212524414, 103.27141571044922, 117.17005920410156)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Ability(8, "Hologram Tower", {towerPosition = Vector3.new(-0.6724722385406494, 103.09278869628906, 104.63516998291016), towerToClone = 4})
+TDS:Ability(8, "Hologram Tower", {towerPosition = Vector3.new(-5.375268936157227, 103.60900115966797, 118.99105834960938), towerToClone = 7}, true)
+TDS:VoteSkip(25)
+
+-- [[ END OF STRATEGY ]]
