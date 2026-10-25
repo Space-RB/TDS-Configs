@@ -1,0 +1,24 @@
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRestart = false
+_G.AutoSkipCutscenes = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedOperator", "EvolvedEnforcer", "DJ Booth", "Gatling Gun", "Slasher")
+TDS:Mode("Act3")
+TDS:Ready()
+
+-- [ Wave 20 ] --
+TDS:Upgrade(10)
+TDS:Place("EvolvedOperator", 0.6569242477416992, 104.34983825683594, 129.38775634765625)
+TDS:Upgrade(10)
+
+-- [[ END OF STRATEGY ]]
