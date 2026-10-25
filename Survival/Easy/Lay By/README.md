@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 2 recorded strategies available for this map**
+**📦 3 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -21,6 +21,7 @@ Select a strategy below and open its config file.
 | 1 | 2026-10-12 16:48 UTC | Easy | — | EvolvedOperator, Gatling Gun, DJ Booth, EvolvedEnforcer, None | [Open](1-2026-10-12-16-48-35.txt) |
 
 | 2 | 2026-10-16 18:39 UTC | Easy | — | Militant, None | [Open](2-2026-10-16-18-39-35.txt) |
+| 3 | 2026-10-25 02:29 UTC | Easy | — | None | [Open](3-2026-10-25-02-29-30.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
