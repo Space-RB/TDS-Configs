@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 58 recorded strategies available for this map**
+**📦 59 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -77,6 +77,7 @@ Select a strategy below and open its config file.
 | 56 | 2026-10-25 08:51 UTC | Act3 | — | DJ Booth, Gatling Gun, Mercenary Base, Brawler, Mortar | [Open](56-2026-10-25-08-51-58.txt) |
 | 57 | 2026-10-25 09:19 UTC | Act3 | — | DJ Booth, Gatling Gun, Mercenary Base, Brawler, Mortar | [Open](57-2026-10-25-09-19-31.txt) |
 | 58 | 2026-10-25 09:22 UTC | Act3 | — | DJ Booth, Gatling Gun, Mercenary Base, Brawler, Mortar | [Open](58-2026-10-25-09-22-17.txt) |
+| 59 | 2026-10-25 09:33 UTC | Act3 | — | DJ Booth, Gatling Gun, Mercenary Base, Brawler, Mortar | [Open](59-2026-10-25-09-33-30.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
