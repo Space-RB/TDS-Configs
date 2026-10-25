@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 15 recorded strategies available for this map**
+**📦 16 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -34,6 +34,7 @@ Select a strategy below and open its config file.
 | 13 | 2026-10-24 16:49 UTC | Frost | — | Trapper, DJ Booth, Gatling Gun, Shotgunner, Turret | [Open](13-2026-10-24-16-49-05.txt) |
 | 14 | 2026-10-24 16:52 UTC | Frost | — | Trapper, DJ Booth, Gatling Gun, Shotgunner, Turret | [Open](14-2026-10-24-16-52-48.txt) |
 | 15 | 2026-10-24 16:56 UTC | Frost | — | Trapper, DJ Booth, Gatling Gun, Shotgunner, Turret | [Open](15-2026-10-24-16-56-48.txt) |
+| 16 | 2026-10-25 02:16 UTC | Frost | — | Trapper, Mercenary Base, DJ Booth, Gatling Gun, Pyromancer | [Open](16-2026-10-25-02-16-36.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
