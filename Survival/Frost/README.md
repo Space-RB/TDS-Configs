@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 14 | [Open](Unknown/README.md) |
+| Mason Arch | 1 | [Open](Mason%20Arch/README.md) |
 
 | Lay By | 18 | [Open](Lay%20By/README.md) |
+| Unknown | 14 | [Open](Unknown/README.md) |
 | Simplicity | 11 | [Open](Simplicity/README.md) |
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
 | Crossroads | 2 | [Open](Crossroads/README.md) |
