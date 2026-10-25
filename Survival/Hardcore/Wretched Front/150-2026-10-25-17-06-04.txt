@@ -1,0 +1,16 @@
+_G.AutoMoney = true
+_G.AutoSkip = true
+_G.StartHubStrategy = "6e993bce-2a53-418b-a1eb-e94ed01f040d"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Crook Boss", "Golden Pyromancer", "Golden Scout", "Shotgunner", "Golden Minigunner")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
