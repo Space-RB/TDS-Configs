@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Mason Arch | 1 | [Open](Mason%20Arch/README.md) |
+| Mason Arch | 2 | [Open](Mason%20Arch/README.md) |
 
 | Lay By | 18 | [Open](Lay%20By/README.md) |
 | Unknown | 14 | [Open](Unknown/README.md) |
