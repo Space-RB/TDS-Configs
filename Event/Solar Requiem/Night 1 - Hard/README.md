@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 52 recorded strategies available for this map**
+**📦 53 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -71,6 +71,7 @@ Select a strategy below and open its config file.
 | 50 | 2026-10-25 19:31 UTC | Act1 | — | Golden Scout, Slasher, DJ Booth, Gatling Gun, EvolvedEnforcer | [Open](50-2026-10-25-19-31-25.txt) |
 | 51 | 2026-10-25 20:06 UTC | Act1 | — | Golden Scout, Slasher, DJ Booth, Gatling Gun, EvolvedEnforcer | [Open](51-2026-10-25-20-06-11.txt) |
 | 52 | 2026-10-25 20:51 UTC | Act1 | — | Golden Scout, Slasher, DJ Booth, Gatling Gun, EvolvedEnforcer | [Open](52-2026-10-25-20-51-31.txt) |
+| 53 | 2026-10-25 21:31 UTC | Act1 | — | Golden Scout, Slasher, DJ Booth, Gatling Gun, EvolvedEnforcer | [Open](53-2026-10-25-21-31-24.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
