@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 25 recorded strategies available for this map**
+**📦 26 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -44,6 +44,7 @@ Select a strategy below and open its config file.
 | 23 | 2026-10-25 11:28 UTC | Fallen | — | Militant, Pyromancer, Shotgunner, Commander, None | [Open](23-2026-10-25-11-28-33.txt) |
 | 24 | 2026-10-25 14:23 UTC | Fallen | — | Assassin, Commander, Crook Boss, Pyromancer, None | [Open](24-2026-10-25-14-23-29.txt) |
 | 25 | 2026-10-25 16:17 UTC | Fallen | — | Militant, Pyromancer, Shotgunner, Commander, None | [Open](25-2026-10-25-16-17-39.txt) |
+| 26 | 2026-10-25 22:56 UTC | Fallen | — | Assassin, Crook Boss, Commander, Pyromancer, None | [Open](26-2026-10-25-22-56-06.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
