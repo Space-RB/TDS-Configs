@@ -1,0 +1,77 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.ClaimRewards = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.beta_dps = true
+_G.AutoGatlingSettings.gui_hidden = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("DJ Booth", "Gatling Gun", "Mercenary Base", "Brawler", "Mortar")
+TDS:Mode("Act3")
+TDS:Ready()
+TDS:Place("Brawler", 5.695555686950684, 103.14112854003906, 113.33894348144531)
+TDS:Place("Brawler", 6.916778564453125, 103.24394226074219, 115.5238265991211)
+TDS:Place("Brawler", 5.908824920654297, 103.31861114501953, 117.2701416015625)
+TDS:Place("Brawler", 4.876778602600098, 103.23606872558594, 115.5238265991211)
+TDS:Place("Brawler", 3.7190980911254883, 103.154541015625, 113.84413146972656)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Place("Mortar", 11.270110130310059, 112.11151123046875, 103.14246368408203)
+TDS:Place("Mortar", 9.131070137023926, 113.0849838256836, 100.9823226928711)
+TDS:Place("Mortar", 6.463029861450195, 112.75597381591797, 99.6187744140625)
+
+-- [ Wave 8 ] --
+TDS:Place("Gatling Gun", 10.355759620666504, 102.93722534179688, 111.2441635131836)
+
+-- [ Wave 9 ] --
+TDS:Place("DJ Booth", 4.063563823699951, 102.91746520996094, 106.33525085449219)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(10)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(10)
+
+-- [[ END OF STRATEGY ]]
