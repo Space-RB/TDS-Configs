@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 4 recorded strategies available for this map**
+**📦 5 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -23,6 +23,7 @@ Select a strategy below and open its config file.
 | 2 | 2026-10-17 03:46 UTC | Intermediate | — | Minigunner, Shotgunner, Scout, Crook Boss, Freezer | [Open](2-2026-10-17-03-46-17.txt) |
 | 3 | 2026-10-19 15:26 UTC | Intermediate | — | Pyromancer, Crook Boss, None | [Open](3-2026-10-19-15-26-30.txt) |
 | 4 | 2026-10-24 03:37 UTC | Intermediate | — | Assassin, Turret, Crook Boss, DJ Booth, Minigunner | [Open](4-2026-10-24-03-37-04.txt) |
+| 5 | 2026-10-25 02:49 UTC | Intermediate | — | Sniper, Shotgunner, Militant, Demoman, Farm | [Open](5-2026-10-25-02-49-25.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
