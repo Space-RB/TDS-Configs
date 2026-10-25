@@ -1,0 +1,44 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.beta_dps = true
+_G.AutoGatlingSettings.gui_hidden = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("DJ Booth", "Gatling Gun", "Mercenary Base", "Brawler", "Mortar")
+TDS:Mode("Act3")
+TDS:Ready()
+TDS:Place("Brawler", 5.663221836090088, 103.13789367675781, 113.2703857421875)
+TDS:Place("Brawler", 6.862597465515137, 103.2472152709961, 115.6013412475586)
+TDS:Place("Brawler", 5.846590042114258, 103.32299041748047, 117.37285614013672)
+TDS:Place("Brawler", 4.822609901428223, 103.23963928222656, 115.60846710205078)
+TDS:Place("Brawler", 3.7202272415161133, 103.1567153930664, 113.89197540283203)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Place("Brawler", 6.905972480773926, 103.24214172363281, 115.48475646972656)
+TDS:Place("Brawler", 5.658440589904785, 103.1363525390625, 113.23687744140625)
+TDS:Place("Brawler", 5.926433563232422, 103.31742095947266, 117.24214935302734)
+TDS:Place("Brawler", 4.866024971008301, 103.23491668701172, 115.4994125366211)
+TDS:Place("Brawler", 3.7043070793151855, 103.15349578857422, 113.822509765625)
+
+-- [[ END OF STRATEGY ]]
