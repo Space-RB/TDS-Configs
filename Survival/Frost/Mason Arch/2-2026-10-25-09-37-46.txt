@@ -1,0 +1,34 @@
+_G.AntiLag = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "Brawler", "None", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Mason Arch", {})
+TDS:Ready()
+TDS:Place("Trapper", -0.3074626922607422, 1.0500080585479736, -6.647228240966797)
+
+-- [ Wave 1 ] --
+TDS:Place("Trapper", -0.030565738677978516, 1.0500080585479736, -27.029216766357422)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Brawler", 1.0018310546875, 1.0500080585479736, -30.696273803710938)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:Place("Brawler", -1.2823290824890137, 1.0500080585479736, -30.512252807617188)
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]
