@@ -1,0 +1,152 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.beta_dps = true
+_G.AutoGatlingSettings.gui_hidden = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("DJ Booth", "Gatling Gun", "Mercenary Base", "Brawler", "Mortar")
+TDS:Mode("Act3")
+TDS:Ready()
+TDS:Place("Brawler", 6.854382514953613, 103.24322509765625, 115.51324462890625)
+TDS:Place("Brawler", 5.572341442108154, 103.13721466064453, 113.26493835449219)
+TDS:Place("Brawler", 5.819025039672852, 103.31707763671875, 117.24358367919922)
+TDS:Place("Brawler", 4.814382553100586, 103.23529052734375, 115.51324462890625)
+TDS:Place("Brawler", 3.620729923248291, 103.15473937988281, 113.85891723632812)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Place("Mortar", 11.199146270751953, 112.09466552734375, 103.35791015625)
+TDS:Upgrade(6)
+
+-- [ Wave 6 ] --
+TDS:Place("Gatling Gun", 10.391478538513184, 102.93669891357422, 111.3440170288086)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Place("Mortar", 13.641292572021484, 111.70990753173828, 101.56900787353516)
+TDS:Upgrade(8)
+TDS:Place("Mortar", 9.715630531311035, 112.96602630615234, 100.7044448852539)
+TDS:Upgrade(9)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Place("DJ Booth", 4.87371301651001, 102.91461181640625, 106.35952758789062)
+TDS:Upgrade(10)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Place("Mercenary Base", 9.601776123046875, 102.90721130371094, 107.12732696533203)
+TDS:Upgrade(7)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(6)
+TDS:Upgrade(9)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 24 ] --
+TDS:Place("Mercenary Base", 11.338094711303711, 101.05371856689453, 80.6119384765625)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Mercenary Base", 6.409801483154297, 101.03562927246094, 79.35710906982422)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Brawler", 6.9119977951049805, 103.24422454833984, 115.53056335449219)
+TDS:Place("Brawler", 5.84233283996582, 103.15300750732422, 113.59092712402344)
+TDS:Place("Brawler", 3.8457937240600586, 103.15338897705078, 113.80524444580078)
+TDS:Place("Brawler", 4.871997833251953, 103.2363510131836, 115.53056335449219)
+TDS:Place("Brawler", 5.891998291015625, 103.31976318359375, 117.29725646972656)
+
+-- [[ END OF STRATEGY ]]
