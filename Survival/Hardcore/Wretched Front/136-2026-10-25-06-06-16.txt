@@ -1,0 +1,39 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.SelectedXPTower = "Scout / Shotgunner"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedEnforcer", "Soldier", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Soldier", 5.415152072906494, 0.6017285585403442, -16.00617790222168)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Place("Soldier", 3.815402030944824, 0.41534411907196045, -13.431268692016602)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 12 ] --
+TDS:Place("EvolvedEnforcer", 8.387191772460938, 0.4843183159828186, -14.00998592376709)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(3)
+
+-- [[ END OF STRATEGY ]]
