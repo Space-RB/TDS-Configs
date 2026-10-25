@@ -1,0 +1,113 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Militant", "EvolvedEnforcer", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Militant", -5.015026569366455, 0.9999993443489075, -34.690399169921875)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Militant", -5.015026569366455, 1.0000051259994507, -31.65039825439453)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Place("Militant", -5.015026569366455, 1.0000046491622925, -28.610397338867188)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Militant", 0.7594449520111084, 0.9499789476394653, -37.9013671875)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Place("Militant", 0.8033370971679688, 1.0000007152557373, -34.8616828918457)
+TDS:Upgrade(5)
+TDS:Place("Militant", 3.413196563720703, 0.9999999403953552, -36.41839599609375)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(6)
+TDS:Place("Militant", 0.6715488433837891, 1.0000051259994507, -31.824541091918945)
+TDS:Upgrade(7)
+
+-- [ Wave 8 ] --
+TDS:Place("Militant", 3.367685317993164, 1.0000053644180298, -33.228981018066406)
+TDS:Upgrade(8)
+TDS:Place("Militant", 3.4296345710754395, 1.0000048875808716, -30.20574378967285)
+TDS:Upgrade(9)
+TDS:Place("Militant", 0.688878059387207, 1.0000046491622925, -28.610546112060547)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(10)
+TDS:Place("Militant", -5.015026569366455, 1.0000041723251343, -25.570396423339844)
+TDS:Upgrade(11)
+TDS:Place("Militant", -7.767200946807861, 0.9499802589416504, -33.39922332763672)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(12)
+TDS:Place("Militant", -7.866863250732422, 1.0000007152557373, -30.360857009887695)
+TDS:Upgrade(13)
+TDS:Upgrade(1)
+TDS:Upgrade(12)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(13)
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(11)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 20 ] --
+TDS:Place("EvolvedEnforcer", -7.050020217895508, 1.0000044107437134, -27.090396881103516)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [[ END OF STRATEGY ]]
