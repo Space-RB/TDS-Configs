@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 68 recorded strategies available for this map**
+**📦 69 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -87,6 +87,7 @@ Select a strategy below and open its config file.
 | 66 | 2026-10-25 15:03 UTC | Act3 | — | Gatling Gun, Assassin, Toxic Gunner, EvolvedJuggernaut, Firework Technician | [Open](66-2026-10-25-15-03-37.txt) |
 | 67 | 2026-10-25 15:15 UTC | Act3 | — | Gatling Gun, Assassin, Toxic Gunner, EvolvedJuggernaut, Firework Technician | [Open](67-2026-10-25-15-15-03.txt) |
 | 68 | 2026-10-25 17:10 UTC | Act3 | — | Gatling Gun, Assassin, EvolvedJuggernaut, Firework Technician, Hacker | [Open](68-2026-10-25-17-10-29.txt) |
+| 69 | 2026-10-25 17:13 UTC | Act3 | — | Gatling Gun, Assassin, EvolvedJuggernaut, Firework Technician, Hacker | [Open](69-2026-10-25-17-13-22.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
