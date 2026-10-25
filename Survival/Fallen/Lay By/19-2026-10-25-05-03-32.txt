@@ -1,0 +1,108 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoReady = false
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "Mercenary Base", "DJ Booth", "Gatling Gun", "Shotgunner")
+TDS:Mode("Fallen")
+TDS:GameInfo("Lay By", {"Fog", "Glass", "Limitation"})
+TDS:Ready()
+TDS:Place("Trapper", -2.5517501831054688, 243, 172.6769561767578)
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", -2.549501419067383, 243, 168.2353057861328)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Place("Trapper", -2.5162110328674316, 243, 163.95143127441406)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Place("Trapper", -2.5265417098999023, 243, 159.06687927246094)
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Place("Trapper", 2.5102181434631348, 243, 170.04507446289062)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Place("Gatling Gun", -2.5495171546936035, 243, 154.9868621826172)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("DJ Booth", -6.329214096069336, 243, 165.2865753173828)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 25 ] --
+TDS:Place("Shotgunner", 2.5102181434631348, 243, 167.5050811767578)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 32 ] --
+TDS:Place("Shotgunner", 2.5102181434631348, 243, 165.465087890625)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]
