@@ -1,0 +1,26 @@
+_G.AutoReady = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Assassin", "Commander", "Shotgunner", "Pyromancer", "Trapper")
+TDS:Mode("Frost")
+TDS:GameInfo("Mason Arch", {})
+TDS:Ready()
+TDS:Place("Trapper", 0.10371685028076172, 1.0500080585479736, -6.803591728210449)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Assassin", 0.041199684143066406, 1.0500080585479736, -25.835655212402344)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
