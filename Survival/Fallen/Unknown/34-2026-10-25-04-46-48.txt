@@ -1,0 +1,135 @@
+_G.AutoPickups = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.SelectedXPTower = "Evolved Kingpin"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Brawler", "Commander", "Shotgunner", "Pyromancer", "Freezer")
+TDS:Mode("Fallen")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", 16.50826072692871, 49.92731475830078, -8.076957702636719)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Brawler", 13.96288013458252, 49.92732238769531, -8.496684074401855)
+TDS:Upgrade(2)
+TDS:Place("Brawler", 11.923135757446289, 49.92732238769531, -8.528987884521484)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Brawler", 9.601576805114746, 49.92732238769531, -8.498071670532227)
+TDS:Upgrade(4)
+TDS:Place("Brawler", 16.711029052734375, 49.927406311035156, -14.178829193115234)
+TDS:Upgrade(5)
+
+-- [ Wave 5 ] --
+TDS:Place("Pyromancer", 14.645528793334961, 49.92742919921875, -15.771453857421875)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 6 ] --
+TDS:Place("Commander", 16.521499633789062, 49.927276611328125, -5.413227558135986)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Place("Freezer", 22.28791046142578, 49.92741012573242, -14.335041046142578)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Place("Shotgunner", 14.027576446533203, 49.927284240722656, -5.894835948944092)
+TDS:Upgrade(9)
+
+-- [ Wave 13 ] --
+TDS:Place("Shotgunner", 14.839460372924805, 49.92724609375, -3.448153018951416)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 14 ] --
+TDS:Place("Shotgunner", 16.85811996459961, 49.92723083496094, -2.500767707824707)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 16 ] --
+TDS:Place("Brawler", 12.670564651489258, 49.927406311035156, -14.174232482910156)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Upgrade(12)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(8)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(12)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(11)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Place("Commander", 21.960081100463867, 49.92731857299805, -8.216007232666016)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(5)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(10)
+
+-- [[ END OF STRATEGY ]]
