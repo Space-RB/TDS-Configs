@@ -1,0 +1,39 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMedic = true
+_G.AutoReady = false
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "Electroshocker", "Gatling Gun", "None", "None")
+TDS:Mode("Act3")
+TDS:Ready()
+TDS:Place("Trapper", -2.288773536682129, 103.01937103271484, 109.41378784179688)
+TDS:Place("Trapper", -5.041044235229492, 103.0238037109375, 108.02278900146484)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Place("Trapper", -10.195073127746582, 102.25784301757812, 90.77230072021484)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:WaitForWave(6)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+
+-- [[ END OF STRATEGY ]]
