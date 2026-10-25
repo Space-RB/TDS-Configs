@@ -1,0 +1,28 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkipCutscenes = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Assassin", "Toxic Gunner", "EvolvedJuggernaut", "Firework Technician")
+TDS:Mode("Act3")
+TDS:Ready()
+TDS:Place("Assassin", -5.379058837890625, 104.75392150878906, 134.25411987304688)
+TDS:Place("Assassin", -5.951468467712402, 104.83850860595703, 136.40106201171875)
+TDS:Place("Toxic Gunner", -3.486090660095215, 104.70852661132812, 135.9848175048828)
+TDS:Upgrade(3)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
