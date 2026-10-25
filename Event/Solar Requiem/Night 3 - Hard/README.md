@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 72 recorded strategies available for this map**
+**📦 73 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -91,6 +91,7 @@ Select a strategy below and open its config file.
 | 70 | 2026-10-25 17:13 UTC | Act3 | — | Gatling Gun, Assassin, EvolvedJuggernaut, Firework Technician, Hacker | [Open](70-2026-10-25-17-13-48.txt) |
 | 71 | 2026-10-25 18:23 UTC | Act3 | — | Trapper, Electroshocker, Gatling Gun, None | [Open](71-2026-10-25-18-23-10.txt) |
 | 72 | 2026-10-25 18:26 UTC | Act3 | — | Trapper, Electroshocker, Gatling Gun, None | [Open](72-2026-10-25-18-26-14.txt) |
+| 73 | 2026-10-25 18:28 UTC | Act3 | — | Trapper, Electroshocker, Gatling Gun, None | [Open](73-2026-10-25-18-28-53.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
