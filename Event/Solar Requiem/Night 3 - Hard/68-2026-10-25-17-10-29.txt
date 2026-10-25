@@ -1,0 +1,101 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkipCutscenes = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Assassin", "EvolvedJuggernaut", "Firework Technician", "Hacker")
+TDS:Mode("Act3")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", -5.394980430603027, 104.75668334960938, 134.33103942871094)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Place("Assassin", -3.3774538040161133, 104.64653778076172, 134.41354370117188)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Place("Assassin", -6.008543968200684, 104.84575653076172, 136.5647735595703)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Gatling Gun", 0.528712272644043, 103.00232696533203, 108.83154296875)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Firework Technician", 2.051386833190918, 103.20426177978516, 115.73052215576172)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(4)
+TDS:Place("EvolvedJuggernaut", -4.279031753540039, 104.04037475585938, 123.50470733642578)
+TDS:Place("Assassin", -3.896496295928955, 104.5020980834961, 128.20175170898438)
+TDS:Place("Assassin", -9.336181640625, 104.64439392089844, 127.0986328125)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6, 2)
+TDS:Place("Hacker", -0.06975746154785156, 103.9642333984375, 123.99763488769531)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9, 2)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(6, 2)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(6, 2)
+TDS:Upgrade(6, 2)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
