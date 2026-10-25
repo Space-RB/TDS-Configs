@@ -1,0 +1,92 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Shotgunner", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Pyromancer", 11.307507514953613, 0.9393842220306396, -7.994864463806152)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Place("Pyromancer", 13.342134475708008, 0.966960072517395, -14.131768226623535)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Place("Pyromancer", 11.037185668945312, 0.9379689693450928, -7.628104209899902)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+TDS:Place("Shotgunner", 8.698814392089844, 0.9530495405197144, 17.01763153076172)
+TDS:Upgrade(4)
+
+-- [ Wave 14 ] --
+TDS:Place("Shotgunner", -12.136922836303711, 0.9613965749740601, 12.918060302734375)
+TDS:Upgrade(5)
+TDS:Place("Shotgunner", 9.158666610717773, 0.9472693204879761, 15.009513854980469)
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Place("Shotgunner", -11.556991577148438, 0.9566041231155396, 10.985370635986328)
+TDS:Upgrade(7)
+TDS:Place("Shotgunner", 9.36439323425293, 0.9409412145614624, 12.862524032592773)
+TDS:Upgrade(8)
+TDS:Place("Shotgunner", -11.05748176574707, 0.948724627494812, 8.942142486572266)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(8)
+TDS:Upgrade(4)
+
+-- [ Wave 17 ] --
+TDS:Place("Shotgunner", 7.072610855102539, 0.9487820863723755, 15.74785041809082)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Shotgunner", 7.360543251037598, 0.9426329135894775, 13.633358001708984)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Shotgunner", 7.6957292556762695, 0.9407916069030762, 11.625412940979004)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(8)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(10)
+TDS:Upgrade(4)
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]
