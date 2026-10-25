@@ -1,0 +1,43 @@
+_G.AutoMercenary = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.StreamerMode = true
+_G.TimeScaleEnabled = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Firework Technician", "Hacker", "EvolvedJuggernaut", "Golden Demoman")
+TDS:Mode("Act3")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Place("Demoman", -2.9371814727783203, 103.9228744506836, 122.69505310058594)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Demoman", -2.175692558288574, 103.61669921875, 119.75196838378906)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Demoman", -0.02608776092529297, 103.7601318359375, 121.90157318115234)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Demoman", -4.279233932495117, 100.98316192626953, 68.35475158691406)
+TDS:WaitForWave(6)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+
+-- [[ END OF STRATEGY ]]
