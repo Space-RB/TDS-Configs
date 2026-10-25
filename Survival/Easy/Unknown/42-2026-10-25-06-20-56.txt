@@ -1,0 +1,84 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("None", "None", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Pyromancer", 10.937094688415527, 0.9395585060119629, -7.913974761962891)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Place("Shotgunner", 9.02171802520752, 0.952837347984314, 16.91075897216797)
+TDS:Place("Shotgunner", -12.307355880737305, 0.9656497240066528, 14.627828598022461)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Place("Shotgunner", 9.099275588989258, 0.9467389583587646, 14.836257934570312)
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Place("Shotgunner", -12.487981796264648, 0.9707142114639282, 16.66339683532715)
+TDS:Upgrade(5)
+TDS:Place("Shotgunner", 7.49394416809082, 0.956729531288147, 18.39480209350586)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Shotgunner", -13.068483352661133, 0.9755301475524902, 18.60547637939453)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 16 ] --
+TDS:Place("Shotgunner", 8.889930725097656, 0.9411382675170898, 12.820064544677734)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(3)
+TDS:Place("Shotgunner", 7.089416027069092, 0.9499222040176392, 16.132312774658203)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 18 ] --
+TDS:Place("Shotgunner", 6.678133964538574, 0.9431698322296143, 13.889167785644531)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+TDS:Upgrade(4)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(6)
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]
