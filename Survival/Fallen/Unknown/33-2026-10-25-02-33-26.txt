@@ -1,0 +1,77 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoReady = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.SelectedXPTower = "Crook Boss"
+_G.StreamerMode = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.beta_dps = true
+_G.AutoGatlingSettings.gui_hidden = true
+_G.GatlingTargets = 1
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "Gatling Gun", "Mercenary Base", "DJ Booth", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Trapper", -18.196191787719727, 1.0000004768371582, -2.126429557800293)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Trapper", -12.027650833129883, 1.0000005960464478, -3.685272216796875)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", -8.623451232910156, 0.9999991655349731, 5.359869480133057)
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 17 ] --
+TDS:Place("DJ Booth", -8.663695335388184, 0.9999999403953552, 0.8200483322143555)
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 27 ] --
+TDS:Place("Mercenary Base", -7.977160453796387, 0.9999985098838806, 9.592231750488281)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [[ END OF STRATEGY ]]
