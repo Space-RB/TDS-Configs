@@ -1,0 +1,64 @@
+_G.AutoMoney = true
+_G.AutoSkip = true
+_G.HideUsername = true
+_G.SelectedXPTower = "Crook Boss"
+_G.StartHubStrategy = "d3344666-c730-4460-b262-3cd7440df430"
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedEnforcer", "None", "None", "None", "None")
+TDS:Mode("Sandbox")
+TDS:GameInfo("Dev", {})
+TDS:Ready()
+TDS:Place("EvolvedEnforcer", -29.297794342041016, 0.969571590423584, 6.570476055145264)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Place("EvolvedEnforcer", -29.98531723022461, 0.969571590423584, 3.103166341781616)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2, 2)
+TDS:Upgrade(2, 2)
+TDS:Upgrade(2, 2)
+TDS:Place("EvolvedEnforcer", -32.743125915527344, 0.969571590423584, 5.982466697692871)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3, 2)
+TDS:Upgrade(3, 2)
+TDS:Upgrade(3, 2)
+TDS:Place("EvolvedEnforcer", -32.6753044128418, 0.969571590423584, 3.463517665863037)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4, 2)
+TDS:Upgrade(4, 2)
+TDS:Upgrade(4, 2)
+TDS:Place("EvolvedEnforcer", -35.299964904785156, 0.969571590423584, 4.3174285888671875)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5, 2)
+TDS:Upgrade(5, 2)
+TDS:Upgrade(5, 2)
+TDS:Ability(2, "SWAT Van")
+TDS:Ability(4, "SWAT Van")
+TDS:Ability(5, "SWAT Van")
+TDS:Ability(3, "SWAT Van")
+TDS:Ability(1, "Helicopter Reposition", {position = Vector3.new(-25.848085403442383, 0.969571590423584, -13.888352394104004), towerModel = 5})
+
+-- [[ END OF STRATEGY ]]
