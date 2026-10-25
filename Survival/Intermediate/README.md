@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 5 | [Open](Unknown/README.md) |
+| Black Spot Exchange | 1 | [Open](Black%20Spot%20Exchange/README.md) |
 
+| Unknown | 5 | [Open](Unknown/README.md) |
 | Dead Ahead | 4 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 2 | [Open](Lay%20By/README.md) |
 | Ruby Escort | 2 | [Open](Ruby%20Escort/README.md) |
