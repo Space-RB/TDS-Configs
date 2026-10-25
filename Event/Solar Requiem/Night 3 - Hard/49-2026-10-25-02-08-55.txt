@@ -1,0 +1,154 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoRestart = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.SelectedXPTower = "Crook Boss"
+_G.StreamerMode = true
+_G.TimeScaleEnabled = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Snowballer", "Accelerator", "Gatling Gun", "EvolvedJuggernaut", "Firework Technician")
+TDS:Mode("Act3")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Snowballer", 0.693079948425293, 103.69947052001953, 121.53460693359375)
+TDS:Place("Snowballer", 2.7563085556030273, 103.48575592041016, 119.88558959960938)
+TDS:Place("Snowballer", 0.22447681427001953, 103.47018432617188, 119.0382080078125)
+TDS:Place("Snowballer", 2.439826011657715, 103.8313980102539, 123.37864685058594)
+TDS:Place("Snowballer", -0.46309852600097656, 103.95636749267578, 123.79621124267578)
+TDS:Place("Snowballer", -1.7684383392333984, 103.71621704101562, 120.90808868408203)
+
+-- [ Wave 2 ] --
+TDS:Place("Snowballer", 2.6088762283325195, 104.08709716796875, 125.99545288085938)
+TDS:Place("Snowballer", -0.225921630859375, 104.1932601928711, 126.32511138916016)
+TDS:Place("Snowballer", 4.165530681610107, 103.33613586425781, 117.81105041503906)
+TDS:Place("Snowballer", 1.7548260688781738, 103.22029113769531, 117.010986328125)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Place("Gatling Gun", -2.6238296031951904, 103.01669311523438, 109.31427764892578)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Firework Technician", 2.853311538696289, 103.16700744628906, 114.21124267578125)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 22 ] --
+TDS:Place("Accelerator", -1.3842706680297852, 103.19120025634766, 115.6393051147461)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Accelerator", -4.885618209838867, 103.218505859375, 115.11760711669922)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Accelerator", -3.5731544494628906, 103.52790069580078, 118.40531921386719)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Accelerator", -7.09576416015625, 103.56907653808594, 117.88290405273438)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(16)
+TDS:Place("Accelerator", -4.874025344848633, 103.88359832763672, 121.6976318359375)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("EvolvedJuggernaut", -8.798044204711914, 104.36640930175781, 123.87835693359375)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18, 2)
+TDS:Upgrade(18, 2)
+TDS:Upgrade(18, 2)
+TDS:Upgrade(18, 2)
+
+-- [[ END OF STRATEGY ]]
