@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 22 recorded strategies available for this map**
+**📦 23 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -41,6 +41,7 @@ Select a strategy below and open its config file.
 | 20 | 2026-10-25 05:12 UTC | Fallen | Fog, Glass, Limitation | Trapper, Mercenary Base, DJ Booth, Gatling Gun, Shotgunner | [Open](20-2026-10-25-05-12-29.txt) |
 | 21 | 2026-10-25 05:12 UTC | Fallen | Fog, Glass, Limitation | Trapper, Mercenary Base, DJ Booth, Gatling Gun, Shotgunner | [Open](21-2026-10-25-05-12-50.txt) |
 | 22 | 2026-10-25 05:26 UTC | Fallen | Fog, Glass, Limitation | Trapper, Mercenary Base, DJ Booth, Gatling Gun, Shotgunner | [Open](22-2026-10-25-05-26-36.txt) |
+| 23 | 2026-10-25 07:29 UTC | Fallen | Fog, Glass, Limitation | Trapper, Mercenary Base, DJ Booth, Gatling Gun, Pyromancer | [Open](23-2026-10-25-07-29-04.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
