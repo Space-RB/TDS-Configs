@@ -16,10 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 11 | [Open](Simplicity/README.md) |
+| Unknown | 14 | [Open](Unknown/README.md) |
 
 | Lay By | 18 | [Open](Lay%20By/README.md) |
-| Unknown | 13 | [Open](Unknown/README.md) |
+| Simplicity | 11 | [Open](Simplicity/README.md) |
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
 | Crossroads | 2 | [Open](Crossroads/README.md) |
 | Pier Pressure | 2 | [Open](Pier%20Pressure/README.md) |
