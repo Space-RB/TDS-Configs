@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Black Spot Exchange | 1 | [Open](Black%20Spot%20Exchange/README.md) |
+| Black Spot Exchange | 2 | [Open](Black%20Spot%20Exchange/README.md) |
 
 | Unknown | 46 | [Open](Unknown/README.md) |
 | Gilded Path | 15 | [Open](Gilded%20Path/README.md) |
