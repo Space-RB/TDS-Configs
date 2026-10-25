@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 45 | [Open](Unknown/README.md) |
+| Unknown | 46 | [Open](Unknown/README.md) |
 
 | Gilded Path | 15 | [Open](Gilded%20Path/README.md) |
 | Dead Ahead | 9 | [Open](Dead%20Ahead/README.md) |
