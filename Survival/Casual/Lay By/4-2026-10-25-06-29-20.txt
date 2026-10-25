@@ -1,0 +1,26 @@
+_G.AntiLag = true
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.MatchTrackerEnabled = false
+_G.SelectedXPTower = "Crook Boss"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Assassin", "Commander", "Militant", "None", "None")
+TDS:Mode("Casual")
+TDS:GameInfo("Lay By", {})
+TDS:Ready()
+
+-- [ Wave 10 ] --
+TDS:Place("Commander", -3.45857572555542, 242.99998474121094, 272.7825622558594)
+TDS:Upgrade(5)
+
+-- [[ END OF STRATEGY ]]
