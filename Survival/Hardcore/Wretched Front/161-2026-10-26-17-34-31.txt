@@ -1,0 +1,52 @@
+_G.AutoSkip = true
+_G.AutoXP = true
+_G.StartHubStrategy = "79699fd5-1819-403a-89b7-6175b4bd0a19"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Shotgunner", "Scout", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 3 ] --
+TDS:Place("Shotgunner", -2.5143556594848633, 1.4802254438400269, 30.79623794555664)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Place("Shotgunner", -0.17926311492919922, 1.4562671184539795, 30.023738861083984)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", -0.9642982482910156, 1.4689676761627197, 32.067481994628906)
+TDS:Upgrade(3)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", 1.4211511611938477, 1.446671724319458, 32.11509323120117)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Place("Shotgunner", 1.6649417877197266, 1.4371938705444336, 29.151668548583984)
+
+-- [ Wave 14 ] --
+TDS:Place("Scout", 12.68149185180664, 1.1366668939590454, 21.388547897338867)
+TDS:Place("Scout", 10.928558349609375, 0.8040258884429932, 18.952913284301758)
+TDS:Place("Scout", 9.86627197265625, 1.293224573135376, 22.53577995300293)
+TDS:Place("Scout", 13.950960159301758, 0.9124846458435059, 18.626293182373047)
+TDS:Place("Scout", 15.708407402038574, 0.8672403693199158, 21.1068115234375)
+
+-- [ Wave 15 ] --
+TDS:Place("Scout", 13.046553611755371, 1.182197093963623, 24.40654945373535)
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
