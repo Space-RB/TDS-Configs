@@ -1,0 +1,199 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Crook Boss", "Snowballer", "Golden Pyromancer", "None", "None")
+TDS:Mode("Act2")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", 0.18500232696533203, 47.59355545043945, 10.513779640197754)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Place("Snowballer", 2.471714973449707, 47.970916748046875, 4.316274166107178)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Snowballer", 4.993472099304199, 48.206233978271484, 4.58501672744751)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Snowballer", 7.340126037597656, 48.21308898925781, 3.6130008697509766)
+TDS:Upgrade(4)
+TDS:Place("Snowballer", 9.243813514709473, 47.91995620727539, 1.8947862386703491)
+TDS:Upgrade(5)
+TDS:Place("Snowballer", 9.158646583557129, 47.93458557128906, -0.6077799797058105)
+TDS:Upgrade(6)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(6)
+TDS:Place("Snowballer", 8.186630249023438, 48.086883544921875, -2.9544339179992676)
+TDS:Upgrade(7)
+TDS:Place("Snowballer", 6.633005619049072, 47.99078369140625, -4.941224575042725)
+TDS:Upgrade(8)
+TDS:Place("Snowballer", 4.0702223777771, 48.27465057373047, -5.099710941314697)
+TDS:Upgrade(9)
+
+-- [ Wave 6 ] --
+TDS:Place("Snowballer", 1.7235612869262695, 48.1581916809082, -4.127895355224609)
+TDS:Upgrade(10)
+TDS:Place("Snowballer", -0.012330055236816406, 48.015254974365234, -2.31007719039917)
+TDS:Upgrade(11)
+TDS:Place("Snowballer", -0.8524060249328613, 48.10166931152344, 0.0875801295042038)
+TDS:Upgrade(12)
+TDS:Place("Snowballer", 0.11960983276367188, 47.96617889404297, 2.434234142303467)
+TDS:Upgrade(13)
+TDS:Place("Snowballer", 7.271097660064697, 47.64134216308594, 10.787235260009766)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Place("Snowballer", 9.617752075195312, 47.7344856262207, 9.815218925476074)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Snowballer", 11.57954216003418, 47.79878234863281, 8.25469970703125)
+TDS:Upgrade(16)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Snowballer", 13.375593185424805, 47.79411697387695, 6.458648681640625)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Snowballer", 14.347609519958496, 47.72697067260742, 4.111994743347168)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Snowballer", 15.156028747558594, 47.80649185180664, 1.742058515548706)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Place("Snowballer", 15.156028747558594, 47.729740142822266, -0.7979414463043213)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Snowballer", 14.577277183532715, 47.67817687988281, -3.2538180351257324)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(19)
+TDS:Place("Snowballer", 13.605260848999023, 47.703739166259766, -5.6004719734191895)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Place("Snowballer", 11.95947551727295, 47.701961517333984, -7.608476638793945)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(20)
+TDS:Place("Snowballer", 10.030115127563477, 47.695884704589844, -9.367657661437988)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(21)
+TDS:Place("Snowballer", 12.46281909942627, 47.78955078125, -10.098104476928711)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Place("Snowballer", 14.367392539978027, 47.82831954956055, -8.417389869689941)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(22)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(23)
+TDS:Upgrade(24)
+TDS:Upgrade(26)
+TDS:Upgrade(25)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(1)
+TDS:Place("Crook Boss", 7.452510356903076, 47.68499755859375, -10.435382843017578)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+
+-- [ Wave 20 ] --
+TDS:Place("Crook Boss", 4.47670841217041, 47.688045501708984, -10.915594100952148)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Place("Crook Boss", 1.4848151206970215, 47.67218780517578, -11.466202735900879)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Place("Crook Boss", 6.3852057456970215, 47.806488037109375, -13.281865119934082)
+TDS:Place("Crook Boss", 3.3952062129974365, 47.87160873413086, -13.831003189086914)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Place("Pyromancer", 8.338254928588867, 47.107261657714844, -30.609195709228516)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Place("Snowballer", 5.466852188110352, 47.01301574707031, -30.1278076171875)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Place("Snowballer", 3.0586442947387695, 46.94649124145508, -29.320261001586914)
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+
+-- [[ END OF STRATEGY ]]
