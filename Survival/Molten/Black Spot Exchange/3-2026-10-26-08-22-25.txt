@@ -1,0 +1,181 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMedic = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoNecro = true
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.SellFarms = true
+_G.SellFarmsWave = 40
+_G.SupportCaravan = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.beta_dps = true
+_G.AutoGatlingSettings.gui_hidden = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Medic", "Commander", "Shotgunner", "EvolvedOperator")
+TDS:Mode("Molten")
+TDS:GameInfo("Black Spot Exchange", {})
+TDS:Ready()
+TDS:Place("EvolvedOperator", 17.997283935546875, 2, -1.5694079399108887)
+TDS:Place("EvolvedOperator", -17.178081512451172, 2.066023588180542, -0.9322433471679688)
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", -17.178081512451172, 1.9999995231628418, 1.6077566146850586)
+
+-- [ Wave 2 ] --
+TDS:Place("EvolvedOperator", 17.45744514465332, 1.9999995231628418, 1.2581582069396973)
+
+-- [ Wave 3 ] --
+TDS:Place("EvolvedOperator", 17.607240676879883, 2.000000238418579, -4.079281806945801)
+TDS:Place("EvolvedOperator", -17.306289672851562, 2.000000238418579, -3.54995059967041)
+TDS:Upgrade(6)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Place("Shotgunner", -2.986797332763672, 1.9991358518600464, -0.5416746139526367)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", -0.9708383083343506, 1.9991358518600464, -0.8539391756057739)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Place("Shotgunner", -2.249246835708618, 2.00105619430542, -2.443678617477417)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 13 ] --
+TDS:Place("Shotgunner", -0.27796125411987305, 2.0017223358154297, -2.933077812194824)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 14 ] --
+TDS:Place("Shotgunner", 1.761784315109253, 2.001678466796875, -2.900852918624878)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 15 ] --
+TDS:Place("Shotgunner", 1.0650418996810913, 1.9991358518600464, -0.983523964881897)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Shotgunner", 3.073868751525879, 1.999551773071289, -1.338791847229004)
+TDS:Upgrade(13)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 17 ] --
+TDS:Place("Shotgunner", -4.282774925231934, 2.001277208328247, -2.6060450077056885)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Shotgunner", -5.020325660705566, 1.9991358518600464, -0.704041063785553)
+TDS:Upgrade(15)
+
+-- [ Wave 18 ] --
+TDS:Place("Gatling Gun", -0.8301906585693359, 4.962843894958496, 10.17440414428711)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+TDS:Upgrade(7)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(11)
+TDS:Upgrade(9)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(12)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(16)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(13)
+TDS:Place("Medic", 1.2142853736877441, 2.0118179321289062, 7.800146579742432)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Medic", -1.8223235607147217, 1.9991344213485718, 7.9436869621276855)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(16)
+TDS:Place("EvolvedOperator", 17.997283935546875, 2, -1.5694079399108887)
+TDS:Place("EvolvedOperator", -17.178081512451172, 2.066023588180542, -0.9322433471679688)
+TDS:Place("EvolvedOperator", -17.178081512451172, 1.9999995231628418, 1.6077566146850586)
+TDS:Place("EvolvedOperator", 17.45744514465332, 1.9999995231628418, 1.2581582069396973)
+TDS:Place("EvolvedOperator", 17.607240676879883, 2.000000238418579, -4.079281806945801)
+TDS:Place("EvolvedOperator", -17.306289672851562, 2.000000238418579, -3.54995059967041)
+TDS:Place("Shotgunner", -2.986797332763672, 1.9991358518600464, -0.5416746139526367)
+TDS:Place("Shotgunner", -0.9708383083343506, 1.9991358518600464, -0.8539391756057739)
+TDS:Place("Shotgunner", -2.249246835708618, 2.00105619430542, -2.443678617477417)
+TDS:Place("Shotgunner", -0.27796125411987305, 2.0017223358154297, -2.933077812194824)
+TDS:Place("Shotgunner", 1.761784315109253, 2.001678466796875, -2.900852918624878)
+TDS:Place("Shotgunner", 1.0650418996810913, 1.9991358518600464, -0.983523964881897)
+TDS:Place("Shotgunner", 3.073868751525879, 1.999551773071289, -1.338791847229004)
+TDS:Place("Shotgunner", -4.282774925231934, 2.001277208328247, -2.6060450077056885)
+TDS:Place("Shotgunner", -5.020325660705566, 1.9991358518600464, -0.704041063785553)
+TDS:Place("Gatling Gun", -0.8301906585693359, 4.962843894958496, 10.17440414428711)
+TDS:Place("Medic", 1.2142853736877441, 2.0118179321289062, 7.800146579742432)
+
+-- [[ END OF STRATEGY ]]
