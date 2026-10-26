@@ -1,0 +1,81 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoReady = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.TimeScaleEnabled = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.beta_dps = true
+_G.AutoGatlingSettings.gui_hidden = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("DJ Booth", "Gatling Gun", "Mortar", "Assassin", "Hunter")
+TDS:Mode("Act3")
+TDS:Ready()
+TDS:Place("Assassin", 5.698782920837402, 103.14112091064453, 113.3386001586914)
+TDS:Place("Assassin", 6.924349784851074, 103.240478515625, 115.44622802734375)
+TDS:Place("Assassin", 5.847142219543457, 103.31784057617188, 117.25818634033203)
+TDS:Place("Assassin", 4.88439416885376, 103.23320770263672, 115.45965576171875)
+TDS:Place("Assassin", 3.7097549438476562, 103.15213012695312, 113.79177856445312)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Hunter", 1.7700872421264648, 102.53254699707031, 99.08577728271484)
+TDS:Upgrade(6)
+
+-- [ Wave 8 ] --
+TDS:Place("Gatling Gun", 10.866586685180664, 102.92904663085938, 112.23151397705078)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(7)
+TDS:Place("DJ Booth", 6.376038551330566, 102.90223693847656, 107.82915496826172)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Place("Mortar", 7.471559524536133, 112.14183807373047, 101.149658203125)
+TDS:Place("Mortar", 11.155375480651855, 112.14152526855469, 103.15770721435547)
+TDS:Place("Mortar", 10.651308059692383, 112.78158569335938, 100.22730255126953)
+TDS:Upgrade(11)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
