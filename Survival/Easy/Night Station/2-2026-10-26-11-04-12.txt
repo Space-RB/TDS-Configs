@@ -1,0 +1,23 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoRejoin = false
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Brawler", "EvolvedEnforcer", "Crook Boss", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Night Station", {})
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Brawler", 138.0446319580078, 2.0749998092651367, -57.2034797668457)
+
+-- [[ END OF STRATEGY ]]
