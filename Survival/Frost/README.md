@@ -16,12 +16,12 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Cataclysm | 2 | [Open](Cataclysm/README.md) |
+| Simplicity | 12 | [Open](Simplicity/README.md) |
 
 | Unknown | 20 | [Open](Unknown/README.md) |
 | Lay By | 18 | [Open](Lay%20By/README.md) |
-| Simplicity | 11 | [Open](Simplicity/README.md) |
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
+| Cataclysm | 2 | [Open](Cataclysm/README.md) |
 | Crossroads | 2 | [Open](Crossroads/README.md) |
 | Mason Arch | 2 | [Open](Mason%20Arch/README.md) |
 | Pier Pressure | 2 | [Open](Pier%20Pressure/README.md) |
