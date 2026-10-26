@@ -1,0 +1,23 @@
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.MatchTrackerEnabled = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Scout", "Assassin", "None", "None", "None")
+TDS:Mode("Act1")
+TDS:Ready()
+
+-- [ Wave 13 ] --
+TDS:Place("Assassin", -30.744918823242188, 2.0009989738464355, 194.65087890625)
+
+-- [[ END OF STRATEGY ]]
