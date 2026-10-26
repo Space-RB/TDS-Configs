@@ -1,0 +1,61 @@
+_G.AutoGems = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.StartHubStrategy = "0c1d658f-f9af-414b-9697-4ee8c65284d5"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("None", "None", "None", "None", "None")
+TDS:Mode("Act2Easy")
+TDS:Ready()
+TDS:Place("Engineer", 7.235422611236572, 47.98571014404297, 4.541247844696045)
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Engineer", 3.9193856716156006, 48.02131271362305, 5.163196563720703)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Engineer", 0.9481134414672852, 47.71726989746094, 4.864663124084473)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Place("Engineer", 9.159648895263672, 47.94732666015625, 1.9807240962982178)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Engineer", -1.012342929840088, 47.81736373901367, 2.378178834915161)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Place("Engineer", -0.1196284294128418, 47.59189224243164, 10.820348739624023)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Place("Commander", -1.3050551414489746, 47.92346954345703, -0.6475057601928711)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Place("Accelerator", 1.530173659324646, 47.74602508544922, -12.587099075317383)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]
