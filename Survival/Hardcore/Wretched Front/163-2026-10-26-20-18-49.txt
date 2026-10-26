@@ -1,0 +1,71 @@
+
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Pyromancer", "Hunter", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", -7.261051177978516, 0.9603308439254761, -31.27128028869629)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Place("Hunter", 10.010209083557129, 1.1495832204818726, 21.36019515991211)
+TDS:Upgrade(2)
+
+-- [ Wave 12 ] --
+TDS:Place("Hunter", 6.36063289642334, 1.2299258708953857, 21.354995727539062)
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Place("Hunter", 3.0969700813293457, 1.3290671110153198, 21.43729019165039)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Place("Hunter", -0.5823357105255127, 1.3971517086029053, 21.278518676757812)
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Place("Pyromancer", 12.168724060058594, 1.2624064683914185, 25.445030212402344)
+TDS:Upgrade(6)
+TDS:Place("Hunter", -3.902087450027466, 1.4621119499206543, 20.920928955078125)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 18 ] --
+TDS:Place("Hunter", 8.20083236694336, 0.8116216063499451, 18.54512596130371)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 20 ] --
+TDS:Place("Hunter", 4.117476463317871, 0.9337432980537415, 18.510156631469727)
+TDS:Upgrade(9)
+
+-- [ Wave 21 ] --
+TDS:Place("Hunter", 0.7308270931243896, 1.2350800037384033, 18.156911849975586)
+TDS:Upgrade(10)
+
+-- [ Wave 22 ] --
+TDS:Place("Hunter", 11.203469276428223, 0.6630234122276306, 17.972246170043945)
+TDS:Upgrade(11)
+
+-- [ Wave 23 ] --
+TDS:Place("Hunter", 0.8245515823364258, 1.4425063133239746, 27.79110336303711)
+
+-- [[ END OF STRATEGY ]]
