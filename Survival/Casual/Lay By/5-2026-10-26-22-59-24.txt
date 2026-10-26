@@ -1,0 +1,23 @@
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Scout", "Sniper", "Demoman", "None", "None")
+TDS:Mode("Casual")
+TDS:GameInfo("Lay By", {})
+TDS:Ready()
+
+-- [ Wave 16 ] --
+TDS:Place("Sniper", 7.323488712310791, 245.92747497558594, 268.7394714355469)
+
+-- [[ END OF STRATEGY ]]
