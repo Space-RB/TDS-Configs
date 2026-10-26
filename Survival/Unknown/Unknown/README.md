@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 115 recorded strategies available for this map**
+**📦 116 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -134,6 +134,7 @@ Select a strategy below and open its config file.
 | 113 | 2026-10-25 22:10 UTC | Unknown | — | Assassin, Golden Crook Boss, EvolvedJuggernaut, Commander, DJ Booth | [Open](113-2026-10-25-22-10-20.txt) |
 | 114 | 2026-10-26 02:15 UTC | Unknown | — | Gatling Gun, Trapper, Mercenary Base, Turret, None | [Open](114-2026-10-26-02-15-49.txt) |
 | 115 | 2026-10-26 02:17 UTC | Unknown | — | Gatling Gun, EvolvedOperator, Firework Technician, Assassin, Mercenary Base | [Open](115-2026-10-26-02-17-02.txt) |
+| 116 | 2026-10-26 05:37 UTC | Unknown | — | Soldier, Shotgunner, None | [Open](116-2026-10-26-05-37-21.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
