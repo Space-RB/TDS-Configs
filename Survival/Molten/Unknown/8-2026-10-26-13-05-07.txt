@@ -1,0 +1,32 @@
+_G.AutoRejoin = false
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("DJ Booth", "Minigunner", "Ranger", "Farm", "Electroshocker")
+TDS:Mode("Molten")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Electroshocker", 11.24505615234375, 0.25000420212745667, -25.907569885253906)
+
+-- [ Wave 4 ] --
+TDS:Place("Electroshocker", 10.316363334655762, 0.2499975562095642, 15.08149528503418)
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
