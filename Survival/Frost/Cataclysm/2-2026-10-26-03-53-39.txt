@@ -1,0 +1,135 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedOperator", "DJ Booth", "Freezer", "Electroshocker", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Cataclysm", {"ExplodingEnemies", "Glass", "HiddenEnemies", "Limitation"})
+TDS:Ready()
+TDS:Place("EvolvedOperator", -1.0979560613632202, 1.0000081062316895, 25.07501220703125)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("EvolvedOperator", 1.435712456703186, 1.0000081062316895, 25.25424575805664)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Place("EvolvedOperator", -0.00730133056640625, 1.0000081062316895, 27.34453582763672)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("EvolvedOperator", 0.32409900426864624, 1.0000081062316895, 22.970407485961914)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Place("EvolvedOperator", -2.5409696102142334, 1.0000081062316895, 27.165302276611328)
+TDS:Upgrade(5)
+TDS:Place("EvolvedOperator", -2.2095694541931152, 1.0000081062316895, 22.791173934936523)
+TDS:Upgrade(6)
+
+-- [ Wave 6 ] --
+TDS:Place("EvolvedOperator", -3.629706859588623, 1.0000081062316895, 24.87047004699707)
+TDS:Upgrade(7)
+TDS:Place("EvolvedOperator", -5.072720527648926, 1.0000081062316895, 26.96076011657715)
+TDS:Upgrade(8)
+
+-- [ Wave 7 ] --
+TDS:Place("EvolvedOperator", 2.524449586868286, 1.0000081062316895, 27.5490779876709)
+TDS:Upgrade(9)
+TDS:Place("EvolvedOperator", 1.0814354419708252, 1.0000081062316895, 29.639368057250977)
+TDS:Upgrade(10)
+
+-- [ Wave 8 ] --
+TDS:Place("EvolvedOperator", -1.451596736907959, 1.0000081062316895, 29.433940887451172)
+TDS:Upgrade(11)
+TDS:Place("DJ Booth", -0.6907581090927124, 1.0000081062316895, 19.318809509277344)
+TDS:Upgrade(12)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+
+-- [ Wave 12 ] --
+TDS:Place("EvolvedOperator", 2.11810302734375, 1.0749932527542114, 7.78987979888916)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("EvolvedOperator", 2.0251922607421875, 1.0749932527542114, 10.328180313110352)
+TDS:Upgrade(14)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(14)
+TDS:Place("EvolvedOperator", -3.991276264190674, 1.0000081062316895, 29.393613815307617)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("EvolvedOperator", -6.508721828460693, 1.0000081062316895, 29.05587387084961)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 14 ] --
+TDS:Place("EvolvedOperator", 3.6131861209869385, 1.0000081062316895, 29.843910217285156)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 15 ] --
+TDS:Place("Freezer", 3.337329864501953, 1.0000081062316895, 19.0087947845459)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Freezer", 6.3773298263549805, 1.0000081062316895, 19.0087947845459)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Freezer", 2.948620319366455, 1.0000081062316895, 22.023841857910156)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(20)
+TDS:Place("Freezer", 5.988620281219482, 1.0000081062316895, 22.023841857910156)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+
+-- [ Wave 17 ] --
+TDS:Place("Electroshocker", -4.7051801681518555, 1.0000081062316895, 19.08254051208496)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(12)
+
+-- [ Wave 18 ] --
+TDS:Place("Electroshocker", -7.744569778442383, 1.0000081062316895, 19.021644592285156)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Place("Electroshocker", -10.406875610351562, 1.0000081062316895, 20.54201316833496)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Place("Electroshocker", -4.916439533233643, 1.0000081062316895, 22.115190505981445)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+
+-- [[ END OF STRATEGY ]]
