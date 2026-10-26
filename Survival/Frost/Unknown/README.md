@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 19 recorded strategies available for this map**
+**📦 20 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -38,6 +38,7 @@ Select a strategy below and open its config file.
 | 17 | 2026-10-26 02:36 UTC | Frost | — | EvolvedOperator, Gladiator, None | [Open](17-2026-10-26-02-36-21.txt) |
 | 18 | 2026-10-26 03:13 UTC | Frost | — | EvolvedOperator, Gladiator, DJ Booth, Freezer, None | [Open](18-2026-10-26-03-13-36.txt) |
 | 19 | 2026-10-26 03:44 UTC | Frost | — | EvolvedOperator, DJ Booth, Freezer, Turret, EvolvedEnforcer | [Open](19-2026-10-26-03-44-40.txt) |
+| 20 | 2026-10-26 03:49 UTC | Frost | — | EvolvedOperator, DJ Booth, Freezer, Electroshocker, None | [Open](20-2026-10-26-03-49-53.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
