@@ -1,0 +1,64 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedEnforcer", "Golden Scout", "None", "None", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", -1.3901305198669434, 0.7315040230751038, -0.23471927642822266)
+TDS:Place("Scout", -2.6167469024658203, 0.7315035462379456, 2.5468292236328125)
+
+-- [ Wave 2 ] --
+TDS:Place("Scout", 1.0578577518463135, 0.7315037250518799, 1.5916166305541992)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+TDS:Place("Scout", -0.15969491004943848, 0.7315049767494202, -6.322576522827148)
+TDS:Place("Scout", -5.483895301818848, 0.7315049171447754, -5.704771041870117)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Place("Scout", 17.429880142211914, 2.2774410247802734, -52.91352844238281)
+TDS:Place("Scout", 14.74940299987793, 2.2774407863616943, -51.47943115234375)
+TDS:Upgrade(7)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 8 ] --
+TDS:Place("EvolvedEnforcer", -0.0018630027770996094, 2.2774009704589844, -38.07344436645508)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(8)
+TDS:Place("Scout", 15.568974494934082, 2.277442216873169, -59.63419723510742)
+TDS:Upgrade(9)
+TDS:Place("Scout", 16.41701316833496, 2.2774429321289062, -63.48176574707031)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [[ END OF STRATEGY ]]
