@@ -1,0 +1,23 @@
+_G.AntiLag = true
+_G.AutoGatling = true
+_G.AutoSkipCutscenes = true
+_G.MatchTrackerEnabled = false
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.beta_dps = true
+_G.GatlingRate = 25
+_G.AutoGatlingSettings.gui_hidden = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "EvolvedOperator", "Firework Technician", "Assassin", "Mercenary Base")
+TDS:Mode("Act3")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", -4.626976013183594, 103.89028930664062, 121.8423080444336)
+
+-- [[ END OF STRATEGY ]]
