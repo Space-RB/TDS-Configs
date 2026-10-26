@@ -1,0 +1,46 @@
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRestart = false
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Electroshocker", "Trapper", "Gatling Gun", "EvolvedJuggernaut", "None")
+TDS:Mode("Act3")
+TDS:Ready()
+TDS:Place("Electroshocker", -3.9001331329345703, 103.01421356201172, 108.68488311767578)
+TDS:Place("Electroshocker", 5.737966060638428, 103.20504760742188, 114.75765228271484)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:Place("Trapper", -9.645505905151367, 102.25076293945312, 91.11759948730469)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+TDS:Place("Trapper", -10.146551132202148, 102.43021392822266, 94.11573791503906)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Electroshocker", 2.7040300369262695, 103.18327331542969, 114.58673095703125)
+TDS:Upgrade(5)
+TDS:Place("Electroshocker", -0.9271626472473145, 103.01673126220703, 109.31578063964844)
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
