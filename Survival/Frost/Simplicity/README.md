@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 13 recorded strategies available for this map**
+**📦 14 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -32,6 +32,7 @@ Select a strategy below and open its config file.
 | 11 | 2026-10-25 05:02 UTC | Frost | — | Shotgunner, Soldier, None | [Open](11-2026-10-25-05-02-29.txt) |
 | 12 | 2026-10-26 10:21 UTC | Frost | — | Shotgunner, Assassin, Crook Boss, Commander, None | [Open](12-2026-10-26-10-21-27.txt) |
 | 13 | 2026-10-26 10:26 UTC | Frost | — | Shotgunner, Assassin, Crook Boss, Commander, None | [Open](13-2026-10-26-10-26-17.txt) |
+| 14 | 2026-10-26 10:34 UTC | Frost | — | Shotgunner, Crook Boss, Commander, Assassin, DJ Booth | [Open](14-2026-10-26-10-34-14.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
