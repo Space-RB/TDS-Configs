@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 20 | [Open](Unknown/README.md) |
+| Cataclysm | 2 | [Open](Cataclysm/README.md) |
 
+| Unknown | 20 | [Open](Unknown/README.md) |
 | Lay By | 18 | [Open](Lay%20By/README.md) |
 | Simplicity | 11 | [Open](Simplicity/README.md) |
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
@@ -27,7 +28,6 @@ Choose one of the categories below to continue.
 | Spring Fever | 2 | [Open](Spring%20Fever/README.md) |
 | Wrecked Battlefield II | 2 | [Open](Wrecked%20Battlefield%20II/README.md) |
 | Abandoned City | 1 | [Open](Abandoned%20City/README.md) |
-| Cataclysm | 1 | [Open](Cataclysm/README.md) |
 | Construction Crazy | 1 | [Open](Construction%20Crazy/README.md) |
 | Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
