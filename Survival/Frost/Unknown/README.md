@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 15 recorded strategies available for this map**
+**📦 16 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -34,6 +34,7 @@ Select a strategy below and open its config file.
 | 13 | 2026-10-22 21:41 UTC | Frost | — | EvolvedJuggernaut, EvolvedOperator, Firework Technician, DJ Booth, Hacker | [Open](13-2026-10-22-21-41-12.txt) |
 | 14 | 2026-10-25 09:22 UTC | Frost | — | Assassin, Commander, Shotgunner, Pyromancer, Trapper | [Open](14-2026-10-25-09-22-07.txt) |
 | 15 | 2026-10-25 12:16 UTC | Frost | — | Scout, None | [Open](15-2026-10-25-12-16-23.txt) |
+| 16 | 2026-10-26 02:32 UTC | Frost | — | Brawler, None | [Open](16-2026-10-26-02-32-58.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
