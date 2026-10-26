@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 127 recorded strategies available for this map**
+**📦 128 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -146,6 +146,7 @@ Select a strategy below and open its config file.
 | 125 | 2026-10-26 17:02 UTC | Unknown | — | Gatling Gun, Assassin, Hunter, DJ Booth, Mortar | [Open](125-2026-10-26-17-02-26.txt) |
 | 126 | 2026-10-26 17:02 UTC | Unknown | — | Gatling Gun, Assassin, Hunter, DJ Booth, Mortar | [Open](126-2026-10-26-17-02-38.txt) |
 | 127 | 2026-10-26 17:02 UTC | Unknown | — | Gatling Gun, Assassin, Hunter, DJ Booth, Mortar | [Open](127-2026-10-26-17-02-49.txt) |
+| 128 | 2026-10-26 20:10 UTC | Unknown | — | Necromancer, Farm, Ranger, DJ Booth, EvolvedKingpin | [Open](128-2026-10-26-20-10-53.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
