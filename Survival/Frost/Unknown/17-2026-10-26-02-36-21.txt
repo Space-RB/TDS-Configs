@@ -1,0 +1,93 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedOperator", "Gladiator", "None", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("EvolvedOperator", -2.046428680419922, 1.0000081062316895, 25.511070251464844)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:Place("EvolvedOperator", 0.49118971824645996, 1.0000081062316895, 25.401100158691406)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("EvolvedOperator", -0.6992720365524292, 1.0000081062316895, 27.644847869873047)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("EvolvedOperator", -0.9887319803237915, 1.0000081062316895, 23.105504989624023)
+TDS:Upgrade(4)
+TDS:Place("EvolvedOperator", -3.222487449645996, 1.0000081062316895, 27.936365127563477)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+TDS:Place("EvolvedOperator", 1.837666392326355, 1.0000081062316895, 27.520170211791992)
+TDS:Upgrade(6)
+
+-- [ Wave 6 ] --
+TDS:Place("EvolvedOperator", 3.028127908706665, 1.0000081062316895, 25.27642250061035)
+TDS:Upgrade(7)
+TDS:Place("EvolvedOperator", 1.5512679815292358, 1.0000081062316895, 23.105504989624023)
+TDS:Upgrade(8)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(8)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+TDS:Place("EvolvedOperator", -4.5716872215271, 1.0000081062316895, 25.78432846069336)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 11 ] --
+TDS:Place("EvolvedOperator", -3.5125250816345215, 1.0000081062316895, 23.391979217529297)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Gladiator", 0.2407991886138916, 1.0000081062316895, 35.567176818847656)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(11)
+TDS:Place("Gladiator", -1.7940623760223389, 1.0000081062316895, 35.4224739074707)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(12)
+TDS:Place("Gladiator", -10.311874389648438, 1.0000081062316895, 29.913314819335938)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 15 ] --
+TDS:Place("Gladiator", -8.274616241455078, 1.0000081062316895, 30.019039154052734)
+TDS:Upgrade(14)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [[ END OF STRATEGY ]]
