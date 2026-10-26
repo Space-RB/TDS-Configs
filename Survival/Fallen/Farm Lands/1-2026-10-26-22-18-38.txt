@@ -1,0 +1,72 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Militant", "Brawler", "Shotgunner", "Ace Pilot", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("Farm Lands", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", -8.702571868896484, 0.9999997615814209, 0.2138681411743164, true)
+TDS:Place("Brawler", -9.511165618896484, 1.0000001192092896, -2.3300390243530273, true)
+
+-- [ Wave 2 ] --
+TDS:Place("Brawler", -9.161681175231934, 1, -0.9827404022216797, true)
+
+-- [ Wave 3 ] --
+TDS:Place("Brawler", -10.63946533203125, 1.0000004768371582, -3.967709541320801, true)
+
+-- [ Wave 4 ] --
+TDS:Place("Brawler", 3.008573532104492, 0.9999993443489075, 2.8653244972229004, true)
+TDS:Place("Ace Pilot", -3.2269668579101562, 0.9999996423721313, 1.2452378273010254, true)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(6, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(1, true)
+TDS:Place("Militant", -5.329900741577148, 0.999988317489624, 3.4829607009887695, true)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(7, true)
+
+-- [ Wave 7 ] --
+TDS:Place("Militant", -4.002949237823486, 0.9999992847442627, 3.1100897789001465, true)
+TDS:Upgrade(7, true)
+TDS:Upgrade(8, true)
+
+-- [ Wave 8 ] --
+TDS:Place("Militant", -3.46376895904541, 0.9999994039535522, 2.7002077102661133, true)
+TDS:Upgrade(9, true)
+TDS:Place("Shotgunner", -8.968896865844727, 0.9999933242797852, -15.435762405395508, true)
+
+-- [ Wave 9 ] --
+TDS:Place("Militant", -1.509505271911621, 0.9999995231628418, 1.8462886810302734, true)
+TDS:Upgrade(10, true)
+
+-- [ Wave 10 ] --
+TDS:Place("Ace Pilot", -3.146291732788086, 0.9999988675117493, 5.843055725097656, true)
+TDS:Upgrade(12, true)
+TDS:Upgrade(12, true)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(1, true)
+TDS:Upgrade(2, true)
+TDS:Upgrade(3, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(5, true)
+TDS:Upgrade(10, true)
+
+-- [ Wave 12 ] --
+TDS:Place("Brawler", 3.391140937805176, 0.9999996423721313, 0.9910736083984375, true)
+TDS:Place("Brawler", 3.3953943252563477, 0.9999883770942688, 4.756477355957031, true)
+TDS:Upgrade(2, true)
+TDS:Upgrade(13, true)
+TDS:Upgrade(14, true)
+
+-- [[ END OF STRATEGY ]]
