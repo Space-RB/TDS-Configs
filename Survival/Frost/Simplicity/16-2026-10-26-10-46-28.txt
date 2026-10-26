@@ -1,0 +1,90 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Shotgunner", "Crook Boss", "Commander", "Assassin", "DJ Booth")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+TDS:Place("Assassin", -20.195791244506836, 0.9999855756759644, -12.07132625579834)
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", -18.247394561767578, 1.0000004768371582, -2.441094398498535)
+TDS:Upgrade(10)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 5 ] --
+TDS:Place("Assassin", -18.094764709472656, 0.9999834895133972, -4.475376129150391)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 6 ] --
+TDS:Place("Assassin", -17.883041381835938, 1.0000011920928955, -6.826452255249023)
+TDS:Upgrade(13)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(13)
+TDS:Place("Assassin", -18.07101821899414, 0.9999878406524658, -8.857772827148438)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 8 ] --
+TDS:Place("DJ Booth", -2.6934492588043213, 0.9999831914901733, 2.4441843032836914)
+TDS:Upgrade(15)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(15)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(15)
+
+-- [ Wave 11 ] --
+TDS:Place("Crook Boss", 1.1877214908599854, 0.9999831914901733, 3.63002347946167)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(16)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(16)
+
+-- [ Wave 14 ] --
+TDS:Place("Crook Boss", 4.212440013885498, 0.9999831914901733, 3.3255929946899414)
+TDS:Upgrade(17)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(17)
+TDS:Place("Crook Boss", 7.250977516174316, 0.9999831914901733, 3.2313051223754883)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(10)
+
+-- [[ END OF STRATEGY ]]
