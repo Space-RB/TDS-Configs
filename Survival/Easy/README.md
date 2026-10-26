@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 47 | [Open](Unknown/README.md) |
+| Night Station | 2 | [Open](Night%20Station/README.md) |
 
+| Unknown | 47 | [Open](Unknown/README.md) |
 | Gilded Path | 15 | [Open](Gilded%20Path/README.md) |
 | Dead Ahead | 9 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 3 | [Open](Lay%20By/README.md) |
@@ -25,7 +26,6 @@ Choose one of the categories below to continue.
 | Cataclysm | 1 | [Open](Cataclysm/README.md) |
 | Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
-| Night Station | 1 | [Open](Night%20Station/README.md) |
 | Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
 | Retro Lighthouse | 1 | [Open](Retro%20Lighthouse/README.md) |
 | Ruby Escort | 1 | [Open](Ruby%20Escort/README.md) |
