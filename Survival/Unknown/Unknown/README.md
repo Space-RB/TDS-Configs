@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 118 recorded strategies available for this map**
+**📦 119 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -137,6 +137,7 @@ Select a strategy below and open its config file.
 | 116 | 2026-10-26 05:37 UTC | Unknown | — | Soldier, Shotgunner, None | [Open](116-2026-10-26-05-37-21.txt) |
 | 117 | 2026-10-26 06:08 UTC | Unknown | — | DJ Booth, Crook Boss, Turret, Ranger, Cowboy | [Open](117-2026-10-26-06-08-29.txt) |
 | 118 | 2026-10-26 06:08 UTC | Unknown | — | DJ Booth, Crook Boss, Turret, Ranger, Cowboy | [Open](118-2026-10-26-06-08-56.txt) |
+| 119 | 2026-10-26 06:09 UTC | Unknown | — | DJ Booth, Crook Boss, Turret, Ranger, Cowboy | [Open](119-2026-10-26-06-09-44.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
