@@ -1,0 +1,62 @@
+_G.AutoRejoin = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Assassin", "Golden Crook Boss", "EvolvedJuggernaut", "Commander", "DJ Booth")
+TDS:Mode("Act3Easy")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", -6.024242401123047, 104.84945678710938, 136.8141632080078)
+TDS:Place("Assassin", -5.327918529510498, 104.76602935791016, 134.8966827392578)
+TDS:Place("Assassin", -3.124802589416504, 104.65624237060547, 134.8509521484375)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Crook Boss", -6.40593957901001, 104.48484802246094, 127.65880584716797)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Crook Boss", -3.3529534339904785, 104.41271209716797, 127.9023208618164)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Place("DJ Booth", -10.389646530151367, 104.72589874267578, 128.33087158203125)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Place("Crook Boss", -8.028376579284668, 104.41548919677734, 125.08795166015625)
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Place("Crook Boss", -4.521945953369141, 104.20096588134766, 125.0960693359375)
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Place("Crook Boss", -1.5071630477905273, 104.15007019042969, 125.48681640625)
+TDS:Upgrade(9)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]
