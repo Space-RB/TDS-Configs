@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 38 | [Open](Unknown/README.md) |
+| Farm Lands | 1 | [Open](Farm%20Lands/README.md) |
 
+| Unknown | 38 | [Open](Unknown/README.md) |
 | Lay By | 27 | [Open](Lay%20By/README.md) |
 | Simplicity | 27 | [Open](Simplicity/README.md) |
 | Cataclysm | 5 | [Open](Cataclysm/README.md) |
