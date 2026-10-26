@@ -1,0 +1,114 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Shotgunner", "Crook Boss", "Commander", "Assassin", "DJ Booth")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+TDS:Place("Assassin", -20.44949722290039, 0.9999846816062927, -12.014887809753418)
+TDS:Place("Assassin", -18.24442481994629, 1.0000004768371582, -2.341708183288574)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 5 ] --
+TDS:Place("Assassin", -18.370134353637695, 1.0000007152557373, -4.4203643798828125)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 6 ] --
+TDS:Place("Assassin", -18.331207275390625, 0.9999834895133972, -6.4644012451171875)
+TDS:Upgrade(13)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 8 ] --
+TDS:Place("DJ Booth", -2.620351791381836, 0.9999831914901733, 2.2360644340515137)
+TDS:Upgrade(14)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(14)
+TDS:Place("Shotgunner", -12.346388816833496, 1.0000005960464478, -3.2401609420776367)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 12 ] --
+TDS:Place("Shotgunner", -12.341861724853516, 1.000000238418579, -1.124373435974121)
+TDS:Upgrade(16)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(16)
+TDS:Place("Crook Boss", 1.3969216346740723, 0.9999831914901733, 3.0279884338378906)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 15 ] --
+TDS:Place("Crook Boss", 4.491939544677734, 0.9999831914901733, 3.206676959991455)
+TDS:Upgrade(18)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(18)
+
+-- [ Wave 17 ] --
+TDS:Place("Commander", -17.35919189453125, 0.999988853931427, -8.811055183410645)
+TDS:Place("Commander", -9.641468048095703, 1.0000005960464478, -3.488503932952881)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Commander", -9.940071105957031, 0.9999831914901733, -0.10973501205444336)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Place("Commander", -6.613271713256836, 0.9999873638153076, -3.220872163772583)
+TDS:Upgrade(22)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(22)
+TDS:Place("Crook Boss", -3.6023688316345215, 0.9999909996986389, -3.150306224822998)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+
+-- [ Wave 20 ] --
+TDS:Place("Shotgunner", -12.361032485961914, 0.9999998807907104, 1.3499042987823486)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Place("Shotgunner", -10.59363842010498, 0.9999997019767761, 2.368687391281128)
+TDS:Upgrade(25)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(25)
+
+-- [ Wave 22 ] --
+TDS:Place("Assassin", 20.499267578125, 0.9999980926513672, 12.328932762145996)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+
+-- [[ END OF STRATEGY ]]
