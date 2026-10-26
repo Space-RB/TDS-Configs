@@ -1,0 +1,85 @@
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "DJ Booth", "Gatling Gun", "Farm", "Mercenary Base")
+TDS:Mode("Fallen")
+TDS:GameInfo("Lay By", {"Broke", "Committed", "ExplodingEnemies", "Fog", "Glass", "HiddenEnemies", "Limitation", "SpeedyEnemies"})
+TDS:Ready()
+TDS:Place("Trapper", -3.048656463623047, 242.99996948242188, 235.47787475585938, true)
+
+-- [ Wave 1 ] --
+TDS:Place("Trapper", 2.5230064392089844, 242.99996948242188, 235.34918212890625)
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", -2.5021286010742188, 242.99998474121094, 229.3237762451172)
+
+-- [ Wave 3 ] --
+TDS:Place("Trapper", 2.508922576904297, 242.99998474121094, 229.4214630126953)
+TDS:Place("Trapper", -2.5319478511810303, 243.12278747558594, 223.669677734375)
+
+-- [ Wave 4 ] --
+TDS:Place("Trapper", 2.5229568481445312, 242.99998474121094, 223.5750732421875)
+
+-- [ Wave 5 ] --
+TDS:Place("Trapper", -2.543865203857422, 242.99998474121094, 217.38388061523438)
+TDS:Upgrade(1, true)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1, true)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 12 ] --
+TDS:Place("Gatling Gun", -6.197043418884277, 245.87838745117188, 171.64614868164062)
+
+-- [ Wave 13 ] --
+TDS:Place("DJ Booth", -2.5559158325195312, 243, 169.43344116210938)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Place("Farm", 2.5530624389648438, 243, 174.59930419921875)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 16 ] --
+TDS:Place("Farm", 2.5530624389648438, 243, 171.05931091308594)
+TDS:Place("Farm", 2.5530624389648438, 243, 167.51931762695312)
+TDS:Place("Farm", 2.5530624389648438, 243, 163.9793243408203)
+TDS:Place("Farm", 2.5530624389648438, 243, 160.4393310546875)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [[ END OF STRATEGY ]]
