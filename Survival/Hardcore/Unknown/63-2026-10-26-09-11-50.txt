@@ -1,0 +1,61 @@
+_G.AutoChain = true
+_G.AutoRejoin = false
+_G.AutoSkip = true
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedOperator", "EvolvedJuggernaut", "EvolvedKingpin", "EvolvedEnforcer", "Golden Soldier")
+TDS:Mode("Hardcore")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Soldier", -5.287113189697266, -0.03866606578230858, -11.257744789123535)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Place("Soldier", -2.5632011890411377, 0.05770981311798096, -9.98806381225586)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("EvolvedOperator", -0.7963494062423706, 0.34338128566741943, -16.35065269470215)
+TDS:Place("EvolvedOperator", 1.4211138486862183, 0.3979201912879944, -15.111920356750488)
+TDS:Place("EvolvedOperator", 1.338661789894104, 0.5647644996643066, -17.65058135986328)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Place("EvolvedEnforcer", -6.217165946960449, 0.9538528919219971, -31.77804946899414)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 16 ] --
+TDS:Place("EvolvedEnforcer", 6.076136589050293, 0.5095829963684082, -14.004365921020508)
+TDS:Upgrade(7)
+
+-- [ Wave 17 ] --
+TDS:Place("EvolvedKingpin", -1.905524730682373, 0.11616891622543335, -4.108242988586426)
+
+-- [[ END OF STRATEGY ]]
