@@ -1,0 +1,20 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMedic = true
+_G.AutoReady = false
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "Electroshocker", "Gatling Gun", "Shotgunner", "None")
+TDS:Mode("Act3")
+TDS:Ready()
+
+-- [ Wave 25 ] --
+TDS:Place("Shotgunner", 2.3177967071533203, 101.01065063476562, 77.90910339355469)
+
+-- [[ END OF STRATEGY ]]
