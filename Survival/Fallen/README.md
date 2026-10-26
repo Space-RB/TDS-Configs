@@ -16,9 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Lay By | 27 | [Open](Lay%20By/README.md) |
+| Unknown | 38 | [Open](Unknown/README.md) |
 
-| Unknown | 37 | [Open](Unknown/README.md) |
+| Lay By | 27 | [Open](Lay%20By/README.md) |
 | Simplicity | 27 | [Open](Simplicity/README.md) |
 | Cataclysm | 5 | [Open](Cataclysm/README.md) |
 | Dusty Bridges | 2 | [Open](Dusty%20Bridges/README.md) |
