@@ -1,0 +1,22 @@
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRestart = false
+_G.AutoSkipCutscenes = true
+_G.MatchTrackerEnabled = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("DJ Booth", "Gatling Gun", "EvolvedEnforcer", "EvolvedJuggernaut", "Assassin")
+TDS:Mode("Act3")
+TDS:Ready()
+
+-- [ Wave 11 ] --
+TDS:Place("Assassin", 4.86524772644043, 103.2146224975586, 115.0508804321289)
+
+-- [[ END OF STRATEGY ]]
