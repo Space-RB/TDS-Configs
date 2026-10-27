@@ -1,0 +1,119 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Demoman", "Militant", "Ace Pilot", "Slime Trooper", "None")
+TDS:Mode("Intermediate")
+TDS:GameInfo("Candy Valley", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Ace Pilot", -6.258114814758301, 0.6270203590393066, -2.182262420654297)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Militant", -6.501201629638672, 0.6263337135314941, 1.3030433654785156)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Militant", -8.8543119430542, 0.6263337135314941, -0.6012191772460938)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Place("Militant", -3.89758038520813, 0.6263337135314941, -0.26627349853515625)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Place("Ace Pilot", -8.925272941589355, 0.6269721984863281, -3.640390396118164)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Place("Militant", -3.4183945655822754, 0.6269881725311279, -3.268270492553711)
+TDS:Upgrade(6)
+TDS:Place("Militant", -3.4183945655822754, 0.6269881725311279, -3.268270492553711)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(2)
+TDS:Place("Ace Pilot", -11.928678512573242, 0.6269876956939697, -3.1721763610839844)
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+TDS:Place("Militant", -11.755733489990234, 0.6263337135314941, 0.6723976135253906)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(9)
+TDS:Place("Ace Pilot", -14.919164657592773, 0.626969575881958, -3.716836929321289)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 17 ] --
+TDS:Place("Militant", -0.8659050464630127, 0.6264240741729736, -0.4910926818847656)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Militant", -14.77760124206543, 0.6263337135314941, 0.3408660888671875)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 18 ] --
+TDS:Place("Ace Pilot", -4.852507591247559, 0.6268126964569092, -10.235025405883789)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Ace Pilot", -11.419569969177246, 0.6268115043640137, -10.218002319335938)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Militant", -17.951953887939453, 0.6263320446014404, -3.512308120727539)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(15)
+TDS:Place("Ace Pilot", -1.852494239807129, 0.6268422603607178, -10.380409240722656)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [[ END OF STRATEGY ]]
