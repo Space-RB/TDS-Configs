@@ -1,0 +1,53 @@
+_G.AutoSkip = true
+_G.AutoXP = true
+_G.StartHubStrategy = "32597e84-1eef-4e74-af09-4e2887dc833d"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Crook Boss", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Outskirts Commune", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", -12.892704010009766, 501.3067932128906, 26.11184310913086)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Place("Crook Boss", 5.51716423034668, 501.45562744140625, 12.91045093536377)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 14 ] --
+TDS:Place("Crook Boss", 6.90202522277832, 501.1864929199219, 15.616695404052734)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 18 ] --
+TDS:Place("Crook Boss", 3.637777805328369, 501.2989196777344, 15.299908638000488)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]
