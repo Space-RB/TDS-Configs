@@ -1,0 +1,16 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.HideUsername = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Accelerator", "Scout", "Commander", "DJ Booth", "Saboteur")
+TDS:Mode("Casual")
+TDS:GameInfo("Dead Ahead", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
