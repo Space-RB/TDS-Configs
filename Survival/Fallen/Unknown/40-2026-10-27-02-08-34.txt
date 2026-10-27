@@ -1,0 +1,19 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("DJ Booth", "Gatling Gun", "Trapper", "Hacker", "Mercenary Base")
+TDS:Mode("Fallen")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
