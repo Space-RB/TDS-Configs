@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 7 recorded strategies available for this map**
+**📦 8 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -26,6 +26,7 @@ Select a strategy below and open its config file.
 | 5 | 2026-10-27 18:59 UTC | Casual | — | Accelerator, Scout, Commander, DJ Booth, Saboteur | [Open](5-2026-10-27-18-59-09.txt) |
 | 6 | 2026-10-27 18:59 UTC | Casual | — | Accelerator, Scout, Commander, DJ Booth, Saboteur | [Open](6-2026-10-27-18-59-19.txt) |
 | 7 | 2026-10-27 19:11 UTC | Casual | — | Accelerator, Scout, Commander, DJ Booth, Saboteur | [Open](7-2026-10-27-19-11-57.txt) |
+| 8 | 2026-10-27 19:12 UTC | Casual | — | Accelerator, Scout, Commander, DJ Booth, Saboteur | [Open](8-2026-10-27-19-12-57.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
