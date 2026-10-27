@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 47 recorded strategies available for this map**
+**📦 48 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -66,6 +66,7 @@ Select a strategy below and open its config file.
 | 45 | 2026-10-25 07:19 UTC | Easy | — | Militant, EvolvedEnforcer, None | [Open](45-2026-10-25-07-19-40.txt) |
 | 46 | 2026-10-25 10:55 UTC | Easy | — | Scout, None | [Open](46-2026-10-25-10-55-04.txt) |
 | 47 | 2026-10-26 10:56 UTC | Easy | — | Brawler, EvolvedEnforcer, Crook Boss, None | [Open](47-2026-10-26-10-56-26.txt) |
+| 48 | 2026-10-27 04:36 UTC | Easy | — | Gatling Gun, Golden Soldier, None | [Open](48-2026-10-27-04-36-53.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
