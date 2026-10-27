@@ -1,0 +1,76 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Scout", "Militant", "Golden Pyromancer", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Unknown Garden", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", 64.00440216064453, 302.5372619628906, -9.606583595275879)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Place("Militant", 88.88876342773438, 301.6595764160156, 15.798344612121582)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Place("Militant", 89.6069564819336, 301.4875183105469, 12.844398498535156)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+TDS:Place("Militant", 86.68966674804688, 301.5560302734375, 13.699398040771484)
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(4)
+TDS:Place("Militant", 85.97147369384766, 301.7108459472656, 16.653345108032227)
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(5)
+TDS:Place("Militant", 88.17057037353516, 301.8083190917969, 18.752290725708008)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Militant", 91.08786010742188, 301.8226013183594, 17.89729118347168)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 16 ] --
+TDS:Place("Militant", 85.25328063964844, 301.8620300292969, 19.60729217529297)
+TDS:Upgrade(8)
+
+-- [ Wave 17 ] --
+TDS:Place("Scout", 87.45237731933594, 302.08734130859375, 21.70623779296875)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
