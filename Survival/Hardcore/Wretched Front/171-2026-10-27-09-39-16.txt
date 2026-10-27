@@ -1,0 +1,166 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Farm", "EvolvedJuggernaut", "Boomerang", "Crook Boss", "Shotgunner")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Farm", 7.428326606750488, 1.3525848388671875, 34.796878814697266)
+TDS:Upgrade(1)
+TDS:Place("Farm", 10.946029663085938, 1.288099765777588, 34.732357025146484)
+TDS:Upgrade(2)
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", 14.486014366149902, 1.2192280292510986, 34.732357025146484)
+TDS:Upgrade(3)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", 18.026016235351562, 1.1256662607192993, 34.732357025146484)
+TDS:Upgrade(4)
+TDS:Place("Farm", 21.564800262451172, 1.0257399082183838, 34.82520294189453)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(5)
+TDS:Place("Boomerang", 11.628132820129395, 1.214011549949646, 22.294864654541016)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(6)
+TDS:Place("Farm", 21.379207611083984, 0.9896741509437561, 31.290071487426758)
+TDS:Upgrade(7)
+TDS:Place("Farm", 21.10970687866211, 0.9190970063209534, 27.760345458984375)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(8)
+TDS:Place("Farm", 21.449764251708984, 0.821485698223114, 24.236717224121094)
+TDS:Upgrade(9)
+TDS:Place("Farm", 21.837846755981445, 0.6962130069732666, 20.7283935546875)
+TDS:Upgrade(10)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", 23.375804901123047, 0.5790079832077026, 17.511150360107422)
+TDS:Upgrade(11)
+TDS:Upgrade(6)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Place("Crook Boss", 6.535332679748535, 1.3882737159729004, 27.868404388427734)
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Place("Crook Boss", 3.4953174591064453, 1.417267918586731, 27.868408203125)
+TDS:Upgrade(13)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 17 ] --
+TDS:Place("Crook Boss", 1.4155654907226562, 1.3903133869171143, 22.630035400390625)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Crook Boss", 1.669447898864746, 1.3356311321258545, 19.60065460205078)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Crook Boss", 4.455565452575684, 1.3647830486297607, 22.630035400390625)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Boomerang", 8.604873657226562, 1.3186142444610596, 22.61346435546875)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(17)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(17)
+TDS:Place("Boomerang", 4.709447860717773, 1.1782329082489014, 19.60065460205078)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(18)
+TDS:Place("Boomerang", 7.747928619384766, 1.0391380786895752, 19.696746826171875)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(19)
+TDS:Place("Shotgunner", 10.88453483581543, 0.9608758687973022, 19.866147994995117)
+TDS:Upgrade(20)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(20)
+
+-- [ Wave 25 ] --
+TDS:Place("EvolvedJuggernaut", 6.347006320953369, 0.4772534668445587, 15.907417297363281)
+TDS:Upgrade(21)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(21)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(20)
+TDS:Place("Shotgunner", 9.543237686157227, 0.6482818126678467, 17.899953842163086)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Place("Shotgunner", 11.582639694213867, 0.6762681007385254, 17.94931411743164)
+TDS:Upgrade(23)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(23)
+TDS:Place("Shotgunner", 12.922794342041016, 1.0186126232147217, 19.781898498535156)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Place("Shotgunner", 14.066847801208496, 1.0094859600067139, 21.584745407104492)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+
+-- [[ END OF STRATEGY ]]
