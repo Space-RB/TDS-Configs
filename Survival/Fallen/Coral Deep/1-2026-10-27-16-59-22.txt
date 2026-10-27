@@ -1,0 +1,56 @@
+_G.AutoDJ = true
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("DJ Booth", "Gatling Gun", "Trapper", "Crook Boss", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("Coral Deep", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Trapper", 398.864013671875, 53.326656341552734, -105.26913452148438)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Place("Crook Boss", 393.4886474609375, 54.290218353271484, -110.04012298583984)
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Place("Crook Boss", 390.4490966796875, 54.5960578918457, -109.98820495605469)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Place("Crook Boss", 390.649169921875, 54.898494720458984, -113.02161407470703)
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 14 ] --
+TDS:Place("Crook Boss", 393.688720703125, 54.33531188964844, -113.07353210449219)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Place("Crook Boss", 387.6572570800781, 54.40355682373047, -113.44986724853516)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
