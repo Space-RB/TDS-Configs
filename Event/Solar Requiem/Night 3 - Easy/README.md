@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 6 recorded strategies available for this map**
+**📦 7 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -25,6 +25,7 @@ Select a strategy below and open its config file.
 | 4 | 2026-10-26 17:45 UTC | Act3Easy | — | Assassin, Golden Crook Boss, EvolvedJuggernaut, Commander, DJ Booth | [Open](4-2026-10-26-17-45-36.txt) |
 | 5 | 2026-10-26 17:57 UTC | Act3Easy | — | Assassin, Golden Crook Boss, EvolvedJuggernaut, Commander, DJ Booth | [Open](5-2026-10-26-17-57-58.txt) |
 | 6 | 2026-10-27 02:50 UTC | Act3Easy | — | Assassin, Golden Crook Boss, EvolvedJuggernaut, Commander, DJ Booth | [Open](6-2026-10-27-02-50-10.txt) |
+| 7 | 2026-10-27 03:02 UTC | Act3Easy | — | Assassin, Golden Crook Boss, EvolvedJuggernaut, Commander, DJ Booth | [Open](7-2026-10-27-03-02-07.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
