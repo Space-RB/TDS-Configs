@@ -16,9 +16,8 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Farm Lands | 1 | [Open](Farm%20Lands/README.md) |
+| Unknown | 39 | [Open](Unknown/README.md) |
 
-| Unknown | 38 | [Open](Unknown/README.md) |
 | Lay By | 27 | [Open](Lay%20By/README.md) |
 | Simplicity | 27 | [Open](Simplicity/README.md) |
 | Cataclysm | 5 | [Open](Cataclysm/README.md) |
@@ -27,6 +26,7 @@ Choose one of the categories below to continue.
 | Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
 | Crossroads | 1 | [Open](Crossroads/README.md) |
+| Farm Lands | 1 | [Open](Farm%20Lands/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Summer Castle | 1 | [Open](Summer%20Castle/README.md) |
 | Wrecked Battlefield | 1 | [Open](Wrecked%20Battlefield/README.md) |
