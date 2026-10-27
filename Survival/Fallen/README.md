@@ -16,9 +16,8 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
+| Unknown | 41 | [Open](Unknown/README.md) |
 
-| Unknown | 40 | [Open](Unknown/README.md) |
 | Lay By | 27 | [Open](Lay%20By/README.md) |
 | Simplicity | 27 | [Open](Simplicity/README.md) |
 | Cataclysm | 6 | [Open](Cataclysm/README.md) |
@@ -26,6 +25,7 @@ Choose one of the categories below to continue.
 | U-Turn | 2 | [Open](U-Turn/README.md) |
 | Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
+| Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
 | Crossroads | 1 | [Open](Crossroads/README.md) |
 | Farm Lands | 1 | [Open](Farm%20Lands/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
