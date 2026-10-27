@@ -1,0 +1,36 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("DJ Booth", "Commander", "Golden Crook Boss", "EvolvedJuggernaut", "Brawler")
+TDS:Mode("Act3")
+TDS:Ready()
+TDS:Place("Brawler", -5.174254894256592, 104.73185729980469, 133.83384704589844)
+TDS:Place("Brawler", -5.742099761962891, 104.81175994873047, 135.79347229003906)
+TDS:Place("Brawler", -2.819705009460449, 104.62467956542969, 134.22833251953125)
+TDS:Place("Brawler", -3.719477653503418, 104.7175521850586, 136.05918884277344)
+TDS:Upgrade(3)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Crook Boss", -6.24906587600708, 104.60442352294922, 128.43826293945312)
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Place("Crook Boss", -6.262591361999512, 104.2728042602539, 125.3982925415039)
+
+-- [[ END OF STRATEGY ]]
