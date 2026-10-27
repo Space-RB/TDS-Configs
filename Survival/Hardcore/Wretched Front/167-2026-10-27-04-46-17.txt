@@ -1,0 +1,60 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedJuggernaut", "Shotgunner", "Golden Pyromancer", "Golden Crook Boss", "Freezer")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", -3.4795875549316406, 0.9720447063446045, -31.75381088256836)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Place("Shotgunner", -6.012430191040039, 0.9556981325149536, -31.944353103637695)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", -8.051609992980957, 0.9761821031570435, -32.00220489501953)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Place("Shotgunner", -6.93317985534668, 0.9834163188934326, -33.988765716552734)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 20 ] --
+TDS:Place("Freezer", 1.9316577911376953, 1.444732427597046, 33.21285629272461)
+
+-- [ Wave 21 ] --
+TDS:Place("EvolvedJuggernaut", 2.1829538345336914, 1.450535774230957, 39.64127731323242)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
