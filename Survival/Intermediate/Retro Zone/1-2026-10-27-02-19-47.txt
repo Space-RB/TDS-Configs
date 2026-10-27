@@ -1,0 +1,22 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMedic = true
+_G.AutoNecro = true
+_G.AutoSkip = true
+_G.SupportCaravan = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Demoman", "Militant", "Ace Pilot", "Slime Trooper", "None")
+TDS:Mode("Intermediate")
+TDS:GameInfo("Retro Zone", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Slime Trooper", -64.79155731201172, 30.378864288330078, -52.86708068847656)
+
+-- [[ END OF STRATEGY ]]
