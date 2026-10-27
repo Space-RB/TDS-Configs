@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 65 recorded strategies available for this map**
+**📦 66 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -84,6 +84,7 @@ Select a strategy below and open its config file.
 | 63 | 2026-10-26 09:11 UTC | Hardcore | — | EvolvedOperator, EvolvedJuggernaut, EvolvedKingpin, EvolvedEnforcer, Golden Soldier | [Open](63-2026-10-26-09-11-50.txt) |
 | 64 | 2026-10-26 14:27 UTC | Hardcore | — | EvolvedJuggernaut, Golden Soldier, Golden Pyromancer, Commander, DJ Booth | [Open](64-2026-10-26-14-27-38.txt) |
 | 65 | 2026-10-26 16:56 UTC | Hardcore | — | Minigunner, Soldier, None | [Open](65-2026-10-26-16-56-43.txt) |
+| 66 | 2026-10-27 02:41 UTC | Hardcore | — | Electroshocker, Sniper, None | [Open](66-2026-10-27-02-41-36.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
