@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Retro Zone | 1 | [Open](Retro%20Zone/README.md) |
+| Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
 
 | Unknown | 5 | [Open](Unknown/README.md) |
 | Dead Ahead | 4 | [Open](Dead%20Ahead/README.md) |
@@ -28,6 +28,7 @@ Choose one of the categories below to continue.
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Night Station | 1 | [Open](Night%20Station/README.md) |
 | Retro Crossroads | 1 | [Open](Retro%20Crossroads/README.md) |
+| Retro Zone | 1 | [Open](Retro%20Zone/README.md) |
 | U-Turn | 1 | [Open](U-Turn/README.md) |
 </div>
 
