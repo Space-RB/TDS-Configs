@@ -16,9 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 24 | [Open](Unknown/README.md) |
+| Simplicity | 20 | [Open](Simplicity/README.md) |
 
-| Simplicity | 19 | [Open](Simplicity/README.md) |
+| Unknown | 24 | [Open](Unknown/README.md) |
 | Lay By | 18 | [Open](Lay%20By/README.md) |
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
 | Cataclysm | 2 | [Open](Cataclysm/README.md) |
