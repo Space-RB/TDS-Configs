@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 62 recorded strategies available for this map**
+**📦 63 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -81,6 +81,7 @@ Select a strategy below and open its config file.
 | 60 | 2026-10-27 15:34 UTC | Act1 | — | Assassin, EvolvedEnforcer, None | [Open](60-2026-10-27-15-34-30.txt) |
 | 61 | 2026-10-27 15:41 UTC | Act1 | — | Assassin, Gatling Gun, EvolvedEnforcer, None | [Open](61-2026-10-27-15-41-58.txt) |
 | 62 | 2026-10-27 15:45 UTC | Act1 | — | Assassin, Gatling Gun, EvolvedEnforcer, None | [Open](62-2026-10-27-15-45-10.txt) |
+| 63 | 2026-10-27 15:52 UTC | Act1 | — | Assassin, Gatling Gun, EvolvedEnforcer, None | [Open](63-2026-10-27-15-52-08.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
