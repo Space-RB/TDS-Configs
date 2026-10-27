@@ -1,0 +1,42 @@
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.TimeScaleEnabled = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Golden Soldier", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Soldier", -63.4212646484375, 39.46498489379883, -100.00000762939453, true)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1, true)
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", 1.7707921266555786, 4.4689788818359375, 14.484536170959473, true)
+
+-- [ Wave 3 ] --
+TDS:Place("Soldier", -0.8433400988578796, 1.0645167827606201, -1.0660890340805054, true)
+
+-- [ Wave 4 ] --
+TDS:Place("Soldier", -1.6955852508544922, 1.0645166635513306, -0.16391509771347046, true)
+
+-- [ Wave 5 ] --
+TDS:Place("Soldier", 0.39575624465942383, 0.9564290046691895, 15.11954116821289, true)
+TDS:Place("Soldier", 0.11910200119018555, 0.9569153785705566, 15.101940155029297, true)
+TDS:Place("Soldier", 0.4478287696838379, 0.9565119743347168, 15.181968688964844, true)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(6, true)
+TDS:Upgrade(1, true)
+TDS:Upgrade(5, true)
+
+-- [[ END OF STRATEGY ]]
