@@ -1,0 +1,22 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Farm", "EvolvedJuggernaut", "Boomerang", "Crook Boss", "Engineer")
+TDS:Mode("Hardcore")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Farm", 7.0004987716674805, 1.359907627105713, 34.76397705078125)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:Place("Farm", 10.54049015045166, 1.2965474128723145, 34.756317138671875)
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
