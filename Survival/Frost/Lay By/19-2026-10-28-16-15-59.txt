@@ -1,0 +1,17 @@
+_G.AutoMoney = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.StartHubStrategy = "4B76A37D-4F02-4BC9-AB42-40C97077DABE"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "None", "None", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Lay By", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
