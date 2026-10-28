@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 4 recorded strategies available for this map**
+**📦 5 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -23,6 +23,7 @@ Select a strategy below and open its config file.
 | 2 | 2026-10-17 12:03 UTC | Molten | — | DJ Booth, Minigunner, Ranger, Farm, Electroshocker | [Open](2-2026-10-17-12-03-50.txt) |
 | 3 | 2026-10-28 13:22 UTC | Molten | — | Turret, Freezer, DJ Booth, EvolvedKingpin, Crook Boss | [Open](3-2026-10-28-13-22-44.txt) |
 | 4 | 2026-10-28 16:50 UTC | Molten | — | Turret, Freezer, DJ Booth, EvolvedKingpin, Crook Boss | [Open](4-2026-10-28-16-50-32.txt) |
+| 5 | 2026-10-28 17:13 UTC | Molten | — | Turret, Freezer, DJ Booth, EvolvedKingpin, Crook Boss | [Open](5-2026-10-28-17-13-54.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
