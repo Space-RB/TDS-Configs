@@ -16,10 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Tropical Isles | 1 | [Open](Tropical%20Isles/README.md) |
+| Unknown | 9 | [Open](Unknown/README.md) |
 
 | Simplicity | 8 | [Open](Simplicity/README.md) |
-| Unknown | 8 | [Open](Unknown/README.md) |
 | Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
 | Retro Crossroads | 4 | [Open](Retro%20Crossroads/README.md) |
 | Black Spot Exchange | 3 | [Open](Black%20Spot%20Exchange/README.md) |
@@ -32,6 +31,7 @@ Choose one of the categories below to continue.
 | Hot Spot | 1 | [Open](Hot%20Spot/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Spring Fever | 1 | [Open](Spring%20Fever/README.md) |
+| Tropical Isles | 1 | [Open](Tropical%20Isles/README.md) |
 | Wrecked Battlefield | 1 | [Open](Wrecked%20Battlefield/README.md) |
 </div>
 
