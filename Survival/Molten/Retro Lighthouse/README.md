@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 2 recorded strategies available for this map**
+**📦 3 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -21,6 +21,7 @@ Select a strategy below and open its config file.
 | 1 | 2026-10-17 13:00 UTC | Molten | — | Assassin, Militant, Shotgunner, Hunter, Pyromancer | [Open](1-2026-10-17-13-00-08.txt) |
 
 | 2 | 2026-10-17 13:12 UTC | Molten | — | Assassin, Militant, Shotgunner, Hunter, Pyromancer | [Open](2-2026-10-17-13-12-03.txt) |
+| 3 | 2026-10-28 10:44 UTC | Molten | — | Militant, Shotgunner, Demoman, Commander, Trapper | [Open](3-2026-10-28-10-44-06.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
