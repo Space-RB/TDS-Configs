@@ -1,0 +1,240 @@
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoRestart = false
+_G.ClaimRewards = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.gui_hidden = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Firework Technician", "Trapper", "Mercenary Base", "EvolvedOperator")
+TDS:Mode("Fallen")
+TDS:GameInfo("Cataclysm", {"Committed", "ExplodingEnemies", "Fog", "Glass", "HiddenEnemies", "Limitation", "Quarantine"})
+TDS:Ready()
+TDS:Place("Trapper", 8.021023750305176, 1.0000076293945312, -3.013563632965088, true)
+
+-- [ Wave 1 ] --
+TDS:Place("Trapper", 6.377586841583252, 1.0000076293945312, -3.2933664321899414, true)
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", 8.676220893859863, 1.000009536743164, -1.3590342998504639, true)
+
+-- [ Wave 3 ] --
+TDS:Place("Trapper", 9.709420204162598, 1.000009536743164, -0.08230042457580566, true)
+TDS:Place("Trapper", 4.918516159057617, 1.0000076293945312, -3.8265340328216553, true)
+
+-- [ Wave 5 ] --
+TDS:Place("Trapper", 10.052785873413086, 1.199981451034546, 1.5508131980895996, true)
+TDS:Place("Trapper", 9.844573020935059, 1.0000057220458984, 1.8942586183547974, true)
+TDS:Place("EvolvedOperator", 6.596612930297852, 1.0000076293945312, -0.6475358009338379, true)
+TDS:Place("EvolvedOperator", 6.793780326843262, 1.0000076293945312, 0.05054187774658203, true)
+
+-- [ Wave 6 ] --
+TDS:Place("EvolvedOperator", 3.2548904418945312, 1.0000076293945312, -4.146656036376953, true)
+TDS:Place("EvolvedOperator", 3.014087200164795, 1.0000076293945312, -10.83974838256836, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(9, true)
+TDS:Upgrade(11, true)
+
+-- [ Wave 7 ] --
+TDS:Place("EvolvedOperator", 4.65513277053833, 1.0000076293945312, 12.959678649902344, true)
+TDS:Upgrade(12, true)
+
+-- [ Wave 8 ] --
+TDS:Place("EvolvedOperator", 4.8006696701049805, 1.0000076293945312, 21.40424156188965, true)
+TDS:Place("EvolvedOperator", 5.155481338500977, 1.0000057220458984, 29.34178924560547, true)
+TDS:Upgrade(13, true)
+TDS:Upgrade(14, true)
+TDS:Place("EvolvedOperator", -3.343806266784668, 1.000009536743164, 25.225650787353516, true)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(15, true)
+TDS:Upgrade(7, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(3, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(1, true)
+TDS:Upgrade(2, true)
+TDS:Upgrade(5, true)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(10, true)
+
+-- [ Wave 12 ] --
+TDS:Place("Gatling Gun", 4.0726494789123535, 1.0000076293945312, -14.302135467529297, true)
+
+-- [ Wave 13 ] --
+TDS:Place("Firework Technician", 5.764047145843506, 1.0000076293945312, -10.765591621398926, true)
+TDS:Upgrade(16, true)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(17, true)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(16, true)
+
+-- [ Wave 16 ] --
+TDS:Place("Mercenary Base", 0.2536168098449707, 1.0000076293945312, -11.794958114624023, true)
+TDS:Place("Mercenary Base", 0.11223220825195312, 1.0750006437301636, -3.7265701293945312, true)
+
+-- [ Wave 17 ] --
+TDS:Place("Mercenary Base", -1.5991287231445312, 1.0000057220458984, -14.92963981628418, true)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(16, true)
+TDS:Upgrade(17, true)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(17, true)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(16, true)
+TDS:Upgrade(17, true)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(16, true)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(14, true)
+TDS:Upgrade(14, true)
+TDS:Upgrade(14, true)
+TDS:Upgrade(14, true)
+TDS:Upgrade(15, true)
+TDS:Upgrade(15, true)
+TDS:Upgrade(15, true)
+TDS:Upgrade(15, true)
+TDS:Upgrade(13, true)
+TDS:Upgrade(13, true)
+TDS:Upgrade(13, true)
+TDS:Upgrade(13, true)
+TDS:Upgrade(12, true)
+TDS:Upgrade(12, true)
+TDS:Upgrade(12, true)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(12, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(11, true)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(8, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(9, true)
+TDS:Upgrade(9, true)
+TDS:Upgrade(9, true)
+TDS:Upgrade(9, true)
+TDS:Upgrade(10, true)
+TDS:Upgrade(10, true)
+TDS:Upgrade(10, true)
+TDS:Upgrade(10, true)
+
+-- [ Wave 30 ] --
+TDS:Place("EvolvedOperator", 5.962840557098389, 1.0000076293945312, -12.961350440979004, true)
+TDS:Place("EvolvedOperator", 6.627436637878418, 1.0000066757202148, -14.725532531738281, true)
+TDS:Place("EvolvedOperator", 6.018543243408203, 1.0000085830688477, -16.327709197998047, true)
+TDS:Place("EvolvedOperator", 4.527977466583252, 1.0000076293945312, -16.87334632873535, true)
+TDS:Place("EvolvedOperator", 3.045365571975708, 1.0000085830688477, -16.229114532470703, true)
+TDS:Upgrade(21, true)
+TDS:Upgrade(21, true)
+TDS:Upgrade(21, true)
+TDS:Upgrade(21, true)
+TDS:Upgrade(21, true)
+TDS:Upgrade(22, true)
+TDS:Upgrade(22, true)
+TDS:Upgrade(22, true)
+TDS:Upgrade(22, true)
+TDS:Upgrade(22, true)
+TDS:Upgrade(23, true)
+TDS:Upgrade(23, true)
+TDS:Upgrade(23, true)
+TDS:Upgrade(23, true)
+TDS:Upgrade(23, true)
+TDS:Upgrade(24, true)
+TDS:Upgrade(24, true)
+TDS:Upgrade(24, true)
+TDS:Upgrade(24, true)
+TDS:Upgrade(24, true)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(25, true)
+TDS:Upgrade(25, true)
+TDS:Upgrade(25, true)
+TDS:Upgrade(25, true)
+TDS:Upgrade(25, true)
+TDS:Upgrade(16, true)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(14, true)
+TDS:Upgrade(15, true)
+TDS:Upgrade(13, true)
+TDS:Upgrade(12, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(9, true)
+TDS:Upgrade(21, true)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(22, true)
+TDS:Upgrade(23, true)
+TDS:Upgrade(24, true)
+TDS:Upgrade(25, true)
+TDS:Upgrade(18, true)
+TDS:Upgrade(18, true)
+TDS:Upgrade(18, true)
+TDS:Upgrade(18, true)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(18, true)
+TDS:Upgrade(18, true)
+TDS:Upgrade(20, true)
+TDS:Upgrade(20, true)
+TDS:Upgrade(20, true)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(20, true)
+TDS:Upgrade(20, true)
+TDS:Upgrade(20, true)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(19, true)
+TDS:Upgrade(19, true)
+TDS:Upgrade(19, true)
+TDS:Upgrade(19, true)
+TDS:Upgrade(19, true)
+TDS:Upgrade(19, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(7, true)
+TDS:Upgrade(7, true)
+TDS:Upgrade(7, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(3, true)
+TDS:Upgrade(3, true)
+TDS:Upgrade(3, true)
+TDS:Upgrade(1, true)
+TDS:Upgrade(1, true)
+TDS:Upgrade(1, true)
+TDS:Upgrade(2, true)
+TDS:Upgrade(2, true)
+TDS:Upgrade(2, true)
+TDS:Upgrade(5, true)
+TDS:Upgrade(5, true)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(5, true)
+TDS:Upgrade(10, true)
+
+-- [ Wave 38 ] --
+TDS:Upgrade(4, true)
+
+-- [[ END OF STRATEGY ]]
