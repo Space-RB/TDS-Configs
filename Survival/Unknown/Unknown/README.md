@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 134 recorded strategies available for this map**
+**📦 135 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -153,6 +153,7 @@ Select a strategy below and open its config file.
 | 132 | 2026-10-28 09:36 UTC | Unknown | — | Minigunner, Pulse Trooper, Tesla, Golden Pyromancer, Assassin | [Open](132-2026-10-28-09-36-56.txt) |
 | 133 | 2026-10-28 17:32 UTC | Unknown | — | Trapper, None | [Open](133-2026-10-28-17-32-00.txt) |
 | 134 | 2026-10-28 17:33 UTC | Unknown | — | Trapper, None | [Open](134-2026-10-28-17-33-05.txt) |
+| 135 | 2026-10-28 17:33 UTC | Unknown | — | Trapper, None | [Open](135-2026-10-28-17-33-18.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
