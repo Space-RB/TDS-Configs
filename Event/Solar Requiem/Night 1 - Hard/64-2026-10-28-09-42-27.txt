@@ -1,0 +1,27 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Minigunner", "Pulse Trooper", "Tesla", "Golden Pyromancer", "Crook Boss")
+TDS:Mode("Act1")
+TDS:Ready()
+TDS:Place("Pyromancer", 16.409765243530273, 2.0009994506835938, 191.6343536376953)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Pyromancer", 13.369766235351562, 2.0009994506835938, 191.63613891601562)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Minigunner", 10.167497634887695, 2.0888609886169434, 199.1591033935547)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [[ END OF STRATEGY ]]
