@@ -1,0 +1,36 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.HideUsername = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedKingpin", "Pyromancer", "Crook Boss", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 6 ] --
+TDS:Place("EvolvedKingpin", 6.408904075622559, 1.3893707990646362, 27.81722068786621)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 13 ] --
+TDS:Place("Pyromancer", -7.869999885559082, 0.9762297868728638, -32.209999084472656)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 14 ] --
+TDS:Place("Crook Boss", -1.030003547668457, 0.8568136096000671, -24.95001220703125)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(3)
+TDS:Place("Pyromancer", -7.869999885559082, 0.9762297868728638, -32.209999084472656)
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]
