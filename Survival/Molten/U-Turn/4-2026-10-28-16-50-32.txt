@@ -1,0 +1,24 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMedic = true
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.SupportCaravan = true
+_G.TimeScaleEnabled = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Turret", "Freezer", "DJ Booth", "EvolvedKingpin", "Crook Boss")
+TDS:Mode("Molten")
+TDS:GameInfo("U-Turn", {})
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Freezer", 13.986698150634766, 1.0000064373016357, -8.719083786010742)
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
