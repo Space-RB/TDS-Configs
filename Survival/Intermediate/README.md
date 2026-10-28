@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
+| Medieval Times | 1 | [Open](Medieval%20Times/README.md) |
 
 | Unknown | 5 | [Open](Unknown/README.md) |
 | Dead Ahead | 4 | [Open](Dead%20Ahead/README.md) |
@@ -24,6 +24,7 @@ Choose one of the categories below to continue.
 | Ruby Escort | 2 | [Open](Ruby%20Escort/README.md) |
 | The Heights | 2 | [Open](The%20Heights/README.md) |
 | Black Spot Exchange | 1 | [Open](Black%20Spot%20Exchange/README.md) |
+| Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
 | Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Night Station | 1 | [Open](Night%20Station/README.md) |
