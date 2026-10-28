@@ -1,0 +1,192 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMedic = true
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.SupportCaravan = true
+_G.TimeScaleEnabled = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Turret", "Freezer", "DJ Booth", "EvolvedKingpin", "Crook Boss")
+TDS:Mode("Molten")
+TDS:GameInfo("U-Turn", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Freezer", 11.940421104431152, 1.0000064373016357, -9.094234466552734)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Freezer", 8.92065715789795, 1.0000064373016357, -9.444411277770996)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Freezer", 8.92065715789795, 1.0000064373016357, -6.404411315917969)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Freezer", 8.92065715789795, 1.0000064373016357, -3.3644113540649414)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Freezer", 8.92065715789795, 1.0000064373016357, -0.32441139221191406)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Place("Freezer", 8.92065715789795, 1.0000064373016357, 2.7155885696411133)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Place("Freezer", 11.940421104431152, 1.0000064373016357, -6.054234504699707)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Freezer", 11.940421104431152, 1.0000064373016357, -3.0142345428466797)
+TDS:Upgrade(8)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(8)
+TDS:Place("Freezer", 11.940421104431152, 1.0000064373016357, 0.025765419006347656)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Freezer", 11.940421104431152, 1.0000064373016357, 3.065765380859375)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 12 ] --
+TDS:Place("Crook Boss", 3.866359233856201, 1.0000064373016357, 0.9076251983642578)
+TDS:Upgrade(11)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 14 ] --
+TDS:Place("Crook Boss", 3.819397449493408, 1.0000064373016357, -2.577702045440674)
+TDS:Upgrade(12)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 16 ] --
+TDS:Place("Crook Boss", 3.819397449493408, 1.0000064373016357, -5.617702007293701)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 17 ] --
+TDS:Place("Crook Boss", 3.819397449493408, 1.0000064373016357, -8.65770149230957)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 18 ] --
+TDS:Place("Crook Boss", 1.1866801977157593, 1.0000064373016357, -4.0977020263671875)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 19 ] --
+TDS:Place("DJ Booth", -0.16004842519760132, 1.0000064373016357, 1.3224267959594727)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("EvolvedKingpin", 1.1866801977157593, 1.0000064373016357, -7.137701988220215)
+TDS:Upgrade(17)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(17)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(17)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(17)
+TDS:Place("EvolvedKingpin", -1.5662415027618408, 1.0000064373016357, -2.8108067512512207)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(18, 2)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(18, 2)
+TDS:Place("EvolvedKingpin", -1.866529941558838, 1.0000064373016357, -6.426547050476074)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(19, 2)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(19, 2)
+TDS:Place("EvolvedKingpin", -0.5400424003601074, 1.0000064373016357, -9.689733505249023)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(20, 2)
+TDS:Upgrade(20, 2)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(18, 2)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(19, 2)
+TDS:Upgrade(20, 2)
+TDS:Upgrade(11)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(15)
+TDS:Place("Turret", 2.298574924468994, 1.0000064373016357, -11.854371070861816)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Place("Turret", -1.5502166748046875, 1.0000064373016357, -13.082541465759277)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(21)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Place("Turret", 2.8192026615142822, 1.0000064373016357, -15.860684394836426)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+
+-- [[ END OF STRATEGY ]]
