@@ -1,0 +1,23 @@
+_G.AutoGems = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StartHubStrategy = "bdd6b6f4-ce31-41bd-9297-bdee74f828e4"
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Electroshocker", "Sniper", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Outskirts Commune", {})
+TDS:Ready()
+
+-- [ Wave 7 ] --
+TDS:Place("Electroshocker", 11.4399995803833, 501.2781677246094, 20.729999542236328)
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
