@@ -1,0 +1,24 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Military Base", "Scout", "Soldier", "None", "None")
+TDS:Mode("Casual")
+TDS:GameInfo("Abandoned City", {})
+TDS:Ready()
+
+-- [ Wave 3 ] --
+TDS:Place("Soldier", -28.65477752685547, 3.5449888706207275, 9.99049186706543, true)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3, true)
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
