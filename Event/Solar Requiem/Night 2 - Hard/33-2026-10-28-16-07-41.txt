@@ -1,0 +1,100 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.gui_hidden = true
+_G.GatlingTargets = 4
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Shotgunner", "Freezer", "Golden Crook Boss", "Commander")
+TDS:Mode("Act2")
+TDS:Ready()
+TDS:Place("Pyromancer", 0.22646236419677734, 47.591949462890625, 10.581794738769531)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Freezer", 1.6390516757965088, 47.82378387451172, 4.741726875305176)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Freezer", -0.6590704917907715, 47.82587814331055, 2.7516932487487793)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Place("Shotgunner", 4.080833435058594, 47.94022750854492, 5.441227436065674)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Shotgunner", 5.965547561645508, 48.221221923828125, 4.660552978515625)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Place("Shotgunner", 7.490311622619629, 48.222957611083984, 3.2982449531555176)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", 9.159968376159668, 47.93677520751953, 2.2022831439971924)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Shotgunner", 9.159968376159668, 47.995548248291016, 0.16228318214416504)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Place("Shotgunner", 8.582037925720215, 48.09673309326172, -1.7840417623519897)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 13 ] --
+TDS:Place("Shotgunner", 7.700128078460693, 48.0853271484375, -3.6235618591308594)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Shotgunner", 5.58984375, 48.20600509643555, -4.624271392822266)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 14 ] --
+TDS:Place("Shotgunner", 3.557262897491455, 48.21280288696289, -4.805389404296875)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 15 ] --
+TDS:Place("Commander", 1.1497631072998047, 48.136051177978516, -3.995732069015503)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
