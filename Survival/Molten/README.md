@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 9 | [Open](Simplicity/README.md) |
+| Toyboard | 1 | [Open](Toyboard/README.md) |
 
+| Simplicity | 9 | [Open](Simplicity/README.md) |
 | Unknown | 9 | [Open](Unknown/README.md) |
 | Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
 | Retro Crossroads | 4 | [Open](Retro%20Crossroads/README.md) |
