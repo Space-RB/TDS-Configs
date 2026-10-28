@@ -1,0 +1,74 @@
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Crook Boss", "Shotgunner", "Golden Pyromancer", "Freezer", "EvolvedKingpin")
+TDS:Mode("Hardcore")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Pyromancer", -4.11473274230957, 0.9703830480575562, -32.049774169921875)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Place("Shotgunner", -6.645236968994141, 0.9590632915496826, -31.830345153808594)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 12 ] --
+TDS:Place("Shotgunner", -6.7275824546813965, 0.9799813032150269, -33.868682861328125)
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Place("Shotgunner", -8.646395683288574, 0.9900048971176147, -32.74530792236328)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Place("EvolvedKingpin", -1.752074956893921, 0.11468297243118286, -4.6787428855896)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 21 ] --
+TDS:Place("Freezer", -8.220282554626465, -0.3501734137535095, -0.6772127151489258)
+TDS:Upgrade(6)
+TDS:Place("Freezer", 9.093782424926758, 1.0420644283294678, 20.212491989135742)
+TDS:Upgrade(7)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(7)
+TDS:Place("Freezer", 2.510570526123047, 1.437821388244629, 32.64835739135742)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Freezer", 2.392394542694092, 1.4336535930633545, 36.48846435546875)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 23 ] --
+TDS:Place("Freezer", -1.4609994888305664, 1.4716359376907349, 31.29949951171875)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [[ END OF STRATEGY ]]
