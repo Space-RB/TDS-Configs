@@ -1,0 +1,56 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Shotgunner", "Scout", "Assassin", "Militant", "Electroshocker")
+TDS:Mode("Molten")
+TDS:GameInfo("Sky Islands", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 7.050576210021973, 0.9999978542327881, 13.232946395874023)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Scout", 15.519189834594727, 0.9999989867210388, 6.3420562744140625)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Electroshocker", 15.754450798034668, 0.9999985098838806, 9.374488830566406)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Place("Scout", 8.9049654006958, 0.9999996423721313, 2.3122053146362305)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Militant", -9.609076499938965, 1.0000040531158447, -25.343276977539062)
+
+-- [ Wave 9 ] --
+TDS:Place("Electroshocker", 22.143310546875, 1.000001072883606, -6.881496429443359)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]
