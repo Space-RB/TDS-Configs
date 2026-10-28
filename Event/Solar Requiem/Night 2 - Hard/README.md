@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 33 recorded strategies available for this map**
+**📦 34 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -52,6 +52,7 @@ Select a strategy below and open its config file.
 | 31 | 2026-10-26 05:31 UTC | Act2 | — | Golden Crook Boss, Snowballer, Golden Pyromancer, None | [Open](31-2026-10-26-05-31-15.txt) |
 | 32 | 2026-10-28 13:03 UTC | Act2 | — | EvolvedJuggernaut, Commander, DJ Booth, Golden Soldier, Snowballer | [Open](32-2026-10-28-13-03-46.txt) |
 | 33 | 2026-10-28 16:07 UTC | Act2 | — | Pyromancer, Shotgunner, Freezer, Golden Crook Boss, Commander | [Open](33-2026-10-28-16-07-41.txt) |
+| 34 | 2026-10-28 16:34 UTC | Act2 | — | Pyromancer, Shotgunner, Freezer, Golden Crook Boss, Commander | [Open](34-2026-10-28-16-34-22.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
