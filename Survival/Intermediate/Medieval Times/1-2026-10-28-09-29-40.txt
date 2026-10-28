@@ -1,0 +1,93 @@
+
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Militant", "Shotgunner", "Demoman", "Commander", "None")
+TDS:Mode("Intermediate")
+TDS:GameInfo("Medieval Times", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Militant", 11.858929634094238, 1.000009536743164, 5.127697944641113)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Militant", 12.576714515686035, 1.000009536743164, 8.309225082397461)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+TDS:Place("Militant", 9.55778980255127, 1.0000100135803223, 8.666570663452148)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+TDS:Place("Militant", 8.874139785766602, 1.000009536743164, 5.704439163208008)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Commander", 9.857373237609863, 1.000009536743164, 2.760258674621582)
+TDS:Place("Commander", 13.102935791015625, 1.0000100135803223, 2.3538830280303955)
+TDS:Place("Militant", 15.95714282989502, 1.000009536743164, 9.094403266906738)
+
+-- [ Wave 9 ] --
+TDS:Place("Militant", 14.998693466186523, 1.000009536743164, 6.0810394287109375)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5)
+TDS:Place("Militant", 6.25883150100708, 1.000009536743164, 7.810123443603516)
+TDS:Place("Militant", 5.485085487365723, 1.000009536743164, 4.529526710510254)
+TDS:Place("Militant", 6.360556125640869, 1.000009536743164, 1.5089654922485352)
+
+-- [ Wave 15 ] --
+TDS:Place("Militant", 17.37352752685547, 1.0000100135803223, 4.183207988739014)
+TDS:Place("Militant", 17.91925048828125, 1.000009536743164, 0.6902093887329102)
+TDS:Place("Militant", 14.381547927856445, 1.000009536743164, -0.7862062454223633)
+TDS:Place("Militant", 11.135268211364746, 1.000009536743164, -0.4633970260620117)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(10)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(11)
+
+-- [[ END OF STRATEGY ]]
