@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Dead Ahead | 8 | [Open](Dead%20Ahead/README.md) |
+| Abandoned City | 1 | [Open](Abandoned%20City/README.md) |
 
+| Dead Ahead | 8 | [Open](Dead%20Ahead/README.md) |
 | Unknown | 8 | [Open](Unknown/README.md) |
 | Lay By | 5 | [Open](Lay%20By/README.md) |
 | Black Spot Exchange | 3 | [Open](Black%20Spot%20Exchange/README.md) |
