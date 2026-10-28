@@ -1,0 +1,21 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "None", "None", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Crossroads", {})
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", 4.137800216674805, 0.9999992251396179, 4.605768203735352, true)
+
+-- [ Wave 3 ] --
+TDS:Place("Trapper", 3.8653697967529297, 1.2217082977294922, 4.13571310043335, true)
+
+-- [[ END OF STRATEGY ]]
