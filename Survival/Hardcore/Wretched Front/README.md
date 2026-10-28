@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 177 recorded strategies available for this map**
+**📦 178 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -196,6 +196,7 @@ Select a strategy below and open its config file.
 | 175 | 2026-10-27 18:12 UTC | Hardcore | — | Crook Boss, Farm, Boomerang, None | [Open](175-2026-10-27-18-12-35.txt) |
 | 176 | 2026-10-27 18:23 UTC | Hardcore | — | Crook Boss, Farm, Boomerang, None | [Open](176-2026-10-27-18-23-10.txt) |
 | 177 | 2026-10-28 04:45 UTC | Hardcore | — | Farm, Crook Boss, Boomerang, EvolvedKingpin, None | [Open](177-2026-10-28-04-45-55.txt) |
+| 178 | 2026-10-28 04:53 UTC | Hardcore | — | Farm, Crook Boss, Boomerang, EvolvedKingpin, None | [Open](178-2026-10-28-04-53-40.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
