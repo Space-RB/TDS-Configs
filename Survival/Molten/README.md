@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 9 | [Open](Unknown/README.md) |
+| Sky Islands | 1 | [Open](Sky%20Islands/README.md) |
 
+| Unknown | 9 | [Open](Unknown/README.md) |
 | Simplicity | 8 | [Open](Simplicity/README.md) |
 | Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
 | Retro Crossroads | 4 | [Open](Retro%20Crossroads/README.md) |
