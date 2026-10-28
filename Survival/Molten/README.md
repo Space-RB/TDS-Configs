@@ -16,14 +16,14 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| U-Turn | 3 | [Open](U-Turn/README.md) |
+| Simplicity | 9 | [Open](Simplicity/README.md) |
 
 | Unknown | 9 | [Open](Unknown/README.md) |
-| Simplicity | 8 | [Open](Simplicity/README.md) |
 | Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
 | Retro Crossroads | 4 | [Open](Retro%20Crossroads/README.md) |
 | Black Spot Exchange | 3 | [Open](Black%20Spot%20Exchange/README.md) |
 | Retro Lighthouse | 3 | [Open](Retro%20Lighthouse/README.md) |
+| U-Turn | 3 | [Open](U-Turn/README.md) |
 | Dead Ahead | 2 | [Open](Dead%20Ahead/README.md) |
 | Rocket Arena | 2 | [Open](Rocket%20Arena/README.md) |
 | Cataclysm | 1 | [Open](Cataclysm/README.md) |
