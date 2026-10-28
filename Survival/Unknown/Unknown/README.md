@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 136 recorded strategies available for this map**
+**📦 137 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -155,6 +155,7 @@ Select a strategy below and open its config file.
 | 134 | 2026-10-28 17:33 UTC | Unknown | — | Trapper, None | [Open](134-2026-10-28-17-33-05.txt) |
 | 135 | 2026-10-28 17:33 UTC | Unknown | — | Trapper, None | [Open](135-2026-10-28-17-33-18.txt) |
 | 136 | 2026-10-28 18:35 UTC | Unknown | — | Gatling Gun, Turret, Mercenary Base, Trapper, None | [Open](136-2026-10-28-18-35-42.txt) |
+| 137 | 2026-10-28 18:51 UTC | Unknown | — | Electroshocker, Sniper, None | [Open](137-2026-10-28-18-51-49.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
