@@ -1,0 +1,63 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Scout", "DJ Booth", "Commander", "Crook Boss", "Freezer")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+TDS:Place("Scout", -12.225346565246582, 1.0000005960464478, -3.363938808441162)
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", -12.033720016479492, 1.0000001192092896, -0.3171067237854004)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Scout", -9.224610328674316, 1.0000005960464478, -3.2557458877563477)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Scout", -8.708478927612305, 1.0000001192092896, -0.20938539505004883)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("DJ Booth", -2.582953929901123, 0.9999831914901733, 2.6895127296447754)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Place("Crook Boss", 1.4692680835723877, 0.9999831914901733, 2.9076242446899414)
+TDS:Upgrade(6)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:Place("Freezer", -8.634903907775879, 0.9999831914901733, 2.8297243118286133)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Place("Crook Boss", 4.587503910064697, 0.9999831914901733, 3.2110061645507812)
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]
