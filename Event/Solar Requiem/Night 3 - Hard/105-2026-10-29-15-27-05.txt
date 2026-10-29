@@ -1,0 +1,177 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.TimeScaleEnabled = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Scout", "Hacker", "Gatling Gun", "Mercenary Base", "DJ Booth")
+TDS:Mode("Act3")
+TDS:Ready()
+TDS:Place("Scout", -0.02006816864013672, 103.66394805908203, 120.92485046386719)
+TDS:Place("Scout", -3.047452926635742, 103.7287368774414, 120.648193359375)
+TDS:Place("Scout", 0.4497365951538086, 103.94229125976562, 123.92832946777344)
+TDS:Place("Scout", -2.577648162841797, 104.00456237792969, 123.65167236328125)
+TDS:Place("Scout", -5.413639068603516, 103.9808120727539, 122.55679321289062)
+TDS:VoteSkip(0)
+TDS:Upgrade(5)
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:WaitForWave(6)
+TDS:Sell(5)
+TDS:Sell(2)
+TDS:Sell(1)
+
+-- [ Wave 7 ] --
+TDS:Place("Gatling Gun", -1.1808953285217285, 102.8421630859375, 99.93181610107422)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Place("Hacker", -1.1033782958984375, 104.6544418334961, 139.22415161132812)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+TDS:Place("Scout", -2.5916357040405273, 103.71182250976562, 120.61170196533203)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Place("Scout", 0.4357490539550781, 103.64476776123047, 120.88835906982422)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 14 ] --
+TDS:Place("Hacker", 3.295731544494629, 103.68119812011719, 121.91893768310547)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6)
+TDS:Place("DJ Booth", 2.0454883575439453, 102.90296173095703, 103.1258773803711)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:SetOption(11, "Track", "Red")
+TDS:Place("Mercenary Base", -6.163644790649414, 102.80810546875, 100.48052978515625)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(12)
+TDS:SetOption(12, "Unit 1", "Riot Guard")
+TDS:SetOption(12, "Unit 2", "Riot Guard")
+TDS:SetOption(12, "Unit 3", "Riot Guard")
+
+-- [ Wave 17 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 18 ] --
+TDS:Place("Mercenary Base", -5.660478591918945, 102.9681396484375, 104.98059844970703)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:SetOption(13, "Unit 1", "Riot Guard")
+TDS:SetOption(13, "Unit 2", "Riot Guard")
+TDS:SetOption(13, "Unit 3", "Riot Guard")
+TDS:Place("Mercenary Base", -3.474468231201172, 103.01077270507812, 108.93778991699219)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:SetOption(14, "Unit 1", "Riot Guard")
+TDS:SetOption(14, "Unit 2", "Riot Guard")
+TDS:SetOption(14, "Unit 3", "Riot Guard")
+TDS:Upgrade(14)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(10, 2)
+TDS:Ability(10, "Hologram Tower")
+TDS:Ability(10, "Hologram Tower", {towerPosition = Vector3.new(-4.994890213012695, 102.37538146972656, 95.77686309814453), towerToClone = 6}, true)
+TDS:Place("Scout", 4.771368503570557, 103.41659545898438, 119.21885681152344)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Scout", 1.9762773513793945, 103.31053924560547, 118.02342224121094)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Scout", -1.0637226104736328, 103.41452026367188, 118.02342224121094)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:VoteSkip(25)
+
+-- [[ END OF STRATEGY ]]
