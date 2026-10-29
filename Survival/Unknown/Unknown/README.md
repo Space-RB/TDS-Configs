@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 140 recorded strategies available for this map**
+**📦 141 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -159,6 +159,7 @@ Select a strategy below and open its config file.
 | 138 | 2026-10-28 21:39 UTC | Unknown | — | Trapper, None | [Open](138-2026-10-28-21-39-00.txt) |
 | 139 | 2026-10-29 17:39 UTC | Unknown | — | Assassin, Tesla, Crook Boss, EvolvedEnforcer, DJ Booth | [Open](139-2026-10-29-17-39-41.txt) |
 | 140 | 2026-10-29 19:44 UTC | Unknown | — | Electroshocker, Sniper, None | [Open](140-2026-10-29-19-44-59.txt) |
+| 141 | 2026-10-29 19:45 UTC | Unknown | — | Electroshocker, Sniper, None | [Open](141-2026-10-29-19-45-11.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
