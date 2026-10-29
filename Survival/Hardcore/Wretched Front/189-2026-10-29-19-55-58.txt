@@ -1,0 +1,44 @@
+_G.AutoGems = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.StartHubStrategy = "0F516234-A9DF-4A13-8520-17C80BCE6833"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Hunter", "Golden Pyromancer", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 3 ] --
+TDS:Place("Pyromancer", -1.2988557815551758, 1.02327299118042, -35.38810729980469)
+TDS:Place("Pyromancer", 12.631651878356934, 1.246006965637207, 26.787967681884766)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Place("Hunter", 0.5746642351150513, 0.18043369054794312, -8.935314178466797)
+
+-- [ Wave 9 ] --
+TDS:Place("Hunter", -2.233842372894287, 0.07732880115509033, -10.098725318908691)
+
+-- [ Wave 12 ] --
+TDS:Place("Hunter", -5.056034088134766, -0.03233640640974045, -11.2286958694458)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
