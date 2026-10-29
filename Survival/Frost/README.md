@@ -16,10 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 33 | [Open](Unknown/README.md) |
+| Lay By | 20 | [Open](Lay%20By/README.md) |
 
+| Unknown | 33 | [Open](Unknown/README.md) |
 | Simplicity | 22 | [Open](Simplicity/README.md) |
-| Lay By | 19 | [Open](Lay%20By/README.md) |
 | Crossroads | 4 | [Open](Crossroads/README.md) |
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
 | Cataclysm | 2 | [Open](Cataclysm/README.md) |
