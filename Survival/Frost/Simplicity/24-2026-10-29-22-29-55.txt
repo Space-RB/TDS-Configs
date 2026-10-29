@@ -1,0 +1,103 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("DJ Booth", "Commander", "Crook Boss", "Freezer", "Assassin")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+TDS:Place("Assassin", -18.24068832397461, 1.0000004768371582, -2.2005577087402344)
+TDS:Place("Assassin", -20.387248992919922, 0.9999850392341614, -12.158459663391113)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 5 ] --
+TDS:Place("Assassin", -18.167993545532227, 1.0000007152557373, -4.259006500244141)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 6 ] --
+TDS:Place("Assassin", -17.837072372436523, 1.0000011920928955, -6.69204044342041)
+TDS:Upgrade(12)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(12)
+TDS:Place("Freezer", -8.162988662719727, 0.9999997019767761, 2.246520519256592)
+TDS:Upgrade(13)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(13)
+TDS:Place("DJ Booth", -2.4820303916931152, 0.9999831914901733, 2.571944236755371)
+TDS:Upgrade(14)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 12 ] --
+TDS:Place("Crook Boss", 1.5124791860580444, 0.9999831914901733, 3.0877418518066406)
+TDS:Upgrade(15)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(15)
+
+-- [ Wave 14 ] --
+TDS:Place("Crook Boss", 4.653875350952148, 0.9999831914901733, 3.190131187438965)
+TDS:Upgrade(16)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(16)
+TDS:Place("Crook Boss", 7.678139686584473, 0.9999831914901733, 3.4990386962890625)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 17 ] --
+TDS:Place("Commander", -8.343708992004395, 1.0000005960464478, -3.3730926513671875)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 18 ] --
+TDS:Place("Commander", -5.331051826477051, 0.9999889135360718, -3.1850128173828125)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Commander", -2.291410446166992, 0.9999926090240479, -3.231689453125)
+TDS:Upgrade(20)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(20)
+TDS:Upgrade(9)
+TDS:Upgrade(11)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+
+-- [ Wave 21 ] --
+TDS:Place("Freezer", -7.745102882385254, 0.9999992251396179, 5.278655052185059)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+
+-- [[ END OF STRATEGY ]]
