@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 34 | [Open](Unknown/README.md) |
+| Crystal Cave | 1 | [Open](Crystal%20Cave/README.md) |
 
+| Unknown | 34 | [Open](Unknown/README.md) |
 | Simplicity | 22 | [Open](Simplicity/README.md) |
 | Lay By | 20 | [Open](Lay%20By/README.md) |
 | Crossroads | 4 | [Open](Crossroads/README.md) |
