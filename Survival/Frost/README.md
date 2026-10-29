@@ -16,14 +16,14 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Crystal Cave | 2 | [Open](Crystal%20Cave/README.md) |
+| Simplicity | 23 | [Open](Simplicity/README.md) |
 
 | Unknown | 34 | [Open](Unknown/README.md) |
-| Simplicity | 22 | [Open](Simplicity/README.md) |
 | Lay By | 20 | [Open](Lay%20By/README.md) |
 | Crossroads | 4 | [Open](Crossroads/README.md) |
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
 | Cataclysm | 2 | [Open](Cataclysm/README.md) |
+| Crystal Cave | 2 | [Open](Crystal%20Cave/README.md) |
 | Mason Arch | 2 | [Open](Mason%20Arch/README.md) |
 | Pier Pressure | 2 | [Open](Pier%20Pressure/README.md) |
 | Spring Fever | 2 | [Open](Spring%20Fever/README.md) |
