@@ -1,0 +1,50 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "EvolvedJuggernaut", "Golden Cowboy", "Hacker", "Electroshocker")
+TDS:Mode("Frost")
+TDS:GameInfo("Wrecked Battlefield II", {"Glass", "Limitation"})
+TDS:Ready()
+TDS:Place("Electroshocker", -8.441737174987793, 0.3030868172645569, 2.0189332962036133)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Cowboy", -14.173877716064453, 0.44178467988967896, 2.140653610229492)
+TDS:Upgrade(2)
+TDS:Place("Cowboy", -16.19130516052246, 0.6140941381454468, 0.5888009071350098)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Place("Hacker", -23.029537200927734, 1.6809885501861572, -4.25650691986084)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+TDS:Place("Cowboy", -21.845510482788086, 1.0225956439971924, 3.85970401763916)
+
+-- [ Wave 6 ] --
+TDS:Place("Cowboy", -20.00494384765625, 0.828004002571106, 5.610107421875)
+TDS:Place("Cowboy", -18.22792625427246, 0.641727089881897, 7.371845245361328)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
