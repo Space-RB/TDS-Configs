@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 2 recorded strategies available for this map**
+**📦 3 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -21,6 +21,7 @@ Select a strategy below and open its config file.
 | 1 | 2026-10-18 09:46 UTC | Frost | — | Electroshocker, Trapper, None | [Open](1-2026-10-18-09-46-38.txt) |
 
 | 2 | 2026-10-18 09:53 UTC | Frost | — | Electroshocker, Trapper, None | [Open](2-2026-10-18-09-53-29.txt) |
+| 3 | 2026-10-29 22:32 UTC | Frost | Glass, Limitation | Gatling Gun, EvolvedJuggernaut, Golden Cowboy, Hacker, Electroshocker | [Open](3-2026-10-29-22-32-15.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
