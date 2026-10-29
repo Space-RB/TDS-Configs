@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Crystal Cave | 1 | [Open](Crystal%20Cave/README.md) |
+| Crystal Cave | 2 | [Open](Crystal%20Cave/README.md) |
 
 | Unknown | 34 | [Open](Unknown/README.md) |
 | Simplicity | 22 | [Open](Simplicity/README.md) |
