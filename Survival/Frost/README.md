@@ -16,9 +16,8 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Gilded Path | 1 | [Open](Gilded%20Path/README.md) |
+| Unknown | 33 | [Open](Unknown/README.md) |
 
-| Unknown | 32 | [Open](Unknown/README.md) |
 | Simplicity | 22 | [Open](Simplicity/README.md) |
 | Lay By | 19 | [Open](Lay%20By/README.md) |
 | Crossroads | 4 | [Open](Crossroads/README.md) |
@@ -31,6 +30,7 @@ Choose one of the categories below to continue.
 | Abandoned City | 1 | [Open](Abandoned%20City/README.md) |
 | Construction Crazy | 1 | [Open](Construction%20Crazy/README.md) |
 | Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
+| Gilded Path | 1 | [Open](Gilded%20Path/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Portland | 1 | [Open](Portland/README.md) |
