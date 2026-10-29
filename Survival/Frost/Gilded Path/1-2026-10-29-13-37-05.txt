@@ -1,0 +1,19 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Soldier", "Assassin", "None", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Gilded Path", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Soldier", -1.9436838626861572, 1.0114710330963135, 18.463109970092773)
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
