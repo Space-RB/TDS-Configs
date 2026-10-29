@@ -16,11 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Cataclysm | 9 | [Open](Cataclysm/README.md) |
+| Unknown | 43 | [Open](Unknown/README.md) |
 
-| Unknown | 42 | [Open](Unknown/README.md) |
 | Lay By | 27 | [Open](Lay%20By/README.md) |
 | Simplicity | 27 | [Open](Simplicity/README.md) |
+| Cataclysm | 9 | [Open](Cataclysm/README.md) |
 | Dusty Bridges | 2 | [Open](Dusty%20Bridges/README.md) |
 | U-Turn | 2 | [Open](U-Turn/README.md) |
 | Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
