@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 72 recorded strategies available for this map**
+**📦 73 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -91,6 +91,7 @@ Select a strategy below and open its config file.
 | 70 | 2026-10-27 11:05 UTC | Hardcore | — | Farm, Boomerang, Crook Boss, Freezer, None | [Open](70-2026-10-27-11-05-08.txt) |
 | 71 | 2026-10-28 04:48 UTC | Hardcore | — | Golden Crook Boss, Shotgunner, Golden Pyromancer, Freezer, EvolvedKingpin | [Open](71-2026-10-28-04-48-22.txt) |
 | 72 | 2026-10-28 09:27 UTC | Hardcore | — | EvolvedEnforcer, Boomerang, Farm, None | [Open](72-2026-10-28-09-27-51.txt) |
+| 73 | 2026-10-29 03:25 UTC | Hardcore | — | Engineer, Farm, Crook Boss, None | [Open](73-2026-10-29-03-25-13.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
