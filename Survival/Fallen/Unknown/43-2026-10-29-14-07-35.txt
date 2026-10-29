@@ -1,0 +1,123 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.gui_hidden = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Electroshocker", "Trapper", "Gatling Gun", "Accelerator", "EvolvedJuggernaut")
+TDS:Mode("Fallen")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Trapper", -17.759876251220703, 1.0000003576278687, -1.8196239471435547)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", -18.685604095458984, 1.0000008344650269, -4.676237106323242)
+
+-- [ Wave 3 ] --
+TDS:Place("Trapper", -17.727869033813477, 0.9999865293502808, -7.574724197387695)
+TDS:Place("Trapper", -18.698877334594727, 0.9999892711639404, -10.579893112182617)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Place("Trapper", -15.74148941040039, 0.9999914765357971, -9.876006126403809)
+
+-- [ Wave 6 ] --
+TDS:Place("Trapper", -12.934575080871582, 0.9999834895133972, -8.813666343688965)
+TDS:Place("Trapper", -11.97552490234375, 1.0000007152557373, -3.7435379028320312)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 13 ] --
+TDS:Place("Gatling Gun", -4.291814804077148, 0.9999842643737793, -21.61179542541504)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 21 ] --
+TDS:Place("Electroshocker", -13.402202606201172, 0.9999904632568359, -11.817484855651855)
+TDS:Place("Electroshocker", -16.610599517822266, 0.9999940395355225, -12.789122581481934)
+TDS:Place("Electroshocker", -14.271312713623047, 0.9999960660934448, -14.73060131072998)
+TDS:Place("Electroshocker", -10.125981330871582, 0.9999886751174927, -9.97702407836914)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 25 ] --
+TDS:Place("EvolvedJuggernaut", -2.687333106994629, 0.9999831914901733, 2.260793685913086)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(13)
+
+-- [[ END OF STRATEGY ]]
