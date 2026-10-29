@@ -1,0 +1,101 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Engineer", "Farm", "Crook Boss", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Farm", -13.779960632324219, 1.587219476699829, 25.150415420532227)
+TDS:Place("Farm", -13.593875885009766, 1.5600475072860718, 29.212827682495117)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", -13.636672019958496, 1.4898838996887207, 32.75257110595703)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", -13.568100929260254, 1.3189921379089355, 36.291908264160156)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Place("Engineer", 7.170212745666504, 1.2204002141952515, 21.411380767822266)
+TDS:Upgrade(5)
+TDS:Place("Engineer", 4.170248031616211, 1.303938627243042, 21.311664581298828)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(6)
+TDS:Place("Engineer", 5.758055686950684, 0.9088197946548462, 18.71927833557129)
+TDS:Upgrade(7)
+
+-- [ Wave 7 ] --
+TDS:Place("Engineer", 8.795562744140625, 0.8424127101898193, 18.842365264892578)
+TDS:Upgrade(8)
+TDS:Place("Engineer", 2.753150463104248, 1.055159330368042, 18.258686065673828)
+TDS:Place("Engineer", 5.760854721069336, 0.43031641840934753, 15.49312973022461)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(9)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(10)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 13 ] --
+TDS:Place("Crook Boss", 3.171574115753174, 0.37277257442474365, 13.900262832641602)
+TDS:Upgrade(11)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 16 ] --
+TDS:Place("Crook Boss", 0.1963801383972168, 0.6577502489089966, 14.52462100982666)
+TDS:Upgrade(12)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 18 ] --
+TDS:Place("Crook Boss", -0.20034068822860718, 1.2096672058105469, 17.538623809814453)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(8)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(9)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
