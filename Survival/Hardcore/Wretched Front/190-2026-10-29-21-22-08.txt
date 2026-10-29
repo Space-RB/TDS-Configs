@@ -1,0 +1,30 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedOperator", "Boomerang", "Farm", "Crook Boss", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 7 ] --
+TDS:Place("EvolvedOperator", 2.5399999618530273, 0.5626968145370483, -16.68000030517578)
+TDS:Place("EvolvedOperator", 5.28000020980835, 0.6079726815223694, -15.449999809265137)
+TDS:Place("EvolvedOperator", -0.31999993324279785, 0.5188980102539062, -18.1299991607666)
+TDS:Place("EvolvedOperator", 8.109999656677246, 0.5241187810897827, -14.359999656677246)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [[ END OF STRATEGY ]]
