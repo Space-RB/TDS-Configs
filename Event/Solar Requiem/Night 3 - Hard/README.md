@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 104 recorded strategies available for this map**
+**📦 105 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -123,6 +123,7 @@ Select a strategy below and open its config file.
 | 102 | 2026-10-28 19:27 UTC | Act3 | — | Minigunner, Crook Boss, Demoman, DJ Booth, Commander | [Open](102-2026-10-28-19-27-52.txt) |
 | 103 | 2026-10-29 13:09 UTC | Act3 | — | Golden Scout, Hacker, Gatling Gun, DJ Booth, Commander | [Open](103-2026-10-29-13-09-17.txt) |
 | 104 | 2026-10-29 14:56 UTC | Act3 | — | Golden Scout, Hacker, Gatling Gun, Mercenary Base, DJ Booth | [Open](104-2026-10-29-14-56-47.txt) |
+| 105 | 2026-10-29 15:27 UTC | Act3 | — | Golden Scout, Hacker, Gatling Gun, Mercenary Base, DJ Booth | [Open](105-2026-10-29-15-27-05.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
