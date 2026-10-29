@@ -1,0 +1,63 @@
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "EvolvedJuggernaut", "Golden Cowboy", "Hacker", "Electroshocker")
+TDS:Mode("Frost")
+TDS:GameInfo("Crystal Cave", {"Glass", "Limitation"})
+TDS:Ready()
+TDS:Place("Electroshocker", -2.68985652923584, -1.0715255737304688, 22.275564193725586)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Cowboy", -3.8661270141601562, -0.5927640795707703, 19.11928939819336)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Cowboy", -1.0899162292480469, -0.5733345746994019, 19.036523818969727)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Electroshocker", -5.669346809387207, -0.9978537559509277, 21.672042846679688)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Place("Cowboy", -6.151712894439697, -0.428419828414917, 18.011274337768555)
+TDS:Upgrade(5)
+TDS:Place("Cowboy", 1.3931598663330078, -0.5450960397720337, 18.50179672241211)
+TDS:Upgrade(6)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Place("Electroshocker", 0.31261444091796875, -0.9529152512550354, 21.79936408996582)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Place("Gatling Gun", -2.86513090133667, 5.564016819000244, -1.1338846683502197)
+
+-- [[ END OF STRATEGY ]]
