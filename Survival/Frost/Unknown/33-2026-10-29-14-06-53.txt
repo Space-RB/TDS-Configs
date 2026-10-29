@@ -1,0 +1,82 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Militant", "Commander", "DJ Booth", "Crook Boss", "Turret")
+TDS:Mode("Frost")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Militant", -15.359086036682129, 0.9999908804893494, -9.547506332397461)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Place("Militant", -12.321532249450684, 0.9999929666519165, -9.42557144165039)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Place("Militant", -9.286852836608887, 0.9999860525131226, -9.245793342590332)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Place("Militant", -11.18821907043457, 0.9999997019767761, 2.168822765350342)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Place("Militant", -10.666534423828125, 1.000000238418579, -0.826080322265625)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("Militant", -12.093400001525879, 0.9999877214431763, -12.456998825073242)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Place("Militant", -15.130186080932617, 0.9999946355819702, -12.596760749816895)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Place("Militant", -12.660640716552734, 0.9999858140945435, -15.443609237670898)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("DJ Booth", -5.246852874755859, 0.9999966621398926, -9.245793342590332)
+TDS:Upgrade(9)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 14 ] --
+TDS:Place("Commander", -9.498932838439941, 1.0000007152557373, -3.6329116821289062)
+TDS:Place("Commander", -6.468203544616699, 0.9999876022338867, -3.395681381225586)
+TDS:Place("Commander", -3.483815908432007, 0.9999910593032837, -2.8168628215789795)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+
+-- [ Wave 15 ] --
+TDS:Place("Crook Boss", -0.56903475522995, 0.9999831914901733, -3.5483975410461426)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [[ END OF STRATEGY ]]
