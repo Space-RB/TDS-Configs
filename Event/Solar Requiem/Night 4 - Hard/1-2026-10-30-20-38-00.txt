@@ -1,0 +1,48 @@
+_G.AutoRejoin = false
+_G.TimeScaleEnabled = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Demoman", "Engineer", "Golden Soldier", "Golden Pyromancer", "Snowballer")
+TDS:Mode("Act4")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Soldier", -4.82210111618042, 1.0000019073486328, -25.243993759155273)
+TDS:Upgrade(1)
+TDS:Place("Soldier", -3.951605796813965, 1.0000016689300537, -22.21306037902832)
+TDS:Upgrade(2)
+TDS:Place("Demoman", -7.903969764709473, 1.0000019073486328, -25.549503326416016)
+TDS:Upgrade(3)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Place("Soldier", -7.143660545349121, 1.0000016689300537, -22.449247360229492)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+TDS:Place("Pyromancer", -21.82851219177246, 0.825772762298584, -37.06443786621094)
+TDS:Upgrade(5)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(5)
+TDS:Place("Pyromancer", 7.61308479309082, 0.9999772906303406, -21.023494720458984)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 7 ] --
+TDS:Place("Pyromancer", -5.0768256187438965, 0.9999985694885254, 18.92435646057129)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
