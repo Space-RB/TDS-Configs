@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Spring Fever | 4 | [Open](Spring%20Fever/README.md) |
+| Spring Fever | 5 | [Open](Spring%20Fever/README.md) |
 
 | Unknown | 34 | [Open](Unknown/README.md) |
 | Simplicity | 24 | [Open](Simplicity/README.md) |
