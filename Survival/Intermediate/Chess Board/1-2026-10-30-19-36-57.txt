@@ -1,0 +1,88 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Militant", "Paintballer", "Farm", "Demoman", "None")
+TDS:Mode("Intermediate")
+TDS:GameInfo("Chess Board", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Paintballer", -20.208017349243164, 0, 10.704126358032227)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Place("Paintballer", -28.292011260986328, 0, 8.116411209106445)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", -8.929132461547852, 0, -0.3405580520629883)
+
+-- [ Wave 3 ] --
+TDS:Place("Militant", -21.50708770751953, 0, -2.5642051696777344)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", -12.866765975952148, 0, -0.37320899963378906)
+TDS:Place("Farm", -5.207465171813965, 0, -0.10078191757202148)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+TDS:Place("Farm", -10.076550483703613, 0, 3.602166175842285)
+TDS:Upgrade(7)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Place("Militant", -17.127540588378906, 0, -2.3488693237304688)
+TDS:Place("Paintballer", -22.355886459350586, 0, 3.6126670837402344)
+TDS:Upgrade(9)
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:Upgrade(3)
+TDS:Upgrade(8)
+
+-- [ Wave 8 ] --
+TDS:Place("Militant", -15.966569900512695, 0, 0.7292041778564453)
+TDS:Upgrade(10)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+TDS:Place("Militant", -19.23860740661621, 0, -4.587962627410889)
+TDS:Place("Militant", -11.83665943145752, 0, -8.241193771362305)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+TDS:Place("Militant", -20.71109962463379, 0, -7.513632774353027)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(7)
+TDS:Place("Militant", 3.828464984893799, 0, -10.289176940917969)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [[ END OF STRATEGY ]]
