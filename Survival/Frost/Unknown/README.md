@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 35 recorded strategies available for this map**
+**📦 36 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -54,6 +54,7 @@ Select a strategy below and open its config file.
 | 33 | 2026-10-29 14:06 UTC | Frost | — | Militant, Commander, DJ Booth, Crook Boss, Turret | [Open](33-2026-10-29-14-06-53.txt) |
 | 34 | 2026-10-29 22:09 UTC | Frost | Glass, Limitation | Gatling Gun, EvolvedJuggernaut, Golden Cowboy, Hacker, Electroshocker | [Open](34-2026-10-29-22-09-13.txt) |
 | 35 | 2026-10-30 09:31 UTC | Frost | — | DJ Booth, EvolvedJuggernaut, Hacker, EvolvedKingpin, Golden Scout | [Open](35-2026-10-30-09-31-50.txt) |
+| 36 | 2026-10-30 15:31 UTC | Frost | — | Hacker, Engineer, EvolvedKingpin, EvolvedJuggernaut, DJ Booth | [Open](36-2026-10-30-15-31-46.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
