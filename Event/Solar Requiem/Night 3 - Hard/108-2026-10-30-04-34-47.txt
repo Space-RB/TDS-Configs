@@ -1,0 +1,33 @@
+_G.AntiLag = true
+_G.AutoReady = false
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Assassin", "Tesla", "Golden Crook Boss", "EvolvedJuggernaut", "DJ Booth")
+TDS:Mode("Act3")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Place("Assassin", 5.619748115539551, 103.13662719726562, 113.24705505371094)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:SetTarget(1, "Last")
+TDS:SetTarget(1, "Strongest")
+TDS:VoteSkip(1)
+TDS:Place("Assassin", 6.7342376708984375, 103.22393798828125, 115.0940933227539)
+TDS:SetTarget(2, "Last")
+TDS:SetTarget(2, "Strongest")
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:VoteSkip(2)
+
+-- [[ END OF STRATEGY ]]
