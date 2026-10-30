@@ -1,0 +1,18 @@
+_G.AutoMedic = true
+_G.AutoMoney = true
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.StartHubStrategy = "1BF309DB-B3CD-4677-8F0E-06D1FE80E65B"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Militant", "Crook Boss", "Farm", "Cowboy", "Minigunner")
+TDS:Mode("Casual")
+TDS:GameInfo("Lay By", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
