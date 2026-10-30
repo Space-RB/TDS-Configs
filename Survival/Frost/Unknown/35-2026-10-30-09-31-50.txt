@@ -1,0 +1,56 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("DJ Booth", "EvolvedJuggernaut", "Hacker", "EvolvedKingpin", "Golden Scout")
+TDS:Mode("Frost")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Scout", -12.087749481201172, 1.0000005960464478, -3.59336519241333)
+TDS:Place("Scout", -9.047749519348145, 1.0000007152557373, -3.59336519241333)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Place("Scout", -9.26863956451416, 1.0000001192092896, -0.5614008903503418)
+TDS:Place("Scout", -12.306558609008789, 1.0000001192092896, -0.4489283561706543)
+
+-- [ Wave 3 ] --
+TDS:Place("DJ Booth", -2.545107364654541, 0.9999831914901733, 2.200413227081299)
+TDS:Upgrade(5)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+TDS:Place("Scout", 20.060028076171875, 0.9999980926513672, 12.264422416687012)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Place("Scout", 21.94261360168457, 0.9999969601631165, 19.160602569580078)
+TDS:Place("Scout", -11.963028907775879, 1.0000007152557373, -3.760498523712158)
+TDS:Place("Scout", -8.953184127807617, 1.0000005960464478, -3.333376884460449)
+TDS:Upgrade(9)
+TDS:Place("Scout", -11.867744445800781, 1.000000238418579, -0.7219924926757812)
+TDS:Place("Scout", -8.85789966583252, 1.0000001192092896, -0.29487037658691406)
+TDS:Place("DJ Booth", -2.667442798614502, 0.9999831914901733, 2.2869482040405273)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+TDS:Place("Scout", -5.916293144226074, 0.9999881982803345, -3.1959164142608643)
+TDS:Place("Scout", -2.880436897277832, 0.9999918341636658, -3.0372495651245117)
+TDS:Upgrade(12)
+
+-- [[ END OF STRATEGY ]]
