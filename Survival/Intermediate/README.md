@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Chess Board | 1 | [Open](Chess%20Board/README.md) |
+| Chess Board | 2 | [Open](Chess%20Board/README.md) |
 
 | Unknown | 5 | [Open](Unknown/README.md) |
 | Dead Ahead | 4 | [Open](Dead%20Ahead/README.md) |
