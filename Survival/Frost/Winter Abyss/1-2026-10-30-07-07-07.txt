@@ -1,0 +1,37 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Brawler", "Ranger", "Farm", "Commander", "Minigunner")
+TDS:Mode("Frost")
+TDS:GameInfo("Winter Abyss", {})
+TDS:Ready()
+TDS:Place("Brawler", -3.84121036529541, 0.971767008304596, 54.27392578125)
+TDS:Place("Brawler", -3.5838794708251953, 0.9669852256774902, 56.47386169433594)
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", -5.863978385925293, 0.9767297506332397, 54.53852081298828)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
