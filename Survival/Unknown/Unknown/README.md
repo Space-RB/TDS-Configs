@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 144 recorded strategies available for this map**
+**📦 145 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -163,6 +163,7 @@ Select a strategy below and open its config file.
 | 142 | 2026-10-29 19:45 UTC | Unknown | — | Electroshocker, Sniper, None | [Open](142-2026-10-29-19-45-21.txt) |
 | 143 | 2026-10-30 02:46 UTC | Unknown | — | EvolvedKingpin, EvolvedJuggernaut, Engineer, Accelerator, Farm | [Open](143-2026-10-30-02-46-38.txt) |
 | 144 | 2026-10-30 07:22 UTC | Unknown | — | Scout, Sniper, None | [Open](144-2026-10-30-07-22-40.txt) |
+| 145 | 2026-10-30 08:45 UTC | Unknown | — | None | [Open](145-2026-10-30-08-45-26.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
