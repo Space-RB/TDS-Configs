@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 149 recorded strategies available for this map**
+**📦 150 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -168,6 +168,7 @@ Select a strategy below and open its config file.
 | 147 | 2026-10-30 19:57 UTC | Unknown | — | Scout, Sniper, Demoman, Soldier, None | [Open](147-2026-10-30-19-57-30.txt) |
 | 148 | 2026-10-30 21:25 UTC | Unknown | — | Hunter, Pyromancer, None | [Open](148-2026-10-30-21-25-16.txt) |
 | 149 | 2026-10-30 21:26 UTC | Unknown | — | Hunter, Pyromancer, None | [Open](149-2026-10-30-21-26-44.txt) |
+| 150 | 2026-10-30 21:28 UTC | Unknown | — | Sniper, Paintballer, Demoman, Military Base, None | [Open](150-2026-10-30-21-28-46.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
