@@ -1,0 +1,22 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "EvolvedJuggernaut", "Golden Cowboy", "Mortar", "Hacker")
+TDS:Mode("Frost")
+TDS:GameInfo("Retro Crossroads", {"Glass", "Limitation"})
+TDS:Ready()
+TDS:Place("Cowboy", -125.51367950439453, -44.53631591796875, 29.922555923461914)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Cowboy", -125.65567016601562, -44.486289978027344, 32.45858383178711)
+
+-- [[ END OF STRATEGY ]]
