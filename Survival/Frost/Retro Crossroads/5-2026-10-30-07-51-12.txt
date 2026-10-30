@@ -1,0 +1,110 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.MatchTrackerEnabled = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "EvolvedJuggernaut", "Golden Cowboy", "Mortar", "Hacker")
+TDS:Mode("Frost")
+TDS:GameInfo("Retro Crossroads", {"Glass", "Limitation"})
+TDS:Ready()
+TDS:Place("Cowboy", -125.55904388427734, -44.53631591796875, 29.753631591796875)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Cowboy", -122.9983139038086, -44.53631591796875, 29.736845016479492)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Cowboy", -125.80936431884766, -44.486289978027344, 32.28126525878906)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Cowboy", -123.26828002929688, -44.53631591796875, 32.26245880126953)
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Mortar", -118.2467041015625, -36.908817291259766, 14.453008651733398)
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Place("Gatling Gun", -112.81687927246094, -39.533817291259766, 14.069341659545898)
+
+-- [ Wave 11 ] --
+TDS:Place("Cowboy", -120.45491790771484, -44.53631591796875, 29.50953483581543)
+TDS:Place("Cowboy", -117.88899230957031, -44.53631591796875, 29.698223114013672)
+TDS:Place("Cowboy", -115.35218811035156, -44.53631591796875, 29.570850372314453)
+TDS:Place("Cowboy", -112.81348419189453, -44.53631591796875, 29.651947021484375)
+TDS:Place("Cowboy", -120.65730285644531, -44.53631591796875, 32.246337890625)
+TDS:Place("Cowboy", -117.94806671142578, -44.53631591796875, 32.2375373840332)
+TDS:Place("Cowboy", -115.31133270263672, -44.53631591796875, 32.11052322387695)
+TDS:Place("Cowboy", -112.77262878417969, -44.53631591796875, 32.191619873046875)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(14)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(14)
+TDS:Upgrade(10)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(10)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(14)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(7)
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(5)
+TDS:Place("Mortar", -116.92069244384766, -39.533817291259766, 11.123285293579102)
+TDS:Upgrade(15)
+TDS:Place("Mortar", -135.223388671875, -42.533817291259766, 15.63418197631836)
+TDS:Upgrade(16)
+
+-- [[ END OF STRATEGY ]]
