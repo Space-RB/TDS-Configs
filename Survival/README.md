@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Intermediate | 25 | [Open](Intermediate/README.md) |
+| Intermediate | 26 | [Open](Intermediate/README.md) |
 
 | Hardcore | 286 | [Open](Hardcore/README.md) |
 | Unknown | 146 | [Open](Unknown/README.md) |
