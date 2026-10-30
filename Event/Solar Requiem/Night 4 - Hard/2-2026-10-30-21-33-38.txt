@@ -1,0 +1,44 @@
+_G.AutoDJ = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Ranger", "EvolvedKingpin", "Engineer", "EvolvedOperator")
+TDS:Mode("Act4")
+TDS:Ready()
+TDS:Place("EvolvedOperator", -4.08671236038208, 1.037778377532959, -33.45751190185547, true)
+TDS:Place("EvolvedOperator", -5.500332355499268, 1.0377767086029053, -33.508426666259766, true)
+TDS:Place("EvolvedOperator", -6.904471397399902, 1.037779450416565, -33.50725555419922, true)
+TDS:Place("EvolvedOperator", -6.939358711242676, 0.9999831914901733, -34.955413818359375, true)
+TDS:Place("EvolvedOperator", -5.72001314163208, 0.9999831914901733, -35.016502380371094, true)
+TDS:Place("EvolvedOperator", -4.05446195602417, 0.9999831914901733, -35.07879638671875, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(6, true)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1, true)
+TDS:Upgrade(2, true)
+
+-- [ Wave 2 ] --
+TDS:Place("EvolvedOperator", -6.149565696716309, 1.0377765893936157, -33.952430725097656, true)
+TDS:Upgrade(7, true)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(5, true)
+TDS:Upgrade(5, true)
+
+-- [ Wave 4 ] --
+TDS:Place("Engineer", -3.8849992752075195, 1.0000019073486328, -25.380313873291016)
+TDS:Place("Engineer", -9.049449920654297, 1.0000019073486328, -25.650365829467773)
+
+-- [[ END OF STRATEGY ]]
