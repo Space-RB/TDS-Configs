@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 1 recorded strategy available for this map**
+**📦 2 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -20,6 +20,7 @@ Select a strategy below and open its config file.
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 2026-10-30 20:38 UTC | Act4 | — | Golden Demoman, Engineer, Golden Soldier, Golden Pyromancer, Snowballer | [Open](1-2026-10-30-20-38-00.txt) |
 
+| 2 | 2026-10-30 21:33 UTC | Act4 | — | Gatling Gun, Ranger, EvolvedKingpin, Engineer, EvolvedOperator | [Open](2-2026-10-30-21-33-38.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
