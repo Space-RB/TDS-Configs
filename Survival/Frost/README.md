@@ -16,13 +16,14 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Wrecked Battlefield II | 3 | [Open](Wrecked%20Battlefield%20II/README.md) |
+| Winter Abyss | 1 | [Open](Winter%20Abyss/README.md) |
 
 | Unknown | 34 | [Open](Unknown/README.md) |
 | Simplicity | 24 | [Open](Simplicity/README.md) |
 | Lay By | 20 | [Open](Lay%20By/README.md) |
 | Crossroads | 4 | [Open](Crossroads/README.md) |
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
+| Wrecked Battlefield II | 3 | [Open](Wrecked%20Battlefield%20II/README.md) |
 | Cataclysm | 2 | [Open](Cataclysm/README.md) |
 | Crystal Cave | 2 | [Open](Crystal%20Cave/README.md) |
 | Mason Arch | 2 | [Open](Mason%20Arch/README.md) |
