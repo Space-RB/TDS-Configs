@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Medieval Times | 1 | [Open](Medieval%20Times/README.md) |
+| Chess Board | 1 | [Open](Chess%20Board/README.md) |
 
 | Unknown | 5 | [Open](Unknown/README.md) |
 | Dead Ahead | 4 | [Open](Dead%20Ahead/README.md) |
@@ -26,6 +26,7 @@ Choose one of the categories below to continue.
 | Black Spot Exchange | 1 | [Open](Black%20Spot%20Exchange/README.md) |
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
 | Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
+| Medieval Times | 1 | [Open](Medieval%20Times/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Night Station | 1 | [Open](Night%20Station/README.md) |
 | Retro Crossroads | 1 | [Open](Retro%20Crossroads/README.md) |
