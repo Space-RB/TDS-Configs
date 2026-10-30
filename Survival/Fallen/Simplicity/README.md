@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 27 recorded strategies available for this map**
+**📦 28 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -46,6 +46,7 @@ Select a strategy below and open its config file.
 | 25 | 2026-10-25 16:17 UTC | Fallen | — | Militant, Pyromancer, Shotgunner, Commander, None | [Open](25-2026-10-25-16-17-39.txt) |
 | 26 | 2026-10-25 22:56 UTC | Fallen | — | Assassin, Crook Boss, Commander, Pyromancer, None | [Open](26-2026-10-25-22-56-06.txt) |
 | 27 | 2026-10-26 11:29 UTC | Fallen | Committed, Glass, HiddenEnemies, Limitation | Shotgunner, DJ Booth, Assassin, Hacker, Commander | [Open](27-2026-10-26-11-29-32.txt) |
+| 28 | 2026-10-30 10:24 UTC | Fallen | — | EvolvedJuggernaut, EvolvedKingpin, Crook Boss, DJ Booth, Cowboy | [Open](28-2026-10-30-10-24-40.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
