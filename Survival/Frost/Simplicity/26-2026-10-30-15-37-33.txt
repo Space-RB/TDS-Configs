@@ -1,0 +1,99 @@
+_G.AutoChain = true
+_G.AutoMedic = true
+_G.AutoNecro = true
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Hacker", "Engineer", "EvolvedKingpin", "EvolvedJuggernaut", "DJ Booth")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {"Committed", "Glass", "Limitation"})
+TDS:Ready()
+TDS:Place("Engineer", -6.448422431945801, 0.9999877214431763, -3.7938263416290283)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 3 ] --
+TDS:Place("Engineer", -3.4084224700927734, 0.9999914765357971, -3.7938263416290283)
+TDS:Upgrade(13)
+
+-- [ Wave 4 ] --
+TDS:Place("Engineer", -7.7017011642456055, 0.9999852776527405, -1.034260869026184)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(14)
+TDS:Place("Engineer", -6.722186088562012, 0.9999890327453613, -8.801262855529785)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(15)
+TDS:Place("Engineer", -3.6821861267089844, 1.0000014305114746, -8.801262855529785)
+TDS:Upgrade(16)
+
+-- [ Wave 7 ] --
+TDS:Place("Engineer", -5.202186107635498, 0.999991774559021, -11.433979988098145)
+TDS:Upgrade(17)
+
+-- [ Wave 8 ] --
+TDS:Place("Hacker", -10.408933639526367, 0.9999879002571106, -8.867180824279785)
+TDS:Upgrade(18)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(17)
+TDS:Upgrade(16)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(18)
+
+-- [ Wave 13 ] --
+TDS:Place("EvolvedKingpin", -2.575223445892334, 0.9999831914901733, 2.250253200531006)
+TDS:Upgrade(19)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(19)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(19)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(19)
+
+-- [ Wave 18 ] --
+TDS:Place("EvolvedKingpin", 0.46477651596069336, 0.9999831914901733, 2.250253200531006)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(20)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(17)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(16)
+TDS:Place("Hacker", 5.490711212158203, 0.9999831914901733, -3.73799729347229)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+
+-- [[ END OF STRATEGY ]]
