@@ -1,0 +1,27 @@
+_G.AutoChain = true
+_G.AutoRejoin = false
+_G.AutoSkip = true
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Scout", "Crook Boss", "Shotgunner", "Pyromancer", "Commander")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Commander", -6.698030471801758, 0.9555098414421082, -31.409454345703125)
+TDS:Place("Pyromancer", -6.782020568847656, 0.9580986499786377, -31.579246520996094)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
