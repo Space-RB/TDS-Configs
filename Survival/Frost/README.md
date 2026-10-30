@@ -16,9 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 36 | [Open](Unknown/README.md) |
+| Simplicity | 26 | [Open](Simplicity/README.md) |
 
-| Simplicity | 25 | [Open](Simplicity/README.md) |
+| Unknown | 36 | [Open](Unknown/README.md) |
 | Lay By | 20 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
 | Spring Fever | 5 | [Open](Spring%20Fever/README.md) |
