@@ -16,11 +16,12 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Spring Fever | 5 | [Open](Spring%20Fever/README.md) |
+| Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
 
 | Unknown | 34 | [Open](Unknown/README.md) |
 | Simplicity | 24 | [Open](Simplicity/README.md) |
 | Lay By | 20 | [Open](Lay%20By/README.md) |
+| Spring Fever | 5 | [Open](Spring%20Fever/README.md) |
 | Crossroads | 4 | [Open](Crossroads/README.md) |
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
 | Wrecked Battlefield II | 3 | [Open](Wrecked%20Battlefield%20II/README.md) |
@@ -38,7 +39,6 @@ Choose one of the categories below to continue.
 | Retro Crossroads | 1 | [Open](Retro%20Crossroads/README.md) |
 | Retro Rocket Arena | 1 | [Open](Retro%20Rocket%20Arena/README.md) |
 | Winter Abyss | 1 | [Open](Winter%20Abyss/README.md) |
-| Wrecked Battlefield | 1 | [Open](Wrecked%20Battlefield/README.md) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>
