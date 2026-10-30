@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 30 recorded strategies available for this map**
+**📦 31 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -49,6 +49,7 @@ Select a strategy below and open its config file.
 | 28 | 2026-10-30 10:24 UTC | Fallen | — | EvolvedJuggernaut, EvolvedKingpin, Crook Boss, DJ Booth, Cowboy | [Open](28-2026-10-30-10-24-40.txt) |
 | 29 | 2026-10-30 19:18 UTC | Fallen | Committed | EvolvedJuggernaut, EvolvedKingpin, Crook Boss, DJ Booth, Cowboy | [Open](29-2026-10-30-19-18-04.txt) |
 | 30 | 2026-10-30 20:43 UTC | Fallen | — | EvolvedJuggernaut, Turret, Crook Boss, Commander, Cowboy | [Open](30-2026-10-30-20-43-42.txt) |
+| 31 | 2026-10-30 21:17 UTC | Fallen | — | Assassin, Golden Crook Boss, EvolvedEnforcer, Hacker, Commander | [Open](31-2026-10-30-21-17-31.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
