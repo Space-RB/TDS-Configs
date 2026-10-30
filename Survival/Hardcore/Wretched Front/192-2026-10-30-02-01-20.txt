@@ -1,0 +1,79 @@
+_G.AutoChain = true
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoSkip = true
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Scout", "Crook Boss", "Shotgunner", "Pyromancer", "Commander")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", -6.5900444984436035, 0.9587116241455078, -31.856204986572266)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Place("Scout", -4.8536176681518555, 0.3904377818107605, -19.474895477294922)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", -10.59559154510498, 1.0279008150100708, -34.42659378051758)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Place("Crook Boss", -0.30652904510498047, 0.4216093420982361, -16.993257522583008)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 16 ] --
+TDS:Place("Commander", -1.1962437629699707, 0.8631516695022583, -24.98581886291504)
+TDS:Upgrade(5)
+
+-- [ Wave 17 ] --
+TDS:Place("Shotgunner", -9.810659408569336, 0.9600536823272705, -28.247100830078125)
+TDS:Upgrade(6)
+
+-- [ Wave 18 ] --
+TDS:Place("Shotgunner", -2.7659196853637695, 1.0092742443084717, -35.0218505859375)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(7)
+TDS:Place("Pyromancer", 6.555001258850098, 0.5801942944526672, -15.265600204467773)
+TDS:Upgrade(8)
+TDS:Place("Scout", -6.180568218231201, 0.7210748791694641, -22.154909133911133)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Scout", -2.230433464050293, 0.6332154273986816, -21.67894744873047)
+TDS:Upgrade(10)
+
+-- [ Wave 20 ] --
+TDS:Place("Pyromancer", -9.340507507324219, -0.21229267120361328, -11.156289100646973)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [[ END OF STRATEGY ]]
