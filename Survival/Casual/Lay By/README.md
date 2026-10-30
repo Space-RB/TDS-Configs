@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 5 recorded strategies available for this map**
+**📦 6 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -24,6 +24,7 @@ Select a strategy below and open its config file.
 | 3 | 2026-10-22 16:21 UTC | Casual | — | Trapper, None | [Open](3-2026-10-22-16-21-50.txt) |
 | 4 | 2026-10-25 06:29 UTC | Casual | — | Assassin, Commander, Militant, None | [Open](4-2026-10-25-06-29-20.txt) |
 | 5 | 2026-10-26 22:59 UTC | Casual | — | Scout, Sniper, Demoman, None | [Open](5-2026-10-26-22-59-24.txt) |
+| 6 | 2026-10-30 09:33 UTC | Casual | — | Militant, Crook Boss, Farm, Cowboy, Minigunner | [Open](6-2026-10-30-09-33-51.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
