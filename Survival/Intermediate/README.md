@@ -16,10 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Chess Board | 2 | [Open](Chess%20Board/README.md) |
+| Harbor | 1 | [Open](Harbor/README.md) |
 
 | Unknown | 5 | [Open](Unknown/README.md) |
 | Dead Ahead | 4 | [Open](Dead%20Ahead/README.md) |
+| Chess Board | 2 | [Open](Chess%20Board/README.md) |
 | Lay By | 2 | [Open](Lay%20By/README.md) |
 | Ruby Escort | 2 | [Open](Ruby%20Escort/README.md) |
 | The Heights | 2 | [Open](The%20Heights/README.md) |
