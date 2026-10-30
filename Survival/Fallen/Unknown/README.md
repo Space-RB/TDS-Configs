@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 43 recorded strategies available for this map**
+**📦 44 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -62,6 +62,7 @@ Select a strategy below and open its config file.
 | 41 | 2026-10-27 17:51 UTC | Fallen | — | Trapper, DJ Booth, Gatling Gun, Hacker, Mercenary Base | [Open](41-2026-10-27-17-51-45.txt) |
 | 42 | 2026-10-27 19:47 UTC | Fallen | Committed, Fog, HiddenEnemies | DJ Booth, Gatling Gun, Trapper, Crook Boss, None | [Open](42-2026-10-27-19-47-21.txt) |
 | 43 | 2026-10-29 14:07 UTC | Fallen | — | Electroshocker, Trapper, Gatling Gun, Accelerator, EvolvedJuggernaut | [Open](43-2026-10-29-14-07-35.txt) |
+| 44 | 2026-10-30 10:15 UTC | Fallen | — | Gatling Gun, Trapper, DJ Booth, Hacker, Mercenary Base | [Open](44-2026-10-30-10-15-50.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
