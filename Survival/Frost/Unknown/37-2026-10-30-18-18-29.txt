@@ -1,0 +1,86 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.gui_hidden = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Cowboy", "DJ Booth", "Turret", "Ranger", "EvolvedJuggernaut")
+TDS:Mode("Frost")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Cowboy", 11.411571502685547, 0.9730770587921143, 25.33578109741211)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Cowboy", 11.286338806152344, 0.975210428237915, 28.252490997314453)
+TDS:Upgrade(2)
+TDS:Place("Cowboy", 13.951251983642578, 0.9765105247497559, 25.295503616333008)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Cowboy", 13.791030883789062, 0.9782946109771729, 27.8304443359375)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Place("Cowboy", 16.434696197509766, 0.9803204536437988, 25.828521728515625)
+TDS:Upgrade(5)
+TDS:Place("Cowboy", 16.27447509765625, 0.9821045398712158, 28.363462448120117)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(6)
+TDS:Place("Cowboy", 18.812129974365234, 0.9854810237884521, 28.254384994506836)
+TDS:Upgrade(7)
+TDS:Place("Cowboy", 18.99935531616211, 0.9837353229522705, 25.721294403076172)
+TDS:Upgrade(8)
+TDS:Place("Cowboy", 21.329914093017578, 0.9878072738647461, 27.919178009033203)
+TDS:Upgrade(9)
+
+-- [ Wave 7 ] --
+TDS:Place("Cowboy", 21.517139434814453, 0.9869060516357422, 25.38608741760254)
+TDS:Upgrade(10)
+TDS:Place("Cowboy", 8.600723266601562, 0.9717264175415039, 28.481281280517578)
+TDS:Upgrade(11)
+
+-- [ Wave 8 ] --
+TDS:Place("Cowboy", 8.246332168579102, 0.969207763671875, 25.905193328857422)
+TDS:Upgrade(12)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Place("DJ Booth", 11.095037460327148, 0.9276599884033203, 13.1227445602417)
+TDS:Upgrade(13)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
