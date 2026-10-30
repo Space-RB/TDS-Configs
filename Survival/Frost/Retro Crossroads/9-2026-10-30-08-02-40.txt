@@ -1,0 +1,106 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "EvolvedJuggernaut", "Golden Cowboy", "Mortar", "Hacker")
+TDS:Mode("Frost")
+TDS:GameInfo("Retro Crossroads", {"Glass", "Limitation"})
+TDS:Ready()
+TDS:Place("Cowboy", -124.08763122558594, -44.53631591796875, 31.037410736083984)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Cowboy", -121.43494415283203, -44.53631591796875, 31.083858489990234)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Cowboy", -124.13352966308594, -44.53631591796875, 33.69525909423828)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Cowboy", -126.08715057373047, -44.53631591796875, 29.378808975219727)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Place("Gatling Gun", -117.55696105957031, -36.908817291259766, 14.053457260131836)
+TDS:Place("Cowboy", -119.52268981933594, -44.53631591796875, 29.428651809692383)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Cowboy", -121.60136413574219, -44.53631591796875, 33.694671630859375)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(7)
+TDS:Place("Mortar", -135.12380981445312, -42.533817291259766, 15.730911254882812)
+TDS:Place("Mortar", -138.22767639160156, -42.533817291259766, 15.70005989074707)
+TDS:Place("Mortar", -135.0869598388672, -42.533817291259766, 12.65806770324707)
+
+-- [ Wave 17 ] --
+TDS:Place("Mortar", -138.31556701660156, -42.533817291259766, 12.644063949584961)
+TDS:Upgrade(11)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+TDS:Place("Cowboy", -118.94956970214844, -44.53631591796875, 31.88842010498047)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Cowboy", -119.1553726196289, -44.53631591796875, 34.50038146972656)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 18 ] --
+TDS:Place("Cowboy", -121.11250305175781, -44.53631591796875, 36.20194625854492)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Cowboy", -123.728271484375, -44.486289978027344, 36.19763946533203)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+TDS:Upgrade(15)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(11)
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]
