@@ -1,0 +1,206 @@
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Assassin", "Tesla", "Golden Crook Boss", "EvolvedJuggernaut", "DJ Booth")
+TDS:Mode("Act3")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 5.687517166137695, 103.13883972167969, 113.28868865966797)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:SetTarget(1, "Last")
+TDS:SetTarget(1, "Strongest")
+TDS:VoteSkip(1)
+TDS:Place("Assassin", 6.657323837280273, 103.22271728515625, 115.07347106933594)
+TDS:SetTarget(2, "Last")
+
+-- [ Wave 2 ] --
+TDS:SetTarget(2, "Strongest")
+TDS:Upgrade(2)
+TDS:VoteSkip(2)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Assassin", 3.5014219284057617, 103.1510238647461, 113.7894515991211)
+TDS:SetTarget(3, "Last")
+TDS:SetTarget(3, "Strongest")
+TDS:SetTarget(3, "Strongest")
+TDS:Upgrade(3)
+TDS:VoteSkip(3)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Assassin", 4.648142337799072, 103.23058319091797, 115.42672729492188)
+TDS:VoteSkip(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:VoteSkip(5)
+TDS:Place("Crook Boss", 0.2852911949157715, 101.90355682373047, 97.18791961669922)
+
+-- [ Wave 6 ] --
+TDS:SetTarget(4, "Last")
+TDS:SetTarget(4, "Strongest")
+TDS:VoteSkip(6)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+
+-- [ Wave 8 ] --
+TDS:Place("Crook Boss", 0.5815591812133789, 102.86224365234375, 100.052001953125)
+TDS:Upgrade(6)
+TDS:VoteSkip(8)
+
+-- [ Wave 9 ] --
+TDS:Place("Crook Boss", 0.5366716384887695, 102.93587493896484, 103.09166717529297)
+TDS:Upgrade(7)
+TDS:VoteSkip(9)
+TDS:Place("Crook Boss", -2.4703075885772705, 102.53422546386719, 98.21822357177734)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(8)
+TDS:VoteSkip(10)
+TDS:Place("Crook Boss", -2.2157375812530518, 102.9185562133789, 101.24226379394531)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(9)
+TDS:Place("DJ Booth", 4.375237941741943, 102.97566986083984, 101.83190155029297)
+TDS:Upgrade(10)
+TDS:SetOption(10, "Track", "Green")
+TDS:Upgrade(10)
+TDS:VoteSkip(11)
+TDS:Upgrade(10)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(1)
+TDS:VoteSkip(12)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:SetOption(10, "Track", "Red")
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:SetOption(10, "Track", "Green")
+
+-- [ Wave 16 ] --
+TDS:Place("Tesla", -0.9908099174499512, 103.02993774414062, 109.80653381347656)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 17 ] --
+TDS:Place("Tesla", -4.731402397155762, 103.02432250976562, 108.34001159667969)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(10)
+TDS:SetOption(10, "Track", "Red")
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(11)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("EvolvedJuggernaut", 4.5152363777160645, 101.90717315673828, 96.88042449951172)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13, 2)
+TDS:Upgrade(13, 2)
+TDS:Upgrade(13, 2)
+TDS:Upgrade(13, 2)
+TDS:Place("Assassin", -9.65524673461914, 102.13680267333984, 89.66292572021484)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Assassin", -11.313976287841797, 102.28804016113281, 91.51233673095703)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Assassin", -7.603328704833984, 101.9903564453125, 90.64192199707031)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Assassin", -9.042472839355469, 102.32577514648438, 92.89823150634766)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Assassin", -4.073663234710693, 101.19107055664062, 85.40354919433594)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Assassin", -5.986128330230713, 101.35379791259766, 84.82293701171875)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Assassin", -3.979020118713379, 101.08300018310547, 83.3657455444336)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Assassin", -4.800663948059082, 101.68070220947266, 90.7364273071289)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Place("Assassin", -1.9306763410568237, 101.31942749023438, 90.94940185546875)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:VoteSkip(25)
+
+-- [[ END OF STRATEGY ]]
