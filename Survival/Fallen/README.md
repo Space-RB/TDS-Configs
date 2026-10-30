@@ -16,14 +16,14 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
+| Simplicity | 29 | [Open](Simplicity/README.md) |
 
 | Unknown | 44 | [Open](Unknown/README.md) |
-| Simplicity | 28 | [Open](Simplicity/README.md) |
 | Lay By | 27 | [Open](Lay%20By/README.md) |
 | Cataclysm | 9 | [Open](Cataclysm/README.md) |
 | Dusty Bridges | 2 | [Open](Dusty%20Bridges/README.md) |
 | U-Turn | 2 | [Open](U-Turn/README.md) |
+| Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
 | Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
 | Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
