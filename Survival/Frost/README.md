@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Winter Abyss | 1 | [Open](Winter%20Abyss/README.md) |
+| Spring Fever | 3 | [Open](Spring%20Fever/README.md) |
 
 | Unknown | 34 | [Open](Unknown/README.md) |
 | Simplicity | 24 | [Open](Simplicity/README.md) |
@@ -28,7 +28,6 @@ Choose one of the categories below to continue.
 | Crystal Cave | 2 | [Open](Crystal%20Cave/README.md) |
 | Mason Arch | 2 | [Open](Mason%20Arch/README.md) |
 | Pier Pressure | 2 | [Open](Pier%20Pressure/README.md) |
-| Spring Fever | 2 | [Open](Spring%20Fever/README.md) |
 | Abandoned City | 1 | [Open](Abandoned%20City/README.md) |
 | Construction Crazy | 1 | [Open](Construction%20Crazy/README.md) |
 | Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
@@ -38,6 +37,7 @@ Choose one of the categories below to continue.
 | Portland | 1 | [Open](Portland/README.md) |
 | Retro Crossroads | 1 | [Open](Retro%20Crossroads/README.md) |
 | Retro Rocket Arena | 1 | [Open](Retro%20Rocket%20Arena/README.md) |
+| Winter Abyss | 1 | [Open](Winter%20Abyss/README.md) |
 | Wrecked Battlefield | 1 | [Open](Wrecked%20Battlefield/README.md) |
 </div>
 
