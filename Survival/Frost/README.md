@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Retro Crossroads | 4 | [Open](Retro%20Crossroads/README.md) |
+| Retro Crossroads | 5 | [Open](Retro%20Crossroads/README.md) |
 
 | Unknown | 34 | [Open](Unknown/README.md) |
 | Simplicity | 24 | [Open](Simplicity/README.md) |
