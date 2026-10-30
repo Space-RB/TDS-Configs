@@ -1,0 +1,78 @@
+_G.AutoChain = true
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoSkip = true
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "EvolvedKingpin", "EvolvedOperator", "Shotgunner", "Commander")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Pyromancer", -5.777389049530029, 0.9621051549911499, -32.424583435058594)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Place("EvolvedOperator", -0.9626736640930176, 0.8626785278320312, -25.054136276245117)
+
+-- [ Wave 9 ] --
+TDS:Place("EvolvedOperator", -2.7587249279022217, 0.7436336278915405, -23.258085250854492)
+
+-- [ Wave 10 ] --
+TDS:Place("EvolvedOperator", 4.225460529327393, 0.9435737133026123, -26.572269439697266)
+
+-- [ Wave 11 ] --
+TDS:Place("EvolvedOperator", 0.544380784034729, 0.7026084065437317, -23.039798736572266)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+
+-- [ Wave 14 ] --
+TDS:Place("Shotgunner", 12.952227592468262, 0.8457773327827454, -22.459985733032227)
+
+-- [ Wave 15 ] --
+TDS:Place("Shotgunner", -0.6755876541137695, 1.4580821990966797, 28.56239128112793)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 16 ] --
+TDS:Place("Shotgunner", -8.568425178527832, 0.9530352354049683, -29.20541763305664)
+TDS:Upgrade(8)
+
+-- [ Wave 18 ] --
+TDS:Place("EvolvedKingpin", -1.280489444732666, 0.1370900273323059, -4.583098411560059)
+
+-- [ Wave 20 ] --
+TDS:Place("Shotgunner", 1.683906078338623, 1.4350392818450928, 28.121137619018555)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 22 ] --
+TDS:Place("Shotgunner", 3.7983531951904297, 1.4161100387573242, 28.683805465698242)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Pyromancer", -6.5900444984436035, 0.9587116241455078, -31.856204986572266)
+
+-- [[ END OF STRATEGY ]]
