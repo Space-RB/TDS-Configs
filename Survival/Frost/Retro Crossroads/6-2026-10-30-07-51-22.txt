@@ -1,0 +1,15 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "EvolvedJuggernaut", "Golden Cowboy", "Mortar", "Hacker")
+TDS:Mode("Frost")
+TDS:GameInfo("Retro Crossroads", {"Glass", "Limitation"})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
