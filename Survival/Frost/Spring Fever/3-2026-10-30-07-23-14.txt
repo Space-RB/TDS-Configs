@@ -1,0 +1,21 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.MatchTrackerEnabled = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "EvolvedJuggernaut", "Golden Cowboy", "Mortar", "Hacker")
+TDS:Mode("Frost")
+TDS:GameInfo("Spring Fever", {"Glass", "Limitation"})
+TDS:Ready()
+TDS:Place("Cowboy", -3.9651074409484863, 1.0229392051696777, -19.175827026367188)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
