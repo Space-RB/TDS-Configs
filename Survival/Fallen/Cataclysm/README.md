@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 9 recorded strategies available for this map**
+**📦 10 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -28,6 +28,7 @@ Select a strategy below and open its config file.
 | 7 | 2026-10-28 10:43 UTC | Fallen | Committed, ExplodingEnemies, Fog, Glass, HiddenEnemies, Limitation, Quarantine | Gatling Gun, Firework Technician, Trapper, Mercenary Base, EvolvedOperator | [Open](7-2026-10-28-10-43-08.txt) |
 | 8 | 2026-10-28 11:24 UTC | Fallen | Committed, ExplodingEnemies, Fog, Glass, HiddenEnemies, Limitation, Quarantine | Gatling Gun, Firework Technician, Trapper, Mercenary Base, EvolvedKingpin | [Open](8-2026-10-28-11-24-02.txt) |
 | 9 | 2026-10-28 12:07 UTC | Fallen | Committed, ExplodingEnemies, Fog, Glass, HiddenEnemies, Limitation, Quarantine | Gatling Gun, Firework Technician, Trapper, Mercenary Base, Necromancer | [Open](9-2026-10-28-12-07-00.txt) |
+| 10 | 2026-10-31 07:06 UTC | Fallen | ExplodingEnemies, Glass, HiddenEnemies | DJ Booth, Golden Scout, Engineer, Hacker, EvolvedJuggernaut | [Open](10-2026-10-31-07-06-16.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
