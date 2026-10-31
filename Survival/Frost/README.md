@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Medieval Times | 1 | [Open](Medieval%20Times/README.md) |
+| Medieval Times | 2 | [Open](Medieval%20Times/README.md) |
 
 | Unknown | 39 | [Open](Unknown/README.md) |
 | Simplicity | 26 | [Open](Simplicity/README.md) |
