@@ -16,13 +16,13 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Retro Crossroads | 2 | [Open](Retro%20Crossroads/README.md) |
+| Cataclysm | 10 | [Open](Cataclysm/README.md) |
 
 | Unknown | 47 | [Open](Unknown/README.md) |
 | Simplicity | 31 | [Open](Simplicity/README.md) |
 | Lay By | 27 | [Open](Lay%20By/README.md) |
-| Cataclysm | 9 | [Open](Cataclysm/README.md) |
 | Dusty Bridges | 2 | [Open](Dusty%20Bridges/README.md) |
+| Retro Crossroads | 2 | [Open](Retro%20Crossroads/README.md) |
 | U-Turn | 2 | [Open](U-Turn/README.md) |
 | Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
 | Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
