@@ -1,0 +1,195 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkipCutscenes = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.beta_dps = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedEnforcer", "Engineer", "Accelerator", "DJ Booth", "Gatling Gun")
+TDS:Mode("Act4")
+TDS:Ready()
+TDS:Place("Engineer", -3.6433019638061523, 0.9999890327453613, -25.631534576416016)
+TDS:Place("Engineer", -3.6433019638061523, 0.9999850988388062, -22.591533660888672)
+TDS:Place("Engineer", -6.6602935791015625, 1.0000019073486328, -25.94340705871582)
+TDS:Place("Engineer", -6.6602935791015625, 1.0000017881393433, -22.90340805053711)
+TDS:Place("Engineer", -3.6433019638061523, 0.999981164932251, -19.551532745361328)
+TDS:Place("Engineer", -6.6602935791015625, 1.0000015497207642, -19.863407135009766)
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 7 ] --
+TDS:Place("Gatling Gun", -8.895289421081543, 1.0400797128677368, -17.131406784057617)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Place("DJ Booth", -4.590547561645508, 1.0473304986953735, -15.624150276184082)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 23 ] --
+TDS:Place("EvolvedEnforcer", -3.640127658843994, 1.0377764701843262, -32.868385314941406)
+TDS:Place("EvolvedEnforcer", -5.664271831512451, 1.0377761125564575, -32.94681930541992)
+TDS:Place("EvolvedEnforcer", -7.779350280761719, 1.0377769470214844, -33.071380615234375)
+TDS:Place("EvolvedEnforcer", -3.8458313941955566, 0.9999831914901733, -34.85909652709961)
+TDS:Place("EvolvedEnforcer", -5.882530212402344, 0.9999831914901733, -34.9751091003418)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 26 ] --
+TDS:Place("Accelerator", 3.3852787017822266, 0.9999849200248718, -25.232107162475586)
+TDS:Place("Accelerator", 3.4497947692871094, 1.000002145767212, -32.325096130371094)
+TDS:Place("Accelerator", 3.3852787017822266, 0.9999803304672241, -21.692108154296875)
+TDS:Place("Accelerator", 6.989794731140137, 1.0377761125564575, -32.325096130371094)
+TDS:Place("Accelerator", 3.4497947692871094, 1.000002384185791, -35.86509704589844)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [[ END OF STRATEGY ]]
