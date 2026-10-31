@@ -1,0 +1,28 @@
+_G.AntiLag = true
+_G.AutoMoney = true
+_G.AutoSkip = true
+_G.StartHubStrategy = "b8b15ba0-4d75-4953-9c0d-55ee71bcffda"
+_G.TimeScaleEnabled = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "None", "None", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Lay By", {})
+TDS:Ready()
+
+-- [ Wave 3 ] --
+TDS:Place("Trapper", -2.509999990463257, 243, 169.17999267578125)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Place("Trapper", 2.5899999141693115, 243, 168.75999450683594)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]
