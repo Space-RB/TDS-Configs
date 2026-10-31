@@ -1,0 +1,21 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "None", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("The Heights", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Trapper", -10.963557243347168, 0.9999960660934448, -4.541034698486328)
+
+-- [ Wave 3 ] --
+TDS:Place("Trapper", -8.60206127166748, 1.4870851039886475, 19.31652069091797)
+
+-- [[ END OF STRATEGY ]]
