@@ -1,0 +1,62 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.beta_dps = true
+_G.AutoGatlingSettings.gui_hidden = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Crook Boss", "Scout", "Shotgunner", "Minigunner")
+TDS:Mode("Act1Easy")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Shotgunner", 27.56657600402832, 2.0009984970092773, 198.66465759277344)
+
+-- [ Wave 2 ] --
+TDS:Place("Scout", -0.7273964881896973, 2.0054683685302734, 214.54360961914062)
+
+-- [ Wave 3 ] --
+TDS:Place("Scout", -0.9000502824783325, 2.008101463317871, 211.50851440429688)
+TDS:Place("Scout", -3.6666576862335205, 2.0047595500946045, 213.7675018310547)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Minigunner", 25.448951721191406, 2.0009987354278564, 196.97000122070312)
+
+-- [ Wave 7 ] --
+TDS:Place("Shotgunner", -3.4141995906829834, 2.0225157737731934, 211.2598876953125)
+TDS:Upgrade(6)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Place("Crook Boss", 15.030298233032227, 2.015986919403076, 200.76036071777344)
+TDS:Place("Minigunner", -30.75950050354004, 2.0009994506835938, 192.5226287841797)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]
