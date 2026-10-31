@@ -1,0 +1,39 @@
+_G.AutoSkip = true
+_G.AutoXP = true
+_G.StartHubStrategy = "73045dd4-929c-490e-ad5b-2f671f631e5f"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Crook Boss", "None", "None", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("Retro Crossroads", {})
+TDS:Ready()
+
+-- [ Wave 4 ] --
+TDS:Place("Pyromancer", -123.173828125, -44.53631591796875, 29.072484970092773)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Place("Crook Boss", -120.34965515136719, -44.53631591796875, 35.441123962402344)
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Place("Crook Boss", -118.82084655761719, -44.53631591796875, 36.45985794067383, true)
+TDS:Place("Crook Boss", -120.88977813720703, -44.53631591796875, 35.97760772705078, true)
+TDS:Place("Crook Boss", -113.11463165283203, -44.28631591796875, 26.967931747436523, true)
+
+-- [ Wave 13 ] --
+TDS:Place("Pyromancer", -162.32826232910156, -44.53631591796875, 23.986032485961914)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
