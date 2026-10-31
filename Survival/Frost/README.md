@@ -16,15 +16,15 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Medieval Times | 3 | [Open](Medieval%20Times/README.md) |
+| Simplicity | 27 | [Open](Simplicity/README.md) |
 
 | Unknown | 39 | [Open](Unknown/README.md) |
-| Simplicity | 26 | [Open](Simplicity/README.md) |
 | Lay By | 21 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
 | Spring Fever | 5 | [Open](Spring%20Fever/README.md) |
 | Crossroads | 4 | [Open](Crossroads/README.md) |
 | Summer Castle | 4 | [Open](Summer%20Castle/README.md) |
+| Medieval Times | 3 | [Open](Medieval%20Times/README.md) |
 | Wrecked Battlefield II | 3 | [Open](Wrecked%20Battlefield%20II/README.md) |
 | Cataclysm | 2 | [Open](Cataclysm/README.md) |
 | Crystal Cave | 2 | [Open](Crystal%20Cave/README.md) |
