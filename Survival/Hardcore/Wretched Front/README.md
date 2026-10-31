@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 200 recorded strategies available for this map**
+**📦 201 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -219,6 +219,7 @@ Select a strategy below and open its config file.
 | 198 | 2026-10-31 02:43 UTC | Hardcore | — | Pyromancer, EvolvedKingpin, EvolvedOperator, Shotgunner, Commander | [Open](198-2026-10-31-02-43-19.txt) |
 | 199 | 2026-10-31 06:42 UTC | Hardcore | — | EvolvedJuggernaut, Golden Pyromancer, Hunter, None | [Open](199-2026-10-31-06-42-13.txt) |
 | 200 | 2026-10-31 14:52 UTC | Hardcore | — | EvolvedJuggernaut, Boomerang, Freezer, Farm, Crook Boss | [Open](200-2026-10-31-14-52-06.txt) |
+| 201 | 2026-10-31 15:00 UTC | Hardcore | — | EvolvedJuggernaut, Boomerang, Freezer, Farm, Crook Boss | [Open](201-2026-10-31-15-00-46.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
