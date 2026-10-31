@@ -1,0 +1,16 @@
+_G.AutoMoney = true
+_G.AutoSkip = true
+_G.StartHubStrategy = "7ac560d2-83fe-4902-b837-082b6fe8066e"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Demoman", "Militant", "Scout", "None")
+TDS:Mode("Unknown")
+TDS:GameInfo("Unknown", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
