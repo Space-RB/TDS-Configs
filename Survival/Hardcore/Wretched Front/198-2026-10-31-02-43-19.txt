@@ -1,0 +1,68 @@
+_G.AutoChain = true
+_G.AutoRejoin = false
+_G.AutoSkip = true
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "EvolvedKingpin", "EvolvedOperator", "Shotgunner", "Commander")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Pyromancer", -5.920204162597656, 0.9564069509506226, -31.948986053466797)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Place("EvolvedOperator", -4.06655216217041, 0.9712625741958618, -29.207298278808594)
+TDS:Place("EvolvedOperator", -6.201891899108887, 0.9344043731689453, -27.842987060546875)
+
+-- [ Wave 8 ] --
+TDS:Place("EvolvedOperator", -8.723008155822754, 0.9667155742645264, -27.769744873046875)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 16 ] --
+TDS:Place("EvolvedKingpin", -1.7664642333984375, 0.9769142866134644, -30.78644371032715)
+
+-- [ Wave 17 ] --
+TDS:Place("Commander", -0.9787840843200684, 0.8664019107818604, -25.101346969604492)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 19 ] --
+TDS:Place("EvolvedOperator", -8.266185760498047, 0.9609631299972534, -30.268327713012695)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
