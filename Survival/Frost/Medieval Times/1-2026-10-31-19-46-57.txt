@@ -1,0 +1,72 @@
+_G.AutoPickups = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.MatchTrackerEnabled = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Assassin", "Shotgunner", "Crook Boss", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Medieval Times", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 5.44851541519165, 1.000009536743164, 20.5451602935791)
+TDS:Place("Assassin", 5.255990982055664, 1.000009536743164, 17.970867156982422)
+TDS:Place("Assassin", 6.127725124359131, 1.000009536743164, 26.827293395996094)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Place("Assassin", 11.573232650756836, 1.000009536743164, 14.769911766052246)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Shotgunner", 9.413721084594727, 1.000009536743164, 26.667076110839844)
+TDS:Place("Assassin", 18.00322914123535, 1.000009536743164, 9.082696914672852)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(6)
+TDS:Place("Assassin", 18.18705940246582, 1.000009536743164, -1.3090014457702637)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Place("Crook Boss", 6.3512725830078125, 1.000009536743164, 8.903257369995117)
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+TDS:Place("Crook Boss", 5.992862701416016, 1.0000100135803223, 5.884459495544434)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
