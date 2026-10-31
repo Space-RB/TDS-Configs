@@ -1,0 +1,16 @@
+_G.AutoSkip = true
+_G.AutoXP = true
+_G.StartHubStrategy = "73045dd4-929c-490e-ad5b-2f671f631e5f"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Crook Boss", "Commander", "None", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("Retro Crossroads", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
