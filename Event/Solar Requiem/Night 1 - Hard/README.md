@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 65 recorded strategies available for this map**
+**📦 66 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -84,6 +84,7 @@ Select a strategy below and open its config file.
 | 63 | 2026-10-27 15:52 UTC | Act1 | — | Assassin, Gatling Gun, EvolvedEnforcer, None | [Open](63-2026-10-27-15-52-08.txt) |
 | 64 | 2026-10-28 09:42 UTC | Act1 | — | Minigunner, Pulse Trooper, Tesla, Golden Pyromancer, Crook Boss | [Open](64-2026-10-28-09-42-27.txt) |
 | 65 | 2026-10-28 10:19 UTC | Act1 | — | Minigunner, Soldier, Assassin, None | [Open](65-2026-10-28-10-19-36.txt) |
+| 66 | 2026-10-31 13:33 UTC | Act1 | — | Commander, Golden Cowboy, Accelerator, Mercenary Base, Farm | [Open](66-2026-10-31-13-33-28.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
