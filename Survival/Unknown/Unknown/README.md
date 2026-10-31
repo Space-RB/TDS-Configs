@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 155 recorded strategies available for this map**
+**📦 156 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -174,6 +174,7 @@ Select a strategy below and open its config file.
 | 153 | 2026-10-31 05:57 UTC | Unknown | — | Trapper, Gatling Gun, DJ Booth, Mercenary Base, None | [Open](153-2026-10-31-05-57-48.txt) |
 | 154 | 2026-10-31 09:20 UTC | Unknown | — | Electroshocker, Sniper, None | [Open](154-2026-10-31-09-20-38.txt) |
 | 155 | 2026-10-31 13:20 UTC | Unknown | — | Cowboy, Engineer, Hacker, Accelerator, Firework Technician | [Open](155-2026-10-31-13-20-54.txt) |
+| 156 | 2026-10-31 16:47 UTC | Unknown | — | Pyromancer, Demoman, Militant, Scout, None | [Open](156-2026-10-31-16-47-27.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
