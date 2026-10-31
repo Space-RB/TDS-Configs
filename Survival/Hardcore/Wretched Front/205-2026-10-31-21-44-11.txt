@@ -1,0 +1,81 @@
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Boomerang", "Farm", "Golden Crook Boss", "Scout", "Golden Minigunner")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Farm", -10.438653945922852, 1.5426832437515259, 24.848831176757812)
+TDS:Upgrade(1)
+TDS:Place("Farm", -10.438636779785156, 1.5293056964874268, 28.388809204101562)
+TDS:Upgrade(2)
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", -10.438636779785156, 1.4748601913452148, 31.928810119628906)
+TDS:Upgrade(3)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", -10.438634872436523, 1.3924167156219482, 35.46881103515625)
+TDS:Upgrade(4)
+TDS:Place("Farm", -10.174688339233398, 1.3093608617782593, 38.99892807006836)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(5)
+TDS:Place("Boomerang", 10.077018737792969, 1.2992624044418335, 22.62546730041504)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 5 ] --
+TDS:Place("Farm", -13.827587127685547, 1.5936306715011597, 25.871931076049805)
+TDS:Upgrade(7)
+TDS:Place("Farm", -13.76573657989502, 1.5473341941833496, 30.719675064086914)
+TDS:Upgrade(8)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", -13.765734672546387, 1.4357597827911377, 34.259674072265625)
+TDS:Upgrade(9)
+TDS:Place("Farm", -14.003771781921387, 1.273071050643921, 37.791629791259766)
+TDS:Upgrade(10)
+TDS:Place("Farm", -13.536553382873535, 1.1755708456039429, 41.30063247680664)
+TDS:Upgrade(11)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+TDS:Upgrade(7)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(8)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(9)
+TDS:Upgrade(4)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
