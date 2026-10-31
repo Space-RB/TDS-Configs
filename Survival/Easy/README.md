@@ -16,9 +16,8 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Four Seasons | 1 | [Open](Four%20Seasons/README.md) |
+| Unknown | 55 | [Open](Unknown/README.md) |
 
-| Unknown | 54 | [Open](Unknown/README.md) |
 | Gilded Path | 19 | [Open](Gilded%20Path/README.md) |
 | Dead Ahead | 11 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 5 | [Open](Lay%20By/README.md) |
@@ -27,6 +26,7 @@ Choose one of the categories below to continue.
 | Cataclysm | 1 | [Open](Cataclysm/README.md) |
 | Cyber City | 1 | [Open](Cyber%20City/README.md) |
 | Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
+| Four Seasons | 1 | [Open](Four%20Seasons/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
 | Retro Lighthouse | 1 | [Open](Retro%20Lighthouse/README.md) |
