@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 54 | [Open](Unknown/README.md) |
+| Four Seasons | 1 | [Open](Four%20Seasons/README.md) |
 
+| Unknown | 54 | [Open](Unknown/README.md) |
 | Gilded Path | 19 | [Open](Gilded%20Path/README.md) |
 | Dead Ahead | 11 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 5 | [Open](Lay%20By/README.md) |
