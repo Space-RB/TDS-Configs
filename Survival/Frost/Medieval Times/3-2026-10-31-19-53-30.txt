@@ -1,0 +1,45 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Assassin", "Shotgunner", "Crook Boss", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Medieval Times", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 6.113008499145508, 1.000009536743164, 20.506633758544922)
+TDS:Place("Assassin", 11.839757919311523, 1.000009536743164, 14.954925537109375)
+
+-- [ Wave 3 ] --
+TDS:Place("Assassin", 17.511974334716797, 1.000009536743164, 8.51845645904541)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Assassin", 18.048213958740234, 1.000009536743164, -0.7054939270019531)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Place("Assassin", 5.687540054321289, 1.000009536743164, 28.19940185546875)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [[ END OF STRATEGY ]]
