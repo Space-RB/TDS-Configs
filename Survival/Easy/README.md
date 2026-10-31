@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| The Heights | 1 | [Open](The%20Heights/README.md) |
+| Cyber City | 1 | [Open](Cyber%20City/README.md) |
 
 | Unknown | 53 | [Open](Unknown/README.md) |
 | Gilded Path | 19 | [Open](Gilded%20Path/README.md) |
@@ -31,6 +31,7 @@ Choose one of the categories below to continue.
 | Retro Lighthouse | 1 | [Open](Retro%20Lighthouse/README.md) |
 | Ruby Escort | 1 | [Open](Ruby%20Escort/README.md) |
 | Simplicity | 1 | [Open](Simplicity/README.md) |
+| The Heights | 1 | [Open](The%20Heights/README.md) |
 | U-Turn | 1 | [Open](U-Turn/README.md) |
 </div>
 
