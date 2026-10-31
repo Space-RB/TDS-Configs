@@ -1,0 +1,58 @@
+_G.AutoGatling = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.TimeScaleEnabled = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.gui_hidden = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedKingpin", "Gatling Gun", "Engineer", "DJ Booth", "Hacker")
+TDS:Mode("Act4")
+TDS:Ready()
+TDS:Place("Engineer", -8.693915367126465, 1.0000019073486328, -25.370759963989258)
+TDS:Place("Engineer", -4.127281188964844, 1.0000019073486328, -25.466354370117188)
+TDS:Place("Engineer", -6.377002239227295, 1.0000017881393433, -22.990108489990234)
+TDS:Place("Engineer", -8.947336196899414, 1.0000016689300537, -21.363739013671875)
+TDS:Place("Engineer", -4.050446510314941, 1.0000015497207642, -20.942520141601562)
+TDS:Place("Engineer", -6.579597473144531, 1.0400007963180542, -18.975433349609375)
+
+-- [ Wave 2 ] --
+TDS:Place("DJ Booth", -3.8355507850646973, 1.0427426099777222, -15.041181564331055)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Place("Engineer", -8.727375984191895, 1.0000019073486328, -25.427854537963867)
+TDS:Place("Engineer", -4.10784912109375, 1.0000019073486328, -25.472322463989258)
+TDS:Place("Engineer", -8.893906593322754, 1.0000016689300537, -22.233142852783203)
+TDS:Place("Engineer", -5.877841949462891, 1.0000016689300537, -22.476234436035156)
+TDS:Place("Engineer", -7.115883827209473, 1.0000014305114746, -19.35784912109375)
+TDS:Place("Engineer", -3.8768367767333984, 1.0000014305114746, -19.680208206176758)
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(11)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]
