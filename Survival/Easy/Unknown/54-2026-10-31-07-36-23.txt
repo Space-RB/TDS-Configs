@@ -1,0 +1,64 @@
+_G.AutoRestart = false
+_G.AutoSkipCutscenes = true
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Shotgunner", "Scout", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Scout", 7.108095169067383, 1.0190517902374268, -10.606599807739258)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Place("Scout", 6.835884094238281, 1.0190330743789673, -13.634387969970703)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Shotgunner", 6.888846397399902, 1.0183749198913574, -17.828182220458984)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Place("Shotgunner", 7.7791900634765625, 1.0188394784927368, -15.992729187011719)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", 5.523303985595703, 1.0189100503921509, -16.312631607055664)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [[ END OF STRATEGY ]]
