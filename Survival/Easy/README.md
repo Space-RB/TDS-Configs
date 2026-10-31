@@ -16,15 +16,15 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Cyber City | 1 | [Open](Cyber%20City/README.md) |
+| Unknown | 54 | [Open](Unknown/README.md) |
 
-| Unknown | 53 | [Open](Unknown/README.md) |
 | Gilded Path | 19 | [Open](Gilded%20Path/README.md) |
 | Dead Ahead | 11 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 5 | [Open](Lay%20By/README.md) |
 | Black Spot Exchange | 2 | [Open](Black%20Spot%20Exchange/README.md) |
 | Night Station | 2 | [Open](Night%20Station/README.md) |
 | Cataclysm | 1 | [Open](Cataclysm/README.md) |
+| Cyber City | 1 | [Open](Cyber%20City/README.md) |
 | Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
