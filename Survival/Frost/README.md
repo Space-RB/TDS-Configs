@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 39 | [Open](Unknown/README.md) |
+| Medieval Times | 1 | [Open](Medieval%20Times/README.md) |
 
+| Unknown | 39 | [Open](Unknown/README.md) |
 | Simplicity | 26 | [Open](Simplicity/README.md) |
 | Lay By | 21 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
