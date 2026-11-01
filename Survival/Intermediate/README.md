@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Harbor | 1 | [Open](Harbor/README.md) |
+| Retro Lighthouse | 1 | [Open](Retro%20Lighthouse/README.md) |
 
 | Unknown | 5 | [Open](Unknown/README.md) |
 | Dead Ahead | 4 | [Open](Dead%20Ahead/README.md) |
@@ -27,6 +27,7 @@ Choose one of the categories below to continue.
 | Black Spot Exchange | 1 | [Open](Black%20Spot%20Exchange/README.md) |
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
 | Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
+| Harbor | 1 | [Open](Harbor/README.md) |
 | Medieval Times | 1 | [Open](Medieval%20Times/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Night Station | 1 | [Open](Night%20Station/README.md) |
