@@ -1,0 +1,42 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Crook Boss", "None", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Abyssal Trench", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", 7.0587005615234375, 0.447479784488678, -10.454551696777344)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Place("Pyromancer", 6.966640472412109, 0.4474788308143616, -7.415946006774902)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 11 ] --
+TDS:Place("Crook Boss", 7.482440948486328, 0.4474760890007019, 0.9447925090789795)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [[ END OF STRATEGY ]]
