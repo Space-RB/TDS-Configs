@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Easy | 108 | [Open](Easy/README.md) |
+| Easy | 109 | [Open](Easy/README.md) |
 
 | Hardcore | 316 | [Open](Hardcore/README.md) |
 | Unknown | 177 | [Open](Unknown/README.md) |
