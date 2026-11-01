@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 68 recorded strategies available for this map**
+**📦 69 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -87,6 +87,7 @@ Select a strategy below and open its config file.
 | 66 | 2026-10-31 13:33 UTC | Act1 | — | Commander, Golden Cowboy, Accelerator, Mercenary Base, Farm | [Open](66-2026-10-31-13-33-28.txt) |
 | 67 | 2026-11-01 02:40 UTC | Act1 | — | Engineer, EvolvedJuggernaut, EvolvedKingpin, Gatling Gun, Golden Minigunner | [Open](67-2026-11-01-02-40-41.txt) |
 | 68 | 2026-11-01 09:26 UTC | Act1 | — | DJ Booth, Hacker, Gatling Gun, Engineer, EvolvedKingpin | [Open](68-2026-11-01-09-26-18.txt) |
+| 69 | 2026-11-01 12:16 UTC | Act1 | — | Gatling Gun, Assassin, Hacker, Mercenary Base, Turret | [Open](69-2026-11-01-12-16-43.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
