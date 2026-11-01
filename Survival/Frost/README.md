@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 40 | [Open](Unknown/README.md) |
+| Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
 
+| Unknown | 40 | [Open](Unknown/README.md) |
 | Simplicity | 31 | [Open](Simplicity/README.md) |
 | Lay By | 21 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
