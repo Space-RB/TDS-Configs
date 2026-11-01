@@ -1,0 +1,22 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoNecro = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.SupportCaravan = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Engineer", "Necromancer", "EvolvedKingpin", "Hacker")
+TDS:Mode("Frost")
+TDS:GameInfo("Lay By", {"Committed", "ExplodingEnemies", "Fog", "Limitation", "Quarantine"})
+TDS:Ready()
+TDS:VoteSkip(0)
+
+-- [[ END OF STRATEGY ]]
