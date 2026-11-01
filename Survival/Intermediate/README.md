@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Retro Lighthouse | 2 | [Open](Retro%20Lighthouse/README.md) |
+| Retro Lighthouse | 3 | [Open](Retro%20Lighthouse/README.md) |
 
 | Unknown | 5 | [Open](Unknown/README.md) |
 | Dead Ahead | 4 | [Open](Dead%20Ahead/README.md) |
