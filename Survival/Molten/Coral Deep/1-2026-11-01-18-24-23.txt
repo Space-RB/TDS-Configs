@@ -1,0 +1,95 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Militant", "Farm", "Hunter", "Freezer", "Trapper")
+TDS:Mode("Molten")
+TDS:GameInfo("Coral Deep", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Trapper", 394.27398681640625, 54.56085968017578, -97.55046844482422)
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", 393.8941345214844, 54.56083679199219, -102.99807739257812)
+
+-- [ Wave 3 ] --
+TDS:Place("Trapper", 400.659912109375, 52.837459564208984, -102.97919464111328)
+
+-- [ Wave 5 ] --
+TDS:Place("Trapper", 397.2513122558594, 53.96164321899414, -97.77396392822266)
+TDS:Place("Trapper", 399.9870300292969, 52.69719314575195, -97.72114562988281)
+TDS:Place("Trapper", 396.7578430175781, 54.060733795166016, -104.01829528808594)
+
+-- [ Wave 6 ] --
+TDS:Place("Trapper", 391.2603454589844, 54.565120697021484, -97.93614959716797)
+TDS:Upgrade(7)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 16 ] --
+TDS:Place("Hunter", 416.97607421875, 53.51349639892578, -140.65785217285156)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(2)
+TDS:Place("Militant", 428.6948547363281, 54.58411407470703, -171.6505889892578)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
