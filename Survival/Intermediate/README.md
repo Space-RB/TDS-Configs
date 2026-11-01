@@ -16,10 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Retro Lighthouse | 3 | [Open](Retro%20Lighthouse/README.md) |
+| Infernal Abyss | 1 | [Open](Infernal%20Abyss/README.md) |
 
 | Unknown | 5 | [Open](Unknown/README.md) |
 | Dead Ahead | 4 | [Open](Dead%20Ahead/README.md) |
+| Retro Lighthouse | 3 | [Open](Retro%20Lighthouse/README.md) |
 | Chess Board | 2 | [Open](Chess%20Board/README.md) |
 | Lay By | 2 | [Open](Lay%20By/README.md) |
 | Ruby Escort | 2 | [Open](Ruby%20Escort/README.md) |
