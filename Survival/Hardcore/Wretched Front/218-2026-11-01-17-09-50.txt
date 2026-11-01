@@ -1,0 +1,65 @@
+_G.AutoGems = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.StartHubStrategy = "f8180e49-ddf2-4db2-969f-885bf66edd8f"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Pyromancer", "Hunter", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Pyromancer", -2.426941394805908, 1.0169448852539062, -35.554622650146484)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Place("Hunter", -0.8249087333679199, 1.407608985900879, 22.599985122680664)
+
+-- [ Wave 9 ] --
+TDS:Place("Hunter", 2.2150912284851074, 1.38319730758667, 22.599985122680664)
+
+-- [ Wave 11 ] --
+TDS:Place("Hunter", 5.255091667175293, 1.3547388315200806, 22.599985122680664)
+
+-- [ Wave 14 ] --
+TDS:Place("Hunter", 8.568971633911133, 1.321141242980957, 22.66337776184082)
+TDS:Place("Hunter", 0.4727248549461365, 1.3849170207977295, 19.43682861328125)
+
+-- [ Wave 16 ] --
+TDS:Place("Hunter", 3.8234710693359375, 1.2418315410614014, 19.836633682250977)
+TDS:Place("Hunter", 7.054718971252441, 1.0919309854507446, 19.82923126220703)
+
+-- [ Wave 17 ] --
+TDS:Place("Hunter", -4.166952133178711, 1.3164780139923096, 17.204668045043945)
+
+-- [ Wave 18 ] --
+TDS:Place("Hunter", -3.5110790729522705, 1.4471653699874878, 21.176578521728516)
+
+-- [ Wave 19 ] --
+TDS:Place("Hunter", 1.3543081283569336, 0.8140922784805298, 16.612140655517578)
+TDS:Place("Pyromancer", -1.8776447772979736, 1.4805257320404053, 33.20941925048828)
+TDS:Upgrade(12)
+
+-- [ Wave 20 ] --
+TDS:Place("Pyromancer", 3.002412796020508, 0.5039252042770386, -15.774724006652832)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Pyromancer", -13.773242950439453, -0.533580482006073, 0.5694842338562012)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [[ END OF STRATEGY ]]
