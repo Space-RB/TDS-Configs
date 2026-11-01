@@ -1,0 +1,34 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Necromancer", "Engineer", "Turret", "Commander")
+TDS:Mode("Act4")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Engineer", 3.53383207321167, 0.9999847412109375, -25.13787841796875)
+TDS:Place("Engineer", -16.586877822875977, 1.056627631187439, -32.55830383300781)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Necromancer", -8.902420043945312, 1.0000016689300537, -22.347549438476562)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+
+-- [[ END OF STRATEGY ]]
