@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 213 recorded strategies available for this map**
+**📦 214 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -232,6 +232,7 @@ Select a strategy below and open its config file.
 | 211 | 2026-11-01 12:06 UTC | Hardcore | — | Brawler, Golden Pyromancer, Golden Soldier, Electroshocker, None | [Open](211-2026-11-01-12-06-20.txt) |
 | 212 | 2026-11-01 12:37 UTC | Hardcore | — | Farm, EvolvedKingpin, Electroshocker, None | [Open](212-2026-11-01-12-37-04.txt) |
 | 213 | 2026-11-01 14:09 UTC | Hardcore | — | Farm, Boomerang, Crook Boss, None | [Open](213-2026-11-01-14-09-09.txt) |
+| 214 | 2026-11-01 14:09 UTC | Hardcore | — | Farm, Boomerang, Crook Boss, None | [Open](214-2026-11-01-14-09-18.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
