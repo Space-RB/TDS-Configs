@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 8 recorded strategies available for this map**
+**📦 9 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -27,6 +27,7 @@ Select a strategy below and open its config file.
 | 6 | 2026-10-18 19:17 UTC | Casual | — | Farm, Minigunner, Crook Boss, Commander, Pyromancer | [Open](6-2026-10-18-19-17-11.txt) |
 | 7 | 2026-10-21 07:53 UTC | Casual | Glass, HiddenEnemies | Electroshocker, Sniper, EvolvedOperator, Minigunner, Crook Boss | [Open](7-2026-10-21-07-53-09.txt) |
 | 8 | 2026-10-23 01:27 UTC | Casual | — | Gatling Gun, DJ Booth, Mercenary Base, Trapper, None | [Open](8-2026-10-23-01-27-20.txt) |
+| 9 | 2026-11-01 13:17 UTC | Casual | — | Soldier, EvolvedJuggernaut, EvolvedKingpin, Gladiator, Executioner | [Open](9-2026-11-01-13-17-51.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
