@@ -1,0 +1,24 @@
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.StreamerMode = true
+_G.TimeScaleValue = 0.5
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Hacker", "Golden Minigunner", "Gatling Gun", "Turret", "Soldier")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Soldier", -7.367032051086426, -0.3086249828338623, -2.604705810546875)
+TDS:Place("Soldier", 3.081697940826416, 0.22526437044143677, -0.8029232025146484)
+TDS:Place("Soldier", -12.3506498336792, -0.40566694736480713, -8.59327507019043)
+
+-- [[ END OF STRATEGY ]]
