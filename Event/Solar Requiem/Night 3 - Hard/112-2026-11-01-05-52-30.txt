@@ -1,0 +1,56 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoNecro = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.MatchTrackerEnabled = false
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Engineer", "EvolvedJuggernaut", "EvolvedKingpin", "Gatling Gun", "Golden Minigunner")
+TDS:Mode("Act3")
+TDS:Ready()
+TDS:Place("Engineer", -2.5155630111694336, 103.89675903320312, 122.55269622802734)
+TDS:Place("Engineer", -5.5471343994140625, 103.95339965820312, 122.32648468017578)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Engineer", -3.8354434967041016, 103.67146301269531, 119.81417083740234)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Engineer", -0.8577742576599121, 102.91655731201172, 101.50341033935547)
+TDS:Upgrade(4)
+TDS:Place("Engineer", -1.7015907764434814, 102.49090576171875, 98.58880615234375)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+TDS:Place("Engineer", 1.2507648468017578, 102.65868377685547, 99.31350708007812)
+TDS:Upgrade(6)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Place("Gatling Gun", 5.514349937438965, 112.8516616821289, 97.32047271728516)
+TDS:Place("Engineer", -1.6551454067230225, 102.49085235595703, 98.62073516845703)
+
+-- [[ END OF STRATEGY ]]
