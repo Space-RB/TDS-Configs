@@ -16,9 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 55 | [Open](Unknown/README.md) |
+| Gilded Path | 20 | [Open](Gilded%20Path/README.md) |
 
-| Gilded Path | 19 | [Open](Gilded%20Path/README.md) |
+| Unknown | 55 | [Open](Unknown/README.md) |
 | Dead Ahead | 11 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 5 | [Open](Lay%20By/README.md) |
 | Black Spot Exchange | 2 | [Open](Black%20Spot%20Exchange/README.md) |
