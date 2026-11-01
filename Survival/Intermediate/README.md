@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Infernal Abyss | 1 | [Open](Infernal%20Abyss/README.md) |
+| Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 
 | Unknown | 5 | [Open](Unknown/README.md) |
 | Dead Ahead | 4 | [Open](Dead%20Ahead/README.md) |
@@ -29,6 +29,7 @@ Choose one of the categories below to continue.
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
 | Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
 | Harbor | 1 | [Open](Harbor/README.md) |
+| Infernal Abyss | 1 | [Open](Infernal%20Abyss/README.md) |
 | Medieval Times | 1 | [Open](Medieval%20Times/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Night Station | 1 | [Open](Night%20Station/README.md) |
