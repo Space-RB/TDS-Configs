@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 40 recorded strategies available for this map**
+**📦 41 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -59,6 +59,7 @@ Select a strategy below and open its config file.
 | 38 | 2026-10-31 15:10 UTC | Frost | — | Trapper, None | [Open](38-2026-10-31-15-10-50.txt) |
 | 39 | 2026-10-31 15:17 UTC | Frost | — | Spotlight Tech, Hacker, Engineer, DJ Booth, Pyromancer | [Open](39-2026-10-31-15-17-41.txt) |
 | 40 | 2026-11-01 12:35 UTC | Frost | — | Trapper, Militant, Commander, Assassin, None | [Open](40-2026-11-01-12-35-15.txt) |
+| 41 | 2026-11-01 19:56 UTC | Frost | — | Star Cannon, Turret, Gatling Gun, DJ Booth, Assassin | [Open](41-2026-11-01-19-56-11.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
