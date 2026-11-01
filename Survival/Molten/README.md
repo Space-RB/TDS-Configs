@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 12 | [Open](Unknown/README.md) |
+| Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
 
+| Unknown | 12 | [Open](Unknown/README.md) |
 | Simplicity | 9 | [Open](Simplicity/README.md) |
 | Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
 | U-Turn | 5 | [Open](U-Turn/README.md) |
