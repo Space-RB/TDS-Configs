@@ -1,0 +1,52 @@
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Engineer", "Turret", "Necromancer", "DJ Booth")
+TDS:Mode("Act4")
+TDS:Ready()
+TDS:Place("DJ Booth", -3.932335615158081, 1.0000019073486328, -25.664281845092773)
+TDS:Unequip("DJ Booth")
+TDS:Equip("Minigunner")
+TDS:SetOption(1, "Track", "Green")
+TDS:Place("Engineer", -9.444253921508789, 0.9999938607215881, -33.55515670776367)
+TDS:Place("Engineer", 3.643141269683838, 0.9999842643737793, -24.842308044433594)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:VoteSkip(0)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Place("Engineer", -8.011114120483398, 1.0000019073486328, -25.964664459228516)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:SetOption(1, "Track", "Red")
+TDS:Upgrade(4)
+TDS:VoteSkip(7)
+TDS:WaitForWave(7)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+
+-- [[ END OF STRATEGY ]]
