@@ -1,0 +1,55 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.StreamerMode = true
+_G.TimeScaleValue = 1
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.gui_hidden = true
+_G.GatlingTargets = 2
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedKingpin", "Engineer", "Hacker", "EvolvedJuggernaut", "Gatling Gun")
+TDS:Mode("Act4")
+TDS:Ready()
+TDS:Place("Engineer", -3.6642813682556152, 1.0230772495269775, -32.781837463378906)
+TDS:Place("Engineer", -9.430088996887207, 0.9999926090240479, -33.32605743408203)
+TDS:Place("Engineer", -6.472870826721191, 1.028363585472107, -33.94518280029297)
+TDS:Place("Engineer", -3.9894912242889404, 0.9999831914901733, -35.80439376831055)
+TDS:Place("Engineer", -9.476953506469727, 1.0079967975616455, -36.36569595336914)
+TDS:Place("Engineer", -6.6031174659729, 1.1681026220321655, -37.356990814208984)
+TDS:Upgrade(6)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
