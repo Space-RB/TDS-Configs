@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 77 recorded strategies available for this map**
+**📦 78 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -96,6 +96,7 @@ Select a strategy below and open its config file.
 | 75 | 2026-11-01 04:45 UTC | Hardcore | — | EvolvedOperator, Farm, Freezer, None | [Open](75-2026-11-01-04-45-36.txt) |
 | 76 | 2026-11-01 06:02 UTC | Hardcore | — | Golden Soldier, EvolvedJuggernaut, None | [Open](76-2026-11-01-06-02-50.txt) |
 | 77 | 2026-11-01 09:17 UTC | Hardcore | — | Pyromancer, Crook Boss, None | [Open](77-2026-11-01-09-17-49.txt) |
+| 78 | 2026-11-01 10:10 UTC | Hardcore | — | Engineer, Soldier, Hacker, Assassin, Golden Minigunner | [Open](78-2026-11-01-10-10-43.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
