@@ -1,0 +1,95 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoReady = false
+_G.MatchTrackerEnabled = false
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.beta_dps = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Hacker", "DJ Booth", "Gatling Gun", "Engineer", "Star Cannon")
+TDS:Mode("Act2")
+TDS:Ready()
+TDS:Place("Engineer", 8.042023658752441, 48.19904327392578, 2.683882713317871)
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Place("Engineer", 5.524183750152588, 48.262996673583984, 4.425310134887695)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Engineer", 2.803858995437622, 48.198089599609375, -4.620275974273682)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("DJ Booth", -0.32363462448120117, 48.052040100097656, 1.3285982608795166)
+TDS:Upgrade(4)
+TDS:Place("Engineer", 5.815178394317627, 48.20571517944336, -4.810773849487305)
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Place("Engineer", 8.576736450195312, 47.737754821777344, -3.7109296321868896)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 7 ] --
+TDS:Place("Engineer", 0.2397317886352539, 48.04498291015625, -2.9507107734680176)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", -6.658543109893799, 47.66386413574219, -9.999589920043945)
+TDS:Upgrade(6)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(7)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(4)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Hacker", -11.598468780517578, 47.79883575439453, -4.9930620193481445)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
