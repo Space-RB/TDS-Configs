@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| The Heavens | 1 | [Open](The%20Heavens/README.md) |
+| The Heavens | 2 | [Open](The%20Heavens/README.md) |
 
 | Unknown | 11 | [Open](Unknown/README.md) |
 | Simplicity | 9 | [Open](Simplicity/README.md) |
