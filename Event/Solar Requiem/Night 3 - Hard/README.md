@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 114 recorded strategies available for this map**
+**📦 115 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -133,6 +133,7 @@ Select a strategy below and open its config file.
 | 112 | 2026-11-01 05:52 UTC | Act3 | — | Engineer, EvolvedJuggernaut, EvolvedKingpin, Gatling Gun, Golden Minigunner | [Open](112-2026-11-01-05-52-30.txt) |
 | 113 | 2026-11-01 06:23 UTC | Act3 | — | Engineer, EvolvedJuggernaut, EvolvedKingpin, Gatling Gun, Golden Minigunner | [Open](113-2026-11-01-06-23-12.txt) |
 | 114 | 2026-11-01 10:03 UTC | Act3 | — | DJ Booth, Hacker, Gatling Gun, Engineer, EvolvedKingpin | [Open](114-2026-11-01-10-03-03.txt) |
+| 115 | 2026-11-01 15:58 UTC | Act3 | — | Hacker, DJ Booth, Gatling Gun, Engineer, Star Cannon | [Open](115-2026-11-01-15-58-06.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
