@@ -1,0 +1,53 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Soldier", "EvolvedJuggernaut", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Soldier", -0.9939088821411133, 0.8620588779449463, -25.03539276123047)
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", 0.812523603439331, 0.6836689710617065, -22.606090545654297)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Soldier", -3.0143089294433594, 0.6974568963050842, -22.720550537109375)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Soldier", 2.6929163932800293, 0.6395345330238342, -20.207881927490234)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+TDS:Place("Soldier", 4.015809535980225, 0.9512050151824951, -26.85692024230957)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Place("Soldier", -1.1714963912963867, 0.5777155756950378, -20.30277442932129)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 17 ] --
+TDS:Place("EvolvedJuggernaut", 3.205775260925293, 1.4440237283706665, 40.416996002197266)
+
+-- [[ END OF STRATEGY ]]
