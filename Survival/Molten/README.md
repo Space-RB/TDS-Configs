@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Winter Abyss | 1 | [Open](Winter%20Abyss/README.md) |
+| The Heavens | 1 | [Open](The%20Heavens/README.md) |
 
 | Unknown | 11 | [Open](Unknown/README.md) |
 | Simplicity | 9 | [Open](Simplicity/README.md) |
@@ -35,6 +35,7 @@ Choose one of the categories below to continue.
 | Spring Fever | 1 | [Open](Spring%20Fever/README.md) |
 | Toyboard | 1 | [Open](Toyboard/README.md) |
 | Tropical Isles | 1 | [Open](Tropical%20Isles/README.md) |
+| Winter Abyss | 1 | [Open](Winter%20Abyss/README.md) |
 | Wrecked Battlefield | 1 | [Open](Wrecked%20Battlefield/README.md) |
 </div>
 
