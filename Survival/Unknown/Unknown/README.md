@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 160 recorded strategies available for this map**
+**📦 161 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -179,6 +179,7 @@ Select a strategy below and open its config file.
 | 158 | 2026-10-31 22:49 UTC | Unknown | — | Commander, Minigunner, Ranger, Mortar, Electroshocker | [Open](158-2026-10-31-22-49-41.txt) |
 | 159 | 2026-11-01 01:30 UTC | Unknown | — | Pyromancer, Crook Boss, None | [Open](159-2026-11-01-01-30-39.txt) |
 | 160 | 2026-11-01 01:47 UTC | Unknown | — | Pyromancer, Crook Boss, None | [Open](160-2026-11-01-01-47-48.txt) |
+| 161 | 2026-11-01 01:49 UTC | Unknown | — | EvolvedJuggernaut, EvolvedKingpin, DJ Booth, Engineer, Hacker | [Open](161-2026-11-01-01-49-19.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
