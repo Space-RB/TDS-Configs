@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 11 | [Open](Unknown/README.md) |
+| Winter Abyss | 1 | [Open](Winter%20Abyss/README.md) |
 
+| Unknown | 11 | [Open](Unknown/README.md) |
 | Simplicity | 9 | [Open](Simplicity/README.md) |
 | Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
 | U-Turn | 5 | [Open](U-Turn/README.md) |
