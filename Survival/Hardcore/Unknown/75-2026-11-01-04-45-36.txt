@@ -1,0 +1,71 @@
+_G.AutoRejoin = false
+_G.AutoRestart = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedOperator", "Farm", "Freezer", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", -0.37970519065856934, 0.5274689197540283, -18.257171630859375)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("EvolvedOperator", 2.1448094844818115, 0.603087842464447, -17.97712516784668)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("EvolvedOperator", -0.5854617357254028, 0.3297821879386902, -15.725519180297852)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("EvolvedOperator", 1.9390528202056885, 0.4335065484046936, -15.445472717285156)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Place("Freezer", -1.0589566230773926, 0.8657100200653076, -25.065879821777344)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 16 ] --
+TDS:Place("Freezer", -7.33823299407959, -0.11085766553878784, -12.300122261047363)
+TDS:Upgrade(6)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
