@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 71 recorded strategies available for this map**
+**📦 72 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -90,6 +90,7 @@ Select a strategy below and open its config file.
 | 69 | 2026-11-01 12:16 UTC | Act1 | — | Gatling Gun, Assassin, Hacker, Mercenary Base, Turret | [Open](69-2026-11-01-12-16-43.txt) |
 | 70 | 2026-11-01 21:33 UTC | Act1 | — | Golden Pyromancer, Engineer, None | [Open](70-2026-11-01-21-33-29.txt) |
 | 71 | 2026-11-01 21:47 UTC | Act1 | — | Gatling Gun, DJ Booth, Star Cannon, Engineer, Hacker | [Open](71-2026-11-01-21-47-21.txt) |
+| 72 | 2026-11-01 21:52 UTC | Act1 | — | Gatling Gun, DJ Booth, Star Cannon, Engineer, Hacker | [Open](72-2026-11-01-21-52-44.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
