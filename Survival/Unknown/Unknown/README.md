@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 168 recorded strategies available for this map**
+**📦 169 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -187,6 +187,7 @@ Select a strategy below and open its config file.
 | 166 | 2026-11-01 11:43 UTC | Unknown | — | Trapper, Mercenary Base, Hacker, None | [Open](166-2026-11-01-11-43-29.txt) |
 | 167 | 2026-11-01 11:45 UTC | Unknown | — | Trapper, Mercenary Base, Hacker, DJ Booth, None | [Open](167-2026-11-01-11-45-25.txt) |
 | 168 | 2026-11-01 12:04 UTC | Unknown | — | Shotgunner, Militant, Soldier, None | [Open](168-2026-11-01-12-04-42.txt) |
+| 169 | 2026-11-01 12:24 UTC | Unknown | — | Trapper, Militant, Commander, Assassin, None | [Open](169-2026-11-01-12-24-33.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
