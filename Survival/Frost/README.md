@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
+| Hot Spot | 1 | [Open](Hot%20Spot/README.md) |
 
 | Unknown | 40 | [Open](Unknown/README.md) |
 | Simplicity | 31 | [Open](Simplicity/README.md) |
@@ -33,6 +33,7 @@ Choose one of the categories below to continue.
 | Pier Pressure | 2 | [Open](Pier%20Pressure/README.md) |
 | Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
 | Abandoned City | 1 | [Open](Abandoned%20City/README.md) |
+| Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
 | Construction Crazy | 1 | [Open](Construction%20Crazy/README.md) |
 | Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
 | Gilded Path | 1 | [Open](Gilded%20Path/README.md) |
