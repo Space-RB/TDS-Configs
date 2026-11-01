@@ -1,0 +1,24 @@
+_G.AutoGatling = true
+_G.AutoReady = false
+_G.AutoRestart = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.beta_dps = true
+_G.GatlingRate = 30
+_G.AutoGatlingSettings.gui_hidden = true
+_G.AutoGatlingSettings.ignore_sounds = false
+_G.GatlingTargets = 4
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Soldier", "EvolvedJuggernaut", "EvolvedKingpin", "Gladiator", "Executioner")
+TDS:Mode("Casual")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
