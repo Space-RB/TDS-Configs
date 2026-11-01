@@ -1,0 +1,50 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "DJ Booth", "Star Cannon", "Engineer", "Hacker")
+TDS:Mode("Act3")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Engineer", -0.9865478277206421, 101.70184326171875, 96.12159729003906)
+TDS:Place("Engineer", -3.3638100624084473, 102.57545471191406, 97.79523468017578)
+TDS:Place("Engineer", -2.891519069671631, 101.59941864013672, 93.75248718261719)
+
+-- [ Wave 2 ] --
+TDS:Place("Engineer", 0.9449982643127441, 102.28960418701172, 98.4690933227539)
+TDS:Place("Engineer", -1.570892572402954, 102.89591979980469, 100.25021362304688)
+
+-- [ Wave 3 ] --
+TDS:Place("Engineer", -4.856797218322754, 102.85492706298828, 100.8267593383789)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Place("Gatling Gun", 1.9780011177062988, 102.90312957763672, 103.00062561035156)
+TDS:Place("DJ Booth", 4.040617942810059, 101.49459075927734, 93.81678009033203)
+
+-- [[ END OF STRATEGY ]]
