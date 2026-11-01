@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 210 recorded strategies available for this map**
+**📦 211 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -229,6 +229,7 @@ Select a strategy below and open its config file.
 | 208 | 2026-10-31 23:37 UTC | Hardcore | — | Boomerang, Farm, Golden Crook Boss, Scout, Shotgunner | [Open](208-2026-10-31-23-37-01.txt) |
 | 209 | 2026-11-01 10:10 UTC | Hardcore | — | None | [Open](209-2026-11-01-10-10-29.txt) |
 | 210 | 2026-11-01 10:36 UTC | Hardcore | — | Hacker, Golden Minigunner, Gatling Gun, Turret, Soldier | [Open](210-2026-11-01-10-36-30.txt) |
+| 211 | 2026-11-01 12:06 UTC | Hardcore | — | Brawler, Golden Pyromancer, Golden Soldier, Electroshocker, None | [Open](211-2026-11-01-12-06-20.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
