@@ -1,0 +1,98 @@
+_G.ClaimRewards = true
+_G.MatchTrackerEnabled = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Shotgunner", "Brawler", "Golden Pyromancer", "Golden Soldier", "Electroshocker")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Unknown Garden", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", 62.709877014160156, 302.6906433105469, -8.202783584594727)
+TDS:Upgrade(1)
+TDS:Place("Soldier", 53.3299560546875, 303.255126953125, -9.396753311157227)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Soldier", 53.58885192871094, 303.30718994140625, -3.4960832595825195)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Soldier", 56.62880325317383, 303.28863525390625, -3.478915214538574)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Place("Shotgunner", 62.140357971191406, 302.72943115234375, -10.668259620666504)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Place("Brawler", 58.996829986572266, 302.6000061035156, -14.671462059020996)
+
+-- [ Wave 14 ] --
+TDS:Place("Brawler", 61.032535552978516, 302.5657043457031, -14.731611251831055)
+TDS:Place("Brawler", 63.06105041503906, 302.61480712890625, -14.995443344116211)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6)
+TDS:Place("Electroshocker", 59.689910888671875, 303.2005920410156, -8.551209449768066)
+TDS:Upgrade(9)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 19 ] --
+TDS:Place("Electroshocker", 59.52924728393555, 303.0504150390625, -11.5938720703125)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 20 ] --
+TDS:Place("Soldier", 124.62759399414062, 299.709228515625, -12.561366081237793)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Soldier", 121.62709045410156, 299.71466064453125, -13.049798965454102)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Soldier", 123.67977142333984, 299.76580810546875, -15.449831008911133)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Soldier", 126.67506408691406, 299.74261474609375, -14.808466911315918)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [[ END OF STRATEGY ]]
