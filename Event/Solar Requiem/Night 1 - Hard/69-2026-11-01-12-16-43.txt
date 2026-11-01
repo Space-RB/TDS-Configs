@@ -1,0 +1,87 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.ClaimRewards = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = _G.AutoGatlingSettings or {}
+_G.AutoGatlingSettings.beta_dps = true
+_G.AutoGatlingSettings.gui_hidden = true
+_G.GatlingTargets = 4
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Assassin", "Hacker", "Mercenary Base", "Turret")
+TDS:Mode("Act1")
+TDS:Ready()
+TDS:Place("Assassin", 20.041833877563477, 2.000999689102173, 190.12066650390625)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 17.91205596923828, 2.000999689102173, 190.04336547851562)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Place("Assassin", 20.041563034057617, 2.0009994506835938, 192.22486877441406)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Place("Assassin", 18.006629943847656, 2.0009994506835938, 192.0811767578125)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Gatling Gun", -8.330477714538574, 2.0214638710021973, 203.36732482910156)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+TDS:Place("Assassin", 5.24459171295166, 2.0009994506835938, 191.98239135742188)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Assassin", 5.033341407775879, 2.0009989738464355, 194.41058349609375)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Assassin", 6.72092342376709, 2.000999689102173, 190.4778594970703)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Place("Turret", -8.68471908569336, 2.0602028369903564, 207.3917694091797)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 15 ] --
+TDS:Place("Turret", -5.022332668304443, 2.0405995845794678, 205.6863250732422)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Turret", -0.9823408126831055, 2.0087502002716064, 205.6942138671875)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
