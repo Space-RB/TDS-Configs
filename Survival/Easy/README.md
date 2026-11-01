@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Winter Bridges | 1 | [Open](Winter%20Bridges/README.md) |
+| Forest Camp | 2 | [Open](Forest%20Camp/README.md) |
 
 | Unknown | 56 | [Open](Unknown/README.md) |
 | Gilded Path | 20 | [Open](Gilded%20Path/README.md) |
@@ -26,7 +26,6 @@ Choose one of the categories below to continue.
 | Night Station | 2 | [Open](Night%20Station/README.md) |
 | Cataclysm | 1 | [Open](Cataclysm/README.md) |
 | Cyber City | 1 | [Open](Cyber%20City/README.md) |
-| Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
 | Four Seasons | 1 | [Open](Four%20Seasons/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
@@ -35,6 +34,7 @@ Choose one of the categories below to continue.
 | Simplicity | 1 | [Open](Simplicity/README.md) |
 | The Heights | 1 | [Open](The%20Heights/README.md) |
 | U-Turn | 1 | [Open](U-Turn/README.md) |
+| Winter Bridges | 1 | [Open](Winter%20Bridges/README.md) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>
