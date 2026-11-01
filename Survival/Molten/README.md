@@ -16,9 +16,8 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| The Heavens | 2 | [Open](The%20Heavens/README.md) |
+| Unknown | 12 | [Open](Unknown/README.md) |
 
-| Unknown | 11 | [Open](Unknown/README.md) |
 | Simplicity | 9 | [Open](Simplicity/README.md) |
 | Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
 | U-Turn | 5 | [Open](U-Turn/README.md) |
@@ -28,6 +27,7 @@ Choose one of the categories below to continue.
 | Dead Ahead | 2 | [Open](Dead%20Ahead/README.md) |
 | Grass Isle | 2 | [Open](Grass%20Isle/README.md) |
 | Rocket Arena | 2 | [Open](Rocket%20Arena/README.md) |
+| The Heavens | 2 | [Open](The%20Heavens/README.md) |
 | Cataclysm | 1 | [Open](Cataclysm/README.md) |
 | Hot Spot | 1 | [Open](Hot%20Spot/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
