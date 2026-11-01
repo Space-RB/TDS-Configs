@@ -1,0 +1,228 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Star Cannon", "Turret", "Gatling Gun", "DJ Booth", "Assassin")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {"Committed", "HiddenEnemies"})
+TDS:Ready()
+TDS:Place("Assassin", -17.74498176574707, 1.0000003576278687, -1.8696966171264648)
+TDS:Place("Assassin", -17.71932029724121, 1.0000007152557373, -4.014524936676025)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Assassin", -17.70290184020996, 0.9999834895133972, -6.3652238845825195)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Assassin", -17.70290184020996, 0.9999877214431763, -8.405223846435547)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Assassin", -11.974233627319336, 1.0000007152557373, -3.73970890045166)
+TDS:Place("Assassin", -9.934233665466309, 1.0000007152557373, -3.73970890045166)
+
+-- [ Wave 8 ] --
+TDS:Place("Assassin", -7.894233703613281, 0.999985933303833, -3.73970890045166)
+TDS:Place("Assassin", -5.849917411804199, 0.9999884366989136, -3.796621799468994)
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+TDS:Place("DJ Booth", -2.577191114425659, 0.9999831914901733, 2.204702854156494)
+
+-- [ Wave 11 ] --
+TDS:SetOption(9, "Track", "Green")
+
+-- [ Wave 12 ] --
+TDS:Upgrade(9)
+TDS:Place("Gatling Gun", 9.760168075561523, 0.9999821186065674, 9.200260162353516)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(10)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 22 ] --
+TDS:Place("Turret", 1.9628088474273682, 0.9999831914901733, 2.204702854156494)
+TDS:Upgrade(11)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(11)
+TDS:Place("Turret", -2.829171657562256, 0.9999920725822449, -3.455014944076538)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(12)
+TDS:Place("Turret", 1.2108283042907715, 0.9999831914901733, -3.455014944076538)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 37 ] --
+TDS:Place("Star Cannon", 3.7511234283447266, 10.0264253616333, 10.970558166503906)
+TDS:Upgrade(14)
+TDS:SetTarget(14, "Last")
+TDS:SetTarget(14, "Strongest")
+TDS:Upgrade(14)
+
+-- [ Wave 38 ] --
+TDS:SetOption(9, "Track", "Red")
+
+-- [ Wave 39 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 40 ] --
+TDS:Upgrade(14)
+TDS:Place("Assassin", -12.687989234924316, 1.0000003576278687, -1.7472047805786133)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Assassin", -12.681873321533203, 0.9999999403953552, 0.8417916297912598)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Assassin", -14.992500305175781, 0.99998939037323, -8.953481674194336)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Assassin", -12.872628211975098, 0.9999834895133972, -8.80469799041748)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Assassin", -10.126336097717285, 0.9999871850013733, -8.8167085647583)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Assassin", -8.086336135864258, 0.9999917149543762, -8.8167085647583)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Assassin", -6.0463361740112305, 0.9999942779541016, -8.8167085647583)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Place("Assassin", -3.8036608695983887, 1.0000014305114746, -8.8222074508667)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Place("Assassin", -1.7636609077453613, 0.9999951124191284, -8.8222074508667)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Place("Assassin", 0.09402143955230713, 0.9999831914901733, -10.027246475219727)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Place("Assassin", 0.09402143955230713, 0.9999984502792358, -12.067246437072754)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+
+-- [[ END OF STRATEGY ]]
