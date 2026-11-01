@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Casual | 39 | [Open](Casual/README.md) |
+| Casual | 40 | [Open](Casual/README.md) |
 
 | Hardcore | 311 | [Open](Hardcore/README.md) |
 | Unknown | 177 | [Open](Unknown/README.md) |
