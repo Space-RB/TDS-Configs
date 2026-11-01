@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 56 | [Open](Unknown/README.md) |
+| Winter Bridges | 1 | [Open](Winter%20Bridges/README.md) |
 
+| Unknown | 56 | [Open](Unknown/README.md) |
 | Gilded Path | 20 | [Open](Gilded%20Path/README.md) |
 | Dead Ahead | 12 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 5 | [Open](Lay%20By/README.md) |
