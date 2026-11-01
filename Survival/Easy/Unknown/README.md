@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 55 recorded strategies available for this map**
+**📦 56 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -74,6 +74,7 @@ Select a strategy below and open its config file.
 | 53 | 2026-10-30 17:33 UTC | Easy | — | Gatling Gun, Soldier, EvolvedJuggernaut, EvolvedKingpin, None | [Open](53-2026-10-30-17-33-36.txt) |
 | 54 | 2026-10-31 07:36 UTC | Easy | — | Shotgunner, Scout, None | [Open](54-2026-10-31-07-36-23.txt) |
 | 55 | 2026-10-31 21:51 UTC | Easy | — | Gatling Gun, Trapper, DJ Booth, None | [Open](55-2026-10-31-21-51-38.txt) |
+| 56 | 2026-11-01 15:56 UTC | Easy | — | Soldier, Shotgunner, None | [Open](56-2026-11-01-15-56-51.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
