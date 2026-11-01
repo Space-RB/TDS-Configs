@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 12 recorded strategies available for this map**
+**📦 13 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -31,6 +31,7 @@ Select a strategy below and open its config file.
 | 10 | 2026-10-31 07:06 UTC | Fallen | ExplodingEnemies, Glass, HiddenEnemies | DJ Booth, Golden Scout, Engineer, Hacker, EvolvedJuggernaut | [Open](10-2026-10-31-07-06-16.txt) |
 | 11 | 2026-10-31 23:47 UTC | Fallen | HiddenEnemies | EvolvedJuggernaut, EvolvedOperator, Hacker, DJ Booth, Commander | [Open](11-2026-10-31-23-47-17.txt) |
 | 12 | 2026-11-01 00:06 UTC | Fallen | HiddenEnemies | EvolvedJuggernaut, EvolvedOperator, Hacker, DJ Booth, Commander | [Open](12-2026-11-01-00-06-27.txt) |
+| 13 | 2026-11-01 07:17 UTC | Fallen | HiddenEnemies | EvolvedJuggernaut, EvolvedOperator, Hacker, DJ Booth, Commander | [Open](13-2026-11-01-07-17-56.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
