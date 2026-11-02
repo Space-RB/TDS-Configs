@@ -1,0 +1,25 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Boomerang", "Farm", "Crook Boss", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", 22.237655639648438, 1.0381221771240234, 36.07535171508789)
+TDS:Place("Farm", 17.804954528808594, 1.1455873250961304, 38.70570373535156)
+TDS:Place("Farm", 21.733356475830078, 0.9643000364303589, 40.286346435546875)
+
+-- [[ END OF STRATEGY ]]
