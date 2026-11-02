@@ -16,9 +16,8 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Toyboard | 2 | [Open](Toyboard/README.md) |
+| Unknown | 16 | [Open](Unknown/README.md) |
 
-| Unknown | 15 | [Open](Unknown/README.md) |
 | Simplicity | 9 | [Open](Simplicity/README.md) |
 | Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
 | Black Spot Exchange | 5 | [Open](Black%20Spot%20Exchange/README.md) |
@@ -29,6 +28,7 @@ Choose one of the categories below to continue.
 | Grass Isle | 2 | [Open](Grass%20Isle/README.md) |
 | Rocket Arena | 2 | [Open](Rocket%20Arena/README.md) |
 | The Heavens | 2 | [Open](The%20Heavens/README.md) |
+| Toyboard | 2 | [Open](Toyboard/README.md) |
 | Cataclysm | 1 | [Open](Cataclysm/README.md) |
 | Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
 | Hot Spot | 1 | [Open](Hot%20Spot/README.md) |
