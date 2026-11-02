@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 15 | [Open](Unknown/README.md) |
+| Toyboard | 2 | [Open](Toyboard/README.md) |
 
+| Unknown | 15 | [Open](Unknown/README.md) |
 | Simplicity | 9 | [Open](Simplicity/README.md) |
 | Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
 | Black Spot Exchange | 5 | [Open](Black%20Spot%20Exchange/README.md) |
@@ -34,7 +35,6 @@ Choose one of the categories below to continue.
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Sky Islands | 1 | [Open](Sky%20Islands/README.md) |
 | Spring Fever | 1 | [Open](Spring%20Fever/README.md) |
-| Toyboard | 1 | [Open](Toyboard/README.md) |
 | Tropical Isles | 1 | [Open](Tropical%20Isles/README.md) |
 | Winter Abyss | 1 | [Open](Winter%20Abyss/README.md) |
 | Wrecked Battlefield | 1 | [Open](Wrecked%20Battlefield/README.md) |
