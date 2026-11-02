@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 89 recorded strategies available for this map**
+**📦 90 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -108,6 +108,7 @@ Select a strategy below and open its config file.
 | 87 | 2026-11-02 18:53 UTC | Hardcore | — | Boomerang, Farm, Golden Crook Boss, EvolvedKingpin, None | [Open](87-2026-11-02-18-53-19.txt) |
 | 88 | 2026-11-02 19:23 UTC | Hardcore | — | EvolvedEnforcer, Gatling Gun, EvolvedKingpin, DJ Booth, Mortar | [Open](88-2026-11-02-19-23-59.txt) |
 | 89 | 2026-11-02 20:35 UTC | Hardcore | — | Boomerang, Farm, Crook Boss, Golden Minigunner, Golden Scout | [Open](89-2026-11-02-20-35-30.txt) |
+| 90 | 2026-11-02 20:58 UTC | Hardcore | — | EvolvedJuggernaut, Engineer, Gatling Gun, Electroshocker, Mercenary Base | [Open](90-2026-11-02-20-58-40.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
