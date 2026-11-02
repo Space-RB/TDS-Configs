@@ -1,0 +1,173 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoStarCannon = true
+_G.StarCannonMin = 100
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Star Cannon", "Turret", "Gatling Gun", "DJ Booth", "Assassin")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {"Committed", "HiddenEnemies"})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", -17.7111873626709, 1.0000003576278687, -1.9523859024047852)
+TDS:Place("Assassin", -17.7111873626709, 1.0000007152557373, -3.9923858642578125)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Place("Assassin", -12.137737274169922, 1.0000005960464478, -3.44657039642334)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Assassin", -17.7111873626709, 0.9999834895133972, -6.03238582611084)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Assassin", -17.7111873626709, 0.9999872446060181, -8.072385787963867)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Place("Assassin", -10.097737312316895, 1.0000005960464478, -3.44657039642334)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Assassin", -8.025269508361816, 0.9999858140945435, -3.7703237533569336)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Place("Assassin", -5.985269546508789, 0.999988317489624, -3.7703237533569336)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Place("Gatling Gun", 9.16192626953125, 0.9999824166297913, 9.244823455810547)
+TDS:Place("DJ Booth", -2.633674144744873, 0.9999831914901733, 2.246901512145996)
+TDS:Upgrade(10)
+
+-- [ Wave 13 ] --
+TDS:SetOption(10, "Track", "Green")
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 22 ] --
+TDS:Place("Turret", 1.9669153690338135, 0.9999831914901733, 2.2014341354370117)
+TDS:Upgrade(11)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(11)
+TDS:Place("Turret", -2.9452695846557617, 0.9999920129776001, -3.7703237533569336)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 25 ] --
+TDS:Place("Turret", 1.0250306129455566, 0.9999831914901733, -3.023118495941162)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(12)
+TDS:Place("Star Cannon", 3.1838738918304443, 10.0264253616333, 10.775712013244629)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:SetTarget(14, "Last")
+TDS:SetTarget(14, "Strongest")
+TDS:Upgrade(14)
+
+-- [ Wave 39 ] --
+TDS:SetOption(10, "Track", "Red")
+
+-- [ Wave 40 ] --
+TDS:Upgrade(14)
+
+-- [[ END OF STRATEGY ]]
