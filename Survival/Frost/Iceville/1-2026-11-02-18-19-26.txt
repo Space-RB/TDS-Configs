@@ -1,0 +1,51 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Spotlight Tech", "Commander", "DJ Booth", "Accelerator", "Soldier")
+TDS:Mode("Frost")
+TDS:GameInfo("Iceville", {})
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", -30.334548950195312, 2.9999969005584717, 19.564342498779297)
+TDS:Place("Soldier", -25.194305419921875, 2.9999988079071045, 8.278057098388672)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Soldier", -33.11058807373047, 2.999997138977051, 18.153953552246094)
+
+-- [ Wave 4 ] --
+TDS:Place("DJ Booth", -25.053062438964844, 2.9999897480010986, 8.579535484313965)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Place("Soldier", -32.8857421875, 2.9999966621398926, 21.272480010986328)
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+TDS:Place("Commander", -23.525739669799805, 2.999997615814209, 15.27061653137207)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Place("Soldier", -27.160137176513672, 2.9999992847442627, 5.139237880706787)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
