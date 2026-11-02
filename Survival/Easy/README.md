@@ -16,10 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Portland | 1 | [Open](Portland/README.md) |
+| Gilded Path | 22 | [Open](Gilded%20Path/README.md) |
 
 | Unknown | 57 | [Open](Unknown/README.md) |
-| Gilded Path | 21 | [Open](Gilded%20Path/README.md) |
 | Dead Ahead | 12 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 5 | [Open](Lay%20By/README.md) |
 | Black Spot Exchange | 2 | [Open](Black%20Spot%20Exchange/README.md) |
@@ -30,6 +29,7 @@ Choose one of the categories below to continue.
 | Four Seasons | 1 | [Open](Four%20Seasons/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
+| Portland | 1 | [Open](Portland/README.md) |
 | Retro Lighthouse | 1 | [Open](Retro%20Lighthouse/README.md) |
 | Ruby Escort | 1 | [Open](Ruby%20Escort/README.md) |
 | Simplicity | 1 | [Open](Simplicity/README.md) |
