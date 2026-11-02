@@ -1,0 +1,84 @@
+_G.AutoGatling = true
+_G.AutoPickups = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedJuggernaut", "Engineer", "Gatling Gun", "Electroshocker", "Mercenary Base")
+TDS:Mode("Hardcore")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Engineer", -2.9004478454589844, 0.7203260064125061, -22.967391967773438)
+
+-- [ Wave 1 ] --
+TDS:Place("Engineer", -5.216436386108398, 0.5068303346633911, -20.998180389404297)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Place("Gatling Gun", -8.558095932006836, 4.641487121582031, 15.838288307189941)
+
+-- [ Wave 13 ] --
+TDS:Place("Engineer", -2.001047134399414, 0.537672758102417, -19.605558395385742)
+TDS:Place("Engineer", -4.853314399719238, 0.24890455603599548, -17.927791595458984)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Place("Electroshocker", -5.886317253112793, 0.9536408185958862, -31.642515182495117)
+TDS:Place("Electroshocker", 7.215816497802734, 0.5581306219100952, -15.218667984008789)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 19 ] --
+TDS:Place("Mercenary Base", -5.170196533203125, 1.5073392391204834, 32.248382568359375)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 25 ] --
+TDS:Place("EvolvedJuggernaut", 0.8445771932601929, 0.4576955735683441, -16.732112884521484)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 29 ] --
+TDS:Place("Mercenary Base", 0.7368669509887695, 1.4438855648040771, 28.080608367919922)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [[ END OF STRATEGY ]]
