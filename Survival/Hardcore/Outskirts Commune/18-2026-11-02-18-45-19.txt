@@ -1,0 +1,76 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.AutoGatlingSettings = {gui_hidden = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedEnforcer", "Golden Pyromancer", "Gatling Gun", "EvolvedKingpin", "DJ Booth")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Outskirts Commune", {})
+TDS:Ready()
+TDS:Place("Pyromancer", -3.090167999267578, 501.3731994628906, 42.74568176269531)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Place("Pyromancer", 17.050872802734375, 501.3644714355469, 0.034000396728515625)
+TDS:Upgrade(2)
+
+-- [ Wave 12 ] --
+TDS:Place("Gatling Gun", 0.3114185333251953, 504.7072448730469, 9.605995178222656)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 16 ] --
+TDS:Place("DJ Booth", -2.2425525188446045, 501.7587890625, 12.621206283569336)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 19 ] --
+TDS:Place("EvolvedEnforcer", -8.836967468261719, 501.3094482421875, 25.05076026916504)
+TDS:Upgrade(5)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(3)
+TDS:Place("EvolvedKingpin", 1.2611980438232422, 501.3402404785156, 24.89539337158203)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 28 ] --
+TDS:Place("EvolvedEnforcer", -10.84457015991211, 501.2961730957031, 25.412878036499023)
+TDS:Place("EvolvedEnforcer", -8.418635368347168, 501.3196716308594, 27.120819091796875)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(5)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]
