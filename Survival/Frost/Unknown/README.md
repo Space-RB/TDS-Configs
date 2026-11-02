@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 51 recorded strategies available for this map**
+**📦 52 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -70,6 +70,7 @@ Select a strategy below and open its config file.
 | 49 | 2026-11-02 18:14 UTC | Frost | — | Spotlight Tech, Commander, DJ Booth, Soldier, Accelerator | [Open](49-2026-11-02-18-14-59.txt) |
 | 50 | 2026-11-02 18:32 UTC | Frost | — | Accelerator, Soldier, Tesla, DJ Booth, Commander | [Open](50-2026-11-02-18-32-55.txt) |
 | 51 | 2026-11-02 18:51 UTC | Frost | — | Turret, Ranger, Minigunner, DJ Booth, Military Base | [Open](51-2026-11-02-18-51-15.txt) |
+| 52 | 2026-11-02 18:59 UTC | Frost | — | Turret, Ranger, Minigunner, DJ Booth, Military Base | [Open](52-2026-11-02-18-59-37.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
