@@ -1,0 +1,56 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Accelerator", "Soldier", "Tesla", "DJ Booth", "Commander")
+TDS:Mode("Frost")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Soldier", -9.42660903930664, 0.9999822378158569, -9.157378196716309)
+TDS:Place("Soldier", -6.174790859222412, 0.9999898672103882, -9.180688858032227)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Soldier", -12.688024520874023, 0.9999834895133972, -9.005537033081055)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Soldier", -2.8703413009643555, 1.0000014305114746, -8.889876365661621)
+TDS:Upgrade(4)
+TDS:Place("Soldier", 0.18675470352172852, 0.9999831914901733, -9.005096435546875)
+TDS:Upgrade(5)
+
+-- [ Wave 5 ] --
+TDS:Place("Soldier", -3.868194341659546, 1.0000019073486328, -11.72419261932373)
+TDS:Upgrade(6)
+
+-- [ Wave 6 ] --
+TDS:Place("Soldier", -0.6864790320396423, 1.0000019073486328, -11.87771987915039)
+TDS:Upgrade(7)
+TDS:Place("DJ Booth", -2.6117103099823, 0.9999831914901733, 2.8367819786071777)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 10 ] --
+TDS:Place("Commander", -7.858637809753418, 1.000000238418579, -0.8467998504638672)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
