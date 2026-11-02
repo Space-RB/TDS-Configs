@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 33 | [Open](Simplicity/README.md) |
+| Simplicity | 34 | [Open](Simplicity/README.md) |
 
 | Unknown | 47 | [Open](Unknown/README.md) |
 | Lay By | 22 | [Open](Lay%20By/README.md) |
