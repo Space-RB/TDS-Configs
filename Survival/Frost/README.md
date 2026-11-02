@@ -16,9 +16,8 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Iceville | 1 | [Open](Iceville/README.md) |
+| Unknown | 50 | [Open](Unknown/README.md) |
 
-| Unknown | 49 | [Open](Unknown/README.md) |
 | Simplicity | 34 | [Open](Simplicity/README.md) |
 | Lay By | 22 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
@@ -39,6 +38,7 @@ Choose one of the categories below to continue.
 | Gilded Path | 1 | [Open](Gilded%20Path/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Hot Spot | 1 | [Open](Hot%20Spot/README.md) |
+| Iceville | 1 | [Open](Iceville/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Portland | 1 | [Open](Portland/README.md) |
 | Retro Rocket Arena | 1 | [Open](Retro%20Rocket%20Arena/README.md) |
