@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 34 | [Open](Simplicity/README.md) |
+| Honey Valley | 1 | [Open](Honey%20Valley/README.md) |
 
 | Unknown | 50 | [Open](Unknown/README.md) |
+| Simplicity | 34 | [Open](Simplicity/README.md) |
 | Lay By | 28 | [Open](Lay%20By/README.md) |
 | Cataclysm | 13 | [Open](Cataclysm/README.md) |
 | Dusty Bridges | 2 | [Open](Dusty%20Bridges/README.md) |
