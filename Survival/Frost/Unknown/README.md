@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 49 recorded strategies available for this map**
+**📦 50 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -68,6 +68,7 @@ Select a strategy below and open its config file.
 | 47 | 2026-11-02 13:50 UTC | Frost | — | Golden Crook Boss, DJ Booth, Commander, Turret, Assassin | [Open](47-2026-11-02-13-50-38.txt) |
 | 48 | 2026-11-02 18:07 UTC | Frost | — | Spotlight Tech, Commander, DJ Booth, Engineer, Accelerator | [Open](48-2026-11-02-18-07-05.txt) |
 | 49 | 2026-11-02 18:14 UTC | Frost | — | Spotlight Tech, Commander, DJ Booth, Soldier, Accelerator | [Open](49-2026-11-02-18-14-59.txt) |
+| 50 | 2026-11-02 18:32 UTC | Frost | — | Accelerator, Soldier, Tesla, DJ Booth, Commander | [Open](50-2026-11-02-18-32-55.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
