@@ -1,0 +1,68 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Turret", "Ranger", "Minigunner", "DJ Booth", "Military Base")
+TDS:Mode("Frost")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Military Base", -11.200017929077148, 0.9802060127258301, -5.878423690795898)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Military Base", -11.65262222290039, 0.9688892364501953, -1.348592758178711)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Military Base", -17.005115509033203, 0.9805471897125244, -6.721967697143555)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Military Base", 3.829334259033203, 0.9582128524780273, 19.61703872680664)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Place("Military Base", -17.665674209594727, 0.9824159145355225, -11.373075485229492)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Place("DJ Booth", 2.8535404205322266, 0.9091064929962158, 8.935970306396484)
+
+-- [ Wave 8 ] --
+TDS:Place("Minigunner", -31.31879425048828, 0.9843831062316895, -16.277002334594727)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 14 ] --
+TDS:Place("Ranger", -34.66283416748047, 3.9908607006073, -2.7349326610565186)
+
+-- [[ END OF STRATEGY ]]
