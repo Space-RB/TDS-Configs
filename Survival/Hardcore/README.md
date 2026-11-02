@@ -16,9 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Wretched Front | 244 | [Open](Wretched%20Front/README.md) |
+| Unknown | 89 | [Open](Unknown/README.md) |
 
-| Unknown | 88 | [Open](Unknown/README.md) |
+| Wretched Front | 244 | [Open](Wretched%20Front/README.md) |
 | Outskirts Commune | 20 | [Open](Outskirts%20Commune/README.md) |
 | Unknown Garden | 3 | [Open](Unknown%20Garden/README.md) |
 | Wrecked Battlefield | 3 | [Open](Wrecked%20Battlefield/README.md) |
