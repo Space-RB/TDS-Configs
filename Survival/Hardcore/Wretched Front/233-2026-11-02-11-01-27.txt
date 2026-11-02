@@ -1,0 +1,174 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Shotgunner", "Farm", "Boomerang", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Farm", -12.109999656677246, 1.557401418685913, 24.329999923706055)
+TDS:Place("Farm", -11.949991226196289, 1.5194308757781982, 27.8699893951416)
+TDS:Place("Farm", -12.029999732971191, 1.4636650085449219, 31.440000534057617)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", -11.969999313354492, 1.3711833953857422, 35.279998779296875)
+TDS:Upgrade(4)
+TDS:Place("Farm", -12.099992752075195, 1.2724487781524658, 38.8599853515625)
+TDS:Upgrade(5)
+
+-- [ Wave 5 ] --
+TDS:Place("Boomerang", 9.859999656677246, 1.2786743640899658, 22.399999618530273)
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(5)
+TDS:Place("Farm", -12.159992218017578, 1.1533278226852417, 42.799983978271484)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Farm", -15.929991722106934, 1.5291688442230225, 24.18998908996582)
+TDS:Upgrade(8)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(8)
+TDS:Place("Farm", -15.529999732971191, 1.5508941411972046, 27.809999465942383)
+TDS:Upgrade(9)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(8)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Farm", -15.90999984741211, 1.532143473625183, 31.459999084472656)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(10)
+TDS:Place("Farm", -15.90999984741211, 1.4513458013534546, 35.209999084472656)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Shotgunner", 15.40000057220459, 1.155342698097229, 29.3799991607666)
+TDS:Upgrade(12)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(12)
+TDS:Place("Shotgunner", 13.279999732971191, 1.1943944692611694, 29.530000686645508)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(1)
+TDS:Upgrade(9)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(10)
+TDS:Upgrade(3)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(7)
+TDS:Place("Boomerang", 6.760000228881836, 1.3305573463439941, 22.420000076293945)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(14)
+TDS:Place("Shotgunner", 15.420001029968262, 1.133988380432129, 27.190000534057617)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Shotgunner", 13.359999656677246, 1.2248501777648926, 27.010000228881836)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Shotgunner", 15.179999351501465, 1.0601997375488281, 25.1200008392334)
+TDS:Upgrade(17)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(17)
+TDS:Place("Shotgunner", 13.050000190734863, 1.1882926225662231, 24.799999237060547)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Shotgunner", 15.3100004196167, 1.021748423576355, 23.110000610351562)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Shotgunner", 13.199999809265137, 1.1729416847229004, 22.700000762939453)
+TDS:Upgrade(20)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(18)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(16)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(12)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(13)
+TDS:Place("Boomerang", 8.220000267028809, 1.017298936843872, 19.709999084472656)
+TDS:Place("Boomerang", 3.4700002670288086, 1.3708775043487549, 22.520000457763672)
+TDS:Place("Boomerang", 4.909999847412109, 1.170825719833374, 19.6200008392334)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(22)
+TDS:Upgrade(21)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(23)
+
+-- [[ END OF STRATEGY ]]
