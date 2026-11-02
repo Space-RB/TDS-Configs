@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 49 | [Open](Unknown/README.md) |
+| Iceville | 1 | [Open](Iceville/README.md) |
 
+| Unknown | 49 | [Open](Unknown/README.md) |
 | Simplicity | 34 | [Open](Simplicity/README.md) |
 | Lay By | 22 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
