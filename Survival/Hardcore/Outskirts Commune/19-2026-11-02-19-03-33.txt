@@ -1,0 +1,96 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.AutoGatlingSettings = {gui_hidden = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedEnforcer", "Gatling Gun", "EvolvedKingpin", "DJ Booth", "Mortar")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Outskirts Commune", {})
+TDS:Ready()
+TDS:Place("Mortar", -1.105360984802246, 504.6186828613281, 9.682369232177734)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Mortar", 0.22083425521850586, 504.8424377441406, 6.946897506713867)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", 3.137171745300293, 504.8556213378906, 9.691818237304688)
+
+-- [ Wave 11 ] --
+TDS:Place("Mortar", 3.164205551147461, 505.2963562011719, 6.151921272277832)
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Place("Mortar", 5.899655818939209, 505.2186279296875, 7.478160381317139)
+TDS:Upgrade(5)
+TDS:Place("DJ Booth", 6.308778762817383, 501.6249084472656, 10.288931846618652)
+TDS:Upgrade(6)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 25 ] --
+TDS:Place("EvolvedKingpin", 8.91808795928955, 501.5912170410156, 7.116677284240723)
+TDS:Place("EvolvedEnforcer", 8.877059936523438, 501.2146301269531, 19.10236167907715)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
