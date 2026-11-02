@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 16 recorded strategies available for this map**
+**📦 17 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -35,6 +35,7 @@ Select a strategy below and open its config file.
 | 14 | 2026-11-02 06:17 UTC | Molten | — | Pyromancer, Accelerator, Necromancer, EvolvedOperator, Crook Boss | [Open](14-2026-11-02-06-17-43.txt) |
 | 15 | 2026-11-02 13:16 UTC | Molten | — | EvolvedOperator, Hacker, Engineer, EvolvedKingpin, DJ Booth | [Open](15-2026-11-02-13-16-22.txt) |
 | 16 | 2026-11-02 15:48 UTC | Molten | — | EvolvedKingpin, EvolvedOperator, Hacker, Engineer, DJ Booth | [Open](16-2026-11-02-15-48-19.txt) |
+| 17 | 2026-11-02 15:57 UTC | Molten | — | EvolvedKingpin, EvolvedOperator, Hacker, Engineer, DJ Booth | [Open](17-2026-11-02-15-57-33.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
