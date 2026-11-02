@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 16 recorded strategies available for this map**
+**📦 17 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -35,6 +35,7 @@ Select a strategy below and open its config file.
 | 14 | 2026-10-31 15:07 UTC | Hardcore | — | Trapper, None | [Open](14-2026-10-31-15-07-12.txt) |
 | 15 | 2026-11-01 19:51 UTC | Hardcore | — | Electroshocker, Sniper, None | [Open](15-2026-11-01-19-51-04.txt) |
 | 16 | 2026-11-02 17:37 UTC | Hardcore | — | Electroshocker, Sniper, None | [Open](16-2026-11-02-17-37-14.txt) |
+| 17 | 2026-11-02 18:32 UTC | Hardcore | — | EvolvedEnforcer, Golden Pyromancer, Gatling Gun, EvolvedOperator, EvolvedJuggernaut | [Open](17-2026-11-02-18-32-45.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
