@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 11 recorded strategies available for this map**
+**📦 12 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -30,6 +30,7 @@ Select a strategy below and open its config file.
 | 9 | 2026-11-01 13:17 UTC | Casual | — | Soldier, EvolvedJuggernaut, EvolvedKingpin, Gladiator, Executioner | [Open](9-2026-11-01-13-17-51.txt) |
 | 10 | 2026-11-01 13:57 UTC | Casual | — | Golden Cowboy, Shotgunner, EvolvedJuggernaut, DJ Booth, Commander | [Open](10-2026-11-01-13-57-37.txt) |
 | 11 | 2026-11-01 14:59 UTC | Casual | — | Golden Scout, None | [Open](11-2026-11-01-14-59-45.txt) |
+| 12 | 2026-11-02 15:05 UTC | Casual | — | Farm, Brawler, Engineer, Pyromancer, Minigunner | [Open](12-2026-11-02-15-05-49.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
