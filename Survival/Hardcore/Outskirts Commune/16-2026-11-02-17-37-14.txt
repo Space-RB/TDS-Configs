@@ -1,0 +1,19 @@
+_G.AutoGems = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.StartHubStrategy = "3023E161-46C8-4A67-80E0-AE825606145C"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Electroshocker", "Sniper", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Outskirts Commune", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
