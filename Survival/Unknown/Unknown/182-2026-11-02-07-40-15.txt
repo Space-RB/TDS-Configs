@@ -1,0 +1,16 @@
+_G.AntiLag = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Engineer", "Minigunner", "DJ Booth", "Farm", "Crook Boss")
+TDS:Mode("Unknown")
+TDS:GameInfo("Unknown", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
