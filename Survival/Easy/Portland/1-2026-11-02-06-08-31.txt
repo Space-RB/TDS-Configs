@@ -1,0 +1,40 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Scout", "Sniper", "Demoman", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Portland", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", -10.647204399108887, 4.039937973022461, 38.086769104003906)
+TDS:Upgrade(1)
+TDS:Place("Scout", -10.496038436889648, 3.9999260902404785, 35.05052947998047)
+TDS:Upgrade(2)
+TDS:Place("Scout", -10.529025077819824, 4.039937973022461, 41.12446975708008)
+TDS:Upgrade(3)
+TDS:Place("Scout", -13.536038398742676, 3.9999260902404785, 35.05052947998047)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(4)
+TDS:Place("Scout", -13.682025909423828, 4.039937973022461, 38.26413345336914)
+TDS:Upgrade(5)
+
+-- [ Wave 3 ] --
+TDS:Place("Scout", -13.563846588134766, 4.039937973022461, 41.30183410644531)
+TDS:Upgrade(6)
+TDS:Place("Scout", -16.34463119506836, 4.039937973022461, 36.21388626098633)
+TDS:Upgrade(7)
+TDS:Place("Scout", -16.540340423583984, 4.039937973022461, 39.8912239074707)
+TDS:Upgrade(8)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(5)
+
+-- [[ END OF STRATEGY ]]
