@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 42 recorded strategies available for this map**
+**📦 43 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -61,6 +61,7 @@ Select a strategy below and open its config file.
 | 40 | 2026-11-01 12:35 UTC | Frost | — | Trapper, Militant, Commander, Assassin, None | [Open](40-2026-11-01-12-35-15.txt) |
 | 41 | 2026-11-01 19:56 UTC | Frost | — | Star Cannon, Turret, Gatling Gun, DJ Booth, Assassin | [Open](41-2026-11-01-19-56-11.txt) |
 | 42 | 2026-11-02 05:20 UTC | Frost | — | Crook Boss, EvolvedJuggernaut, Farm, Elf Camp, Accelerator | [Open](42-2026-11-02-05-20-00.txt) |
+| 43 | 2026-11-02 05:46 UTC | Frost | — | Golden Crook Boss, EvolvedJuggernaut, Farm, Elf Camp, Accelerator | [Open](43-2026-11-02-05-46-18.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
