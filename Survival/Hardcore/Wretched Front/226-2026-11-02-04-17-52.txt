@@ -1,0 +1,91 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Pyromancer", "EvolvedEnforcer", "EvolvedOperator", "EvolvedJuggernaut", "Gatling Gun")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", -1.7089433670043945, 1.0201729536056519, -35.67512893676758)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Place("EvolvedOperator", 0.7251148223876953, 0.5736488699913025, -18.472803115844727)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Place("EvolvedOperator", 0.41954338550567627, 0.6241884231567383, -20.994356155395508)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Place("EvolvedOperator", -1.6113991737365723, 0.536724328994751, -19.46894645690918)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Place("EvolvedOperator", -1.3058276176452637, 0.3680550754070282, -16.9473934173584)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Place("EvolvedOperator", -3.7878379821777344, 0.2760644853115082, -17.487045288085938)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:Place("EvolvedOperator", 2.7560572624206543, 0.632883608341217, -19.998212814331055)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 17 ] --
+TDS:Place("Gatling Gun", 7.2368035316467285, 2.9403743743896484, -0.3890409469604492)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 22 ] --
+TDS:Place("EvolvedEnforcer", 3.296299934387207, 0.6173295974731445, -17.730375289916992)
+TDS:Upgrade(9)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 27 ] --
+TDS:Place("EvolvedEnforcer", 2.0336546897888184, 0.47579073905944824, -16.128087997436523)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
