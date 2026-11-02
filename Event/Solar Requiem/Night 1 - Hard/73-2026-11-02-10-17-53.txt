@@ -1,0 +1,98 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Engineer", "Hacker", "EvolvedJuggernaut", "EvolvedKingpin", "Gatling Gun")
+TDS:Mode("Act1")
+TDS:Ready()
+TDS:Place("Engineer", -7.4196014404296875, 2.0447893142700195, 205.1732177734375)
+TDS:Place("Engineer", -10.457585334777832, 2.1291003227233887, 204.8902130126953)
+TDS:VoteSkip(0)
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Engineer", -5.091774940490723, 2.019535541534424, 203.218017578125)
+TDS:VoteSkip(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Engineer", -7.948943138122559, 2.0061237812042236, 202.17965698242188)
+TDS:Place("Engineer", -10.964241981506348, 2.011427640914917, 201.92767333984375)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Place("Engineer", -4.562433242797852, 2.0369739532470703, 206.21157836914062)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Place("Hacker", -7.547909736633301, 2.0535733699798584, 208.33815002441406)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:VoteSkip(10)
+TDS:Place("Gatling Gun", -6.749847412109375, 8.861952781677246, 197.24224853515625)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Place("Hacker", 12.887922286987305, 2.0343751907348633, 198.6387481689453)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:VoteSkip(15)
+
+-- [[ END OF STRATEGY ]]
