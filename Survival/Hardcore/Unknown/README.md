@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 86 recorded strategies available for this map**
+**📦 87 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -105,6 +105,7 @@ Select a strategy below and open its config file.
 | 84 | 2026-11-02 13:21 UTC | Hardcore | — | Boomerang, Golden Crook Boss, Farm, Scout, None | [Open](84-2026-11-02-13-21-33.txt) |
 | 85 | 2026-11-02 15:16 UTC | Hardcore | — | Scout, Accelerator, Commander, DJ Booth, Saboteur | [Open](85-2026-11-02-15-16-45.txt) |
 | 86 | 2026-11-02 16:28 UTC | Hardcore | — | Boomerang, Farm, Golden Crook Boss, Golden Scout, None | [Open](86-2026-11-02-16-28-07.txt) |
+| 87 | 2026-11-02 18:53 UTC | Hardcore | — | Boomerang, Farm, Golden Crook Boss, EvolvedKingpin, None | [Open](87-2026-11-02-18-53-19.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
