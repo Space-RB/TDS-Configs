@@ -1,0 +1,95 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedKingpin", "EvolvedOperator", "Hacker", "Engineer", "DJ Booth")
+TDS:Mode("Molten")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", -17.710540771484375, 2.000000476837158, -4.470293998718262)
+TDS:Place("EvolvedOperator", 17.436721801757812, 2.000000238418579, -3.330275535583496)
+TDS:Place("EvolvedOperator", -17.286684036254883, 2, -1.9880914688110352)
+
+-- [ Wave 2 ] --
+TDS:Place("EvolvedOperator", 17.218175888061523, 1.9999998807907104, -0.8072881698608398)
+TDS:Place("EvolvedOperator", -17.263038635253906, 1.9999996423721313, 0.5517988204956055)
+
+-- [ Wave 3 ] --
+TDS:Place("EvolvedOperator", 17.218175888061523, 1.9999995231628418, 1.7327117919921875)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Place("Hacker", -11.522794723510742, 1.9993735551834106, -0.4592987298965454)
+TDS:Place("Hacker", 11.530628204345703, 1.9991190433502197, -0.853152871131897)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Place("DJ Booth", -0.05446389317512512, 2.0017943382263184, -2.985898971557617)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
