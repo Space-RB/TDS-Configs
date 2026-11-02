@@ -1,0 +1,74 @@
+_G.AutoPickups = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedJuggernaut", "Engineer", "Gatling Gun", "Electroshocker", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Engineer", -5.409099578857422, 0.4606395959854126, -20.626710891723633)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Engineer", -8.209256172180176, 0.5202706456184387, -21.810232162475586)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Electroshocker", -7.450425148010254, 0.9648998975753784, -31.52499008178711)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Place("Gatling Gun", -12.718160629272461, 4.390938758850098, 16.66431427001953)
+
+-- [ Wave 16 ] --
+TDS:Place("Electroshocker", 5.014706611633301, 0.6125226020812988, -15.584968566894531)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 24 ] --
+TDS:Place("EvolvedJuggernaut", -1.549959659576416, 0.48696184158325195, -18.526897430419922)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 26 ] --
+TDS:Place("Electroshocker", -8.311590194702148, -0.17865997552871704, -11.027748107910156)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
