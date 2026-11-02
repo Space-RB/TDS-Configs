@@ -1,0 +1,61 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Crook Boss", "EvolvedJuggernaut", "Farm", "Elf Camp", "Accelerator")
+TDS:Mode("Frost")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Elf Camp", -36.00954818725586, 0.9999986886978149, -9.681336402893066)
+TDS:Place("Elf Camp", -36.087806701660156, 0.9999985098838806, -5.785351276397705)
+
+-- [ Wave 2 ] --
+TDS:Place("Elf Camp", -36.07951354980469, 0.9999983310699463, -1.7512462139129639)
+
+-- [ Wave 3 ] --
+TDS:Place("Elf Camp", -36.180076599121094, 0.9999982118606567, 2.2342004776000977)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", 36.241214752197266, 0.9999986886978149, -9.905519485473633)
+TDS:Place("Farm", 33.73135757446289, 0.9999985694885254, -6.468918800354004)
+TDS:Place("Farm", 36.11197280883789, 0.9999984502792358, -3.8489441871643066)
+TDS:Place("Farm", 31.53970718383789, 0.9999986886978149, -9.92892074584961)
+
+-- [ Wave 5 ] --
+TDS:Place("Farm", 35.79026412963867, 0.9999982714653015, -0.3235921859741211)
+TDS:Place("Farm", 32.300777435302734, 0.9999983906745911, -3.230858564376831)
+TDS:Place("Farm", 31.921661376953125, 0.9999982714653015, 0.28878235816955566)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Place("Farm", 36.47616958618164, 0.9999980926513672, 3.5250580310821533)
+TDS:Place("Farm", 32.77861404418945, 0.9999980926513672, 3.764962673187256)
+TDS:Place("Farm", 36.58553695678711, 0.9999979734420776, 7.23090934753418)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(9)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+TDS:Upgrade(14)
+
+-- [[ END OF STRATEGY ]]
