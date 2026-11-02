@@ -1,0 +1,15 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Crook Boss", "Accelerator", "Golden Scout", "DJ Booth", "Commander")
+TDS:Mode("Frost")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
