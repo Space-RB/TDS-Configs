@@ -1,0 +1,165 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.StreamerMode = true
+_G.TimeScaleValue = 1
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Sniper", "Assassin", "None", "None", "None")
+TDS:Mode("Act1")
+TDS:Ready()
+TDS:Place("Assassin", 27.30446434020996, 2.0009982585906982, 199.22903442382812)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:VoteSkip(0)
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Place("Assassin", 25.75518226623535, 2.0009984970092773, 197.85511779785156)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Sniper", 12.966001510620117, 6.817065238952637, 204.92832946777344)
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Place("Sniper", -6.468038558959961, 8.861952781677246, 197.27362060546875)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Sniper", -8.35687255859375, 8.861952781677246, 195.4488983154297)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("Sniper", -9.989726066589355, 8.861952781677246, 193.30111694335938)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Sniper", -10.856377601623535, 8.861952781677246, 195.64630126953125)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Sniper", 15.42434310913086, 6.817065238952637, 205.62998962402344)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(4)
+TDS:Place("Sniper", -8.875510215759277, 8.861953735351562, 198.00210571289062)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Sniper", -11.255743026733398, 6.817072868347168, 199.4397430419922)
+TDS:Upgrade(10)
+
+-- [ Wave 10 ] --
+TDS:Place("Assassin", 27.858558654785156, 2.0009987354278564, 197.1484375)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Sniper", 14.924064636230469, 6.8028564453125, 203.10916137695312)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Sniper", -12.596134185791016, 8.861952781677246, 193.84616088867188)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Sniper", -12.460607528686523, 6.817072868347168, 197.03228759765625)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Sniper", -14.014466285705566, 6.817072868347168, 194.31028747558594)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 12 ] --
+TDS:Place("Sniper", 9.620389938354492, 6.817065238952637, 204.61276245117188)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 13 ] --
+TDS:Place("Sniper", 12.920917510986328, 8.861952781677246, 207.2323760986328)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Sniper", 13.071062088012695, 8.837142944335938, 209.76158142089844)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Sniper", 10.333027839660645, 8.861952781677246, 208.26409912109375)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [ Wave 14 ] --
+TDS:Place("Sniper", 10.034283638000488, 8.850380897521973, 210.97567749023438)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Sniper", 7.867288589477539, 8.861952781677246, 209.6190948486328)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Place("Sniper", -13.88313102722168, 6.817072868347168, 199.1338653564453)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Place("Sniper", -14.997719764709473, 6.817072868347168, 196.8075408935547)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(8)
+TDS:Upgrade(3)
+TDS:Upgrade(21)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(23)
+TDS:Upgrade(22)
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(10)
+TDS:Upgrade(20)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(3)
+TDS:Upgrade(12)
+TDS:Upgrade(16)
+TDS:Upgrade(4)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+TDS:VoteSkip(15)
+
+-- [[ END OF STRATEGY ]]
