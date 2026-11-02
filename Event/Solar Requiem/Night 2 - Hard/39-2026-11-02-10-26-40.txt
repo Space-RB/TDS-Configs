@@ -1,0 +1,127 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Engineer", "Hacker", "EvolvedJuggernaut", "EvolvedKingpin", "Gatling Gun")
+TDS:Mode("Act2")
+TDS:Ready()
+TDS:Place("Engineer", 4.808498859405518, 47.84530258178711, -5.908298492431641)
+TDS:Place("Engineer", 1.8260421752929688, 47.73492431640625, -5.484516620635986)
+TDS:VoteSkip(0)
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:VoteSkip(1)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:VoteSkip(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Engineer", 3.1470768451690674, 47.66523361206055, -10.965202331542969)
+TDS:Upgrade(3)
+TDS:Place("Engineer", 6.187076568603516, 47.694732666015625, -10.965202331542969)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Place("Engineer", 9.43482780456543, 47.69322967529297, -9.573142051696777)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("Hacker", 0.19938993453979492, 48.0421142578125, -2.809880495071411)
+TDS:Upgrade(6)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(1)
+TDS:Place("Engineer", 7.617092132568359, 47.775146484375, -4.744940757751465)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:VoteSkip(11)
+TDS:Place("Gatling Gun", -0.12345671653747559, 47.617919921875, -12.319901466369629)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(2)
+TDS:VoteSkip(14)
+TDS:Place("Hacker", 10.25398063659668, 48.081539154052734, 39.07233810424805)
+TDS:Upgrade(9)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(1)
+TDS:VoteSkip(15)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6, 2)
+TDS:Ability(6, "Hologram Tower")
+TDS:Ability(6, "Hologram Tower", {towerPosition = Vector3.new(1.3137855529785156, 47.47886657714844, -17.285751342773438), towerToClone = 8}, true)
+TDS:VoteSkip(20)
+
+-- [[ END OF STRATEGY ]]
