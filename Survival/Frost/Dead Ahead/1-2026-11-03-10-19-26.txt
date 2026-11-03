@@ -1,0 +1,25 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Pyromancer", "None", "None", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Dead Ahead", {"ExplodingEnemies"})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", 3.704697608947754, 0.9999923706054688, -2.0657291412353516)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
