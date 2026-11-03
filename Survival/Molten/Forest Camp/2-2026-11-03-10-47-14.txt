@@ -1,0 +1,79 @@
+_G.AutoGatling = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.TimeScaleEnabled = true
+_G.AutoGatlingSettings = {fire_rate = 35, max_multi_targets = 3, show_bullet_lines = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Star Cannon", "Hacker", "Golden Scout", "None")
+TDS:Mode("Molten")
+TDS:GameInfo("Forest Camp", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", -12.211091995239258, 1.0275025367736816, -5.755602836608887)
+TDS:Place("Scout", -12.204719543457031, 1.0275025367736816, -2.7156097888946533)
+TDS:Place("Scout", -11.87478256225586, 1.0275025367736816, 0.30643248558044434)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", 1.0357731580734253, 7.366340160369873, -2.3240303993225098)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 30 ] --
+TDS:Place("Star Cannon", -1.238588571548462, 5.201018333435059, -15.205096244812012)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 35 ] --
+TDS:Place("Hacker", -9.42423152923584, 1.0275025367736816, -1.4865918159484863)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
