@@ -16,9 +16,8 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| U-Turn | 2 | [Open](U-Turn/README.md) |
+| Unknown | 55 | [Open](Unknown/README.md) |
 
-| Unknown | 54 | [Open](Unknown/README.md) |
 | Simplicity | 36 | [Open](Simplicity/README.md) |
 | Lay By | 25 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
@@ -31,6 +30,7 @@ Choose one of the categories below to continue.
 | Crystal Cave | 2 | [Open](Crystal%20Cave/README.md) |
 | Mason Arch | 2 | [Open](Mason%20Arch/README.md) |
 | Pier Pressure | 2 | [Open](Pier%20Pressure/README.md) |
+| U-Turn | 2 | [Open](U-Turn/README.md) |
 | Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
 | Abandoned City | 1 | [Open](Abandoned%20City/README.md) |
 | Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
