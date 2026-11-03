@@ -1,0 +1,19 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Soldier", "EvolvedJuggernaut", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 4 ] --
+TDS:Place("Soldier", -34.006004333496094, -1.3312574625015259, -12.636734008789062)
+
+-- [[ END OF STRATEGY ]]
