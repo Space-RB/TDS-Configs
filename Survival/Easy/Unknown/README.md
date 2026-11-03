@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 61 recorded strategies available for this map**
+**📦 62 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -80,6 +80,7 @@ Select a strategy below and open its config file.
 | 59 | 2026-11-03 13:56 UTC | Easy | — | Commander, Medic, EvolvedOperator, None | [Open](59-2026-11-03-13-56-30.txt) |
 | 60 | 2026-11-03 18:49 UTC | Easy | — | Golden Soldier, None | [Open](60-2026-11-03-18-49-43.txt) |
 | 61 | 2026-11-03 19:00 UTC | Easy | — | Golden Soldier, None | [Open](61-2026-11-03-19-00-33.txt) |
+| 62 | 2026-11-03 19:10 UTC | Easy | — | Golden Soldier, None | [Open](62-2026-11-03-19-10-13.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
