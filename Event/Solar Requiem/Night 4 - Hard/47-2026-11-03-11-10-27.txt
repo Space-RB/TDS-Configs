@@ -1,0 +1,167 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoMoonPuzzle = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.AutoStarCannon = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StarCannonMin = 16
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {bypass_boss_for_fast_enemies = true, prioritize_bosses = true, rainbow_bullet_lines = true, rainbow_esp = true, show_bullet_lines = true, target_esp = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "EvolvedKingpin", "Engineer", "Hacker", "EvolvedJuggernaut")
+TDS:Mode("Act4")
+TDS:Place("Engineer", -3.684753894805908, 0.9999892115592957, -25.74472427368164)
+TDS:Place("Engineer", -3.684753894805908, 0.9999852776527405, -22.704723358154297)
+TDS:Place("Engineer", -3.684753894805908, 0.9999812841415405, -19.664722442626953)
+TDS:Place("Engineer", -6.317471027374268, 1.0000017881393433, -24.22472381591797)
+TDS:Place("Engineer", -8.813848495483398, 1.0000019073486328, -25.993328094482422)
+TDS:Place("Engineer", -9.084359169006348, 1.0000017881393433, -22.96538734436035)
+TDS:Upgrade(1)
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 7 ] --
+TDS:Place("Gatling Gun", 0.3610020875930786, 7.976963996887207, -7.838651657104492)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 19 ] --
+TDS:Place("Hacker", 3.3874478340148926, 0.9999849200248718, -25.229299545288086)
+TDS:Place("Hacker", -3.683568000793457, 1.0244852304458618, -32.78706741333008)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("EvolvedJuggernaut", -7.694589614868164, 1.0078802108764648, -19.171953201293945)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(10, 2)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(10, 2)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(10, 2)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(10, 2)
+TDS:Upgrade(8)
+TDS:Upgrade(8, 2)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("EvolvedKingpin", 3.3874478340148926, 0.9999809861183167, -22.189300537109375)
+TDS:Place("EvolvedKingpin", 6.471355438232422, 0.9999830722808838, -25.033855438232422)
+TDS:Place("EvolvedKingpin", 6.421184539794922, 0.9999791383743286, -21.99427032470703)
+TDS:Place("EvolvedKingpin", 9.468788146972656, 0.9999790191650391, -24.8198184967041)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12, 2)
+TDS:Upgrade(14, 2)
+TDS:Upgrade(14, 2)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13, 2)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11, 2)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Ability(9, "Hologram Tower", {towerPosition = Vector3.new(4.406134128570557, 7.976963996887207, -7.8609819412231445), towerToClone = 7})
+
+-- [ Wave 28 ] --
+TDS:Ability(8, "Hologram Tower")
+TDS:Ability(8, "Hologram Tower", {towerPosition = Vector3.new(-5.07651424407959, 1.05747652053833, -14.774255752563477), towerToClone = 10}, true)
+
+-- [[ END OF STRATEGY ]]
