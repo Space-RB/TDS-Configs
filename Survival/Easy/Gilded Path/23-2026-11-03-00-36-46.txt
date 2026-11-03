@@ -1,0 +1,99 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.HideUsername = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Shotgunner", "Militant", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Gilded Path", {"Committed", "ExplodingEnemies", "FlyingEnemies", "Glass", "HiddenEnemies", "Limitation"})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Militant", 0.15677833557128906, 0.957819938659668, 15.433097839355469)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Militant", -2.7735228538513184, 1.0087028741836548, 14.623817443847656)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Militant", 3.017563581466675, 0.9552892446517944, 16.46144676208496)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Militant", -5.732146263122559, 0.9632699489593506, 13.925140380859375)
+TDS:Upgrade(4)
+TDS:Place("Militant", 2.23811936378479, 0.9637165069580078, 19.399826049804688)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(5)
+TDS:Place("Militant", -0.6226673126220703, 0.9653835296630859, 18.371475219726562)
+TDS:Upgrade(6)
+
+-- [ Wave 7 ] --
+TDS:Place("Militant", -3.552969455718994, 1.0123716592788696, 17.56219482421875)
+TDS:Upgrade(7)
+TDS:Place("Militant", -6.563746452331543, 0.970612645149231, 17.141691207885742)
+TDS:Upgrade(8)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+
+-- [ Wave 20 ] --
+TDS:Place("Shotgunner", 0.6102108955383301, 0.9695694446563721, 28.680322647094727)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
