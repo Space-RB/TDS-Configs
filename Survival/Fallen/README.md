@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| The Heights | 1 | [Open](The%20Heights/README.md) |
+| Summer Castle | 2 | [Open](Summer%20Castle/README.md) |
 
 | Unknown | 51 | [Open](Unknown/README.md) |
 | Simplicity | 36 | [Open](Simplicity/README.md) |
@@ -34,7 +34,7 @@ Choose one of the categories below to continue.
 | Farm Lands | 1 | [Open](Farm%20Lands/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Honey Valley | 1 | [Open](Honey%20Valley/README.md) |
-| Summer Castle | 1 | [Open](Summer%20Castle/README.md) |
+| The Heights | 1 | [Open](The%20Heights/README.md) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>
