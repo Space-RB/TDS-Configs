@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Sky Islands | 1 | [Open](Sky%20Islands/README.md) |
+| Dead Ahead | 1 | [Open](Dead%20Ahead/README.md) |
 
 | Unknown | 53 | [Open](Unknown/README.md) |
 | Simplicity | 36 | [Open](Simplicity/README.md) |
@@ -43,6 +43,7 @@ Choose one of the categories below to continue.
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Portland | 1 | [Open](Portland/README.md) |
 | Retro Rocket Arena | 1 | [Open](Retro%20Rocket%20Arena/README.md) |
+| Sky Islands | 1 | [Open](Sky%20Islands/README.md) |
 | Winter Abyss | 1 | [Open](Winter%20Abyss/README.md) |
 </div>
 
