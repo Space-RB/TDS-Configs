@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 267 recorded strategies available for this map**
+**📦 268 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -286,6 +286,7 @@ Select a strategy below and open its config file.
 | 265 | 2026-11-03 15:33 UTC | Hardcore | — | Electroshocker, Farm, Crook Boss, Turret, Engineer | [Open](265-2026-11-03-15-33-49.txt) |
 | 266 | 2026-11-03 15:50 UTC | Hardcore | — | Soldier, Shotgunner, None | [Open](266-2026-11-03-15-50-45.txt) |
 | 267 | 2026-11-03 16:21 UTC | Hardcore | — | Soldier, Shotgunner, None | [Open](267-2026-11-03-16-21-34.txt) |
+| 268 | 2026-11-03 16:28 UTC | Hardcore | — | Soldier, Shotgunner, None | [Open](268-2026-11-03-16-28-45.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
