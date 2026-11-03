@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
+| Forest Camp | 2 | [Open](Forest%20Camp/README.md) |
 
 | Unknown | 18 | [Open](Unknown/README.md) |
 | Simplicity | 9 | [Open](Simplicity/README.md) |
