@@ -1,0 +1,109 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Scout", "Minigunner", "Pyromancer", "Hunter", "Crook Boss")
+TDS:Mode("Hardcore")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Pyromancer", -7.049609184265137, 0.9637322425842285, -31.853975296020508)
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:VoteSkip(2)
+
+-- [ Wave 3 ] --
+TDS:VoteSkip(3)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:VoteSkip(4)
+
+-- [ Wave 5 ] --
+TDS:VoteSkip(5)
+
+-- [ Wave 6 ] --
+TDS:VoteSkip(6)
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+
+-- [ Wave 8 ] --
+TDS:VoteSkip(8)
+
+-- [ Wave 9 ] --
+TDS:VoteSkip(9)
+
+-- [ Wave 10 ] --
+TDS:VoteSkip(10)
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:VoteSkip(11)
+
+-- [ Wave 12 ] --
+TDS:Place("Hunter", 3.5979833602905273, 1.4159679412841797, 27.717418670654297)
+TDS:VoteSkip(12)
+
+-- [ Wave 13 ] --
+TDS:VoteSkip(13)
+
+-- [ Wave 14 ] --
+TDS:Place("Hunter", 0.5625627040863037, 1.4451467990875244, 27.884212493896484)
+TDS:VoteSkip(14)
+TDS:Place("Hunter", -2.4774372577667236, 1.4737136363983154, 27.884212493896484)
+
+-- [ Wave 15 ] --
+TDS:Place("Scout", 7.76929235458374, 0.8322693109512329, 18.62824058532715)
+TDS:VoteSkip(15)
+
+-- [ Wave 16 ] --
+TDS:Place("Minigunner", -2.0242748260498047, 0.10416898131370544, -3.8975303173065186)
+TDS:Upgrade(6)
+TDS:VoteSkip(16)
+
+-- [ Wave 17 ] --
+TDS:VoteSkip(17)
+TDS:Place("Crook Boss", -2.5713119506835938, -0.01598881557583809, -6.9251532554626465)
+
+-- [ Wave 18 ] --
+TDS:VoteSkip(18)
+TDS:Upgrade(7)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(6)
+TDS:VoteSkip(19)
+TDS:Place("Minigunner", 0.8745766878128052, 0.2160763144493103, -4.897268772125244)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(8)
+TDS:VoteSkip(20)
+
+-- [ Wave 21 ] --
+TDS:Place("Minigunner", 0.9281201362609863, 0.09310165047645569, -1.0303921699523926)
+TDS:VoteSkip(21)
+
+-- [ Wave 22 ] --
+TDS:VoteSkip(22)
+TDS:WaitForWave(22)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+TDS:Sell(5)
+TDS:Sell(6)
+TDS:Sell(7)
+TDS:Sell(8)
+TDS:Sell(9)
+
+-- [[ END OF STRATEGY ]]
