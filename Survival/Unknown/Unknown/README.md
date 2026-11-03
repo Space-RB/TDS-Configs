@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 194 recorded strategies available for this map**
+**📦 195 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -213,6 +213,7 @@ Select a strategy below and open its config file.
 | 192 | 2026-11-03 11:48 UTC | Unknown | — | DJ Booth, Gatling Gun, Mercenary Base, Trapper, None | [Open](192-2026-11-03-11-48-00.txt) |
 | 193 | 2026-11-03 12:14 UTC | Unknown | — | EvolvedJuggernaut, Accelerator, Gatling Gun, Turret, Pursuit | [Open](193-2026-11-03-12-14-02.txt) |
 | 194 | 2026-11-03 15:28 UTC | Unknown | — | Soldier, Shotgunner, None | [Open](194-2026-11-03-15-28-31.txt) |
+| 195 | 2026-11-03 17:36 UTC | Unknown | — | None | [Open](195-2026-11-03-17-36-16.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
