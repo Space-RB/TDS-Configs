@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 54 | [Open](Unknown/README.md) |
+| U-Turn | 1 | [Open](U-Turn/README.md) |
 
+| Unknown | 54 | [Open](Unknown/README.md) |
 | Simplicity | 36 | [Open](Simplicity/README.md) |
 | Lay By | 25 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
