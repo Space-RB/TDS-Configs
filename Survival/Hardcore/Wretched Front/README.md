@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 264 recorded strategies available for this map**
+**📦 265 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -283,6 +283,7 @@ Select a strategy below and open its config file.
 | 262 | 2026-11-03 12:29 UTC | Hardcore | — | EvolvedJuggernaut, Brawler, Engineer, Farm, DJ Booth | [Open](262-2026-11-03-12-29-41.txt) |
 | 263 | 2026-11-03 12:36 UTC | Hardcore | — | EvolvedJuggernaut, Brawler, Engineer, Farm, DJ Booth | [Open](263-2026-11-03-12-36-04.txt) |
 | 264 | 2026-11-03 12:40 UTC | Hardcore | — | EvolvedJuggernaut, Brawler, Engineer, Farm, DJ Booth | [Open](264-2026-11-03-12-40-58.txt) |
+| 265 | 2026-11-03 15:33 UTC | Hardcore | — | Electroshocker, Farm, Crook Boss, Turret, Engineer | [Open](265-2026-11-03-15-33-49.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
