@@ -1,0 +1,65 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoXP = true
+_G.StartHubStrategy = "c54056ef-33c0-4eac-a5cd-dc83155e5ab9"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "None", "None", "None", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("U-Turn", {})
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", 15.505072593688965, 1.0000064373016357, -7.238400459289551)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Place("Trapper", 15.560882568359375, 1.0000064373016357, -4.198912620544434)
+
+-- [ Wave 4 ] --
+TDS:Place("Trapper", 9.650675773620605, 1.0000064373016357, -11.28902816772461)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Place("Trapper", 15.199554443359375, 1.0000064373016357, -1.1804628372192383)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(2)
+TDS:Place("Trapper", 9.821552276611328, 1.0000064373016357, -8.241809844970703)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(5)
+
+-- [[ END OF STRATEGY ]]
