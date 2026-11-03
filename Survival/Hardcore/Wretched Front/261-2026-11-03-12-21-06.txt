@@ -1,0 +1,161 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedJuggernaut", "Brawler", "Engineer", "Farm", "DJ Booth")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+
+-- [ Wave 6 ] --
+TDS:VoteSkip(6)
+TDS:WaitForWave(6)
+TDS:Sell(1)
+TDS:Place("Farm", 13.294793128967285, 1.2444730997085571, 37.93446350097656)
+TDS:Upgrade(2)
+TDS:Ready()
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Place("Brawler", 13.552699089050293, 1.1914061307907104, 29.518964767456055)
+TDS:Place("Farm", 9.629257202148438, 1.3073225021362305, 38.04498291015625)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Place("Brawler", 13.362715721130371, 1.2219743728637695, 27.487831115722656)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Farm", 6.091865539550781, 1.3668403625488281, 38.18979263305664)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Farm", 6.038804054260254, 1.4148931503295898, 41.769039154052734)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 9 ] --
+TDS:Place("Farm", 9.564743041992188, 1.3595372438430786, 42.08024978637695)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 10 ] --
+TDS:Place("Brawler", 15.437413215637207, 1.1580854654312134, 28.738290786743164)
+TDS:Place("Brawler", 15.5089750289917, 1.1053907871246338, 26.66741371154785)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Place("Engineer", 6.544302940368652, 1.3881504535675049, 27.85062026977539)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(11)
+TDS:Place("Engineer", 3.5042877197265625, 1.417144536972046, 27.850624084472656)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(12)
+TDS:Place("Brawler", 16.232261657714844, 0.41591358184814453, 14.361202239990234)
+TDS:Upgrade(13)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(13)
+TDS:Place("Brawler", 17.278697967529297, 0.528762698173523, 16.073293685913086)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Brawler", 17.278697967529297, 0.6228762865066528, 18.113292694091797)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 15 ] --
+TDS:Place("Farm", 13.11325740814209, 1.2629088163375854, 41.469825744628906)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Farm", 16.833988189697266, 1.1695013046264648, 37.99106216430664)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 16 ] --
+TDS:Place("Brawler", 16.332843780517578, 0.7333518266677856, 19.913137435913086)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 17 ] --
+TDS:Place("Brawler", 15.240158081054688, 0.7531216144561768, 18.190454483032227)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Brawler", 12.443839073181152, 0.4594604969024658, 16.143857955932617)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [ Wave 18 ] --
+TDS:Place("Farm", 20.36066436767578, 1.0624938011169434, 38.2938117980957)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+
+-- [ Wave 19 ] --
+TDS:Place("DJ Booth", 14.18563175201416, 1.106048822402954, 22.960779190063477)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:SetOption(22, "Track", "Red")
+TDS:Upgrade(15)
+
+-- [ Wave 20 ] --
+TDS:Place("EvolvedJuggernaut", 2.5634307861328125, 1.3229272365570068, 20.00301170349121)
+TDS:Upgrade(23)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(23)
+TDS:Upgrade(19)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(18)
+TDS:WaitForWave(23)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+TDS:Sell(5)
+TDS:Sell(6)
+TDS:Sell(7)
+TDS:Sell(8)
+TDS:Sell(9)
+TDS:Sell(10)
+TDS:Sell(11)
+TDS:Sell(12)
+TDS:Sell(13)
+TDS:Sell(14)
+TDS:Sell(15)
+TDS:Sell(16)
+TDS:Sell(17)
+TDS:Sell(18)
+TDS:Sell(19)
+TDS:Sell(20)
+TDS:Sell(21)
+TDS:Sell(22)
+TDS:Sell(23)
+TDS:VoteSkip(2)
+TDS:VoteSkip(3)
+TDS:VoteSkip(4)
+
+-- [[ END OF STRATEGY ]]
