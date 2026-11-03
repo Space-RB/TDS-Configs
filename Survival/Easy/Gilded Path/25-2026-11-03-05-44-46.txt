@@ -1,0 +1,82 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Crook Boss", "Scout", "Minigunner", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Gilded Path", {})
+TDS:Ready()
+TDS:Place("Scout", 1.9269804954528809, 0.9701262712478638, 24.437437057495117)
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", -1.212315559387207, 0.9772707223892212, 24.076831817626953)
+TDS:Place("Scout", -4.65789794921875, 0.9815442562103271, 23.99964141845703)
+TDS:Place("Scout", -7.596247673034668, 0.984133243560791, 23.392847061157227)
+TDS:Place("Scout", 3.3637442588806152, 0.9660779237747192, 21.725120544433594)
+
+-- [ Wave 2 ] --
+TDS:Place("Scout", -6.693698883056641, 0.9773112535476685, 20.48991584777832)
+TDS:Place("Scout", -3.153470993041992, 0.974459171295166, 21.357994079589844)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 6 ] --
+TDS:Place("Crook Boss", -2.2637622356414795, 1.0109697580337524, 15.721972465515137)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 10 ] --
+TDS:Place("Minigunner", -0.11570453643798828, 0.9703315496444702, 21.241512298583984)
+TDS:Upgrade(9)
+
+-- [ Wave 11 ] --
+TDS:Place("Crook Boss", 0.7397432327270508, 0.9565929174423218, 15.401779174804688)
+TDS:Upgrade(10)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(10)
+TDS:Place("Crook Boss", 3.677377700805664, 0.9531859159469604, 16.184019088745117)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(11)
+TDS:Place("Crook Boss", -3.2967281341552734, 0.9569511413574219, 12.862850189208984)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 15 ] --
+TDS:Place("Crook Boss", 10.054487228393555, 0.9253491163253784, -4.803489685058594)
+TDS:Upgrade(13)
+
+-- [[ END OF STRATEGY ]]
