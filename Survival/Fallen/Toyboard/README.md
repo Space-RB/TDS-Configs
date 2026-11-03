@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 2 recorded strategies available for this map**
+**📦 3 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -21,6 +21,7 @@ Select a strategy below and open its config file.
 | 1 | 2026-11-03 21:43 UTC | Fallen | — | Militant, Pyromancer, Demoman, None | [Open](1-2026-11-03-21-43-59.txt) |
 
 | 2 | 2026-11-03 21:44 UTC | Fallen | — | Militant, Pyromancer, Demoman, None | [Open](2-2026-11-03-21-44-24.txt) |
+| 3 | 2026-11-03 21:49 UTC | Fallen | — | Militant, Pyromancer, Demoman, None | [Open](3-2026-11-03-21-49-38.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
