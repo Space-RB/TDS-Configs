@@ -1,0 +1,112 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("None", "None", "None", "None", "None")
+TDS:Mode("Act3Easy")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", -4.696892261505127, 104.72583770751953, 134.78158569335938)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Assassin", -6.014495849609375, 104.84721374511719, 136.61135864257812)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Gatling Gun", -4.84134578704834, 103.26705169677734, 115.56645202636719)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+TDS:Place("DJ Booth", -5.593174934387207, 104.0807113647461, 123.5584945678711)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(1)
+TDS:Place("Assassin", -1.042616844177246, 103.24977111816406, 116.35426330566406)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+
+-- [ Wave 17 ] --
+TDS:Place("Hacker", -6.404501438140869, 104.60314178466797, 128.40948486328125)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 20 ] --
+TDS:Place("Assassin", -8.672294616699219, 104.77225494384766, 129.486328125)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Assassin", -9.945749282836914, 104.8687515258789, 131.4936981201172)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 21 ] --
+TDS:Place("Assassin", -3.1961941719055176, 104.5005874633789, 128.55343627929688)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("EvolvedJuggernaut", -9.01865005493164, 103.76651000976562, 117.9029541015625)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(10, 2)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(10, 2)
+TDS:Upgrade(10, 2)
+TDS:Upgrade(6, 2)
+
+-- [[ END OF STRATEGY ]]
