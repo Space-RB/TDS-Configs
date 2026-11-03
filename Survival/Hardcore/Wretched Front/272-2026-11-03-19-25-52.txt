@@ -1,0 +1,42 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Crook Boss", "EvolvedJuggernaut", "Golden Pyromancer", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Pyromancer", -6.574067115783691, 0.9590009450912476, -31.903520584106445)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Place("Crook Boss", -0.8655271530151367, 0.6065257787704468, -20.88144302368164)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Place("Crook Boss", -2.7330238819122314, 0.7403208017349243, -23.243425369262695)
+TDS:Upgrade(3)
+
+-- [ Wave 19 ] --
+TDS:Place("EvolvedJuggernaut", -3.7674741744995117, 0.2327536642551422, -16.99958038330078)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]
