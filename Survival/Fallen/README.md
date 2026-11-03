@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Toyboard | 2 | [Open](Toyboard/README.md) |
+| Toyboard | 3 | [Open](Toyboard/README.md) |
 
 | Unknown | 51 | [Open](Unknown/README.md) |
 | Simplicity | 37 | [Open](Simplicity/README.md) |
