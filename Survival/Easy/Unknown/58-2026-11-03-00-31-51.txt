@@ -1,0 +1,72 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.HideUsername = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Shotgunner", "Militant", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("", {"Committed", "ExplodingEnemies", "FlyingEnemies", "Glass", "HiddenEnemies", "Limitation"})
+TDS:Ready()
+TDS:Place("Militant", -1.4013428688049316, 0.963335394859314, 16.809072494506836)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Militant", 1.1222739219665527, 0.9546729326248169, 15.003684997558594)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Militant", -1.660632610321045, 0.9564758539199829, 13.7801513671875)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Militant", -4.154111862182617, 0.9643534421920776, 15.519163131713867)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Place("Militant", -4.418724060058594, 0.9580680131912231, 12.501659393310547)
+TDS:Upgrade(5)
+TDS:Place("Militant", 1.3815617561340332, 0.9621491432189941, 18.032608032226562)
+TDS:Upgrade(6)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(1)
+TDS:Place("Shotgunner", 0.3395528793334961, 0.9721688032150269, 27.743009567260742)
+TDS:Upgrade(7)
+TDS:Place("Militant", 7.867701053619385, 0.958478569984436, -24.818754196166992)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]
