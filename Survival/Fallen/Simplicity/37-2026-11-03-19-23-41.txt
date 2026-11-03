@@ -1,0 +1,114 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "Shotgunner", "Commander", "DJ Booth", "Minigunner")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Trapper", -18.330078125, 1.0000004768371582, -2.580202102661133)
+TDS:VoteSkip(1)
+
+-- [ Wave 3 ] --
+TDS:VoteSkip(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Shotgunner", -18.172025680541992, 0.9999834895133972, -5.1152801513671875)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Place("Shotgunner", -18.172025680541992, 0.9999834895133972, -7.155280113220215)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+TDS:Place("Shotgunner", -18.187213897705078, 0.9999881386756897, -9.195223808288574)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", -18.661251068115234, 0.9999901652336121, -11.163984298706055)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Place("Shotgunner", -16.70244598388672, 0.9999913573265076, -10.594175338745117)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:Place("Shotgunner", -15.623137474060059, 0.9999902248382568, -8.80337905883789)
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(7)
+TDS:Place("Shotgunner", -20.507837295532227, 0.9999844431877136, -11.951287269592285)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Shotgunner", -23.712928771972656, 1.000001072883606, -6.564868927001953)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 16 ] --
+TDS:Place("Shotgunner", -23.712928771972656, 1.0000008344650269, -4.524868965148926)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("DJ Booth", -12.59376049041748, 1.0000005960464478, -2.8498401641845703)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:SetOption(11, "Track", "Green")
+TDS:Upgrade(11)
+
+-- [ Wave 18 ] --
+TDS:Place("Commander", -18.66944122314453, 0.999990701675415, -13.703970909118652)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Commander", -13.083137512207031, 0.9999911785125732, -8.80337905883789)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Commander", -23.712928771972656, 1.0000003576278687, -1.9848690032958984)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:VoteSkip(19)
+TDS:WaitForWave(19)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+TDS:Sell(5)
+TDS:Sell(6)
+TDS:Sell(7)
+TDS:Sell(8)
+TDS:Sell(9)
+TDS:Sell(10)
+TDS:Sell(11)
+TDS:Sell(12)
+TDS:Sell(13)
+TDS:Sell(14)
+
+-- [[ END OF STRATEGY ]]
