@@ -1,0 +1,34 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.MatchTrackerEnabled = false
+_G.StreamerMode = true
+_G.TimeScaleValue = 1
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedOperator", "EvolvedEnforcer", "EvolvedJuggernaut", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("EvolvedOperator", 6.53909969329834, 1.3880366086959839, 27.773714065551758)
+
+-- [ Wave 6 ] --
+TDS:Place("EvolvedEnforcer", 4.24908447265625, 1.4098777770996094, 27.773717880249023)
+
+-- [ Wave 15 ] --
+TDS:Place("EvolvedJuggernaut", 5.705789566040039, 1.3971004486083984, 28.299068450927734)
+
+-- [[ END OF STRATEGY ]]
