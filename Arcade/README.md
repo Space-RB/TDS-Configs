@@ -16,10 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| false | 20 | [Open](false/README.md) |
+| Trials | 3 | [Open](Trials/README.md) |
 
+| false | 20 | [Open](false/README.md) |
 | Pizza Party | 7 | [Open](Pizza%20Party/README.md) |
-| Trials | 2 | [Open](Trials/README.md) |
 | Badlands | 1 | [Open](Badlands/README.md) |
 </div>
 
