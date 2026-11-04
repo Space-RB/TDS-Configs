@@ -1,0 +1,158 @@
+_G.AutoGatling = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {gui_hidden = true, rgb_speed = 0.1}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Engineer", "Hacker", "EvolvedJuggernaut", "Gatling Gun", "Turret")
+TDS:Mode("Act4")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Engineer", -3.6473026275634766, 0.9999890923500061, -25.697978973388672)
+TDS:Place("Engineer", -3.6473026275634766, 0.9999851584434509, -22.657978057861328)
+TDS:Place("Engineer", -3.6473026275634766, 0.9999812245368958, -19.617977142333984)
+TDS:Place("Engineer", -6.687302589416504, 1.0000019073486328, -25.697978973388672)
+TDS:Place("Engineer", -6.687302589416504, 1.0000016689300537, -22.65797996520996)
+TDS:Place("Engineer", -6.687302589416504, 1.0000014305114746, -19.61798095703125)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 3 ] --
+TDS:Place("Hacker", 3.430561065673828, 0.9999844431877136, -24.878698348999023)
+TDS:Upgrade(7)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", -3.64730167388916, 1.0447453260421753, -16.07797622680664)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(8)
+TDS:Place("Hacker", 3.375821113586426, 1.0000048875808716, -68.1825942993164)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(7, 2)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(9, 2)
+TDS:Place("Turret", 3.3663840293884277, 1.0446442365646362, -16.308330535888672)
+TDS:Place("Turret", 3.3663840293884277, 0.9999786019325256, -20.348331451416016)
+TDS:Place("Turret", -3.6473007202148438, 1.0327603816986084, -12.037980079650879)
+TDS:Place("EvolvedJuggernaut", -8.182292938232422, 1.0519990921020508, -15.864768028259277)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13, 2)
+TDS:Upgrade(13, 2)
+TDS:Upgrade(13, 2)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(13, 2)
+
+-- [[ END OF STRATEGY ]]
