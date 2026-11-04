@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 283 recorded strategies available for this map**
+**📦 284 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -302,6 +302,7 @@ Select a strategy below and open its config file.
 | 281 | 2026-11-03 21:34 UTC | Hardcore | — | Farm, Shotgunner, Electroshocker, EvolvedOperator, EvolvedJuggernaut | [Open](281-2026-11-03-21-34-45.txt) |
 | 282 | 2026-11-03 21:34 UTC | Hardcore | — | Farm, Shotgunner, Electroshocker, EvolvedOperator, EvolvedJuggernaut | [Open](282-2026-11-03-21-34-55.txt) |
 | 283 | 2026-11-03 21:36 UTC | Hardcore | — | Farm, Shotgunner, Electroshocker, EvolvedOperator, EvolvedJuggernaut | [Open](283-2026-11-03-21-36-30.txt) |
+| 284 | 2026-11-04 01:00 UTC | Hardcore | — | Minigunner, Golden Scout, Crook Boss, Hunter, Pyromancer | [Open](284-2026-11-04-01-00-59.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
