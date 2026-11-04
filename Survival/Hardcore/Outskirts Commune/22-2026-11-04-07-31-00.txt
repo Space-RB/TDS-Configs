@@ -1,0 +1,19 @@
+_G.AutoGems = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.StartHubStrategy = "966e7b55-d947-4c50-898c-29a244bb4a57"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Crook Boss", "Militant", "Farm", "Pyromancer", "Ace Pilot")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Outskirts Commune", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
