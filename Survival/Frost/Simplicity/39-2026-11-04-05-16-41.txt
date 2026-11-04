@@ -1,0 +1,104 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Militant", "Commander", "DJ Booth", "Crook Boss", "Turret")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {})
+TDS:Place("Militant", -17.20831298828125, 0.9999895691871643, -9.159035682678223)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Militant", -14.168313026428223, 0.9999881982803345, -9.159035682678223)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Militant", -11.157939910888672, 0.9999822378158569, -9.070361137390137)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Militant", -12.585371017456055, 0.9999876022338867, -11.754395484924316)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Place("Militant", -15.624489784240723, 0.9999942779541016, -11.827583312988281)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Place("Militant", -11.842391967773438, 0.9999834299087524, -14.666210174560547)
+TDS:Upgrade(6)
+TDS:Place("Militant", -12.140036582946777, 1.0000005960464478, -3.539083480834961)
+
+-- [ Wave 8 ] --
+TDS:Place("Militant", -12.568721771240234, 1.0000001192092896, -0.5659074783325195)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+
+-- [ Wave 12 ] --
+TDS:Place("DJ Booth", -7.131163597106934, 0.9999885559082031, -8.818984985351562)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 14 ] --
+TDS:Place("Commander", -9.077936172485352, 1.0000007152557373, -3.7468862533569336)
+TDS:Upgrade(10)
+TDS:Place("Commander", -6.117910385131836, 0.9999879002571106, -3.05417537689209)
+TDS:Place("Commander", -8.19782829284668, 1.000000238418579, -0.8370733261108398)
+TDS:SetOption(9, "Track", "Green")
+
+-- [ Wave 15 ] --
+TDS:Place("Crook Boss", -3.079777956008911, 0.9999916553497314, -3.1607179641723633)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 16 ] --
+TDS:SetOption(9, "Track", "Purple")
+TDS:VoteSkip(16)
+TDS:WaitForWave(16)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+TDS:Sell(5)
+TDS:Sell(6)
+TDS:Sell(7)
+TDS:Sell(8)
+TDS:Sell(9)
+TDS:Sell(10)
+TDS:Sell(11)
+TDS:Sell(12)
+TDS:Sell(13)
+
+-- [[ END OF STRATEGY ]]
