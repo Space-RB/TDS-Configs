@@ -1,0 +1,108 @@
+_G.AutoGems = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.StartHubStrategy = "966e7b55-d947-4c50-898c-29a244bb4a57"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Crook Boss", "Militant", "Farm", "Pyromancer", "Ace Pilot")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Outskirts Commune", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Ace Pilot", -9.660581588745117, 501.31890869140625, 28.32782554626465)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Ace Pilot", 17.598464965820312, 501.374267578125, 9.970685005187988)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Farm", -35.88423156738281, 501.729736328125, 17.903169631958008)
+
+-- [ Wave 6 ] --
+TDS:Place("Ace Pilot", -5.838584899902344, 501.33447265625, 29.91535758972168)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Farm", -36.50638198852539, 501.75616455078125, 21.58229637145996)
+TDS:Place("Farm", -36.45051574707031, 501.556396484375, 25.884117126464844)
+TDS:Place("Farm", -36.483787536621094, 501.49761962890625, 29.774700164794922)
+TDS:Place("Farm", -36.14105987548828, 501.4398498535156, 35.291114807128906)
+
+-- [ Wave 9 ] --
+TDS:Place("Farm", -33.240623474121094, 501.485595703125, 28.440982818603516)
+TDS:Place("Farm", -33.01848602294922, 501.6881103515625, 23.417236328125)
+TDS:Place("Farm", -32.36096954345703, 501.61553955078125, 19.466428756713867)
+
+-- [ Wave 10 ] --
+TDS:Place("Farm", -28.92076873779297, 501.5704040527344, 22.69947052001953)
+TDS:Place("Farm", -28.195295333862305, 501.4100646972656, 26.765121459960938)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Place("Pyromancer", -13.364307403564453, 502.73040771484375, -13.735015869140625)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 15 ] --
+TDS:Place("Pyromancer", 19.481281280517578, 501.5077819824219, 3.156254768371582)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(15)
+
+-- [ Wave 17 ] --
+TDS:Place("Pyromancer", -15.257229804992676, 501.319580078125, 21.91884422302246)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 18 ] --
+TDS:Place("Ace Pilot", -0.05898094177246094, 503.1032409667969, -13.741453170776367)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 19 ] --
+TDS:Place("Pyromancer", -10.179366111755371, 501.29541015625, 24.429349899291992)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 20 ] --
+TDS:Place("Pyromancer", 16.40462303161621, 501.2893371582031, 22.056543350219727)
+TDS:Upgrade(19)
+
+-- [ Wave 21 ] --
+TDS:Place("Militant", -4.761003494262695, 502.5032043457031, -5.133609771728516)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [ Wave 22 ] --
+TDS:Place("Pyromancer", -11.300512313842773, 502.4412841796875, -7.073681831359863)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+
+-- [[ END OF STRATEGY ]]
