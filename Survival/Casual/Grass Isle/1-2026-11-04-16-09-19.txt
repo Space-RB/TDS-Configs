@@ -1,0 +1,47 @@
+_G.AutoGatling = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {beta_dps = true, bypass_boss_for_fast_enemies = true, gui_hidden = true, prioritize_bosses = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Engineer", "Hacker", "Gladiator", "Golden Pyromancer")
+TDS:Mode("Casual")
+TDS:GameInfo("Grass Isle", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Gladiator", 11.383217811584473, 1.0000048875808716, -29.743492126464844)
+TDS:Place("Gladiator", 9.869338989257812, 1.000005841255188, -36.164955139160156)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Ability(2, "War Cry")
+
+-- [ Wave 5 ] --
+TDS:WaitForWave(5)
+TDS:Sell(1)
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Place("Gatling Gun", 1.2564976215362549, 7.72982931137085, -21.107492446899414)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+
+-- [[ END OF STRATEGY ]]
