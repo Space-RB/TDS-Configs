@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 78 recorded strategies available for this map**
+**📦 79 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -97,6 +97,7 @@ Select a strategy below and open its config file.
 | 76 | 2026-11-04 01:53 UTC | Act1 | — | Crook Boss, Assassin, None | [Open](76-2026-11-04-01-53-09.txt) |
 | 77 | 2026-11-04 01:58 UTC | Act1 | — | Crook Boss, Assassin, None | [Open](77-2026-11-04-01-58-59.txt) |
 | 78 | 2026-11-04 02:07 UTC | Act1 | — | Crook Boss, Assassin, None | [Open](78-2026-11-04-02-07-26.txt) |
+| 79 | 2026-11-04 09:29 UTC | Act1 | — | Golden Scout, None | [Open](79-2026-11-04-09-29-18.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
