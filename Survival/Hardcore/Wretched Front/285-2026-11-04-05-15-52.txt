@@ -1,0 +1,22 @@
+_G.AntiLag = true
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMedic = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.SupportCaravan = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Farm", "Boomerang", "Crook Boss", "Freezer", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
