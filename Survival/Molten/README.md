@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 21 | [Open](Unknown/README.md) |
+| Unknown | 22 | [Open](Unknown/README.md) |
 
 | Simplicity | 9 | [Open](Simplicity/README.md) |
 | Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
