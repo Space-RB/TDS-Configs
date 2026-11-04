@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 207 recorded strategies available for this map**
+**📦 208 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -226,6 +226,7 @@ Select a strategy below and open its config file.
 | 205 | 2026-11-04 13:32 UTC | Unknown | — | EvolvedKingpin, Hacker, Gatling Gun, DJ Booth, Pyromancer | [Open](205-2026-11-04-13-32-43.txt) |
 | 206 | 2026-11-04 14:12 UTC | Unknown | — | Militant, Hunter, Military Base, Freezer, Farm | [Open](206-2026-11-04-14-12-18.txt) |
 | 207 | 2026-11-04 14:31 UTC | Unknown | — | EvolvedKingpin, Hacker, Gatling Gun, Engineer, DJ Booth | [Open](207-2026-11-04-14-31-14.txt) |
+| 208 | 2026-11-04 14:31 UTC | Unknown | — | EvolvedKingpin, Hacker, Gatling Gun, Engineer, DJ Booth | [Open](208-2026-11-04-14-31-26.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
