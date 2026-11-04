@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 27 recorded strategies available for this map**
+**📦 28 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -46,6 +46,7 @@ Select a strategy below and open its config file.
 | 25 | 2026-11-03 05:44 UTC | Easy | — | Crook Boss, Scout, Minigunner, None | [Open](25-2026-11-03-05-44-46.txt) |
 | 26 | 2026-11-03 06:05 UTC | Easy | — | Shotgunner, Soldier, Crook Boss, Minigunner, Scout | [Open](26-2026-11-03-06-05-04.txt) |
 | 27 | 2026-11-04 14:18 UTC | Easy | — | Shotgunner, Soldier, None | [Open](27-2026-11-04-14-18-01.txt) |
+| 28 | 2026-11-04 14:22 UTC | Easy | — | Shotgunner, Soldier, None | [Open](28-2026-11-04-14-22-15.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
