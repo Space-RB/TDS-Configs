@@ -1,0 +1,143 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {beta_dps = true, bypass_boss_for_fast_enemies = true, gui_hidden = true, rgb_speed = 2, target_esp = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "Gatling Gun", "DJ Booth", "Hacker", "Mercenary Base")
+TDS:Mode("Fallen")
+TDS:GameInfo("", {"ExplodingEnemies", "Fog", "HiddenEnemies", "Limitation", "Quarantine"})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Trapper", -3.4329757690429688, 242.99998474121094, 224.67526245117188)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Place("Trapper", -3.2769012451171875, 243.08934020996094, 221.6887969970703, true)
+TDS:Place("Trapper", -3.2479429244995117, 243.09066772460938, 221.68569946289062, true)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2, true)
+
+-- [ Wave 8 ] --
+TDS:Place("Gatling Gun", -3.949822425842285, 245.99295043945312, 208.1776123046875)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Place("DJ Booth", -3.3747711181640625, 243, 207.2500457763672, true)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(5, true)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(5, true)
+TDS:Upgrade(5, true)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3, true)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(5, true)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(5, true)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 29 ] --
+TDS:Place("Mercenary Base", -3.7225914001464844, 242.99998474121094, 213.86264038085938, true)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(6, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(6, true)
+
+-- [ Wave 31 ] --
+TDS:Place("Hacker", 4.13675594329834, 242.99998474121094, 267.1716003417969)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Hacker", -4.6860551834106445, 242.99998474121094, 266.92083740234375, true)
+TDS:Upgrade(7, 2)
+TDS:Upgrade(8, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(8, true)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(8, true)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(8, 2, true)
+TDS:Place("Mercenary Base", 4.89923095703125, 242.99998474121094, 214.607421875, true)
+TDS:Place("Mercenary Base", 5.445533752441406, 243, 211.2851104736328, true)
+
+-- [ Wave 34 ] --
+TDS:Place("Trapper", -3.596698760986328, 242.99998474121094, 217.46365356445312, true)
+TDS:Place("Trapper", 3.642141342163086, 243, 219.2919464111328, true)
+TDS:Place("Trapper", 3.612081527709961, 243.00001525878906, 217.36192321777344, true)
+TDS:Place("Trapper", 3.991990089416504, 243, 220.7052459716797, true)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(3, true)
+TDS:Upgrade(3, true)
+TDS:Upgrade(3, true)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(2, true)
+TDS:Upgrade(2, true)
+TDS:Upgrade(2, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(14, true)
+TDS:Upgrade(14, true)
+TDS:Upgrade(14, true)
+TDS:Upgrade(14, true)
+TDS:Upgrade(12, true)
+TDS:Upgrade(12, true)
+TDS:Upgrade(12, true)
+TDS:Upgrade(12, true)
+TDS:Upgrade(13, true)
+TDS:Upgrade(13, true)
+TDS:Upgrade(13, true)
+TDS:Upgrade(10, true)
+TDS:Upgrade(10, true)
+TDS:Upgrade(10, true)
+TDS:Upgrade(10, true)
+TDS:Upgrade(10, true)
+TDS:Upgrade(10, true)
+TDS:Upgrade(9, true)
+TDS:Upgrade(9, true)
+
+-- [[ END OF STRATEGY ]]
