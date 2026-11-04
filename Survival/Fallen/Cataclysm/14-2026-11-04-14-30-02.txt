@@ -1,0 +1,113 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Militant", "Demoman", "Pyromancer", "Shotgunner", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("Cataclysm", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Militant", -2.475119113922119, 1.0000081062316895, 19.32529640197754)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Militant", -5.048503398895264, 1.0000081062316895, 20.9437198638916)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Militant", 0.5110467672348022, 1.0000081062316895, 18.993732452392578)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Militant", -1.1955395936965942, 1.0000081062316895, 22.082881927490234)
+TDS:Upgrade(4)
+TDS:Place("Demoman", -4.790834426879883, 1.0000081062316895, 26.755435943603516)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Place("Pyromancer", 3.284472942352295, 1.0000081062316895, 29.2666015625)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Place("Demoman", -2.0759105682373047, 1.0000081062316895, 28.12320327758789)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", -7.668950080871582, 1.0000081062316895, 25.816486358642578)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", -7.588921546936035, 1.0000081062316895, 23.778057098388672)
+TDS:Upgrade(9)
+TDS:Place("Shotgunner", -7.511108875274658, 1.0000081062316895, 21.73954200744629)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 13 ] --
+TDS:Place("Demoman", -4.036799430847168, 1.0000081062316895, 23.810434341430664)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Demoman", -1.3218755722045898, 1.0000081062316895, 25.17820167541504)
+TDS:Upgrade(12)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(12)
+TDS:Place("Shotgunner", -9.704849243164062, 1.0000081062316895, 25.687206268310547)
+TDS:Upgrade(13)
+TDS:Place("Shotgunner", -9.792621612548828, 1.0000081062316895, 23.158126831054688)
+TDS:Upgrade(14)
+
+-- [ Wave 15 ] --
+TDS:Place("Shotgunner", -9.354653358459473, 1.0000081062316895, 20.86607551574707)
+TDS:Upgrade(15)
+TDS:Upgrade(6)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(12)
+
+-- [ Wave 18 ] --
+TDS:Place("Militant", -1.6305418014526367, 1.0000081062316895, -33.47933578491211)
+TDS:Place("Demoman", -0.15148711204528809, 1.0000081062316895, -30.82339859008789)
+TDS:Upgrade(17)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(5)
+TDS:Upgrade(11)
+TDS:Upgrade(7)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+TDS:Place("Shotgunner", 0.16190481185913086, 1.0000081062316895, -12.051753044128418)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Place("Shotgunner", -1.2783923149108887, 1.0000081062316895, -32.24899673461914)
+TDS:Upgrade(19)
+
+-- [[ END OF STRATEGY ]]
