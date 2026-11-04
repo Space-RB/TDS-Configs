@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 13 | [Open](Unknown/README.md) |
+| Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 
+| Unknown | 13 | [Open](Unknown/README.md) |
 | Dead Ahead | 10 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 8 | [Open](Lay%20By/README.md) |
 | Black Spot Exchange | 3 | [Open](Black%20Spot%20Exchange/README.md) |
