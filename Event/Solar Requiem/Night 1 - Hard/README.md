@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 82 recorded strategies available for this map**
+**📦 83 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -101,6 +101,7 @@ Select a strategy below and open its config file.
 | 80 | 2026-11-04 23:12 UTC | Act1 | — | Golden Crook Boss, Assassin, Shotgunner, Golden Minigunner, Golden Scout | [Open](80-2026-11-04-23-12-59.txt) |
 | 81 | 2026-11-04 23:19 UTC | Act1 | — | Golden Crook Boss, Assassin, Shotgunner, Golden Minigunner, Golden Scout | [Open](81-2026-11-04-23-19-17.txt) |
 | 82 | 2026-11-04 23:35 UTC | Act1 | — | Golden Crook Boss, Assassin, Shotgunner, Golden Minigunner, Golden Scout | [Open](82-2026-11-04-23-35-40.txt) |
+| 83 | 2026-11-04 23:49 UTC | Act1 | — | Golden Crook Boss, Assassin, Shotgunner, Golden Minigunner, Golden Scout | [Open](83-2026-11-04-23-49-32.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
