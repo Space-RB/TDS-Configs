@@ -1,0 +1,81 @@
+_G.AutoMoonPuzzle = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Shotgunner", "Scout", "Crook Boss", "Minigunner")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Pyromancer", -3.380399703979492, 1.0112037658691406, -35.6683349609375)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Place("Shotgunner", -7.9693498611450195, 0.9820902347564697, -32.695831298828125)
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Place("Shotgunner", -5.958493232727051, 0.9632227420806885, -32.67101287841797)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(3)
+TDS:Place("Shotgunner", -7.944596290588379, 0.9616707563400269, -30.65428924560547)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 19 ] --
+TDS:Place("Shotgunner", -5.8676605224609375, 0.9441684484481812, -30.664382934570312)
+TDS:Upgrade(5)
+TDS:Place("Scout", -6.488637924194336, 0.3408443033695221, -20.285356521606445)
+
+-- [ Wave 20 ] --
+TDS:Place("Minigunner", -0.5532879829406738, 0.48103776574134827, -17.897987365722656)
+
+-- [ Wave 21 ] --
+TDS:Place("Crook Boss", 0.525568962097168, 0.6352769732475281, -21.480134963989258)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 23 ] --
+TDS:WaitForWave(23)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+TDS:Sell(5)
+TDS:Sell(6)
+TDS:Sell(7)
+TDS:Sell(8)
+TDS:Place("Pyromancer", -3.380399703979492, 1.0112037658691406, -35.6683349609375)
+
+-- [[ END OF STRATEGY ]]
