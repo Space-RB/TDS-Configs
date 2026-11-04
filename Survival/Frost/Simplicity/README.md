@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 38 recorded strategies available for this map**
+**📦 39 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -57,6 +57,7 @@ Select a strategy below and open its config file.
 | 36 | 2026-11-02 19:47 UTC | Frost | — | Soldier, Commander, DJ Booth, Crook Boss, Turret | [Open](36-2026-11-02-19-47-08.txt) |
 | 37 | 2026-11-04 04:46 UTC | Frost | — | Militant, Commander, DJ Booth, Crook Boss, Turret | [Open](37-2026-11-04-04-46-58.txt) |
 | 38 | 2026-11-04 04:55 UTC | Frost | — | Militant, Commander, DJ Booth, Crook Boss, Turret | [Open](38-2026-11-04-04-55-44.txt) |
+| 39 | 2026-11-04 05:16 UTC | Frost | — | Militant, Commander, DJ Booth, Crook Boss, Turret | [Open](39-2026-11-04-05-16-41.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
