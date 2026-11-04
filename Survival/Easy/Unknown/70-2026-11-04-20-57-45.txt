@@ -1,0 +1,91 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Militant", "None", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Militant", -125.66683197021484, -44.53631591796875, 10.752683639526367)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Militant", -131.79006958007812, -44.53631591796875, 10.621057510375977)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Militant", -126.13578796386719, -44.53631591796875, 13.748858451843262)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Militant", -131.4462127685547, -44.53631591796875, 13.641548156738281)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Militant", -134.79531860351562, -44.53631591796875, 10.939886093139648)
+TDS:Upgrade(5)
+TDS:Place("Militant", -134.17245483398438, -44.53631591796875, 14.95572280883789)
+TDS:Upgrade(6)
+TDS:Place("Militant", -122.62718200683594, -44.53631591796875, 10.706560134887695)
+TDS:Upgrade(7)
+
+-- [ Wave 8 ] --
+TDS:Place("Militant", -123.09622192382812, -44.53631591796875, 13.69757080078125)
+TDS:Upgrade(8)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [[ END OF STRATEGY ]]
