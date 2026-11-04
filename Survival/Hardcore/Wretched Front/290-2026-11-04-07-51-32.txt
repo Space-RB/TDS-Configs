@@ -1,0 +1,25 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedJuggernaut", "Brawler", "Engineer", "Farm", "DJ Booth")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 6 ] --
+TDS:WaitForWave(6)
+TDS:Sell(1)
+TDS:Place("Farm", 30.636613845825195, 0.6117134094238281, -8.738422393798828)
+TDS:Place("Farm", 18.55572509765625, 1.1357812881469727, 40.15915298461914)
+TDS:Upgrade(3)
+TDS:VoteSkip(1)
+
+-- [[ END OF STRATEGY ]]
