@@ -1,0 +1,181 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "Crook Boss", "Commander", "DJ Booth", "Freezer")
+TDS:Mode("Act2")
+TDS:Place("Trapper", 9.820547103881836, 47.79259490966797, -0.05918647348880768)
+TDS:Place("Trapper", 9.080108642578125, 47.738929748535156, -2.9817698001861572)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+TDS:Place("DJ Booth", 4.089794158935547, 48.01357650756836, -5.770029544830322)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+TDS:SetOption(3, "Track", "Green")
+
+-- [ Wave 7 ] --
+TDS:Place("Crook Boss", 5.392175197601318, 47.699954986572266, -10.957805633544922)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Crook Boss", 2.4262993335723877, 47.66560745239258, -11.500826835632324)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Place("Commander", 0.35732078552246094, 47.86117172241211, -4.2239885330200195)
+TDS:Upgrade(6)
+TDS:Place("Freezer", -1.6137652397155762, 47.722171783447266, -1.9637463092803955)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Place("Trapper", 8.924171447753906, 47.83525466918945, 3.2873103618621826)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:SetTarget(8, "Last")
+TDS:SetTarget(8, "Strongest")
+TDS:SetTarget(8, "Weakest")
+TDS:SetTarget(8, "Closest")
+TDS:SetTarget(8, "Closest")
+TDS:SetTarget(8, "Farthest")
+TDS:SetTarget(8, "Farthest")
+TDS:SetTarget(8, "Random")
+TDS:SetTarget(8, "First")
+TDS:SetTarget(8, "Last")
+TDS:SetTarget(8, "First")
+TDS:SetOption(8, "Trap", "Landmine")
+TDS:Place("Trapper", 6.774566650390625, 47.773582458496094, 5.436914920806885)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:SetOption(9, "Trap", "Landmine")
+TDS:Place("Trapper", 3.836568832397461, 47.70928192138672, 6.19628381729126)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:SetOption(10, "Trap", "Landmine")
+
+-- [ Wave 12 ] --
+TDS:Place("Crook Boss", 8.428597450256348, 47.694942474365234, -10.810282707214355)
+TDS:Upgrade(11)
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(11)
+
+-- [ Wave 14 ] --
+TDS:Place("Crook Boss", -3.6133737564086914, 47.610557556152344, -7.967488765716553)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 15 ] --
+TDS:Place("Crook Boss", -6.421967506408691, 47.72623062133789, -6.804130554199219)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 16 ] --
+TDS:SetOption(3, "Track", "Purple")
+TDS:SetOption(2, "Trap", "Landmine")
+TDS:SetOption(1, "Trap", "Landmine")
+TDS:Place("Trapper", 1.027975082397461, 47.68339538574219, 5.032926082611084)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:SetOption(14, "Trap", "Landmine")
+TDS:Place("Trapper", -1.1216297149658203, 47.73524856567383, 2.883321523666382)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:SetOption(15, "Trap", "Landmine")
+TDS:SetOption(3, "Track", "Green")
+
+-- [ Wave 17 ] --
+TDS:SetOption(2, "Trap", "Spike")
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Place("Commander", 10.744754791259766, 47.6762580871582, -8.833724021911621)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Commander", 0.2301025390625, 47.592872619628906, 10.5378999710083)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(12)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:SetOption(3, "Track", "Purple")
+TDS:Upgrade(3)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(3)
+TDS:SetOption(3, "Track", "Red")
+TDS:SetOption(2, "Trap", "Bear Traps")
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:SetOption(1, "Trap", "Bear Traps")
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:SetOption(8, "Trap", "Bear Traps")
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:SetOption(9, "Trap", "Bear Traps")
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:SetOption(10, "Trap", "Bear Traps")
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:SetOption(14, "Trap", "Bear Traps")
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:SetOption(15, "Trap", "Bear Traps")
+TDS:Upgrade(11)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(5)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(11)
+TDS:Upgrade(4)
+TDS:Upgrade(13)
+TDS:Place("Commander", -6.025168418884277, 47.661006927490234, -9.818122863769531)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [[ END OF STRATEGY ]]
