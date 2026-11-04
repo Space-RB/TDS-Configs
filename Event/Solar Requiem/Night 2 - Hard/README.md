@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 39 recorded strategies available for this map**
+**📦 40 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -58,6 +58,7 @@ Select a strategy below and open its config file.
 | 37 | 2026-11-01 09:44 UTC | Act2 | — | DJ Booth, Hacker, Gatling Gun, Engineer, EvolvedKingpin | [Open](37-2026-11-01-09-44-55.txt) |
 | 38 | 2026-11-01 15:46 UTC | Act2 | — | Hacker, DJ Booth, Gatling Gun, Engineer, Star Cannon | [Open](38-2026-11-01-15-46-32.txt) |
 | 39 | 2026-11-02 10:26 UTC | Act2 | — | Engineer, Hacker, EvolvedJuggernaut, EvolvedKingpin, Gatling Gun | [Open](39-2026-11-02-10-26-40.txt) |
+| 40 | 2026-11-04 02:35 UTC | Act2 | — | Trapper, Crook Boss, Commander, DJ Booth, Freezer | [Open](40-2026-11-04-02-35-14.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
