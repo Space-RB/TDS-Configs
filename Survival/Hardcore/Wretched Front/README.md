@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 307 recorded strategies available for this map**
+**📦 308 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -326,6 +326,7 @@ Select a strategy below and open its config file.
 | 305 | 2026-11-04 19:18 UTC | Hardcore | — | EvolvedOperator, EvolvedEnforcer, EvolvedJuggernaut, None | [Open](305-2026-11-04-19-18-22.txt) |
 | 306 | 2026-11-04 21:15 UTC | Hardcore | — | Engineer, Pyromancer, Hunter, Militant, Minigunner | [Open](306-2026-11-04-21-15-41.txt) |
 | 307 | 2026-11-04 21:16 UTC | Hardcore | — | Engineer, Pyromancer, Hunter, Militant, Minigunner | [Open](307-2026-11-04-21-16-54.txt) |
+| 308 | 2026-11-04 21:18 UTC | Hardcore | — | Engineer, Pyromancer, Hunter, Militant, Minigunner | [Open](308-2026-11-04-21-18-48.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
