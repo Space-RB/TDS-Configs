@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 75 recorded strategies available for this map**
+**📦 76 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -94,6 +94,7 @@ Select a strategy below and open its config file.
 | 73 | 2026-11-02 10:17 UTC | Act1 | — | Engineer, Hacker, EvolvedJuggernaut, EvolvedKingpin, Gatling Gun | [Open](73-2026-11-02-10-17-53.txt) |
 | 74 | 2026-11-02 13:44 UTC | Act1 | — | Sniper, Assassin, None | [Open](74-2026-11-02-13-44-48.txt) |
 | 75 | 2026-11-02 13:54 UTC | Act1 | — | Sniper, Assassin, None | [Open](75-2026-11-02-13-54-34.txt) |
+| 76 | 2026-11-04 01:53 UTC | Act1 | — | Crook Boss, Assassin, None | [Open](76-2026-11-04-01-53-09.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
