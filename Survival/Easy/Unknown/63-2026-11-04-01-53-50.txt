@@ -1,0 +1,101 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "None", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", -3.9775447845458984, 242.99998474121094, 286.2972717285156)
+TDS:Place("Brawler", -3.9608042240142822, 242.99998474121094, 283.9306945800781)
+
+-- [ Wave 2 ] --
+TDS:Place("Brawler", -3.788193702697754, 242.99998474121094, 281.68280029296875)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Place("Brawler", -3.657954692840576, 242.99998474121094, 279.51568603515625)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Place("Brawler", 3.5099382400512695, 242.99998474121094, 287.5894775390625)
+TDS:Place("Brawler", 3.3031845092773438, 242.99998474121094, 285.2350158691406)
+TDS:Place("Brawler", 3.1641998291015625, 242.99998474121094, 283.1557312011719)
+TDS:Place("Brawler", 2.794353485107422, 242.99998474121094, 280.800048828125)
+TDS:Place("Brawler", -3.111112594604492, 242.99998474121094, 277.55035400390625)
+
+-- [ Wave 10 ] --
+TDS:Place("Brawler", 3.3898963928222656, 242.99998474121094, 278.45416259765625)
+TDS:Upgrade(4)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(3)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
