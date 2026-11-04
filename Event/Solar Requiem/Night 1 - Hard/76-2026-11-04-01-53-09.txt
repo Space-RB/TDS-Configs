@@ -1,0 +1,25 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Crook Boss", "Assassin", "None", "None", "None")
+TDS:Mode("Act1")
+TDS:Ready()
+TDS:Place("Assassin", 27.617443084716797, 2.0009982585906982, 198.97662353515625)
+TDS:Place("Assassin", 25.329605102539062, 2.0009987354278564, 197.26217651367188)
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
