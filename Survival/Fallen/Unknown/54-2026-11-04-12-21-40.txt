@@ -1,0 +1,117 @@
+_G.AutoGatling = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Mercenary Base", "Gatling Gun", "DJ Booth", "Necromancer", "Trapper")
+TDS:Mode("Fallen")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Trapper", 11.904716491699219, 0.9999812245368958, -11.424847602844238)
+
+-- [ Wave 1 ] --
+TDS:Place("Trapper", 8.869034767150879, 0.9999961853027344, -11.586827278137207)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Place("Gatling Gun", 18.544912338256836, 10.856148719787598, -8.946137428283691)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 15 ] --
+TDS:Place("Necromancer", -2.3856544494628906, 0.9999831914901733, 3.3793039321899414)
+
+-- [ Wave 16 ] --
+TDS:Place("Necromancer", 0.6485838890075684, 0.9999831914901733, 3.566377639770508)
+TDS:Place("Necromancer", 3.733046293258667, 0.9999831914901733, 3.4731740951538086)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 27 ] --
+TDS:Place("DJ Booth", 12.666257858276367, 0.9999808073043823, -3.5727462768554688)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 34 ] --
+TDS:Place("Mercenary Base", 8.147063255310059, 0.9999831914901733, 2.209136962890625)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 35 ] --
+TDS:Place("Mercenary Base", 17.578201293945312, 1.0000011920928955, -7.429801940917969)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 37 ] --
+TDS:Place("Mercenary Base", 24.721759796142578, 0.9999979734420776, 12.966612815856934)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 38 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
