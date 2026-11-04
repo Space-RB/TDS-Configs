@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 22 recorded strategies available for this map**
+**📦 23 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -41,6 +41,7 @@ Select a strategy below and open its config file.
 | 20 | 2026-11-04 13:02 UTC | Molten | — | Scout, Sniper, Demoman, Minigunner, None | [Open](20-2026-11-04-13-02-40.txt) |
 | 21 | 2026-11-04 13:03 UTC | Molten | — | Scout, Sniper, Demoman, Minigunner, None | [Open](21-2026-11-04-13-03-33.txt) |
 | 22 | 2026-11-04 13:05 UTC | Molten | — | Scout, Sniper, Demoman, Minigunner, None | [Open](22-2026-11-04-13-05-04.txt) |
+| 23 | 2026-11-04 13:05 UTC | Molten | — | Scout, Sniper, Demoman, Minigunner, None | [Open](23-2026-11-04-13-05-13.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
