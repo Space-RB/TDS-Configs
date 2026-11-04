@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 123 recorded strategies available for this map**
+**📦 124 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -142,6 +142,7 @@ Select a strategy below and open its config file.
 | 121 | 2026-11-03 10:12 UTC | Act3 | — | Electroshocker, Gatling Gun, DJ Booth, Engineer, EvolvedKingpin | [Open](121-2026-11-03-10-12-18.txt) |
 | 122 | 2026-11-04 03:01 UTC | Act3 | — | DJ Booth, Gatling Gun, Mortar, Assassin, Hunter | [Open](122-2026-11-04-03-01-27.txt) |
 | 123 | 2026-11-04 03:05 UTC | Act3 | — | Electroshocker, Commander, DJ Booth, Crook Boss, Turret | [Open](123-2026-11-04-03-05-50.txt) |
+| 124 | 2026-11-04 05:31 UTC | Act3 | — | Assassin, Commander, Crook Boss, Minigunner, DJ Booth | [Open](124-2026-11-04-05-31-59.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
