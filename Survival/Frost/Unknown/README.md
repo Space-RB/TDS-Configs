@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 56 recorded strategies available for this map**
+**📦 57 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -75,6 +75,7 @@ Select a strategy below and open its config file.
 | 54 | 2026-11-03 12:04 UTC | Frost | — | Golden Crook Boss, Farm, DJ Booth, Golden Cowboy, Golden Minigunner | [Open](54-2026-11-03-12-04-14.txt) |
 | 55 | 2026-11-03 21:35 UTC | Frost | — | Crook Boss, Shotgunner, Militant, Commander, DJ Booth | [Open](55-2026-11-03-21-35-13.txt) |
 | 56 | 2026-11-03 21:56 UTC | Frost | — | Crook Boss, Shotgunner, Militant, Commander, DJ Booth | [Open](56-2026-11-03-21-56-11.txt) |
+| 57 | 2026-11-04 12:17 UTC | Frost | — | DJ Booth, Assassin, Turret, Crook Boss, Commander | [Open](57-2026-11-04-12-17-37.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
