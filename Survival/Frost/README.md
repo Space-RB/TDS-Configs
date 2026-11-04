@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Honey Valley | 2 | [Open](Honey%20Valley/README.md) |
+| Honey Valley | 3 | [Open](Honey%20Valley/README.md) |
 
 | Unknown | 56 | [Open](Unknown/README.md) |
 | Simplicity | 39 | [Open](Simplicity/README.md) |
