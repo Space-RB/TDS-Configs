@@ -1,0 +1,29 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMedic = true
+_G.AutoMercenary = true
+_G.AutoMoonPuzzle = true
+_G.AutoNecro = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.SellFarms = true
+_G.SellFarmsWave = 40
+_G.SupportCaravan = true
+_G.AutoGatlingSettings = {auto_fire = false, prioritize_bosses = true, show_bullet_lines = true, target_esp = true, target_mode = "Close"}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Brawler", "Necromancer", "Gatling Gun", "DJ Booth", "EvolvedKingpin")
+TDS:Mode("Act4")
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
