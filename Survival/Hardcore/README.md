@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 102 | [Open](Unknown/README.md) |
+| Unknown | 103 | [Open](Unknown/README.md) |
 
 | Wretched Front | 286 | [Open](Wretched%20Front/README.md) |
 | Outskirts Commune | 20 | [Open](Outskirts%20Commune/README.md) |
