@@ -16,11 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 55 | [Open](Unknown/README.md) |
+| Cataclysm | 14 | [Open](Cataclysm/README.md) |
 
+| Unknown | 55 | [Open](Unknown/README.md) |
 | Simplicity | 37 | [Open](Simplicity/README.md) |
 | Lay By | 29 | [Open](Lay%20By/README.md) |
-| Cataclysm | 13 | [Open](Cataclysm/README.md) |
 | U-Turn | 8 | [Open](U-Turn/README.md) |
 | Toyboard | 3 | [Open](Toyboard/README.md) |
 | Abyssal Trench | 2 | [Open](Abyssal%20Trench/README.md) |
