@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 201 recorded strategies available for this map**
+**📦 202 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -220,6 +220,7 @@ Select a strategy below and open its config file.
 | 199 | 2026-11-03 19:42 UTC | Unknown | — | Engineer, Hacker, EvolvedKingpin, EvolvedJuggernaut, DJ Booth | [Open](199-2026-11-03-19-42-40.txt) |
 | 200 | 2026-11-03 19:42 UTC | Unknown | — | Engineer, Hacker, EvolvedKingpin, EvolvedJuggernaut, DJ Booth | [Open](200-2026-11-03-19-42-50.txt) |
 | 201 | 2026-11-03 21:25 UTC | Unknown | — | EvolvedJuggernaut, Commander, Farm, Engineer, Pyromancer | [Open](201-2026-11-03-21-25-04.txt) |
+| 202 | 2026-11-04 06:08 UTC | Unknown | — | Farm, Boomerang, Crook Boss, Freezer, None | [Open](202-2026-11-04-06-08-00.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
