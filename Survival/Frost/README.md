@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 39 | [Open](Simplicity/README.md) |
+| Honey Valley | 1 | [Open](Honey%20Valley/README.md) |
 
 | Unknown | 56 | [Open](Unknown/README.md) |
+| Simplicity | 39 | [Open](Simplicity/README.md) |
 | Lay By | 25 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
 | Spring Fever | 5 | [Open](Spring%20Fever/README.md) |
