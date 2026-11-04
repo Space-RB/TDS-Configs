@@ -1,0 +1,76 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Shotgunner", "Soldier", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Soldier", -1.9858686923980713, 1.0112671852111816, 17.614171981811523)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", -1.9366023540496826, 1.0103663206100464, 14.57457160949707)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Soldier", 0.671135425567627, 0.9588977098464966, 16.13703727722168)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Soldier", 0.6218686103820801, 0.9653563499450684, 19.176637649536133)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Place("Shotgunner", 7.475861549377441, 0.9599748849868774, 27.929275512695312)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Place("Shotgunner", -13.523767471313477, 0.9908273816108704, 20.281047821044922)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Place("Shotgunner", 6.0333662033081055, 0.9517385959625244, 29.371768951416016)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", -13.359733581542969, 1.0067427158355713, 22.40278434753418)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Place("Shotgunner", -12.467899322509766, 1.0110794305801392, 25.160505294799805)
+TDS:Upgrade(9)
+
+-- [ Wave 13 ] --
+TDS:Place("Shotgunner", 11.532622337341309, 1.0101330280303955, 21.661428451538086)
+TDS:Upgrade(10)
+TDS:Place("Shotgunner", 11.32721996307373, 0.9696493148803711, 23.65414047241211)
+TDS:Upgrade(11)
+
+-- [ Wave 14 ] --
+TDS:Place("Shotgunner", -13.0018310546875, 0.9748543500900269, 18.333189010620117)
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+
+-- [ Wave 15 ] --
+TDS:Place("Shotgunner", 6.489805698394775, 0.9746637344360352, -34.49533462524414)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Soldier", 9.22808837890625, 0.9721764922142029, -22.699853897094727)
+TDS:Upgrade(13)
+
+-- [[ END OF STRATEGY ]]
