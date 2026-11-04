@@ -1,0 +1,39 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Crook Boss", "Assassin", "Shotgunner", "Golden Minigunner", "Golden Scout")
+TDS:Mode("Act1")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 27.632638931274414, 2.0009982585906982, 199.26077270507812)
+TDS:Place("Assassin", 26.269824981689453, 2.0009984970092773, 197.74276733398438)
+TDS:Place("Assassin", 28.22161865234375, 2.0009987354278564, 197.14938354492188)
+TDS:Place("Assassin", 26.218849182128906, 2.0009989738464355, 195.60777282714844)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Assassin", 29.882675170898438, 2.0009984970092773, 198.5502471923828)
+TDS:Upgrade(5)
+
+-- [ Wave 5 ] --
+TDS:Place("Scout", 13.015666961669922, 2.0401148796081543, 197.9107666015625)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
