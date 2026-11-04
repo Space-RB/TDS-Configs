@@ -16,9 +16,8 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Construction Crazy | 1 | [Open](Construction%20Crazy/README.md) |
+| Unknown | 68 | [Open](Unknown/README.md) |
 
-| Unknown | 67 | [Open](Unknown/README.md) |
 | Gilded Path | 29 | [Open](Gilded%20Path/README.md) |
 | Dead Ahead | 13 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 5 | [Open](Lay%20By/README.md) |
@@ -26,6 +25,7 @@ Choose one of the categories below to continue.
 | Forest Camp | 2 | [Open](Forest%20Camp/README.md) |
 | Night Station | 2 | [Open](Night%20Station/README.md) |
 | Cataclysm | 1 | [Open](Cataclysm/README.md) |
+| Construction Crazy | 1 | [Open](Construction%20Crazy/README.md) |
 | Cyber City | 1 | [Open](Cyber%20City/README.md) |
 | Four Seasons | 1 | [Open](Four%20Seasons/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
