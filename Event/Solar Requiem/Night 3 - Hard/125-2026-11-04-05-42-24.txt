@@ -1,0 +1,122 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Assassin", "Commander", "Crook Boss", "Minigunner", "DJ Booth")
+TDS:Mode("Act3")
+TDS:Place("Assassin", 5.300431251525879, 103.14136505126953, 113.38545227050781)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 3.415717124938965, 103.16765594482422, 114.16613006591797)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Assassin", 6.540714263916016, 103.21722412109375, 114.9610824584961)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Assassin", 4.656000137329102, 103.244873046875, 115.74176025390625)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Place("Crook Boss", 3.420748472213745, 102.9420394897461, 102.46038818359375)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+TDS:Place("Commander", 4.9860968589782715, 102.95879364013672, 107.96551513671875)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+TDS:Place("Assassin", 5.436674118041992, 103.33283996582031, 117.62647247314453)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Place("Crook Boss", 0.7453322410583496, 102.9067153930664, 101.0168685913086)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Place("Crook Boss", 0.8329161405563354, 102.97589874267578, 104.05560302734375)
+TDS:Upgrade(9)
+TDS:Place("Assassin", 1.4162216186523438, 103.15408325195312, 114.42634582519531)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 13 ] --
+TDS:Place("DJ Booth", -1.7671535015106201, 103.02669525146484, 109.68590545654297)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Assassin", 2.644839286804199, 103.24211883544922, 116.05487060546875)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(9)
+TDS:Place("Crook Boss", 5.190180778503418, 102.9328384399414, 104.932373046875)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Place("Commander", 1.9517998695373535, 102.97720336914062, 108.15164184570312)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Commander", -1.757934331893921, 103.04692077636719, 105.64591217041016)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:VoteSkip(15)
+TDS:WaitForWave(15)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+TDS:Sell(5)
+TDS:Sell(6)
+TDS:Sell(7)
+TDS:Sell(8)
+TDS:Sell(9)
+TDS:Sell(10)
+TDS:Sell(11)
+TDS:Sell(12)
+TDS:Sell(13)
+TDS:Sell(14)
+TDS:Sell(15)
+
+-- [[ END OF STRATEGY ]]
