@@ -1,0 +1,143 @@
+_G.AutoChain = true
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Turret", "Hacker", "Commander", "Golden Crook Boss", "Assassin")
+TDS:Mode("Act4")
+TDS:Ready()
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Crook Boss", -9.147871017456055, 1.0000019073486328, -25.95449447631836)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Place("Crook Boss", -9.055174827575684, 1.0000017881393433, -22.931215286254883)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Place("Commander", -6.07326078414917, 1.0000016689300537, -22.339786529541016)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Hacker", 3.5795984268188477, 0.99997878074646, -20.59060287475586)
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+TDS:Place("Crook Boss", -8.953670501708984, 1.0000015497207642, -19.861093521118164)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Place("Crook Boss", -8.953670501708984, 1.0410090684890747, -16.821094512939453)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 13 ] --
+TDS:Place("Crook Boss", -3.6926584243774414, 1.0443904399871826, -16.111757278442383)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 14 ] --
+TDS:Place("Commander", -3.6667933464050293, 0.999982476234436, -20.545473098754883)
+TDS:Place("Commander", -5.964351654052734, 1.0400011539459229, -18.592334747314453)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Place("Assassin", 3.3611984252929688, 1.000002145767212, -32.41572952270508)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Assassin", 3.361807107925415, 1.0179086923599243, -34.41767501831055)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Assassin", 3.361806869506836, 1.000002384185791, -36.45767593383789)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Assassin", 5.359229564666748, 1.000002145767212, -32.16214370727539)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Assassin", 7.399229526519775, 1.0377761125564575, -32.16214370727539)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 17 ] --
+TDS:Place("Assassin", 5.604657173156738, 0.9999809265136719, -23.050498962402344)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Assassin", 7.719350814819336, 0.9999823570251465, -24.956745147705078)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Assassin", 7.784711837768555, 0.9999796748161316, -22.91779327392578)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [ Wave 18 ] --
+TDS:Place("Assassin", 3.3774657249450684, 1.0446666479110718, -16.11130714416504)
+TDS:Place("Assassin", 3.9303953647613525, 1.0502976179122925, -18.07494354248047)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Place("Assassin", 5.642462730407715, 1.0609850883483887, -15.833630561828613)
+TDS:Place("Assassin", 6.0834455490112305, 1.045761227607727, -17.785451889038086)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(24)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 19 ] --
+TDS:Place("Assassin", 7.749625205993652, 1.0513451099395752, -16.522844314575195)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(19)
+TDS:Place("Assassin", 3.4031248092651367, 0.9999849200248718, -25.258188247680664)
+TDS:Place("Assassin", 3.377375602722168, 0.9999821186065674, -23.080638885498047)
+TDS:Place("Assassin", 5.622932434082031, 0.9999836087226868, -25.086042404174805)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+
+-- [[ END OF STRATEGY ]]
