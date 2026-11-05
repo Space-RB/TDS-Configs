@@ -1,0 +1,100 @@
+_G.AutoChain = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedKingpin", "Hacker", "EvolvedOperator", "Farm", "Commander")
+TDS:Mode("Easy")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("EvolvedOperator", 13.96146011352539, 1.0000064373016357, 13.679973602294922)
+TDS:Place("EvolvedOperator", 14.144654273986816, 1.0000064373016357, 10.585514068603516)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("EvolvedOperator", 14.071636199951172, 1.0000064373016357, 7.7697038650512695)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Place("Hacker", 13.869587898254395, 1.0000064373016357, 4.637552261352539)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("EvolvedOperator", 11.534918785095215, 1.0000064373016357, 7.760717391967773)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("EvolvedOperator", 11.346480369567871, 1.0000064373016357, 10.577880859375)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("EvolvedOperator", 10.797607421875, 1.0000064373016357, 13.44393539428711)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Place("Commander", 10.35013484954834, 1.0000064373016357, 4.833287239074707)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(7)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 19 ] --
+TDS:Place("EvolvedOperator", 13.919672012329102, 1.0000064373016357, 1.2831974029541016)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("EvolvedOperator", 10.89384651184082, 1.0000064373016357, 1.3779354095458984)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("EvolvedKingpin", 13.852439880371094, 1.0000064373016357, -1.5231575965881348)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [[ END OF STRATEGY ]]
