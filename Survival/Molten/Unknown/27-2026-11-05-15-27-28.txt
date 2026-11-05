@@ -1,0 +1,41 @@
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Engineer", "EvolvedJuggernaut", "Hacker", "Farm", "DJ Booth")
+TDS:Mode("Molten")
+TDS:GameInfo("", {"ExplodingEnemies", "Glass"})
+TDS:Ready()
+TDS:Place("Engineer", -3.8814163208007812, 1.0000081062316895, 24.85863494873047)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", -1.256948471069336, 1.0000081062316895, -11.196052551269531)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", -1.0040569305419922, 1.0000081062316895, -15.017837524414062)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", -1.1819953918457031, 1.0000081062316895, -18.709171295166016)
+TDS:Upgrade(4)
+TDS:Place("Farm", -1.1026525497436523, 1.0000081062316895, -22.327863693237305)
+TDS:Upgrade(5)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
