@@ -1,0 +1,67 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.MatchTrackerEnabled = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Electroshocker", "Minigunner", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Electroshocker", -3.8670334815979004, 0.96163010597229, -30.977142333984375)
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Place("Electroshocker", -0.913379430770874, 0.9740873575210571, -31.696537017822266)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Electroshocker", -6.123846054077148, 0.9221265316009521, -28.607694625854492)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Minigunner", -0.7964739799499512, 0.8289387822151184, -24.805986404418945)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Electroshocker", -6.850729465484619, 0.9586588144302368, -31.55951499938965)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Place("Minigunner", -2.946082353591919, 0.6866072416305542, -22.656389236450195)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 11 ] --
+TDS:Place("Minigunner", 1.284051537513733, 0.671103298664093, -22.02678108215332)
+TDS:Upgrade(7)
+
+-- [ Wave 13 ] --
+TDS:Place("Minigunner", -1.1491198539733887, 0.5735393762588501, -20.204343795776367)
+TDS:Upgrade(8)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]
