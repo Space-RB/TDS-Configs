@@ -16,9 +16,8 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
+| Unknown | 6 | [Open](Unknown/README.md) |
 
-| Unknown | 5 | [Open](Unknown/README.md) |
 | Dead Ahead | 4 | [Open](Dead%20Ahead/README.md) |
 | Retro Lighthouse | 3 | [Open](Retro%20Lighthouse/README.md) |
 | Chess Board | 2 | [Open](Chess%20Board/README.md) |
@@ -28,6 +27,7 @@ Choose one of the categories below to continue.
 | Black Spot Exchange | 1 | [Open](Black%20Spot%20Exchange/README.md) |
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
 | Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
+| Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Harbor | 1 | [Open](Harbor/README.md) |
 | Infernal Abyss | 1 | [Open](Infernal%20Abyss/README.md) |
 | Medieval Times | 1 | [Open](Medieval%20Times/README.md) |
