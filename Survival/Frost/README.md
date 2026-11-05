@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 61 | [Open](Unknown/README.md) |
+| Stained Temple | 1 | [Open](Stained%20Temple/README.md) |
 
+| Unknown | 61 | [Open](Unknown/README.md) |
 | Simplicity | 40 | [Open](Simplicity/README.md) |
 | Lay By | 26 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
