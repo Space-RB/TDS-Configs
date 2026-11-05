@@ -16,11 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Stained Temple | 1 | [Open](Stained%20Temple/README.md) |
+| Lay By | 27 | [Open](Lay%20By/README.md) |
 
 | Unknown | 61 | [Open](Unknown/README.md) |
 | Simplicity | 40 | [Open](Simplicity/README.md) |
-| Lay By | 26 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
 | Spring Fever | 5 | [Open](Spring%20Fever/README.md) |
 | Summer Castle | 5 | [Open](Summer%20Castle/README.md) |
@@ -47,6 +46,7 @@ Choose one of the categories below to continue.
 | Portland | 1 | [Open](Portland/README.md) |
 | Retro Rocket Arena | 1 | [Open](Retro%20Rocket%20Arena/README.md) |
 | Sky Islands | 1 | [Open](Sky%20Islands/README.md) |
+| Stained Temple | 1 | [Open](Stained%20Temple/README.md) |
 | Winter Abyss | 1 | [Open](Winter%20Abyss/README.md) |
 </div>
 
