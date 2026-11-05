@@ -16,10 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Dead Ahead | 20 | [Open](Dead%20Ahead/README.md) |
+| Unknown | 73 | [Open](Unknown/README.md) |
 
-| Unknown | 72 | [Open](Unknown/README.md) |
 | Gilded Path | 31 | [Open](Gilded%20Path/README.md) |
+| Dead Ahead | 20 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 5 | [Open](Lay%20By/README.md) |
 | Black Spot Exchange | 2 | [Open](Black%20Spot%20Exchange/README.md) |
 | Forest Camp | 2 | [Open](Forest%20Camp/README.md) |
