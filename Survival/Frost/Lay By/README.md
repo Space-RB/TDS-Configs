@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 26 recorded strategies available for this map**
+**📦 27 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -45,6 +45,7 @@ Select a strategy below and open its config file.
 | 24 | 2026-11-02 21:49 UTC | Frost | — | Trapper, None | [Open](24-2026-11-02-21-49-23.txt) |
 | 25 | 2026-11-02 21:49 UTC | Frost | — | Trapper, None | [Open](25-2026-11-02-21-49-32.txt) |
 | 26 | 2026-11-04 13:13 UTC | Frost | — | Trapper, None | [Open](26-2026-11-04-13-13-53.txt) |
+| 27 | 2026-11-05 18:07 UTC | Frost | — | Trapper, None | [Open](27-2026-11-05-18-07-43.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
