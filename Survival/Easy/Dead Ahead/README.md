@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 15 recorded strategies available for this map**
+**📦 16 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -34,6 +34,7 @@ Select a strategy below and open its config file.
 | 13 | 2026-11-03 14:05 UTC | Easy | ExplodingEnemies, FlyingEnemies, Glass, HealthyEnemies, HiddenEnemies, Limitation | Commander, Medic, EvolvedOperator, None | [Open](13-2026-11-03-14-05-59.txt) |
 | 14 | 2026-11-05 06:14 UTC | Easy | — | Militant, Commander, Assassin, DJ Booth, Minigunner | [Open](14-2026-11-05-06-14-22.txt) |
 | 15 | 2026-11-05 06:14 UTC | Easy | — | Militant, Commander, Assassin, DJ Booth, Minigunner | [Open](15-2026-11-05-06-14-32.txt) |
+| 16 | 2026-11-05 06:14 UTC | Easy | — | Militant, Commander, Assassin, DJ Booth, Minigunner | [Open](16-2026-11-05-06-14-40.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
