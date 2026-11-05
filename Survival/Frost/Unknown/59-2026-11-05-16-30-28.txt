@@ -1,0 +1,46 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Soldier", "Scout", "None", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Scout", -10.205162048339844, 0.9999886751174927, -9.569696426391602)
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", -13.244366645812988, 0.9999871850013733, -9.639240264892578)
+TDS:Upgrade(2)
+TDS:Place("Scout", -16.244754791259766, 0.9999907612800598, -9.924012184143066)
+TDS:Upgrade(3)
+TDS:Place("Scout", -11.66453742980957, 0.9999849796295166, -12.236495971679688)
+TDS:Upgrade(4)
+
+-- [ Wave 2 ] --
+TDS:Place("Scout", -15.062005996704102, 0.9999949336051941, -12.879228591918945)
+TDS:Upgrade(5)
+TDS:Place("Scout", -18.099748611450195, 0.9999936819076538, -12.996359825134277)
+TDS:Upgrade(6)
+TDS:Place("Scout", -12.957742691040039, 0.9999870657920837, -15.073236465454102)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(7)
+TDS:Place("Scout", -16.484731674194336, 0.9999979734420776, -15.565760612487793)
+TDS:Upgrade(8)
+TDS:Place("Scout", -19.48648452758789, 0.9999907612800598, -16.046466827392578)
+TDS:Place("Scout", -18.69344139099121, 0.9999858736991882, -8.16629409790039)
+TDS:Upgrade(10)
+
+-- [ Wave 4 ] --
+TDS:Place("Scout", -18.130023956298828, 0.9999834895133972, -5.178960800170898)
+TDS:Upgrade(11)
+
+-- [[ END OF STRATEGY ]]
