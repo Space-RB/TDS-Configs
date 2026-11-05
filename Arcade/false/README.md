@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 21 recorded strategies available for this map**
+**📦 22 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -40,6 +40,7 @@ Select a strategy below and open its config file.
 | 19 | 2026-10-28 12:02 UTC | Pizza Party | — | Militant, Shotgunner, Demoman, Commander, Trapper | [Open](19-2026-10-28-12-02-17.txt) |
 | 20 | 2026-11-01 19:17 UTC | Pizza Party | — | Trapper, Hunter, None | [Open](20-2026-11-01-19-17-41.txt) |
 | 21 | 2026-11-05 14:20 UTC | Polluted Wasteland | — | Engineer, Hacker, Mercenary Base, Gatling Gun, DJ Booth | [Open](21-2026-11-05-14-20-51.txt) |
+| 22 | 2026-11-05 15:15 UTC | Polluted Wasteland | — | Engineer, Hacker, EvolvedKingpin, EvolvedJuggernaut, Gatling Gun | [Open](22-2026-11-05-15-15-39.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
