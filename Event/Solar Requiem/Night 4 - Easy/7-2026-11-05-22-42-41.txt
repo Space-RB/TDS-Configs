@@ -1,0 +1,29 @@
+_G.AntiLag = true
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {beta_dps = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "DJ Booth", "Mortar", "Assassin", "Hunter")
+TDS:Mode("Act4Easy")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+
+-- [[ END OF STRATEGY ]]
