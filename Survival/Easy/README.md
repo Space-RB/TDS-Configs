@@ -16,9 +16,8 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Lighthaos | 1 | [Open](Lighthaos/README.md) |
+| Unknown | 72 | [Open](Unknown/README.md) |
 
-| Unknown | 71 | [Open](Unknown/README.md) |
 | Gilded Path | 29 | [Open](Gilded%20Path/README.md) |
 | Dead Ahead | 19 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 5 | [Open](Lay%20By/README.md) |
@@ -30,6 +29,7 @@ Choose one of the categories below to continue.
 | Cyber City | 1 | [Open](Cyber%20City/README.md) |
 | Four Seasons | 1 | [Open](Four%20Seasons/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
+| Lighthaos | 1 | [Open](Lighthaos/README.md) |
 | Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
 | Portland | 1 | [Open](Portland/README.md) |
 | Retro Lighthouse | 1 | [Open](Retro%20Lighthouse/README.md) |
