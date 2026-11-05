@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 2 recorded strategies available for this map**
+**📦 3 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -21,6 +21,7 @@ Select a strategy below and open its config file.
 | 1 | 2026-11-05 03:06 UTC | Voidcore | — | Golden Pyromancer, Hunter, EvolvedJuggernaut, EvolvedKingpin, Shotgunner | [Open](1-2026-11-05-03-06-31.txt) |
 
 | 2 | 2026-11-05 03:14 UTC | Voidcore | — | Golden Pyromancer, Hunter, EvolvedJuggernaut, EvolvedKingpin, Shotgunner | [Open](2-2026-11-05-03-14-14.txt) |
+| 3 | 2026-11-05 03:19 UTC | Voidcore | — | Golden Pyromancer, Hunter, EvolvedJuggernaut, EvolvedKingpin, Shotgunner | [Open](3-2026-11-05-03-19-40.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
