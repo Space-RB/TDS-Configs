@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 7 recorded strategies available for this map**
+**📦 8 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -26,6 +26,7 @@ Select a strategy below and open its config file.
 | 5 | 2026-11-05 03:33 UTC | Voidcore | — | Golden Soldier, EvolvedJuggernaut, EvolvedKingpin, Golden Scout, Shotgunner | [Open](5-2026-11-05-03-33-30.txt) |
 | 6 | 2026-11-05 03:41 UTC | Voidcore | — | Ace Pilot, Farm, EvolvedKingpin, EvolvedJuggernaut, Shotgunner | [Open](6-2026-11-05-03-41-59.txt) |
 | 7 | 2026-11-05 03:43 UTC | Voidcore | — | Ace Pilot, Farm, EvolvedKingpin, EvolvedJuggernaut, Shotgunner | [Open](7-2026-11-05-03-43-27.txt) |
+| 8 | 2026-11-05 03:47 UTC | Voidcore | — | Farm, EvolvedKingpin, EvolvedJuggernaut, Shotgunner, Electroshocker | [Open](8-2026-11-05-03-47-42.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
