@@ -1,0 +1,206 @@
+_G.AutoGatling = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoGatlingSettings = {gui_hidden = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Mercenary Base", "DJ Booth", "Commander", "Scout")
+TDS:Mode("Fallen")
+TDS:GameInfo("Cataclysm", {})
+TDS:Place("Scout", -1.1881356239318848, 1.0000081062316895, 25.611434936523438)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Place("Scout", -1.0167009830474854, 1.0000081062316895, 22.57627296447754)
+TDS:Ready()
+TDS:Upgrade(2)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Place("Scout", -1.3008025884628296, 1.0000081062316895, 28.64934539794922)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Place("Scout", 1.5261096954345703, 1.0000081062316895, 24.242321014404297)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Place("Scout", 1.413442850112915, 1.0000081062316895, 27.280231475830078)
+TDS:Upgrade(5)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(5)
+TDS:Place("Scout", -3.7309465408325195, 1.0000081062316895, 23.94538688659668)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 5 ] --
+TDS:Place("Scout", -3.90238094329834, 1.0000081062316895, 26.980548858642578)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Scout", -3.5595109462738037, 1.0000081062316895, 20.91022491455078)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Scout", -0.8452658653259277, 1.0000081062316895, 19.54111099243164)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 6 ] --
+TDS:Place("Scout", 1.697543978691101, 1.0000081062316895, 21.2071590423584)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Scout", 5.954370498657227, 1.0000081062316895, 7.578177452087402)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 9 ] --
+TDS:Place("Gatling Gun", -1.8716201782226562, 1.0000081062316895, 14.010933876037598)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(12)
+TDS:Place("DJ Booth", 5.108160495758057, 1.0000081062316895, 19.088659286499023)
+TDS:SetOption(13, "Track", "Green")
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 23 ] --
+TDS:Place("Mercenary Base", 2.418379783630371, 1.0000081062316895, 14.010933876037598)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:SetOption(14, "Unit 3", "Riot Guard")
+TDS:SetOption(14, "Unit 2", "Riot Guard")
+TDS:SetOption(14, "Unit 1", "Riot Guard")
+
+-- [ Wave 24 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(14)
+TDS:Place("Commander", -6.038407802581787, 1.0000081062316895, 19.174766540527344)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 26 ] --
+TDS:Place("Commander", 4.323245525360107, 1.0000081062316895, 23.051677703857422)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Commander", -5.411620140075684, 1.0000081062316895, 14.010933876037598)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Commander", 0.05980205535888672, 1.0749932527542114, 11.04425048828125)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Commander", 6.162167549133301, 1.0000081062316895, 13.585493087768555)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Commander", 2.998384475708008, 1.0749932527542114, 10.26557731628418)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(15)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(20)
+
+-- [ Wave 40 ] --
+TDS:WaitForWave(40)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+TDS:Sell(5)
+TDS:Sell(6)
+TDS:Sell(7)
+TDS:Sell(8)
+TDS:Sell(9)
+TDS:Sell(10)
+TDS:Sell(11)
+TDS:Sell(12)
+TDS:Sell(13)
+TDS:Sell(14)
+TDS:Sell(15)
+TDS:Sell(16)
+TDS:Sell(17)
+TDS:Sell(18)
+TDS:Sell(19)
+TDS:Sell(20)
+TDS:Place("Scout", -1.1881356239318848, 1.0000081062316895, 25.611434936523438)
+TDS:Place("Scout", -1.0167009830474854, 1.0000081062316895, 22.57627296447754)
+TDS:Place("Scout", -1.3008025884628296, 1.0000081062316895, 28.64934539794922)
+TDS:Place("Scout", 1.5261096954345703, 1.0000081062316895, 24.242321014404297)
+TDS:Place("Scout", 1.413442850112915, 1.0000081062316895, 27.280231475830078)
+TDS:Place("Scout", -3.7309465408325195, 1.0000081062316895, 23.94538688659668)
+TDS:Place("Scout", -3.90238094329834, 1.0000081062316895, 26.980548858642578)
+TDS:Place("Scout", -3.5595109462738037, 1.0000081062316895, 20.91022491455078)
+TDS:Place("Scout", -0.8452658653259277, 1.0000081062316895, 19.54111099243164)
+TDS:Place("Scout", 1.697543978691101, 1.0000081062316895, 21.2071590423584)
+TDS:Place("Scout", 5.954370498657227, 1.0000081062316895, 7.578177452087402)
+TDS:Place("Gatling Gun", -1.8716201782226562, 1.0000081062316895, 14.010933876037598)
+TDS:Place("DJ Booth", 5.108160495758057, 1.0000081062316895, 19.088659286499023)
+TDS:Place("Mercenary Base", 2.418379783630371, 1.0000081062316895, 14.010933876037598)
+TDS:Place("Commander", -6.038407802581787, 1.0000081062316895, 19.174766540527344)
+TDS:Place("Commander", 4.323245525360107, 1.0000081062316895, 23.051677703857422)
+TDS:Place("Commander", -5.411620140075684, 1.0000081062316895, 14.010933876037598)
+TDS:Place("Commander", 0.05980205535888672, 1.0749932527542114, 11.04425048828125)
+TDS:Place("Commander", 6.162167549133301, 1.0000081062316895, 13.585493087768555)
+TDS:Place("Commander", 2.998384475708008, 1.0749932527542114, 10.26557731628418)
+TDS:VoteSkip(40)
+TDS:Place("Mercenary Base", 2.949814796447754, 1.0000081062316895, -4.975712776184082)
+TDS:Upgrade(41)
+TDS:Upgrade(41)
+TDS:Upgrade(41)
+TDS:Upgrade(41)
+TDS:Upgrade(41)
+TDS:Upgrade(41)
+TDS:SetOption(41, "Unit 3", "Riot Guard")
+TDS:SetOption(41, "Unit 2", "Riot Guard")
+TDS:SetOption(41, "Unit 1", "Riot Guard")
+TDS:SetOption(33, "Track", "Red")
+
+-- [[ END OF STRATEGY ]]
