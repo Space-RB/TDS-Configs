@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 119 recorded strategies available for this map**
+**📦 120 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -138,6 +138,7 @@ Select a strategy below and open its config file.
 | 117 | 2026-11-05 14:33 UTC | Hardcore | — | Pyromancer, Hunter, None | [Open](117-2026-11-05-14-33-18.txt) |
 | 118 | 2026-11-05 14:33 UTC | Hardcore | — | Pyromancer, Hunter, None | [Open](118-2026-11-05-14-33-30.txt) |
 | 119 | 2026-11-05 14:33 UTC | Hardcore | — | Pyromancer, Hunter, None | [Open](119-2026-11-05-14-33-41.txt) |
+| 120 | 2026-11-05 17:47 UTC | Hardcore | — | Hunter, Pyromancer, None | [Open](120-2026-11-05-17-47-02.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
