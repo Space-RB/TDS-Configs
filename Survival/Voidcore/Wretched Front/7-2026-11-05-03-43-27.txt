@@ -1,0 +1,55 @@
+_G.AutoPickups = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Ace Pilot", "Farm", "EvolvedKingpin", "EvolvedJuggernaut", "Shotgunner")
+TDS:Mode("Voidcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", -11.124380111694336, 1.5485440492630005, 24.543182373046875)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Place("Farm", -11.209508895874023, 1.523435354232788, 28.177921295166016)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", -10.942261695861816, 1.4728565216064453, 31.67425537109375)
+TDS:Upgrade(3)
+TDS:Place("Farm", -10.928720474243164, 1.3904445171356201, 35.214229583740234)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Place("Ace Pilot", 6.190661430358887, 1.3431693315505981, 22.569122314453125)
+TDS:Place("Farm", -10.815715789794922, 1.3008806705474854, 38.75239562988281)
+TDS:Upgrade(6)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Place("Farm", -14.583808898925781, 1.5671864748001099, 25.187204360961914)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Farm", -15.161437034606934, 1.558084487915039, 28.655696868896484)
+TDS:Upgrade(8)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+
+-- [[ END OF STRATEGY ]]
