@@ -1,0 +1,176 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMedic = true
+_G.AutoMercenary = true
+_G.AutoMoonPuzzle = true
+_G.AutoNecro = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.AutoStarCannon = true
+_G.HideUsername = true
+_G.StarCannonMin = 100
+_G.StreamerMode = true
+_G.SupportCaravan = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Freezer", "Golden Demoman", "Golden Crook Boss", "Turret", "Commander")
+TDS:Mode("Act3Easy")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Freezer", -2.0925159454345703, 103.18013763427734, 115.28021240234375)
+TDS:Place("Freezer", 0.8458738327026367, 103.15623474121094, 114.50123596191406)
+TDS:Place("Demoman", 3.7827301025390625, 103.15290069580078, 113.80113220214844)
+TDS:SetTarget(2, "Random")
+TDS:SetTarget(1, "Random")
+TDS:Upgrade(3)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Demoman", 6.5913238525390625, 103.21756744384766, 114.96449279785156)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Crook Boss", 3.822507381439209, 102.25768280029297, 98.33995056152344)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Place("Crook Boss", 0.8804247379302979, 102.65306091308594, 99.23176574707031)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+TDS:Place("Freezer", -2.2989673614501953, 103.02083587646484, 109.46813201904297)
+TDS:Upgrade(7)
+TDS:Place("Freezer", -5.029754638671875, 103.0267333984375, 108.16272735595703)
+TDS:Upgrade(8)
+
+-- [ Wave 10 ] --
+TDS:Place("Demoman", 0.7468776702880859, 103.0149154663086, 109.31839752197266)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Demoman", -5.770608901977539, 102.97449493408203, 105.15618133544922)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 11 ] --
+TDS:Place("Crook Boss", 4.985865116119385, 103.00170135498047, 101.14854431152344)
+TDS:SetTarget(9, "Random")
+TDS:SetTarget(10, "Random")
+TDS:Upgrade(11)
+
+-- [ Wave 12 ] --
+TDS:Place("Demoman", 2.0755503177642822, 102.90191650390625, 102.02699279785156)
+TDS:WaitForWave(12)
+TDS:Sell(12)
+TDS:Place("Crook Boss", 2.0755503177642822, 102.90191650390625, 102.02699279785156)
+TDS:Upgrade(13)
+TDS:Place("Crook Boss", -0.942746639251709, 102.91712951660156, 101.66439056396484)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(8)
+TDS:Upgrade(11)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(14)
+TDS:Place("Commander", -5.770608901977539, 102.93218231201172, 102.11618041992188)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Commander", -6.933966636657715, 102.69325256347656, 99.30758666992188)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 17 ] --
+TDS:Place("Commander", -3.0019478797912598, 103.02484893798828, 103.90074920654297)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(10)
+TDS:Place("Turret", 0.32693397998809814, 103.04637908935547, 105.10497283935547)
+TDS:Upgrade(18)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(18)
+TDS:Place("Turret", 4.454540729522705, 102.93683624267578, 104.64844512939453)
+TDS:Upgrade(19)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(19)
+TDS:Place("Turret", -2.4742965698242188, 102.50596618652344, 98.11615753173828)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(19)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(20)
+TDS:Upgrade(4)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(17)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(15)
+TDS:Upgrade(17)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(18)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(20)
+TDS:Upgrade(2)
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+TDS:Upgrade(8)
+TDS:Upgrade(11)
+TDS:Upgrade(5)
+TDS:Upgrade(13)
+TDS:Upgrade(6)
+TDS:Upgrade(14)
+TDS:Upgrade(19)
+TDS:Upgrade(18)
+TDS:Upgrade(20)
+TDS:VoteSkip(25)
+
+-- [[ END OF STRATEGY ]]
