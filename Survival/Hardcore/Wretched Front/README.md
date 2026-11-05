@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 320 recorded strategies available for this map**
+**📦 321 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -339,6 +339,7 @@ Select a strategy below and open its config file.
 | 318 | 2026-11-05 11:07 UTC | Hardcore | — | Farm, Hacker, Gatling Gun, EvolvedKingpin, None | [Open](318-2026-11-05-11-07-05.txt) |
 | 319 | 2026-11-05 11:16 UTC | Hardcore | — | Farm, Hacker, Gatling Gun, EvolvedKingpin, None | [Open](319-2026-11-05-11-16-42.txt) |
 | 320 | 2026-11-05 12:46 UTC | Hardcore | — | EvolvedJuggernaut, Electroshocker, None | [Open](320-2026-11-05-12-46-26.txt) |
+| 321 | 2026-11-05 13:46 UTC | Hardcore | — | EvolvedJuggernaut, Electroshocker, None | [Open](321-2026-11-05-13-46-56.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
