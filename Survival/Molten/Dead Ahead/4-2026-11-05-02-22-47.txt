@@ -1,0 +1,28 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.SupportCaravan = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedOperator", "Gatling Gun", "DJ Booth", "Commander", "EvolvedJuggernaut")
+TDS:Mode("Molten")
+TDS:GameInfo("Dead Ahead", {"Committed", "ExplodingEnemies", "FlyingEnemies", "Glass", "HiddenEnemies", "Limitation"})
+TDS:Ready()
+TDS:Place("EvolvedOperator", -0.14865577220916748, 1.0200010538101196, -19.320167541503906)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
