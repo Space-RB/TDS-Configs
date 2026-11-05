@@ -1,0 +1,35 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Pyromancer", "Hunter", "EvolvedJuggernaut", "EvolvedKingpin", "Shotgunner")
+TDS:Mode("Voidcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", -6.502511024475098, 0.9542820453643799, -31.502901077270508)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Place("Hunter", 6.535565376281738, 1.3881627321243286, 27.817203521728516)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 11 ] --
+TDS:Place("Hunter", 3.5094261169433594, 1.4176409244537354, 28.107328414916992)
+TDS:Upgrade(3)
+
+-- [[ END OF STRATEGY ]]
