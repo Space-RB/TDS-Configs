@@ -1,0 +1,83 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Shotgunner", "EvolvedJuggernaut", "Farm", "Golden Scout", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Farm", -11.505946159362793, 1.5528020858764648, 24.893096923828125)
+TDS:Place("Farm", -11.597635269165039, 1.5096683502197266, 28.768659591674805)
+TDS:Place("Farm", -11.517731666564941, 1.447680950164795, 32.50910568237305)
+TDS:Upgrade(3)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Place("Shotgunner", 13.477831840515137, 1.2212774753570557, 26.557283401489258)
+
+-- [ Wave 6 ] --
+TDS:Place("Shotgunner", 13.570265769958496, 1.1432559490203857, 24.54501724243164)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+TDS:Place("Farm", -12.021031379699707, 1.3508639335632324, 36.06317138671875)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 13 ] --
+TDS:Place("EvolvedJuggernaut", 6.495874404907227, 1.3884608745574951, 27.77935791015625)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Place("Scout", 12.157245635986328, 1.230635643005371, 22.434337615966797)
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Scout", 9.1172456741333, 1.2952263355255127, 22.434337615966797)
+TDS:Upgrade(9)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
