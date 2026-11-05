@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Wretched Front | 3 | [Open](Wretched%20Front/README.md) |
+| Unknown | 1 | [Open](Unknown/README.md) |
 
+| Wretched Front | 3 | [Open](Wretched%20Front/README.md) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>
