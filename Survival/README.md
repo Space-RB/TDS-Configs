@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Hardcore | 458 | [Open](Hardcore/README.md) |
+| Voidcore | 9 | [Open](Voidcore/README.md) |
 
+| Hardcore | 458 | [Open](Hardcore/README.md) |
 | Unknown | 207 | [Open](Unknown/README.md) |
 | Frost | 181 | [Open](Frost/README.md) |
 | Fallen | 165 | [Open](Fallen/README.md) |
@@ -27,7 +28,6 @@ Choose one of the categories below to continue.
 | Intermediate | 32 | [Open](Intermediate/README.md) |
 | Hardcore Easy | 13 | [Open](Hardcore%20Easy/README.md) |
 | Act1 | 11 | [Open](Act1/README.md) |
-| Voidcore | 8 | [Open](Voidcore/README.md) |
 | Act1Easy | 4 | [Open](Act1Easy/README.md) |
 | Chapter1Mission1 | 2 | [Open](Chapter1Mission1/README.md) |
 | Chapter1Mission3 | 2 | [Open](Chapter1Mission3/README.md) |
