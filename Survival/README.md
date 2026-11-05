@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Voidcore | 7 | [Open](Voidcore/README.md) |
+| Voidcore | 8 | [Open](Voidcore/README.md) |
 
 | Hardcore | 457 | [Open](Hardcore/README.md) |
 | Unknown | 207 | [Open](Unknown/README.md) |
