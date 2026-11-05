@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 118 recorded strategies available for this map**
+**📦 119 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -137,6 +137,7 @@ Select a strategy below and open its config file.
 | 116 | 2026-11-05 10:21 UTC | Hardcore | — | Turret, Crook Boss, DJ Booth, Medic, Assassin | [Open](116-2026-11-05-10-21-24.txt) |
 | 117 | 2026-11-05 14:33 UTC | Hardcore | — | Pyromancer, Hunter, None | [Open](117-2026-11-05-14-33-18.txt) |
 | 118 | 2026-11-05 14:33 UTC | Hardcore | — | Pyromancer, Hunter, None | [Open](118-2026-11-05-14-33-30.txt) |
+| 119 | 2026-11-05 14:33 UTC | Hardcore | — | Pyromancer, Hunter, None | [Open](119-2026-11-05-14-33-41.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
