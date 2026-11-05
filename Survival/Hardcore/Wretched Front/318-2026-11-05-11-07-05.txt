@@ -1,0 +1,103 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {beta_dps = true, gui_hidden = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Farm", "Hacker", "Gatling Gun", "EvolvedKingpin", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Farm", -18.291101455688477, 1.439717411994934, 35.19044494628906)
+TDS:Place("Farm", -18.38921356201172, 1.469032883644104, 31.651803970336914)
+TDS:Place("Farm", -18.44013786315918, 1.4453225135803223, 28.112171173095703)
+TDS:Place("Farm", -14.773372650146484, 1.4557340145111084, 34.79397964477539)
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", -14.777448654174805, 1.5511715412139893, 31.253982543945312)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", -14.97037124633789, 1.565748691558838, 27.52394676208496)
+TDS:Place("Farm", -11.268133163452148, 1.3828448057174683, 35.28886032104492)
+TDS:Place("Farm", -11.272211074829102, 1.4678229093551636, 31.748863220214844)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", -11.474882125854492, 1.5217509269714355, 28.083633422851562)
+TDS:Place("Farm", -11.17329216003418, 1.289772391319275, 38.82756042480469)
+TDS:Upgrade(10)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Place("Gatling Gun", -9.873441696166992, 2.5597660541534424, -3.845219612121582)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(4)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(10)
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Place("EvolvedKingpin", -6.61681604385376, -0.1568831205368042, -9.513651847839355)
+TDS:Upgrade(12)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(12)
+
+-- [[ END OF STRATEGY ]]
