@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 323 recorded strategies available for this map**
+**📦 324 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -342,6 +342,7 @@ Select a strategy below and open its config file.
 | 321 | 2026-11-05 13:46 UTC | Hardcore | — | EvolvedJuggernaut, Electroshocker, None | [Open](321-2026-11-05-13-46-56.txt) |
 | 322 | 2026-11-05 14:57 UTC | Hardcore | — | Electroshocker, Minigunner, None | [Open](322-2026-11-05-14-57-02.txt) |
 | 323 | 2026-11-05 16:16 UTC | Hardcore | — | Golden Soldier, EvolvedJuggernaut, None | [Open](323-2026-11-05-16-16-50.txt) |
+| 324 | 2026-11-05 16:19 UTC | Hardcore | — | Golden Soldier, EvolvedJuggernaut, None | [Open](324-2026-11-05-16-19-18.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
