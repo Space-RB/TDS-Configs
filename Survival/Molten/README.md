@@ -16,15 +16,15 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 25 | [Open](Unknown/README.md) |
+| Dead Ahead | 3 | [Open](Dead%20Ahead/README.md) |
 
+| Unknown | 25 | [Open](Unknown/README.md) |
 | Simplicity | 9 | [Open](Simplicity/README.md) |
 | Black Spot Exchange | 8 | [Open](Black%20Spot%20Exchange/README.md) |
 | Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
 | Retro Crossroads | 6 | [Open](Retro%20Crossroads/README.md) |
 | U-Turn | 5 | [Open](U-Turn/README.md) |
 | Retro Lighthouse | 3 | [Open](Retro%20Lighthouse/README.md) |
-| Dead Ahead | 2 | [Open](Dead%20Ahead/README.md) |
 | Forest Camp | 2 | [Open](Forest%20Camp/README.md) |
 | Grass Isle | 2 | [Open](Grass%20Isle/README.md) |
 | Rocket Arena | 2 | [Open](Rocket%20Arena/README.md) |
