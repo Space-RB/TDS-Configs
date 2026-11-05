@@ -1,0 +1,26 @@
+_G.AutoChain = true
+_G.AutoPickups = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.MatchTrackerEnabled = false
+_G.SellFarms = true
+_G.SellFarmsWave = 36
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "Crook Boss", "Commander", "Assassin", "None")
+TDS:Mode("Act1")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 25.28929901123047, 2.0009987354278564, 196.35934448242188)
+TDS:Place("Assassin", 26.166086196899414, 2.0009984970092773, 198.20130920410156)
+TDS:Upgrade(3)
+
+-- [[ END OF STRATEGY ]]
