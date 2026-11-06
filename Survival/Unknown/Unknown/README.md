@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 214 recorded strategies available for this map**
+**📦 215 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -233,6 +233,7 @@ Select a strategy below and open its config file.
 | 212 | 2026-11-06 05:06 UTC | Unknown | — | Pyromancer, Scout, Shotgunner, Crook Boss, Minigunner | [Open](212-2026-11-06-05-06-59.txt) |
 | 213 | 2026-11-06 10:16 UTC | Unknown | — | EvolvedKingpin, Gatling Gun, Engineer, Ranger, Star Cannon | [Open](213-2026-11-06-10-16-02.txt) |
 | 214 | 2026-11-06 16:07 UTC | Unknown | — | Minigunner, Soldier, None | [Open](214-2026-11-06-16-07-07.txt) |
+| 215 | 2026-11-06 16:10 UTC | Unknown | — | Minigunner, Soldier, None | [Open](215-2026-11-06-16-10-58.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
