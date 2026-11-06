@@ -16,20 +16,20 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Hot Spot | 2 | [Open](Hot%20Spot/README.md) |
+| Retro Crossroads | 7 | [Open](Retro%20Crossroads/README.md) |
 
 | Unknown | 28 | [Open](Unknown/README.md) |
 | Simplicity | 9 | [Open](Simplicity/README.md) |
 | Black Spot Exchange | 8 | [Open](Black%20Spot%20Exchange/README.md) |
 | Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
 | Dead Ahead | 6 | [Open](Dead%20Ahead/README.md) |
-| Retro Crossroads | 6 | [Open](Retro%20Crossroads/README.md) |
 | U-Turn | 5 | [Open](U-Turn/README.md) |
 | Lay By | 4 | [Open](Lay%20By/README.md) |
 | Retro Lighthouse | 3 | [Open](Retro%20Lighthouse/README.md) |
 | Cataclysm | 2 | [Open](Cataclysm/README.md) |
 | Forest Camp | 2 | [Open](Forest%20Camp/README.md) |
 | Grass Isle | 2 | [Open](Grass%20Isle/README.md) |
+| Hot Spot | 2 | [Open](Hot%20Spot/README.md) |
 | Rocket Arena | 2 | [Open](Rocket%20Arena/README.md) |
 | The Heavens | 2 | [Open](The%20Heavens/README.md) |
 | Toyboard | 2 | [Open](Toyboard/README.md) |
