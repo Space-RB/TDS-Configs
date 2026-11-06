@@ -16,18 +16,18 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
+| Black Spot Exchange | 4 | [Open](Black%20Spot%20Exchange/README.md) |
 
 | Unknown | 13 | [Open](Unknown/README.md) |
 | Dead Ahead | 10 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 8 | [Open](Lay%20By/README.md) |
-| Black Spot Exchange | 3 | [Open](Black%20Spot%20Exchange/README.md) |
 | Retro Crossroads | 3 | [Open](Retro%20Crossroads/README.md) |
 | Sugar Rush | 2 | [Open](Sugar%20Rush/README.md) |
 | Abandoned City | 1 | [Open](Abandoned%20City/README.md) |
 | Farm Lands | 1 | [Open](Farm%20Lands/README.md) |
 | Four Seasons | 1 | [Open](Four%20Seasons/README.md) |
 | Gilded Path | 1 | [Open](Gilded%20Path/README.md) |
+| Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Moon Base | 1 | [Open](Moon%20Base/README.md) |
 | Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
 </div>
