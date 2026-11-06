@@ -1,0 +1,54 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoMoonPuzzle = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.AutoStarCannon = true
+_G.ClaimRewards = true
+_G.StarCannonMin = 100
+_G.StreamerMode = true
+_G.SupportCaravan = true
+_G.TimeScaleValue = 1
+_G.AutoGatlingSettings = {beta_dps = true, gui_hidden = true, max_multi_targets = 3, rgb_speed = 0.6}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "DJ Booth", "Hacker", "Golden Soldier", "EvolvedKingpin")
+TDS:Mode("Frost")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Soldier", -2.5254878997802734, 242.99998474121094, 217.895751953125)
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Place("Soldier", -2.5254874229431152, 243.1238250732422, 220.9357452392578)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Soldier", -2.5254855155944824, 243.12322998046875, 223.97573852539062)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Soldier", 2.524852752685547, 243, 170.39781188964844)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:WaitForWave(9)
+TDS:Sell(4)
+
+-- [[ END OF STRATEGY ]]
