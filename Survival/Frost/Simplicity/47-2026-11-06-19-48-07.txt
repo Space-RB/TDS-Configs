@@ -1,0 +1,167 @@
+_G.AutoChain = true
+_G.AutoGatling = true
+_G.AutoMedic = true
+_G.AutoNecro = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.AutoStarCannon = true
+_G.ClaimRewards = true
+_G.StarCannonMin = 100
+_G.AutoGatlingSettings = {beta_dps = true, bypass_boss_for_fast_enemies = true, gui_hidden = true, rgb_speed = 2}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "DJ Booth", "Engineer", "Star Cannon", "Commander")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Engineer", 7.199620246887207, 0.9999632835388184, -3.308566093444824)
+TDS:VoteSkip(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Engineer", 4.095491886138916, 0.9999831914901733, -2.9792838096618652)
+
+-- [ Wave 4 ] --
+TDS:Place("Engineer", 1.0554919242858887, 0.9999831914901733, -2.9792838096618652)
+TDS:Place("Engineer", -1.9845080375671387, 0.9999929070472717, -2.9792838096618652)
+
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+
+-- [ Wave 8 ] --
+TDS:VoteSkip(8)
+
+-- [ Wave 9 ] --
+TDS:Place("Gatling Gun", -2.62019681930542, 0.9999831914901733, 2.236677646636963)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Place("Engineer", -5.02257776260376, 0.9999891519546509, -2.8709657192230225)
+TDS:Place("Engineer", 5.372366428375244, 0.9999831914901733, -5.738122463226318)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Place("DJ Booth", -9.030343055725098, 1.0000005960464478, -3.552608013153076)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(7)
+
+-- [ Wave 18 ] --
+TDS:Place("Commander", 0.9198031425476074, 0.9999831914901733, 2.236677646636963)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 19 ] --
+TDS:Place("Commander", 3.9598031044006348, 0.9999831914901733, 2.236677646636963)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 20 ] --
+TDS:SetOption(8, "Track", "Red")
+TDS:Upgrade(5)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(6)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 32 ] --
+TDS:Place("Star Cannon", 2.254162311553955, 10.0264253616333, 10.172074317932129)
+TDS:Upgrade(11)
+TDS:SetTarget(11, "Last")
+TDS:SetTarget(11, "Strongest")
+TDS:Upgrade(11)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 36 ] --
+TDS:SetTarget(11, "Last")
+TDS:SetTarget(11, "First")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Equip", "Barricade", "952A8756-D4D9-4953-950D-24A7135F9076")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Consume", "Barricade", {direction = Vector3.new(0.4103959798812866, -0.9073599576950073, -0.09095586836338043), pathName = 1, pathToEnd = 13.529151499271393, position = Vector3.new(16.712785720825195, 1.125002384185791, 12.460871696472168)})
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Unequip", "952A8756-D4D9-4953-950D-24A7135F9076")
+TDS:WaitForWave(36)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+TDS:Sell(5)
+TDS:Sell(6)
+TDS:Sell(7)
+TDS:Sell(8)
+TDS:Sell(9)
+TDS:Sell(10)
+TDS:Sell(11)
+
+-- [[ END OF STRATEGY ]]
