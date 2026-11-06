@@ -1,0 +1,179 @@
+_G.AutoChain = true
+_G.AutoGatling = true
+_G.AutoMedic = true
+_G.AutoNecro = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.AutoStarCannon = true
+_G.ClaimRewards = true
+_G.StarCannonMin = 100
+_G.AutoGatlingSettings = {beta_dps = true, bypass_boss_for_fast_enemies = true, gui_hidden = true, rgb_speed = 2}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "DJ Booth", "Turret", "Saboteur", "Pulse Trooper")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Saboteur", -1.0121345520019531, 0.866488516330719, -25.091861724853516)
+
+-- [ Wave 2 ] --
+TDS:Place("Saboteur", 0.7959620356559753, 0.6858760714530945, -22.657011032104492)
+
+-- [ Wave 3 ] --
+TDS:Place("Saboteur", 2.6531827449798584, 0.6407201886177063, -20.261627197265625)
+
+-- [ Wave 4 ] --
+TDS:Place("Saboteur", 4.473323822021484, 0.6125080585479736, -17.841873168945312)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Saboteur", -2.970651626586914, 0.7061717510223389, -22.81473159790039)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Place("Gatling Gun", 8.978348731994629, 3.0047385692596436, -1.918349266052246)
+
+-- [ Wave 14 ] --
+TDS:Place("Saboteur", -1.1871280670166016, 0.5798203945159912, -20.352771759033203)
+TDS:Place("Saboteur", 0.6771175861358643, 0.5535273551940918, -17.95136070251465)
+
+-- [ Wave 15 ] --
+TDS:Place("Saboteur", 2.5067803859710693, 0.4557307958602905, -15.5234956741333)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(3)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(4)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 28 ] --
+TDS:Place("Pulse Trooper", 8.454930305480957, 0.5198244452476501, -14.63288688659668)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Ability(5, "Aggressive Toxins", {position = Vector3.new(7.609834671020508, 0.8199679255485535, -19.573461532592773)})
+TDS:Ability(1, "Aggressive Toxins", {position = Vector3.new(12.10389232635498, 0.8250000476837158, -19.279142379760742)})
+
+-- [ Wave 29 ] --
+TDS:WaitForWave(29)
+TDS:Sell(10)
+TDS:Place("Pulse Trooper", 13.496996879577637, 1.215393304824829, 26.313766479492188)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Sell(9)
+TDS:Upgrade(11)
+
+-- [ Wave 30 ] --
+TDS:WaitForWave(30)
+TDS:Sell(8)
+TDS:Place("Saboteur", 3.344776153564453, 1.4271726608276367, 31.56995391845703)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Saboteur", 0.3284759521484375, 1.4557530879974365, 31.658838272094727)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Sell(13)
+TDS:Sell(12)
+TDS:Place("Saboteur", 0.6771175861358643, 0.5535273551940918, -17.95136070251465)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Saboteur", 2.5067803859710693, 0.4557307958602905, -15.5234956741333)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Sell(11)
+TDS:Place("Pulse Trooper", -8.020645141601562, 0.9731470942497253, -31.727710723876953)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("DJ Booth", 6.239253997802734, 0.5114008784294128, -13.977333068847656)
+TDS:Sell(17)
+TDS:Place("DJ Booth", -3.0553557872772217, 0.22347527742385864, -16.405197143554688)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(18)
+
+-- [ Wave 32 ] --
+TDS:Ability(16, "Sweeper")
+TDS:Ability(1, "Aggressive Toxins", {position = Vector3.new(-8.627538681030273, 1.1222410202026367, -24.849145889282227)}, true)
+TDS:Ability(5, "Aggressive Toxins", {position = Vector3.new(0.9995713233947754, 1.0643125772476196, -26.582494735717773)}, true)
+TDS:Upgrade(7)
+TDS:Ability(7, "Aggressive Toxins", {position = Vector3.new(13.668667793273926, 0.8250000476837158, -17.01190948486328)})
+TDS:Upgrade(15)
+TDS:Ability(15, "Aggressive Toxins", {position = Vector3.new(3.87338924407959, 0.590652585029602, -10.55416488647461)})
+TDS:WaitForWave(32)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+TDS:Place("Saboteur", 3.5123143196105957, 1.4195573329925537, 29.022336959838867)
+TDS:VoteSkip(32)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Saboteur", 0.5357012748718262, 1.4463788270950317, 28.40489959716797)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Saboteur", -2.504298686981201, 1.4749647378921509, 28.40502166748047)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+
+-- [ Wave 33 ] --
+TDS:WaitForWave(33)
+TDS:Sell(14)
+TDS:Place("Saboteur", 1.5079460144042969, 1.4457257986068726, 32.06510543823242)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Sell(1)
+TDS:Sell(5)
+TDS:Sell(6)
+TDS:Sell(7)
+TDS:Sell(15)
+TDS:Sell(16)
+TDS:Sell(18)
+TDS:Sell(19)
+TDS:Sell(20)
+TDS:Sell(21)
+TDS:Sell(22)
+
+-- [[ END OF STRATEGY ]]
