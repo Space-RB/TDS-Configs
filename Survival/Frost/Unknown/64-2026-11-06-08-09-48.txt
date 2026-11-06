@@ -1,0 +1,134 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoMoonPuzzle = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.AutoStarCannon = true
+_G.ClaimRewards = true
+_G.StarCannonMin = 100
+_G.StreamerMode = true
+_G.SupportCaravan = true
+_G.TimeScaleValue = 1
+_G.AutoGatlingSettings = {beta_dps = true, gui_hidden = true, max_multi_targets = 3, rgb_speed = 0.6}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "DJ Booth", "EvolvedJuggernaut", "Militant", "Mercenary Base")
+TDS:Mode("Frost")
+TDS:GameInfo("", {})
+TDS:Place("Militant", -16.609390258789062, 0.9999895691871643, -8.870315551757812)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Militant", -13.569390296936035, 0.9999867081642151, -8.870315551757812)
+
+-- [ Wave 4 ] --
+TDS:Place("Militant", -11.989953994750977, 1.0000005960464478, -3.7153258323669434)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Militant", -10.558018684387207, 0.9999876022338867, -8.82856273651123)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("DJ Booth", -7.949954032897949, 0.9999858736991882, -3.7153258323669434)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Place("Militant", -12.533342361450195, 1.000000238418579, -0.7448973655700684)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:SetOption(5, "Track", "Green")
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 12 ] --
+TDS:Place("Gatling Gun", -7.717182159423828, 0.999999463558197, 3.5685794353485107)
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Place("Mercenary Base", -2.2348968982696533, 0.9999831914901733, 2.5674142837524414)
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(8)
+TDS:SetOption(8, "Unit 1", "Grenadier")
+TDS:SetOption(8, "Unit 2", "Grenadier")
+TDS:Upgrade(5)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 20 ] --
+TDS:SetOption(8, "Unit 1", "Riot Guard")
+TDS:SetOption(8, "Unit 2", "Riot Guard")
+TDS:SetOption(8, "Unit 3", "Riot Guard")
+
+-- [ Wave 21 ] --
+TDS:Place("Mercenary Base", 2.311931610107422, 0.9999831914901733, 2.241730213165283)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:SetOption(9, "Unit 1", "Riot Guard")
+
+-- [ Wave 23 ] --
+TDS:SetOption(9, "Unit 2", "Riot Guard")
+TDS:SetOption(9, "Unit 3", "Riot Guard")
+TDS:Upgrade(7)
+
+-- [ Wave 25 ] --
+TDS:Place("EvolvedJuggernaut", -7.717182159423828, 0.9999987483024597, 8.108579635620117)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(10, 2)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(5)
+TDS:Place("Mercenary Base", -2.898789405822754, 0.9999831914901733, 9.200136184692383)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:SetOption(11, "Unit 1", "Riot Guard")
+TDS:SetOption(11, "Unit 2", "Riot Guard")
+TDS:SetOption(11, "Unit 3", "Riot Guard")
+
+-- [ Wave 30 ] --
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
