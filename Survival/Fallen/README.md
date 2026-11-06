@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 40 | [Open](Simplicity/README.md) |
+| Sky Islands | 1 | [Open](Sky%20Islands/README.md) |
 
 | Unknown | 59 | [Open](Unknown/README.md) |
+| Simplicity | 40 | [Open](Simplicity/README.md) |
 | Lay By | 36 | [Open](Lay%20By/README.md) |
 | Cataclysm | 18 | [Open](Cataclysm/README.md) |
 | U-Turn | 8 | [Open](U-Turn/README.md) |
