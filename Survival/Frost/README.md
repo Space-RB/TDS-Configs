@@ -16,16 +16,16 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Mason Arch | 3 | [Open](Mason%20Arch/README.md) |
+| Lay By | 31 | [Open](Lay%20By/README.md) |
 
 | Unknown | 61 | [Open](Unknown/README.md) |
 | Simplicity | 41 | [Open](Simplicity/README.md) |
-| Lay By | 30 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
 | Spring Fever | 5 | [Open](Spring%20Fever/README.md) |
 | Summer Castle | 5 | [Open](Summer%20Castle/README.md) |
 | Crossroads | 4 | [Open](Crossroads/README.md) |
 | Honey Valley | 3 | [Open](Honey%20Valley/README.md) |
+| Mason Arch | 3 | [Open](Mason%20Arch/README.md) |
 | Medieval Times | 3 | [Open](Medieval%20Times/README.md) |
 | Wrecked Battlefield II | 3 | [Open](Wrecked%20Battlefield%20II/README.md) |
 | Cataclysm | 2 | [Open](Cataclysm/README.md) |
