@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 74 | [Open](Unknown/README.md) |
+| Toyboard | 1 | [Open](Toyboard/README.md) |
 
+| Unknown | 74 | [Open](Unknown/README.md) |
 | Gilded Path | 31 | [Open](Gilded%20Path/README.md) |
 | Dead Ahead | 20 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 5 | [Open](Lay%20By/README.md) |
