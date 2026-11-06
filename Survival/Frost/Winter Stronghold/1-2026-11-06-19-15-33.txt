@@ -1,0 +1,41 @@
+_G.AutoChain = true
+_G.AutoGatling = true
+_G.AutoMedic = true
+_G.AutoNecro = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.AutoStarCannon = true
+_G.ClaimRewards = true
+_G.StarCannonMin = 100
+_G.AutoGatlingSettings = {beta_dps = true, bypass_boss_for_fast_enemies = true, gui_hidden = true, rgb_speed = 2}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "DJ Booth", "Engineer", "Star Cannon", "Commander")
+TDS:Mode("Frost")
+TDS:GameInfo("Winter Stronghold", {})
+TDS:Ready()
+TDS:Place("Engineer", -9.949832916259766, -0.16000139713287354, 21.04313087463379)
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+
+-- [ Wave 2 ] --
+TDS:VoteSkip(2)
+TDS:Place("Engineer", 10.703850746154785, -0.15999875962734222, 4.816347122192383)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:WaitForWave(3)
+TDS:Sell(1)
+TDS:Sell(2)
+
+-- [[ END OF STRATEGY ]]
