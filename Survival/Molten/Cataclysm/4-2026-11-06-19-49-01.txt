@@ -1,0 +1,50 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoXP = true
+_G.ClaimRewards = true
+_G.StartHubStrategy = "aa31aed9-3930-4436-93eb-802d31b9549a"
+_G.TimeScaleEnabled = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Shotgunner", "Scout", "None", "None", "None")
+TDS:Mode("Molten")
+TDS:GameInfo("Cataclysm", {})
+TDS:Ready()
+
+-- [ Wave 4 ] --
+TDS:Place("Scout", -2.3379287719726562, 1.0000081062316895, -11.972861289978027)
+TDS:Place("Scout", -1.3882335424423218, 1.0000081062316895, -14.901154518127441)
+TDS:Place("Scout", 2.107099771499634, 1.0000081062316895, -14.945602416992188)
+
+-- [ Wave 5 ] --
+TDS:Place("Scout", -1.261202335357666, 1.0000081062316895, -18.469226837158203)
+TDS:Place("Scout", -2.1696600914001465, 1.0000081062316895, -22.441387176513672)
+TDS:Place("Scout", 1.0194830894470215, 1.0000081062316895, -22.82018280029297)
+TDS:Place("Scout", 1.7850340604782104, 1.0000081062316895, -19.012544631958008)
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(4)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
