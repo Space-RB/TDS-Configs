@@ -1,0 +1,38 @@
+_G.AutoMoonPuzzle = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Shotgunner", "Scout", "Crook Boss", "Minigunner")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Pyromancer", -3.71199893951416, 1.0054218769073486, -35.32248306274414)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", -6.676213264465332, 0.9700003862380981, -32.90959930419922)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
