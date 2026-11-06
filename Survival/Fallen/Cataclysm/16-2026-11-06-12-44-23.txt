@@ -1,0 +1,75 @@
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedJuggernaut", "EvolvedKingpin", "DJ Booth", "Engineer", "Mercenary Base")
+TDS:Mode("Fallen")
+TDS:GameInfo("Cataclysm", {"ExplodingEnemies", "Glass"})
+TDS:Ready()
+TDS:Place("Engineer", -4.187515735626221, 1.0000081062316895, 24.725008010864258)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Engineer", -1.179324984550476, 1.0000081062316895, 24.761367797851562)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Engineer", -2.7707719802856445, 1.0000081062316895, 22.05518913269043)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Engineer", -2.5616321563720703, 1.0000081062316895, 27.50653839111328)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Place("Engineer", 0.5009951591491699, 1.0000081062316895, 22.05445098876953)
+TDS:Upgrade(5)
+TDS:Place("Engineer", -5.843167304992676, 1.0000081062316895, 22.00249671936035)
+TDS:Upgrade(6)
+
+-- [ Wave 7 ] --
+TDS:Place("DJ Booth", 3.3336679935455322, 1.0000081062316895, 19.1331729888916)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(5)
+TDS:Place("Mercenary Base", 1.5462088584899902, 1.0000081062316895, -43.89671325683594)
+
+-- [[ END OF STRATEGY ]]
