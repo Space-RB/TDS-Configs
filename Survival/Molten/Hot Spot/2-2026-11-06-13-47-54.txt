@@ -1,0 +1,54 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Soldier", "Pyromancer", "Shotgunner", "EvolvedKingpin", "None")
+TDS:Mode("Molten")
+TDS:GameInfo("Hot Spot", {})
+TDS:Ready()
+TDS:Place("Soldier", 3.1721158027648926, -2.248687744140625, -37.297813415527344)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", 10.911348342895508, -2.2613370418548584, -40.681007385253906)
+TDS:Upgrade(2)
+TDS:Place("Soldier", 2.415233612060547, -2.23294997215271, -46.426971435546875)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Soldier", 11.144694328308105, -2.267385482788086, -44.160972595214844)
+TDS:Upgrade(4)
+TDS:Place("Soldier", 3.495929718017578, -2.2543044090270996, -34.30980682373047)
+TDS:Upgrade(5)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Place("Pyromancer", 10.325855255126953, -2.2718303203582764, -33.21470642089844)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Place("Pyromancer", 0.17221355438232422, -2.222146511077881, -44.019996643066406)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
