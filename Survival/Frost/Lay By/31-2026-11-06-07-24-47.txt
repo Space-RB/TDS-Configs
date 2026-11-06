@@ -1,0 +1,34 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoMoonPuzzle = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.AutoStarCannon = true
+_G.ClaimRewards = true
+_G.StarCannonMin = 100
+_G.StreamerMode = true
+_G.SupportCaravan = true
+_G.TimeScaleValue = 1
+_G.AutoGatlingSettings = {beta_dps = true, gui_hidden = true, max_multi_targets = 3, rgb_speed = 0.6}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Mercenary Base", "DJ Booth", "Hacker", "Golden Demoman")
+TDS:Mode("Frost")
+TDS:GameInfo("Lay By", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Place("Demoman", -2.5025386810302734, 242.99998474121094, 217.62515258789062)
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
