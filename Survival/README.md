@@ -16,10 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Hardcore | 493 | [Open](Hardcore/README.md) |
+| Frost | 198 | [Open](Frost/README.md) |
 
+| Hardcore | 493 | [Open](Hardcore/README.md) |
 | Unknown | 212 | [Open](Unknown/README.md) |
-| Frost | 197 | [Open](Frost/README.md) |
 | Fallen | 181 | [Open](Fallen/README.md) |
 | Easy | 153 | [Open](Easy/README.md) |
 | Molten | 96 | [Open](Molten/README.md) |
