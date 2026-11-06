@@ -1,0 +1,102 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {beta_dps = true, gui_hidden = true, rgb_speed = 0.1}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "Hacker", "Gatling Gun", "DJ Booth", "EvolvedKingpin")
+TDS:Mode("Fallen")
+TDS:GameInfo("Lay By", {"Broke", "Committed", "ExplodingEnemies", "Fog", "Glass", "HiddenEnemies", "Limitation", "SpeedyEnemies"})
+TDS:Ready()
+TDS:Place("Trapper", -2.5116500854492188, 242.99996948242188, 235.54541015625)
+
+-- [ Wave 1 ] --
+TDS:Place("Trapper", -2.5116500854492188, 242.99996948242188, 232.5054168701172)
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", -2.5116500854492188, 242.99998474121094, 229.46542358398438)
+
+-- [ Wave 3 ] --
+TDS:Place("Trapper", -2.5116500854492188, 242.99998474121094, 226.42543029785156)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 12 ] --
+TDS:Place("Gatling Gun", 9.462833404541016, 245.89614868164062, 228.84616088867188)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(5)
+TDS:Place("Hacker", -2.5094614028930664, 242.99998474121094, 283.6424560546875)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 17 ] --
+TDS:Place("DJ Booth", 2.543445587158203, 242.99998474121094, 230.18035888671875)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
