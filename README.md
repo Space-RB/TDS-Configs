@@ -8,7 +8,7 @@
 
 The catalog has been reset. New recorder uploads will appear here.
 
-**📦 1937 strategies &nbsp; • &nbsp; 🎮 4 categories**
+**📦 1938 strategies &nbsp; • &nbsp; 🎮 4 categories**
 
 </div>
 
@@ -21,10 +21,10 @@ The catalog has been reset. New recorder uploads will appear here.
 | Category | Strategies | Open |
 |:---:|---:|:---:|
 
-| Sandbox | 30 | [Open](Sandbox/README.md) |
-| Survival | 1496 | [Open](Survival/README.md) |
+| Survival | 1497 | [Open](Survival/README.md) |
 | Event | 376 | [Open](Event/README.md) |
 | Arcade | 35 | [Open](Arcade/README.md) |
+| Sandbox | 30 | [Open](Sandbox/README.md) |
 </div>
 
 ---
