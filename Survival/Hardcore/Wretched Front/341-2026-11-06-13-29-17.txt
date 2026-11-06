@@ -1,0 +1,57 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Boomerang", "Crook Boss", "Farm", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Farm", 9.783530235290527, 1.3102047443389893, 35.81700134277344)
+TDS:Upgrade(1)
+TDS:Place("Farm", 13.322707176208496, 1.2404770851135254, 35.74068069458008)
+TDS:Upgrade(2)
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", 17.020374298095703, 1.159122347831726, 35.81831741333008)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(3)
+TDS:Place("Farm", 20.929000854492188, 1.0316897630691528, 35.91801834106445)
+TDS:Upgrade(4)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", 24.465538024902344, 1.046987771987915, 36.07455062866211)
+TDS:Upgrade(5)
+TDS:Place("Boomerang", 7.569622993469238, 1.2808234691619873, 22.053016662597656)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 5 ] --
+TDS:Place("Farm", 22.42780303955078, 0.968982458114624, 30.847028732299805)
+TDS:Upgrade(7)
+TDS:Place("Farm", 21.734920501708984, 0.8856419324874878, 27.210350036621094)
+TDS:Upgrade(8)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", 22.12052345275879, 0.7803142070770264, 23.525121688842773)
+TDS:Upgrade(9)
+
+-- [ Wave 7 ] --
+TDS:Place("Farm", 23.07891273498535, 0.6399351954460144, 19.331195831298828)
+TDS:Upgrade(10)
+TDS:Place("Farm", 23.01268768310547, 0.5078628659248352, 15.169801712036133)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [[ END OF STRATEGY ]]
