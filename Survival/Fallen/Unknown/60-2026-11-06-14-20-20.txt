@@ -1,0 +1,248 @@
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Brawler", "Hacker", "Engineer", "EvolvedJuggernaut", "EvolvedKingpin")
+TDS:Mode("Fallen")
+TDS:GameInfo("", {})
+TDS:Place("Brawler", -17.911954879760742, 1.0000009536743164, -5.236737251281738, true)
+TDS:Place("Brawler", -17.898488998413086, 0.9999834895133972, -6.496005058288574, true)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1, true)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1, true)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1, true)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2, true)
+TDS:Upgrade(2, true)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2, true)
+
+-- [ Wave 9 ] --
+TDS:Place("Brawler", -18.17376136779785, 1.0000007152557373, -4.163896560668945, true)
+TDS:Upgrade(3, true)
+TDS:Upgrade(3, true)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3, true)
+
+-- [ Wave 11 ] --
+TDS:Place("Brawler", -18.29155921936035, 1.0000005960464478, -3.460508346557617, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(4, true)
+
+-- [ Wave 12 ] --
+TDS:Place("Brawler", -18.254337310791016, 1.124167799949646, -2.0687005519866943, true)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(5, true)
+TDS:Upgrade(5, true)
+TDS:Upgrade(5, true)
+
+-- [ Wave 14 ] --
+TDS:Place("Brawler", -18.432809829711914, 0.9999834895133972, -10.233138084411621, true)
+TDS:Place("Brawler", -17.097408294677734, 0.9999834895133972, -9.30128288269043, true)
+TDS:Place("Brawler", -16.118608474731445, 1.199998140335083, -8.290084838867188, true)
+TDS:Place("Brawler", -15.974946975708008, 1.199999451637268, -8.495826721191406, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(6, true)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7, true)
+TDS:Upgrade(7, true)
+TDS:Upgrade(7, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(8, true)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(9, true)
+TDS:Upgrade(9, true)
+TDS:Upgrade(9, true)
+TDS:Place("Brawler", -12.144777297973633, 1.0000005960464478, -3.1933517456054688)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 17 ] --
+TDS:Place("Hacker", -12.24122428894043, 0.9999890327453613, -11.907366752624512)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 18 ] --
+TDS:Place("Engineer", -9.522176742553711, 1.0000005960464478, -3.4718995094299316)
+
+-- [ Wave 19 ] --
+TDS:Place("EvolvedKingpin", -6.496165752410889, 0.9999876022338867, -3.539395809173584)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("EvolvedKingpin", -3.446676254272461, 0.9999912977218628, -3.4612793922424316)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:VoteSkip(20)
+
+-- [ Wave 21 ] --
+TDS:Place("Engineer", -11.03677749633789, 0.9999822378158569, -9.105173110961914)
+TDS:Place("Engineer", -7.894951343536377, 0.9999971985816956, -9.22938060760498)
+TDS:Place("Engineer", -4.701662540435791, 0.9999971985816956, -9.220467567443848)
+TDS:Place("Engineer", -7.951791763305664, 1.000000238418579, -0.8835344314575195)
+TDS:Place("Engineer", -11.12820816040039, 1.000000238418579, -0.7902088165283203)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:VoteSkip(21)
+TDS:Upgrade(18)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 25 ] --
+TDS:Place("Hacker", 5.710573196411133, 0.9999939203262329, -6.711026191711426)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(16)
+TDS:VoteSkip(25)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(17)
+TDS:Upgrade(12)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(19)
+TDS:VoteSkip(27)
+TDS:Upgrade(18)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(13, 2)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(14, 2)
+TDS:Place("EvolvedKingpin", -0.3578987121582031, 0.9999831914901733, -3.1627626419067383)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(21)
+TDS:Upgrade(21, 2)
+TDS:Place("EvolvedKingpin", 2.7448830604553223, 0.9999831914901733, -3.354745864868164)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22, 2)
+TDS:Upgrade(13, 2)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(14, 2)
+TDS:Upgrade(21, 2)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(22, 2)
+TDS:Upgrade(4, true)
+TDS:Upgrade(3, true)
+TDS:Upgrade(1, true)
+TDS:Upgrade(2, true)
+TDS:Upgrade(5, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(7, true)
+TDS:Upgrade(9, true)
+TDS:Upgrade(10)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(19)
+TDS:Upgrade(17)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(15)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(13, 2)
+TDS:SetOption(13, "Unit 3", "Contractor")
+TDS:Upgrade(14, 2)
+TDS:SetOption(14, "Unit 3", "Contractor")
+TDS:Upgrade(21, 2)
+TDS:SetOption(21, "Unit 3", "Contractor")
+
+-- [ Wave 37 ] --
+TDS:Upgrade(22, 2)
+TDS:SetOption(22, "Unit 3", "Contractor")
+TDS:Place("EvolvedJuggernaut", -2.4871649742126465, 0.9999831914901733, 2.339226722717285)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+
+-- [ Wave 38 ] --
+TDS:Upgrade(23)
+
+-- [ Wave 39 ] --
+TDS:Upgrade(23)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11, 2)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:VoteSkip(39)
+TDS:Upgrade(20, 2)
+
+-- [ Wave 40 ] --
+TDS:Ability(11, "Hologram Tower", {towerPosition = Vector3.new(-1.341059684753418, 1.0000015497207642, -9.430723190307617), towerToClone = 13})
+TDS:Ability(20, "Hologram Tower", {towerPosition = Vector3.new(-3.858475685119629, 0.9999937415122986, -12.471762657165527), towerToClone = 14})
+TDS:Ability(11, "Hologram Tower", true)
+TDS:Ability(20, "Hologram Tower", true)
+
+-- [[ END OF STRATEGY ]]
