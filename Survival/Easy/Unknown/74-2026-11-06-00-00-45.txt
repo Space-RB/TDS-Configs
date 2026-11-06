@@ -1,0 +1,85 @@
+_G.AutoChain = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedKingpin", "Hacker", "EvolvedOperator", "Farm", "Commander")
+TDS:Mode("Easy")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("EvolvedOperator", -12.127671241760254, 1.0000004768371582, -2.831851005554199)
+TDS:Place("EvolvedOperator", -8.668347358703613, 1.0000004768371582, -2.661990165710449)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Place("EvolvedOperator", -12.315969467163086, 1.0000001192092896, 0.028374671936035156)
+
+-- [ Wave 4 ] --
+TDS:Place("EvolvedOperator", -8.83588695526123, 1, 0.23601913452148438)
+TDS:Place("EvolvedOperator", -11.727865219116211, 0.9999995827674866, 2.908407211303711)
+TDS:Place("EvolvedOperator", -8.368720054626465, 0.9999831914901733, 3.0319252014160156)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Place("Hacker", -5.585171222686768, 0.9999887347221375, -3.552661895751953)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(7)
+TDS:Place("Commander", -2.5495388507843018, 0.9999923706054688, -3.3897624015808105)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]
