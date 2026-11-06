@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 43 recorded strategies available for this map**
+**📦 44 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -62,6 +62,7 @@ Select a strategy below and open its config file.
 | 41 | 2026-11-05 18:19 UTC | Frost | — | Commander, DJ Booth, Assassin, Crook Boss, Turret | [Open](41-2026-11-05-18-19-55.txt) |
 | 42 | 2026-11-06 08:11 UTC | Frost | — | Gatling Gun, DJ Booth, EvolvedJuggernaut, Militant, Mercenary Base | [Open](42-2026-11-06-08-11-56.txt) |
 | 43 | 2026-11-06 13:06 UTC | Frost | — | Brawler, Hacker, Mercenary Base, Gatling Gun, Medic | [Open](43-2026-11-06-13-06-32.txt) |
+| 44 | 2026-11-06 14:09 UTC | Frost | — | Assassin, Freezer, Crook Boss, Commander, Shotgunner | [Open](44-2026-11-06-14-09-14.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
