@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 217 recorded strategies available for this map**
+**📦 218 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -236,6 +236,7 @@ Select a strategy below and open its config file.
 | 215 | 2026-11-06 16:10 UTC | Unknown | — | Minigunner, Soldier, None | [Open](215-2026-11-06-16-10-58.txt) |
 | 216 | 2026-11-06 16:13 UTC | Unknown | — | Minigunner, Soldier, None | [Open](216-2026-11-06-16-13-11.txt) |
 | 217 | 2026-11-06 16:20 UTC | Unknown | — | Minigunner, Soldier, None | [Open](217-2026-11-06-16-20-47.txt) |
+| 218 | 2026-11-06 16:22 UTC | Unknown | — | Minigunner, Soldier, None | [Open](218-2026-11-06-16-22-17.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
