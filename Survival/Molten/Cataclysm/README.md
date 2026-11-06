@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 3 recorded strategies available for this map**
+**📦 4 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -22,6 +22,7 @@ Select a strategy below and open its config file.
 
 | 2 | 2026-11-05 15:45 UTC | Molten | ExplodingEnemies, Glass | Engineer, EvolvedJuggernaut, Hacker, Farm, DJ Booth | [Open](2-2026-11-05-15-45-04.txt) |
 | 3 | 2026-11-06 19:47 UTC | Molten | — | Shotgunner, Scout, None | [Open](3-2026-11-06-19-47-55.txt) |
+| 4 | 2026-11-06 19:49 UTC | Molten | — | Shotgunner, Scout, None | [Open](4-2026-11-06-19-49-01.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
