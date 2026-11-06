@@ -1,0 +1,57 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Crook Boss", "Engineer", "EvolvedJuggernaut", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 5 ] --
+TDS:Place("Crook Boss", 6.519885063171387, 1.3882728815078735, 27.798675537109375)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 12 ] --
+TDS:Place("Engineer", 6.519885063171387, 1.3751356601715088, 30.83867645263672)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Place("Engineer", 3.479869842529297, 1.417267084121704, 27.79867935180664)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Place("Engineer", 3.4798851013183594, 1.4239983558654785, 30.83867645263672)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 21 ] --
+TDS:Place("Crook Boss", 11.818193435668945, 1.2087363004684448, 29.68800163269043)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 23 ] --
+TDS:Place("Crook Boss", 11.818193435668945, 1.260313630104065, 26.64800262451172)
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
