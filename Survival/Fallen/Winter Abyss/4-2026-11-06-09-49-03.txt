@@ -1,0 +1,41 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {beta_dps = true, bypass_boss_for_fast_enemies = true, rgb_speed = 0.1}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "DJ Booth", "Hacker", "Gatling Gun", "Assassin")
+TDS:Mode("Fallen")
+TDS:GameInfo("Winter Abyss", {"Broke", "Committed", "ExplodingEnemies", "Fog", "Glass", "HealthyEnemies", "HiddenEnemies", "Limitation"})
+TDS:Ready()
+TDS:Place("Trapper", 23.456932067871094, 3.2789487838745117, -16.23876953125)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", 16.54174041748047, 3.0652706623077393, -23.142942428588867)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Trapper", 17.228628158569336, 2.9625792503356934, -11.49902057647705)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [[ END OF STRATEGY ]]
