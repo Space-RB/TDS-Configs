@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Cataclysm | 4 | [Open](Cataclysm/README.md) |
+| Forest Camp | 3 | [Open](Forest%20Camp/README.md) |
 
 | Unknown | 29 | [Open](Unknown/README.md) |
 | Simplicity | 9 | [Open](Simplicity/README.md) |
@@ -25,9 +25,9 @@ Choose one of the categories below to continue.
 | Retro Crossroads | 7 | [Open](Retro%20Crossroads/README.md) |
 | Dead Ahead | 6 | [Open](Dead%20Ahead/README.md) |
 | U-Turn | 5 | [Open](U-Turn/README.md) |
+| Cataclysm | 4 | [Open](Cataclysm/README.md) |
 | Lay By | 4 | [Open](Lay%20By/README.md) |
 | Retro Lighthouse | 3 | [Open](Retro%20Lighthouse/README.md) |
-| Forest Camp | 2 | [Open](Forest%20Camp/README.md) |
 | Grass Isle | 2 | [Open](Grass%20Isle/README.md) |
 | Hot Spot | 2 | [Open](Hot%20Spot/README.md) |
 | Rocket Arena | 2 | [Open](Rocket%20Arena/README.md) |
