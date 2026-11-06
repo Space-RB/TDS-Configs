@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Cataclysm | 16 | [Open](Cataclysm/README.md) |
+| Cataclysm | 17 | [Open](Cataclysm/README.md) |
 
 | Unknown | 58 | [Open](Unknown/README.md) |
 | Simplicity | 37 | [Open](Simplicity/README.md) |
