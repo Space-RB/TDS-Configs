@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 349 recorded strategies available for this map**
+**📦 350 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -368,6 +368,7 @@ Select a strategy below and open its config file.
 | 347 | 2026-11-06 18:27 UTC | Hardcore | — | Farm, Boomerang, Crook Boss, None | [Open](347-2026-11-06-18-27-18.txt) |
 | 348 | 2026-11-06 18:39 UTC | Hardcore | — | Star Cannon, Gatling Gun, DJ Booth, Engineer, Turret | [Open](348-2026-11-06-18-39-49.txt) |
 | 349 | 2026-11-06 18:55 UTC | Hardcore | — | Star Cannon, Gatling Gun, DJ Booth, Engineer, Turret | [Open](349-2026-11-06-18-55-01.txt) |
+| 350 | 2026-11-06 19:07 UTC | Hardcore | — | Gatling Gun, DJ Booth, Turret, Saboteur, Pulse Trooper | [Open](350-2026-11-06-19-07-03.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
