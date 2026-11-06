@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 38 recorded strategies available for this map**
+**📦 39 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -57,6 +57,7 @@ Select a strategy below and open its config file.
 | 36 | 2026-11-03 17:20 UTC | Fallen | — | Soldier, Shotgunner, EvolvedOperator, None | [Open](36-2026-11-03-17-20-44.txt) |
 | 37 | 2026-11-03 19:23 UTC | Fallen | — | Trapper, Shotgunner, Commander, DJ Booth, Minigunner | [Open](37-2026-11-03-19-23-41.txt) |
 | 38 | 2026-11-06 14:56 UTC | Fallen | — | DJ Booth, Commander, Shotgunner, Brawler, None | [Open](38-2026-11-06-14-56-35.txt) |
+| 39 | 2026-11-06 15:02 UTC | Fallen | — | DJ Booth, Commander, Shotgunner, Brawler, None | [Open](39-2026-11-06-15-02-03.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
