@@ -1,0 +1,88 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("DJ Booth", "Electroshocker", "Pyromancer", "Boomerang", "Farm")
+TDS:Mode("Hardcore")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Electroshocker", -6.973293304443359, 0.9647485017776489, -32.04275131225586)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Pyromancer", -4.702095985412598, 1.087785005569458, -41.18280029296875)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", 27.237648010253906, 0.585750937461853, 4.4299163818359375)
+TDS:Place("Farm", 26.836881637573242, 0.7461540699005127, 0.5958929061889648)
+
+-- [ Wave 5 ] --
+TDS:Place("Boomerang", -10.801948547363281, 1.0403828620910645, -35.46720504760742)
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Place("Boomerang", -11.179605484008789, 1.013745903968811, -32.478248596191406)
+TDS:Place("Boomerang", -11.179605484008789, 0.9817193746566772, -29.438247680664062)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 8 ] --
+TDS:Place("Boomerang", -7.761948585510254, 1.0070266723632812, -35.46720504760742)
+TDS:Upgrade(8)
+
+-- [ Wave 9 ] --
+TDS:Place("DJ Booth", 0.2441096305847168, 1.025507926940918, -35.6284065246582)
+TDS:Place("Electroshocker", -4.953354835510254, 0.986488938331604, -34.30384826660156)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(10)
+TDS:Place("Pyromancer", -6.08997106552124, 0.9296274185180664, -27.928735733032227)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 12 ] --
+TDS:Place("Pyromancer", -5.302055358886719, 1.499930500984192, 27.737613677978516)
+TDS:Upgrade(12)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(11)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 16 ] --
+TDS:Place("Boomerang", -4.386159896850586, 0.9526835680007935, -30.446399688720703)
+TDS:Upgrade(13)
+
+-- [ Wave 17 ] --
+TDS:Place("Pyromancer", 6.4508161544799805, 1.3887646198272705, 27.720048904418945)
+TDS:Place("Electroshocker", 3.6007680892944336, 1.41819429397583, 28.77783966064453)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(12)
+
+-- [[ END OF STRATEGY ]]
