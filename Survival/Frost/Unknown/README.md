@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 65 recorded strategies available for this map**
+**📦 66 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -84,6 +84,7 @@ Select a strategy below and open its config file.
 | 63 | 2026-11-06 07:53 UTC | Frost | — | Gatling Gun, DJ Booth, Engineer, EvolvedJuggernaut, Gladiator | [Open](63-2026-11-06-07-53-36.txt) |
 | 64 | 2026-11-06 08:09 UTC | Frost | — | Gatling Gun, DJ Booth, EvolvedJuggernaut, Militant, Mercenary Base | [Open](64-2026-11-06-08-09-48.txt) |
 | 65 | 2026-11-06 09:20 UTC | Frost | — | EvolvedJuggernaut, Golden Soldier, Shotgunner, None | [Open](65-2026-11-06-09-20-27.txt) |
+| 66 | 2026-11-06 13:26 UTC | Frost | — | Brawler, Hacker, Mercenary Base, Gatling Gun, Medic | [Open](66-2026-11-06-13-26-04.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
