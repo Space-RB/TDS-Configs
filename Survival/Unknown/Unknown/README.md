@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 211 recorded strategies available for this map**
+**📦 212 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -230,6 +230,7 @@ Select a strategy below and open its config file.
 | 209 | 2026-11-05 08:53 UTC | Unknown | — | Hacker, Trapper, DJ Booth, Mercenary Base, Gatling Gun | [Open](209-2026-11-05-08-53-19.txt) |
 | 210 | 2026-11-05 09:18 UTC | Unknown | — | Crook Boss, Pyromancer, None | [Open](210-2026-11-05-09-18-28.txt) |
 | 211 | 2026-11-05 17:04 UTC | Unknown | — | Pyromancer, Hunter, None | [Open](211-2026-11-05-17-04-09.txt) |
+| 212 | 2026-11-06 05:06 UTC | Unknown | — | Pyromancer, Scout, Shotgunner, Crook Boss, Minigunner | [Open](212-2026-11-06-05-06-59.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
