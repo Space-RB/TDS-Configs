@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 123 recorded strategies available for this map**
+**📦 124 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -142,6 +142,7 @@ Select a strategy below and open its config file.
 | 121 | 2026-11-06 05:13 UTC | Hardcore | — | Pyromancer, Shotgunner, Scout, Crook Boss, Minigunner | [Open](121-2026-11-06-05-13-22.txt) |
 | 122 | 2026-11-06 09:37 UTC | Hardcore | — | EvolvedJuggernaut, Golden Soldier, None | [Open](122-2026-11-06-09-37-57.txt) |
 | 123 | 2026-11-06 09:46 UTC | Hardcore | — | Shotgunner, Pyromancer, Star Cannon, None | [Open](123-2026-11-06-09-46-43.txt) |
+| 124 | 2026-11-06 16:01 UTC | Hardcore | — | Hunter, Pyromancer, Minigunner, Crook Boss, None | [Open](124-2026-11-06-16-01-19.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
