@@ -16,10 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Winter Stronghold | 1 | [Open](Winter%20Stronghold/README.md) |
+| Simplicity | 46 | [Open](Simplicity/README.md) |
 
 | Unknown | 66 | [Open](Unknown/README.md) |
-| Simplicity | 45 | [Open](Simplicity/README.md) |
 | Lay By | 35 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
 | Spring Fever | 5 | [Open](Spring%20Fever/README.md) |
@@ -49,6 +48,7 @@ Choose one of the categories below to continue.
 | Sky Islands | 1 | [Open](Sky%20Islands/README.md) |
 | Stained Temple | 1 | [Open](Stained%20Temple/README.md) |
 | Winter Abyss | 1 | [Open](Winter%20Abyss/README.md) |
+| Winter Stronghold | 1 | [Open](Winter%20Stronghold/README.md) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>
