@@ -1,0 +1,62 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoMoonPuzzle = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.AutoStarCannon = true
+_G.ClaimRewards = true
+_G.StarCannonMin = 100
+_G.StreamerMode = true
+_G.SupportCaravan = true
+_G.TimeScaleValue = 1
+_G.AutoGatlingSettings = {beta_dps = true, gui_hidden = true, max_multi_targets = 3, rgb_speed = 0.6}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "DJ Booth", "EvolvedJuggernaut", "Militant", "Mercenary Base")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {})
+TDS:Place("Militant", -11.74171257019043, 0.9999915361404419, -8.830150604248047)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Militant", -14.781712532043457, 0.999988853931427, -8.830150604248047)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Militant", -17.820480346679688, 0.999988317489624, -8.91671085357666)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Militant", -11.566311836242676, 0.9999847412109375, -11.86508560180664)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Place("Militant", -14.936685562133789, 0.9999933242797852, -11.86619758605957)
+TDS:Upgrade(5)
+TDS:Place("Militant", -17.975452423095703, 0.9999923706054688, -11.952757835388184)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(6)
+TDS:Place("DJ Booth", -7.701712608337402, 0.9999919533729553, -8.830150604248047)
+TDS:Upgrade(7)
+
+-- [ Wave 8 ] --
+TDS:SetOption(7, "Track", "Green")
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
