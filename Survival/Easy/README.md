@@ -16,11 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Toyboard | 1 | [Open](Toyboard/README.md) |
+| Dead Ahead | 21 | [Open](Dead%20Ahead/README.md) |
 
 | Unknown | 74 | [Open](Unknown/README.md) |
 | Gilded Path | 31 | [Open](Gilded%20Path/README.md) |
-| Dead Ahead | 20 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 5 | [Open](Lay%20By/README.md) |
 | Black Spot Exchange | 2 | [Open](Black%20Spot%20Exchange/README.md) |
 | Forest Camp | 2 | [Open](Forest%20Camp/README.md) |
@@ -37,6 +36,7 @@ Choose one of the categories below to continue.
 | Ruby Escort | 1 | [Open](Ruby%20Escort/README.md) |
 | Simplicity | 1 | [Open](Simplicity/README.md) |
 | The Heights | 1 | [Open](The%20Heights/README.md) |
+| Toyboard | 1 | [Open](Toyboard/README.md) |
 | U-Turn | 1 | [Open](U-Turn/README.md) |
 | Winter Bridges | 1 | [Open](Winter%20Bridges/README.md) |
 </div>
