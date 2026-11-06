@@ -1,0 +1,28 @@
+_G.AutoPickups = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedOperator", "None", "None", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Mason Arch", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", 17.46876335144043, 1.4149950742721558, 38.28474426269531)
+TDS:Place("EvolvedOperator", 6.8403778076171875, 1.3999673128128052, 39.72913360595703)
+TDS:Place("EvolvedOperator", 4.43505859375, 1.3999931812286377, 41.404083251953125)
+
+-- [ Wave 2 ] --
+TDS:Place("EvolvedOperator", -4.1683526039123535, 1.3999933004379272, 40.92735290527344)
+
+-- [ Wave 3 ] --
+TDS:Place("EvolvedOperator", -4.713931560516357, 1.399993896484375, 37.648170471191406)
+
+-- [[ END OF STRATEGY ]]
