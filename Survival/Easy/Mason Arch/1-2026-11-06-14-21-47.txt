@@ -1,0 +1,98 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Militant", "Shotgunner", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Mason Arch", {})
+TDS:Ready()
+TDS:Place("Militant", -0.10000000149011612, 1.0806553363800049, 58.5)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Place("Militant", 3, 1.0806553363800049, 58.5)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Militant", -3.299999952316284, 1.0806553363800049, 58.599998474121094)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Place("Shotgunner", 6.599999904632568, 1.399986743927002, 53.099998474121094)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Shotgunner", -6.900000095367432, 1.3999890089035034, 52.79999923706055)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Place("Shotgunner", -6.900000095367432, 1.3999710083007812, 55.099998474121094)
+TDS:Upgrade(6)
+TDS:Place("Shotgunner", 6.5, 1.3999686241149902, 55.400001525878906)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(6)
+TDS:Place("Shotgunner", 6.5, 1.399959683418274, 47)
+TDS:Upgrade(8)
+TDS:Place("Shotgunner", -6.400000095367432, 1.399959683418274, 47)
+TDS:Upgrade(9)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Place("Shotgunner", 6.599999904632568, 1.3999618291854858, 44.900001525878906)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(10)
+TDS:Place("Shotgunner", -6.5, 1.3999619483947754, 44.79999923706055)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(11)
+
+-- [[ END OF STRATEGY ]]
