@@ -1,0 +1,53 @@
+_G.AutoGatling = true
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {beta_dps = true, gui_hidden = true, rgb_speed = 0.1}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "Hacker", "Gatling Gun", "DJ Booth", "EvolvedKingpin")
+TDS:Mode("Fallen")
+TDS:GameInfo("Lay By", {"Broke", "Committed", "ExplodingEnemies", "Fog", "Glass", "HiddenEnemies", "Limitation", "SpeedyEnemies"})
+TDS:Ready()
+TDS:Place("Trapper", -2.54888916015625, 242.99996948242188, 235.815673828125)
+
+-- [ Wave 1 ] --
+TDS:Place("Trapper", -2.54888916015625, 242.99996948242188, 232.7756805419922)
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", -2.54888916015625, 242.99998474121094, 229.73568725585938)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Place("Trapper", -3.0729875564575195, 243, 171.0413055419922)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]
