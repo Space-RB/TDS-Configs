@@ -1,0 +1,91 @@
+_G.AutoChain = true
+_G.AutoGatling = true
+_G.AutoMedic = true
+_G.AutoNecro = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.AutoStarCannon = true
+_G.ClaimRewards = true
+_G.StarCannonMin = 100
+_G.AutoGatlingSettings = {beta_dps = true, bypass_boss_for_fast_enemies = true, gui_hidden = true, rgb_speed = 2}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "DJ Booth", "Engineer", "Star Cannon", "Commander")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Engineer", 7.281822204589844, 0.9999632835388184, -3.3531103134155273)
+
+-- [ Wave 2 ] --
+TDS:Place("Engineer", 4.241822242736816, 0.9999831914901733, -3.3531103134155273)
+
+-- [ Wave 3 ] --
+TDS:Place("Engineer", 1.2474942207336426, 0.9999831914901733, -2.9548144340515137)
+
+-- [ Wave 4 ] --
+TDS:Place("Engineer", -1.7925057411193848, 0.9999931454658508, -2.9548144340515137)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:VoteSkip(9)
+TDS:Place("Gatling Gun", -2.6913552284240723, 0.9999831914901733, 2.2136194705963135)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+TDS:Place("DJ Booth", -5.832505702972412, 0.9999881982803345, -2.9548144340515137)
+TDS:Upgrade(6)
+game:GetService("ReplicatedStorage").Network.fflags["RE:ask"]:FireServer("consumables.disabled")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Equip", "Barricade", "DFB1E2CC-4B1C-4D83-AA4B-18EBC20F7910")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Unequip", "DFB1E2CC-4B1C-4D83-AA4B-18EBC20F7910")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Equip", "Flash Bang", "70E6441A-0D9E-4932-93C7-0E2E12B2ECAD")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Consume", "Flash Bang", {direction = Vector3.new(0.1886918842792511, -0.8356991410255432, -0.5157539248466492), position = Vector3.new(15.19321060180664, 1.199988603591919, 6.92746639251709)})
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Unequip", "70E6441A-0D9E-4932-93C7-0E2E12B2ECAD")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Equip", "Unholy Storm", "7C5054BD-7AE7-4400-B243-8162518B30B7")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Unequip", "7C5054BD-7AE7-4400-B243-8162518B30B7")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Equip", "Barricade", "641AF11C-8DC0-4C41-98FE-9B989068DC13")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Consume", "Barricade", {direction = Vector3.new(0.44810670614242554, -0.8634755611419678, -0.23153908550739288), pathName = 1, pathToEnd = 2.0448155403137207, position = Vector3.new(25.24982261657715, 1.125002384185791, 15.743399620056152)})
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Unequip", "641AF11C-8DC0-4C41-98FE-9B989068DC13")
+TDS:WaitForWave(20)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+TDS:Sell(5)
+TDS:Sell(6)
+
+-- [[ END OF STRATEGY ]]
