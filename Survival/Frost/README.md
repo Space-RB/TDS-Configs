@@ -16,10 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Lay By | 30 | [Open](Lay%20By/README.md) |
+| Mason Arch | 3 | [Open](Mason%20Arch/README.md) |
 
 | Unknown | 61 | [Open](Unknown/README.md) |
 | Simplicity | 41 | [Open](Simplicity/README.md) |
+| Lay By | 30 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
 | Spring Fever | 5 | [Open](Spring%20Fever/README.md) |
 | Summer Castle | 5 | [Open](Summer%20Castle/README.md) |
@@ -29,7 +30,6 @@ Choose one of the categories below to continue.
 | Wrecked Battlefield II | 3 | [Open](Wrecked%20Battlefield%20II/README.md) |
 | Cataclysm | 2 | [Open](Cataclysm/README.md) |
 | Crystal Cave | 2 | [Open](Crystal%20Cave/README.md) |
-| Mason Arch | 2 | [Open](Mason%20Arch/README.md) |
 | Pier Pressure | 2 | [Open](Pier%20Pressure/README.md) |
 | U-Turn | 2 | [Open](U-Turn/README.md) |
 | Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
