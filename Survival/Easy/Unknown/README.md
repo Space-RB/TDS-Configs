@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 74 recorded strategies available for this map**
+**📦 75 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -93,6 +93,7 @@ Select a strategy below and open its config file.
 | 72 | 2026-11-05 17:00 UTC | Easy | — | Soldier, Shotgunner, None | [Open](72-2026-11-05-17-00-07.txt) |
 | 73 | 2026-11-05 23:50 UTC | Easy | — | EvolvedKingpin, Hacker, EvolvedOperator, Farm, Commander | [Open](73-2026-11-05-23-50-27.txt) |
 | 74 | 2026-11-06 00:00 UTC | Easy | — | EvolvedKingpin, Hacker, EvolvedOperator, Farm, Commander | [Open](74-2026-11-06-00-00-45.txt) |
+| 75 | 2026-11-06 18:12 UTC | Easy | — | Scout, Sniper, Demoman, None | [Open](75-2026-11-06-18-12-52.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
