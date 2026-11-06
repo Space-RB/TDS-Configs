@@ -16,10 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 57 | [Open](Unknown/README.md) |
+| Lay By | 31 | [Open](Lay%20By/README.md) |
 
+| Unknown | 57 | [Open](Unknown/README.md) |
 | Simplicity | 37 | [Open](Simplicity/README.md) |
-| Lay By | 30 | [Open](Lay%20By/README.md) |
 | Cataclysm | 15 | [Open](Cataclysm/README.md) |
 | U-Turn | 8 | [Open](U-Turn/README.md) |
 | Toyboard | 3 | [Open](Toyboard/README.md) |
