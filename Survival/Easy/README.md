@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 75 | [Open](Unknown/README.md) |
+| Crossroads | 1 | [Open](Crossroads/README.md) |
 
+| Unknown | 75 | [Open](Unknown/README.md) |
 | Gilded Path | 32 | [Open](Gilded%20Path/README.md) |
 | Dead Ahead | 21 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 5 | [Open](Lay%20By/README.md) |
