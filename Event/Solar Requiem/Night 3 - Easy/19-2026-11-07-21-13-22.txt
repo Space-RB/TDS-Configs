@@ -1,0 +1,175 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.SupportCaravan = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("DJ Booth", "Assassin", "Golden Crook Boss", "Turret", "Commander")
+TDS:Mode("Act3Easy")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 5.521908283233643, 103.14749145507812, 113.49749755859375)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Place("Assassin", 6.546850204467773, 103.23074340820312, 115.2613296508789)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Assassin", 5.766176223754883, 103.31249237060547, 117.14604187011719)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Assassin", 4.517000675201416, 103.2316665649414, 115.4645767211914)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Place("Assassin", 3.3026604652404785, 103.15348052978516, 113.86473083496094)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Place("Crook Boss", 3.8145859241485596, 102.08179473876953, 97.74088287353516)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Place("Crook Boss", 4.096548080444336, 102.97356414794922, 100.99437713623047)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Place("DJ Booth", -2.163454294204712, 103.02210235595703, 109.51520538330078)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 15 ] --
+TDS:Place("Crook Boss", 0.6895260810852051, 102.04403686523438, 97.64844512939453)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Crook Boss", 1.06489896774292, 102.9043960571289, 100.76920318603516)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 16 ] --
+TDS:Place("Crook Boss", 2.399674415588379, 102.90160369873047, 103.5167236328125)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Place("Commander", 1.791618824005127, 102.99291229248047, 108.69119262695312)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Commander", 4.6833815574646, 102.95421600341797, 107.75347900390625)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 19 ] --
+TDS:Place("Commander", 7.637303352355957, 102.90231323242188, 107.14379119873047)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Commander", 0.30874311923980713, 103.03057861328125, 105.9435806274414)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Place("Assassin", 0.9787416458129883, 103.15705871582031, 114.53169250488281)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Assassin", 4.830146789550781, 103.39838409423828, 118.9766845703125)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Assassin", 3.5787429809570312, 103.31317901611328, 117.36561584472656)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Assassin", 1.776906967163086, 103.2100601196289, 116.40906524658203)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+
+-- [ Wave 22 ] --
+TDS:Place("Turret", -1.750427007675171, 103.00678253173828, 103.06410217285156)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Turret", -2.7902019023895264, 102.54039764404297, 98.0283432006836)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+
+-- [ Wave 23 ] --
+TDS:Place("Turret", -0.8776706457138062, 101.4482192993164, 94.11614990234375)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(20)
+TDS:Upgrade(21)
+TDS:Upgrade(22)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(11)
+TDS:Upgrade(7)
+TDS:Upgrade(10)
+TDS:Upgrade(6)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(11)
+TDS:Upgrade(7)
+TDS:Upgrade(10)
+TDS:Upgrade(6)
+TDS:Upgrade(9)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(21)
+
+-- [[ END OF STRATEGY ]]
