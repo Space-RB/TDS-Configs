@@ -1,0 +1,24 @@
+_G.AutoGatling = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {auto_fire = false, ignore_lead_mutation = false}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "EvolvedJuggernaut", "Engineer", "Hacker", "Minigunner")
+TDS:Mode("Sandbox")
+TDS:GameInfo("Polluted Wasteland II", {})
+TDS:Ready()
+TDS:Place("Gatling Gun", -14.321128845214844, 2.830002784729004, -13.61990737915039)
+
+-- [[ END OF STRATEGY ]]
