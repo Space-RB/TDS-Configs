@@ -1,0 +1,68 @@
+_G.AutoGatling = true
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.TimeScaleEnabled = true
+_G.AutoGatlingSettings = {bypass_boss_for_fast_enemies = true, gui_hidden = true, ignore_lead_mutation = false}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Star Cannon", "Firework Technician", "Hacker", "Gatling Gun", "Farm")
+TDS:Mode("Voidcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Place("Farm", -33.54544448852539, -1.0327115058898926, -6.433078289031982)
+TDS:Place("Farm", -32.831459045410156, -0.7554249167442322, -2.9658284187316895)
+TDS:Place("Farm", -30.536865234375, -0.6379503011703491, -0.27019453048706055)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:VoteSkip(1)
+TDS:Place("Farm", -36.147796630859375, -1.5400032997131348, -4.033209323883057)
+TDS:Place("Farm", -35.90181350708008, -1.3733296394348145, -9.074881553649902)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", -32.64432144165039, -1.2509793043136597, -10.880650520324707)
+TDS:VoteSkip(2)
+TDS:Place("Farm", -32.83125305175781, -1.257335901260376, -14.415711402893066)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", -35.87893295288086, -1.4505605697631836, -12.61480712890625)
+TDS:Upgrade(7)
+TDS:VoteSkip(3)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+TDS:VoteSkip(4)
+TDS:Upgrade(6)
+TDS:Upgrade(8)
+
+-- [ Wave 5 ] --
+TDS:VoteSkip(5)
+
+-- [ Wave 6 ] --
+TDS:WaitForWave(6)
+TDS:Sell(3)
+TDS:Sell(2)
+TDS:Sell(4)
+TDS:Sell(1)
+TDS:Sell(5)
+TDS:Sell(6)
+TDS:Sell(8)
+TDS:Sell(7)
+
+-- [[ END OF STRATEGY ]]
