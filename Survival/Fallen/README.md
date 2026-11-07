@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 61 | [Open](Unknown/README.md) |
+| Portland | 1 | [Open](Portland/README.md) |
 
+| Unknown | 61 | [Open](Unknown/README.md) |
 | Simplicity | 40 | [Open](Simplicity/README.md) |
 | Lay By | 37 | [Open](Lay%20By/README.md) |
 | Cataclysm | 18 | [Open](Cataclysm/README.md) |
