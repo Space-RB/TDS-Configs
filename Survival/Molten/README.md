@@ -16,13 +16,12 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
+| Retro Crossroads | 8 | [Open](Retro%20Crossroads/README.md) |
 
 | Unknown | 30 | [Open](Unknown/README.md) |
 | Simplicity | 9 | [Open](Simplicity/README.md) |
 | Black Spot Exchange | 8 | [Open](Black%20Spot%20Exchange/README.md) |
 | Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
-| Retro Crossroads | 7 | [Open](Retro%20Crossroads/README.md) |
 | Dead Ahead | 6 | [Open](Dead%20Ahead/README.md) |
 | U-Turn | 5 | [Open](U-Turn/README.md) |
 | Cataclysm | 4 | [Open](Cataclysm/README.md) |
@@ -34,6 +33,7 @@ Choose one of the categories below to continue.
 | Rocket Arena | 2 | [Open](Rocket%20Arena/README.md) |
 | The Heavens | 2 | [Open](The%20Heavens/README.md) |
 | Toyboard | 2 | [Open](Toyboard/README.md) |
+| Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
 | Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Night Station | 1 | [Open](Night%20Station/README.md) |
