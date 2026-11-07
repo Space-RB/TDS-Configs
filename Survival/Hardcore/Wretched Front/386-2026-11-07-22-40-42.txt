@@ -1,0 +1,93 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Farm", "Boomerang", "Scout", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Place("Farm", -11.539639472961426, 1.5526576042175293, 24.65252685546875)
+TDS:Place("Farm", -11.270484924316406, 1.5226449966430664, 28.18225860595703)
+TDS:Place("Farm", -11.009613990783691, 1.4714722633361816, 31.71263313293457)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", -10.878925323486328, 1.3903933763504028, 35.250221252441406)
+TDS:Upgrade(4)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", -15.079187393188477, 1.5312399864196777, 24.707975387573242)
+TDS:Upgrade(5)
+TDS:Place("Farm", -15.079187393188477, 1.5611844062805176, 28.247974395751953)
+TDS:Upgrade(6)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", -14.549613952636719, 1.5448429584503174, 31.71263313293457)
+TDS:Upgrade(7)
+TDS:Place("Farm", -14.418925285339355, 1.4260822534561157, 35.250221252441406)
+TDS:Upgrade(8)
+
+-- [ Wave 5 ] --
+TDS:Place("Boomerang", 6.504688262939453, 1.3884294033050537, 27.804122924804688)
+TDS:Upgrade(9)
+TDS:Place("Farm", -18.619144439697266, 1.72714102268219, 24.725341796875)
+TDS:Upgrade(10)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", -18.619186401367188, 1.4395729303359985, 28.247974395751953)
+TDS:Upgrade(11)
+TDS:Upgrade(9)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Place("Boomerang", 3.4646730422973633, 1.4174236059188843, 27.804126739501953)
+TDS:Upgrade(12)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 12 ] --
+TDS:Place("Boomerang", 3.3229293823242188, 1.3753454685211182, 22.64508819580078)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
