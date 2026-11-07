@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 137 recorded strategies available for this map**
+**📦 138 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -156,6 +156,7 @@ Select a strategy below and open its config file.
 | 135 | 2026-11-07 17:34 UTC | Hardcore | — | Boomerang, Farm, EvolvedEnforcer, None | [Open](135-2026-11-07-17-34-34.txt) |
 | 136 | 2026-11-07 17:38 UTC | Hardcore | — | Shotgunner, Scout, None | [Open](136-2026-11-07-17-38-30.txt) |
 | 137 | 2026-11-07 17:39 UTC | Hardcore | — | None | [Open](137-2026-11-07-17-39-07.txt) |
+| 138 | 2026-11-07 17:39 UTC | Hardcore | — | None | [Open](138-2026-11-07-17-39-17.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
