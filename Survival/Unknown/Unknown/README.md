@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 222 recorded strategies available for this map**
+**📦 223 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -241,6 +241,7 @@ Select a strategy below and open its config file.
 | 220 | 2026-11-06 16:57 UTC | Unknown | — | None | [Open](220-2026-11-06-16-57-01.txt) |
 | 221 | 2026-11-06 17:16 UTC | Unknown | — | Farm, Commander, Soldier, DJ Booth, Minigunner | [Open](221-2026-11-06-17-16-02.txt) |
 | 222 | 2026-11-06 18:34 UTC | Unknown | — | Time Dilator, EvolvedJuggernaut, Star Cannon, Hacker, Gatling Gun | [Open](222-2026-11-06-18-34-14.txt) |
+| 223 | 2026-11-07 05:34 UTC | Unknown | — | Electroshocker, Sniper, None | [Open](223-2026-11-07-05-34-09.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
