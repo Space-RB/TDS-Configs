@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Retro Stained Temple | 1 | [Open](Retro%20Stained%20Temple/README.md) |
+| Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
 
 | Unknown | 30 | [Open](Unknown/README.md) |
 | Simplicity | 9 | [Open](Simplicity/README.md) |
@@ -37,11 +37,11 @@ Choose one of the categories below to continue.
 | Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Night Station | 1 | [Open](Night%20Station/README.md) |
+| Retro Stained Temple | 1 | [Open](Retro%20Stained%20Temple/README.md) |
 | Sky Islands | 1 | [Open](Sky%20Islands/README.md) |
 | Spring Fever | 1 | [Open](Spring%20Fever/README.md) |
 | Tropical Isles | 1 | [Open](Tropical%20Isles/README.md) |
 | Winter Abyss | 1 | [Open](Winter%20Abyss/README.md) |
-| Wrecked Battlefield | 1 | [Open](Wrecked%20Battlefield/README.md) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>
