@@ -1,0 +1,70 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Shotgunner", "Pyromancer", "Crook Boss", "DJ Booth", "Commander")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", -7.7917585372924805, 0.969706654548645, -31.633102416992188)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Place("Shotgunner", -10.638548851013184, 1.0332372188568115, -34.92206954956055)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", -10.84940242767334, 1.014663815498352, -32.89299392700195)
+TDS:Upgrade(3)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 15 ] --
+TDS:Place("Pyromancer", -7.9196319580078125, 1.0009331703186035, -34.67041015625)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 16 ] --
+TDS:Place("Crook Boss", -1.0409975051879883, 0.8658544421195984, -25.07367515563965)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 18 ] --
+TDS:Place("DJ Booth", -2.8422646522521973, 0.9772791862487793, -29.949146270751953)
+TDS:Upgrade(6)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 20 ] --
+TDS:Place("Commander", -6.601029396057129, 0.9252241849899292, -28.468170166015625)
+TDS:Upgrade(7)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
