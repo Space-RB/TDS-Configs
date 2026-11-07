@@ -1,0 +1,49 @@
+_G.AutoGatling = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoGatlingSettings = {gui_hidden = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Shotgunner", "Crook Boss", "EvolvedOperator", "Hacker", "Gatling Gun")
+TDS:Mode("Molten")
+TDS:GameInfo("Dead Ahead", {})
+TDS:Ready()
+TDS:Place("EvolvedOperator", -5.006806373596191, 1.000004768371582, -29.40024757385254)
+TDS:Place("EvolvedOperator", -0.15054172277450562, 1.0200039148330688, -29.288360595703125)
+
+-- [ Wave 2 ] --
+TDS:Place("EvolvedOperator", -5.006806373596191, 1.0000052452087402, -31.94024658203125)
+
+-- [ Wave 3 ] --
+TDS:Place("EvolvedOperator", 0.8214740753173828, 1.0000051259994507, -31.635013580322266)
+TDS:Place("EvolvedOperator", -0.15054172277450562, 1.0200031995773315, -26.74835968017578)
+TDS:Place("EvolvedOperator", -5.006806373596191, 1.0000044107437134, -26.860248565673828)
+
+-- [ Wave 4 ] --
+TDS:Place("EvolvedOperator", 2.3677282333374023, 1.000004768371582, -29.619895935058594)
+TDS:Place("EvolvedOperator", 2.3677282333374023, 1.0000044107437134, -27.07989501953125)
+
+-- [ Wave 5 ] --
+TDS:Place("EvolvedOperator", -7.2065110206604, 1.000001072883606, -30.670246124267578)
+TDS:Place("EvolvedOperator", -7.206510066986084, 0.9999955296516418, -28.130247116088867)
+
+-- [ Wave 6 ] --
+TDS:Place("Hacker", 0.2005096673965454, 1.0200053453445435, -34.34224319458008)
+TDS:Upgrade(11)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [[ END OF STRATEGY ]]
