@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 70 recorded strategies available for this map**
+**📦 71 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -89,6 +89,7 @@ Select a strategy below and open its config file.
 | 68 | 2026-11-07 08:23 UTC | Frost | — | Golden Scout, EvolvedJuggernaut, Gatling Gun, DJ Booth, EvolvedKingpin | [Open](68-2026-11-07-08-23-57.txt) |
 | 69 | 2026-11-07 13:38 UTC | Frost | — | Soldier, Shotgunner, None | [Open](69-2026-11-07-13-38-45.txt) |
 | 70 | 2026-11-07 13:56 UTC | Frost | — | Soldier, Shotgunner, None | [Open](70-2026-11-07-13-56-23.txt) |
+| 71 | 2026-11-07 21:39 UTC | Frost | — | Brawler, Sniper, None | [Open](71-2026-11-07-21-39-05.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
