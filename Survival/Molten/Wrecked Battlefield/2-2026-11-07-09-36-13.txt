@@ -1,0 +1,31 @@
+_G.AutoMoonPuzzle = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Cowboy", "Minigunner", "Farm", "DJ Booth", "Military Base")
+TDS:Mode("Molten")
+TDS:GameInfo("Wrecked Battlefield", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Cowboy", 1.0155340433120728, 0.9999582767486572, 6.0577239990234375)
+TDS:Place("Farm", -22.929397583007812, 3.5999951362609863, 29.895946502685547)
+
+-- [ Wave 3 ] --
+TDS:Place("Cowboy", -2.354954719543457, 0.9999577403068542, 6.805079460144043)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", -26.96221160888672, 3.599900007247925, 31.2484188079834)
+
+-- [[ END OF STRATEGY ]]
