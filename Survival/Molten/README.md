@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 30 | [Open](Unknown/README.md) |
+| Retro Stained Temple | 1 | [Open](Retro%20Stained%20Temple/README.md) |
 
+| Unknown | 30 | [Open](Unknown/README.md) |
 | Simplicity | 9 | [Open](Simplicity/README.md) |
 | Black Spot Exchange | 8 | [Open](Black%20Spot%20Exchange/README.md) |
 | Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
