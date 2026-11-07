@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
+| Simplicity | 1 | [Open](Simplicity/README.md) |
 
 | Unknown | 13 | [Open](Unknown/README.md) |
 | Dead Ahead | 10 | [Open](Dead%20Ahead/README.md) |
@@ -29,6 +29,7 @@ Choose one of the categories below to continue.
 | Four Seasons | 1 | [Open](Four%20Seasons/README.md) |
 | Gilded Path | 1 | [Open](Gilded%20Path/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
+| Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Moon Base | 1 | [Open](Moon%20Base/README.md) |
 | Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
 | U-Turn | 1 | [Open](U-Turn/README.md) |
