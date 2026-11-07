@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 71 | [Open](Unknown/README.md) |
+| Winter Abyss | 2 | [Open](Winter%20Abyss/README.md) |
 
+| Unknown | 71 | [Open](Unknown/README.md) |
 | Simplicity | 49 | [Open](Simplicity/README.md) |
 | Lay By | 41 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 10 | [Open](Retro%20Crossroads/README.md) |
@@ -47,7 +48,6 @@ Choose one of the categories below to continue.
 | Retro Rocket Arena | 1 | [Open](Retro%20Rocket%20Arena/README.md) |
 | Sky Islands | 1 | [Open](Sky%20Islands/README.md) |
 | Stained Temple | 1 | [Open](Stained%20Temple/README.md) |
-| Winter Abyss | 1 | [Open](Winter%20Abyss/README.md) |
 | Winter Stronghold | 1 | [Open](Winter%20Stronghold/README.md) |
 </div>
 
