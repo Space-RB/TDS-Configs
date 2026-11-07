@@ -1,0 +1,84 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Assassin", "Crook Boss", "DJ Booth", "EvolvedKingpin", "Hacker")
+TDS:Mode("Intermediate")
+TDS:GameInfo("Black Spot Exchange", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", -6.09440279006958, 2.001721143722534, -2.932149887084961)
+TDS:Place("Assassin", 5.526069164276123, 2.0007805824279785, -2.24130916595459)
+
+-- [ Wave 2 ] --
+TDS:Place("Assassin", -4.054776191711426, 2.0016679763793945, -2.893127679824829)
+TDS:Place("Assassin", 3.6115756034851074, 2.001668691635132, -2.900502920150757)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Hacker", 0.04884624481201172, 1.9991356134414673, 0.5696091651916504)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+TDS:Place("DJ Booth", -3.9904258251190186, 1.9991356134414673, 0.646287202835083)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Place("Crook Boss", 0.8200595378875732, 1.999135136604309, 3.510158061981201)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Place("EvolvedKingpin", -2.132566452026367, 1.9991350173950195, 4.23375940322876)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 16 ] --
+TDS:Place("Crook Boss", -3.2352442741394043, 1.9991345405578613, 7.066726207733154)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]
