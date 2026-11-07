@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 373 recorded strategies available for this map**
+**📦 374 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -392,6 +392,7 @@ Select a strategy below and open its config file.
 | 371 | 2026-11-07 10:59 UTC | Hardcore | — | Pyromancer, Shotgunner, None | [Open](371-2026-11-07-10-59-36.txt) |
 | 372 | 2026-11-07 11:26 UTC | Hardcore | — | Pyromancer, Shotgunner, None | [Open](372-2026-11-07-11-26-19.txt) |
 | 373 | 2026-11-07 11:44 UTC | Hardcore | — | Electroshocker, Sniper, None | [Open](373-2026-11-07-11-44-22.txt) |
+| 374 | 2026-11-07 11:47 UTC | Hardcore | — | Pyromancer, Shotgunner, None | [Open](374-2026-11-07-11-47-28.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
