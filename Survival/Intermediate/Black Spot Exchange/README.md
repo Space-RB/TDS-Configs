@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 1 recorded strategy available for this map**
+**📦 2 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -20,6 +20,7 @@ Select a strategy below and open its config file.
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 2026-10-25 02:50 UTC | Intermediate | — | Sniper, Shotgunner, Militant, Demoman, Farm | [Open](1-2026-10-25-02-50-00.txt) |
 
+| 2 | 2026-11-07 22:25 UTC | Intermediate | — | Assassin, Crook Boss, DJ Booth, EvolvedKingpin, Hacker | [Open](2-2026-11-07-22-25-24.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
