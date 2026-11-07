@@ -1,0 +1,179 @@
+_G.AutoGatling = true
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.TimeScaleEnabled = true
+_G.AutoGatlingSettings = {bypass_boss_for_fast_enemies = true, ignore_lead_mutation = false}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Star Cannon", "Firework Technician", "Hacker", "Gatling Gun", "Farm")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Place("Farm", -0.9085507392883301, 0.8594264984130859, -25.0257568359375)
+TDS:Place("Farm", 1.2551116943359375, 0.6748257875442505, -22.146268844604492)
+TDS:Place("Farm", 3.2712152004241943, 0.622890830039978, -19.275413513183594)
+TDS:Place("Farm", 5.435275554656982, 0.5983864068984985, -16.509920120239258)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", -2.2632222175598145, 0.6363914012908936, -21.755212783813477)
+TDS:Place("Farm", -0.24292683601379395, 0.554909348487854, -18.848323822021484)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", 1.9324371814727783, 0.45636531710624695, -15.998330116271973)
+TDS:Place("Farm", 8.901660919189453, 0.5466146469116211, -17.3530216217041)
+TDS:Place("Farm", 8.077890396118164, 0.4905815124511719, -13.910202980041504)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", -3.770514488220215, 0.3746127486228943, -18.552141189575195)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(10)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+TDS:Upgrade(10)
+TDS:Upgrade(7)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 9 ] --
+TDS:Place("Gatling Gun", 1.60400390625, 1.3886821269989014, 45.11662673950195)
+TDS:Place("Firework Technician", 4.961834907531738, 1.4112815856933594, 46.221458435058594)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(4)
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+TDS:Upgrade(10)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(7)
+TDS:Upgrade(3)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(10)
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(12)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+TDS:Upgrade(10)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+TDS:Upgrade(4)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(12)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 25 ] --
+TDS:Place("Hacker", -4.8749613761901855, 0.9667684435844421, -46.076541900634766)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(13)
+TDS:Place("Hacker", 7.692467212677002, 0.682095468044281, -22.242460250854492)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(14)
+TDS:Ability(14, "Hologram Tower")
+TDS:Place("Star Cannon", -9.463741302490234, 4.545682907104492, 21.592893600463867)
+TDS:Upgrade(15)
+TDS:SetTarget(15, "Last")
+TDS:SetTarget(15, "Strongest")
+
+-- [ Wave 35 ] --
+TDS:Upgrade(15)
+
+-- [ Wave 36 ] --
+TDS:SetTarget(15, "Last")
+TDS:SetTarget(15, "First")
+
+-- [[ END OF STRATEGY ]]
