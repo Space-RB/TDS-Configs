@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 17 recorded strategies available for this map**
+**📦 18 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -36,6 +36,7 @@ Select a strategy below and open its config file.
 | 15 | 2026-11-05 19:46 UTC | Act3Easy | — | Freezer, Golden Demoman, Golden Crook Boss, Turret, Commander | [Open](15-2026-11-05-19-46-02.txt) |
 | 16 | 2026-11-06 08:46 UTC | Act3Easy | — | None | [Open](16-2026-11-06-08-46-53.txt) |
 | 17 | 2026-11-06 17:47 UTC | Act3Easy | — | None | [Open](17-2026-11-06-17-47-03.txt) |
+| 18 | 2026-11-07 06:02 UTC | Act3Easy | — | Assassin, Golden Crook Boss, EvolvedEnforcer, Commander, DJ Booth | [Open](18-2026-11-07-06-02-54.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
