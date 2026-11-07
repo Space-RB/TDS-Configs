@@ -1,0 +1,76 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Soldier", "Shotgunner", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Gilded Path", {"ExplodingEnemies"})
+TDS:Ready()
+TDS:Place("Soldier", -2.2398247718811035, 0.9727834463119507, 21.100330352783203)
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Place("Soldier", -5.051102638244629, 1.0134707689285278, 19.943471908569336)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Place("Soldier", -1.827209234237671, 1.011265754699707, 18.088462829589844)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Shotgunner", 7.484172821044922, 0.9599454402923584, 27.951568603515625)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+TDS:Place("Shotgunner", -12.379877090454102, 1.0128095149993896, 26.014984130859375)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Place("Shotgunner", 6.569533348083496, 0.9604480266571045, 26.155576705932617)
+TDS:Upgrade(6)
+TDS:Place("Shotgunner", -13.06446647644043, 1.011155128479004, 24.08492660522461)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Place("Shotgunner", 4.573167324066162, 0.9605610370635986, 26.575246810913086)
+TDS:Upgrade(8)
+TDS:Place("Shotgunner", -10.511430740356445, 0.9913941621780396, 25.19614028930664)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(9)
+TDS:Place("Shotgunner", 5.897121906280518, 0.9518723487854004, 29.23331069946289)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+TDS:Place("Shotgunner", -11.179752349853516, 0.994743287563324, 23.30425262451172)
+TDS:Upgrade(11)
+
+-- [[ END OF STRATEGY ]]
