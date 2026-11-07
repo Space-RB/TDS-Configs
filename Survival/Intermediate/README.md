@@ -16,15 +16,15 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 6 | [Open](Unknown/README.md) |
+| Black Spot Exchange | 2 | [Open](Black%20Spot%20Exchange/README.md) |
 
+| Unknown | 6 | [Open](Unknown/README.md) |
 | Dead Ahead | 4 | [Open](Dead%20Ahead/README.md) |
 | Retro Lighthouse | 3 | [Open](Retro%20Lighthouse/README.md) |
 | Chess Board | 2 | [Open](Chess%20Board/README.md) |
 | Lay By | 2 | [Open](Lay%20By/README.md) |
 | Ruby Escort | 2 | [Open](Ruby%20Escort/README.md) |
 | The Heights | 2 | [Open](The%20Heights/README.md) |
-| Black Spot Exchange | 1 | [Open](Black%20Spot%20Exchange/README.md) |
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
 | Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
