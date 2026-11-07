@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 49 | [Open](Simplicity/README.md) |
+| U-Turn | 3 | [Open](U-Turn/README.md) |
 
 | Unknown | 70 | [Open](Unknown/README.md) |
+| Simplicity | 49 | [Open](Simplicity/README.md) |
 | Lay By | 41 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 10 | [Open](Retro%20Crossroads/README.md) |
 | Spring Fever | 5 | [Open](Spring%20Fever/README.md) |
@@ -31,7 +32,6 @@ Choose one of the categories below to continue.
 | Cataclysm | 2 | [Open](Cataclysm/README.md) |
 | Crystal Cave | 2 | [Open](Crystal%20Cave/README.md) |
 | Pier Pressure | 2 | [Open](Pier%20Pressure/README.md) |
-| U-Turn | 2 | [Open](U-Turn/README.md) |
 | Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
 | Abandoned City | 1 | [Open](Abandoned%20City/README.md) |
 | Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
