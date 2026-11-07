@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 10 recorded strategies available for this map**
+**📦 11 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -29,6 +29,7 @@ Select a strategy below and open its config file.
 | 8 | 2026-11-07 16:42 UTC | Molten | — | Shotgunner, Crook Boss, EvolvedOperator, Hacker, Gatling Gun | [Open](8-2026-11-07-16-42-20.txt) |
 | 9 | 2026-11-07 16:49 UTC | Molten | — | Shotgunner, Crook Boss, EvolvedOperator, Hacker, Gatling Gun | [Open](9-2026-11-07-16-49-00.txt) |
 | 10 | 2026-11-07 16:55 UTC | Molten | — | Shotgunner, Crook Boss, EvolvedOperator, Hacker, Gatling Gun | [Open](10-2026-11-07-16-55-07.txt) |
+| 11 | 2026-11-07 16:57 UTC | Molten | — | Shotgunner, Crook Boss, EvolvedOperator, Hacker, Gatling Gun | [Open](11-2026-11-07-16-57-32.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
