@@ -1,0 +1,46 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Assassin", "Crook Boss", "DJ Booth", "EvolvedKingpin", "Hacker")
+TDS:Mode("Act1")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 5.045312881469727, 2.0009994506835938, 192.38568115234375)
+TDS:Place("Assassin", 6.654438018798828, 2.000999689102173, 190.5977325439453)
+TDS:Place("Assassin", 8.68758773803711, 2.000999689102173, 190.43067932128906)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Place("Hacker", 9.561148643493652, 2.0114328861236572, 195.0248565673828)
+TDS:Upgrade(4)
+TDS:Place("DJ Booth", 5.045312881469727, 2.0009987354278564, 195.92567443847656)
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Place("Assassin", -23.76909065246582, 2.000999689102173, 191.3438262939453)
+TDS:Upgrade(6)
+
+-- [ Wave 7 ] --
+TDS:Place("Crook Boss", -6.946157455444336, 2.0072178840637207, 200.33067321777344)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
