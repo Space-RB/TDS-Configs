@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 72 | [Open](Unknown/README.md) |
+| U-Turn | 4 | [Open](U-Turn/README.md) |
 
+| Unknown | 72 | [Open](Unknown/README.md) |
 | Simplicity | 50 | [Open](Simplicity/README.md) |
 | Lay By | 41 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 10 | [Open](Retro%20Crossroads/README.md) |
@@ -28,7 +29,6 @@ Choose one of the categories below to continue.
 | Honey Valley | 3 | [Open](Honey%20Valley/README.md) |
 | Mason Arch | 3 | [Open](Mason%20Arch/README.md) |
 | Medieval Times | 3 | [Open](Medieval%20Times/README.md) |
-| U-Turn | 3 | [Open](U-Turn/README.md) |
 | Wrecked Battlefield II | 3 | [Open](Wrecked%20Battlefield%20II/README.md) |
 | Cataclysm | 2 | [Open](Cataclysm/README.md) |
 | Crystal Cave | 2 | [Open](Crystal%20Cave/README.md) |
