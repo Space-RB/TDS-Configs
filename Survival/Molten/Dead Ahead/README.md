@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 6 recorded strategies available for this map**
+**📦 7 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -25,6 +25,7 @@ Select a strategy below and open its config file.
 | 4 | 2026-11-05 02:22 UTC | Molten | Committed, ExplodingEnemies, FlyingEnemies, Glass, HiddenEnemies, Limitation | EvolvedOperator, Gatling Gun, DJ Booth, Commander, EvolvedJuggernaut | [Open](4-2026-11-05-02-22-47.txt) |
 | 5 | 2026-11-05 06:33 UTC | Molten | Committed, ExplodingEnemies, FlyingEnemies, Glass, HiddenEnemies, Limitation | EvolvedOperator, Commander, DJ Booth, EvolvedJuggernaut, Gatling Gun | [Open](5-2026-11-05-06-33-01.txt) |
 | 6 | 2026-11-05 09:45 UTC | Molten | Committed, ExplodingEnemies, FlyingEnemies, Glass, HiddenEnemies, Limitation | EvolvedOperator, Commander, DJ Booth, EvolvedJuggernaut, Gatling Gun | [Open](6-2026-11-05-09-45-58.txt) |
+| 7 | 2026-11-07 09:48 UTC | Molten | ExplodingEnemies, Glass | EvolvedOperator, EvolvedJuggernaut, Hacker, DJ Booth, Farm | [Open](7-2026-11-07-09-48-32.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
