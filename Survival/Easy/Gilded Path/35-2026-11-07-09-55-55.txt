@@ -1,0 +1,99 @@
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Soldier", "Shotgunner", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Gilded Path", {})
+TDS:Place("Soldier", -1.386216163635254, 0.970110297203064, 20.291893005371094)
+TDS:Upgrade(1)
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Soldier", 0.9277229309082031, 0.9632929563522339, 18.320274353027344)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Soldier", -1.9367191791534424, 1.0111371278762817, 17.302152633666992)
+TDS:Upgrade(3)
+TDS:Place("Soldier", -4.250659465789795, 1.0128405094146729, 19.273773193359375)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:VoteSkip(6)
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+TDS:Place("Shotgunner", -12.80893325805664, 1.016150712966919, 25.84480857849121)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+TDS:Place("Shotgunner", 7.1827569007873535, 0.9580618143081665, 28.359167098999023)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", 7.008006572723389, 0.9613221883773804, 26.322200775146484)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", -13.145414352416992, 1.0108574628829956, 23.859407424926758)
+TDS:Place("Shotgunner", 6.22733211517334, 0.9610369205474854, 24.43748664855957)
+
+-- [ Wave 12 ] --
+TDS:Place("Shotgunner", -13.145414352416992, 1.0029622316360474, 21.819408416748047)
+TDS:Upgrade(10)
+TDS:VoteSkip(12)
+
+-- [ Wave 13 ] --
+TDS:Place("Shotgunner", 12.635644912719727, 0.9724911451339722, 28.523571014404297)
+TDS:Upgrade(11)
+TDS:Place("Shotgunner", -11.706281661987305, 1.042948603630066, 31.002714157104492)
+TDS:Upgrade(12)
+TDS:Place("Shotgunner", 0.08926153182983398, 0.9701707363128662, 29.182401657104492)
+TDS:Upgrade(13)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+TDS:VoteSkip(14)
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(11)
+TDS:VoteSkip(15)
+TDS:WaitForWave(15)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+TDS:Sell(5)
+TDS:Sell(6)
+TDS:Sell(7)
+TDS:Sell(8)
+TDS:Sell(9)
+TDS:Sell(10)
+TDS:Sell(11)
+TDS:Sell(12)
+TDS:Sell(13)
+
+-- [[ END OF STRATEGY ]]
