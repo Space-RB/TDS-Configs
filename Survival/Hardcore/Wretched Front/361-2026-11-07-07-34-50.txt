@@ -1,0 +1,53 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMedic = true
+_G.AutoMoonPuzzle = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.SupportCaravan = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Engineer", "Hacker", "Pyromancer", "EvolvedJuggernaut")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Place("Pyromancer", -2.6254730224609375, 0.9841747283935547, -32.363365173339844)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:SetTarget(1, "Last")
+TDS:SetTarget(1, "Strongest")
+TDS:SetTarget(1, "Weakest")
+TDS:SetTarget(1, "Closest")
+TDS:SetTarget(1, "Farthest")
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:VoteSkip(4)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 17 ] --
+TDS:WaitForWave(17)
+TDS:Sell(1)
+
+-- [[ END OF STRATEGY ]]
