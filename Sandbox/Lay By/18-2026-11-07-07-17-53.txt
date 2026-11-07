@@ -1,0 +1,26 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Time Dilator", "Trapper", "DJ Booth", "Mercenary Base", "Gatling Gun")
+TDS:Mode("Sandbox")
+TDS:GameInfo("Lay By", {})
+TDS:Ready()
+TDS:Place("Time Dilator", -6.585855484008789, 242.99998474121094, 228.52435302734375)
+
+-- [[ END OF STRATEGY ]]
