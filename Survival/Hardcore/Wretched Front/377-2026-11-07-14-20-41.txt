@@ -1,0 +1,28 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Crook Boss", "Minigunner", "Pyromancer", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 11 ] --
+TDS:Place("Pyromancer", 14.383895874023438, 0.9287484884262085, 20.940418243408203, true)
+TDS:Place("Crook Boss", -10.248249053955078, 25.563203811645508, -52.59157943725586, true)
+TDS:Place("Pyromancer", -6.357818603515625, 7.326164245605469, -56.02806091308594, true)
+TDS:Upgrade(3, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(4, true)
+
+-- [ Wave 12 ] --
+TDS:Place("Crook Boss", 6.96156120300293, 30.062915802001953, -46.07237243652344, true)
+
+-- [[ END OF STRATEGY ]]
