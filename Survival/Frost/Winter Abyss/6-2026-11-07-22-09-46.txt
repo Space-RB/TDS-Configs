@@ -1,0 +1,93 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Sniper", "Assassin", "Electroshocker", "EvolvedKingpin", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Winter Abyss", {})
+TDS:Ready()
+TDS:Place("Assassin", -12.412884712219238, 2.13700532913208, 20.678203582763672, true)
+TDS:Place("Assassin", -11.549711227416992, 2.1679859161376953, 14.435914993286133, true)
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", -14.945073127746582, 2.2186269760131836, 20.513057708740234, true)
+
+-- [ Wave 2 ] --
+TDS:Place("Assassin", -13.986655235290527, 2.2807164192199707, 14.197759628295898, true)
+
+-- [ Wave 3 ] --
+TDS:Place("Assassin", -17.784320831298828, 2.349996566772461, 20.568500518798828, true)
+TDS:Upgrade(1, true)
+TDS:Upgrade(2, true)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1, true)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3, true)
+
+-- [ Wave 6 ] --
+TDS:Place("Electroshocker", -7.784941673278809, 2.066124200820923, 14.532843589782715, true)
+TDS:Place("Electroshocker", -17.034698486328125, 2.435635805130005, 13.758932113647461, true)
+
+-- [ Wave 7 ] --
+TDS:Place("Sniper", -5.270759582519531, 4.752437114715576, 12.253811836242676, true)
+TDS:Place("Sniper", -2.0458812713623047, 5.114774703979492, 11.979029655456543, true)
+TDS:Place("Sniper", -5.115213394165039, 4.925857067108154, 10.047335624694824, true)
+TDS:Place("Sniper", -2.3176393508911133, 4.985470294952393, 9.655484199523926, true)
+
+-- [ Wave 8 ] --
+TDS:Place("Sniper", 0.2046527862548828, 6.03269624710083, 13.825419425964355, true)
+TDS:Upgrade(2, true)
+TDS:Upgrade(3, true)
+TDS:Upgrade(4, true)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(12, true)
+TDS:Upgrade(9, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(10, true)
+TDS:Upgrade(12, true)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(9, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(10, true)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(8, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(6, true)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(6, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(7, true)
+TDS:Place("Sniper", 0.3414802551269531, 6.079516887664795, 13.478095054626465, true)
+TDS:Place("Sniper", -1.423751711845398, 6.682288646697998, -19.185901641845703, true)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(13, true)
+TDS:Upgrade(14, true)
+TDS:Upgrade(13, true)
+TDS:Upgrade(5, true)
+TDS:Upgrade(14, true)
+TDS:Place("EvolvedKingpin", -9.274868965148926, 1.9795310497283936, 10.705395698547363, true)
+TDS:Upgrade(15, true)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(1, true)
+
+-- [ Wave 15 ] --
+TDS:Place("Sniper", -3.601469039916992, 6.17821741104126, -20.29401397705078, true)
+TDS:Place("Sniper", -1.1588006019592285, 6.7372918128967285, -18.906251907348633, true)
+TDS:Place("Sniper", 0.6080178618431091, 6.815555572509766, -17.962202072143555, true)
+
+-- [[ END OF STRATEGY ]]
