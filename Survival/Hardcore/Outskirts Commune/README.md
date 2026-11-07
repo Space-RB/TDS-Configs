@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 24 recorded strategies available for this map**
+**📦 25 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -43,6 +43,7 @@ Select a strategy below and open its config file.
 | 22 | 2026-11-04 07:31 UTC | Hardcore | — | Crook Boss, Militant, Farm, Pyromancer, Ace Pilot | [Open](22-2026-11-04-07-31-00.txt) |
 | 23 | 2026-11-05 04:12 UTC | Hardcore | — | Electroshocker, Sniper, None | [Open](23-2026-11-05-04-12-55.txt) |
 | 24 | 2026-11-06 10:12 UTC | Hardcore | — | EvolvedJuggernaut, Tesla, None | [Open](24-2026-11-06-10-12-17.txt) |
+| 25 | 2026-11-07 05:03 UTC | Hardcore | — | Electroshocker, Sniper, None | [Open](25-2026-11-07-05-03-42.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
