@@ -16,9 +16,8 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Portland | 1 | [Open](Portland/README.md) |
+| Unknown | 62 | [Open](Unknown/README.md) |
 
-| Unknown | 61 | [Open](Unknown/README.md) |
 | Simplicity | 40 | [Open](Simplicity/README.md) |
 | Lay By | 37 | [Open](Lay%20By/README.md) |
 | Cataclysm | 18 | [Open](Cataclysm/README.md) |
@@ -38,6 +37,7 @@ Choose one of the categories below to continue.
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Honey Valley | 1 | [Open](Honey%20Valley/README.md) |
 | Night Station | 1 | [Open](Night%20Station/README.md) |
+| Portland | 1 | [Open](Portland/README.md) |
 | Sky Islands | 1 | [Open](Sky%20Islands/README.md) |
 | The Heights | 1 | [Open](The%20Heights/README.md) |
 </div>
