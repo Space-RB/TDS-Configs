@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 37 recorded strategies available for this map**
+**📦 38 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -56,6 +56,7 @@ Select a strategy below and open its config file.
 | 35 | 2026-11-06 17:57 UTC | Frost | Committed, ExplodingEnemies, Fog, Glass, HiddenEnemies, Limitation, Quarantine | Trapper, DJ Booth, Time Dilator, Mercenary Base, Gatling Gun | [Open](35-2026-11-06-17-57-36.txt) |
 | 36 | 2026-11-07 01:52 UTC | Frost | Committed, ExplodingEnemies, Fog, Glass, HiddenEnemies, Limitation, Quarantine | Time Dilator, Trapper, DJ Booth, Mercenary Base, Gatling Gun | [Open](36-2026-11-07-01-52-13.txt) |
 | 37 | 2026-11-07 02:00 UTC | Frost | — | Time Dilator, Trapper, DJ Booth, Mercenary Base, Gatling Gun | [Open](37-2026-11-07-02-00-08.txt) |
+| 38 | 2026-11-07 06:08 UTC | Frost | — | Time Dilator, Trapper, DJ Booth, Mercenary Base, Gatling Gun | [Open](38-2026-11-07-06-08-18.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
