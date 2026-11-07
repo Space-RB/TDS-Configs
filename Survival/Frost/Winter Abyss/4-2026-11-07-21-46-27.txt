@@ -1,0 +1,67 @@
+_G.AutoPickups = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Brawler", "Sniper", "None", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Winter Abyss", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Sniper", -4.918237686157227, 4.730870246887207, 12.818062782287598, true)
+TDS:Place("Sniper", -4.226001262664795, 4.795264720916748, 12.930180549621582, true)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1, true)
+TDS:Upgrade(2, true)
+TDS:Place("Sniper", 4.97398567199707, 5.952511787414551, -16.875988006591797, true)
+TDS:Place("Sniper", 1.6992672681808472, 6.699740886688232, -17.20199966430664, true)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1, true)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3, true)
+TDS:Place("Brawler", -11.22747802734375, 2.08693790435791, 2.2782888412475586, true)
+TDS:Place("Brawler", -12.950812339782715, 2.109741687774658, 3.220343589782715, true)
+TDS:Place("Brawler", -14.541227340698242, 2.1351048946380615, 3.493635654449463, true)
+
+-- [ Wave 6 ] --
+TDS:Place("Brawler", -12.529747009277344, 2.1124181747436523, 9.280741691589355, true)
+TDS:Place("Brawler", -10.88642692565918, 2.048623561859131, 8.449057579040527, true)
+TDS:Place("Brawler", -9.592737197875977, 2.4068796634674072, 7.326160430908203, true)
+
+-- [ Wave 7 ] --
+TDS:Place("Brawler", -9.201583862304688, 2.406886100769043, 7.022549629211426, true)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2, true)
+TDS:Upgrade(3, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(5, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(7, true)
+TDS:Upgrade(8, true)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(9, true)
+TDS:Upgrade(10, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(5, true)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1, true)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6, true)
+TDS:Upgrade(7, true)
+
+-- [[ END OF STRATEGY ]]
