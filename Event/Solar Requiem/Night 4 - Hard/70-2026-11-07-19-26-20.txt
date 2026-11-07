@@ -1,0 +1,81 @@
+_G.AutoGatling = true
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {auto_fire = false, ignore_lead_mutation = false}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Engineer", "Hacker", "Golden Demoman", "EvolvedKingpin", "Gatling Gun")
+TDS:Mode("Act4")
+TDS:Place("Engineer", -3.74647855758667, 0.9999890327453613, -25.599098205566406)
+TDS:Place("Demoman", -3.6864829063415527, 1.0377764701843262, -32.8813362121582)
+TDS:Place("Engineer", -3.692990779876709, 0.9999850988388062, -22.583568572998047)
+TDS:Place("Engineer", -6.864359378814697, 1.0000019073486328, -25.976398468017578)
+TDS:Place("Engineer", -3.91316556930542, 1.0000014305114746, -19.53876495361328)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Place("Demoman", 3.4694008827209473, 0.9999802708625793, -21.681026458740234)
+TDS:Upgrade(6)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+TDS:Place("Demoman", -6.729438781738281, 1.0377757549285889, -33.0173225402832)
+TDS:Upgrade(7)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:Place("Engineer", -6.83508825302124, 1.0000017881393433, -22.956558227539062)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+
+-- [ Wave 8 ] --
+TDS:VoteSkip(8)
+TDS:WaitForWave(8)
+TDS:Sell(5)
+TDS:Place("Gatling Gun", -1.7183398008346558, 7.976963996887207, -8.559802055358887)
+
+-- [ Wave 9 ] --
+TDS:WaitForWave(9)
+TDS:Sell(9)
+TDS:VoteSkip(9)
+
+-- [ Wave 10 ] --
+TDS:VoteSkip(10)
+TDS:WaitForWave(10)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+TDS:Sell(6)
+TDS:Sell(7)
+TDS:Sell(8)
+
+-- [[ END OF STRATEGY ]]
