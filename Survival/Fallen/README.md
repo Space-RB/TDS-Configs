@@ -16,12 +16,12 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| U-Turn | 9 | [Open](U-Turn/README.md) |
+| Unknown | 60 | [Open](Unknown/README.md) |
 
-| Unknown | 59 | [Open](Unknown/README.md) |
 | Simplicity | 40 | [Open](Simplicity/README.md) |
 | Lay By | 36 | [Open](Lay%20By/README.md) |
 | Cataclysm | 18 | [Open](Cataclysm/README.md) |
+| U-Turn | 9 | [Open](U-Turn/README.md) |
 | Winter Abyss | 4 | [Open](Winter%20Abyss/README.md) |
 | Toyboard | 3 | [Open](Toyboard/README.md) |
 | Abyssal Trench | 2 | [Open](Abyssal%20Trench/README.md) |
