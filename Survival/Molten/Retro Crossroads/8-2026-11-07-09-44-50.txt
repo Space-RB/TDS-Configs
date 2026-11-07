@@ -1,0 +1,66 @@
+_G.AutoMoonPuzzle = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Cowboy", "Minigunner", "Farm", "DJ Booth", "Military Base")
+TDS:Mode("Molten")
+TDS:GameInfo("Retro Crossroads", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Cowboy", -125.65200805664062, -44.53631591796875, 29.046960830688477)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Cowboy", -125.26603698730469, -44.486289978027344, 31.557464599609375)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+TDS:Place("Farm", -118.30496215820312, -44.53631591796875, 63.8697509765625)
+TDS:Place("Farm", -123.54631042480469, -44.53631591796875, 63.48750305175781)
+TDS:Place("Farm", -118.47003936767578, -44.53631591796875, 69.31671905517578)
+TDS:Place("Farm", -124.35934448242188, -44.53631591796875, 69.49182891845703)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", -113.64488220214844, -44.53631591796875, 64.32948303222656)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Place("Cowboy", -123.12722778320312, -44.53631591796875, 29.187910079956055)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(8)
+TDS:Place("Farm", -113.44074249267578, -44.53631591796875, 69.33297729492188)
+TDS:Place("Farm", -108.31221008300781, -44.53631591796875, 63.35118103027344)
+TDS:Upgrade(8)
+
+-- [ Wave 8 ] --
+TDS:Place("DJ Booth", -123.06385803222656, -44.53631591796875, 37.272132873535156)
+TDS:Place("Farm", -108.1514892578125, -44.53631591796875, 67.58259582519531)
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(7)
+TDS:Place("Cowboy", -122.66799926757812, -44.53631591796875, 31.701772689819336)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [[ END OF STRATEGY ]]
