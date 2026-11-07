@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 378 recorded strategies available for this map**
+**📦 379 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -397,6 +397,7 @@ Select a strategy below and open its config file.
 | 376 | 2026-11-07 13:56 UTC | Hardcore | — | Minigunner, Soldier, None | [Open](376-2026-11-07-13-56-13.txt) |
 | 377 | 2026-11-07 14:20 UTC | Hardcore | — | Crook Boss, Minigunner, Pyromancer, None | [Open](377-2026-11-07-14-20-41.txt) |
 | 378 | 2026-11-07 14:58 UTC | Hardcore | — | Crook Boss, Minigunner, Pyromancer, None | [Open](378-2026-11-07-14-58-18.txt) |
+| 379 | 2026-11-07 14:58 UTC | Hardcore | — | Crook Boss, Minigunner, Pyromancer, None | [Open](379-2026-11-07-14-58-55.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
