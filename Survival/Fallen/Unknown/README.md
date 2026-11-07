@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 60 recorded strategies available for this map**
+**📦 61 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -79,6 +79,7 @@ Select a strategy below and open its config file.
 | 58 | 2026-11-06 06:13 UTC | Fallen | — | Minigunner, Crook Boss, Scout, Shotgunner, Militant | [Open](58-2026-11-06-06-13-16.txt) |
 | 59 | 2026-11-06 12:40 UTC | Fallen | — | EvolvedJuggernaut, EvolvedKingpin, DJ Booth, Engineer, Mercenary Base | [Open](59-2026-11-06-12-40-58.txt) |
 | 60 | 2026-11-06 14:20 UTC | Fallen | — | Brawler, Hacker, Engineer, EvolvedJuggernaut, EvolvedKingpin | [Open](60-2026-11-06-14-20-20.txt) |
+| 61 | 2026-11-07 06:27 UTC | Fallen | — | EvolvedJuggernaut, DJ Booth, Gatling Gun, Hacker, Trapper | [Open](61-2026-11-07-06-27-47.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
