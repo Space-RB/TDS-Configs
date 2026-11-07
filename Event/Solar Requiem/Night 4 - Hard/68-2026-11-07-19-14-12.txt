@@ -1,0 +1,73 @@
+_G.AutoGatling = true
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {auto_fire = false, ignore_lead_mutation = false}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Engineer", "Hacker", "EvolvedKingpin", "EvolvedJuggernaut", "Gatling Gun")
+TDS:Mode("Act4")
+TDS:Place("Engineer", -3.6485652923583984, 0.9999890923500061, -25.692256927490234)
+TDS:Place("Engineer", -6.690552234649658, 1.0000019073486328, -25.968904495239258)
+TDS:Place("Engineer", 3.3734169006347656, 0.9999802708625793, -21.656993865966797)
+TDS:Place("Engineer", -9.015110969543457, 1.0000017881393433, -23.992708206176758)
+TDS:Place("Engineer", -17.298202514648438, 1.0223543643951416, -33.53538131713867)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(4)
+TDS:Place("Engineer", -6.1047210693359375, 1.0000017881393433, -23.004024505615234)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:SetTarget(3, "Last")
+TDS:SetTarget(3, "Strongest")
+TDS:SetTarget(5, "Last")
+TDS:SetTarget(5, "Strongest")
+TDS:SetTarget(5, "Strongest")
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+
+-- [ Wave 7 ] --
+TDS:WaitForWave(7)
+TDS:Sell(5)
+TDS:Place("Engineer", -6.935751914978027, 0.9999986290931702, 17.900772094726562)
+TDS:VoteSkip(7)
+
+-- [ Wave 8 ] --
+TDS:WaitForWave(8)
+TDS:Sell(7)
+TDS:Sell(3)
+TDS:VoteSkip(8)
+TDS:VoteSkip(8)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(4)
+TDS:Sell(6)
+
+-- [[ END OF STRATEGY ]]
