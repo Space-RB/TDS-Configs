@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 47 recorded strategies available for this map**
+**📦 48 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -66,6 +66,7 @@ Select a strategy below and open its config file.
 | 45 | 2026-11-06 14:14 UTC | Frost | — | Assassin, Freezer, Crook Boss, Commander, Shotgunner | [Open](45-2026-11-06-14-14-51.txt) |
 | 46 | 2026-11-06 19:30 UTC | Frost | — | Gatling Gun, DJ Booth, Engineer, Star Cannon, Commander | [Open](46-2026-11-06-19-30-33.txt) |
 | 47 | 2026-11-06 19:48 UTC | Frost | — | Gatling Gun, DJ Booth, Engineer, Star Cannon, Commander | [Open](47-2026-11-06-19-48-07.txt) |
+| 48 | 2026-11-07 14:01 UTC | Frost | — | Soldier, Shotgunner, None | [Open](48-2026-11-07-14-01-38.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
