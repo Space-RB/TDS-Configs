@@ -1,0 +1,39 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.SupportCaravan = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Crook Boss", "Assassin", "Turret", "Commander", "DJ Booth")
+TDS:Mode("Act3")
+TDS:Place("Assassin", 6.521709442138672, 103.2392807006836, 115.4534912109375)
+TDS:Place("Assassin", 5.727964401245117, 103.15182495117188, 113.5742416381836)
+TDS:Place("Assassin", 5.741035461425781, 103.32103729248047, 117.33820343017578)
+TDS:Upgrade(1)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(2)
+TDS:VoteSkip(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(3)
+TDS:VoteSkip(2)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:WaitForWave(3)
+TDS:Sell(3)
+TDS:Sell(1)
+TDS:Sell(2)
+
+-- [[ END OF STRATEGY ]]
