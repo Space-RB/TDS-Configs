@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Dead Ahead | 12 | [Open](Dead%20Ahead/README.md) |
+| Chess Board | 1 | [Open](Chess%20Board/README.md) |
 
 | Unknown | 30 | [Open](Unknown/README.md) |
+| Dead Ahead | 12 | [Open](Dead%20Ahead/README.md) |
 | Simplicity | 9 | [Open](Simplicity/README.md) |
 | Black Spot Exchange | 8 | [Open](Black%20Spot%20Exchange/README.md) |
 | Retro Crossroads | 8 | [Open](Retro%20Crossroads/README.md) |
