@@ -1,0 +1,88 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.MatchTrackerEnabled = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Soldier", "Shotgunner", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Gilded Path", {"ExplodingEnemies", "Glass"})
+TDS:Ready()
+TDS:Place("Soldier", -1.263134479522705, 0.9584528207778931, 14.71163558959961)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", -1.2780609130859375, 0.9650157690048218, 17.751598358154297)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Soldier", -3.9032833576202393, 1.0125095844268799, 16.218690872192383)
+TDS:Upgrade(3)
+TDS:Place("Soldier", 1.4079675674438477, 0.95754075050354, 16.16312026977539)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Place("Shotgunner", 7.216615676879883, 0.958958625793457, 28.031164169311523)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Place("Shotgunner", -12.735038757324219, 1.014928936958313, 25.66476821899414)
+TDS:Upgrade(6)
+
+-- [ Wave 8 ] --
+TDS:Place("Shotgunner", 6.838248252868652, 0.9611687660217285, 26.026559829711914)
+TDS:Upgrade(7)
+
+-- [ Wave 9 ] --
+TDS:Place("Shotgunner", -13.133380889892578, 1.0093146562576294, 23.482864379882812)
+TDS:Upgrade(8)
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", 6.222624778747559, 0.9613109827041626, 24.081666946411133)
+TDS:Upgrade(9)
+TDS:Place("Shotgunner", -10.719415664672852, 0.993188738822937, 25.97918701171875)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(10)
+TDS:Place("Shotgunner", 11.584916114807129, 1.016664981842041, 22.62054443359375)
+TDS:Upgrade(11)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5)
+TDS:Place("Shotgunner", -13.246883392333984, 0.9996405839920044, 21.388032913208008)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(6)
+
+-- [ Wave 16 ] --
+TDS:Place("Shotgunner", 5.518475532531738, 0.9705220460891724, -34.33494186401367)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [[ END OF STRATEGY ]]
