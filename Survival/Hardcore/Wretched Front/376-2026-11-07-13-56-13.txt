@@ -1,0 +1,22 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoXP = true
+_G.StartHubStrategy = "A6F6D0F2-C101-4C40-9C8D-E54407356315"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Minigunner", "Soldier", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 5 ] --
+TDS:Upgrade(7)
+TDS:Place("Soldier", -2.0399999618530273, 0.29068121314048767, -16.459999084472656)
+
+-- [[ END OF STRATEGY ]]
