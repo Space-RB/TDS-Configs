@@ -1,0 +1,84 @@
+_G.AutoGatling = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoGatlingSettings = {gui_hidden = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Shotgunner", "Crook Boss", "EvolvedOperator", "Hacker", "Gatling Gun")
+TDS:Mode("Molten")
+TDS:GameInfo("Dead Ahead", {})
+TDS:Ready()
+TDS:Place("EvolvedOperator", -0.12963652610778809, 1.0200039148330688, -29.325252532958984)
+TDS:Place("EvolvedOperator", -5.010407447814941, 1.000004768371582, -29.03803062438965)
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", -0.12963652610778809, 1.0200031995773315, -26.78525161743164)
+
+-- [ Wave 3 ] --
+TDS:Place("EvolvedOperator", -5.010407447814941, 1.0000042915344238, -26.498031616210938)
+TDS:Place("EvolvedOperator", -5.010407447814941, 1.0000051259994507, -31.57802963256836)
+
+-- [ Wave 4 ] --
+TDS:Place("EvolvedOperator", 0.8423795700073242, 1.0000051259994507, -31.671905517578125)
+TDS:Place("EvolvedOperator", 2.3886337280273438, 1.000004768371582, -29.656787872314453)
+
+-- [ Wave 5 ] --
+TDS:Place("EvolvedOperator", 2.3886337280273438, 1.0000044107437134, -27.11678695678711)
+TDS:Place("EvolvedOperator", -7.21011209487915, 1.0000005960464478, -30.308029174804688)
+TDS:Place("EvolvedOperator", -7.210111141204834, 1.000004529953003, -27.768030166625977)
+
+-- [ Wave 6 ] --
+TDS:Place("Hacker", 0.2079763412475586, 1.0200053453445435, -34.37419128417969)
+TDS:Upgrade(11)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(5)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", -0.06995546817779541, 1.0200060606002808, -36.89757537841797)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 12 ] --
+TDS:Place("Hacker", -5.010407447814941, 0.9999993443489075, -34.3680305480957)
+
+-- [ Wave 13 ] --
+TDS:Place("Shotgunner", -5.227478981018066, 0.9500056505203247, -36.863834381103516)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 15 ] --
+TDS:Place("Crook Boss", -9.69430160522461, 0.9999990463256836, -29.038028717041016)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 16 ] --
+TDS:Place("Crook Boss", -0.15100610256195068, 1.0200023651123047, -24.026050567626953)
+TDS:Upgrade(16)
+
+-- [[ END OF STRATEGY ]]
