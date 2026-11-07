@@ -1,0 +1,103 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {beta_dps = true, rgb_speed = 0.1}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Time Dilator", "Trapper", "DJ Booth", "Mercenary Base", "Gatling Gun")
+TDS:Mode("Frost")
+TDS:GameInfo("Lay By", {"Committed", "ExplodingEnemies", "Fog", "Glass", "HiddenEnemies", "Limitation", "Quarantine"})
+TDS:Ready()
+
+-- [ Wave 13 ] --
+TDS:Place("Gatling Gun", -2.5419416427612305, 243, 155.7166748046875)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+TDS:Place("Trapper", -2.5054244995117188, 243, 206)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Place("Mercenary Base", -2.5419416427612305, 243, 155.7166748046875)
+TDS:Upgrade(8)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(6)
+TDS:Place("DJ Booth", -2.5419416427612305, 243, 165.7166748046875)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Mercenary Base", -2.5419416427612305, 243, 155.7166748046875)
+TDS:Upgrade(10)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(10)
+TDS:Place("Mercenary Base", -2.5419416427612305, 243, 155.7166748046875)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(6)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(6)
+TDS:Place("Time Dilator", -2.5419416427612305, 243, 155.7166748046875)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(11)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Place("Time Dilator", -9.700605392456055, 242.99996948242188, 229.44541931152344)
+
+-- [[ END OF STRATEGY ]]
