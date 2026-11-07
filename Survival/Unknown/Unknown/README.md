@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 224 recorded strategies available for this map**
+**📦 225 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -243,6 +243,7 @@ Select a strategy below and open its config file.
 | 222 | 2026-11-06 18:34 UTC | Unknown | — | Time Dilator, EvolvedJuggernaut, Star Cannon, Hacker, Gatling Gun | [Open](222-2026-11-06-18-34-14.txt) |
 | 223 | 2026-11-07 05:34 UTC | Unknown | — | Electroshocker, Sniper, None | [Open](223-2026-11-07-05-34-09.txt) |
 | 224 | 2026-11-07 12:33 UTC | Unknown | — | Gatling Gun, Engineer, DJ Booth, Hacker, Demoman | [Open](224-2026-11-07-12-33-32.txt) |
+| 225 | 2026-11-07 13:07 UTC | Unknown | — | Gatling Gun, Engineer, Hacker, Demoman, Commander | [Open](225-2026-11-07-13-07-52.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
