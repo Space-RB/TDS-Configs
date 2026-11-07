@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 4 recorded strategies available for this map**
+**📦 5 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -23,6 +23,7 @@ Select a strategy below and open its config file.
 | 2 | 2026-10-25 17:29 UTC | Easy | — | Pyromancer, Shotgunner, None | [Open](2-2026-10-25-17-29-42.txt) |
 | 3 | 2026-11-06 13:53 UTC | Easy | — | Soldier, Pyromancer, Shotgunner, EvolvedKingpin, None | [Open](3-2026-11-06-13-53-18.txt) |
 | 4 | 2026-11-06 13:53 UTC | Easy | — | Soldier, Pyromancer, Shotgunner, EvolvedKingpin, None | [Open](4-2026-11-06-13-53-27.txt) |
+| 5 | 2026-11-07 18:49 UTC | Easy | — | Soldier, Commander, Farm, Shotgunner, Pyromancer | [Open](5-2026-11-07-18-49-39.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
