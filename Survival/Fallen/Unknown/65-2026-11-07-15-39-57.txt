@@ -1,0 +1,270 @@
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedOperator", "EvolvedKingpin", "EvolvedJuggernaut", "Hacker", "DJ Booth")
+TDS:Mode("Fallen")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", -4.133480548858643, 1.0000081062316895, 25.06857681274414)
+TDS:Upgrade(1)
+TDS:Place("EvolvedOperator", -4.100371360778809, 1.0000081062316895, 22.528793334960938)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("EvolvedOperator", -3.8519043922424316, 1.0000081062316895, 19.98129653930664)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("EvolvedOperator", -6.288576602935791, 1.0000081062316895, 23.799930572509766)
+TDS:Upgrade(4)
+TDS:Place("EvolvedOperator", -1.824110984802246, 1.0000081062316895, 23.742969512939453)
+TDS:Upgrade(5)
+
+-- [ Wave 5 ] --
+TDS:Place("EvolvedOperator", -6.260565757751465, 1.0000081062316895, 21.111225128173828)
+TDS:Upgrade(6)
+TDS:Place("EvolvedOperator", -1.6194822788238525, 1.0000081062316895, 21.23965072631836)
+TDS:Upgrade(7)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(7)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Place("EvolvedOperator", 0.4621388912200928, 1.0000081062316895, 22.630455017089844)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("EvolvedOperator", -8.43026351928711, 1.0000081062316895, 22.41290283203125)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 10 ] --
+TDS:Place("EvolvedOperator", -6.317474365234375, 1.0000081062316895, 26.39602279663086)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("EvolvedOperator", -1.8540520668029785, 1.0000081062316895, 26.287511825561523)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 11 ] --
+TDS:Place("DJ Booth", 1.5755901336669922, 1.0000081062316895, 19.04177474975586)
+TDS:Place("Hacker", -8.490815162658691, 1.0000081062316895, 19.475698471069336)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 13 ] --
+TDS:Place("EvolvedOperator", -3.9767632484436035, 1.0000081062316895, 27.621257781982422)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("EvolvedOperator", 0.49279773235321045, 1.0000081062316895, 25.14773941040039)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("EvolvedOperator", -8.511746406555176, 1.0000081062316895, 24.95305824279785)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(14)
+TDS:Upgrade(11)
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:Upgrade(10)
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+TDS:Upgrade(16)
+TDS:Upgrade(9)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(8)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(5)
+TDS:Upgrade(11)
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 20 ] --
+TDS:Place("EvolvedJuggernaut", -3.071727752685547, 1.0000081062316895, 13.765168190002441)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(14)
+TDS:Upgrade(11)
+TDS:Upgrade(5)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(10)
+TDS:Place("EvolvedOperator", -2.5781431198120117, 1.0749932527542114, 9.02157974243164)
+
+-- [ Wave 24 ] --
+TDS:Place("EvolvedOperator", -1.3747978210449219, 1.0749932527542114, 5.967948913574219)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(8)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(9)
+TDS:Place("EvolvedOperator", -2.91046142578125, 1.0749932527542114, 9.394475936889648)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(12)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(17)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(17)
+
+-- [ Wave 29 ] --
+TDS:Place("EvolvedKingpin", 1.0113248825073242, 1.0000081062316895, 13.900747299194336)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Place("EvolvedKingpin", 0.22156429290771484, 1.0749932527542114, 10.983283042907715)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Place("EvolvedKingpin", 3.337047576904297, 1.0749932527542114, 11.05921459197998)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(23)
+TDS:Place("EvolvedKingpin", -5.783074378967285, 1.0749932527542114, 10.663070678710938)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(21, 2)
+TDS:Upgrade(24, 2)
+TDS:Upgrade(22, 2)
+TDS:Upgrade(23, 2)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(13)
+TDS:Upgrade(22, 2)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(21, 2)
+TDS:Upgrade(23, 2)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(24, 2)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(11)
+TDS:Upgrade(14)
+TDS:Upgrade(10)
+TDS:Upgrade(1)
+TDS:Upgrade(16)
+TDS:Upgrade(9)
+TDS:Upgrade(20)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(23, 2)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(22, 2)
+TDS:Upgrade(21, 2)
+TDS:Upgrade(24, 2)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(17)
+
+-- [ Wave 38 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(17)
+
+-- [ Wave 39 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Hacker", 3.3596596717834473, 1.0000081062316895, 22.95979118347168)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+
+-- [ Wave 40 ] --
+TDS:Place("EvolvedJuggernaut", -3.045391798019409, 1.0000081062316895, 13.844193458557129)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26, 2)
+TDS:Upgrade(26, 2)
+TDS:Upgrade(26, 2)
+TDS:Upgrade(26, 2)
+
+-- [[ END OF STRATEGY ]]
