@@ -16,12 +16,12 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Gilded Path | 44 | [Open](Gilded%20Path/README.md) |
+| Black Spot Exchange | 5 | [Open](Black%20Spot%20Exchange/README.md) |
 
 | Unknown | 79 | [Open](Unknown/README.md) |
+| Gilded Path | 44 | [Open](Gilded%20Path/README.md) |
 | Dead Ahead | 21 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 5 | [Open](Lay%20By/README.md) |
-| Black Spot Exchange | 4 | [Open](Black%20Spot%20Exchange/README.md) |
 | Forest Camp | 2 | [Open](Forest%20Camp/README.md) |
 | Night Station | 2 | [Open](Night%20Station/README.md) |
 | Cataclysm | 1 | [Open](Cataclysm/README.md) |
