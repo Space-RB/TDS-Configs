@@ -1,0 +1,165 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Farm", "Boomerang", "Assassin", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Place("Farm", -12.136613845825195, 1.5577083826065063, 24.359582901000977)
+TDS:Place("Farm", -12.045146942138672, 1.5178619623184204, 27.898378372192383)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", -11.841276168823242, 1.4660018682479858, 31.43250274658203)
+TDS:Upgrade(3)
+TDS:Place("Farm", -12.023003578186035, 1.3780407905578613, 34.96783447265625)
+TDS:Upgrade(4)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", -15.676555633544922, 1.5292844772338867, 24.376676559448242)
+TDS:Upgrade(5)
+TDS:Place("Farm", -15.5851469039917, 1.5492794513702393, 27.898378372192383)
+TDS:Upgrade(6)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", -15.38127613067627, 1.5455689430236816, 31.43250274658203)
+TDS:Upgrade(7)
+TDS:Place("Farm", -15.563003540039062, 1.4636043310165405, 34.96783447265625)
+TDS:Upgrade(8)
+
+-- [ Wave 5 ] --
+TDS:Place("Boomerang", 6.512796401977539, 1.388246774673462, 27.75457191467285)
+TDS:Upgrade(9)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(9)
+TDS:Place("Assassin", 15.568938255310059, 1.1495503187179565, 29.582448959350586)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Place("Farm", -19.18994903564453, 1.779670000076294, 24.80988121032715)
+TDS:Upgrade(11)
+TDS:Place("Farm", -18.64558982849121, 1.4481844902038574, 29.59741973876953)
+TDS:Upgrade(12)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(7)
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Place("Boomerang", 3.472781181335449, 1.417241096496582, 27.754575729370117)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 11 ] --
+TDS:Place("Assassin", 17.87791633605957, 0.5567950010299683, 17.05774688720703)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(1)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(10)
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(11)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+
+-- [ Wave 16 ] --
+TDS:Place("Assassin", 15.368732452392578, 0.3676822781562805, 14.756681442260742)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Place("Assassin", 15.863483428955078, 0.5692360997200012, 16.735776901245117)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Assassin", 10.643754959106445, 0.29129016399383545, 10.993111610412598)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(9)
+TDS:Place("Assassin", 12.52846908569336, 0.3255257308483124, 10.212437629699707)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(13)
+TDS:Place("Assassin", 14.413183212280273, 0.3597613275051117, 9.431763648986816)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(16)
+TDS:Place("Assassin", 13.528937339782715, 1.1906057596206665, 29.582448959350586)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:WaitForWave(22)
+TDS:Sell(12)
+TDS:Sell(11)
+TDS:Place("Assassin", -5.388160705566406, 1.5085184574127197, 33.60210418701172)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Place("Assassin", 1.6027154922485352, 1.4690911769866943, 40.26832580566406)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Place("Assassin", 1.960463523864746, 1.3967735767364502, 44.93400573730469)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+
+-- [[ END OF STRATEGY ]]
