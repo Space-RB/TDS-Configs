@@ -1,0 +1,81 @@
+_G.AutoChain = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoStarCannon = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StarCannonMin = 80
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Farm", "EvolvedJuggernaut", "Star Cannon", "Gatling Gun", "Cowboy")
+TDS:Mode("Frost")
+TDS:GameInfo("Necropolis", {})
+TDS:Unequip("Cowboy")
+TDS:Equip("Military Base")
+TDS:Place("Military Base", -71.51526641845703, 1.012497901916504, 20.746864318847656)
+TDS:Unequip("Military Base")
+TDS:Equip("Cowboy")
+TDS:Place("Farm", -67.86868286132812, 1.012497901916504, 23.344135284423828)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Cowboy", -47.91992950439453, 1.0124974250793457, -5.750439167022705)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", -76.3218002319336, 1.012497901916504, 16.99524688720703)
+TDS:Place("Farm", -77.44648742675781, 1.012497901916504, 12.283782005310059)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Place("Farm", -78.55693054199219, 1.012497901916504, 6.891696929931641)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(6)
+TDS:Place("Farm", -80.80230712890625, 1.012497901916504, 2.241837501525879)
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", -63.23245620727539, 1.012497901916504, 27.371192932128906)
+TDS:Upgrade(8)
+TDS:Place("Cowboy", -48.24302673339844, 1.0124974250793457, -2.9619650840759277)
+TDS:Upgrade(9)
+
+-- [ Wave 7 ] --
+TDS:Place("Cowboy", -50.166595458984375, 1.0124974250793457, -4.565492630004883)
+TDS:Upgrade(10)
+TDS:Place("Farm", -59.60153579711914, 1, 30.05773162841797)
+TDS:Upgrade(11)
+TDS:Place("Farm", -55.51496124267578, 1, 28.003440856933594)
+TDS:Upgrade(12)
+TDS:Place("Farm", -62.885292053222656, 1.012497901916504, 19.448612213134766)
+TDS:Upgrade(13)
+
+-- [ Wave 8 ] --
+TDS:Place("Farm", -67.6603775024414, 1.012497901916504, 17.96333122253418)
+TDS:Upgrade(14)
+TDS:Place("Cowboy", -50.54054641723633, 1.0124974250793457, -1.878915548324585)
+TDS:Upgrade(15)
+TDS:Place("Cowboy", -67.03982543945312, 1, -12.009769439697266)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [[ END OF STRATEGY ]]
