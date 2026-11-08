@@ -16,12 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Infernal Abyss | 1 | [Open](Infernal%20Abyss/README.md) |
+| Cataclysm | 20 | [Open](Cataclysm/README.md) |
 
 | Unknown | 66 | [Open](Unknown/README.md) |
 | Simplicity | 42 | [Open](Simplicity/README.md) |
 | Lay By | 37 | [Open](Lay%20By/README.md) |
-| Cataclysm | 19 | [Open](Cataclysm/README.md) |
 | U-Turn | 9 | [Open](U-Turn/README.md) |
 | Winter Abyss | 4 | [Open](Winter%20Abyss/README.md) |
 | Toyboard | 3 | [Open](Toyboard/README.md) |
@@ -37,6 +36,7 @@ Choose one of the categories below to continue.
 | Farm Lands | 1 | [Open](Farm%20Lands/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Honey Valley | 1 | [Open](Honey%20Valley/README.md) |
+| Infernal Abyss | 1 | [Open](Infernal%20Abyss/README.md) |
 | Night Station | 1 | [Open](Night%20Station/README.md) |
 | Portland | 1 | [Open](Portland/README.md) |
 | Sky Islands | 1 | [Open](Sky%20Islands/README.md) |
