@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Abandoned City | 2 | [Open](Abandoned%20City/README.md) |
+| Necropolis | 1 | [Open](Necropolis/README.md) |
 
 | Unknown | 75 | [Open](Unknown/README.md) |
 | Simplicity | 55 | [Open](Simplicity/README.md) |
@@ -31,6 +31,7 @@ Choose one of the categories below to continue.
 | Mason Arch | 3 | [Open](Mason%20Arch/README.md) |
 | Medieval Times | 3 | [Open](Medieval%20Times/README.md) |
 | Wrecked Battlefield II | 3 | [Open](Wrecked%20Battlefield%20II/README.md) |
+| Abandoned City | 2 | [Open](Abandoned%20City/README.md) |
 | Cataclysm | 2 | [Open](Cataclysm/README.md) |
 | Crystal Cave | 2 | [Open](Crystal%20Cave/README.md) |
 | Pier Pressure | 2 | [Open](Pier%20Pressure/README.md) |
