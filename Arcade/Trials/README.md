@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown Trial | 4 | [Open](Unknown%20Trial/README.md) |
+| Unknown Trial | 5 | [Open](Unknown%20Trial/README.md) |
 
 </div>
 
