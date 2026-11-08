@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 410 recorded strategies available for this map**
+**📦 411 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -429,6 +429,7 @@ Select a strategy below and open its config file.
 | 408 | 2026-11-08 12:07 UTC | Hardcore | — | Farm, Minigunner, Golden Crook Boss, Accelerator, Electroshocker | [Open](408-2026-11-08-12-07-25.txt) |
 | 409 | 2026-11-08 12:18 UTC | Hardcore | — | Farm, Minigunner, Golden Crook Boss, Accelerator, Electroshocker | [Open](409-2026-11-08-12-18-08.txt) |
 | 410 | 2026-11-08 12:42 UTC | Hardcore | — | Electroshocker, Sniper, None | [Open](410-2026-11-08-12-42-15.txt) |
+| 411 | 2026-11-08 13:07 UTC | Hardcore | — | Electroshocker, Farm, Minigunner, Crook Boss, Accelerator | [Open](411-2026-11-08-13-07-18.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
