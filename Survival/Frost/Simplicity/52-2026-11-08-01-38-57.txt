@@ -1,0 +1,68 @@
+_G.AutoDJ = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Crook Boss", "Scout", "Shotgunner", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+TDS:Place("Scout", -14.246194839477539, 0.999988317489624, -9.158185958862305)
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", -11.034785270690918, 0.9999822378158569, -8.995253562927246)
+TDS:Place("Scout", -11.834761619567871, 0.9999863505363464, -12.062626838684082)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 2 ] --
+TDS:Place("Scout", -11.993770599365234, 1.0000005960464478, -3.3904037475585938)
+TDS:Upgrade(4)
+TDS:Place("Scout", -8.936487197875977, 1.0000005960464478, -3.4130330085754395)
+TDS:Upgrade(5)
+TDS:Place("Scout", -5.492832183837891, 0.9999887943267822, -3.403564929962158)
+TDS:Upgrade(6)
+
+-- [ Wave 3 ] --
+TDS:Place("Scout", -8.090314865112305, 1.0000001192092896, -0.43383026123046875)
+TDS:Upgrade(7)
+TDS:Place("Scout", -7.484491348266602, 0.9999910593032837, -8.905543327331543)
+TDS:Upgrade(8)
+TDS:Place("Scout", -4.21509313583374, 1.0000015497207642, -9.255267143249512)
+TDS:Upgrade(9)
+
+-- [ Wave 4 ] --
+TDS:Place("Scout", -1.1549911499023438, 0.9999960064888, -9.305410385131836)
+TDS:Upgrade(10)
+
+-- [ Wave 6 ] --
+TDS:Place("Crook Boss", -11.791601181030273, 1.0000001192092896, -0.24633407592773438)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(7)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", -2.1997735500335693, 0.9999927282333374, -3.136234760284424)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(12)
+
+-- [[ END OF STRATEGY ]]
