@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Trials | 4 | [Open](Trials/README.md) |
+| Trials | 5 | [Open](Trials/README.md) |
 
 | false | 28 | [Open](false/README.md) |
 | Pizza Party | 7 | [Open](Pizza%20Party/README.md) |
