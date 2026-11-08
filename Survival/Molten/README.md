@@ -16,10 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 33 | [Open](Unknown/README.md) |
+| Simplicity | 10 | [Open](Simplicity/README.md) |
 
+| Unknown | 33 | [Open](Unknown/README.md) |
 | Dead Ahead | 12 | [Open](Dead%20Ahead/README.md) |
-| Simplicity | 9 | [Open](Simplicity/README.md) |
 | Black Spot Exchange | 8 | [Open](Black%20Spot%20Exchange/README.md) |
 | Retro Crossroads | 8 | [Open](Retro%20Crossroads/README.md) |
 | Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
