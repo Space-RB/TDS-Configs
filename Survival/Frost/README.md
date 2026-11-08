@@ -16,10 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Necropolis | 1 | [Open](Necropolis/README.md) |
+| Simplicity | 56 | [Open](Simplicity/README.md) |
 
 | Unknown | 75 | [Open](Unknown/README.md) |
-| Simplicity | 55 | [Open](Simplicity/README.md) |
 | Lay By | 41 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 10 | [Open](Retro%20Crossroads/README.md) |
 | Winter Abyss | 6 | [Open](Winter%20Abyss/README.md) |
@@ -45,6 +44,7 @@ Choose one of the categories below to continue.
 | Hot Spot | 1 | [Open](Hot%20Spot/README.md) |
 | Iceville | 1 | [Open](Iceville/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
+| Necropolis | 1 | [Open](Necropolis/README.md) |
 | Portland | 1 | [Open](Portland/README.md) |
 | Retro Rocket Arena | 1 | [Open](Retro%20Rocket%20Arena/README.md) |
 | Sky Islands | 1 | [Open](Sky%20Islands/README.md) |
