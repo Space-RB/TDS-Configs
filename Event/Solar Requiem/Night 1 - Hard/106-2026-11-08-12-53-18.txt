@@ -1,0 +1,98 @@
+_G.AutoGatling = true
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {auto_fire = false, ignore_lead_mutation = false, ignore_sounds = false}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Demoman", "Hacker", "Gatling Gun", "EvolvedKingpin", "EvolvedJuggernaut")
+TDS:Mode("Act1")
+TDS:Place("Demoman", -6.945600509643555, 2.0557618141174316, 207.28334045410156)
+TDS:Upgrade(1)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+
+-- [ Wave 2 ] --
+TDS:VoteSkip(2)
+TDS:Place("Demoman", -9.980548858642578, 2.0183627605438232, 207.1081085205078)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:SetTarget(2, "Last")
+TDS:SetTarget(2, "Strongest")
+TDS:SetTarget(2, "Strongest")
+TDS:Place("Demoman", -8.311319351196289, 2.036964178085327, 204.5673828125)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:VoteSkip(5)
+
+-- [ Wave 6 ] --
+TDS:WaitForWave(6)
+TDS:Sell(3)
+TDS:Sell(2)
+TDS:Sell(1)
+TDS:VoteSkip(6)
+TDS:Place("Gatling Gun", -6.7495574951171875, 8.861952781677246, 197.2181396484375)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+TDS:Place("Demoman", -7.840201377868652, 2.0570030212402344, 208.0155029296875)
+TDS:Place("Demoman", -10.879636764526367, 2.0563488006591797, 208.07411193847656)
+TDS:Place("Demoman", -9.410676002502441, 2.039651393890381, 205.41258239746094)
+
+-- [ Wave 8 ] --
+TDS:Place("Demoman", -6.390138149261475, 2.046990394592285, 205.3436279296875)
+TDS:VoteSkip(8)
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:VoteSkip(9)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(8)
+TDS:VoteSkip(11)
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:VoteSkip(15)
+
+-- [[ END OF STRATEGY ]]
