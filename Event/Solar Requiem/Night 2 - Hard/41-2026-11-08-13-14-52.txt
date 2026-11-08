@@ -1,0 +1,41 @@
+_G.AutoGatling = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Demoman", "Hacker", "Gatling Gun", "EvolvedKingpin", "EvolvedJuggernaut")
+TDS:Mode("Act2")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Demoman", 3.3228936195373535, 48.204769134521484, -4.736345291137695)
+TDS:Upgrade(1)
+TDS:VoteSkip(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Demoman", 0.3504185676574707, 47.88887405395508, -4.099170207977295)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:VoteSkip(5)
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:VoteSkip(6)
+TDS:WaitForWave(6)
+TDS:Sell(1)
+
+-- [[ END OF STRATEGY ]]
