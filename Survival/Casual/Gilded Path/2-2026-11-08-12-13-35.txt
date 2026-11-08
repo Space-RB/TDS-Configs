@@ -1,0 +1,67 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Shotgunner", "EvolvedKingpin", "Soldier", "Engineer", "None")
+TDS:Mode("Casual")
+TDS:GameInfo("Gilded Path", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Engineer", 8.051451683044434, 0.9135900735855103, 0.36208105087280273)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Soldier", -0.06118917465209961, 0.9669337272644043, 19.535661697387695)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Engineer", -1.6468615531921387, 0.9769575595855713, 23.630298614501953)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Soldier", -4.00880241394043, 1.0123746395111084, 19.746519088745117)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Soldier", 6.912539958953857, 0.9270628094673157, 3.6088597774505615)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Place("Engineer", -5.323976516723633, 0.9794491529464722, 22.487306594848633)
+TDS:Place("Engineer", 1.9225149154663086, 0.9697611331939697, 22.608442306518555)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(7)
+TDS:Place("Soldier", 10.28289794921875, 0.9764842987060547, -23.15839958190918)
+TDS:Upgrade(8)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+TDS:Place("Engineer", 9.611370086669922, 0.9209796190261841, -3.793384552001953)
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(9)
+TDS:Place("Shotgunner", 6.403894424438477, 0.9696717262268066, -32.55979537963867)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(10)
+
+-- [[ END OF STRATEGY ]]
