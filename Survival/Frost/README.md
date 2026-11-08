@@ -16,13 +16,13 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Crossroads | 5 | [Open](Crossroads/README.md) |
+| Unknown | 73 | [Open](Unknown/README.md) |
 
-| Unknown | 72 | [Open](Unknown/README.md) |
 | Simplicity | 50 | [Open](Simplicity/README.md) |
 | Lay By | 41 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 10 | [Open](Retro%20Crossroads/README.md) |
 | Winter Abyss | 6 | [Open](Winter%20Abyss/README.md) |
+| Crossroads | 5 | [Open](Crossroads/README.md) |
 | Spring Fever | 5 | [Open](Spring%20Fever/README.md) |
 | Summer Castle | 5 | [Open](Summer%20Castle/README.md) |
 | U-Turn | 5 | [Open](U-Turn/README.md) |
