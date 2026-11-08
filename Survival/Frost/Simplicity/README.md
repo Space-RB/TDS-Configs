@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 63 recorded strategies available for this map**
+**📦 64 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -82,6 +82,7 @@ Select a strategy below and open its config file.
 | 61 | 2026-11-08 12:11 UTC | Frost | Glass, Limitation | Brawler, Shotgunner, Freezer, None | [Open](61-2026-11-08-12-11-15.txt) |
 | 62 | 2026-11-08 12:17 UTC | Frost | Glass, Limitation | Brawler, Shotgunner, Freezer, None | [Open](62-2026-11-08-12-17-00.txt) |
 | 63 | 2026-11-08 12:21 UTC | Frost | Glass, Limitation | Brawler, Shotgunner, Freezer, None | [Open](63-2026-11-08-12-21-40.txt) |
+| 64 | 2026-11-08 12:27 UTC | Frost | Glass, Limitation | Brawler, Shotgunner, Freezer, None | [Open](64-2026-11-08-12-27-09.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
