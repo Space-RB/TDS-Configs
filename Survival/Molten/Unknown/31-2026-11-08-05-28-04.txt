@@ -1,0 +1,22 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedJuggernaut", "Hacker", "DJ Booth", "Commander", "Engineer")
+TDS:Mode("Molten")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Engineer", -8.533950805664062, 1.9904160499572754, 11.136850357055664)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
