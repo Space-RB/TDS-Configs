@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 54 recorded strategies available for this map**
+**📦 55 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -73,6 +73,7 @@ Select a strategy below and open its config file.
 | 52 | 2026-11-08 01:38 UTC | Frost | — | Crook Boss, Scout, Shotgunner, None | [Open](52-2026-11-08-01-38-57.txt) |
 | 53 | 2026-11-08 05:48 UTC | Frost | — | Engineer, DJ Booth, EvolvedJuggernaut, Accelerator, Crook Boss | [Open](53-2026-11-08-05-48-05.txt) |
 | 54 | 2026-11-08 10:02 UTC | Frost | — | Brawler, Shotgunner, Freezer, None | [Open](54-2026-11-08-10-02-52.txt) |
+| 55 | 2026-11-08 10:15 UTC | Frost | — | Brawler, Shotgunner, Freezer, None | [Open](55-2026-11-08-10-15-33.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
