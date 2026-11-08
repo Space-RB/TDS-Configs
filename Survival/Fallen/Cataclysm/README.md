@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 19 recorded strategies available for this map**
+**📦 20 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -38,6 +38,7 @@ Select a strategy below and open its config file.
 | 17 | 2026-11-06 12:48 UTC | Fallen | ExplodingEnemies, Glass | EvolvedJuggernaut, EvolvedKingpin, DJ Booth, Engineer, Mercenary Base | [Open](17-2026-11-06-12-48-58.txt) |
 | 18 | 2026-11-06 12:53 UTC | Fallen | ExplodingEnemies, Glass | EvolvedJuggernaut, EvolvedKingpin, DJ Booth, Engineer, Mercenary Base | [Open](18-2026-11-06-12-53-24.txt) |
 | 19 | 2026-11-08 03:12 UTC | Fallen | — | EvolvedOperator, DJ Booth, Mercenary Base, Time Dilator, EvolvedJuggernaut | [Open](19-2026-11-08-03-12-08.txt) |
+| 20 | 2026-11-08 11:47 UTC | Fallen | — | EvolvedOperator, DJ Booth, Mercenary Base, Time Dilator, EvolvedJuggernaut | [Open](20-2026-11-08-11-47-55.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
