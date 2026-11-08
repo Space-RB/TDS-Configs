@@ -1,0 +1,170 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedKingpin", "Tesla", "Minigunner", "Sniper", "Assassin")
+TDS:Mode("Fallen")
+TDS:GameInfo("Winter Abyss", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", -12.311199188232422, 2.1777539253234863, 13.471437454223633, true)
+TDS:Place("Assassin", -12.688289642333984, 2.1343517303466797, 21.016386032104492, true)
+TDS:Place("Assassin", -15.236371994018555, 2.3220982551574707, 13.537271499633789, true)
+TDS:Place("Assassin", -15.794828414916992, 2.225189208984375, 21.353561401367188, true)
+
+-- [ Wave 2 ] --
+TDS:Place("Assassin", -18.61394500732422, 2.377082109451294, 20.899005889892578, true)
+TDS:Place("Assassin", -17.733600616455078, 2.4632084369659424, 13.251221656799316, true)
+
+-- [ Wave 4 ] --
+TDS:Place("Sniper", -14.221233367919922, 2.6028892993927, 18.777442932128906, true)
+TDS:Place("Sniper", -5.413646697998047, 4.8554534912109375, 11.132984161376953, true)
+TDS:Place("Sniper", -3.745800018310547, 4.91727876663208, 9.486330032348633, true)
+TDS:Place("Sniper", -2.1366987228393555, 5.117043972015381, 10.910250663757324, true)
+
+-- [ Wave 5 ] --
+TDS:Place("Sniper", -1.6773676872253418, 5.052299976348877, 13.210861206054688, true)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(7, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(9, true)
+TDS:Upgrade(10, true)
+TDS:Upgrade(1, true)
+TDS:Upgrade(2, true)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3, true)
+TDS:Upgrade(1, true)
+TDS:Upgrade(2, true)
+TDS:Upgrade(11, true)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(1, true)
+TDS:Upgrade(3, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(5, true)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(7, true)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(2, true)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(5, true)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(5, true)
+
+-- [ Wave 14 ] --
+TDS:Place("Assassin", -4.837543487548828, 2.0139622688293457, 19.705570220947266, true)
+TDS:Place("Assassin", -4.836391448974609, 2.014190673828125, 19.631200790405273, true)
+TDS:Place("Assassin", -4.836391448974609, 2.014190673828125, 19.631200790405273, true)
+TDS:Place("Assassin", -4.836391448974609, 2.014190673828125, 19.631200790405273, true)
+TDS:Place("Assassin", -4.836391448974609, 2.014190673828125, 19.631200790405273, true)
+TDS:Place("Assassin", -4.836391448974609, 2.014190673828125, 19.631200790405273, true)
+TDS:Place("Assassin", -4.390101432800293, 2.011791229248047, 19.732555389404297, true)
+TDS:Place("Assassin", -4.2386322021484375, 2.010272979736328, 19.9908447265625, true)
+TDS:Place("Assassin", -4.2386322021484375, 2.010272979736328, 19.9908447265625, true)
+TDS:Place("Assassin", -4.265509605407715, 2.0126357078552246, 19.279205322265625, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(7, true)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(20, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(9, true)
+TDS:Upgrade(12, true)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(10, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(13, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(9, true)
+TDS:Upgrade(14, true)
+TDS:Place("Assassin", -5.255926132202148, 1.992408275604248, 3.8676323890686035, true)
+TDS:Place("Assassin", -5.255926132202148, 1.992408275604248, 3.8676323890686035, true)
+TDS:Place("Assassin", -5.255926132202148, 1.992408275604248, 3.8676323890686035, true)
+TDS:Place("Assassin", -5.255926132202148, 1.992408275604248, 3.8676323890686035, true)
+TDS:Place("Assassin", -5.255926132202148, 1.992408275604248, 3.8676323890686035, true)
+TDS:Place("Assassin", -5.255926132202148, 1.992408275604248, 3.8676323890686035, true)
+TDS:Place("Assassin", -5.136264801025391, 1.9936655759811401, 3.902472972869873, true)
+TDS:Place("Assassin", -5.136264801025391, 1.9936655759811401, 3.902472972869873, true)
+TDS:Place("Assassin", -5.136264801025391, 1.9936655759811401, 3.902472972869873, true)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(12, true)
+TDS:Upgrade(13, true)
+TDS:Upgrade(7, true)
+TDS:Upgrade(14, true)
+
+-- [ Wave 18 ] --
+TDS:Place("Tesla", -9.09505844116211, 1.9914904832839966, 11.117244720458984, true)
+
+-- [ Wave 19 ] --
+TDS:Place("Tesla", -9.246293067932129, 1.9929744005203247, 11.151328086853027, true)
+TDS:Upgrade(10, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(15, true)
+TDS:Upgrade(16, true)
+TDS:Upgrade(17, true)
+
+-- [ Wave 20 ] --
+TDS:Place("Sniper", 0.7858686447143555, 6.4712629318237305, 8.815722465515137, true)
+TDS:Place("Sniper", 1.0388038158416748, 6.398000240325928, 10.643869400024414, true)
+TDS:Place("Sniper", 0.7745096683502197, 6.206535339355469, 12.595565795898438, true)
+TDS:Place("Sniper", 1.1704449653625488, 6.012118339538574, 14.598398208618164, true)
+TDS:Place("Sniper", 1.9449149370193481, 6.271975517272949, 13.453394889831543, true)
+TDS:Place("Sniper", 1.9926018714904785, 6.403560638427734, 12.10070514678955, true)
+TDS:Place("Sniper", 2.6074728965759277, 6.52384614944458, 10.725311279296875, true)
+TDS:Place("Sniper", 2.0952486991882324, 6.534160137176514, 9.11828327178955, true)
+TDS:Upgrade(12, true)
+TDS:Upgrade(15, true)
+TDS:Upgrade(16, true)
+TDS:Upgrade(35, true)
+TDS:Upgrade(37, true)
+TDS:Upgrade(39, true)
+TDS:Upgrade(13, true)
+TDS:Upgrade(17, true)
+TDS:Upgrade(18, true)
+TDS:Upgrade(19, true)
+TDS:Upgrade(33, true)
+TDS:Upgrade(14, true)
+TDS:Upgrade(18, true)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(40, true)
+TDS:Upgrade(19, true)
+TDS:Upgrade(20, true)
+TDS:Upgrade(21, true)
+TDS:Upgrade(34, true)
+TDS:Upgrade(15, true)
+TDS:Upgrade(16, true)
+TDS:Upgrade(21, true)
+TDS:Upgrade(36, true)
+TDS:Upgrade(38, true)
+TDS:Upgrade(40, true)
+TDS:Place("Sniper", 2.0402259826660156, 2.9718568325042725, -10.023566246032715, true)
+TDS:Place("Sniper", -2.1127147674560547, 6.5423150062561035, -19.70242691040039, true)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(22, true)
+TDS:Upgrade(23, true)
+TDS:Upgrade(24, true)
+TDS:Upgrade(41, true)
+
+-- [[ END OF STRATEGY ]]
