@@ -1,0 +1,26 @@
+_G.AutoChain = true
+_G.AutoGatling = true
+_G.AutoMoonPuzzle = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.MatchTrackerEnabled = false
+_G.TimeScaleEnabled = true
+_G.TimeScaleValue = 0.5
+_G.AutoGatlingSettings = {bypass_boss_for_fast_enemies = true, gui_hidden = true, max_multi_targets = 2, prioritize_bosses = true, rainbow_bullet_lines = true, rgb_speed = 2, show_bullet_lines = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Necromancer", "Golden Minigunner", "Electroshocker", "Medic")
+TDS:Mode("Unknown")
+TDS:GameInfo("Unknown", {})
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
