@@ -1,0 +1,64 @@
+_G.AutoGatling = true
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {auto_fire = false, ignore_lead_mutation = false, ignore_sounds = false}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Demoman", "Hacker", "Gatling Gun", "EvolvedKingpin", "EvolvedJuggernaut")
+TDS:Mode("Act1")
+TDS:Place("Demoman", -7.898218154907227, 2.0544960498809814, 208.2513427734375)
+TDS:Upgrade(1)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Demoman", -7.99721622467041, 2.045302629470825, 205.21295166015625)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:SetTarget(2, "Last")
+TDS:SetTarget(2, "Strongest")
+TDS:SetTarget(2, "Strongest")
+TDS:Place("Demoman", -10.938015937805176, 2.0577402114868164, 208.21624755859375)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Demoman", -11.037216186523438, 2.1715197563171387, 205.21295166015625)
+TDS:SetTarget(4, "Last")
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:SetTarget(4, "Strongest")
+TDS:VoteSkip(5)
+
+-- [ Wave 6 ] --
+TDS:VoteSkip(6)
+
+-- [ Wave 7 ] --
+TDS:WaitForWave(7)
+TDS:Sell(4)
+TDS:Sell(3)
+TDS:Sell(2)
+TDS:Sell(1)
+TDS:VoteSkip(7)
+TDS:Place("Gatling Gun", -7.315244674682617, 8.861952781677246, 197.0040740966797)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+TDS:VoteSkip(8)
+
+-- [[ END OF STRATEGY ]]
