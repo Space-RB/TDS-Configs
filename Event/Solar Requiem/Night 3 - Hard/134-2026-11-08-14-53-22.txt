@@ -1,0 +1,171 @@
+_G.AutoGatling = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Demoman", "Hacker", "Gatling Gun", "EvolvedKingpin", "EvolvedJuggernaut")
+TDS:Mode("Act3")
+TDS:Place("Demoman", -1.0706615447998047, 103.73931121826172, 121.36012268066406)
+TDS:Ready()
+TDS:SetTarget(1, "Last")
+TDS:SetTarget(1, "Strongest")
+
+-- [ Wave 1 ] --
+TDS:Place("Demoman", -3.5156941413879395, 102.61359405517578, 97.81499481201172)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Demoman", -0.6723294258117676, 101.85295104980469, 97.03849792480469)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Demoman", -5.434372901916504, 102.36882781982422, 95.49005889892578)
+TDS:SetTarget(4, "Last")
+TDS:SetTarget(4, "Strongest")
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:VoteSkip(6)
+TDS:Place("Gatling Gun", 3.9714488983154297, 111.64690399169922, 95.45230865478516)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Place("Hacker", -0.7573833465576172, 104.62850952148438, 139.01284790039062)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Demoman", -4.063596725463867, 103.84769439697266, 121.57219696044922)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Place("Hacker", 1.8013010025024414, 103.53641510009766, 120.26106262207031)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Place("Demoman", -0.6243181228637695, 103.43683624267578, 118.40345764160156)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Demoman", -3.7768640518188477, 103.55052185058594, 118.57782745361328)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(3)
+TDS:Place("Demoman", 2.4364395141601562, 103.2445068359375, 117.32950592041016)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 20 ] --
+TDS:Place("Demoman", -3.052422523498535, 103.24659729003906, 115.64678955078125)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Demoman", 0.04279518127441406, 103.14928436279297, 115.396728515625)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Demoman", -2.496034622192383, 103.0114974975586, 109.12101745605469)
+TDS:Place("Demoman", 0.6338810920715332, 103.00130462646484, 108.81141662597656)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Demoman", 3.000690460205078, 103.17285919189453, 114.32501220703125)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(5)
+TDS:Place("Demoman", -5.321513652801514, 103.02896881103516, 107.98374938964844)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(5)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8, 2)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(6)
+TDS:Ability(8, "Hologram Tower")
+
+-- [ Wave 25 ] --
+TDS:Ability(8, "Hologram Tower", {towerPosition = Vector3.new(0.650538444519043, 102.90760803222656, 101.20672607421875), towerToClone = 5}, true)
+TDS:Place("EvolvedJuggernaut", 4.674532413482666, 102.96736907958984, 108.2249526977539)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18, 2)
+TDS:Upgrade(18, 2)
+TDS:Upgrade(18, 2)
+TDS:Upgrade(18, 2)
+
+-- [[ END OF STRATEGY ]]
