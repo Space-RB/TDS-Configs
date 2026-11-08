@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 79 recorded strategies available for this map**
+**📦 80 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -98,6 +98,7 @@ Select a strategy below and open its config file.
 | 77 | 2026-11-07 08:36 UTC | Easy | — | Golden Soldier, Shotgunner, None | [Open](77-2026-11-07-08-36-33.txt) |
 | 78 | 2026-11-07 13:40 UTC | Easy | — | Golden Soldier, Commander, None | [Open](78-2026-11-07-13-40-38.txt) |
 | 79 | 2026-11-07 13:52 UTC | Easy | — | Golden Soldier, Shotgunner, None | [Open](79-2026-11-07-13-52-34.txt) |
+| 80 | 2026-11-08 12:57 UTC | Easy | — | Gatling Gun, Assassin, DJ Booth, None | [Open](80-2026-11-08-12-57-58.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
