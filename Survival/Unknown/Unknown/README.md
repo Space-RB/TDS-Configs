@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 232 recorded strategies available for this map**
+**📦 233 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -251,6 +251,7 @@ Select a strategy below and open its config file.
 | 230 | 2026-11-07 20:57 UTC | Unknown | — | Assassin, Crook Boss, DJ Booth, EvolvedKingpin, Hacker | [Open](230-2026-11-07-20-57-19.txt) |
 | 231 | 2026-11-08 10:06 UTC | Unknown | — | Gatling Gun, Necromancer, Golden Minigunner, Electroshocker, Medic | [Open](231-2026-11-08-10-06-18.txt) |
 | 232 | 2026-11-08 11:53 UTC | Unknown | — | Gatling Gun, Assassin, EvolvedJuggernaut, Firework Technician, Hacker | [Open](232-2026-11-08-11-53-13.txt) |
+| 233 | 2026-11-08 20:25 UTC | Unknown | — | Trapper, None | [Open](233-2026-11-08-20-25-04.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
