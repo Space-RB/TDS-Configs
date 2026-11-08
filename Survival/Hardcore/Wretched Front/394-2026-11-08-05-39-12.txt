@@ -1,0 +1,171 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Farm", "Shotgunner", "Crook Boss", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Place("Farm", -11.926517486572266, 1.5557591915130615, 24.3731632232666)
+TDS:Place("Farm", -12.192339897155762, 1.5263227224349976, 27.903167724609375)
+TDS:Place("Farm", -11.812688827514648, 1.4664885997772217, 31.42275047302246)
+TDS:Upgrade(1)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(2)
+TDS:Place("Farm", -11.77248477935791, 1.3824137449264526, 34.962520599365234)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Place("Farm", -15.466367721557617, 1.5313584804534912, 24.40371322631836)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(5)
+TDS:Place("Farm", -15.732339859008789, 1.5455490350723267, 27.903167724609375)
+
+-- [ Wave 4 ] --
+TDS:Place("Pyromancer", 13.441861152648926, 1.2208056449890137, 27.319190979003906)
+TDS:Upgrade(7)
+TDS:Place("Farm", -15.328361511230469, 1.5469369888305664, 31.420042037963867)
+TDS:Upgrade(8)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 8 ] --
+TDS:Place("Farm", -15.312483787536621, 1.4652540683746338, 34.96000671386719)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(8)
+TDS:Place("Farm", -19.00619125366211, 1.8026223182678223, 24.43916893005371)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Farm", -18.576053619384766, 1.4537084102630615, 30.01146125793457)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", 16.119173049926758, 0.4144224524497986, 14.430871963500977)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", 16.89984703063965, 0.5509318709373474, 16.31558609008789)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 12 ] --
+TDS:Place("Shotgunner", 12.408904075622559, 0.4584106206893921, 16.139423370361328)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(4)
+TDS:Upgrade(9)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+
+-- [ Wave 17 ] --
+TDS:Place("Crook Boss", 8.18175220489502, 1.0209351778030396, 19.722612380981445)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 18 ] --
+TDS:Place("Crook Boss", 5.194021224975586, 1.208350658416748, 20.283931732177734)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 19 ] --
+TDS:Place("Crook Boss", 2.378443717956543, 1.258039116859436, 19.13758087158203)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Crook Boss", 6.417816638946533, 0.6573341488838196, 17.310352325439453)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Crook Boss", 1.2150859832763672, 0.7863476276397705, 16.32898712158203)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Shotgunner", 10.574249267578125, 0.5599483251571655, 16.990957260131836)
+TDS:Upgrade(20)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(20)
+TDS:Place("Shotgunner", 16.89984703063965, 0.6450455784797668, 18.355587005615234)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Place("Shotgunner", 6.534848213195801, 1.3881291151046753, 27.79818344116211)
+TDS:Upgrade(22)
+
+-- [ Wave 23 ] --
+TDS:Place("Shotgunner", -5.411832332611084, 1.5083657503128052, 33.59394073486328)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Place("Shotgunner", -3.4299066066741943, 1.4284920692443848, 38.82680130004883)
+TDS:Upgrade(24)
+TDS:VoteSkip(23)
+TDS:WaitForWave(23)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+TDS:Sell(5)
+TDS:Sell(6)
+TDS:Sell(7)
+TDS:Sell(8)
+TDS:Sell(9)
+TDS:Sell(10)
+TDS:Sell(11)
+TDS:Sell(12)
+TDS:Sell(13)
+TDS:Sell(14)
+TDS:Sell(15)
+TDS:Sell(16)
+TDS:Sell(17)
+TDS:Sell(18)
+TDS:Sell(19)
+TDS:Sell(20)
+TDS:Sell(21)
+TDS:Sell(22)
+TDS:Sell(23)
+TDS:Sell(24)
+
+-- [[ END OF STRATEGY ]]
