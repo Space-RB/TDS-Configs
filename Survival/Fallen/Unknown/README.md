@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 70 recorded strategies available for this map**
+**📦 71 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -89,6 +89,7 @@ Select a strategy below and open its config file.
 | 68 | 2026-11-08 18:37 UTC | Fallen | — | Hacker, DJ Booth, Golden Minigunner, Gatling Gun, Boomerang | [Open](68-2026-11-08-18-37-17.txt) |
 | 69 | 2026-11-08 18:37 UTC | Fallen | — | Hacker, DJ Booth, Golden Minigunner, Gatling Gun, Boomerang | [Open](69-2026-11-08-18-37-27.txt) |
 | 70 | 2026-11-08 19:27 UTC | Fallen | — | Hacker, DJ Booth, Golden Minigunner, Gatling Gun, Trapper | [Open](70-2026-11-08-19-27-05.txt) |
+| 71 | 2026-11-08 22:52 UTC | Fallen | — | DJ Booth, Golden Minigunner, Gatling Gun, Engineer, Necromancer | [Open](71-2026-11-08-22-52-35.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
