@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 55 | [Open](Simplicity/README.md) |
+| Abandoned City | 2 | [Open](Abandoned%20City/README.md) |
 
 | Unknown | 75 | [Open](Unknown/README.md) |
+| Simplicity | 55 | [Open](Simplicity/README.md) |
 | Lay By | 41 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 10 | [Open](Retro%20Crossroads/README.md) |
 | Winter Abyss | 6 | [Open](Winter%20Abyss/README.md) |
@@ -34,7 +35,6 @@ Choose one of the categories below to continue.
 | Crystal Cave | 2 | [Open](Crystal%20Cave/README.md) |
 | Pier Pressure | 2 | [Open](Pier%20Pressure/README.md) |
 | Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
-| Abandoned City | 1 | [Open](Abandoned%20City/README.md) |
 | Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
 | Construction Crazy | 1 | [Open](Construction%20Crazy/README.md) |
 | Dead Ahead | 1 | [Open](Dead%20Ahead/README.md) |
