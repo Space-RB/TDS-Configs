@@ -1,0 +1,61 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoPickups = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoGatlingSettings = {gui_hidden = true, show_bullet_lines = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Hacker", "DJ Booth", "Golden Minigunner", "Gatling Gun", "Boomerang")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Boomerang", -12.176467895507812, 1.0000005960464478, -3.4939441680908203)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("DJ Booth", -5.552394390106201, 0.9999887943267822, -3.6814918518066406)
+TDS:SetOption(2, "Track", "Green")
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Place("Minigunner", -1.4160027503967285, 0.9999831914901733, -3.753053665161133)
+TDS:Upgrade(3)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 12 ] --
+TDS:Place("Boomerang", 19.390377044677734, 0.9999901652336121, 3.956461191177368)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Place("Boomerang", 6.511098861694336, 0.9999831914901733, 2.9417810440063477)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:WaitForWave(13)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+TDS:Sell(5)
+
+-- [[ END OF STRATEGY ]]
