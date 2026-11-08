@@ -1,0 +1,80 @@
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Brawler", "Shotgunner", "Freezer", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {"Glass", "Limitation"})
+TDS:Ready()
+TDS:Place("Brawler", -23.73397445678711, 1.0000011920928955, -6.738431930541992)
+TDS:Place("Brawler", -20.477725982666016, 0.9999845027923584, -11.89012336730957)
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", -23.73397445678711, 1.0000008344650269, -4.698431968688965)
+
+-- [ Wave 2 ] --
+TDS:Place("Brawler", -18.5930118560791, 0.9999902248382568, -11.10944938659668)
+
+-- [ Wave 3 ] --
+TDS:Place("Brawler", -18.5930118560791, 0.9999873042106628, -9.069449424743652)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Place("Freezer", -15.536677360534668, 0.9999940991401672, -11.665084838867188)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 8 ] --
+TDS:Place("Shotgunner", -17.81233787536621, 1.0000011920928955, -7.184735298156738)
+TDS:Upgrade(7)
+
+-- [ Wave 9 ] --
+TDS:Place("Shotgunner", -17.81233787536621, 0.9999834895133972, -5.144735336303711)
+TDS:Upgrade(8)
+TDS:Place("Shotgunner", -17.81233787536621, 1.0000005960464478, -3.1047353744506836)
+
+-- [ Wave 10 ] --
+TDS:Place("Freezer", 4.432895183563232, 0.9999831914901733, -3.027170181274414)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(9)
+TDS:Place("Shotgunner", -16.570465087890625, 0.9999895095825195, -8.803175926208496)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]
