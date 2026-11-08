@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Chess Board | 1 | [Open](Chess%20Board/README.md) |
+| U-Turn | 6 | [Open](U-Turn/README.md) |
 
 | Unknown | 30 | [Open](Unknown/README.md) |
 | Dead Ahead | 12 | [Open](Dead%20Ahead/README.md) |
@@ -24,7 +24,6 @@ Choose one of the categories below to continue.
 | Black Spot Exchange | 8 | [Open](Black%20Spot%20Exchange/README.md) |
 | Retro Crossroads | 8 | [Open](Retro%20Crossroads/README.md) |
 | Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
-| U-Turn | 5 | [Open](U-Turn/README.md) |
 | Cataclysm | 4 | [Open](Cataclysm/README.md) |
 | Lay By | 4 | [Open](Lay%20By/README.md) |
 | Forest Camp | 3 | [Open](Forest%20Camp/README.md) |
@@ -35,6 +34,7 @@ Choose one of the categories below to continue.
 | The Heavens | 2 | [Open](The%20Heavens/README.md) |
 | Toyboard | 2 | [Open](Toyboard/README.md) |
 | Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
+| Chess Board | 1 | [Open](Chess%20Board/README.md) |
 | Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Night Station | 1 | [Open](Night%20Station/README.md) |
