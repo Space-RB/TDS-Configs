@@ -16,9 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Night 3 - Hard | 131 | [Open](Night%203%20-%20Hard/README.md) |
+| Night 1 - Hard | 103 | [Open](Night%201%20-%20Hard/README.md) |
 
-| Night 1 - Hard | 102 | [Open](Night%201%20-%20Hard/README.md) |
+| Night 3 - Hard | 131 | [Open](Night%203%20-%20Hard/README.md) |
 | Night 4 - Hard | 74 | [Open](Night%204%20-%20Hard/README.md) |
 | Night 2 - Hard | 40 | [Open](Night%202%20-%20Hard/README.md) |
 | Night 1 - Easy | 20 | [Open](Night%201%20-%20Easy/README.md) |
