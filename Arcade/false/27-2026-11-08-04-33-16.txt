@@ -1,0 +1,74 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Assassin", "DJ Booth", "EvolvedKingpin", "Engineer")
+TDS:Mode("Badlands")
+TDS:Ready()
+TDS:Place("Assassin", -4.549808979034424, 1.0000022649765015, 6.860948085784912)
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", -4.622870445251465, 1.0000022649765015, 4.850293159484863)
+TDS:Place("Assassin", -6.6816792488098145, 1.0000022649765015, 7.208526134490967)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Place("Gatling Gun", -7.850341796875, 4.6000075340271, -2.127192497253418)
+
+-- [ Wave 8 ] --
+TDS:Place("DJ Booth", -6.063174247741699, 0.9999865293502808, -4.809187889099121)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]
