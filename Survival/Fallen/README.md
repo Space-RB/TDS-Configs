@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Winter Stronghold | 1 | [Open](Winter%20Stronghold/README.md) |
+| Winter Stronghold | 2 | [Open](Winter%20Stronghold/README.md) |
 
 | Unknown | 68 | [Open](Unknown/README.md) |
 | Simplicity | 45 | [Open](Simplicity/README.md) |
