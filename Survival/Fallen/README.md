@@ -16,13 +16,13 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 43 | [Open](Simplicity/README.md) |
+| Winter Abyss | 5 | [Open](Winter%20Abyss/README.md) |
 
 | Unknown | 66 | [Open](Unknown/README.md) |
+| Simplicity | 43 | [Open](Simplicity/README.md) |
 | Lay By | 37 | [Open](Lay%20By/README.md) |
 | Cataclysm | 20 | [Open](Cataclysm/README.md) |
 | U-Turn | 9 | [Open](U-Turn/README.md) |
-| Winter Abyss | 4 | [Open](Winter%20Abyss/README.md) |
 | Toyboard | 3 | [Open](Toyboard/README.md) |
 | Abyssal Trench | 2 | [Open](Abyssal%20Trench/README.md) |
 | Dusty Bridges | 2 | [Open](Dusty%20Bridges/README.md) |
