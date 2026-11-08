@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 25 recorded strategies available for this map**
+**📦 26 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -43,6 +43,7 @@ Select a strategy below and open its config file.
 | 22 | 2026-11-05 15:15 UTC | Polluted Wasteland | — | Engineer, Hacker, EvolvedKingpin, EvolvedJuggernaut, Gatling Gun | [Open](22-2026-11-05-15-15-39.txt) |
 | 23 | 2026-11-05 15:58 UTC | Polluted Wasteland | — | Engineer, Hacker, Gatling Gun, EvolvedKingpin, EvolvedJuggernaut | [Open](23-2026-11-05-15-58-09.txt) |
 | 25 | 2026-11-05 16:52 UTC | Polluted Wasteland | — | Engineer, Hacker, Gatling Gun, Golden Minigunner, EvolvedJuggernaut | [Open](25-2026-11-05-16-52-37.txt) |
+| 26 | 2026-11-08 03:02 UTC | Pizza Party | — | EvolvedOperator, EvolvedEnforcer, None | [Open](26-2026-11-08-03-02-34.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
