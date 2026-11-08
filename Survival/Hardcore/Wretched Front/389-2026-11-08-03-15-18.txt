@@ -1,0 +1,67 @@
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedKingpin", "Shotgunner", "Pyromancer", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Pyromancer", -8.104219436645508, 0.9704595804214478, -31.360612869262695)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Place("Shotgunner", -11.079801559448242, 1.0428733825683594, -35.41035461425781)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", -11.183515548706055, 0.9648725986480713, -27.903871536254883)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Place("Pyromancer", -8.14050579071045, 1.000705361366272, -34.400394439697266)
+TDS:Upgrade(4)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(4)
+TDS:Place("Shotgunner", -11.15318489074707, 1.008163332939148, -31.966167449951172)
+TDS:Upgrade(5)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 20 ] --
+TDS:Place("EvolvedKingpin", 4.215791702270508, 1.3569729328155518, 22.385868072509766)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
