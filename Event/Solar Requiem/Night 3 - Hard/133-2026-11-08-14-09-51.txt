@@ -1,0 +1,258 @@
+_G.AutoGatling = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Demoman", "Hacker", "Gatling Gun", "EvolvedKingpin", "EvolvedJuggernaut")
+TDS:Mode("Act3")
+TDS:Place("Demoman", -1.3734760284423828, 103.75872039794922, 121.46919250488281)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Demoman", -4.03722620010376, 102.60670471191406, 97.87115478515625)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:SetTarget(1, "Last")
+TDS:SetTarget(1, "Strongest")
+
+-- [ Wave 4 ] --
+TDS:VoteSkip(4)
+TDS:WaitForWave(4)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Place("Demoman", -0.10582542419433594, 103.71076202392578, 121.37139129638672)
+TDS:Upgrade(3)
+TDS:SetTarget(3, "Last")
+TDS:SetTarget(3, "Strongest")
+TDS:Place("Demoman", -3.5071592330932617, 102.62057495117188, 97.84725189208984)
+TDS:Upgrade(4)
+TDS:Place("Demoman", -1.0819686651229858, 101.71240234375, 96.28324890136719)
+TDS:Upgrade(5)
+TDS:Place("Demoman", -5.564566135406494, 102.7711181640625, 100.16156768798828)
+TDS:Upgrade(6)
+TDS:SetTarget(6, "Last")
+TDS:SetTarget(6, "Strongest")
+
+-- [ Wave 6 ] --
+TDS:VoteSkip(6)
+TDS:Place("Gatling Gun", 3.695918560028076, 111.62032318115234, 95.49687957763672)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+TDS:VoteSkip(8)
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:SetTarget(3, "Last")
+TDS:SetTarget(3, "First")
+
+-- [ Wave 10 ] --
+TDS:Upgrade(7)
+TDS:Place("Demoman", -0.3959789276123047, 103.42320251464844, 118.34420776367188)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Demoman", -2.937699317932129, 103.91287231445312, 122.59112548828125)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Demoman", -3.2412538528442383, 103.62799072265625, 119.54436492919922)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Place("Hacker", -0.7863368988037109, 104.61613464355469, 138.1557159423828)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Hacker", 2.4450902938842773, 103.47828674316406, 119.78437042236328)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+TDS:Upgrade(3)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(9)
+TDS:Place("Demoman", 2.2924671173095703, 103.24237823486328, 116.67042541503906)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 19 ] --
+TDS:Place("Demoman", -5.771039962768555, 103.84520721435547, 121.36508178710938)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Demoman", -0.49014854431152344, 103.12718200683594, 115.2478256225586)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Demoman", -3.27138614654541, 103.33637237548828, 116.51107788085938)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(7)
+TDS:Place("Demoman", 2.5443830490112305, 103.77670288085938, 122.83030700683594)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Demoman", 5.250607013702393, 103.35250091552734, 118.07966613769531)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 21 ] --
+TDS:Place("Demoman", 3.491917610168457, 104.06210327148438, 125.81246948242188)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Demoman", 0.4288911819458008, 104.06216430664062, 125.16510009765625)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(12, 2)
+
+-- [ Wave 24 ] --
+TDS:Place("Demoman", 3.4321823120117188, 103.1550064086914, 113.88468933105469)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Place("Demoman", 6.314383506774902, 103.23048400878906, 115.27517700195312)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+
+-- [ Wave 25 ] --
+TDS:Ability(12, "Hologram Tower")
+TDS:Ability(12, "Hologram Tower", {towerPosition = Vector3.new(1.1613273620605469, 102.9046859741211, 101.23662567138672), towerToClone = 7}, true)
+TDS:Place("Demoman", -2.6309866905212402, 103.01032257080078, 109.0774917602539)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Place("Demoman", -5.510981559753418, 103.1259765625, 114.43026733398438)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Place("Demoman", -6.115226745605469, 103.50892639160156, 118.25898742675781)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Demoman", -2.858574867248535, 104.20109558105469, 125.60420227050781)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Place("Demoman", -5.935696601867676, 104.17801666259766, 124.58778381347656)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Place("Demoman", 1.5727720260620117, 104.29505920410156, 128.58120727539062)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Place("Demoman", -1.7791051864624023, 104.39950561523438, 128.9796142578125)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Place("Demoman", -5.372832775115967, 104.55499267578125, 128.27658081054688)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Place("Demoman", 0.5229167938232422, 103.01551055908203, 109.30470275878906)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Place("Demoman", 3.5978713035583496, 102.97201538085938, 108.22320556640625)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Place("Demoman", 6.571225166320801, 102.90143585205078, 107.54432678222656)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Place("Demoman", 10.914974212646484, 103.10940551757812, 118.98918914794922)
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Place("EvolvedJuggernaut", -2.081988573074341, 103.04579162597656, 104.97743225097656)
+TDS:Upgrade(35)
+TDS:Upgrade(35)
+TDS:Upgrade(35)
+TDS:Upgrade(35, 2)
+TDS:Upgrade(35, 2)
+TDS:Upgrade(35, 2)
+TDS:Upgrade(35, 2)
+TDS:VoteSkip(25)
+
+-- [[ END OF STRATEGY ]]
