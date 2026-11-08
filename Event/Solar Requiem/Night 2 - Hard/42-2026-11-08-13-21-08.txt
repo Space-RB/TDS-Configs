@@ -1,0 +1,99 @@
+_G.AutoGatling = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Demoman", "Hacker", "Gatling Gun", "EvolvedKingpin", "EvolvedJuggernaut")
+TDS:Mode("Act2")
+TDS:Place("Demoman", 2.7271370887756348, 48.21632385253906, -4.673182010650635)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Demoman", 2.579094886779785, 47.95924377441406, 4.546230792999268)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:SetTarget(2, "Last")
+TDS:SetTarget(2, "Strongest")
+TDS:SetTarget(2, "Strongest")
+
+-- [ Wave 5 ] --
+TDS:VoteSkip(5)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:VoteSkip(8)
+TDS:Place("Gatling Gun", 1.843156099319458, 47.66975784301758, -11.459945678710938)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 17 ] --
+TDS:Place("Demoman", 0.14783787727355957, 48.018150329589844, -3.0513064861297607)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Place("Demoman", -0.7886466979980469, 48.095245361328125, -0.08366599678993225)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 18 ] --
+TDS:Place("Hacker", -0.3268394470214844, 47.834774017333984, 2.9720606803894043)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Hacker", 8.357674598693848, 47.75244903564453, 19.05815887451172)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 20 ] --
+TDS:Place("Demoman", 5.669892311096191, 48.254940032958984, 4.479222297668457)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6, 2)
+TDS:Ability(6, "Hologram Tower", {towerPosition = Vector3.new(-1.0513238906860352, 47.505279541015625, -15.455869674682617), towerToClone = 3})
+
+-- [[ END OF STRATEGY ]]
