@@ -1,0 +1,36 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Farm", "Boomerang", "Crook Boss", "Minigunner", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Minigunner", 5.276604652404785, 1.3573386669158936, 22.666318893432617)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Place("Minigunner", 6.496148109436035, 1.3885579109191895, 27.826244354248047)
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
