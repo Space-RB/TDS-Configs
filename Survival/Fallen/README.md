@@ -16,9 +16,8 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Winter Stronghold | 2 | [Open](Winter%20Stronghold/README.md) |
+| Unknown | 69 | [Open](Unknown/README.md) |
 
-| Unknown | 68 | [Open](Unknown/README.md) |
 | Simplicity | 45 | [Open](Simplicity/README.md) |
 | Lay By | 37 | [Open](Lay%20By/README.md) |
 | Cataclysm | 21 | [Open](Cataclysm/README.md) |
@@ -29,6 +28,7 @@ Choose one of the categories below to continue.
 | Dusty Bridges | 2 | [Open](Dusty%20Bridges/README.md) |
 | Retro Crossroads | 2 | [Open](Retro%20Crossroads/README.md) |
 | Summer Castle | 2 | [Open](Summer%20Castle/README.md) |
+| Winter Stronghold | 2 | [Open](Winter%20Stronghold/README.md) |
 | Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
 | Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
