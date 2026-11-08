@@ -1,0 +1,250 @@
+_G.AntiLag = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Assassin", "DJ Booth", "EvolvedKingpin", "Engineer")
+TDS:Mode("Badlands")
+TDS:Place("Assassin", -4.566201686859131, 1.0000022649765015, 6.845347881317139)
+TDS:Place("Assassin", -4.566201686859131, 1.0000022649765015, 4.805347442626953)
+TDS:Place("Assassin", -6.582767486572266, 1.0000022649765015, 7.189908027648926)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:VoteSkip(2)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:VoteSkip(4)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:VoteSkip(5)
+
+-- [ Wave 6 ] --
+TDS:VoteSkip(6)
+
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+TDS:Place("Gatling Gun", -7.566246032714844, 4.6000075340271, -2.0885064601898193)
+
+-- [ Wave 8 ] --
+TDS:Place("DJ Booth", -5.797229766845703, 0.9999865293502808, -5.157436370849609)
+TDS:Upgrade(5)
+TDS:SetOption(5, "Track", "Green")
+TDS:VoteSkip(8)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 22 ] --
+TDS:Place("Engineer", 0.19309061765670776, 1.0000022649765015, 7.865472793579102)
+TDS:Place("Engineer", 3.23309063911438, 1.0000022649765015, 7.865472793579102)
+TDS:Place("Engineer", 0.47136056423187256, 1.0000022649765015, 4.86250114440918)
+TDS:Place("Engineer", 3.5113606452941895, 1.0000022649765015, 4.86250114440918)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Engineer", 0.736282229423523, 1.0000022649765015, 1.8313102722167969)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Engineer", 3.7762811183929443, 1.0000022649765015, 1.834066390991211)
+TDS:VoteSkip(24)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("EvolvedKingpin", 0.7700188159942627, 1.0000022649765015, -1.195892333984375)
+TDS:Place("EvolvedKingpin", 3.7762811183929443, 1.0000022649765015, -1.2059335708618164)
+TDS:Place("EvolvedKingpin", 0.8147586584091187, 1.0000022649765015, -4.195991516113281)
+TDS:Place("EvolvedKingpin", 3.8543646335601807, 1.0000022649765015, -4.244930267333984)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12, 2)
+TDS:SetOption(12, "Unit 1", "Bouncer")
+TDS:SetOption(12, "Unit 2", "Bouncer")
+TDS:SetOption(12, "Unit 3", "Bouncer")
+TDS:Upgrade(12, 2)
+TDS:VoteSkip(25)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(12, 2)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13, 2)
+TDS:SetOption(13, "Unit 1", "Bouncer")
+TDS:WaitForWave(26)
+TDS:Sell(13)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Sell(15)
+TDS:Place("EvolvedKingpin", 3.7762811183929443, 1.0000022649765015, -1.2059335708618164)
+TDS:Place("EvolvedKingpin", 3.8543646335601807, 1.0000022649765015, -4.244930267333984)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16, 2)
+TDS:Upgrade(16, 2)
+TDS:SetOption(16, "Unit 1", "Bouncer")
+TDS:SetOption(16, "Unit 2", "Bouncer")
+TDS:SetOption(16, "Unit 3", "Bouncer")
+
+-- [ Wave 27 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17, 2)
+TDS:Upgrade(17, 2)
+TDS:SetOption(17, "Unit 1", "Bouncer")
+TDS:SetOption(17, "Unit 2", "Bouncer")
+TDS:SetOption(17, "Unit 3", "Bouncer")
+TDS:Upgrade(17, 2)
+TDS:Upgrade(16, 2)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14, 2)
+TDS:Upgrade(14, 2)
+TDS:SetOption(14, "Unit 1", "Bouncer")
+TDS:SetOption(14, "Unit 2", "Bouncer")
+TDS:SetOption(14, "Unit 3", "Bouncer")
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:SetOption(5, "Track", "Red")
+TDS:Upgrade(1)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Place("Assassin", -4.712283134460449, 1.0000022649765015, 2.792525291442871)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Assassin", -8.641746520996094, 1.0000022649765015, 7.334222793579102)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Assassin", -10.739846229553223, 1.0000022649765015, 7.289072036743164)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Assassin", -12.77984619140625, 1.0000022649765015, 7.289072036743164)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Place("Assassin", 0.8924665451049805, 1.0000022649765015, -7.405973434448242)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:VoteSkip(28)
+
+-- [ Wave 29 ] --
+TDS:Place("Assassin", -5.263073444366455, 0.9999865293502808, -8.672195434570312)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Place("Assassin", 2.7771806716918945, 1.0000022649765015, -8.186647415161133)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Place("Assassin", 4.958792209625244, 1.0000022649765015, -8.481199264526367)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Place("Assassin", -0.4307158291339874, 1.0000020265579224, -12.318899154663086)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:VoteSkip(29)
+
+-- [[ END OF STRATEGY ]]
