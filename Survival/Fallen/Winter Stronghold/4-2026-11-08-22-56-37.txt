@@ -1,0 +1,51 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoNecro = true
+_G.AutoPickups = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoGatlingSettings = {gui_hidden = true, show_bullet_lines = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("DJ Booth", "Golden Minigunner", "Gatling Gun", "Engineer", "Necromancer")
+TDS:Mode("Fallen")
+TDS:GameInfo("Winter Stronghold", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Engineer", -18.109331130981445, -0.1600109338760376, 35.100650787353516)
+
+-- [ Wave 2 ] --
+TDS:Place("Engineer", 20.21959114074707, -0.16000603139400482, -6.641202926635742)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("DJ Booth", -8.84105110168457, -0.1600121408700943, 28.500579833984375)
+TDS:SetOption(3, "Track", "Green")
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:WaitForWave(9)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+
+-- [[ END OF STRATEGY ]]
