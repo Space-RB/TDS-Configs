@@ -1,0 +1,142 @@
+_G.AutoChain = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedJuggernaut", "Shotgunner", "Pyromancer", "Farm", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Farm", -10.44363784790039, 1.5463770627975464, 26.751081466674805)
+TDS:Place("Farm", -10.58182430267334, 1.4988188743591309, 30.26529312133789)
+TDS:Place("Farm", -10.814460754394531, 1.4275693893432617, 33.79764175415039)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", -11.048447608947754, 1.3357574939727783, 37.32987594604492)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Place("Pyromancer", 11.023056030273438, 1.2826951742172241, 22.663898468017578)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", -13.966778755187988, 1.5898118019104004, 26.406003952026367)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Farm", -13.92816162109375, 1.5421489477157593, 31.420120239257812)
+TDS:Upgrade(7)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(7)
+TDS:Place("Farm", -14.265864372253418, 1.4272149801254272, 35.06931686401367)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+TDS:Place("Shotgunner", 11.792591094970703, 1.2099379301071167, 29.634750366210938)
+TDS:Upgrade(9)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(9)
+TDS:Place("Shotgunner", 11.623495101928711, 1.2515859603881836, 27.296052932739258)
+TDS:Upgrade(10)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(10)
+TDS:Place("Shotgunner", 15.569087028503418, 1.149695873260498, 29.55694580078125)
+TDS:Upgrade(11)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(11)
+TDS:Place("Shotgunner", 15.569087028503418, 1.1382323503494263, 27.516944885253906)
+TDS:Upgrade(12)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6)
+TDS:Place("Farm", -14.233720779418945, 1.2339277267456055, 38.97063446044922)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 16 ] --
+TDS:Place("Farm", -10.587459564208984, 1.2450249195098877, 40.80347442626953)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Shotgunner", 13.47314167022705, 1.2127034664154053, 28.318286895751953)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Farm", -6.9604315757751465, 1.370805025100708, 38.80864715576172)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(13)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 18 ] --
+TDS:Place("EvolvedJuggernaut", 4.794472694396973, 1.2807358503341675, 21.006126403808594)
+
+-- [ Wave 19 ] --
+TDS:Place("Shotgunner", 6.543227195739746, 1.3880763053894043, 27.81095314025879)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(5)
+TDS:Upgrade(17)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(17)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(5)
+TDS:Place("Shotgunner", 4.503211975097656, 1.407533049583435, 27.810956954956055)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [ Wave 22 ] --
+TDS:Place("Shotgunner", 13.606871604919434, 1.209265112876892, 26.282691955566406)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(17)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(17, 2)
+
+-- [[ END OF STRATEGY ]]
