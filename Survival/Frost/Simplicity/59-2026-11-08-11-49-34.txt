@@ -1,0 +1,92 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Scout", "Shotgunner", "EvolvedKingpin", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+TDS:Place("Scout", -12.16159725189209, 1.0000005960464478, -3.436483860015869)
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", -9.121597290039062, 1.0000005960464478, -3.436483860015869)
+TDS:Place("Scout", -12.43890380859375, 1.0000001192092896, -0.40915775299072266)
+TDS:Place("Scout", -9.398903846740723, 0.9999831914901733, -0.40915799140930176)
+TDS:Place("Scout", -8.820962905883789, 0.9999867081642151, -9.576375007629395)
+
+-- [ Wave 2 ] --
+TDS:Place("Scout", -11.803352355957031, 0.9999873042106628, -8.987347602844238)
+TDS:Place("Scout", -14.839244842529297, 0.9999889731407166, -8.829365730285645)
+TDS:Place("Scout", -11.541427612304688, 0.9999843835830688, -12.016042709350586)
+TDS:Place("Scout", -14.885298728942871, 0.9999932050704956, -11.869016647338867)
+TDS:Place("Scout", -18.20611572265625, 0.9999908804893494, -11.157015800476074)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+TDS:Upgrade(6)
+TDS:Upgrade(8)
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Place("Shotgunner", -18.1512508392334, 1.0000003576278687, -1.8067536354064941)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 7 ] --
+TDS:Place("Shotgunner", -18.038434982299805, 1.0000007152557373, -4.131444931030273)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(12)
+TDS:Place("Shotgunner", -18.204097747802734, 0.9999834895133972, -6.164707183837891)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", -17.898378372192383, 0.9999874830245972, -8.405292510986328)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 12 ] --
+TDS:Place("Shotgunner", -1.6510295867919922, 0.9999831914901733, 3.3266563415527344)
+TDS:Upgrade(15)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(11)
+TDS:Place("Shotgunner", -20.523578643798828, 0.999984622001648, -12.196708679199219)
+TDS:Upgrade(16)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(12)
+TDS:Place("Shotgunner", -24.03467559814453, 1.000001072883606, -6.018529891967773)
+TDS:Upgrade(17)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(17)
+
+-- [ Wave 16 ] --
+TDS:Place("EvolvedKingpin", -0.3258352279663086, 0.9999831914901733, -3.3587279319763184)
+TDS:Place("Scout", -12.302580833435059, 1.0000005960464478, -3.316981315612793)
+TDS:Upgrade(19)
+
+-- [[ END OF STRATEGY ]]
