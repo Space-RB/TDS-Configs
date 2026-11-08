@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 142 recorded strategies available for this map**
+**📦 143 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -161,6 +161,7 @@ Select a strategy below and open its config file.
 | 140 | 2026-11-07 20:33 UTC | Hardcore | — | Engineer, Commander, DJ Booth, Pyromancer, Jester | [Open](140-2026-11-07-20-33-11.txt) |
 | 141 | 2026-11-08 02:17 UTC | Hardcore | — | None | [Open](141-2026-11-08-02-17-57.txt) |
 | 142 | 2026-11-08 02:33 UTC | Hardcore | — | Farm, Crook Boss, Boomerang, None | [Open](142-2026-11-08-02-33-43.txt) |
+| 143 | 2026-11-08 14:21 UTC | Hardcore | — | EvolvedJuggernaut, Soldier, None | [Open](143-2026-11-08-14-21-16.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
