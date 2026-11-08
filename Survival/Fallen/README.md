@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 45 | [Open](Simplicity/README.md) |
+| Winter Stronghold | 1 | [Open](Winter%20Stronghold/README.md) |
 
 | Unknown | 68 | [Open](Unknown/README.md) |
+| Simplicity | 45 | [Open](Simplicity/README.md) |
 | Lay By | 37 | [Open](Lay%20By/README.md) |
 | Cataclysm | 21 | [Open](Cataclysm/README.md) |
 | U-Turn | 9 | [Open](U-Turn/README.md) |
