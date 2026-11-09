@@ -1,0 +1,98 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedOperator", "None", "None", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Lay By", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", -2.8036928176879883, 243, 159.98768615722656)
+
+-- [ Wave 2 ] --
+TDS:Place("EvolvedOperator", -2.898970127105713, 243, 162.709228515625)
+TDS:Place("EvolvedOperator", -2.854006290435791, 243, 165.39547729492188)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("EvolvedOperator", -5.343682289123535, 243, 159.98045349121094)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Place("EvolvedOperator", -5.468764781951904, 243, 162.51632690429688)
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Place("EvolvedOperator", -5.390446662902832, 243, 165.1689453125)
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Place("EvolvedOperator", -7.930313587188721, 243, 165.14295959472656)
+TDS:Upgrade(7)
+TDS:Place("EvolvedOperator", -8.00662899017334, 243, 162.4121856689453)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(7)
+TDS:Place("EvolvedOperator", -8.05915355682373, 243, 159.8546142578125)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(9)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4)
+TDS:Place("EvolvedOperator", -5.487729549407959, 243, 157.40142822265625)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("EvolvedOperator", -2.899228811264038, 243, 157.3607635498047)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("EvolvedOperator", -8.027093887329102, 243, 157.34463500976562)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 15 ] --
+TDS:Place("EvolvedOperator", -2.7755753993988037, 243, 167.93426513671875)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("EvolvedOperator", -5.303876876831055, 243, 167.69076538085938)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(6)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [[ END OF STRATEGY ]]
