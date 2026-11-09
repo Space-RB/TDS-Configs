@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 86 | [Open](Unknown/README.md) |
+| Crossroads | 2 | [Open](Crossroads/README.md) |
 
+| Unknown | 86 | [Open](Unknown/README.md) |
 | Gilded Path | 50 | [Open](Gilded%20Path/README.md) |
 | Dead Ahead | 23 | [Open](Dead%20Ahead/README.md) |
 | Black Spot Exchange | 5 | [Open](Black%20Spot%20Exchange/README.md) |
@@ -26,7 +27,6 @@ Choose one of the categories below to continue.
 | Night Station | 2 | [Open](Night%20Station/README.md) |
 | Cataclysm | 1 | [Open](Cataclysm/README.md) |
 | Construction Crazy | 1 | [Open](Construction%20Crazy/README.md) |
-| Crossroads | 1 | [Open](Crossroads/README.md) |
 | Cyber City | 1 | [Open](Cyber%20City/README.md) |
 | Four Seasons | 1 | [Open](Four%20Seasons/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
