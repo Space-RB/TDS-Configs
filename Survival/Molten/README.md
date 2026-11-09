@@ -16,10 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| The Heights | 1 | [Open](The%20Heights/README.md) |
+| Dead Ahead | 13 | [Open](Dead%20Ahead/README.md) |
 
 | Unknown | 34 | [Open](Unknown/README.md) |
-| Dead Ahead | 12 | [Open](Dead%20Ahead/README.md) |
 | Simplicity | 10 | [Open](Simplicity/README.md) |
 | Black Spot Exchange | 9 | [Open](Black%20Spot%20Exchange/README.md) |
 | Retro Crossroads | 8 | [Open](Retro%20Crossroads/README.md) |
@@ -43,6 +42,7 @@ Choose one of the categories below to continue.
 | Retro Stained Temple | 1 | [Open](Retro%20Stained%20Temple/README.md) |
 | Sky Islands | 1 | [Open](Sky%20Islands/README.md) |
 | Spring Fever | 1 | [Open](Spring%20Fever/README.md) |
+| The Heights | 1 | [Open](The%20Heights/README.md) |
 | Tropical Isles | 1 | [Open](Tropical%20Isles/README.md) |
 | Winter Abyss | 1 | [Open](Winter%20Abyss/README.md) |
 </div>
