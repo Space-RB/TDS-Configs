@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 5 recorded strategies available for this map**
+**📦 6 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -24,6 +24,7 @@ Select a strategy below and open its config file.
 | 3 | 2026-10-19 16:51 UTC | Casual | — | Minigunner, Electroshocker, Turret, Assassin, Commander | [Open](3-2026-10-19-16-51-14.txt) |
 | 4 | 2026-11-06 14:24 UTC | Casual | — | Soldier, Pyromancer, Shotgunner, EvolvedKingpin, None | [Open](4-2026-11-06-14-24-02.txt) |
 | 5 | 2026-11-09 17:16 UTC | Casual | — | Sniper, Demoman, Soldier, None | [Open](5-2026-11-09-17-16-07.txt) |
+| 6 | 2026-11-09 17:24 UTC | Casual | — | Sniper, Demoman, Soldier, None | [Open](6-2026-11-09-17-24-06.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
