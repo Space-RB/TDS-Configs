@@ -1,0 +1,55 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.TimeScaleEnabled = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Snowballer", "Commander", "None", "None", "None")
+TDS:Mode("Act4")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Snowballer", 3.4715704917907715, 0.9999848008155823, -25.190582275390625)
+TDS:Place("Snowballer", 5.957143783569336, 0.9999830722808838, -24.838150024414062)
+TDS:Place("Snowballer", 8.50875186920166, 0.9999817609786987, -24.87538719177246)
+TDS:Place("Snowballer", 11.005352973937988, 1.0000015497207642, -24.67964744567871)
+TDS:Place("Snowballer", 3.4715704917907715, 0.9999815225601196, -22.65058135986328)
+TDS:Place("Snowballer", 5.957143783569336, 0.9999797940254211, -22.29814910888672)
+TDS:Place("Snowballer", 8.741000175476074, 0.9999784231185913, -22.346027374267578)
+TDS:Place("Snowballer", 12.184101104736328, 0.9999740123748779, -22.429725646972656)
+TDS:Place("Snowballer", 3.4715704917907715, 0.999978244304657, -20.110580444335938)
+TDS:Place("Snowballer", 5.957143783569336, 0.9999765157699585, -19.758148193359375)
+TDS:Place("Snowballer", 8.496442794799805, 0.999975323677063, -19.817829132080078)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Place("Snowballer", 11.01472282409668, 0.9999744296073914, -20.1492862701416)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Upgrade(9)
+TDS:Upgrade(6)
+TDS:Upgrade(10)
+
+-- [[ END OF STRATEGY ]]
