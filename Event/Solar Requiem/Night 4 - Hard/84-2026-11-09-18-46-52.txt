@@ -1,0 +1,56 @@
+_G.AutoGatling = true
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.MatchTrackerEnabled = false
+_G.AutoGatlingSettings = {gui_hidden = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Mercenary Base", "Hacker", "Engineer", "Assassin")
+TDS:Mode("Act4")
+TDS:Ready()
+TDS:Place("Assassin", 3.6588239669799805, 0.9999847412109375, -25.222692489624023)
+TDS:Place("Assassin", -3.6500892639160156, 1.0377764701843262, -33.18082809448242)
+TDS:Place("Assassin", 3.3984384536743164, 1.000002145767212, -32.59813690185547)
+TDS:Place("Engineer", -9.188497543334961, 1.0000019073486328, -25.8134765625)
+TDS:Place("Engineer", -3.6533255577087402, 0.9999890923500061, -25.664222717285156)
+TDS:Place("Engineer", -6.486429691314697, 1.0000019073486328, -24.49274444580078)
+TDS:Upgrade(2)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Engineer", -8.828200340270996, 1.0000016689300537, -22.603347778320312)
+TDS:Upgrade(7)
+
+-- [ Wave 6 ] --
+TDS:Place("Assassin", -16.506656646728516, 1.0601431131362915, -32.7281494140625)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Engineer", -14.440482139587402, 0.9999997615814209, 2.9752655029296875)
+TDS:Upgrade(9)
+
+-- [ Wave 7 ] --
+TDS:Place("Assassin", -3.6795907020568848, 0.9999988079071045, 15.724315643310547)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Assassin", -23.888883590698242, 1.1378837823867798, 4.887482643127441)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Assassin", -4.255157470703125, 0.9999924898147583, 23.990915298461914)
+
+-- [[ END OF STRATEGY ]]
