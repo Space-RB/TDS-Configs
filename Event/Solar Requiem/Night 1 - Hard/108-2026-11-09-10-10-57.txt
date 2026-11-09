@@ -1,0 +1,127 @@
+_G.AutoGatling = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Scout", "Hacker", "EvolvedKingpin", "Gatling Gun", "EvolvedJuggernaut")
+TDS:Mode("Act1")
+TDS:Place("Scout", 12.055163383483887, 2.056804895401001, 195.7320556640625)
+TDS:Place("Scout", 12.024025917053223, 2.0262110233306885, 198.7794647216797)
+TDS:Place("Scout", 14.632514953613281, 2.0294649600982666, 197.27505493164062)
+TDS:Place("Scout", 14.602087020874023, 2.0414962768554688, 200.3729705810547)
+TDS:Place("Scout", 14.683659553527832, 2.0009992122650146, 194.1739501953125)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Place("Scout", 11.982629776000977, 2.093432903289795, 201.86331176757812)
+
+-- [ Wave 2 ] --
+TDS:Place("Scout", 9.40139102935791, 2.0009992122650146, 194.23048400878906)
+TDS:Place("Scout", 9.359495162963867, 2.0644617080688477, 197.3505859375)
+
+-- [ Wave 3 ] --
+TDS:Place("Scout", 9.194021224975586, 2.0085833072662354, 200.59326171875)
+TDS:Upgrade(9)
+TDS:Upgrade(6)
+TDS:VoteSkip(3)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:VoteSkip(4)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(7)
+TDS:VoteSkip(5)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(9)
+TDS:VoteSkip(7)
+TDS:Upgrade(6)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(4)
+TDS:VoteSkip(8)
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+TDS:VoteSkip(9)
+TDS:Upgrade(8)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+TDS:VoteSkip(10)
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(9)
+TDS:VoteSkip(11)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(6)
+TDS:Place("Gatling Gun", 9.541808128356934, 6.817065238952637, 204.3062744140625)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(2)
+TDS:VoteSkip(13)
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(4)
+TDS:VoteSkip(14)
+TDS:Upgrade(1)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+TDS:Place("Scout", 6.80880880355835, 2.0009994506835938, 192.24818420410156)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Scout", 6.569396495819092, 2.0009989738464355, 195.4241485595703)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(5)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Scout", 6.529266357421875, 2.0009984970092773, 198.4982452392578)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:VoteSkip(15)
+
+-- [[ END OF STRATEGY ]]
