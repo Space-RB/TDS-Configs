@@ -1,0 +1,26 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.TimeScaleEnabled = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Snowballer", "Commander", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Dead Ahead", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Snowballer", -5.537102222442627, 0.9999970197677612, -34.59814453125)
+TDS:Upgrade(1)
+TDS:Place("Snowballer", -5.391068935394287, 1.0000052452087402, -32.062347412109375)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Place("Snowballer", -0.12262767553329468, 1.0200059413909912, -36.400611877441406)
+
+-- [[ END OF STRATEGY ]]
