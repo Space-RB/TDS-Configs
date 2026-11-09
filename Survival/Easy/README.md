@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 83 | [Open](Unknown/README.md) |
+| Winter Stronghold | 1 | [Open](Winter%20Stronghold/README.md) |
 
+| Unknown | 83 | [Open](Unknown/README.md) |
 | Gilded Path | 50 | [Open](Gilded%20Path/README.md) |
 | Dead Ahead | 23 | [Open](Dead%20Ahead/README.md) |
 | Black Spot Exchange | 5 | [Open](Black%20Spot%20Exchange/README.md) |
