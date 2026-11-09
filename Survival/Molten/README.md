@@ -16,9 +16,8 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
+| Unknown | 34 | [Open](Unknown/README.md) |
 
-| Unknown | 33 | [Open](Unknown/README.md) |
 | Dead Ahead | 12 | [Open](Dead%20Ahead/README.md) |
 | Simplicity | 10 | [Open](Simplicity/README.md) |
 | Black Spot Exchange | 8 | [Open](Black%20Spot%20Exchange/README.md) |
@@ -35,6 +34,7 @@ Choose one of the categories below to continue.
 | The Heavens | 2 | [Open](The%20Heavens/README.md) |
 | Toyboard | 2 | [Open](Toyboard/README.md) |
 | Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
+| Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
 | Chess Board | 1 | [Open](Chess%20Board/README.md) |
 | Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
