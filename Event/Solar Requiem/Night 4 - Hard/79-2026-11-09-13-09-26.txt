@@ -1,0 +1,310 @@
+_G.AutoGatling = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Scout", "Hacker", "EvolvedKingpin", "Gatling Gun", "EvolvedJuggernaut")
+TDS:Mode("Act4")
+TDS:Place("Scout", -3.6821346282958984, 0.9999892115592957, -25.746768951416016)
+TDS:Place("Scout", -3.675449848175049, 0.9999852180480957, -22.703636169433594)
+TDS:Place("Scout", -9.07559585571289, 1.0000019073486328, -25.96622657775879)
+TDS:Place("Scout", 3.653493881225586, 0.9999801516532898, -21.643383026123047)
+TDS:Place("Scout", -16.541446685791016, 1.05697762966156, -32.8465576171875)
+TDS:Place("Scout", -6.326846122741699, 1.076993465423584, -25.947460174560547, true)
+TDS:Place("Scout", -6.376410484313965, 1.0000019073486328, -24.41718292236328)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(6, true)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(7)
+TDS:Upgrade(3)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+
+-- [ Wave 8 ] --
+TDS:Place("Gatling Gun", -1.9446941614151, 7.976963996887207, -8.388895034790039)
+TDS:Upgrade(4)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(6, true)
+TDS:Upgrade(6, true)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Hacker", 3.439441204071045, 0.9999843835830688, -24.82124900817871)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 12 ] --
+TDS:Place("Hacker", -9.037702560424805, 1.0000017881393433, -22.923301696777344)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(6, true)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Place("Scout", 3.3968796730041504, 1.045884132385254, -18.41765785217285)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Scout", 6.593257904052734, 0.999983012676239, -25.03996467590332)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(12)
+TDS:Place("Scout", 6.685576438903809, 0.9999788999557495, -21.901906967163086)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Scout", -6.400436878204346, 1.0377761125564575, -33.25831985473633)
+TDS:Place("Scout", -3.686190128326416, 1.0000007152557373, -34.600860595703125)
+TDS:Place("Scout", -3.7354984283447266, 1.1558644771575928, -37.668426513671875)
+
+-- [ Wave 16 ] --
+TDS:Place("Scout", -6.475136756896973, 1.0565940141677856, -36.38947296142578)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(17)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(8)
+TDS:Place("Scout", 6.458778381347656, 0.9999749660491943, -18.784130096435547)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Scout", 9.604483604431152, 0.9999786615371704, -24.64559555053711)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Scout", 9.77954387664795, 0.9999768137931824, -21.479969024658203)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("EvolvedKingpin", -6.401556491851807, 1.0000016689300537, -21.40706443786621)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21, 2)
+TDS:SetOption(21, "Unit 1", "Bouncer")
+TDS:SetOption(21, "Unit 2", "Bouncer")
+TDS:SetOption(21, "Unit 3", "Bouncer")
+
+-- [ Wave 20 ] --
+TDS:Upgrade(21, 2)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(21, 2)
+
+-- [ Wave 22 ] --
+TDS:Place("EvolvedJuggernaut", -3.6562747955322266, 1.0400004386901855, -18.31912612915039)
+TDS:Place("EvolvedKingpin", -7.785314559936523, 1.0399999618530273, -18.656295776367188)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23, 2)
+
+-- [ Wave 23 ] --
+TDS:SetOption(23, "Unit 1", "Bouncer")
+TDS:SetOption(23, "Unit 2", "Bouncer")
+TDS:SetOption(23, "Unit 3", "Bouncer")
+TDS:Upgrade(23, 2)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(23, 2)
+TDS:Place("EvolvedKingpin", -6.876601219177246, 1.0609828233718872, -15.771049499511719)
+TDS:Place("EvolvedKingpin", -4.139858722686768, 1.0399479866027832, -14.348363876342773)
+TDS:Upgrade(8)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(24)
+TDS:Upgrade(24, 2)
+TDS:Upgrade(24, 2)
+TDS:SetOption(24, "Unit 1", "Bouncer")
+TDS:SetOption(24, "Unit 2", "Bouncer")
+TDS:SetOption(24, "Unit 3", "Bouncer")
+TDS:Upgrade(24, 2)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25, 2)
+TDS:Upgrade(25, 2)
+TDS:SetOption(25, "Unit 1", "Bouncer")
+TDS:SetOption(25, "Unit 2", "Bouncer")
+TDS:SetOption(25, "Unit 3", "Bouncer")
+TDS:Upgrade(25, 2)
+TDS:Place("Scout", 9.582489013671875, 0.9999726414680481, -18.209087371826172)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Place("Scout", 7.048593521118164, 1.0589678287506104, -15.779170989990234)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Place("Scout", 3.3812522888183594, 1.000002145767212, -32.51622009277344)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Place("Scout", 6.502745151519775, 1.0226004123687744, -32.118896484375)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Place("Scout", 9.554718971252441, 1.0377763509750366, -32.12917709350586)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Place("Scout", -9.510501861572266, 1.036633014678955, -36.690914154052734)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Place("Scout", -16.37295150756836, 1.0000019073486328, -25.15428924560547)
+TDS:Place("Scout", -16.200326919555664, 1.0000016689300537, -21.958118438720703)
+TDS:Place("Scout", -16.188962936401367, 1.0000014305114746, -18.80423927307129)
+TDS:Place("Scout", -16.42407989501953, 1.0000011920928955, -15.727252006530762)
+TDS:Place("Scout", -9.273214340209961, 1.0515421628952026, -13.870025634765625)
+TDS:Place("Scout", -6.605303764343262, 1.0609798431396484, -12.43800163269043)
+TDS:Place("Scout", -3.796924591064453, 1.0280247926712036, -11.17247486114502)
+TDS:Place("Scout", -9.245738983154297, 1.0609784126281738, -10.694835662841797)
+TDS:Place("Scout", -9.850082397460938, 1.0541783571243286, -7.599332809448242)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22, 2)
+TDS:Upgrade(22, 2)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Upgrade(35)
+TDS:Upgrade(35)
+TDS:Upgrade(35)
+TDS:Upgrade(35)
+TDS:Upgrade(36)
+TDS:Upgrade(36)
+TDS:Upgrade(36)
+TDS:Upgrade(36)
+TDS:Upgrade(37)
+TDS:Upgrade(37)
+TDS:Upgrade(37)
+TDS:Upgrade(37)
+TDS:Upgrade(38)
+TDS:Upgrade(38)
+TDS:Upgrade(38)
+TDS:Upgrade(38)
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Upgrade(40)
+TDS:Upgrade(40)
+TDS:Upgrade(40)
+TDS:Upgrade(40)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9, 2)
+TDS:Ability(9, "Hologram Tower")
+TDS:Ability(9, "Hologram Tower", {towerPosition = Vector3.new(2.357221841812134, 7.976963996887207, -7.435769557952881), towerToClone = 8}, true)
+TDS:Upgrade(22, 2)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(22, 2)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 30 ] --
+TDS:Ability(10, "Hologram Tower", {towerPosition = Vector3.new(6.109071731567383, 1.0000052452087402, -73.03370666503906), towerToClone = 8})
+TDS:Ability(10, "Hologram Tower", {towerPosition = Vector3.new(4.17582368850708, 1.000004529953003, -64.16874694824219), towerToClone = 8}, true)
+TDS:VoteSkip(30)
+
+-- [[ END OF STRATEGY ]]
