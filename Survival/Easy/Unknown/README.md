@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 82 recorded strategies available for this map**
+**📦 83 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -101,6 +101,7 @@ Select a strategy below and open its config file.
 | 80 | 2026-11-08 12:57 UTC | Easy | — | Gatling Gun, Assassin, DJ Booth, None | [Open](80-2026-11-08-12-57-58.txt) |
 | 81 | 2026-11-09 02:29 UTC | Easy | — | Minigunner, Golden Pyromancer, Engineer, None | [Open](81-2026-11-09-02-29-17.txt) |
 | 82 | 2026-11-09 10:41 UTC | Easy | — | Golden Pyromancer, Engineer, Minigunner, None | [Open](82-2026-11-09-10-41-13.txt) |
+| 83 | 2026-11-09 11:19 UTC | Easy | — | Minigunner, Engineer, Golden Pyromancer, None | [Open](83-2026-11-09-11-19-18.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
