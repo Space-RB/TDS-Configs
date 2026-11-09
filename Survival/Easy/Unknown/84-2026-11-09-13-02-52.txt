@@ -1,0 +1,88 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Militant", "EvolvedJuggernaut", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Militant", 1.9100875854492188, 1.000004768371582, -36.783626556396484)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Militant", -5.808647632598877, 1.0000017881393433, -34.505836486816406)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Place("Militant", 1.499251365661621, 0.9999967217445374, -33.771514892578125)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Place("Militant", -5.124499797821045, 1.0000051259994507, -31.543819427490234)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Place("Militant", -8.207789421081543, 0.9499676823616028, -32.0728645324707)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("Militant", 1.699594497680664, 1.0000050067901611, -30.767122268676758)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Place("Militant", 4.502441883087158, 0.9999963641166687, -34.24315643310547)
+TDS:Upgrade(7)
+TDS:Place("Militant", -6.934844970703125, 0.9999977350234985, -29.052875518798828)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(4)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(7)
+
+-- [ Wave 18 ] --
+TDS:Place("EvolvedJuggernaut", 1.4556236267089844, 1.0000042915344238, -26.769775390625)
+TDS:Upgrade(9)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 20 ] --
+TDS:Place("Militant", -9.930828094482422, 1.0000007152557373, -29.568321228027344)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
