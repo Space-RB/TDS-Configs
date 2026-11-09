@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 5 recorded strategies available for this map**
+**📦 6 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -24,6 +24,7 @@ Select a strategy below and open its config file.
 | 3 | 2026-11-04 11:06 UTC | Trial | — | Trapper, DJ Booth, Gatling Gun, Mercenary Base, None | [Open](3-2026-11-04-11-06-55.txt) |
 | 4 | 2026-11-08 08:54 UTC | Trial | — | Trapper, None | [Open](4-2026-11-08-08-54-04.txt) |
 | 5 | 2026-11-08 13:26 UTC | Trial | — | Gatling Gun, Military Base, Trapper, Mercenary Base, Turret | [Open](5-2026-11-08-13-26-53.txt) |
+| 6 | 2026-11-09 06:29 UTC | Trial | — | Trapper, DJ Booth, None | [Open](6-2026-11-09-06-29-57.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
