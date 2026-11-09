@@ -1,0 +1,29 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Scout", "Sniper", "Demoman", "None", "None")
+TDS:Mode("Casual")
+TDS:GameInfo("Retro Zone", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", -57.31594467163086, 30.36127471923828, -74.08582305908203)
+TDS:Place("Scout", -58.99751281738281, 30.36127281188965, -70.9093017578125)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Scout", -60.548988342285156, 30.36127281188965, -68.29501342773438)
+TDS:Upgrade(3)
+TDS:Place("Scout", -55.30998611450195, 30.36127471923828, -76.37005615234375)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]
