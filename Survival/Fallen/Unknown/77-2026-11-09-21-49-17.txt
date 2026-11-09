@@ -1,0 +1,25 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMoonPuzzle = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoGatlingSettings = {bypass_boss_for_fast_enemies = true, prioritize_bosses = true, target_esp = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedOperator", "Cowboy", "Sledger", "Gatling Gun", "EvolvedJuggernaut")
+TDS:Mode("Fallen")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", -18.376495361328125, 1.0000059604644775, -17.28085708618164)
+TDS:Place("EvolvedOperator", -14.296079635620117, 1.0000059604644775, -17.638723373413086)
+
+-- [[ END OF STRATEGY ]]
