@@ -1,0 +1,21 @@
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoTrials = true
+_G.ClaimRewards = true
+_G.StartHubStrategy = "72D5FA55-EE43-4E9D-8FD7-0248F30FC0A4"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "DJ Booth", "None", "None", "None")
+TDS:Mode("Trial")
+TDS:Ready()
+
+-- [[ END OF STRATEGY ]]
