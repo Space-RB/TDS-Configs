@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Hardcore | 613 | [Open](Hardcore/README.md) |
+| Hardcore | 614 | [Open](Hardcore/README.md) |
 
 | Frost | 273 | [Open](Frost/README.md) |
 | Unknown | 236 | [Open](Unknown/README.md) |
