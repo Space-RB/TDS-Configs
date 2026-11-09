@@ -16,14 +16,14 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Winter Stronghold | 4 | [Open](Winter%20Stronghold/README.md) |
+| Unknown | 71 | [Open](Unknown/README.md) |
 
-| Unknown | 70 | [Open](Unknown/README.md) |
 | Simplicity | 45 | [Open](Simplicity/README.md) |
 | Lay By | 37 | [Open](Lay%20By/README.md) |
 | Cataclysm | 21 | [Open](Cataclysm/README.md) |
 | U-Turn | 9 | [Open](U-Turn/README.md) |
 | Winter Abyss | 5 | [Open](Winter%20Abyss/README.md) |
+| Winter Stronghold | 4 | [Open](Winter%20Stronghold/README.md) |
 | Toyboard | 3 | [Open](Toyboard/README.md) |
 | Abyssal Trench | 2 | [Open](Abyssal%20Trench/README.md) |
 | Dusty Bridges | 2 | [Open](Dusty%20Bridges/README.md) |
