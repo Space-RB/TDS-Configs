@@ -1,0 +1,82 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedKingpin", "Scout", "Pyromancer", "Farm", "Minigunner")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", 11.059354782104492, 0.5952968597412109, 17.356536865234375)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", 23.084293365478516, 1.028003215789795, 34.33719253540039)
+TDS:Place("Farm", 21.871868133544922, 1.0056556463241577, 38.19289016723633)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", 17.73284912109375, 1.1390271186828613, 36.75120544433594)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", 13.498747825622559, 1.2389700412750244, 36.516902923583984)
+TDS:Place("Farm", 9.971765518188477, 1.3060407638549805, 36.213592529296875)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Place("Farm", 9.711963653564453, 1.326448678970337, 39.88325500488281)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", 13.248126029968262, 1.2543864250183105, 40.04801940917969)
+TDS:Upgrade(8)
+TDS:Place("Farm", 16.871170043945312, 1.1879041194915771, 40.14527130126953)
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Place("Farm", 20.711868286132812, 0.9732140898704529, 41.61878204345703)
+TDS:Upgrade(10)
+TDS:Place("Farm", 7.862569808959961, 1.3995287418365479, 42.88274002075195)
+TDS:Upgrade(11)
+
+-- [ Wave 9 ] --
+TDS:Place("Minigunner", 9.76006031036377, 1.0562057495117188, 20.56087875366211)
+TDS:Upgrade(12)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(6)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(11)
+TDS:Upgrade(8)
+TDS:Place("Scout", 8.28225040435791, 0.4589409828186035, -11.94058609008789)
+TDS:Place("Scout", 11.161296844482422, 0.5315735340118408, -14.689435958862305)
+
+-- [ Wave 13 ] --
+TDS:Place("Scout", 8.08626651763916, 0.5102456212043762, -16.473751068115234)
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
