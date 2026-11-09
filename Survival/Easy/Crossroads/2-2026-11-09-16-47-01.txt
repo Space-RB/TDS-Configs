@@ -1,0 +1,55 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Engineer", "EvolvedJuggernaut", "Mercenary Base", "DJ Booth", "Minigunner")
+TDS:Mode("Easy")
+TDS:GameInfo("Crossroads", {})
+TDS:Ready()
+TDS:Place("Engineer", 2.521777868270874, 0.9999995231628418, 2.6911087036132812)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Place("Engineer", 5.575377464294434, 0.9999995231628418, 2.7991323471069336)
+
+-- [ Wave 11 ] --
+TDS:Place("EvolvedJuggernaut", 9.406951904296875, 0.9999982118606567, 10.90279769897461)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 16 ] --
+TDS:Place("Mercenary Base", 9.923750877380371, 0.9999991059303284, 5.278141021728516)
+
+-- [ Wave 17 ] --
+TDS:Place("DJ Booth", 15.561542510986328, 0.9999990463256836, 5.739339828491211)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]
