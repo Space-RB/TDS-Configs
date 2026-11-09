@@ -1,0 +1,75 @@
+_G.AutoGatling = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Hacker", "Firework Technician", "Minigunner", "Farm")
+TDS:Mode("Hardcore")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", 26.906787872314453, 1.0014501810073853, 36.369991302490234)
+TDS:Place("Farm", 24.552345275878906, 0.819965124130249, 39.013511657714844)
+TDS:Place("Farm", 21.995624542236328, 0.8075181841850281, 41.40677261352539)
+TDS:Upgrade(3)
+TDS:Place("Farm", 23.44021224975586, 1.0396310091018677, 35.65274429321289)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", 20.84405517578125, 1.0453249216079712, 38.05931091308594)
+TDS:Place("Farm", 18.520950317382812, 1.1097639799118042, 42.08370590209961)
+TDS:Place("Farm", 26.906787872314453, 0.9665621519088745, 32.82999038696289)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", 19.623687744140625, 1.0662238597869873, 34.72911834716797)
+TDS:Place("Farm", 23.44021224975586, 1.0020256042480469, 32.11274337768555)
+TDS:Place("Farm", 30.302814483642578, 0.7752062082290649, 31.92519187927246)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Minigunner", -7.442755699157715, -0.10507559776306152, -12.669506072998047)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+TDS:Upgrade(5)
+TDS:Upgrade(9)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", -15.926034927368164, 3.2930479049682617, -18.346899032592773)
+TDS:Place("Firework Technician", -8.593793869018555, 0.4896804094314575, -21.510473251342773)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Place("Farm", 26.906787872314453, 1.0014501810073853, 36.369991302490234)
+TDS:Place("Farm", 24.552345275878906, 0.819965124130249, 39.013511657714844)
+TDS:Place("Farm", 21.995624542236328, 0.8075181841850281, 41.40677261352539)
+TDS:Upgrade(16)
+
+-- [[ END OF STRATEGY ]]
