@@ -1,0 +1,93 @@
+_G.AutoPickups = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Minigunner", "Golden Pyromancer", "Engineer", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Pyromancer", -6.071323394775391, 1.0229392051696777, -24.80738639831543)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Place("Engineer", -10.347502708435059, 1.0229392051696777, -28.076040267944336)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Place("Engineer", -10.362773895263672, 1.0229392051696777, -21.704511642456055)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Place("Engineer", -10.097209930419922, 1.0229392051696777, -24.76656723022461)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+TDS:Place("Engineer", -7.113243579864502, 1.0229392051696777, -28.30463409423828)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Place("Engineer", -7.273080348968506, 1.0229392051696777, -21.55596160888672)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Engineer", -3.999176025390625, 1.0229392051696777, -21.753746032714844)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+TDS:Place("Minigunner", -3.6573729515075684, 1.0229392051696777, -18.733022689819336)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Minigunner", -4.432038307189941, 1.0229392051696777, -15.646966934204102)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Pyromancer", -9.552151679992676, 1.0229392051696777, -16.158931732177734)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [[ END OF STRATEGY ]]
