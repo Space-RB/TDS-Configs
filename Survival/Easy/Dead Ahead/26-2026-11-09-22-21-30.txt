@@ -1,0 +1,73 @@
+_G.AutoDJ = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Demoman", "Golden Soldier", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Dead Ahead", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Soldier", 0.5866975784301758, 1.0000048875808716, -30.278926849365234)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", 0.4610450863838196, 1.020003318786621, -27.235036849975586)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Demoman", -5.003217697143555, 1.0000048875808716, -30.21540069580078)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Soldier", 3.1856985092163086, 1.0000046491622925, -28.58331871032715)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Place("Demoman", -5.142461776733398, 0.9999982118606567, -33.26458740234375)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Place("Soldier", 0.24266080558300018, 1.0200024843215942, -24.202890396118164)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]
