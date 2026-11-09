@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 87 | [Open](Unknown/README.md) |
+| Dead Ahead | 2 | [Open](Dead%20Ahead/README.md) |
 
+| Unknown | 87 | [Open](Unknown/README.md) |
 | Simplicity | 71 | [Open](Simplicity/README.md) |
 | Lay By | 43 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 10 | [Open](Retro%20Crossroads/README.md) |
@@ -37,7 +38,6 @@ Choose one of the categories below to continue.
 | Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
 | Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
 | Construction Crazy | 1 | [Open](Construction%20Crazy/README.md) |
-| Dead Ahead | 1 | [Open](Dead%20Ahead/README.md) |
 | Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
 | Gilded Path | 1 | [Open](Gilded%20Path/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
