@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 418 recorded strategies available for this map**
+**📦 419 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -437,6 +437,7 @@ Select a strategy below and open its config file.
 | 416 | 2026-11-09 03:01 UTC | Hardcore | — | Shotgunner, Minigunner, Farm, Boomerang, EvolvedKingpin | [Open](416-2026-11-09-03-01-46.txt) |
 | 417 | 2026-11-09 04:49 UTC | Hardcore | — | Crook Boss, Pyromancer, None | [Open](417-2026-11-09-04-49-36.txt) |
 | 418 | 2026-11-09 11:16 UTC | Hardcore | — | EvolvedKingpin, Scout, Pyromancer, Farm, Minigunner | [Open](418-2026-11-09-11-16-19.txt) |
+| 419 | 2026-11-09 11:21 UTC | Hardcore | — | Scout, Farm, Minigunner, Boomerang, EvolvedKingpin | [Open](419-2026-11-09-11-21-20.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
