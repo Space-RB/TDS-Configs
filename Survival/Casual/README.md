@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Black Spot Exchange | 5 | [Open](Black%20Spot%20Exchange/README.md) |
+| Black Spot Exchange | 6 | [Open](Black%20Spot%20Exchange/README.md) |
 
 | Unknown | 15 | [Open](Unknown/README.md) |
 | Dead Ahead | 10 | [Open](Dead%20Ahead/README.md) |
