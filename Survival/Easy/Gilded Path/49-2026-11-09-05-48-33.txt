@@ -1,0 +1,19 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Shotgunner", "Scout", "Soldier", "Crook Boss", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Gilded Path", {})
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", 1.3070225715637207, 0.9555636644363403, 15.42708969116211)
+
+-- [[ END OF STRATEGY ]]
