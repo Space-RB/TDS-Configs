@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Meltdown | 1 | [Open](Meltdown/README.md) |
+| Meltdown | 2 | [Open](Meltdown/README.md) |
 
 | Unknown | 13 | [Open](Unknown/README.md) |
 | Dead Ahead | 10 | [Open](Dead%20Ahead/README.md) |
