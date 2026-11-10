@@ -1,0 +1,69 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedKingpin", "EvolvedJuggernaut", "Mercenary Base", "Engineer", "Golden Scout")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+TDS:Place("Scout", -4.468699932098389, 0.9999932050704956, -8.854503631591797)
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", -7.508699893951416, 0.9999914169311523, -8.854503631591797)
+TDS:Place("Scout", -10.548700332641602, 0.999987781047821, -8.854503631591797)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Place("EvolvedKingpin", -2.636624574661255, 0.9999831914901733, 2.2913527488708496)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Place("EvolvedKingpin", 0.40306925773620605, 0.9999831914901733, 2.2482147216796875)
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Place("EvolvedKingpin", 3.4430692195892334, 0.9999831914901733, 2.2482147216796875)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 19 ] --
+TDS:Place("EvolvedKingpin", -7.722281455993652, 0.9999996423721313, 2.565563917160034)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
