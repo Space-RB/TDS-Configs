@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 237 recorded strategies available for this map**
+**📦 238 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -256,6 +256,7 @@ Select a strategy below and open its config file.
 | 235 | 2026-11-09 11:55 UTC | Unknown | — | Scout, Engineer, Hacker, EvolvedJuggernaut, DJ Booth | [Open](235-2026-11-09-11-55-52.txt) |
 | 236 | 2026-11-09 14:28 UTC | Unknown | — | Minigunner, Scout, Farm, Pyromancer, Shotgunner | [Open](236-2026-11-09-14-28-31.txt) |
 | 237 | 2026-11-09 19:02 UTC | Unknown | — | Brawler, Engineer, Crook Boss, Hacker, DJ Booth | [Open](237-2026-11-09-19-02-01.txt) |
+| 238 | 2026-11-10 02:59 UTC | Unknown | — | Scout, Sniper, Demoman, Soldier, None | [Open](238-2026-11-10-02-59-22.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
