@@ -1,0 +1,18 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Brawler", "Freezer", "Shotgunner", "EvolvedKingpin", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+TDS:Place("Brawler", -18.633920669555664, 0.9999889731407166, -10.282069206237793)
+TDS:Place("Brawler", -23.725521087646484, 1.0000011920928955, -6.772918701171875)
+
+-- [[ END OF STRATEGY ]]
