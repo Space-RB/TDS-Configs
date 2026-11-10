@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Necropolis | 1 | [Open](Necropolis/README.md) |
+| Crossroads | 2 | [Open](Crossroads/README.md) |
 
 | Unknown | 15 | [Open](Unknown/README.md) |
 | Dead Ahead | 10 | [Open](Dead%20Ahead/README.md) |
@@ -27,12 +27,12 @@ Choose one of the categories below to continue.
 | Meltdown | 2 | [Open](Meltdown/README.md) |
 | Sugar Rush | 2 | [Open](Sugar%20Rush/README.md) |
 | Abandoned City | 1 | [Open](Abandoned%20City/README.md) |
-| Crossroads | 1 | [Open](Crossroads/README.md) |
 | Farm Lands | 1 | [Open](Farm%20Lands/README.md) |
 | Four Seasons | 1 | [Open](Four%20Seasons/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Moon Base | 1 | [Open](Moon%20Base/README.md) |
+| Necropolis | 1 | [Open](Necropolis/README.md) |
 | Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
 | Retro Zone | 1 | [Open](Retro%20Zone/README.md) |
 | Simplicity | 1 | [Open](Simplicity/README.md) |
