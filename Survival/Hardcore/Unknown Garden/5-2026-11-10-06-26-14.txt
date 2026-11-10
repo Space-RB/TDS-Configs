@@ -1,0 +1,78 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Minigunner", "Crook Boss", "Electroshocker", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Unknown Garden", {})
+TDS:Ready()
+TDS:Place("Electroshocker", 67.3555679321289, 302.543701171875, -11.882280349731445)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Electroshocker", 63.69146728515625, 302.62457275390625, -15.814727783203125)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Electroshocker", 68.1380615234375, 302.53839111328125, -8.825434684753418)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Place("Electroshocker", 63.69146728515625, 302.5505676269531, -12.774727821350098)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Place("Minigunner", 64.69499206542969, 302.53729248046875, -9.905139923095703)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Place("Crook Boss", 123.88341522216797, 299.7260437011719, -12.07431411743164)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 19 ] --
+TDS:Place("Minigunner", 124.67254638671875, 299.71240234375, -15.01010513305664)
+TDS:Upgrade(7)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(7)
+TDS:Place("Electroshocker", 107.60501098632812, 299.7314453125, -12.547300338745117)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 22 ] --
+TDS:Place("Minigunner", 146.25048828125, 300.4696044921875, -6.787181854248047)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
