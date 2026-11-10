@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 90 recorded strategies available for this map**
+**📦 91 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -109,6 +109,7 @@ Select a strategy below and open its config file.
 | 88 | 2026-11-10 05:02 UTC | Frost | — | Brawler, Freezer, Shotgunner, None | [Open](88-2026-11-10-05-02-32.txt) |
 | 89 | 2026-11-10 05:18 UTC | Frost | — | Brawler, Freezer, Shotgunner, None | [Open](89-2026-11-10-05-18-21.txt) |
 | 90 | 2026-11-10 11:34 UTC | Frost | — | Gatling Gun, Firework Technician, Mercenary Base, Hacker, Trapper | [Open](90-2026-11-10-11-34-14.txt) |
+| 91 | 2026-11-10 12:08 UTC | Frost | — | Gatling Gun, Firework Technician, Mercenary Base, Hacker, Trapper | [Open](91-2026-11-10-12-08-20.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
