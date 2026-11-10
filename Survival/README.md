@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Fallen | 228 | [Open](Fallen/README.md) |
+| Fallen | 229 | [Open](Fallen/README.md) |
 
 | Hardcore | 616 | [Open](Hardcore/README.md) |
 | Frost | 277 | [Open](Frost/README.md) |
