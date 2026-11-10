@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 12 recorded strategies available for this map**
+**📦 13 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -31,6 +31,7 @@ Select a strategy below and open its config file.
 | 10 | 2026-11-10 09:21 UTC | Act4Easy | — | None | [Open](10-2026-11-10-09-21-47.txt) |
 | 11 | 2026-11-10 09:29 UTC | Act4Easy | — | None | [Open](11-2026-11-10-09-29-12.txt) |
 | 12 | 2026-11-10 09:34 UTC | Act4Easy | — | None | [Open](12-2026-11-10-09-34-02.txt) |
+| 13 | 2026-11-10 09:47 UTC | Act4Easy | — | None | [Open](13-2026-11-10-09-47-07.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
