@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 54 recorded strategies available for this map**
+**📦 55 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -72,6 +72,7 @@ Select a strategy below and open its config file.
 | 51 | 2026-11-10 14:47 UTC | Fallen | — | Pyromancer, Shotgunner, Commander, Golden Minigunner, Crook Boss | [Open](51-2026-11-10-14-47-28.txt) |
 | 52 | 2026-11-10 15:25 UTC | Fallen | — | Pyromancer, Shotgunner, Commander, Golden Minigunner, Crook Boss | [Open](52-2026-11-10-15-25-56.txt) |
 | 54 | 2026-11-10 16:19 UTC | Fallen | — | EvolvedKingpin, EvolvedJuggernaut, Mercenary Base, Engineer, Golden Scout | [Open](54-2026-11-10-16-19-10.txt) |
+| 55 | 2026-11-10 16:24 UTC | Fallen | — | EvolvedKingpin, EvolvedJuggernaut, Mercenary Base, Engineer, Golden Scout | [Open](55-2026-11-10-16-24-49.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
