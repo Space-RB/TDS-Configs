@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 45 recorded strategies available for this map**
+**📦 46 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -64,6 +64,7 @@ Select a strategy below and open its config file.
 | 43 | 2026-11-09 17:08 UTC | Frost | — | EvolvedOperator, None | [Open](43-2026-11-09-17-08-20.txt) |
 | 44 | 2026-11-10 12:54 UTC | Frost | Committed, Fog, Glass, HiddenEnemies, Limitation, Quarantine | Gatling Gun, Firework Technician, Mercenary Base, Hacker, Trapper | [Open](44-2026-11-10-12-54-17.txt) |
 | 45 | 2026-11-10 12:54 UTC | Frost | Committed, Fog, Glass, HiddenEnemies, Limitation, Quarantine | Gatling Gun, Firework Technician, Mercenary Base, Hacker, Trapper | [Open](45-2026-11-10-12-54-43.txt) |
+| 46 | 2026-11-10 13:08 UTC | Frost | Committed, Fog, Glass, HiddenEnemies, Limitation, Quarantine | Gatling Gun, Firework Technician, Mercenary Base, Hacker, Trapper | [Open](46-2026-11-10-13-08-56.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
