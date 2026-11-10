@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 80 recorded strategies available for this map**
+**📦 81 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -99,6 +99,7 @@ Select a strategy below and open its config file.
 | 78 | 2026-11-10 05:38 UTC | Fallen | — | Minigunner, Shotgunner, Commander, Trapper, DJ Booth | [Open](78-2026-11-10-05-38-10.txt) |
 | 79 | 2026-11-10 05:38 UTC | Fallen | — | Minigunner, Shotgunner, Commander, Trapper, DJ Booth | [Open](79-2026-11-10-05-38-20.txt) |
 | 80 | 2026-11-10 05:38 UTC | Fallen | — | Minigunner, Shotgunner, Commander, Trapper, DJ Booth | [Open](80-2026-11-10-05-38-29.txt) |
+| 81 | 2026-11-10 16:04 UTC | Fallen | — | Golden Demoman, EvolvedJuggernaut, EvolvedKingpin, DJ Booth, EvolvedOperator | [Open](81-2026-11-10-16-04-03.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
