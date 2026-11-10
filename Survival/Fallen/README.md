@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 83 | [Open](Unknown/README.md) |
+| Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
 
+| Unknown | 83 | [Open](Unknown/README.md) |
 | Simplicity | 56 | [Open](Simplicity/README.md) |
 | Lay By | 37 | [Open](Lay%20By/README.md) |
 | Cataclysm | 21 | [Open](Cataclysm/README.md) |
