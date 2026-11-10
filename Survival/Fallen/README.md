@@ -16,9 +16,8 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
+| Unknown | 84 | [Open](Unknown/README.md) |
 
-| Unknown | 83 | [Open](Unknown/README.md) |
 | Simplicity | 56 | [Open](Simplicity/README.md) |
 | Lay By | 37 | [Open](Lay%20By/README.md) |
 | Cataclysm | 21 | [Open](Cataclysm/README.md) |
@@ -40,6 +39,7 @@ Choose one of the categories below to continue.
 | Honey Valley | 1 | [Open](Honey%20Valley/README.md) |
 | Infernal Abyss | 1 | [Open](Infernal%20Abyss/README.md) |
 | Night Station | 1 | [Open](Night%20Station/README.md) |
+| Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
 | Portland | 1 | [Open](Portland/README.md) |
 | Sky Islands | 1 | [Open](Sky%20Islands/README.md) |
 | The Heights | 1 | [Open](The%20Heights/README.md) |
