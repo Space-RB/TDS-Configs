@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 158 recorded strategies available for this map**
+**📦 159 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -177,6 +177,7 @@ Select a strategy below and open its config file.
 | 156 | 2026-11-10 11:45 UTC | Hardcore | — | EvolvedKingpin, Pyromancer, Hunter, None | [Open](156-2026-11-10-11-45-43.txt) |
 | 157 | 2026-11-10 11:52 UTC | Hardcore | — | EvolvedKingpin, Pyromancer, Hunter, None | [Open](157-2026-11-10-11-52-40.txt) |
 | 158 | 2026-11-10 11:53 UTC | Hardcore | — | Electroshocker, EvolvedJuggernaut, None | [Open](158-2026-11-10-11-53-33.txt) |
+| 159 | 2026-11-10 11:57 UTC | Hardcore | — | Electroshocker, EvolvedJuggernaut, None | [Open](159-2026-11-10-11-57-23.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
