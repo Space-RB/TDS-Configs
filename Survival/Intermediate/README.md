@@ -16,10 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Black Spot Exchange | 3 | [Open](Black%20Spot%20Exchange/README.md) |
+| Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
 
 | Unknown | 6 | [Open](Unknown/README.md) |
 | Dead Ahead | 4 | [Open](Dead%20Ahead/README.md) |
+| Black Spot Exchange | 3 | [Open](Black%20Spot%20Exchange/README.md) |
 | Retro Lighthouse | 3 | [Open](Retro%20Lighthouse/README.md) |
 | Chess Board | 2 | [Open](Chess%20Board/README.md) |
 | Lay By | 2 | [Open](Lay%20By/README.md) |
