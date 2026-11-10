@@ -1,0 +1,184 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMedic = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoMoonPuzzle = true
+_G.AutoNecro = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.AutoStarCannon = true
+_G.StarCannonMin = 100
+_G.SupportCaravan = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Shotgunner", "Commander", "Golden Minigunner", "Crook Boss")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Pyromancer", -14.946355819702148, 0.9999891519546509, -8.807826042175293)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Place("Shotgunner", -18.15604591369629, 1.0000003576278687, -1.8203315734863281)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Place("Shotgunner", -17.9781551361084, 1.0000007152557373, -3.852560520172119)
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", -17.9781551361084, 0.9999834895133972, -5.8925604820251465)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Place("Shotgunner", -17.9781551361084, 0.9999866485595703, -7.932560443878174)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Place("Shotgunner", -23.739633560180664, 1.0000011920928955, -6.74492073059082)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Place("Shotgunner", -23.739633560180664, 1.0000008344650269, -4.704920768737793)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Shotgunner", -23.739633560180664, 1.0000004768371582, -2.6649208068847656)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Shotgunner", -23.739633560180664, 1.000000238418579, -0.6249208450317383)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Shotgunner", -23.739633560180664, 0.9999998211860657, 1.415079116821289)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 17 ] --
+TDS:Place("Commander", -12.117441177368164, 1.0000005960464478, -3.502631187438965)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Commander", -12.657949447631836, 1.0000001192092896, -0.4910879135131836)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Commander", -9.077441215515137, 1.0000005960464478, -3.502631187438965)
+TDS:Upgrade(13)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(13)
+TDS:Place("Crook Boss", 0.28382569551467896, 0.9999831914901733, -8.810179710388184)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 19 ] --
+TDS:Place("Crook Boss", -2.756174325942993, 1.0000014305114746, -8.810179710388184)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Crook Boss", -5.796174049377441, 0.9999958872795105, -8.810179710388184)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Crook Boss", 0.28382569551467896, 0.9999986290931702, -11.850179672241211)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Crook Boss", -2.756174325942993, 1.0000019073486328, -11.850179672241211)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(17)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(15)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(16)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(15)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(16)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+
+-- [[ END OF STRATEGY ]]
