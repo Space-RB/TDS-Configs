@@ -1,0 +1,56 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Hunter", "EvolvedKingpin", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", -2.7671751976013184, 1.0091991424560547, -35.015132904052734)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Place("Hunter", 6.545208930969238, 1.3894258737564087, 28.147802352905273)
+
+-- [ Wave 14 ] --
+TDS:Place("Hunter", 3.548257827758789, 1.4167230129241943, 27.84955406188965)
+
+-- [ Wave 15 ] --
+TDS:Place("Hunter", 0.48177146911621094, 1.4456989765167236, 27.77622413635254)
+
+-- [ Wave 16 ] --
+TDS:Place("Hunter", -2.5807175636291504, 1.4743871688842773, 27.729358673095703)
+
+-- [ Wave 17 ] --
+TDS:Place("Hunter", 6.545208930969238, 1.3747273683547974, 31.187801361083984)
+TDS:Place("Hunter", 3.4443726539611816, 1.4244600534439087, 30.887779235839844)
+
+-- [ Wave 19 ] --
+TDS:Place("Hunter", -2.6601998805999756, 1.4239203929901123, 22.66796875)
+TDS:Place("Hunter", 0.5313434600830078, 1.3977361917495728, 22.643966674804688)
+
+-- [ Wave 21 ] --
+TDS:Place("EvolvedKingpin", -0.06256771087646484, 0.5975376963615417, -19.879648208618164)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [[ END OF STRATEGY ]]
