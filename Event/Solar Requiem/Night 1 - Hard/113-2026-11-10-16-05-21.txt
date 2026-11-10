@@ -1,0 +1,93 @@
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Scout", "Demoman", "Soldier", "Assassin", "Hunter")
+TDS:Mode("Act1")
+TDS:Ready()
+TDS:Place("Demoman", 13.311446189880371, 2.0417962074279785, 196.45150756835938)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Demoman", 16.347318649291992, 2.0600712299346924, 196.60986328125)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Soldier", -9.392833709716797, 2.001171112060547, 201.74298095703125)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Place("Demoman", 10.292313575744629, 2.031388998031616, 196.09591674804688)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Place("Soldier", -6.258568286895752, 2.00262188911438, 201.4041290283203)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("Soldier", -12.432798385620117, 2.001108169555664, 201.75765991210938)
+TDS:Upgrade(6)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Place("Hunter", 5.133917808532715, 2.002039670944214, 201.97386169433594)
+TDS:Place("Soldier", -6.377844333648682, 2.0352401733398438, 204.43389892578125)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Soldier", -9.361662864685059, 2.0338220596313477, 204.78282165527344)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Soldier", -12.400749206542969, 2.1556053161621094, 204.88580322265625)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 10 ] --
+TDS:Place("Hunter", 5.165251731872559, 2.0189027786254883, 205.01370239257812)
+TDS:Place("Demoman", 14.615714073181152, 2.0764143466949463, 199.19749450683594)
+TDS:Place("Demoman", 11.585478782653809, 2.045665740966797, 198.95404052734375)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 11 ] --
+TDS:Place("Hunter", 5.026279449462891, 2.020233392715454, 208.05052185058594)
+TDS:Place("Hunter", 5.2181220054626465, 2.0009982585906982, 198.93502807617188)
+TDS:Place("Hunter", -0.1954665184020996, 2.002546787261963, 202.3006134033203)
+TDS:Place("Hunter", -0.03225956857204437, 2.001260280609131, 205.3362274169922)
+
+-- [ Wave 12 ] --
+TDS:Place("Hunter", -0.05839809775352478, 2.0014662742614746, 208.37611389160156)
+TDS:Place("Hunter", -0.4063061475753784, 2.007678985595703, 199.26792907714844)
+TDS:Place("Hunter", -0.524482786655426, 2.0096230506896973, 196.26483154296875)
+TDS:Place("Hunter", 5.289193630218506, 2.0009987354278564, 195.91970825195312)
+TDS:Upgrade(20)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(20)
+TDS:Upgrade(19)
+TDS:Upgrade(12)
+TDS:Place("Demoman", -9.857933044433594, 2.0212128162384033, 208.0778350830078)
+TDS:Upgrade(22)
+
+-- [[ END OF STRATEGY ]]
