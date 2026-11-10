@@ -1,0 +1,33 @@
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {beta_dps = true, beta_raw_fire = true, bypass_boss_for_fast_enemies = true, gui_hidden = true, ignore_lead_mutation = false}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Firework Technician", "Mercenary Base", "Hacker", "Trapper")
+TDS:Mode("Frost")
+TDS:GameInfo("Lay By", {"Committed", "Fog", "Glass", "HiddenEnemies", "Limitation", "Quarantine"})
+TDS:Ready()
+
+-- [ Wave 14 ] --
+TDS:Place("Trapper", -4.231969833374023, 242.99998474121094, 217.78466796875)
+TDS:WaitForWave(14)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+TDS:Sell(5)
+TDS:Sell(6)
+TDS:Place("Trapper", 2.735590934753418, 243, 175.46005249023438)
+
+-- [[ END OF STRATEGY ]]
