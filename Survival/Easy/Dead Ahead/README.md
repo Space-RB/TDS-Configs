@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 33 recorded strategies available for this map**
+**📦 34 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -52,6 +52,7 @@ Select a strategy below and open its config file.
 | 31 | 2026-11-10 07:58 UTC | Easy | — | EvolvedJuggernaut, Golden Soldier, None | [Open](31-2026-11-10-07-58-51.txt) |
 | 32 | 2026-11-10 14:37 UTC | Easy | ExplodingEnemies, Glass, Limitation | EvolvedKingpin, Boomerang, Farm, Minigunner, Crook Boss | [Open](32-2026-11-10-14-37-07.txt) |
 | 33 | 2026-11-10 15:28 UTC | Easy | ExplodingEnemies, Glass, Limitation | Militant, None | [Open](33-2026-11-10-15-28-32.txt) |
+| 34 | 2026-11-10 15:41 UTC | Easy | ExplodingEnemies, Glass, Limitation | Militant, EvolvedKingpin, None | [Open](34-2026-11-10-15-41-37.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
