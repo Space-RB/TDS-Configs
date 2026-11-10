@@ -1,0 +1,84 @@
+_G.AutoMoonPuzzle = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Scout", "Sniper", "Demoman", "Soldier", "Assassin")
+TDS:Mode("Act1")
+TDS:Ready()
+TDS:Place("Assassin", 27.37894058227539, 2.0009982585906982, 199.1630401611328)
+TDS:Place("Assassin", 25.951845169067383, 2.0009984970092773, 197.70530700683594)
+TDS:Place("Assassin", 29.5152530670166, 2.0009982585906982, 199.24575805664062)
+TDS:Place("Assassin", 27.92782974243164, 2.0009987354278564, 197.19827270507812)
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 25.442092895507812, 2.0009989738464355, 195.7300262451172)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Place("Soldier", 10.352473258972168, 2.074263095855713, 201.4287567138672)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Soldier", 13.475613594055176, 2.021366834640503, 201.579833984375)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 7 ] --
+TDS:Place("Soldier", -10.321283340454102, 2.086919069290161, 203.38868713378906)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 8 ] --
+TDS:Place("Soldier", 12.4192533493042, 2.029418468475342, 198.72927856445312)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Place("Assassin", 7.564717769622803, 2.000999689102173, 190.2599334716797)
+TDS:Place("Assassin", 5.645533084869385, 2.0009994506835938, 191.54107666015625)
+TDS:Place("Assassin", 7.539201259613037, 2.0009994506835938, 192.29977416992188)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [[ END OF STRATEGY ]]
