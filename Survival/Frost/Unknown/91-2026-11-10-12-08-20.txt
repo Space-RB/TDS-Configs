@@ -1,0 +1,189 @@
+_G.AutoGatling = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {beta_dps = true, bypass_boss_for_fast_enemies = true, gui_hidden = true, ignore_lead_mutation = false}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Firework Technician", "Mercenary Base", "Hacker", "Trapper")
+TDS:Mode("Frost")
+TDS:GameInfo("", {})
+TDS:Place("Trapper", 2.735590934753418, 243, 175.46005249023438)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", -2.7806849479675293, 243, 171.2864990234375)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Trapper", 2.9231812953948975, 243, 166.67587280273438)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Trapper", -2.858661651611328, 243, 161.3358612060547)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:Place("Trapper", 2.9679579734802246, 243, 160.1079864501953)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+TDS:Place("Trapper", -2.598073720932007, 243, 159.4127655029297)
+TDS:Upgrade(6)
+
+-- [ Wave 12 ] --
+TDS:Place("Trapper", 2.608750581741333, 243, 158.08055114746094)
+TDS:Upgrade(7)
+
+-- [ Wave 13 ] --
+TDS:Place("Gatling Gun", -2.7023701667785645, 243, 166.82611083984375)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 19 ] --
+TDS:Place("Firework Technician", -2.5936617851257324, 243, 164.14599609375)
+TDS:Upgrade(9)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 22 ] --
+TDS:Place("Hacker", -2.517483711242676, 242.99998474121094, 278.31768798828125)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Hacker", -2.9737300872802734, 242.99996948242188, 235.94296264648438)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(9)
+TDS:Place("Mercenary Base", -3.2899415493011475, 243, 164.4774932861328)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:SetOption(12, "Unit 1", "Riot Guard")
+
+-- [ Wave 27 ] --
+TDS:SetOption(12, "Unit 2", "Riot Guard")
+TDS:SetOption(12, "Unit 3", "Riot Guard")
+TDS:Place("Mercenary Base", -4.923272609710693, 243, 159.1776580810547)
+TDS:Place("Mercenary Base", -4.947547435760498, 243, 159.1739959716797)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:SetOption(14, "Unit 1", "Riot Guard")
+TDS:SetOption(14, "Unit 2", "Riot Guard")
+TDS:SetOption(14, "Unit 3", "Riot Guard")
+
+-- [ Wave 30 ] --
+TDS:SetOption(13, "Unit 1", "Riot Guard")
+TDS:SetOption(13, "Unit 2", "Riot Guard")
+TDS:SetOption(13, "Unit 3", "Riot Guard")
+
+-- [ Wave 31 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10, 2)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:SetOption(1, "Trap", "Bear Traps")
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:SetOption(2, "Trap", "Bear Traps")
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(11, 2)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Ability(11, "Hologram Tower")
+
+-- [ Wave 38 ] --
+TDS:Ability(11, "Hologram Tower", true)
+
+-- [ Wave 39 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:SetOption(3, "Trap", "Bear Traps")
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:SetOption(4, "Trap", "Bear Traps")
+TDS:Upgrade(5)
+
+-- [ Wave 40 ] --
+TDS:Upgrade(5)
+TDS:SetOption(5, "Trap", "Bear Traps")
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
