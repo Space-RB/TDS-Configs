@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
+| Tropical Isles | 1 | [Open](Tropical%20Isles/README.md) |
 
 | Unknown | 6 | [Open](Unknown/README.md) |
 | Dead Ahead | 4 | [Open](Dead%20Ahead/README.md) |
@@ -28,6 +28,7 @@ Choose one of the categories below to continue.
 | The Heights | 2 | [Open](The%20Heights/README.md) |
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
 | Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
+| Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Harbor | 1 | [Open](Harbor/README.md) |
 | Infernal Abyss | 1 | [Open](Infernal%20Abyss/README.md) |
