@@ -1,0 +1,47 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedJuggernaut", "Militant", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Dead Ahead", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Militant", 2.019937515258789, 1.0000039339065552, -36.50238800048828)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Place("Militant", -6.168019771575928, 0.949987530708313, -35.80265426635742)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Place("Militant", 1.4070148468017578, 1.0000052452087402, -32.579978942871094)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Place("Militant", -6.140948295593262, 0.9999964833259583, -32.54049301147461)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]
