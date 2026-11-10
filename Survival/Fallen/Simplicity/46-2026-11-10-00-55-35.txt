@@ -1,0 +1,99 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Brawler", "Freezer", "Shotgunner", "EvolvedKingpin", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+TDS:Place("Brawler", -18.633920669555664, 0.9999889731407166, -10.282069206237793)
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", -23.725521087646484, 1.0000011920928955, -6.772918701171875)
+TDS:Place("Brawler", -18.194442749023438, 0.9999867081642151, -8.221893310546875)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Brawler", -20.48192596435547, 0.9999844431877136, -11.890694618225098)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Place("Brawler", -16.6873836517334, 0.9999902248382568, -9.671664237976074)
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+TDS:Place("Freezer", -17.99317169189453, 0.9999834895133972, -5.68988037109375)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 8 ] --
+TDS:Place("Freezer", -15.609626770019531, 0.9999966621398926, -13.552421569824219)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Shotgunner", -18.25829315185547, 0.9999834895133972, -6.151958465576172)
+TDS:Upgrade(8)
+
+-- [ Wave 9 ] --
+TDS:Place("Shotgunner", -18.210046768188477, 1.0000007152557373, -4.1125288009643555)
+TDS:Upgrade(9)
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", -18.150896072387695, 1.0000003576278687, -2.0009851455688477)
+TDS:Upgrade(10)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", -14.673689842224121, 0.99998939037323, -9.345109939575195)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 15 ] --
+TDS:Place("EvolvedKingpin", -2.5236053466796875, 0.9999831914901733, 2.2325339317321777)
+TDS:Upgrade(12)
+
+-- [ Wave 16 ] --
+TDS:Place("Shotgunner", -23.75714874267578, 1.0000008344650269, -4.733163833618164)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+TDS:Place("Shotgunner", -23.938007354736328, 1.0000004768371582, -2.6106629371643066)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(13)
+TDS:Place("Brawler", -12.563749313354492, 0.9999921917915344, -9.203453063964844)
+
+-- [ Wave 18 ] --
+TDS:Place("Brawler", -11.954734802246094, 1.0000005960464478, -3.7158355712890625)
+TDS:Upgrade(15)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(12)
+
+-- [[ END OF STRATEGY ]]
