@@ -16,9 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Dead Ahead | 13 | [Open](Dead%20Ahead/README.md) |
+| Unknown | 35 | [Open](Unknown/README.md) |
 
-| Unknown | 34 | [Open](Unknown/README.md) |
+| Dead Ahead | 13 | [Open](Dead%20Ahead/README.md) |
 | Simplicity | 10 | [Open](Simplicity/README.md) |
 | Black Spot Exchange | 9 | [Open](Black%20Spot%20Exchange/README.md) |
 | Retro Crossroads | 8 | [Open](Retro%20Crossroads/README.md) |
