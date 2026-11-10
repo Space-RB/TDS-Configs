@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 77 | [Open](Simplicity/README.md) |
+| Abyssal Trench | 2 | [Open](Abyssal%20Trench/README.md) |
 
 | Unknown | 94 | [Open](Unknown/README.md) |
+| Simplicity | 77 | [Open](Simplicity/README.md) |
 | Lay By | 47 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 10 | [Open](Retro%20Crossroads/README.md) |
 | Winter Abyss | 6 | [Open](Winter%20Abyss/README.md) |
@@ -36,7 +37,6 @@ Choose one of the categories below to continue.
 | Dead Ahead | 2 | [Open](Dead%20Ahead/README.md) |
 | Pier Pressure | 2 | [Open](Pier%20Pressure/README.md) |
 | Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
-| Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
 | Construction Crazy | 1 | [Open](Construction%20Crazy/README.md) |
 | Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
 | Gilded Path | 1 | [Open](Gilded%20Path/README.md) |
