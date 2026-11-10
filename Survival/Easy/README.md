@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 2 | [Open](Simplicity/README.md) |
+| Simplicity | 3 | [Open](Simplicity/README.md) |
 
 | Unknown | 92 | [Open](Unknown/README.md) |
 | Gilded Path | 50 | [Open](Gilded%20Path/README.md) |
