@@ -1,0 +1,77 @@
+_G.AutoGatling = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Demoman", "Golden Pyromancer", "Hacker", "Gatling Gun", "DJ Booth")
+TDS:Mode("Act2Easy")
+TDS:Ready()
+TDS:Place("Pyromancer", -0.3587222099304199, 47.607505798339844, 10.323904991149902)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Demoman", 5.278936386108398, 48.24131393432617, 4.480852127075195)
+
+-- [ Wave 3 ] --
+TDS:Place("Demoman", 8.087530136108398, 48.121482849121094, 3.3174943923950195)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Place("Gatling Gun", -8.714394569396973, 55.179019927978516, 9.691783905029297)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 18 ] --
+TDS:Place("Hacker", 2.279542922973633, 47.951881408691406, 4.323025703430176)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("DJ Booth", -1.4529304504394531, 47.68426513671875, 2.776984691619873)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
