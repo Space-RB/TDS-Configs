@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 93 recorded strategies available for this map**
+**📦 94 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -112,6 +112,7 @@ Select a strategy below and open its config file.
 | 91 | 2026-11-09 22:59 UTC | Easy | — | Soldier, Demoman, None | [Open](91-2026-11-09-22-59-33.txt) |
 | 92 | 2026-11-10 00:51 UTC | Easy | — | EvolvedJuggernaut, Militant, None | [Open](92-2026-11-10-00-51-19.txt) |
 | 93 | 2026-11-10 14:32 UTC | Easy | — | EvolvedKingpin, Militant, None | [Open](93-2026-11-10-14-32-16.txt) |
+| 94 | 2026-11-10 14:33 UTC | Easy | — | EvolvedKingpin, Militant, None | [Open](94-2026-11-10-14-33-59.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
