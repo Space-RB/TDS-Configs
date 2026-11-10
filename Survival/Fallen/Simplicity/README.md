@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 47 recorded strategies available for this map**
+**📦 48 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -66,6 +66,7 @@ Select a strategy below and open its config file.
 | 45 | 2026-11-08 19:00 UTC | Fallen | — | Hacker, DJ Booth, Golden Minigunner, Gatling Gun, Boomerang | [Open](45-2026-11-08-19-00-04.txt) |
 | 46 | 2026-11-10 00:55 UTC | Fallen | — | Brawler, Freezer, Shotgunner, EvolvedKingpin, None | [Open](46-2026-11-10-00-55-35.txt) |
 | 47 | 2026-11-10 01:29 UTC | Fallen | — | Brawler, Freezer, Shotgunner, EvolvedKingpin, None | [Open](47-2026-11-10-01-29-10.txt) |
+| 48 | 2026-11-10 01:36 UTC | Fallen | — | Brawler, Freezer, Shotgunner, EvolvedKingpin, None | [Open](48-2026-11-10-01-36-18.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
