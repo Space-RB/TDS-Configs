@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 155 recorded strategies available for this map**
+**📦 156 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -174,6 +174,7 @@ Select a strategy below and open its config file.
 | 153 | 2026-11-10 09:11 UTC | Hardcore | — | EvolvedKingpin, Boomerang, Farm, Minigunner, Crook Boss | [Open](153-2026-11-10-09-11-05.txt) |
 | 154 | 2026-11-10 09:51 UTC | Hardcore | — | EvolvedKingpin, Boomerang, Farm, Minigunner, Crook Boss | [Open](154-2026-11-10-09-51-08.txt) |
 | 155 | 2026-11-10 10:12 UTC | Hardcore | — | EvolvedKingpin, EvolvedJuggernaut, DJ Booth, Engineer, Farm | [Open](155-2026-11-10-10-12-52.txt) |
+| 156 | 2026-11-10 11:45 UTC | Hardcore | — | EvolvedKingpin, Pyromancer, Hunter, None | [Open](156-2026-11-10-11-45-43.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
