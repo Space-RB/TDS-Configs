@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Retro Zone | 1 | [Open](Retro%20Zone/README.md) |
+| Necropolis | 1 | [Open](Necropolis/README.md) |
 
 | Unknown | 15 | [Open](Unknown/README.md) |
 | Dead Ahead | 10 | [Open](Dead%20Ahead/README.md) |
@@ -34,6 +34,7 @@ Choose one of the categories below to continue.
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Moon Base | 1 | [Open](Moon%20Base/README.md) |
 | Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
+| Retro Zone | 1 | [Open](Retro%20Zone/README.md) |
 | Simplicity | 1 | [Open](Simplicity/README.md) |
 | U-Turn | 1 | [Open](U-Turn/README.md) |
 </div>
