@@ -1,0 +1,241 @@
+_G.AutoGatling = true
+_G.AutoNecro = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoGatlingSettings = {beta_raw_fire = true, gui_hidden = true, rainbow_bullet_lines = true, rainbow_esp = true, show_bullet_lines = true, target_esp = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Tesla", "Engineer", "EvolvedKingpin", "Necromancer")
+TDS:Mode("Frost")
+TDS:GameInfo("Abyssal Trench", {})
+TDS:Place("Engineer", 2.5058441162109375, 0.4474770426750183, -2.621081829071045)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Engineer", 2.557310104370117, 0.4474780261516571, -5.686977386474609)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Engineer", 2.5042953491210938, 0.4474789500236511, -8.693629264831543)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+TDS:Place("Engineer", 2.553617477416992, 0.4474760890007019, 0.44101476669311523)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Place("Engineer", 5.168083190917969, 0.4474785327911377, -7.279087543487549)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("Engineer", -3.5508346557617188, 0.4474773406982422, -3.96311354637146)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 12 ] --
+TDS:Place("Gatling Gun", 67.79379272460938, 0.5363926291465759, -8.309368133544922)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 16 ] --
+TDS:Place("Tesla", 5.713350296020508, 0.44747570157051086, 2.138697624206543)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 20 ] --
+TDS:Place("Tesla", 5.847450256347656, 0.44747766852378845, -3.7933192253112793)
+TDS:Upgrade(9)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 22 ] --
+TDS:Place("EvolvedKingpin", 7.859918594360352, 0.44747665524482727, -0.7069511413574219)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:SetOption(10, "Unit 1", "Money Runner")
+TDS:SetOption(10, "Unit 2", "Money Runner")
+
+-- [ Wave 23 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(7)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(10)
+TDS:Place("Necromancer", 9.376876831054688, 0.4474775493144989, -3.390194892883301)
+TDS:Upgrade(11)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(8)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(11)
+TDS:Place("EvolvedKingpin", 8.4232177734375, 0.4474785029888153, -6.28623104095459)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12, 2)
+TDS:SetOption(12, "Unit 3", "Bouncer")
+TDS:SetOption(12, "Unit 2", "Bouncer")
+TDS:SetOption(12, "Unit 1", "Bouncer")
+TDS:Upgrade(12, 2)
+
+-- [ Wave 35 ] --
+TDS:WaitForWave(35)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+TDS:Sell(5)
+TDS:Sell(6)
+TDS:Sell(7)
+TDS:Sell(8)
+TDS:Sell(9)
+TDS:Sell(10)
+TDS:Sell(11)
+TDS:Sell(12)
+TDS:Place("Engineer", 2.5058441162109375, 0.4474770426750183, -2.621081829071045)
+TDS:Place("Engineer", 2.557310104370117, 0.4474780261516571, -5.686977386474609)
+TDS:Place("Engineer", 2.5042953491210938, 0.4474789500236511, -8.693629264831543)
+TDS:Place("Engineer", 2.553617477416992, 0.4474760890007019, 0.44101476669311523)
+TDS:Place("Engineer", 5.168083190917969, 0.4474785327911377, -7.279087543487549)
+TDS:Place("Engineer", -3.5508346557617188, 0.4474773406982422, -3.96311354637146)
+TDS:Place("Gatling Gun", 67.79379272460938, 0.5363926291465759, -8.309368133544922)
+TDS:Place("Tesla", 5.713350296020508, 0.44747570157051086, 2.138697624206543)
+TDS:Place("Tesla", 5.847450256347656, 0.44747766852378845, -3.7933192253112793)
+TDS:Place("EvolvedKingpin", 7.859918594360352, 0.44747665524482727, -0.7069511413574219)
+TDS:Place("Necromancer", 9.376876831054688, 0.4474775493144989, -3.390194892883301)
+TDS:Place("EvolvedKingpin", 8.4232177734375, 0.4474785029888153, -6.28623104095459)
+TDS:VoteSkip(34)
+TDS:Upgrade(19)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(24, 2)
+TDS:Place("EvolvedKingpin", 7.627460479736328, 0.4474794268608093, -9.24159049987793)
+TDS:Place("EvolvedKingpin", 10.337594985961914, 0.44747602939605713, 1.0746073722839355)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26, 2)
+TDS:SetOption(26, "Unit 2", "Bouncer")
+TDS:SetOption(26, "Unit 3", "Bouncer")
+TDS:SetOption(26, "Unit 1", "Bouncer")
+
+-- [ Wave 37 ] --
+TDS:Upgrade(26, 2)
+TDS:WaitForWave(37)
+TDS:Sell(26)
+TDS:Place("EvolvedKingpin", 10.110523223876953, 0.44747593998908997, 1.352748155593872)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27, 2)
+TDS:Upgrade(27, 2)
+TDS:Upgrade(27, 2)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:SetOption(27, "Unit 2", "Bouncer")
+TDS:SetOption(27, "Unit 3", "Bouncer")
+TDS:SetOption(27, "Unit 1", "Bouncer")
+
+-- [ Wave 38 ] --
+TDS:Upgrade(25, 2)
+TDS:SetOption(25, "Unit 3", "Bouncer")
+TDS:SetOption(25, "Unit 2", "Bouncer")
+TDS:SetOption(25, "Unit 1", "Bouncer")
+TDS:Upgrade(25, 2)
+TDS:WaitForWave(38)
+TDS:Sell(25)
+TDS:Place("EvolvedKingpin", 7.471902847290039, 0.4474794268608093, -9.284704208374023)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+
+-- [ Wave 39 ] --
+TDS:Upgrade(28, 2)
+TDS:SetOption(28, "Unit 3", "Bouncer")
+TDS:SetOption(28, "Unit 2", "Bouncer")
+TDS:SetOption(28, "Unit 1", "Bouncer")
+TDS:Upgrade(28, 2)
+TDS:Upgrade(28, 2)
+TDS:Upgrade(21)
+
+-- [ Wave 40 ] --
+TDS:Upgrade(20)
+TDS:Upgrade(23)
+TDS:Place("Necromancer", 10.41373062133789, 0.4474792778491974, -8.603666305541992)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Place("Necromancer", 16.52031707763672, 0.447476863861084, -1.42238187789917)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [[ END OF STRATEGY ]]
