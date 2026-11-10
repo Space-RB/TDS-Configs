@@ -16,13 +16,13 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 3 | [Open](Simplicity/README.md) |
+| Unknown | 93 | [Open](Unknown/README.md) |
 
-| Unknown | 92 | [Open](Unknown/README.md) |
 | Gilded Path | 50 | [Open](Gilded%20Path/README.md) |
 | Dead Ahead | 31 | [Open](Dead%20Ahead/README.md) |
 | Black Spot Exchange | 5 | [Open](Black%20Spot%20Exchange/README.md) |
 | Lay By | 5 | [Open](Lay%20By/README.md) |
+| Simplicity | 3 | [Open](Simplicity/README.md) |
 | Crossroads | 2 | [Open](Crossroads/README.md) |
 | Forest Camp | 2 | [Open](Forest%20Camp/README.md) |
 | Night Station | 2 | [Open](Night%20Station/README.md) |
