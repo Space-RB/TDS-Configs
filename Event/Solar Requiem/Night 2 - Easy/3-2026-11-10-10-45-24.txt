@@ -1,0 +1,69 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("None", "None", "None", "None", "None")
+TDS:Mode("Act2Easy")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", -0.30034446716308594, 47.60175323486328, 10.873661041259766)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Demoman", 4.8644022941589355, 47.979610443115234, 5.320084095001221)
+
+-- [ Wave 4 ] --
+TDS:Place("Demoman", 8.590299606323242, 47.8129768371582, 3.589543342590332)
+
+-- [ Wave 8 ] --
+TDS:Place("Gatling Gun", -9.008790969848633, 53.485225677490234, 5.822624206542969)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Place("Demoman", 2.6008167266845703, 48.081092834472656, -4.918179035186768)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("Demoman", 3.551783561706543, 47.672142028808594, -15.037878036499023)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
