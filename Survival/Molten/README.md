@@ -16,15 +16,15 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 35 | [Open](Unknown/README.md) |
+| Cataclysm | 5 | [Open](Cataclysm/README.md) |
 
+| Unknown | 35 | [Open](Unknown/README.md) |
 | Dead Ahead | 13 | [Open](Dead%20Ahead/README.md) |
 | Simplicity | 10 | [Open](Simplicity/README.md) |
 | Black Spot Exchange | 9 | [Open](Black%20Spot%20Exchange/README.md) |
 | Retro Crossroads | 8 | [Open](Retro%20Crossroads/README.md) |
 | Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
 | U-Turn | 6 | [Open](U-Turn/README.md) |
-| Cataclysm | 4 | [Open](Cataclysm/README.md) |
 | Lay By | 4 | [Open](Lay%20By/README.md) |
 | Forest Camp | 3 | [Open](Forest%20Camp/README.md) |
 | Retro Lighthouse | 3 | [Open](Retro%20Lighthouse/README.md) |
