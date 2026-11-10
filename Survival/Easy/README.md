@@ -16,10 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Dead Ahead | 31 | [Open](Dead%20Ahead/README.md) |
+| Simplicity | 2 | [Open](Simplicity/README.md) |
 
 | Unknown | 92 | [Open](Unknown/README.md) |
 | Gilded Path | 50 | [Open](Gilded%20Path/README.md) |
+| Dead Ahead | 31 | [Open](Dead%20Ahead/README.md) |
 | Black Spot Exchange | 5 | [Open](Black%20Spot%20Exchange/README.md) |
 | Lay By | 5 | [Open](Lay%20By/README.md) |
 | Crossroads | 2 | [Open](Crossroads/README.md) |
@@ -36,7 +37,6 @@ Choose one of the categories below to continue.
 | Portland | 1 | [Open](Portland/README.md) |
 | Retro Lighthouse | 1 | [Open](Retro%20Lighthouse/README.md) |
 | Ruby Escort | 1 | [Open](Ruby%20Escort/README.md) |
-| Simplicity | 1 | [Open](Simplicity/README.md) |
 | The Heights | 1 | [Open](The%20Heights/README.md) |
 | Toyboard | 1 | [Open](Toyboard/README.md) |
 | U-Turn | 1 | [Open](U-Turn/README.md) |
