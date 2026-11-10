@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 73 recorded strategies available for this map**
+**📦 74 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -92,6 +92,7 @@ Select a strategy below and open its config file.
 | 71 | 2026-11-09 16:09 UTC | Frost | — | Brawler, Hacker, Gatling Gun, Medic, EvolvedEnforcer | [Open](71-2026-11-09-16-09-16.txt) |
 | 72 | 2026-11-10 04:06 UTC | Frost | — | Brawler, Freezer, Shotgunner, None | [Open](72-2026-11-10-04-06-41.txt) |
 | 73 | 2026-11-10 05:36 UTC | Frost | — | Brawler, Freezer, Shotgunner, None | [Open](73-2026-11-10-05-36-45.txt) |
+| 74 | 2026-11-10 11:10 UTC | Frost | — | Assassin, Freezer, Crook Boss, Commander, Shotgunner | [Open](74-2026-11-10-11-10-45.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
