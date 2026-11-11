@@ -16,11 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Tropical Isles | 1 | [Open](Tropical%20Isles/README.md) |
+| Black Spot Exchange | 4 | [Open](Black%20Spot%20Exchange/README.md) |
 
 | Unknown | 6 | [Open](Unknown/README.md) |
 | Dead Ahead | 4 | [Open](Dead%20Ahead/README.md) |
-| Black Spot Exchange | 3 | [Open](Black%20Spot%20Exchange/README.md) |
 | Retro Lighthouse | 3 | [Open](Retro%20Lighthouse/README.md) |
 | Chess Board | 2 | [Open](Chess%20Board/README.md) |
 | Lay By | 2 | [Open](Lay%20By/README.md) |
@@ -37,6 +36,7 @@ Choose one of the categories below to continue.
 | Night Station | 1 | [Open](Night%20Station/README.md) |
 | Retro Crossroads | 1 | [Open](Retro%20Crossroads/README.md) |
 | Retro Zone | 1 | [Open](Retro%20Zone/README.md) |
+| Tropical Isles | 1 | [Open](Tropical%20Isles/README.md) |
 | U-Turn | 1 | [Open](U-Turn/README.md) |
 </div>
 
