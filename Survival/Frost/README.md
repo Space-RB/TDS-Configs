@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Abyssal Trench | 2 | [Open](Abyssal%20Trench/README.md) |
+| Abyssal Trench | 3 | [Open](Abyssal%20Trench/README.md) |
 
 | Unknown | 94 | [Open](Unknown/README.md) |
 | Simplicity | 77 | [Open](Simplicity/README.md) |
