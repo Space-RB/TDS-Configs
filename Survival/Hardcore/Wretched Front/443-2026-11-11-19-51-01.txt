@@ -1,0 +1,53 @@
+_G.AutoDJ = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedKingpin", "Golden Minigunner", "Boomerang", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Boomerang", -1.593536376953125, 0.9734131097793579, -30.949378967285156)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:Place("Boomerang", -4.026430606842041, 0.9724117517471313, -29.158706665039062)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Place("Minigunner", 5.6538825035095215, 1.2346242666244507, 20.892728805541992)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Place("EvolvedKingpin", 2.613931655883789, 1.3531917333602905, 20.875476837158203)
+
+-- [ Wave 13 ] --
+TDS:Place("Boomerang", -2.774256706237793, 0.9967300891876221, -33.75071716308594)
+TDS:Place("Boomerang", -5.196699142456055, 0.961762547492981, -31.964427947998047)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 17 ] --
+TDS:Place("Minigunner", 3.7772889137268066, 0.8848675489425659, 18.066883087158203)
+
+-- [[ END OF STRATEGY ]]
