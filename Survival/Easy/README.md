@@ -16,9 +16,8 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
+| Unknown | 96 | [Open](Unknown/README.md) |
 
-| Unknown | 95 | [Open](Unknown/README.md) |
 | Gilded Path | 52 | [Open](Gilded%20Path/README.md) |
 | Dead Ahead | 34 | [Open](Dead%20Ahead/README.md) |
 | Black Spot Exchange | 5 | [Open](Black%20Spot%20Exchange/README.md) |
@@ -29,6 +28,7 @@ Choose one of the categories below to continue.
 | Night Station | 2 | [Open](Night%20Station/README.md) |
 | Cataclysm | 1 | [Open](Cataclysm/README.md) |
 | Construction Crazy | 1 | [Open](Construction%20Crazy/README.md) |
+| Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
 | Cyber City | 1 | [Open](Cyber%20City/README.md) |
 | Four Seasons | 1 | [Open](Four%20Seasons/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
