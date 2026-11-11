@@ -1,0 +1,143 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Minigunner", "Farm", "Boomerang", "Golden Crook Boss", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", 15.602669715881348, 1.2017019987106323, 35.18580627441406)
+TDS:Place("Farm", 12.101212501525879, 1.2632824182510376, 35.30207061767578)
+TDS:Place("Farm", 8.561308860778809, 1.3320975303649902, 35.328216552734375)
+TDS:Place("Farm", 5.015146255493164, 1.3907489776611328, 35.884613037109375)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", 20.051895141601562, 1.0543185472488403, 35.32838439941406)
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Place("Boomerang", 7.85655403137207, 1.2129942178726196, 21.47795867919922)
+TDS:Upgrade(6)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Farm", 6.907526016235352, 1.3808215856552124, 40.378509521484375)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(6)
+TDS:Place("Farm", 11.474013328552246, 1.3058040142059326, 40.54276657104492)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+TDS:Place("Crook Boss", 7.2330241203308105, 0.8000414371490479, 18.32919692993164)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 14 ] --
+TDS:Place("Farm", 18.52704620361328, 1.1352951526641846, 40.01083755493164)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 16 ] --
+TDS:Place("Boomerang", 4.280409336090088, 1.2859212160110474, 20.642940521240234)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Boomerang", 10.573867797851562, 0.9827060699462891, 20.114946365356445)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Boomerang", 0.9915003776550293, 1.3636970520019531, 21.821063995361328)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Boomerang", 11.643007278442383, 1.2909457683563232, 23.884986877441406)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Minigunner", 2.222007989883423, 1.1249483823776245, 18.265417098999023)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 18 ] --
+TDS:Place("Minigunner", 4.871830463409424, 0.4132586419582367, 15.016067504882812)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Minigunner", 11.026098251342773, 0.5677421689033508, 17.10877227783203)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Minigunner", 14.272758483886719, 0.9113137125968933, 19.593915939331055)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(17)
+TDS:Place("Crook Boss", 4.465672969818115, 0.2854561507701874, 12.025970458984375)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(19)
+TDS:Place("Crook Boss", 14.658308982849121, 1.0762360095977783, 23.247310638427734)
+TDS:Upgrade(20)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(20)
+TDS:Upgrade(15)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(16)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(18)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(20)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
