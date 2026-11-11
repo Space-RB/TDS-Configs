@@ -16,17 +16,17 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Abyssal Trench | 3 | [Open](Abyssal%20Trench/README.md) |
+| Lay By | 48 | [Open](Lay%20By/README.md) |
 
 | Unknown | 94 | [Open](Unknown/README.md) |
 | Simplicity | 77 | [Open](Simplicity/README.md) |
-| Lay By | 47 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 10 | [Open](Retro%20Crossroads/README.md) |
 | Winter Abyss | 6 | [Open](Winter%20Abyss/README.md) |
 | Crossroads | 5 | [Open](Crossroads/README.md) |
 | Spring Fever | 5 | [Open](Spring%20Fever/README.md) |
 | Summer Castle | 5 | [Open](Summer%20Castle/README.md) |
 | U-Turn | 5 | [Open](U-Turn/README.md) |
+| Abyssal Trench | 3 | [Open](Abyssal%20Trench/README.md) |
 | Honey Valley | 3 | [Open](Honey%20Valley/README.md) |
 | Mason Arch | 3 | [Open](Mason%20Arch/README.md) |
 | Medieval Times | 3 | [Open](Medieval%20Times/README.md) |
