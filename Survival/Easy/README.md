@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Coral Deep | 2 | [Open](Coral%20Deep/README.md) |
+| Coral Deep | 3 | [Open](Coral%20Deep/README.md) |
 
 | Unknown | 96 | [Open](Unknown/README.md) |
 | Gilded Path | 52 | [Open](Gilded%20Path/README.md) |
