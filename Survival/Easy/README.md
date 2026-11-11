@@ -16,10 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Dead Ahead | 34 | [Open](Dead%20Ahead/README.md) |
+| Infernal Abyss | 1 | [Open](Infernal%20Abyss/README.md) |
 
 | Unknown | 94 | [Open](Unknown/README.md) |
 | Gilded Path | 51 | [Open](Gilded%20Path/README.md) |
+| Dead Ahead | 34 | [Open](Dead%20Ahead/README.md) |
 | Black Spot Exchange | 5 | [Open](Black%20Spot%20Exchange/README.md) |
 | Lay By | 5 | [Open](Lay%20By/README.md) |
 | Simplicity | 3 | [Open](Simplicity/README.md) |
