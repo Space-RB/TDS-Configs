@@ -16,11 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Retro The Heights | 2 | [Open](Retro%20The%20Heights/README.md) |
+| Simplicity | 12 | [Open](Simplicity/README.md) |
 
 | Unknown | 35 | [Open](Unknown/README.md) |
 | Dead Ahead | 13 | [Open](Dead%20Ahead/README.md) |
-| Simplicity | 11 | [Open](Simplicity/README.md) |
 | Black Spot Exchange | 9 | [Open](Black%20Spot%20Exchange/README.md) |
 | Retro Crossroads | 8 | [Open](Retro%20Crossroads/README.md) |
 | Cataclysm | 7 | [Open](Cataclysm/README.md) |
@@ -31,6 +30,7 @@ Choose one of the categories below to continue.
 | Retro Lighthouse | 3 | [Open](Retro%20Lighthouse/README.md) |
 | Grass Isle | 2 | [Open](Grass%20Isle/README.md) |
 | Hot Spot | 2 | [Open](Hot%20Spot/README.md) |
+| Retro The Heights | 2 | [Open](Retro%20The%20Heights/README.md) |
 | Rocket Arena | 2 | [Open](Rocket%20Arena/README.md) |
 | The Heavens | 2 | [Open](The%20Heavens/README.md) |
 | Toyboard | 2 | [Open](Toyboard/README.md) |
