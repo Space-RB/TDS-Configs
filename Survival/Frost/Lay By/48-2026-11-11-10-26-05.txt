@@ -1,0 +1,177 @@
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.AutoStarCannon = true
+_G.HideUsername = true
+_G.StarCannonMin = 100
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "Hacker", "Mercenary Base", "Gatling Gun", "Medic")
+TDS:Mode("Frost")
+TDS:GameInfo("Lay By", {"HiddenEnemies", "Limitation", "Quarantine"})
+TDS:Place("Trapper", -2.8935751914978027, 243, 168.69207763671875, true)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Place("Trapper", -3.0010623931884766, 243, 174.51629638671875, true)
+
+-- [ Wave 2 ] --
+TDS:VoteSkip(2)
+TDS:Upgrade(2, true)
+
+-- [ Wave 3 ] --
+TDS:VoteSkip(3)
+TDS:Upgrade(1, true)
+
+-- [ Wave 4 ] --
+TDS:VoteSkip(4)
+TDS:Place("Trapper", 2.9039742946624756, 243, 163.6590576171875, true)
+
+-- [ Wave 5 ] --
+TDS:Place("Trapper", 2.95111083984375, 243, 171.7813262939453, true)
+TDS:VoteSkip(5)
+TDS:Upgrade(4, true)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3, true)
+TDS:VoteSkip(6)
+
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+
+-- [ Wave 8 ] --
+TDS:VoteSkip(8)
+
+-- [ Wave 9 ] --
+TDS:WaitForWave(9)
+TDS:Sell(4)
+TDS:Sell(3)
+TDS:Sell(1)
+TDS:Place("Gatling Gun", -5.845865249633789, 245.99295043945312, 168.18038940429688)
+TDS:VoteSkip(9)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Place("Hacker", -2.51129150390625, 242.99998474121094, 275.2009582519531)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 17 ] --
+TDS:Place("Mercenary Base", -3.0719242095947266, 243, 168.30421447753906, true)
+TDS:Upgrade(7, true)
+TDS:Upgrade(7, true)
+TDS:Upgrade(7, true)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(7, true)
+TDS:SetOption(7, "Unit 1", "Riot Guard")
+TDS:SetOption(7, "Unit 2", "Riot Guard")
+
+-- [ Wave 19 ] --
+TDS:SetOption(7, "Unit 3", "Riot Guard")
+TDS:Place("Mercenary Base", -2.929652214050293, 243, 160.0652618408203, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(8, true)
+
+-- [ Wave 20 ] --
+TDS:VoteSkip(20)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(8, true)
+TDS:VoteSkip(21)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(8, true)
+TDS:SetOption(8, "Unit 1", "Riot Guard")
+TDS:SetOption(8, "Unit 2", "Riot Guard")
+TDS:SetOption(8, "Unit 3", "Riot Guard")
+TDS:VoteSkip(22)
+
+-- [ Wave 23 ] --
+TDS:Place("Mercenary Base", 3.253796100616455, 243, 167.29295349121094, true)
+TDS:Upgrade(9, true)
+TDS:Upgrade(9, true)
+TDS:VoteSkip(23)
+TDS:Upgrade(9, true)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(9, true)
+TDS:SetOption(9, "Unit 1", "Riot Guard")
+TDS:SetOption(9, "Unit 2", "Riot Guard")
+TDS:SetOption(9, "Unit 3", "Riot Guard")
+
+-- [ Wave 25 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(7, true)
+TDS:Upgrade(8, true)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(9, true)
+
+-- [ Wave 28 ] --
+TDS:Place("Medic", -11.212974548339844, 243, 172.65277099609375, true)
+TDS:Place("Medic", -12.377943992614746, 243, 169.97938537597656, true)
+TDS:Place("Medic", -11.90988540649414, 243, 166.20469665527344, true)
+TDS:Place("Medic", -8.805512428283691, 243, 164.7195281982422, true)
+TDS:Upgrade(13, true)
+TDS:Upgrade(13, true)
+TDS:Upgrade(13, true)
+TDS:MedicSelect(13, 12)
+TDS:Upgrade(12, true)
+TDS:Upgrade(12, true)
+TDS:Upgrade(12, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(10, true)
+TDS:Upgrade(10, true)
+TDS:Upgrade(10, true)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(9, true)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Ability(6, "Hologram Tower")
+
+-- [ Wave 33 ] --
+TDS:Ability(6, "Hologram Tower", {towerPosition = Vector3.new(-5.380436897277832, 242.99998474121094, 288.9769592285156), towerToClone = 5}, true)
+TDS:Upgrade(5)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(7, true)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(8, true)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6, 2)
+
+-- [ Wave 37 ] --
+TDS:VoteSkip(37)
+
+-- [[ END OF STRATEGY ]]
