@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 249 recorded strategies available for this map**
+**📦 250 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -268,6 +268,7 @@ Select a strategy below and open its config file.
 | 247 | 2026-11-10 12:26 UTC | Unknown | — | None | [Open](247-2026-11-10-12-26-40.txt) |
 | 248 | 2026-11-10 13:12 UTC | Unknown | — | Electroshocker, Sniper, None | [Open](248-2026-11-10-13-12-54.txt) |
 | 249 | 2026-11-10 17:56 UTC | Unknown | — | EvolvedOperator, EvolvedJuggernaut, Hacker, Commander, DJ Booth | [Open](249-2026-11-10-17-56-08.txt) |
+| 250 | 2026-11-11 18:34 UTC | Unknown | — | Commander, Mortar, Time Dilator, Accelerator, Cowboy | [Open](250-2026-11-11-18-34-38.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
