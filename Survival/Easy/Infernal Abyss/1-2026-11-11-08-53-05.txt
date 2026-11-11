@@ -1,0 +1,31 @@
+_G.AutoMoney = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.StartHubStrategy = "e770565e-f342-421e-b170-cd363598abb5"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Soldier", "Shotgunner", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Infernal Abyss", {})
+TDS:Ready()
+
+-- [ Wave 3 ] --
+TDS:Place("Shotgunner", -1.9088611602783203, 0.7315042018890381, -1.2997708320617676)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
