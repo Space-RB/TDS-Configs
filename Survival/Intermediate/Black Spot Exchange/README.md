@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 3 recorded strategies available for this map**
+**📦 4 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -22,6 +22,7 @@ Select a strategy below and open its config file.
 
 | 2 | 2026-11-07 22:25 UTC | Intermediate | — | Assassin, Crook Boss, DJ Booth, EvolvedKingpin, Hacker | [Open](2-2026-11-07-22-25-24.txt) |
 | 3 | 2026-11-08 10:18 UTC | Intermediate | — | Militant, Shotgunner, Commander, EvolvedJuggernaut, None | [Open](3-2026-11-08-10-18-10.txt) |
+| 4 | 2026-11-11 07:35 UTC | Intermediate | — | EvolvedJuggernaut, Militant, Shotgunner, Commander, EvolvedKingpin | [Open](4-2026-11-11-07-35-22.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
