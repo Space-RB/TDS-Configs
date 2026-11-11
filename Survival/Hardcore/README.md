@@ -16,10 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Wretched Front | 438 | [Open](Wretched%20Front/README.md) |
+| Outskirts Commune | 31 | [Open](Outskirts%20Commune/README.md) |
 
+| Wretched Front | 438 | [Open](Wretched%20Front/README.md) |
 | Unknown | 167 | [Open](Unknown/README.md) |
-| Outskirts Commune | 30 | [Open](Outskirts%20Commune/README.md) |
 | Unknown Garden | 5 | [Open](Unknown%20Garden/README.md) |
 | Wrecked Battlefield | 4 | [Open](Wrecked%20Battlefield/README.md) |
 </div>
