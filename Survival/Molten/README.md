@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Retro The Heights | 1 | [Open](Retro%20The%20Heights/README.md) |
+| Retro The Heights | 2 | [Open](Retro%20The%20Heights/README.md) |
 
 | Unknown | 35 | [Open](Unknown/README.md) |
 | Dead Ahead | 13 | [Open](Dead%20Ahead/README.md) |
