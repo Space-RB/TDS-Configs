@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 252 recorded strategies available for this map**
+**📦 253 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -271,6 +271,7 @@ Select a strategy below and open its config file.
 | 250 | 2026-11-11 18:34 UTC | Unknown | — | Commander, Mortar, Time Dilator, Accelerator, Cowboy | [Open](250-2026-11-11-18-34-38.txt) |
 | 251 | 2026-11-12 12:30 UTC | Unknown | — | Farm, DJ Booth, Engineer, Golden Scout, Gladiator | [Open](251-2026-11-12-12-30-20.txt) |
 | 252 | 2026-11-12 12:52 UTC | Unknown | — | Time Dilator, Accelerator, Cowboy, Commander, Mortar | [Open](252-2026-11-12-12-52-26.txt) |
+| 253 | 2026-11-12 14:20 UTC | Unknown | — | EvolvedKingpin, Star Cannon, Gatling Gun, Time Dilator, Engineer | [Open](253-2026-11-12-14-20-26.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
