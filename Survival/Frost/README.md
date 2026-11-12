@@ -16,9 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 80 | [Open](Simplicity/README.md) |
+| Unknown | 96 | [Open](Unknown/README.md) |
 
-| Unknown | 95 | [Open](Unknown/README.md) |
+| Simplicity | 80 | [Open](Simplicity/README.md) |
 | Lay By | 53 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 10 | [Open](Retro%20Crossroads/README.md) |
 | Winter Abyss | 6 | [Open](Winter%20Abyss/README.md) |
