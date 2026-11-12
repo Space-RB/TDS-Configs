@@ -16,14 +16,13 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Space City | 1 | [Open](Space%20City/README.md) |
+| Crossroads | 3 | [Open](Crossroads/README.md) |
 
 | Unknown | 16 | [Open](Unknown/README.md) |
 | Dead Ahead | 11 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 8 | [Open](Lay%20By/README.md) |
 | Black Spot Exchange | 6 | [Open](Black%20Spot%20Exchange/README.md) |
 | Retro Crossroads | 3 | [Open](Retro%20Crossroads/README.md) |
-| Crossroads | 2 | [Open](Crossroads/README.md) |
 | Gilded Path | 2 | [Open](Gilded%20Path/README.md) |
 | Meltdown | 2 | [Open](Meltdown/README.md) |
 | Sugar Rush | 2 | [Open](Sugar%20Rush/README.md) |
@@ -37,6 +36,7 @@ Choose one of the categories below to continue.
 | Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
 | Retro Zone | 1 | [Open](Retro%20Zone/README.md) |
 | Simplicity | 1 | [Open](Simplicity/README.md) |
+| Space City | 1 | [Open](Space%20City/README.md) |
 | U-Turn | 1 | [Open](U-Turn/README.md) |
 </div>
 
