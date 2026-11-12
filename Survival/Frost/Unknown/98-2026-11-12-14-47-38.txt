@@ -1,0 +1,50 @@
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoMoonPuzzle = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {beta_dps = true, beta_raw_fire = true, bypass_boss_for_fast_enemies = true, gui_hidden = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Mercenary Base", "Trapper", "Hacker", "Farm")
+TDS:Mode("Frost")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Trapper", 2.9375267028808594, 243, 207.0592041015625)
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", 12.387654304504395, 243.01742553710938, 180.12342834472656)
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", 2.702207326889038, 243, 175.33309936523438)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", 16.048419952392578, 243.0301971435547, 180.779052734375)
+TDS:Place("Farm", 12.49836540222168, 243.0301971435547, 176.1741943359375)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Place("Farm", 19.318954467773438, 242.99183654785156, 182.13375854492188)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:Place("Trapper", -3.0424818992614746, 243, 175.66183471679688)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(7)
+TDS:Place("Farm", 16.102001190185547, 243.0301971435547, 177.2394561767578)
+TDS:Place("Farm", 19.37253189086914, 243.0301971435547, 178.5941619873047)
+TDS:Place("Farm", 24.124919891357422, 243.0301971435547, 178.0765380859375)
+
+-- [ Wave 7 ] --
+TDS:Place("Trapper", 2.6468842029571533, 243, 172.29360961914062)
+
+-- [[ END OF STRATEGY ]]
