@@ -1,0 +1,281 @@
+_G.AutoPickups = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Militant", "Demoman", "Shotgunner", "Cowboy", "Farm")
+TDS:Mode("Casual")
+TDS:GameInfo("Crossroads", {})
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Cowboy", 16.518280029296875, 0.9999992251396179, 4.449908256530762)
+
+-- [ Wave 3 ] --
+TDS:Place("Cowboy", 5.640744209289551, 0.999997079372406, 17.84014892578125)
+TDS:Upgrade(2)
+TDS:Place("Cowboy", 5.482074737548828, 0.9999992847442627, 3.9938011169433594)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Place("Farm", 55.220855712890625, 0.9999967217445374, 19.955238342285156)
+TDS:Place("Farm", 55.25312423706055, 0.9999960660934448, 24.10943603515625)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", 55.30425262451172, 0.9999954104423523, 28.22428321838379)
+TDS:Place("Farm", 51.077938079833984, 0.9999967217445374, 19.96162223815918)
+TDS:Place("Farm", 51.13328552246094, 0.9999960660934448, 24.105642318725586)
+TDS:Place("Farm", 51.16410827636719, 0.9999954104423523, 28.195194244384766)
+TDS:Place("Farm", 46.974369049072266, 0.9999953508377075, 28.27631378173828)
+
+-- [ Wave 7 ] --
+TDS:Place("Farm", 46.950260162353516, 0.9999960660934448, 24.100557327270508)
+TDS:Place("Farm", 46.86668014526367, 0.9999967217445374, 20.024913787841797)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Place("Cowboy", 6.6562299728393555, 0.9999980926513672, 11.350687026977539)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Place("Farm", 42.8194580078125, 0.9999960660934448, 24.10114288330078)
+TDS:Upgrade(14)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+
+-- [ Wave 10 ] --
+TDS:Place("Militant", 4.741049766540527, 1.0000007152557373, -4.235320091247559)
+TDS:Place("Militant", -4.403158187866211, 1.0000081062316895, -3.6348342895507812)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Place("Militant", -28.843828201293945, 1.0000081062316895, -3.5661754608154297)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Cowboy", 9.510965347290039, 0.9999971389770508, 17.353160858154297)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Cowboy", 9.468093872070312, 0.9999977350234985, 13.888799667358398)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(14)
+TDS:Upgrade(19)
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+TDS:Place("Militant", -4.477744102478027, 0.9999991655349731, 5.062127113342285)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(13)
+TDS:Upgrade(2)
+TDS:Upgrade(18)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+TDS:Upgrade(2)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(9)
+TDS:Place("Cowboy", 7.934342384338379, 0.999998927116394, 6.278207778930664)
+TDS:Place("Cowboy", 10.922513008117676, 0.9999988675117493, 6.894644737243652)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(21)
+TDS:Upgrade(22)
+TDS:Upgrade(19)
+TDS:Upgrade(18)
+TDS:Place("Cowboy", 12.954697608947754, 0.9999992251396179, 4.669604301452637)
+TDS:Place("Cowboy", 14.202520370483398, 0.9999988079071045, 7.277266979217529)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(23)
+TDS:Upgrade(24)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(14)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(1)
+TDS:Upgrade(24)
+TDS:Upgrade(9)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(3)
+TDS:Upgrade(13)
+TDS:Upgrade(2)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(21)
+TDS:Upgrade(22)
+TDS:Upgrade(23)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(19)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(24)
+TDS:Upgrade(1)
+TDS:Place("Cowboy", 10.224333763122559, 0.9999983906745911, 9.55411434173584)
+TDS:Place("Cowboy", 13.473944664001465, 0.9999983310699463, 10.257462501525879)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Place("Demoman", 3.5115532875061035, 0.9999955296516418, 27.146364212036133)
+TDS:Place("Demoman", 6.650450706481934, 0.9999955892562866, 26.97658920288086)
+TDS:Place("Demoman", 9.674077033996582, 0.9999956488609314, 26.661497116088867)
+TDS:Place("Demoman", 12.767492294311523, 0.9999956488609314, 26.58151626586914)
+TDS:Place("Demoman", 15.92764949798584, 0.9999956488609314, 26.56883430480957)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(31)
+TDS:Upgrade(30)
+TDS:Upgrade(29)
+TDS:Upgrade(28)
+TDS:Upgrade(27)
+TDS:Place("Shotgunner", 25.861312866210938, 0.9999973177909851, 16.358386993408203)
+TDS:Place("Shotgunner", 25.733448028564453, 0.9999976754188538, 14.148247718811035)
+TDS:Place("Shotgunner", 25.562231063842773, 0.9999980330467224, 11.936399459838867)
+TDS:Place("Shotgunner", 25.466171264648438, 0.9999983906745911, 9.796493530273438)
+TDS:Place("Shotgunner", 25.18426513671875, 0.9999986886978149, 7.776065826416016)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(35)
+TDS:Upgrade(35)
+TDS:Upgrade(36)
+TDS:Upgrade(36)
+TDS:Upgrade(36)
+TDS:Upgrade(35)
+TDS:Upgrade(34)
+TDS:Upgrade(33)
+TDS:Upgrade(32)
+TDS:Place("Shotgunner", 25.049545288085938, 0.9999990463256836, 5.685975074768066)
+TDS:Upgrade(37)
+TDS:Upgrade(37)
+TDS:Upgrade(37)
+TDS:Upgrade(18)
+
+-- [ Wave 25 ] --
+TDS:Place("Militant", 4.335033416748047, 1.0000011920928955, -7.8906660079956055)
+TDS:Place("Militant", 4.261611461639404, 1.0000017881393433, -11.366039276123047)
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Upgrade(38)
+TDS:Upgrade(38)
+TDS:Upgrade(38)
+TDS:Upgrade(38)
+TDS:Upgrade(15)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(16)
+TDS:Upgrade(32)
+TDS:Upgrade(33)
+TDS:Upgrade(34)
+TDS:Upgrade(35)
+TDS:Upgrade(36)
+TDS:Upgrade(37)
+
+-- [[ END OF STRATEGY ]]
