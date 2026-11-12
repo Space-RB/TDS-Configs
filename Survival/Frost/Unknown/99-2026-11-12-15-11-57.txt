@@ -1,0 +1,203 @@
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoMoonPuzzle = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {beta_dps = true, beta_raw_fire = true, bypass_boss_for_fast_enemies = true, gui_hidden = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Mercenary Base", "Trapper", "Hacker", "Pyromancer")
+TDS:Mode("Frost")
+TDS:GameInfo("", {})
+TDS:Ready()
+TDS:Place("Trapper", 2.9691314697265625, 243, 207.08041381835938)
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", 2.5350637435913086, 243, 175.82928466796875)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Pyromancer", 2.539379119873047, 242.99996948242188, 235.4633331298828)
+
+-- [ Wave 6 ] --
+TDS:Place("Pyromancer", -3.3631863594055176, 242.99998474121094, 266)
+TDS:Place("Trapper", -2.828598976135254, 243, 175.67730712890625)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Place("Trapper", 2.5350637435913086, 243, 172.78929138183594)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Place("Trapper", -2.828598976135254, 243, 172.63731384277344)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Place("Gatling Gun", -2.957167148590088, 243, 168.98074340820312)
+TDS:Upgrade(8)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 20 ] --
+TDS:Place("Mercenary Base", -3.443199634552002, 243, 164.72647094726562)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(9)
+TDS:SetOption(9, "Unit 1", "Riot Guard")
+TDS:SetOption(9, "Unit 2", "Riot Guard")
+
+-- [ Wave 23 ] --
+TDS:SetOption(9, "Unit 3", "Riot Guard")
+TDS:Upgrade(4)
+TDS:Place("Hacker", 2.904338836669922, 243, 220.47853088378906)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 24 ] --
+TDS:Place("Hacker", 2.8012924194335938, 242.99998474121094, 274.8234558105469)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(8)
+
+-- [ Wave 25 ] --
+TDS:Place("Mercenary Base", -3.4057650566101074, 243, 160.18663024902344)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:SetOption(12, "Unit 1", "Riot Guard")
+TDS:SetOption(12, "Unit 2", "Riot Guard")
+TDS:SetOption(12, "Unit 3", "Riot Guard")
+
+-- [ Wave 26 ] --
+TDS:Place("Mercenary Base", -3.7424943447113037, 243, 155.6591339111328)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:SetOption(13, "Unit 1", "Riot Guard")
+
+-- [ Wave 27 ] --
+TDS:SetOption(13, "Unit 2", "Riot Guard")
+TDS:SetOption(13, "Unit 3", "Riot Guard")
+TDS:Upgrade(9)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(10)
+TDS:Ability(10, "Hologram Tower")
+
+-- [ Wave 37 ] --
+TDS:Upgrade(11, 2)
+TDS:Upgrade(10, 2)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:SetOption(1, "Trap", "Bear Traps")
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:SetOption(5, "Trap", "Bear Traps")
+
+-- [ Wave 38 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:SetOption(7, "Trap", "Bear Traps")
+
+-- [ Wave 40 ] --
+TDS:Ability(10, "Hologram Tower", {towerPosition = Vector3.new(-5.3804473876953125, 245.99295043945312, 168.12039184570312), towerToClone = 8}, true)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:SetOption(2, "Trap", "Bear Traps")
+TDS:Place("Pyromancer", 3.1658926010131836, 242.99998474121094, 284.1726989746094)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Pyromancer", -2.700864791870117, 242.99998474121094, 212.48553466796875)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Trapper", 2.529811382293701, 243, 169.74929809570312)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:SetOption(16, "Trap", "Bear Traps")
+TDS:Place("Trapper", 2.529811382293701, 243, 166.7093048095703)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:SetOption(17, "Trap", "Bear Traps")
+TDS:Ability(11, "Hologram Tower", {towerPosition = Vector3.new(-5.802043914794922, 245.99295043945312, 167.58163452148438), towerToClone = 8})
+
+-- [[ END OF STRATEGY ]]
