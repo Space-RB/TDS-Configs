@@ -1,0 +1,78 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Militant", "Farm", "Demoman", "Shotgunner")
+TDS:Mode("Casual")
+TDS:GameInfo("", {})
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Militant", 27.515884399414062, 0.9137232303619385, -5.2795867919921875)
+
+-- [ Wave 3 ] --
+TDS:Place("Militant", 17.043930053710938, 0.9847367405891418, -3.705540180206299)
+
+-- [ Wave 4 ] --
+TDS:Place("Militant", 14.701149940490723, 1.0042299032211304, -16.128002166748047)
+
+-- [ Wave 5 ] --
+TDS:Place("Militant", -22.738584518432617, 0.9741978645324707, -15.559110641479492)
+TDS:Upgrade(4)
+TDS:Place("Demoman", 19.78360366821289, 0.9792335033416748, 5.160373687744141)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+TDS:Place("Militant", -9.122320175170898, 1.0655739307403564, 20.0150146484375)
+TDS:Place("Militant", 26.287181854248047, 0.9817072749137878, 3.9340152740478516)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Place("Militant", -14.66523265838623, 0.9674093723297119, 31.635604858398438)
+TDS:Upgrade(8)
+TDS:Place("Militant", 5.283612251281738, 0.9822289943695068, -13.209275245666504)
+TDS:Upgrade(9)
+
+-- [ Wave 9 ] --
+TDS:Place("Shotgunner", -7.0917439460754395, 1.1025559902191162, -26.659832000732422)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(10)
+TDS:Place("Demoman", -28.440719604492188, 0.9766011238098145, -21.449005126953125)
+TDS:Upgrade(11)
+TDS:Place("Militant", -19.391263961791992, 1.0963506698608398, -23.043121337890625)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Place("Demoman", 51.13554382324219, 0.9919682145118713, -11.853568077087402)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Pyromancer", 54.50471496582031, 0.9906204342842102, -22.29322052001953)
+TDS:Upgrade(14)
+TDS:Place("Militant", 22.275699615478516, 0.9692095518112183, -3.3309950828552246)
+TDS:Upgrade(15)
+TDS:Place("Demoman", 1.823409080505371, 1.1327834129333496, -31.6051082611084)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(16)
+TDS:Place("Demoman", 40.10032272338867, 0.9510902762413025, -13.359000205993652)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [[ END OF STRATEGY ]]
