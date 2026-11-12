@@ -1,0 +1,77 @@
+_G.AutoPickups = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Scout", "DJ Booth", "Ace Pilot", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Gilded Path", {})
+TDS:Ready()
+TDS:Place("Scout", -1.999776840209961, 0.9780805110931396, 23.973608016967773)
+TDS:Place("Scout", 1.040008544921875, 0.9723813533782959, 24.009735107421875)
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", -5.039529800415039, 0.9819079637527466, 23.934894561767578)
+TDS:Place("Scout", 4.074923038482666, 0.9639627933502197, 24.185504913330078)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+TDS:Place("Ace Pilot", -3.486125946044922, 0.9748156070709229, 21.321746826171875)
+
+-- [ Wave 10 ] --
+TDS:Place("Ace Pilot", -0.44605350494384766, 0.9709881544113159, 21.36065101623535)
+TDS:Place("Ace Pilot", 2.709686517715454, 0.9671481847763062, 21.46930694580078)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(5)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+TDS:Place("DJ Booth", -0.38759613037109375, 0.963032603263855, 17.321073532104492)
+
+-- [[ END OF STRATEGY ]]
