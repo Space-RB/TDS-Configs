@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Lay By | 3 | [Open](Lay%20By/README.md) |
+| Lay By | 4 | [Open](Lay%20By/README.md) |
 
 | Unknown | 6 | [Open](Unknown/README.md) |
 | Black Spot Exchange | 4 | [Open](Black%20Spot%20Exchange/README.md) |
