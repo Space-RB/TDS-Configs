@@ -1,0 +1,81 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Scout", "DJ Booth", "Ace Pilot", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Gilded Path", {})
+TDS:Ready()
+TDS:Place("Scout", -2.0899524688720703, 0.9780205488204956, 23.883560180664062)
+TDS:Place("Scout", 0.9340705871582031, 0.9724390506744385, 23.572296142578125)
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", -2.008871555328369, 0.9797903299331665, 26.92247772216797)
+
+-- [ Wave 2 ] --
+TDS:Place("Scout", 0.9919590950012207, 0.9711546897888184, 26.601303100585938)
+TDS:Place("Scout", -4.9998321533203125, 0.9877126216888428, 27.4663143157959)
+
+-- [ Wave 3 ] --
+TDS:Place("Scout", -5.0809125900268555, 0.982921838760376, 24.42739486694336)
+TDS:Place("Scout", 3.9676287174224854, 0.9649339914321899, 23.374521255493164)
+
+-- [ Wave 4 ] --
+TDS:Place("Scout", 4.4491119384765625, 0.9610644578933716, 26.40677261352539)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Place("Ace Pilot", -0.8475046157836914, 0.9710127115249634, 21.109046936035156)
+TDS:Place("Ace Pilot", -3.8712282180786133, 0.9755018949508667, 21.420095443725586)
+
+-- [ Wave 8 ] --
+TDS:Place("Ace Pilot", 2.279571056365967, 0.9664850234985352, 20.846267700195312)
+TDS:Place("Ace Pilot", -6.861904144287109, 0.9804023504257202, 21.96372413635254)
+TDS:Place("Ace Pilot", 5.303682327270508, 0.9619033932685852, 20.532766342163086)
+TDS:Upgrade(13)
+TDS:Upgrade(9)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(13)
+TDS:Upgrade(10)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(12)
+
+-- [[ END OF STRATEGY ]]
