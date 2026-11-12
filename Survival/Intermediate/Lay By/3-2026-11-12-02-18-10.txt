@@ -1,0 +1,74 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Brawler", "Commander", "DJ Booth", "Crook Boss", "Minigunner")
+TDS:Mode("Intermediate")
+TDS:GameInfo("Lay By", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", -2.77301025390625, 242.99998474121094, 267.869384765625)
+TDS:Place("Brawler", -3.0235595703125, 242.99998474121094, 289.0999755859375)
+TDS:Place("Brawler", 2.829676628112793, 242.99998474121094, 288.8551330566406)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Brawler", -2.965825080871582, 242.99998474121094, 286.7339782714844)
+
+-- [ Wave 4 ] --
+TDS:Place("Brawler", 2.722322463989258, 242.99998474121094, 286.70172119140625)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Place("Brawler", -2.9807090759277344, 242.99998474121094, 284.3932800292969)
+
+-- [ Wave 5 ] --
+TDS:Place("Brawler", 2.8909530639648438, 242.99998474121094, 284.5057678222656)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Place("Brawler", -2.8258681297302246, 242.99998474121094, 282.13360595703125)
+
+-- [ Wave 6 ] --
+TDS:Place("Brawler", 2.756969451904297, 242.99998474121094, 282.4322204589844)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Place("Brawler", -2.8460922241210938, 242.99998474121094, 280.0992126464844)
+
+-- [ Wave 7 ] --
+TDS:Place("Brawler", 2.8771162033081055, 242.99998474121094, 279.9308776855469)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Place("DJ Booth", -6.463435649871826, 242.99998474121094, 281.6671447753906)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 9 ] --
+TDS:Place("Minigunner", -6.739780426025391, 242.99998474121094, 226.71263122558594)
+TDS:Upgrade(13)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 11 ] --
+TDS:Place("Minigunner", 6.3359832763671875, 242.99998474121094, 226.53480529785156)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 12 ] --
+TDS:Place("Minigunner", -6.248050689697266, 242.99998474121094, 223.63568115234375)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(15)
+
+-- [[ END OF STRATEGY ]]
