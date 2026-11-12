@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Black Spot Exchange | 4 | [Open](Black%20Spot%20Exchange/README.md) |
+| Mason Arch | 1 | [Open](Mason%20Arch/README.md) |
 
 | Unknown | 6 | [Open](Unknown/README.md) |
+| Black Spot Exchange | 4 | [Open](Black%20Spot%20Exchange/README.md) |
 | Dead Ahead | 4 | [Open](Dead%20Ahead/README.md) |
 | Retro Lighthouse | 3 | [Open](Retro%20Lighthouse/README.md) |
 | Chess Board | 2 | [Open](Chess%20Board/README.md) |
