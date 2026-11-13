@@ -16,10 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown | 103 | [Open](Unknown/README.md) |
+| Dead Ahead | 37 | [Open](Dead%20Ahead/README.md) |
 
+| Unknown | 103 | [Open](Unknown/README.md) |
 | Gilded Path | 57 | [Open](Gilded%20Path/README.md) |
-| Dead Ahead | 36 | [Open](Dead%20Ahead/README.md) |
 | Black Spot Exchange | 5 | [Open](Black%20Spot%20Exchange/README.md) |
 | Lay By | 5 | [Open](Lay%20By/README.md) |
 | Coral Deep | 3 | [Open](Coral%20Deep/README.md) |
