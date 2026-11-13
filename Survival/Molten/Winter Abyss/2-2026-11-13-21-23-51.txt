@@ -1,0 +1,169 @@
+_G.AutoDJ = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.SellFarms = true
+_G.SellFarmsWave = 35
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedKingpin", "DJ Booth", "Farm", "Brawler", "Ace Pilot")
+TDS:Mode("Molten")
+TDS:GameInfo("Winter Abyss", {})
+TDS:Ready()
+TDS:Place("Brawler", -3.2591283321380615, 0.9707751870155334, 54.20443344116211)
+TDS:Place("Brawler", -3.2591283321380615, 0.9669256806373596, 56.24443435668945)
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", -5.299128532409668, 0.9764533638954163, 54.20443344116211)
+
+-- [ Wave 2 ] --
+TDS:Place("Brawler", -5.299128532409668, 0.9710936546325684, 56.24443435668945)
+
+-- [ Wave 3 ] --
+TDS:Place("Brawler", -3.2591283321380615, 0.961565375328064, 58.2844352722168)
+TDS:Place("Brawler", -7.339128494262695, 0.9806225299835205, 54.20443344116211)
+
+-- [ Wave 5 ] --
+TDS:Place("Brawler", -3.2591283321380615, 0.9565271735191345, 60.32443618774414)
+TDS:Place("Brawler", -9.379128456115723, 0.9792282581329346, 54.20443344116211)
+TDS:Place("Farm", -25.279748916625977, 0.14347462356090546, 36.13215255737305)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", -26.841182708740234, 0.4169476628303528, 39.879051208496094)
+TDS:Place("Farm", -28.72885513305664, -0.17996394634246826, 36.98289108276367)
+TDS:Place("Farm", -26.874725341796875, 0.5925370454788208, 43.37946319580078)
+TDS:Place("Farm", -26.874725341796875, 0.6095529794692993, 46.919464111328125)
+
+-- [ Wave 7 ] --
+TDS:Place("Farm", -22.77659034729004, 0.153874009847641, 33.62899398803711)
+TDS:Place("Farm", -23.38323974609375, 0.6893342733383179, 39.121273040771484)
+TDS:Place("Farm", -20.880081176757812, 0.6910651922225952, 36.61811447143555)
+TDS:Place("Farm", -19.27053451538086, 0.5341081619262695, 33.494571685791016)
+
+-- [ Wave 8 ] --
+TDS:Place("Farm", -25.5200252532959, 0.8089602589607239, 50.189998626708984)
+TDS:Upgrade(17)
+TDS:Upgrade(16)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(18)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:VoteSkip(9)
+TDS:Place("Brawler", -11.214277267456055, 0.9678906798362732, 48.976783752441406)
+TDS:Place("Brawler", -9.174277305603027, 0.9913833737373352, 48.976783752441406)
+
+-- [ Wave 10 ] --
+TDS:WaitForWave(10)
+TDS:Sell(7)
+TDS:Place("Brawler", -11.214277267456055, 0.9831410050392151, 46.93678283691406)
+TDS:Upgrade(8)
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(20)
+TDS:Upgrade(19)
+TDS:Upgrade(21)
+
+-- [ Wave 11 ] --
+TDS:Place("DJ Booth", -7.9083638191223145, 0.9888927340507507, 45.67087173461914)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:SetOption(22, "Track", "Green")
+TDS:VoteSkip(11)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(17)
+TDS:Upgrade(14)
+TDS:Upgrade(16)
+TDS:Upgrade(15)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+TDS:Place("Ace Pilot", -4.356988906860352, 0.969528079032898, 47.59683609008789)
+TDS:Upgrade(23)
+TDS:Ability(23, "Toggle Reverse")
+TDS:Upgrade(23)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(21)
+TDS:Upgrade(19)
+TDS:Upgrade(20)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+TDS:Place("EvolvedKingpin", -4.019671440124512, 0.9696159362792969, 44.57557678222656)
+
+-- [ Wave 18 ] --
+TDS:Place("EvolvedKingpin", -5.884228706359863, 0.9712544679641724, 42.174530029296875)
+TDS:Place("EvolvedKingpin", -2.8725900650024414, 0.9514902830123901, 41.76030731201172)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(24)
+TDS:Upgrade(25)
+TDS:Upgrade(26)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(26)
+TDS:Upgrade(24)
+TDS:Upgrade(25)
+TDS:Upgrade(17)
+TDS:Upgrade(14)
+TDS:Upgrade(16)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(9)
+TDS:Upgrade(15)
+TDS:Upgrade(10)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(18)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(14)
+TDS:Upgrade(17)
+
+-- [[ END OF STRATEGY ]]
