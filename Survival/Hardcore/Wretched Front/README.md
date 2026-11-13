@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 456 recorded strategies available for this map**
+**📦 457 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -475,6 +475,7 @@ Select a strategy below and open its config file.
 | 454 | 2026-11-13 05:19 UTC | Hardcore | — | Gatling Gun, EvolvedKingpin, Golden Minigunner, Farm, Firework Technician | [Open](454-2026-11-13-05-19-03.txt) |
 | 455 | 2026-11-13 05:31 UTC | Hardcore | — | Gatling Gun, EvolvedKingpin, Golden Minigunner, Farm, Firework Technician | [Open](455-2026-11-13-05-31-23.txt) |
 | 456 | 2026-11-13 05:42 UTC | Hardcore | — | Gatling Gun, EvolvedKingpin, Golden Minigunner, Farm, Firework Technician | [Open](456-2026-11-13-05-42-36.txt) |
+| 457 | 2026-11-13 05:52 UTC | Hardcore | — | Gatling Gun, EvolvedKingpin, Golden Minigunner, Farm, Firework Technician | [Open](457-2026-11-13-05-52-46.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
