@@ -1,0 +1,86 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Hunter", "Assassin", "Electroshocker", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+TDS:Place("Assassin", -18.10239028930664, 1.0000003576278687, -1.8574752807617188)
+TDS:Place("Assassin", -18.10239028930664, 1.0000007152557373, -3.897475242614746)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Assassin", -17.872718811035156, 0.9999834895133972, -5.924505233764648)
+TDS:Upgrade(3)
+TDS:Place("Assassin", -12.018529891967773, 1.0000005960464478, -3.6741504669189453)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Electroshocker", 6.003785133361816, 0.9999831914901733, -5.883571624755859)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Place("Electroshocker", 4.901970863342285, 0.9999831914901733, -3.073615550994873)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Place("Hunter", 7.820808410644531, 0.9999831914901733, 3.993410587310791)
+TDS:Upgrade(7)
+TDS:Place("Hunter", 4.399758815765381, 0.9999831914901733, 3.6964855194091797)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(8)
+TDS:Place("Hunter", -2.4532060623168945, 0.9999831914901733, 2.599008083343506)
+TDS:Upgrade(9)
+
+-- [ Wave 15 ] --
+TDS:Place("Hunter", 0.9573240280151367, 0.9999831914901733, 2.8929662704467773)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 19 ] --
+TDS:Place("Hunter", 15.447882652282715, 0.999988317489624, 2.6375415325164795)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [[ END OF STRATEGY ]]
