@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 99 recorded strategies available for this map**
+**📦 100 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -118,6 +118,7 @@ Select a strategy below and open its config file.
 | 97 | 2026-11-12 17:36 UTC | Easy | — | Golden Scout, None | [Open](97-2026-11-12-17-36-09.txt) |
 | 98 | 2026-11-12 17:45 UTC | Easy | — | Golden Scout, DJ Booth, Ace Pilot, None | [Open](98-2026-11-12-17-45-22.txt) |
 | 99 | 2026-11-13 10:14 UTC | Easy | — | Militant, EvolvedKingpin, None | [Open](99-2026-11-13-10-14-15.txt) |
+| 100 | 2026-11-13 10:37 UTC | Easy | — | Militant, Hacker, None | [Open](100-2026-11-13-10-37-16.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
