@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 99 recorded strategies available for this map**
+**📦 100 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -118,6 +118,7 @@ Select a strategy below and open its config file.
 | 97 | 2026-11-12 14:27 UTC | Frost | — | Gatling Gun, Time Dilator, Mercenary Base, Trapper, Hacker | [Open](97-2026-11-12-14-27-50.txt) |
 | 98 | 2026-11-12 14:47 UTC | Frost | — | Gatling Gun, Mercenary Base, Trapper, Hacker, Farm | [Open](98-2026-11-12-14-47-38.txt) |
 | 99 | 2026-11-12 15:11 UTC | Frost | — | Gatling Gun, Mercenary Base, Trapper, Hacker, Pyromancer | [Open](99-2026-11-12-15-11-57.txt) |
+| 100 | 2026-11-13 13:47 UTC | Frost | — | Militant, DJ Booth, Minigunner, Commander, Turret | [Open](100-2026-11-13-13-47-10.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
