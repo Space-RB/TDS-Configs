@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 258 recorded strategies available for this map**
+**📦 259 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -277,6 +277,7 @@ Select a strategy below and open its config file.
 | 256 | 2026-11-12 16:22 UTC | Unknown | — | EvolvedKingpin, Farm, Pyromancer, None | [Open](256-2026-11-12-16-22-43.txt) |
 | 257 | 2026-11-12 17:26 UTC | Unknown | — | EvolvedKingpin, DJ Booth, Mortar, Farm, Scout | [Open](257-2026-11-12-17-26-25.txt) |
 | 258 | 2026-11-13 02:36 UTC | Unknown | — | Soldier, Shotgunner, None | [Open](258-2026-11-13-02-36-48.txt) |
+| 259 | 2026-11-13 13:14 UTC | Unknown | — | Gatling Gun, Necromancer, Engineer, Turret, Commander | [Open](259-2026-11-13-13-14-30.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
