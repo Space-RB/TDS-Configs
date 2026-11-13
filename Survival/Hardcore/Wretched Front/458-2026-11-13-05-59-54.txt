@@ -1,0 +1,185 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.TimeScaleEnabled = true
+_G.AutoGatlingSettings = {gui_hidden = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "EvolvedKingpin", "Golden Minigunner", "Farm", "Firework Technician")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Farm", -16.673738479614258, 1.4956693649291992, 26.097999572753906)
+TDS:Place("Farm", -13.140884399414062, 1.5723544359207153, 26.322805404663086)
+TDS:Place("Farm", -16.897348403930664, 1.511786937713623, 29.630929946899414)
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", -13.364493370056152, 1.5519661903381348, 29.855735778808594)
+TDS:Place("Farm", -17.117412567138672, 1.4973695278167725, 33.16408157348633)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Minigunner", 6.524420738220215, 1.3881373405456543, 27.75521469116211)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Place("Farm", -13.58455753326416, 1.4633076190948486, 33.38888931274414)
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Place("Farm", -13.815570831298828, 1.2991664409637451, 36.92134475708008)
+TDS:Place("Farm", -17.705156326293945, 1.3683431148529053, 36.91703796386719)
+TDS:Place("Farm", -20.51043701171875, 1.3956596851348877, 32.15462875366211)
+TDS:Place("Farm", -21.01393699645996, 1.3926814794540405, 35.65863800048828)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Place("Gatling Gun", -2.830353260040283, -0.08658692985773087, -1.3584527969360352)
+TDS:Upgrade(12)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+
+-- [ Wave 16 ] --
+TDS:Place("Firework Technician", -1.4755847454071045, 0.12762489914894104, -4.628933906555176)
+TDS:Upgrade(13)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(4)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(9)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 33 ] --
+TDS:Place("Minigunner", -7.418956756591797, -0.10444849729537964, -12.660691261291504)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Minigunner", -4.5968804359436035, -0.003337860107421875, -11.362040519714355)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(15)
+
+-- [ Wave 35 ] --
+TDS:Place("EvolvedKingpin", -1.8244621753692627, 0.09886467456817627, -10.142730712890625)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16, 2)
+TDS:Upgrade(16, 2)
+TDS:Place("EvolvedKingpin", 0.9310937523841858, 0.18681484460830688, -8.950088500976562)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(17, 2)
+TDS:Place("EvolvedKingpin", -2.9166173934936523, -0.04050811380147934, -7.305690288543701)
+
+-- [[ END OF STRATEGY ]]
