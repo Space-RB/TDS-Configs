@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 22 recorded strategies available for this map**
+**📦 23 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -41,6 +41,7 @@ Select a strategy below and open its config file.
 | 20 | 2026-11-03 09:15 UTC | Act1Easy | — | Golden Scout, None | [Open](20-2026-11-03-09-15-40.txt) |
 | 21 | 2026-11-09 20:14 UTC | Act1Easy | — | Commander, Golden Scout, None | [Open](21-2026-11-09-20-14-12.txt) |
 | 22 | 2026-11-10 10:23 UTC | Act1Easy | — | Gatling Gun, Hacker, Golden Scout, Golden Crook Boss, DJ Booth | [Open](22-2026-11-10-10-23-51.txt) |
+| 23 | 2026-11-13 10:19 UTC | Act1Easy | — | Golden Scout, DJ Booth, None | [Open](23-2026-11-13-10-19-46.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
