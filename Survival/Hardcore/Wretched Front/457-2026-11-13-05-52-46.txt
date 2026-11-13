@@ -1,0 +1,97 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.TimeScaleEnabled = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "EvolvedKingpin", "Golden Minigunner", "Farm", "Firework Technician")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Farm", -16.980043411254883, 1.4889458417892456, 26.659576416015625)
+TDS:Place("Farm", -13.442976951599121, 1.5786787271499634, 26.803659439086914)
+TDS:Place("Farm", -17.039297103881836, 1.5067765712738037, 30.199081420898438)
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", -13.502230644226074, 1.5485748052597046, 30.343162536621094)
+TDS:Place("Farm", -17.119787216186523, 1.4958701133728027, 33.73816680908203)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Minigunner", 6.5265703201293945, 1.3881525993347168, 27.772085189819336)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Place("Farm", -13.582720756530762, 1.4412249326705933, 33.88224792480469)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Farm", -17.353267669677734, 1.3519747257232666, 37.27045822143555)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Farm", -13.816201210021973, 1.2868906259536743, 37.4145393371582)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Farm", -10.44304084777832, 1.5429450273513794, 24.963855743408203)
+TDS:Place("Farm", -15.999089241027832, 1.6111524105072021, 23.25639533996582)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Place("Gatling Gun", -6.335747718811035, -0.2657204866409302, -0.4590115547180176)
+
+-- [[ END OF STRATEGY ]]
