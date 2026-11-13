@@ -1,0 +1,48 @@
+_G.AutoPickups = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Militant", "DJ Booth", "Minigunner", "Commander", "Turret")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+TDS:Place("Militant", -15.62755012512207, 0.9999902248382568, -8.815690994262695)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Militant", -12.587550163269043, 0.9999834895133972, -8.815690994262695)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Militant", -9.547550201416016, 0.9999855756759644, -8.815690994262695)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Militant", -11.424192428588867, 0.9999840259552002, -11.624284744262695)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Place("Militant", -14.464192390441895, 0.9999921321868896, -11.624284744262695)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Place("Commander", -8.452618598937988, 1.0000007152557373, -3.7954063415527344)
+TDS:Upgrade(6)
+
+-- [ Wave 8 ] --
+TDS:Place("DJ Booth", -12.465039253234863, 1.0000005960464478, -3.06168270111084)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
