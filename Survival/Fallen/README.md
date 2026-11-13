@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Lighthaos | 1 | [Open](Lighthaos/README.md) |
+| Summer Castle | 3 | [Open](Summer%20Castle/README.md) |
 
 | Unknown | 86 | [Open](Unknown/README.md) |
 | Simplicity | 57 | [Open](Simplicity/README.md) |
@@ -29,7 +29,6 @@ Choose one of the categories below to continue.
 | Abyssal Trench | 2 | [Open](Abyssal%20Trench/README.md) |
 | Dusty Bridges | 2 | [Open](Dusty%20Bridges/README.md) |
 | Retro Crossroads | 2 | [Open](Retro%20Crossroads/README.md) |
-| Summer Castle | 2 | [Open](Summer%20Castle/README.md) |
 | Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
 | Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
@@ -39,6 +38,7 @@ Choose one of the categories below to continue.
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Honey Valley | 1 | [Open](Honey%20Valley/README.md) |
 | Infernal Abyss | 1 | [Open](Infernal%20Abyss/README.md) |
+| Lighthaos | 1 | [Open](Lighthaos/README.md) |
 | Night Station | 1 | [Open](Night%20Station/README.md) |
 | Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
 | Portland | 1 | [Open](Portland/README.md) |
