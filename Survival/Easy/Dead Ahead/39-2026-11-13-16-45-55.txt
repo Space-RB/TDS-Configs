@@ -1,0 +1,21 @@
+_G.AutoGatling = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoGatlingSettings = {gui_hidden = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedOperator", "Gatling Gun", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Dead Ahead", {})
+TDS:Ready()
+TDS:Place("EvolvedOperator", 1.8682928085327148, 1.0000041723251343, -25.955745697021484)
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
