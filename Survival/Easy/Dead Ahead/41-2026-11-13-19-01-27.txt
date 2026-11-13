@@ -1,0 +1,74 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.AutoGatlingSettings = {beta_raw_fire = true, bypass_boss_for_fast_enemies = true, gui_hidden = true, target_mode = "Strongest"}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "EvolvedOperator", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Dead Ahead", {"ExplodingEnemies", "FlyingEnemies", "Fog", "Glass", "Limitation"})
+TDS:Ready()
+TDS:Place("EvolvedOperator", 1.4793596267700195, 1.0000039339065552, -24.304323196411133)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("EvolvedOperator", 3.0206284523010254, 1.0000035762786865, -22.285390853881836)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("EvolvedOperator", 0.5483760833740234, 1.0000035762786865, -21.702667236328125)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("EvolvedOperator", 3.8452892303466797, 1.0000032186508179, -19.88298988342285)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("EvolvedOperator", 1.3730363845825195, 1.0000030994415283, -19.30026626586914)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Place("EvolvedOperator", 0.243287593126297, 1.0200004577636719, -17.057950973510742)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Place("EvolvedOperator", 2.780078411102295, 1.0000028610229492, -17.18559455871582)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Place("Gatling Gun", -9.81893253326416, 6.824999809265137, -7.022112846374512)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]
