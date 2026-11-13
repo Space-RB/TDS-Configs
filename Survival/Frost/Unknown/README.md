@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 101 recorded strategies available for this map**
+**📦 102 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -120,6 +120,7 @@ Select a strategy below and open its config file.
 | 99 | 2026-11-12 15:11 UTC | Frost | — | Gatling Gun, Mercenary Base, Trapper, Hacker, Pyromancer | [Open](99-2026-11-12-15-11-57.txt) |
 | 100 | 2026-11-13 13:47 UTC | Frost | — | Militant, DJ Booth, Minigunner, Commander, Turret | [Open](100-2026-11-13-13-47-10.txt) |
 | 101 | 2026-11-13 13:51 UTC | Frost | — | Militant, DJ Booth, Minigunner, Commander, Turret | [Open](101-2026-11-13-13-51-58.txt) |
+| 102 | 2026-11-13 14:14 UTC | Frost | — | Militant, DJ Booth, Commander, Turret, Warden | [Open](102-2026-11-13-14-14-02.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
