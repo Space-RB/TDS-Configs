@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 39 recorded strategies available for this map**
+**📦 40 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -58,6 +58,7 @@ Select a strategy below and open its config file.
 | 37 | 2026-11-13 15:06 UTC | Easy | Fog, Glass, Limitation | EvolvedOperator, None | [Open](37-2026-11-13-15-06-12.txt) |
 | 38 | 2026-11-13 16:29 UTC | Easy | Fog, Glass, Limitation | EvolvedOperator, None | [Open](38-2026-11-13-16-29-16.txt) |
 | 39 | 2026-11-13 16:45 UTC | Easy | — | EvolvedOperator, Gatling Gun, None | [Open](39-2026-11-13-16-45-55.txt) |
+| 40 | 2026-11-13 16:55 UTC | Easy | ExplodingEnemies, Fog, Glass, Limitation | EvolvedOperator, Gatling Gun, None | [Open](40-2026-11-13-16-55-36.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
