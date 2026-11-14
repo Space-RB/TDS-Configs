@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 3 recorded strategies available for this map**
+**📦 4 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -22,6 +22,7 @@ Select a strategy below and open its config file.
 
 | 2 | 2026-11-10 21:27 UTC | Frost | — | Gatling Gun, Tesla, Engineer, EvolvedKingpin, Necromancer | [Open](2-2026-11-10-21-27-04.txt) |
 | 3 | 2026-11-11 07:34 UTC | Frost | — | Gatling Gun, Tesla, Engineer, EvolvedKingpin, Necromancer | [Open](3-2026-11-11-07-34-08.txt) |
+| 4 | 2026-11-14 01:51 UTC | Frost | — | Farm, Minigunner, Crook Boss, Brawler, Commander | [Open](4-2026-11-14-01-51-33.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
