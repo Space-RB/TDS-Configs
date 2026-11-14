@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Mason Arch | 2 | [Open](Mason%20Arch/README.md) |
+| Mason Arch | 3 | [Open](Mason%20Arch/README.md) |
 
 | Unknown | 103 | [Open](Unknown/README.md) |
 | Gilded Path | 58 | [Open](Gilded%20Path/README.md) |
