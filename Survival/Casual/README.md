@@ -16,12 +16,13 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Crossroads | 3 | [Open](Crossroads/README.md) |
+| Infernal Abyss | 1 | [Open](Infernal%20Abyss/README.md) |
 
 | Unknown | 16 | [Open](Unknown/README.md) |
 | Dead Ahead | 11 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 8 | [Open](Lay%20By/README.md) |
 | Black Spot Exchange | 6 | [Open](Black%20Spot%20Exchange/README.md) |
+| Crossroads | 3 | [Open](Crossroads/README.md) |
 | Retro Crossroads | 3 | [Open](Retro%20Crossroads/README.md) |
 | Gilded Path | 2 | [Open](Gilded%20Path/README.md) |
 | Meltdown | 2 | [Open](Meltdown/README.md) |
