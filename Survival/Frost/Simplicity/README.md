@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 85 recorded strategies available for this map**
+**📦 86 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -104,6 +104,7 @@ Select a strategy below and open its config file.
 | 83 | 2026-11-13 10:03 UTC | Frost | — | Hunter, Assassin, Electroshocker, None | [Open](83-2026-11-13-10-03-45.txt) |
 | 84 | 2026-11-13 12:48 UTC | Frost | — | Hunter, Assassin, Electroshocker, None | [Open](84-2026-11-13-12-48-06.txt) |
 | 85 | 2026-11-13 14:05 UTC | Frost | — | Militant, DJ Booth, Minigunner, Commander, Turret | [Open](85-2026-11-13-14-05-48.txt) |
+| 86 | 2026-11-14 22:29 UTC | Frost | Glass, Limitation | Engineer, Golden Crook Boss, Shotgunner, Freezer, Brawler | [Open](86-2026-11-14-22-29-51.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
