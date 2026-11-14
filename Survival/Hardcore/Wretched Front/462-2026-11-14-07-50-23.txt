@@ -1,0 +1,35 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Paintballer", "Farm", "Pyromancer", "Boomerang", "EvolvedKingpin")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Farm", -1.5410974025726318, 0.09684239327907562, -9.224273681640625)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", 1.770211935043335, 0.20131325721740723, -7.972541809082031)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", 5.144778251647949, 0.3378485143184662, -7.014873504638672)
+TDS:Upgrade(3)
+TDS:Place("Farm", 8.380666732788086, 0.4288191795349121, -5.581296920776367)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Place("Pyromancer", 13.324552536010742, 1.0519225597381592, 20.765432357788086)
+TDS:Upgrade(5)
+
+-- [[ END OF STRATEGY ]]
