@@ -1,0 +1,19 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Brawler", "Engineer", "EvolvedJuggernaut", "Hacker", "DJ Booth")
+TDS:Mode("Easy")
+TDS:GameInfo("Mason Arch", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", -14.736095428466797, 1.4149935245513916, 53.105587005615234)
+
+-- [[ END OF STRATEGY ]]
