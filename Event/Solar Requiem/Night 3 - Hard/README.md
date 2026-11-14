@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 137 recorded strategies available for this map**
+**📦 138 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -156,6 +156,7 @@ Select a strategy below and open its config file.
 | 135 | 2026-11-08 17:06 UTC | Act3 | — | Gatling Gun, Assassin, Mortar, Hunter, DJ Booth | [Open](135-2026-11-08-17-06-56.txt) |
 | 136 | 2026-11-09 10:34 UTC | Act3 | — | Golden Scout, Hacker, EvolvedKingpin, Gatling Gun, EvolvedJuggernaut | [Open](136-2026-11-09-10-34-27.txt) |
 | 137 | 2026-11-14 06:27 UTC | Act3 | — | Gatling Gun, DJ Booth, Crook Boss, Commander, Assassin | [Open](137-2026-11-14-06-27-56.txt) |
+| 138 | 2026-11-14 14:03 UTC | Act3 | — | DJ Booth, Crook Boss, Commander, EvolvedJuggernaut, Assassin | [Open](138-2026-11-14-14-03-07.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
