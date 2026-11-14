@@ -1,0 +1,110 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Brawler", "Commander", "DJ Booth", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Cataclysm", {"Committed", "ExplodingEnemies", "Fog", "Glass", "HiddenEnemies", "Limitation"})
+TDS:Ready()
+TDS:Place("Brawler", 0.49957942962646484, 1.0000081062316895, 39.73654556274414)
+TDS:Place("Brawler", 0.4385283887386322, 1.0000081062316895, 37.69746017456055)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Place("DJ Booth", 5.409967422485352, 1.0000081062316895, 33.25048065185547)
+
+-- [ Wave 10 ] --
+TDS:Place("Brawler", 0.22468698024749756, 1.0000081062316895, 35.667236328125)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Place("Brawler", -1.4850780963897705, 1.0000081062316895, 37.01824188232422)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Place("Brawler", 5.268599987030029, 1.0000081062316895, 39.75360870361328)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 14 ] --
+TDS:Place("Brawler", -1.6994554996490479, 1.0000081062316895, 34.98953628540039)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Place("Brawler", 5.334959030151367, 1.0000081062316895, 37.70077896118164)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(3)
+
+-- [ Wave 17 ] --
+TDS:Place("Brawler", -3.3491764068603516, 1.0000081062316895, 36.189544677734375)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 18 ] --
+TDS:Place("Brawler", 0.5620040893554688, 1.0000081062316895, 41.853729248046875)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(10)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+TDS:Upgrade(4)
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
