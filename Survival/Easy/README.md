@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Summer Castle | 1 | [Open](Summer%20Castle/README.md) |
+| Summer Castle | 2 | [Open](Summer%20Castle/README.md) |
 
 | Unknown | 103 | [Open](Unknown/README.md) |
 | Gilded Path | 58 | [Open](Gilded%20Path/README.md) |
