@@ -1,0 +1,114 @@
+_G.AutoGatling = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {beta_dps = true, bypass_boss_for_fast_enemies = true, prioritize_bosses = true, rainbow_bullet_lines = true, rainbow_esp = true, show_bullet_lines = true, target_esp = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "DJ Booth", "Minigunner", "Farm", "Military Base")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wrecked Battlefield", {})
+TDS:Ready()
+TDS:Place("Military Base", -3.908426284790039, 0.9999675750732422, -7.185770034790039)
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", 32.217098236083984, 3.5999858379364014, -12.679967880249023)
+TDS:Place("Farm", 31.875320434570312, 3.5999977588653564, -17.41217803955078)
+TDS:Place("Farm", 31.57497215270996, 3.5999834537506104, -22.509069442749023)
+TDS:Upgrade(3)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", 31.58024024963379, 3.5999882221221924, -27.306385040283203)
+TDS:Place("Farm", 36.72695541381836, 3.599961519241333, -14.250725746154785)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", 36.960208892822266, 3.5999834537506104, -19.02167320251465)
+TDS:Place("Farm", 36.64582443237305, 3.5999720096588135, -23.132164001464844)
+TDS:Place("Farm", 36.10995864868164, 3.5999908447265625, -28.368305206298828)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", 41.203269958496094, 3.599966526031494, -15.732575416564941)
+TDS:Place("Farm", 40.42926025390625, 3.5999064445495605, -10.411423683166504)
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(6)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Place("Minigunner", 16.133337020874023, 0.9999751448631287, -18.07005500793457)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Place("Military Base", 0.8332901000976562, 0.9999698400497437, -10.48472785949707)
+TDS:Upgrade(10)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(2)
+TDS:Upgrade(11)
+TDS:Upgrade(6)
+
+-- [ Wave 12 ] --
+TDS:Place("Gatling Gun", 5.902740001678467, 6.474233150482178, -7.354416847229004)
+
+-- [ Wave 13 ] --
+TDS:Place("DJ Booth", 6.687037467956543, 0.9999725222587585, -14.332036972045898)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(5)
+TDS:Upgrade(9)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(4)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(1)
+TDS:Upgrade(7)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(6)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(13)
+TDS:Place("Military Base", -4.393787384033203, 0.9999732375144958, -15.36454963684082)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(12)
+TDS:Place("Minigunner", 16.12129020690918, 0.999981164932251, -26.66289710998535)
+TDS:Upgrade(17)
+
+-- [[ END OF STRATEGY ]]
