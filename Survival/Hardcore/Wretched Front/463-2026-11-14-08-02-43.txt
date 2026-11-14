@@ -1,0 +1,144 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Paintballer", "Farm", "Pyromancer", "Boomerang", "EvolvedKingpin")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Farm", 23.025043487548828, 0.6774673461914062, 20.589927673339844)
+TDS:Place("Farm", 21.61309814453125, 0.7999465465545654, 23.836158752441406)
+TDS:Place("Farm", 21.291698455810547, 0.9037551283836365, 27.36153793334961)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(16)
+TDS:Upgrade(18)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", 21.8392333984375, 0.9788536429405212, 30.843429565429688)
+TDS:Upgrade(19)
+TDS:Place("Farm", 21.835708618164062, 1.0233899354934692, 34.383426666259766)
+TDS:Upgrade(20)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", 24.09651756286621, 0.5580595135688782, 17.21597671508789)
+TDS:Upgrade(21)
+
+-- [ Wave 4 ] --
+TDS:Place("Pyromancer", 14.194510459899902, 1.0758535861968994, 22.219703674316406)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(20)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(19)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(20)
+
+-- [ Wave 8 ] --
+TDS:Place("Farm", 18.558040618896484, 1.111279010772705, 35.720767974853516)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(17)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(21)
+TDS:Place("Boomerang", 0.7328553199768066, 0.7486847639083862, 15.855237007141113)
+TDS:Upgrade(24)
+TDS:Place("Boomerang", 3.7796120643615723, 0.8599576950073242, 17.87864875793457)
+TDS:Upgrade(25)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(24)
+TDS:Upgrade(25)
+TDS:Place("Boomerang", 1.3124983310699463, 1.3592371940612793, 19.65486717224121)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(19)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(25)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(23)
+TDS:Upgrade(22)
+TDS:Upgrade(17)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(16)
+TDS:Upgrade(21)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(24)
+TDS:Upgrade(26)
+
+-- [ Wave 16 ] --
+TDS:Place("EvolvedKingpin", 6.418231964111328, 1.3891000747680664, 27.73171043395996)
+TDS:Upgrade(27)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(27)
+TDS:Upgrade(23)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(27)
+
+-- [ Wave 19 ] --
+TDS:Place("EvolvedKingpin", 6.3288679122924805, 1.3789008855819702, 30.770397186279297)
+TDS:Upgrade(28)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(28)
+TDS:Place("Pyromancer", 14.607137680053711, 0.8591004014015198, 19.20783805847168)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(28)
+
+-- [ Wave 22 ] --
+TDS:Place("EvolvedKingpin", 3.397897243499756, 1.418640375137329, 28.077068328857422)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+
+-- [ Wave 23 ] --
+TDS:Place("Paintballer", 12.676552772521973, 1.2044434547424316, 24.598478317260742)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(27, 2)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(30)
+TDS:Place("Paintballer", -1.6289968490600586, 1.4722068309783936, 30.912395477294922)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(28, 2)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+
+-- [[ END OF STRATEGY ]]
