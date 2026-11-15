@@ -1,0 +1,188 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMedic = true
+_G.AutoNecro = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoStarCannon = true
+_G.GUIWallpaperTransparency = 100
+_G.StarCannonMin = 100
+_G.SupportCaravan = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "DJ Booth", "Farm", "Golden Minigunner", "Engineer")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Farm", -16.556407928466797, 0.8843839764595032, -25.565771102905273)
+TDS:Place("Farm", -17.07061767578125, 0.9412834644317627, -29.068225860595703)
+TDS:Place("Farm", -17.15149688720703, 0.9650277495384216, -33.75392532348633)
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", -16.86284637451172, 1.0989205837249756, -37.36803436279297)
+TDS:Place("Farm", -19.84672737121582, 0.7717267274856567, -26.871679306030273)
+TDS:Upgrade(5)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Engineer", -6.677760124206543, -0.2565840780735016, -3.476933479309082)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Place("Minigunner", 6.438453197479248, 0.8440625667572021, 18.523958206176758)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", -20.360937118530273, 0.8321144580841064, -30.374134063720703)
+TDS:Place("Farm", -20.688499450683594, 0.8768640756607056, -33.89895248413086)
+TDS:Place("Farm", -20.40230941772461, 0.9163994789123535, -37.42736053466797)
+TDS:Place("Farm", -18.45555877685547, 0.9851440787315369, -40.52949905395508)
+TDS:Place("Farm", -14.427912712097168, 1.174636721611023, -40.82803726196289)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+
+-- [ Wave 8 ] --
+TDS:Place("Engineer", -6.783576965332031, -0.1972666233778, -6.761050701141357)
+TDS:Place("Engineer", -3.473207473754883, -0.045309558510780334, -3.015120267868042)
+TDS:Place("Engineer", -3.7408647537231445, -0.05783037096261978, -7.34187650680542)
+TDS:Place("Engineer", -1.058095932006836, 0.13099440932273865, -5.072704792022705)
+
+-- [ Wave 9 ] --
+TDS:Place("Engineer", 1.7466907501220703, 0.2830795347690582, -3.899980306625366)
+
+-- [ Wave 10 ] --
+TDS:Place("Engineer", 3.3274922370910645, 0.907192587852478, 18.096586227416992)
+TDS:Place("Engineer", 9.434402465820312, 0.8408567905426025, 18.96253776550293)
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Place("Gatling Gun", -11.40251350402832, 2.756077766418457, -4.336955547332764)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(20)
+
+-- [ Wave 14 ] --
+TDS:Place("DJ Booth", -2.4116225242614746, -0.06301146745681763, 5.167696475982666)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(2)
+TDS:Upgrade(8)
+TDS:Upgrade(3)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(4)
+TDS:Upgrade(15)
+TDS:Upgrade(13)
+TDS:Upgrade(6)
+TDS:Upgrade(14)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(18)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(20)
+TDS:Upgrade(6)
+TDS:Upgrade(14)
+TDS:Upgrade(18)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(13)
+TDS:Upgrade(15)
+TDS:Upgrade(1)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(18)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(21)
+TDS:Upgrade(19)
+TDS:Upgrade(8)
+TDS:Upgrade(3)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(13)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(6)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(20)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(19)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+TDS:Place("Farm", -16.556407928466797, 0.8843839764595032, -25.565771102905273)
+TDS:Place("Farm", -17.07061767578125, 0.9412834644317627, -29.068225860595703)
+TDS:Place("Farm", -17.15149688720703, 0.9650277495384216, -33.75392532348633)
+TDS:Place("Farm", -16.86284637451172, 1.0989205837249756, -37.36803436279297)
+TDS:Place("Farm", -19.84672737121582, 0.7717267274856567, -26.871679306030273)
+TDS:Place("Engineer", -6.677760124206543, -0.2565840780735016, -3.476933479309082)
+TDS:Place("Minigunner", 6.438453197479248, 0.8440625667572021, 18.523958206176758)
+TDS:Place("Farm", -20.360937118530273, 0.8321144580841064, -30.374134063720703)
+TDS:Upgrade(22)
+TDS:Upgrade(23)
+TDS:Upgrade(24)
+TDS:Upgrade(25)
+TDS:Upgrade(26)
+TDS:Upgrade(27)
+TDS:Place("Farm", -20.688499450683594, 0.8768640756607056, -33.89895248413086)
+TDS:Place("Farm", -20.40230941772461, 0.9163994789123535, -37.42736053466797)
+TDS:Place("Farm", -18.45555877685547, 0.9851440787315369, -40.52949905395508)
+TDS:Place("Farm", -14.427912712097168, 1.174636721611023, -40.82803726196289)
+TDS:Place("Engineer", -6.783576965332031, -0.1972666233778, -6.761050701141357)
+TDS:Place("Engineer", -3.473207473754883, -0.045309558510780334, -3.015120267868042)
+TDS:Place("Engineer", -3.7408647537231445, -0.05783037096261978, -7.34187650680542)
+TDS:Place("Engineer", 3.3274922370910645, 0.907192587852478, 18.096586227416992)
+TDS:Place("Engineer", 9.434402465820312, 0.8408567905426025, 18.96253776550293)
+TDS:Place("Gatling Gun", -11.40251350402832, 2.756077766418457, -4.336955547332764)
+TDS:Place("DJ Booth", -2.4116225242614746, -0.06301146745681763, 5.167696475982666)
+TDS:Upgrade(34)
+
+-- [[ END OF STRATEGY ]]
