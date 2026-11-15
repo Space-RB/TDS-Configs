@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 490 recorded strategies available for this map**
+**📦 491 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -509,6 +509,7 @@ Select a strategy below and open its config file.
 | 488 | 2026-11-15 15:03 UTC | Hardcore | — | Gatling Gun, DJ Booth, Farm, Golden Minigunner, Engineer | [Open](488-2026-11-15-15-03-57.txt) |
 | 489 | 2026-11-15 15:13 UTC | Hardcore | — | Farm, Boomerang, Crook Boss, Minigunner, Commander | [Open](489-2026-11-15-15-13-26.txt) |
 | 490 | 2026-11-15 17:43 UTC | Hardcore | — | Farm, Crook Boss, Minigunner, Boomerang, Scout | [Open](490-2026-11-15-17-43-35.txt) |
+| 491 | 2026-11-15 17:55 UTC | Hardcore | — | Farm, Crook Boss, Minigunner, Boomerang, Scout | [Open](491-2026-11-15-17-55-31.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
