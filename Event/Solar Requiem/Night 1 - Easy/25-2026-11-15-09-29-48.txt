@@ -1,0 +1,106 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("None", "None", "None", "None", "None")
+TDS:Mode("Act1Easy")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", 29.884044647216797, 2.0009982585906982, 199.25460815429688)
+TDS:Place("Brawler", 27.844043731689453, 2.0009982585906982, 199.25460815429688)
+TDS:Place("Brawler", 31.89073371887207, 2.0009982585906982, 198.91917419433594)
+TDS:Place("Brawler", 26.12955665588379, 2.0009984970092773, 198.20687866210938)
+TDS:Place("Brawler", 31.71546745300293, 2.000997543334961, 204.6520233154297)
+TDS:Place("Brawler", 29.67546844482422, 2.000997543334961, 204.6520233154297)
+TDS:Place("Brawler", 27.61019515991211, 2.000997543334961, 204.34042358398438)
+
+-- [ Wave 2 ] --
+TDS:Place("Brawler", 25.570194244384766, 2.000997543334961, 204.34042358398438)
+
+-- [ Wave 3 ] --
+TDS:Place("Brawler", 23.890579223632812, 2.0374956130981445, 203.18568420410156)
+TDS:Place("Brawler", 27.91261100769043, 2.0009987354278564, 197.21575927734375)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(6)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 8 ] --
+TDS:Place("Commander", 22.094528198242188, 2.0374951362609863, 201.38963317871094)
+TDS:Upgrade(11)
+
+-- [ Wave 9 ] --
+TDS:Place("DJ Booth", 30.967161178588867, 2.0009989738464355, 195.49798583984375)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(11)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [[ END OF STRATEGY ]]
