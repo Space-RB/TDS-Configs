@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Wrecked Battlefield | 6 | [Open](Wrecked%20Battlefield/README.md) |
+| Wrecked Battlefield | 7 | [Open](Wrecked%20Battlefield/README.md) |
 
 | Wretched Front | 485 | [Open](Wretched%20Front/README.md) |
 | Unknown | 182 | [Open](Unknown/README.md) |
