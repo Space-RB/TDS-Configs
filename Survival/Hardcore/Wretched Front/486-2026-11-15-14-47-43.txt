@@ -1,0 +1,43 @@
+_G.AutoGatling = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.GUIWallpaperTransparency = 100
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "DJ Booth", "Farm", "Golden Minigunner", "Engineer")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Farm", -16.226669311523438, 0.8783434629440308, -24.793184280395508)
+TDS:Place("Farm", -16.216331481933594, 0.9533630609512329, -28.33316993713379)
+TDS:Place("Farm", -16.216339111328125, 0.963011622428894, -31.8731689453125)
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", -16.306427001953125, 0.9793241024017334, -35.41202163696289)
+TDS:Place("Farm", -19.287216186523438, 0.7830867767333984, -26.57213020324707)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", -19.401885986328125, 0.921690046787262, -30.415374755859375)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+TDS:Place("Farm", -19.53174591064453, 0.9305745363235474, -33.952999114990234)
+TDS:Place("Farm", -19.182647705078125, 0.9904316663742065, -37.47574234008789)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
