@@ -1,0 +1,31 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.GUIWallpaperDim = 18
+_G.GUIWallpaperTransparency = 93
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedKingpin", "None", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 5 ] --
+TDS:Place("EvolvedKingpin", 8.322525024414062, 1.3238013982772827, 22.662443161010742)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
