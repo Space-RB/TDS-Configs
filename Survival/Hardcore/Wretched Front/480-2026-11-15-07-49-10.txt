@@ -1,0 +1,42 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Boomerang", "EvolvedJuggernaut", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Boomerang", -1.4558978080749512, 0.854533314704895, -24.78122329711914)
+TDS:Place("Boomerang", 0.8022665977478027, 0.6884592175483704, -22.717266082763672)
+
+-- [ Wave 2 ] --
+TDS:Place("Boomerang", -2.099215507507324, 0.6394023299217224, -21.81007194519043)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Place("EvolvedJuggernaut", 5.395125389099121, 1.1273484230041504, 19.47939682006836)
+
+-- [[ END OF STRATEGY ]]
