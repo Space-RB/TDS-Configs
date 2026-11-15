@@ -1,0 +1,99 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Assassin", "None", "None", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("Dusty Bridges", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 18.41925048828125, 27.32497787475586, -151.52252197265625)
+TDS:Place("Assassin", 20.574752807617188, 27.34786605834961, -151.2812042236328)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Pyromancer", 18.67121696472168, 27.341951370239258, -144.53575134277344)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Pyromancer", -0.11670303344726562, 28.342914581298828, -147.72390747070312)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Place("Assassin", 21.122737884521484, 27.350902557373047, -143.87118530273438)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Place("Assassin", 22.83407974243164, 27.360177993774414, -144.98155212402344)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+
+-- [ Wave 12 ] --
+TDS:Place("Pyromancer", 52.64982604980469, 29.373937606811523, -141.3251190185547)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(2)
+TDS:Place("Pyromancer", 40.66643142700195, 28.439550399780273, -169.8341064453125)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Assassin", 18.207950592041016, 27.323822021484375, -150.84156799316406)
+TDS:Place("Assassin", 20.20895767211914, 27.345598220825195, -151.238525390625)
+TDS:Upgrade(9)
+TDS:Place("Pyromancer", 0.2778463363647461, 28.34246253967285, -147.7256317138672)
+TDS:Upgrade(10)
+TDS:Place("Assassin", 20.310895919799805, 27.337024688720703, -153.27597045898438)
+TDS:Upgrade(12)
+TDS:Place("Pyromancer", 16.99786376953125, 27.334064483642578, -145.40982055664062)
+TDS:Place("Assassin", 19.53352165222168, 27.34694480895996, -145.26136779785156)
+TDS:Place("Assassin", 21.56822395324707, 27.355716705322266, -145.40829467773438)
+TDS:Place("Assassin", 23.598928451538086, 27.36381721496582, -145.21376037597656)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(16)
+TDS:Upgrade(10)
+TDS:Place("Pyromancer", 42.102272033691406, 28.466228485107422, -169.27182006835938)
+TDS:Place("Pyromancer", 52.969215393066406, 29.394622802734375, -143.44273376464844)
+TDS:Upgrade(16)
+TDS:Upgrade(9)
+TDS:Upgrade(12)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(15)
+
+-- [[ END OF STRATEGY ]]
