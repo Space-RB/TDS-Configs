@@ -1,0 +1,96 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMedic = true
+_G.AutoNecro = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoStarCannon = true
+_G.GUIWallpaperTransparency = 100
+_G.StarCannonMin = 100
+_G.SupportCaravan = true
+_G.AutoGatlingSettings = {gui_hidden = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "DJ Booth", "Farm", "Ranger", "Golden Minigunner")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wrecked Battlefield", {})
+TDS:Ready()
+TDS:Place("Farm", 29.378658294677734, 3.5999886989593506, -8.551048278808594)
+TDS:Place("Farm", 31.938400268554688, 3.5999865531921387, -12.975543975830078)
+TDS:Place("Farm", 32.85013961791992, 3.5999951362609863, -17.9251708984375)
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", 33.837432861328125, 3.5999844074249268, -23.921092987060547)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Minigunner", -8.586456298828125, 3.5999836921691895, -2.785083055496216)
+TDS:Place("Farm", 34.036048889160156, 3.5999910831451416, -28.45119857788086)
+TDS:Place("Farm", 30.20702362060547, 3.5999982357025146, -30.997295379638672)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", 38.41642761230469, 3.5999858379364014, -26.431564331054688)
+TDS:Place("Farm", 37.18764114379883, 3.599965810775757, -20.328086853027344)
+TDS:Place("Farm", 37.43543243408203, 3.5999648571014404, -15.256220817565918)
+TDS:Place("Farm", 35.47479248046875, 3.600001573562622, -10.884468078613281)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(4)
+TDS:Upgrade(8)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Place("Minigunner", 17.65500259399414, 0.9999784231185913, -22.72730255126953)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Place("Gatling Gun", 6.236592769622803, 6.4742431640625, -7.74887752532959)
+TDS:Upgrade(13)
+
+-- [ Wave 14 ] --
+TDS:Place("DJ Booth", 6.366747856140137, 0.9999728798866272, -14.845782279968262)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(3)
+TDS:Upgrade(9)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(11)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(10)
+
+-- [ Wave 17 ] --
+TDS:Place("Minigunner", 20.40778923034668, 0.9999802112579346, -25.332244873046875)
+TDS:Upgrade(15)
+
+-- [[ END OF STRATEGY ]]
