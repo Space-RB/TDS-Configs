@@ -1,0 +1,64 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Assassin", "None", "None", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("Dusty Bridges", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 17.560701370239258, 27.320037841796875, -151.20188903808594)
+
+-- [ Wave 2 ] --
+TDS:Place("Assassin", 19.697032928466797, 27.341161727905273, -151.26611328125)
+TDS:Place("Assassin", 20.17552947998047, 27.336122512817383, -153.24920654296875)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Pyromancer", 1.9351649284362793, 28.30515480041504, -147.81655883789062)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Pyromancer", 41.04582214355469, 28.42878532409668, -170.9547576904297)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Place("Pyromancer", 51.916358947753906, 29.376623153686523, -143.09066772460938)
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(1)
+TDS:Place("Assassin", 17.368263244628906, 27.33604621887207, -145.3898468017578)
+TDS:Place("Assassin", 19.287752151489258, 27.344837188720703, -144.69908142089844)
+
+-- [ Wave 10 ] --
+TDS:Place("Assassin", 21.319459915161133, 27.352962493896484, -144.5153350830078)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
