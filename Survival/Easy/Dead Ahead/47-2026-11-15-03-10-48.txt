@@ -1,0 +1,28 @@
+_G.AutoGatling = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.GUISidebarTransparency = 28
+_G.GUIWallpaperTransparency = 55
+_G.GUIWindowTransparency = 27
+_G.AutoGatlingSettings = {beta_dps = true, gui_hidden = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "EvolvedOperator", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Dead Ahead", {"ExplodingEnemies", "Glass", "HealthyEnemies", "Limitation", "Quarantine", "SpeedyEnemies"})
+TDS:Ready()
+TDS:Place("EvolvedOperator", -3.8730525970458984, 0.9499279260635376, -36.96807861328125)
+TDS:Place("EvolvedOperator", 8.601497650146484, 0.9999964237213135, -36.13075256347656)
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", 0.9943323135375977, 1.0000041723251343, -25.42678451538086)
+
+-- [[ END OF STRATEGY ]]
