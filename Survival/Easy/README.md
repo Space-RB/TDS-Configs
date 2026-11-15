@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Pier Pressure | 1 | [Open](Pier%20Pressure/README.md) |
+| Summer Castle | 3 | [Open](Summer%20Castle/README.md) |
 
 | Unknown | 103 | [Open](Unknown/README.md) |
 | Gilded Path | 58 | [Open](Gilded%20Path/README.md) |
@@ -30,7 +30,6 @@ Choose one of the categories below to continue.
 | Crossroads | 2 | [Open](Crossroads/README.md) |
 | Forest Camp | 2 | [Open](Forest%20Camp/README.md) |
 | Night Station | 2 | [Open](Night%20Station/README.md) |
-| Summer Castle | 2 | [Open](Summer%20Castle/README.md) |
 | Construction Crazy | 1 | [Open](Construction%20Crazy/README.md) |
 | Cyber City | 1 | [Open](Cyber%20City/README.md) |
 | Four Seasons | 1 | [Open](Four%20Seasons/README.md) |
@@ -38,6 +37,7 @@ Choose one of the categories below to continue.
 | Infernal Abyss | 1 | [Open](Infernal%20Abyss/README.md) |
 | Lighthaos | 1 | [Open](Lighthaos/README.md) |
 | Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
+| Pier Pressure | 1 | [Open](Pier%20Pressure/README.md) |
 | Portland | 1 | [Open](Portland/README.md) |
 | Retro Lighthouse | 1 | [Open](Retro%20Lighthouse/README.md) |
 | Ruby Escort | 1 | [Open](Ruby%20Escort/README.md) |
