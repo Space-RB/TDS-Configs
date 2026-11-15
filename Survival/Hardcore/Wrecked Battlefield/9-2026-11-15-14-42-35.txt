@@ -1,0 +1,125 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMedic = true
+_G.AutoNecro = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoStarCannon = true
+_G.GUIWallpaperTransparency = 100
+_G.StarCannonMin = 100
+_G.SupportCaravan = true
+_G.AutoGatlingSettings = {gui_hidden = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "DJ Booth", "Farm", "Ranger", "Golden Minigunner")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wrecked Battlefield", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", 30.715240478515625, 3.5999889373779297, -9.384117126464844)
+TDS:Place("Farm", 31.272380828857422, 3.599989652633667, -14.083076477050781)
+TDS:Place("Farm", 31.938547134399414, 3.5999977588653564, -18.19774627685547)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", 36.2333984375, 3.5999715328216553, -21.65324592590332)
+TDS:Place("Farm", 31.084453582763672, 3.5999886989593506, -23.48822593688965)
+
+-- [ Wave 5 ] --
+TDS:Place("Minigunner", 18.237815856933594, 0.9999787211418152, -23.206714630126953)
+TDS:Place("Farm", 36.208045959472656, 3.599984645843506, -16.40083122253418)
+TDS:Place("Farm", 36.05671310424805, 3.600001811981201, -11.115459442138672)
+TDS:Place("Farm", 35.937255859375, 3.6000006198883057, -5.129316806793213)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", 6.35666561126709, 6.474244117736816, -8.174783706665039)
+
+-- [ Wave 12 ] --
+TDS:Place("Ranger", 1.8595149517059326, 6.3624348640441895, -26.868589401245117)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(10)
+TDS:Place("DJ Booth", 6.988923072814941, 0.999974250793457, -16.76405143737793)
+TDS:Upgrade(12)
+
+-- [ Wave 16 ] --
+TDS:Place("Ranger", -1.071523904800415, 6.362476348876953, -26.06198501586914)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(11)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(4)
+
+-- [ Wave 19 ] --
+TDS:Place("Ranger", -0.30454427003860474, 6.3624348640441895, -29.00364112854004)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(12)
+TDS:Place("Farm", 35.376834869384766, 3.5999863147735596, -26.685420989990234)
+TDS:Place("Farm", 31.432910919189453, 3.5999915599823, -28.506031036376953)
+TDS:Upgrade(16)
+TDS:Upgrade(15)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(14)
+
+-- [ Wave 23 ] --
+TDS:Place("Ranger", 2.6264936923980713, 6.3624348640441895, -29.810245513916016)
+TDS:Upgrade(17)
+TDS:Upgrade(12)
+TDS:Upgrade(16)
+TDS:Upgrade(15)
+TDS:Upgrade(4)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(1)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 27 ] --
+TDS:Place("Ranger", -3.2211272716522217, 6.362462520599365, -28.211589813232422)
+TDS:Upgrade(18)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(9)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(4)
+TDS:Upgrade(15)
+TDS:Upgrade(11)
+TDS:Upgrade(13)
+
+-- [[ END OF STRATEGY ]]
