@@ -1,0 +1,95 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Hunter", "Scout", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", -6.820483684539795, 0.9601131677627563, -31.741430282592773)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Place("Hunter", -2.0145230293273926, 0.4345949590206146, -18.161853790283203)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Place("Hunter", -5.255099296569824, 0.35618430376052856, -19.37845230102539)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+TDS:Place("Scout", -2.070754051208496, 0.6461338996887207, -21.96295928955078)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Place("Scout", 1.3407864570617676, 0.6332377195358276, -21.022279739379883)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Place("Pyromancer", 3.3847827911376953, 0.5838147401809692, -16.335277557373047)
+TDS:Upgrade(6)
+
+-- [ Wave 12 ] --
+TDS:Place("Hunter", 0.27558332681655884, 0.3765309453010559, -15.856555938720703)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 16 ] --
+TDS:Place("Hunter", 10.397636413574219, 0.9404051303863525, 19.76168441772461)
+TDS:Place("Scout", 12.644450187683105, 1.2302725315093994, 23.676715850830078)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Scout", -0.49835681915283203, 1.4635088443756104, 31.652921676635742)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 17 ] --
+TDS:Place("Scout", 9.936368942260742, 1.3084962368011475, 34.69392013549805)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 18 ] --
+TDS:Place("Hunter", -1.723297357559204, 0.08312846720218658, -5.405503273010254)
+TDS:Upgrade(12)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(6)
+TDS:Place("Scout", 15.527138710021973, 0.9980456233024597, 22.84356689453125)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Pyromancer", 15.501453399658203, 0.5394116640090942, 16.5625)
+TDS:Upgrade(14)
+
+-- [ Wave 20 ] --
+TDS:Place("Hunter", 1.2674498558044434, 0.2754713296890259, -3.5105996131896973)
+TDS:Upgrade(15)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(8)
+TDS:Place("Hunter", 6.869754791259766, 1.1680800914764404, 20.319625854492188)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(16)
+TDS:Place("Scout", 3.802818775177002, 1.4190902709960938, 30.119449615478516)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [[ END OF STRATEGY ]]
