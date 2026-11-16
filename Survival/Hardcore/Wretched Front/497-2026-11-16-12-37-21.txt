@@ -1,0 +1,32 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.GUICursorId = "rbxasset://textures/ArrowCursor.png"
+_G.GUICustomCursor = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedJuggernaut", "Electroshocker", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Electroshocker", 5.462285995483398, 0.5696862936019897, -14.891220092773438)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Place("EvolvedJuggernaut", 2.152501106262207, 1.4370776414871216, 31.07048797607422)
+
+-- [[ END OF STRATEGY ]]
