@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 10 recorded strategies available for this map**
+**📦 11 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -29,6 +29,7 @@ Select a strategy below and open its config file.
 | 8 | 2026-11-15 14:38 UTC | Hardcore | — | Gatling Gun, DJ Booth, Farm, Ranger, Golden Minigunner | [Open](8-2026-11-15-14-38-00.txt) |
 | 9 | 2026-11-15 14:42 UTC | Hardcore | — | Gatling Gun, DJ Booth, Farm, Ranger, Golden Minigunner | [Open](9-2026-11-15-14-42-35.txt) |
 | 10 | 2026-11-15 15:14 UTC | Hardcore | — | Gatling Gun, Farm, Golden Minigunner, Engineer, Commander | [Open](10-2026-11-15-15-14-03.txt) |
+| 11 | 2026-11-16 17:50 UTC | Hardcore | — | Gatling Gun, Farm, Turret, DJ Booth, Brawler | [Open](11-2026-11-16-17-50-40.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
