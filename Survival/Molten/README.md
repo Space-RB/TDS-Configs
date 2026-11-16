@@ -16,10 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 13 | [Open](Simplicity/README.md) |
+| Farm Lands | 1 | [Open](Farm%20Lands/README.md) |
 
 | Unknown | 35 | [Open](Unknown/README.md) |
 | Dead Ahead | 13 | [Open](Dead%20Ahead/README.md) |
+| Simplicity | 13 | [Open](Simplicity/README.md) |
 | Black Spot Exchange | 9 | [Open](Black%20Spot%20Exchange/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
 | Cataclysm | 7 | [Open](Cataclysm/README.md) |
