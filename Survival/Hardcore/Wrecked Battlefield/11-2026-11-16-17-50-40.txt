@@ -1,0 +1,223 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMedic = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoMoonPuzzle = true
+_G.AutoNecro = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.AutoStarCannon = true
+_G.GUIWallpaperTransparency = 100
+_G.SellFarms = true
+_G.SellFarmsWave = 40
+_G.StarCannonMin = 100
+_G.SupportCaravan = true
+_G.AutoGatlingSettings = {beta_dps = true, beta_raw_fire = true, bypass_boss_for_fast_enemies = true, prioritize_bosses = true, rainbow_bullet_lines = true, rainbow_esp = true, rgb_speed = 2, show_bullet_lines = true, target_esp = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Farm", "Turret", "DJ Booth", "Brawler")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wrecked Battlefield", {})
+TDS:Ready()
+TDS:Place("Farm", -15.936019897460938, 3.599959373474121, 21.76177978515625)
+TDS:Place("Farm", -18.009496688842773, 3.599966287612915, 18.892581939697266)
+TDS:Place("Farm", -14.582489013671875, 0.9999504089355469, 17.32818031311035)
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", -17.901260375976562, 3.599958896636963, 14.496574401855469)
+TDS:Place("Brawler", 15.558049201965332, 0.9999743700027466, -16.973695755004883)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(5)
+TDS:Place("Farm", -19.457555770874023, 3.5999958515167236, 22.12286376953125)
+TDS:Place("Farm", -21.5379581451416, 3.5999698638916016, 19.17817497253418)
+TDS:Place("Farm", -21.62395477294922, 3.5999717712402344, 13.79688835144043)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", -23.880704879760742, 3.599980592727661, 16.524282455444336)
+TDS:Place("Farm", -17.384078979492188, 3.599989891052246, 24.992061614990234)
+TDS:Place("Farm", -22.94642448425293, 3.599996328353882, 22.49074935913086)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", -25.23540496826172, 3.5999672412872314, 19.794815063476562)
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(12)
+TDS:Place("Brawler", 17.555492401123047, 0.9999741315841675, -16.59680938720703)
+TDS:Upgrade(13)
+TDS:Place("Brawler", 20.02903175354004, 0.9999741315841675, -16.6310977935791)
+TDS:Upgrade(14)
+
+-- [ Wave 8 ] --
+TDS:Place("Brawler", 22.836456298828125, 0.9999823570251465, -28.344697952270508)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(15)
+TDS:Place("Brawler", 2.8876681327819824, 0.9999911785125732, -41.00522232055664)
+TDS:Upgrade(16)
+TDS:Place("Gatling Gun", 0.003841489553451538, 6.362377166748047, -26.85657501220703)
+
+-- [ Wave 13 ] --
+TDS:Place("Turret", -0.28772974014282227, 3.6000001430511475, -1.7631785869598389)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(18)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(1)
+TDS:Upgrade(10)
+TDS:Upgrade(6)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+TDS:Place("DJ Booth", 1.2853034734725952, 0.9999727010726929, -14.614295959472656)
+TDS:Upgrade(19)
+
+-- [ Wave 20 ] --
+TDS:Place("Turret", 3.6977946758270264, 3.6000003814697266, -2.424387216567993)
+TDS:Upgrade(20)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(19)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(6)
+TDS:Upgrade(12)
+
+-- [ Wave 24 ] --
+TDS:Place("Turret", -4.020203113555908, 3.6000003814697266, -3.3092195987701416)
+TDS:Upgrade(21)
+TDS:Upgrade(19)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(17)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(19)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(21)
+TDS:Upgrade(20)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(20)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(19)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(21)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(4)
+TDS:Upgrade(9)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(18)
+TDS:Place("Brawler", -15.976604461669922, 0.9999641180038452, -2.262878179550171)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Place("Brawler", -12.8936767578125, 0.9999569058418274, 8.035506248474121)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Place("Brawler", -16.7315673828125, 0.9999606609344482, 2.6953656673431396)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(22)
+TDS:Upgrade(23)
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+TDS:Upgrade(6)
+TDS:Upgrade(11)
+TDS:Upgrade(1)
+TDS:Upgrade(10)
+TDS:Upgrade(21)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(17)
+
+-- [ Wave 35 ] --
+TDS:Place("Brawler", -16.104970932006836, 0.9999640583992004, -2.204840660095215)
+TDS:Place("Brawler", -14.668733596801758, 0.9999575614929199, 7.129465103149414)
+TDS:Place("Brawler", -14.708739280700684, 0.9999650716781616, -3.6921660900115967)
+TDS:Place("Brawler", -14.91110610961914, 0.9999624490737915, 0.1102234274148941)
+TDS:Place("Brawler", -14.702960968017578, 0.9999607801437378, 2.4800567626953125)
+TDS:Place("Brawler", -14.381647109985352, 0.9999592900276184, 4.5994110107421875)
+TDS:Place("Brawler", -12.668481826782227, 0.999957799911499, 6.72872257232666)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(20)
+TDS:Upgrade(26)
+
+-- [[ END OF STRATEGY ]]
