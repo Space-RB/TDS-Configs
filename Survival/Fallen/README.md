@@ -16,10 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Northern Lights | 2 | [Open](Northern%20Lights/README.md) |
+| Simplicity | 65 | [Open](Simplicity/README.md) |
 
 | Unknown | 86 | [Open](Unknown/README.md) |
-| Simplicity | 64 | [Open](Simplicity/README.md) |
 | Lay By | 37 | [Open](Lay%20By/README.md) |
 | Cataclysm | 22 | [Open](Cataclysm/README.md) |
 | U-Turn | 9 | [Open](U-Turn/README.md) |
@@ -29,6 +28,7 @@ Choose one of the categories below to continue.
 | Summer Castle | 3 | [Open](Summer%20Castle/README.md) |
 | Toyboard | 3 | [Open](Toyboard/README.md) |
 | Abyssal Trench | 2 | [Open](Abyssal%20Trench/README.md) |
+| Northern Lights | 2 | [Open](Northern%20Lights/README.md) |
 | Retro Crossroads | 2 | [Open](Retro%20Crossroads/README.md) |
 | Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
