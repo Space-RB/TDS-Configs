@@ -1,0 +1,111 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Scout", "None", "None", "None", "None")
+TDS:Mode("Act1Easy")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", -8.65585708618164, 2.0609700679779053, 207.4102020263672)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Place("Scout", -8.751402854919434, 2.0344367027282715, 204.3717041015625)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Place("Scout", -9.12301254272461, 2.0028343200683594, 201.35450744628906)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Scout", -5.645669937133789, 2.04551362991333, 207.2972869873047)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Place("Scout", -5.713528633117676, 2.032968759536743, 204.25804138183594)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Place("Scout", -6.0165534019470215, 2.0033535957336426, 201.23318481445312)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+TDS:Place("Scout", -11.69568920135498, 2.0689327716827393, 207.37828063964844)
+TDS:Place("Scout", -11.791402816772461, 2.158233880996704, 204.3717041015625)
+TDS:Place("Scout", -12.163012504577637, 2.0028343200683594, 201.35450744628906)
+
+-- [ Wave 11 ] --
+TDS:Place("Scout", -2.611814022064209, 2.0215961933135986, 207.10411071777344)
+TDS:Place("Scout", -2.6063480377197266, 2.0215530395507812, 204.10081481933594)
+TDS:Place("Scout", -2.983408212661743, 2.00422739982605, 201.02914428710938)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(7)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
