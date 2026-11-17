@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 118 recorded strategies available for this map**
+**📦 119 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -137,6 +137,7 @@ Select a strategy below and open its config file.
 | 116 | 2026-11-14 07:50 UTC | Act1 | — | Golden Scout, None | [Open](116-2026-11-14-07-50-59.txt) |
 | 117 | 2026-11-14 07:52 UTC | Act1 | — | Golden Scout, None | [Open](117-2026-11-14-07-52-03.txt) |
 | 118 | 2026-11-14 17:23 UTC | Act1 | — | Soldier, Shotgunner, Golden Scout, None | [Open](118-2026-11-14-17-23-45.txt) |
+| 119 | 2026-11-17 21:50 UTC | Act1 | — | Gatling Gun, Star Cannon, EvolvedJuggernaut, EvolvedKingpin, Engineer | [Open](119-2026-11-17-21-50-44.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
