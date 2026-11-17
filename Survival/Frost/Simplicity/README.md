@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 88 recorded strategies available for this map**
+**📦 89 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -107,6 +107,7 @@ Select a strategy below and open its config file.
 | 86 | 2026-11-14 22:29 UTC | Frost | Glass, Limitation | Engineer, Golden Crook Boss, Shotgunner, Freezer, Brawler | [Open](86-2026-11-14-22-29-51.txt) |
 | 87 | 2026-11-15 09:57 UTC | Frost | — | Shotgunner, Freezer, Brawler, None | [Open](87-2026-11-15-09-57-34.txt) |
 | 88 | 2026-11-16 22:04 UTC | Frost | — | Brawler, Shotgunner, Freezer, None | [Open](88-2026-11-16-22-04-35.txt) |
+| 89 | 2026-11-17 00:04 UTC | Frost | — | Gatling Gun, Golden Soldier, DJ Booth, Accelerator, Tesla | [Open](89-2026-11-17-00-04-45.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
