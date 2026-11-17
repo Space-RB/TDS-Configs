@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 142 recorded strategies available for this map**
+**📦 143 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -161,6 +161,7 @@ Select a strategy below and open its config file.
 | 140 | 2026-11-14 14:15 UTC | Act3 | — | DJ Booth, Golden Crook Boss, Commander, Assassin, EvolvedJuggernaut | [Open](140-2026-11-14-14-15-11.txt) |
 | 141 | 2026-11-14 14:26 UTC | Act3 | — | DJ Booth, Golden Crook Boss, Commander, Assassin, Golden Minigunner | [Open](141-2026-11-14-14-26-27.txt) |
 | 142 | 2026-11-14 14:34 UTC | Act3 | — | DJ Booth, Golden Crook Boss, Commander, Assassin, Golden Minigunner | [Open](142-2026-11-14-14-34-05.txt) |
+| 143 | 2026-11-17 22:27 UTC | Act3 | — | Gatling Gun, Star Cannon, EvolvedJuggernaut, EvolvedKingpin, Engineer | [Open](143-2026-11-17-22-27-58.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
