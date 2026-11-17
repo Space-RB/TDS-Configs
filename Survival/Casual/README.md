@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Infernal Abyss | 1 | [Open](Infernal%20Abyss/README.md) |
+| Infernal Abyss | 2 | [Open](Infernal%20Abyss/README.md) |
 
 | Unknown | 16 | [Open](Unknown/README.md) |
 | Dead Ahead | 11 | [Open](Dead%20Ahead/README.md) |
