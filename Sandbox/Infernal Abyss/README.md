@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 2 recorded strategies available for this map**
+**📦 3 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -21,6 +21,7 @@ Select a strategy below and open its config file.
 | 1 | 2026-11-16 10:22 UTC | Sandbox | — | Assassin, None | [Open](1-2026-11-16-10-22-23.txt) |
 
 | 2 | 2026-11-16 11:06 UTC | Sandbox | — | Assassin, None | [Open](2-2026-11-16-11-06-17.txt) |
+| 3 | 2026-11-17 21:02 UTC | Sandbox | — | Assassin, None | [Open](3-2026-11-17-21-02-29.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
