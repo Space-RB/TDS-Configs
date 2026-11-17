@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Infernal Abyss | 2 | [Open](Infernal%20Abyss/README.md) |
+| Infernal Abyss | 3 | [Open](Infernal%20Abyss/README.md) |
 
 | Lay By | 19 | [Open](Lay%20By/README.md) |
 | Dev | 14 | [Open](Dev/README.md) |
