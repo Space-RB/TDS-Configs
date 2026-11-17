@@ -1,0 +1,109 @@
+_G.AutoGatling = true
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Star Cannon", "EvolvedJuggernaut", "EvolvedKingpin", "Engineer")
+TDS:Mode("Act2")
+TDS:Ready()
+TDS:Place("Engineer", 3.6875743865966797, 48.0620002746582, 4.591575622558594)
+TDS:Place("Engineer", 6.661013603210449, 48.297508239746094, 3.9465861320495605)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Engineer", 9.111674308776855, 47.953224182128906, 2.219593048095703)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Place("Gatling Gun", 18.67863655090332, 55.620635986328125, -5.160452842712402)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Place("Engineer", 0.7595863342285156, 47.85066223144531, 3.8143420219421387)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("Engineer", -0.5180363655090332, 48.05815505981445, 1.087817668914795)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Engineer", -0.20594120025634766, 47.9954833984375, -1.9112366437911987)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 18 ] --
+TDS:Place("Star Cannon", 21.824377059936523, 55.893680572509766, 0.6564980745315552)
+TDS:Upgrade(8)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Place("EvolvedJuggernaut", -1.5437602996826172, 47.18904495239258, -24.31646728515625)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9, 2)
+TDS:Upgrade(9, 2)
+
+-- [[ END OF STRATEGY ]]
