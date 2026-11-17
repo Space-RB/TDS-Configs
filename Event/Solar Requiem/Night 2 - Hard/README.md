@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 44 recorded strategies available for this map**
+**📦 45 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -63,6 +63,7 @@ Select a strategy below and open its config file.
 | 42 | 2026-11-08 13:21 UTC | Act2 | — | Golden Demoman, Hacker, Gatling Gun, EvolvedKingpin, EvolvedJuggernaut | [Open](42-2026-11-08-13-21-08.txt) |
 | 43 | 2026-11-09 10:24 UTC | Act2 | — | Golden Scout, Hacker, EvolvedKingpin, Gatling Gun, EvolvedJuggernaut | [Open](43-2026-11-09-10-24-13.txt) |
 | 44 | 2026-11-16 17:09 UTC | Act2 | — | Snowballer, Golden Pyromancer, Golden Crook Boss, Commander, None | [Open](44-2026-11-16-17-09-23.txt) |
+| 45 | 2026-11-17 22:07 UTC | Act2 | — | Gatling Gun, Star Cannon, EvolvedJuggernaut, EvolvedKingpin, Engineer | [Open](45-2026-11-17-22-07-57.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
