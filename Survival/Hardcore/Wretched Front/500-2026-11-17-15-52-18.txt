@@ -1,0 +1,180 @@
+_G.AutoGatling = true
+_G.AutoMoonPuzzle = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {bypass_boss_for_fast_enemies = true, show_bullet_lines = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedEnforcer", "Gatling Gun", "Pyromancer", "Farm", "EvolvedJuggernaut")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", -2.4788146018981934, 0.9767993688583374, -30.34288787841797)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Place("Farm", -21.37771987915039, 0.7521024346351624, -29.938831329345703)
+TDS:Upgrade(2)
+TDS:Place("Farm", -21.338359832763672, 0.8404545783996582, -33.47861862182617)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Place("Farm", -17.818492889404297, 0.9673141241073608, -33.10161590576172)
+TDS:Upgrade(4)
+TDS:Place("Farm", -17.857851028442383, 0.9558186531066895, -29.56183433532715)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+TDS:Place("Farm", -17.772994995117188, 0.8488462567329407, -26.022851943969727)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(6)
+TDS:Place("Farm", -21.292863845825195, 0.6667975187301636, -26.39984893798828)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 14 ] --
+TDS:Place("Gatling Gun", -8.952528953552246, 2.30592942237854, -6.502938270568848)
+TDS:Upgrade(2)
+TDS:Place("Farm", -20.692279815673828, 0.5358878374099731, -22.913768768310547)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(9)
+TDS:Place("Farm", -18.504634857177734, 1.0171782970428467, -36.57448196411133)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 16 ] --
+TDS:Place("EvolvedEnforcer", -4.571024417877197, 0.9693938493728638, -28.854873657226562)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(6)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+
+-- [ Wave 24 ] --
+TDS:Place("EvolvedEnforcer", -2.074622392654419, 0.8409438729286194, -24.391433715820312)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(12, 2)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 28 ] --
+TDS:Place("EvolvedEnforcer", -0.14197766780853271, 0.7352487444877625, -23.848173141479492)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13, 2)
+
+-- [ Wave 30 ] --
+TDS:Place("EvolvedEnforcer", -1.5888912677764893, 0.6673650741577148, -22.410104751586914)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(3)
+TDS:Upgrade(10)
+TDS:Upgrade(7)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(2)
+TDS:Upgrade(6)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(5)
+TDS:Place("Farm", -24.033397674560547, 0.17672617733478546, -24.083372116088867)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Farm", -24.632999420166016, 0.20439550280570984, -27.572242736816406)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 32 ] --
+TDS:Place("EvolvedEnforcer", 0.37996935844421387, 0.6518608927726746, -21.876075744628906)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17, 2)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]
