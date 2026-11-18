@@ -1,0 +1,43 @@
+_G.AutoGatling = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedOperator", "EvolvedEnforcer", "EvolvedKingpin", "EvolvedJuggernaut", "Gatling Gun")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Outskirts Commune", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", 17.43947982788086, 501.2192687988281, 13.252504348754883)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Place("EvolvedEnforcer", 15.937442779541016, 501.3009948730469, 11.50575065612793)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Place("Gatling Gun", 5.359923362731934, 505.4873046875, 1.7336125373840332)
+
+-- [ Wave 15 ] --
+TDS:Place("EvolvedEnforcer", 17.29460334777832, 501.37567138671875, 9.98268985748291)
+
+-- [ Wave 17 ] --
+TDS:Place("EvolvedKingpin", 12.157020568847656, 501.7416076660156, 3.9864935874938965)
+
+-- [ Wave 22 ] --
+TDS:Place("EvolvedJuggernaut", 15.510032653808594, 501.45770263671875, 0.8946285247802734)
+
+-- [[ END OF STRATEGY ]]
