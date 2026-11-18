@@ -1,0 +1,249 @@
+_G.AutoGatling = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.MatchTrackerEnabled = false
+_G.SellFarms = true
+_G.SellFarmsWave = 40
+_G.AutoGatlingSettings = {beta_dps = true, gui_hidden = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Brawler", "Farm", "Turret", "Gatling Gun", "Ranger")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+TDS:Place("Brawler", -23.942533493041992, 1.000001072883606, -6.43699836730957)
+TDS:Place("Brawler", -18.529314041137695, 0.9999834895133972, -6.510390281677246)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Brawler", -18.584644317626953, 1.0000007152557373, -3.882460594177246)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Place("Brawler", -18.16312599182129, 1.0000003576278687, -1.9225444793701172)
+TDS:Upgrade(4)
+TDS:Place("Brawler", -23.924583435058594, 1.0000007152557373, -4.274677276611328)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(5)
+TDS:Place("Brawler", -23.923830032348633, 1.0000004768371582, -2.234677314758301)
+TDS:Upgrade(6)
+
+-- [ Wave 5 ] --
+TDS:Place("Farm", -1.3474912643432617, 1.8662066459655762, 27.53274917602539)
+TDS:Place("Farm", -4.983033180236816, 1.8661880493164062, 27.462116241455078)
+TDS:Place("Farm", -4.97264289855957, 1.8661880493164062, 23.92213249206543)
+TDS:Place("Farm", -1.2288250923156738, 1.8662071228027344, 23.994739532470703)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", -4.995233058929443, 1.8661892414093018, 20.41132926940918)
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Place("Farm", -1.3218684196472168, 1.8662077188491821, 20.455963134765625)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Place("Farm", -5.261216640472412, 1.8661892414093018, 16.649503707885742)
+TDS:Place("Farm", 0.845428466796875, 1.8662081956863403, 17.628204345703125)
+TDS:Upgrade(14)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(1)
+TDS:Place("Brawler", 5.199690818786621, 0.9999831914901733, 2.3935794830322266)
+TDS:Upgrade(15)
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", -18.16718292236328, 0.9999995231628418, 3.2135801315307617)
+
+-- [ Wave 11 ] --
+TDS:Place("Brawler", -18.276714324951172, 0.9999834895133972, -6.334253311157227)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Brawler", -23.865406036376953, 1.000001072883606, -6.5176544189453125)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+
+-- [ Wave 14 ] --
+TDS:Place("Ranger", 1.3676445484161377, 12.156148910522461, -17.764583587646484)
+TDS:Upgrade(19)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(16)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 17 ] --
+TDS:Place("Ranger", 4.369450092315674, 12.156149864196777, -20.697751998901367)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [ Wave 18 ] --
+TDS:Place("Turret", -5.070062637329102, 0.9999892711639404, -3.406195640563965)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(16)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(14)
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+TDS:Upgrade(10)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(8)
+TDS:Place("Farm", 2.1054744720458984, 1.8662075996398926, 21.2160701751709)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Place("Farm", 2.4590911865234375, 1.8662068843841553, 25.31855010986328)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+
+-- [ Wave 23 ] --
+TDS:Place("Turret", -1.0300707817077637, 0.9999831914901733, -3.398150682449341)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Place("Ranger", 1.3710538148880005, 12.193818092346191, -21.1989688873291)
+TDS:Upgrade(25)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(25)
+TDS:Place("Ranger", -1.7813568115234375, 12.156149864196777, -21.969038009643555)
+TDS:Place("Ranger", 2.353181838989258, 12.156149864196777, -25.511838912963867)
+
+-- [ Wave 25 ] --
+TDS:Place("Ranger", 3.485424518585205, 10.0264253616333, 10.662904739379883)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Place("Ranger", 5.190412998199463, 10.064092636108398, 13.910909652709961)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Place("Ranger", 6.301872730255127, 10.026424407958984, 16.831186294555664)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(13)
+TDS:Upgrade(11)
+TDS:Upgrade(9)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(22)
+TDS:Upgrade(23)
+TDS:Upgrade(10)
+TDS:Upgrade(7)
+TDS:Upgrade(12)
+TDS:Upgrade(14)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(28)
+TDS:Upgrade(29)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(30)
+TDS:Place("Turret", 3.0080928802490234, 0.9999831914901733, -3.5199546813964844)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(21)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(24)
+TDS:Upgrade(31)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(19)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(20)
+TDS:Upgrade(27)
+TDS:Upgrade(25)
+TDS:Upgrade(26)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(16)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(28)
+TDS:Upgrade(29)
+TDS:Upgrade(30)
+TDS:Upgrade(19)
+TDS:Upgrade(20)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(25)
+TDS:Upgrade(26)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(27)
+TDS:Upgrade(21)
+TDS:Upgrade(24)
+TDS:Upgrade(31)
+
+-- [ Wave 38 ] --
+TDS:Upgrade(21)
+
+-- [ Wave 39 ] --
+TDS:Upgrade(24)
+TDS:Upgrade(31)
+
+-- [[ END OF STRATEGY ]]
