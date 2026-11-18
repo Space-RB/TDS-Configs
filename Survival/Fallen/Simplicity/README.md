@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 68 recorded strategies available for this map**
+**📦 69 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -86,6 +86,7 @@ Select a strategy below and open its config file.
 | 66 | 2026-11-17 18:54 UTC | Fallen | — | Golden Scout, Gatling Gun, Hacker, EvolvedJuggernaut, DJ Booth | [Open](66-2026-11-17-18-54-20.txt) |
 | 67 | 2026-11-17 19:04 UTC | Fallen | — | Golden Scout, Gatling Gun, Hacker, EvolvedJuggernaut, DJ Booth | [Open](67-2026-11-17-19-04-59.txt) |
 | 68 | 2026-11-18 00:34 UTC | Fallen | ExplodingEnemies, Glass, HiddenEnemies, Limitation | DJ Booth, Gatling Gun, Hacker, EvolvedJuggernaut, Golden Scout | [Open](68-2026-11-18-00-34-31.txt) |
+| 69 | 2026-11-18 00:54 UTC | Fallen | ExplodingEnemies, Glass, HiddenEnemies, Limitation | DJ Booth, Gatling Gun, Hacker, EvolvedJuggernaut, Golden Scout | [Open](69-2026-11-18-00-54-24.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
