@@ -1,0 +1,30 @@
+_G.AutoGems = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.StartHubStrategy = "8448e2e4-3804-452b-a6e5-c8b30109176a"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Electroshocker", "Sniper", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 3 ] --
+TDS:Place("Electroshocker", -9.955805778503418, 0.9648856520652771, -28.97705841064453)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Place("Electroshocker", -6.904962062835693, 0.9401854276657104, -29.617530822753906)
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
