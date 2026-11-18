@@ -16,11 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Crossroads | 1 | [Open](Crossroads/README.md) |
+| Simplicity | 14 | [Open](Simplicity/README.md) |
 
 | Unknown | 35 | [Open](Unknown/README.md) |
 | Dead Ahead | 13 | [Open](Dead%20Ahead/README.md) |
-| Simplicity | 13 | [Open](Simplicity/README.md) |
 | Black Spot Exchange | 11 | [Open](Black%20Spot%20Exchange/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
 | Cataclysm | 7 | [Open](Cataclysm/README.md) |
@@ -40,6 +39,7 @@ Choose one of the categories below to continue.
 | Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
 | Chess Board | 1 | [Open](Chess%20Board/README.md) |
 | Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
+| Crossroads | 1 | [Open](Crossroads/README.md) |
 | Farm Lands | 1 | [Open](Farm%20Lands/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Night Station | 1 | [Open](Night%20Station/README.md) |
