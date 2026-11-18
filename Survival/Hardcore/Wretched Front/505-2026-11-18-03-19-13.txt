@@ -1,0 +1,133 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Cowboy", "Turret", "EvolvedJuggernaut", "Golden Crook Boss", "Farm")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Cowboy", 1.4255766868591309, 0.36194613575935364, -14.290637016296387)
+TDS:Place("Cowboy", -0.9928798675537109, 0.2970421612262726, -15.31168270111084)
+TDS:Place("Farm", -22.795795440673828, -0.5376040935516357, -4.947716236114502)
+TDS:Place("Farm", -21.155941009521484, -0.5749842524528503, -1.7851476669311523)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", -19.597423553466797, -0.6130800843238831, 1.3756532669067383)
+TDS:Place("Farm", -17.842741012573242, -0.5294507741928101, 4.656442642211914)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Place("Cowboy", -3.3026161193847656, 0.2015773355960846, -16.337032318115234)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", -24.691707611083984, -0.6069673299789429, -1.9582152366638184)
+TDS:Place("Farm", -23.134029388427734, -0.5101975202560425, 1.2206578254699707)
+TDS:Place("Farm", -21.375900268554688, -0.5357258319854736, 4.436473369598389)
+TDS:Upgrade(10)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Place("Farm", -16.488040924072266, -0.37246420979499817, 7.926976203918457)
+TDS:Place("Farm", -20.02120018005371, -0.5449479818344116, 7.707006454467773)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Place("Cowboy", -5.59028434753418, 0.15144318342208862, -17.372760772705078)
+TDS:Upgrade(13)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 9 ] --
+TDS:Place("Crook Boss", -7.352381706237793, -0.2718973159790039, -3.5385959148406982)
+TDS:Upgrade(14)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Place("Turret", -6.1221842765808105, -0.07452446222305298, -12.015863418579102)
+TDS:Upgrade(15)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 19 ] --
+TDS:Place("EvolvedJuggernaut", -1.503662109375, 0.14396145939826965, -3.8143551349639893)
+TDS:Upgrade(16)
+
+-- [ Wave 20 ] --
+TDS:Place("Crook Boss", -6.923859596252441, -0.202485591173172, -6.862475872039795)
+TDS:Upgrade(17)
+TDS:Upgrade(11)
+
+-- [ Wave 21 ] --
+TDS:Place("Farm", -22.104969024658203, -0.44341856241226196, -8.38615608215332)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(16)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(15)
+TDS:Place("Crook Boss", 6.524624824523926, 1.3880763053894043, 27.727428436279297)
+TDS:Upgrade(19)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(19)
+TDS:Place("Crook Boss", 3.238840103149414, 1.4293546676635742, 32.421356201171875)
+TDS:Upgrade(20)
+TDS:Place("Cowboy", 2.5756239891052246, 1.4262244701385498, 38.372901916503906)
+TDS:Place("Cowboy", 1.634608268737793, 1.465474247932434, 41.09169387817383)
+
+-- [ Wave 24 ] --
+TDS:Place("Turret", -3.429461717605591, 1.430336356163025, 38.742454528808594)
+TDS:Upgrade(23)
+
+-- [[ END OF STRATEGY ]]
