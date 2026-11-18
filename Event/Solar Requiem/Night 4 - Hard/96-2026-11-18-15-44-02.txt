@@ -1,0 +1,29 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMoonPuzzle = true
+_G.AutoNecro = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.AutoStarCannon = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StarCannonMin = 100
+_G.StreamerMode = true
+_G.SupportCaravan = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Engineer", "Commander", "Star Cannon", "Pursuit", "Necromancer")
+TDS:Mode("Act4")
+TDS:Ready()
+TDS:Place("Engineer", -3.6495885848999023, 0.9999890923500061, -25.68203353881836)
+
+-- [[ END OF STRATEGY ]]
