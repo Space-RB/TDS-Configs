@@ -1,0 +1,75 @@
+_G.AutoGems = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+_G.StartHubStrategy = "8448e2e4-3804-452b-a6e5-c8b30109176a"
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Electroshocker", "Sniper", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Electroshocker", -10.26760482788086, 0.9646661281585693, -28.14434051513672)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Place("Electroshocker", -7.2339019775390625, 0.9369837045669556, -28.976537704467773)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Place("Electroshocker", -9.764386177062988, 0.9897702932357788, -31.565185546875)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Place("Sniper", -18.873741149902344, 3.5219199657440186, -17.156953811645508)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Place("Sniper", -16.133176803588867, 3.307795763015747, -18.12708854675293)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+TDS:Place("Electroshocker", -6.366946220397949, 0.9601919651031494, -32.25626754760742)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Place("Electroshocker", -9.035523414611816, 1.0116660594940186, -34.516517639160156)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
