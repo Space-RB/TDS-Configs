@@ -1,0 +1,32 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("DJ Booth", "Gatling Gun", "Hacker", "EvolvedJuggernaut", "Golden Scout")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {"ExplodingEnemies", "Glass", "HiddenEnemies", "Limitation"})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", -12.426746368408203, 1.0000005960464478, -3.159797191619873)
+TDS:Place("Scout", -12.426746368408203, 1.0000001192092896, -0.1197972297668457)
+
+-- [ Wave 2 ] --
+TDS:Place("Scout", -9.386746406555176, 1.0000005960464478, -3.159797191619873)
+TDS:Place("Scout", -12.426746368408203, 0.9999995827674866, 2.9202027320861816)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+
+-- [[ END OF STRATEGY ]]
