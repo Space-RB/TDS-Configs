@@ -16,11 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Coral Deep | 2 | [Open](Coral%20Deep/README.md) |
+| Lay By | 38 | [Open](Lay%20By/README.md) |
 
 | Unknown | 86 | [Open](Unknown/README.md) |
 | Simplicity | 70 | [Open](Simplicity/README.md) |
-| Lay By | 37 | [Open](Lay%20By/README.md) |
 | Cataclysm | 22 | [Open](Cataclysm/README.md) |
 | U-Turn | 9 | [Open](U-Turn/README.md) |
 | Dusty Bridges | 6 | [Open](Dusty%20Bridges/README.md) |
@@ -29,6 +28,7 @@ Choose one of the categories below to continue.
 | Summer Castle | 3 | [Open](Summer%20Castle/README.md) |
 | Toyboard | 3 | [Open](Toyboard/README.md) |
 | Abyssal Trench | 2 | [Open](Abyssal%20Trench/README.md) |
+| Coral Deep | 2 | [Open](Coral%20Deep/README.md) |
 | Northern Lights | 2 | [Open](Northern%20Lights/README.md) |
 | Retro Crossroads | 2 | [Open](Retro%20Crossroads/README.md) |
 | Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
