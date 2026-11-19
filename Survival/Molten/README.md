@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Ruby Escort | 1 | [Open](Ruby%20Escort/README.md) |
+| Construction Crazy | 1 | [Open](Construction%20Crazy/README.md) |
 
 | Unknown | 35 | [Open](Unknown/README.md) |
 | Simplicity | 24 | [Open](Simplicity/README.md) |
@@ -46,6 +46,7 @@ Choose one of the categories below to continue.
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Night Station | 1 | [Open](Night%20Station/README.md) |
 | Retro Stained Temple | 1 | [Open](Retro%20Stained%20Temple/README.md) |
+| Ruby Escort | 1 | [Open](Ruby%20Escort/README.md) |
 | Sky Islands | 1 | [Open](Sky%20Islands/README.md) |
 | Spring Fever | 1 | [Open](Spring%20Fever/README.md) |
 | The Heights | 1 | [Open](The%20Heights/README.md) |
