@@ -1,0 +1,46 @@
+_G.AutoMercenary = true
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.MatchTrackerEnabled = false
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gladiator", "Commander", "DJ Booth", "Star Cannon", "None")
+TDS:Mode("Molten")
+TDS:GameInfo("Simplicity", {"ExplodingEnemies", "Glass", "HiddenEnemies", "Limitation"})
+TDS:Ready()
+TDS:Place("Gladiator", -20.788360595703125, 1.000002145767212, -12.829093933105469)
+
+-- [ Wave 1 ] --
+TDS:Place("Gladiator", -25.805601119995117, 1.000002145767212, -12.712329864501953)
+
+-- [ Wave 2 ] --
+TDS:Place("Gladiator", -25.805601119995117, 1.0000025033950806, -14.752330780029297)
+
+-- [ Wave 3 ] --
+TDS:Place("Gladiator", -20.788360595703125, 1.0000025033950806, -14.869094848632812)
+
+-- [ Wave 4 ] --
+TDS:Place("Gladiator", -25.805601119995117, 1.0000017881393433, -10.672329902648926)
+
+-- [ Wave 5 ] --
+TDS:Place("Gladiator", -19.014142990112305, 0.9999880790710449, -11.821009635925293)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [[ END OF STRATEGY ]]
