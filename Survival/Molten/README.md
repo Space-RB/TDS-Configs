@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 23 | [Open](Simplicity/README.md) |
+| Simplicity | 24 | [Open](Simplicity/README.md) |
 
 | Unknown | 35 | [Open](Unknown/README.md) |
 | Dead Ahead | 13 | [Open](Dead%20Ahead/README.md) |
