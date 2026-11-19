@@ -1,0 +1,102 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMedic = true
+_G.AutoMercenary = true
+_G.AutoNecro = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.AutoGatlingSettings = {beta_dps = true, gui_hidden = true, max_multi_targets = 1}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Hacker", "Trapper", "DJ Booth", "Mercenary Base")
+TDS:Mode("Fallen")
+TDS:GameInfo("Lay By", {"Committed", "ExplodingEnemies", "Fog", "Glass", "HiddenEnemies", "Limitation", "Quarantine"})
+TDS:Place("Trapper", -2.795403003692627, 243.11143493652344, 220.54347229003906, true)
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1, true)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1, true)
+
+-- [ Wave 4 ] --
+TDS:Place("Trapper", -3.115325927734375, 242.99998474121094, 223.67462158203125, true)
+TDS:Place("Trapper", -3.115324020385742, 242.99998474121094, 223.67462158203125, true)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2, true)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2, true)
+
+-- [ Wave 7 ] --
+TDS:SetOption(2, "Trap", "Landmine")
+TDS:Upgrade(3, true)
+TDS:Upgrade(3, true)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", -5.505229949951172, 245.87124633789062, 171.86355590820312, true)
+
+-- [ Wave 11 ] --
+TDS:Place("DJ Booth", -3.7658488750457764, 243, 174.1483154296875, true)
+TDS:WaitForWave(11)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+TDS:Sell(5)
+TDS:Place("Trapper", -2.795402765274048, 243.11143493652344, 220.54347229003906)
+TDS:Place("Trapper", -3.115325927734375, 242.99998474121094, 223.67462158203125)
+TDS:Place("Trapper", -3.115324020385742, 242.99998474121094, 223.67462158203125)
+TDS:Place("Gatling Gun", -5.505229473114014, 245.8712158203125, 171.86355590820312)
+TDS:VoteSkip(11)
+TDS:Place("DJ Booth", -4.49588680267334, 243, 174.34341430664062, true)
+
+-- [ Wave 12 ] --
+TDS:Place("Mercenary Base", -3.703930139541626, 243, 167.32565307617188, true)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(9)
+TDS:SetOption(10, "Track", "Green")
+TDS:Upgrade(10, true)
+TDS:Upgrade(10, true)
+TDS:Upgrade(10, true)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(10, true)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(10, true)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(11, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(11, true)
+TDS:SetOption(10, "Track", "Red")
+
+-- [[ END OF STRATEGY ]]
