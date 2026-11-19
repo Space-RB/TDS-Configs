@@ -1,0 +1,286 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.GUIWallpaperTransparency = 100
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Soldier", "Paintballer", "Shotgunner", "Sniper", "Scout")
+TDS:Mode("Intermediate")
+TDS:GameInfo("Grass Isle", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Paintballer", 12.138221740722656, 1.0000048875808716, -30.191177368164062)
+TDS:Upgrade(1)
+TDS:Place("Scout", -12.767583847045898, 1.000002145767212, -13.071907043457031)
+
+-- [ Wave 2 ] --
+TDS:Place("Sniper", 1.7117483615875244, 7.729801654815674, -20.863557815551758)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+TDS:Place("Soldier", 8.4178466796875, 1.0000032186508179, -19.64517593383789)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+TDS:Place("Sniper", 3.7181711196899414, 5.657225131988525, -20.95457649230957)
+TDS:Place("Sniper", 5.121006011962891, 5.657224655151367, -23.54544448852539)
+
+-- [ Wave 5 ] --
+TDS:Place("Sniper", 2.6233246326446533, 5.657244682312012, -24.007160186767578)
+TDS:Place("Sniper", 0.09326457977294922, 5.6572651863098145, -23.782506942749023)
+
+-- [ Wave 6 ] --
+TDS:Place("Sniper", -0.8282543420791626, 7.729735851287842, -20.863557815551758)
+TDS:Place("Paintballer", 16.399621963500977, 1.0000033378601074, -20.304548263549805)
+TDS:Place("Paintballer", 16.212818145751953, 1.000002384185791, -14.24208927154541)
+
+-- [ Wave 7 ] --
+TDS:Place("Scout", 16.670307159423828, 1.0000028610229492, -17.216699600219727)
+TDS:Upgrade(12)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Place("Soldier", 7.885805606842041, 1.0000027418136597, -16.652095794677734)
+TDS:Upgrade(4)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 9 ] --
+TDS:Place("Soldier", 10.74390983581543, 1.0000028610229492, -17.68787384033203)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", -8.46458911895752, 1.0000026226043701, -16.008451461791992)
+TDS:Upgrade(15)
+TDS:Place("Sniper", -4.747570514678955, 5.696328163146973, -4.068129062652588)
+TDS:Place("Sniper", -6.896921157836914, 5.696402072906494, -5.421593189239502)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", -10.143072128295898, 1.0000028610229492, -17.40924835205078)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Place("Sniper", -5.256414890289307, 5.696438789367676, -1.5796077251434326)
+TDS:Place("Sniper", -10.008045196533203, 5.696396827697754, -7.034330368041992)
+TDS:Place("Sniper", -9.290212631225586, 5.696396827697754, -4.355915069580078)
+
+-- [ Wave 12 ] --
+TDS:Place("Sniper", -7.745368957519531, 5.69640588760376, -2.25888729095459)
+TDS:Place("Sniper", -7.703097343444824, 5.696464538574219, 0.25315093994140625)
+TDS:Place("Sniper", -10.427437782287598, 5.696396827697754, -1.8735090494155884)
+TDS:Place("Sniper", -11.919878005981445, 5.696396827697754, -4.364494323730469)
+TDS:Upgrade(20)
+TDS:Upgrade(17)
+TDS:Upgrade(16)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(22)
+TDS:Upgrade(21)
+TDS:Upgrade(24)
+TDS:Upgrade(25)
+TDS:Upgrade(23)
+TDS:Place("Shotgunner", -8.111610412597656, 1.0000022649765015, -13.738505363464355)
+TDS:Upgrade(26)
+TDS:Place("Soldier", 10.211868286132812, 1.000002384185791, -14.694792747497559)
+TDS:Place("Soldier", 7.353763103485107, 1.0000022649765015, -13.659015655517578)
+TDS:Place("Soldier", 9.679824829101562, 1.0000019073486328, -11.701712608337402)
+TDS:Place("Soldier", 6.848610877990723, 1.0000017881393433, -10.696425437927246)
+
+-- [ Wave 14 ] --
+TDS:Place("Soldier", 11.275951385498047, 1.0000033378601074, -20.680953979492188)
+TDS:Place("Soldier", 9.235784530639648, 1.000003695487976, -22.934688568115234)
+TDS:Place("Soldier", 12.158102035522461, 1.0000039339065552, -23.7723388671875)
+TDS:Place("Soldier", 12.537930488586426, 1.000002145767212, -12.737489700317383)
+TDS:Upgrade(27)
+TDS:Upgrade(34)
+TDS:Upgrade(29)
+TDS:Upgrade(30)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(27)
+TDS:Upgrade(30)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(29)
+TDS:Upgrade(32)
+TDS:Upgrade(33)
+TDS:Upgrade(31)
+TDS:Upgrade(16)
+TDS:Upgrade(19)
+TDS:Upgrade(17)
+TDS:Upgrade(23)
+TDS:Upgrade(22)
+TDS:Upgrade(21)
+TDS:Upgrade(20)
+
+-- [ Wave 16 ] --
+TDS:Place("Shotgunner", -10.407452583312988, 1.0000025033950806, -15.386452674865723)
+TDS:Place("Shotgunner", -12.027054786682129, 1.0000027418136597, -16.62681007385254)
+TDS:Upgrade(36)
+TDS:Upgrade(35)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(34)
+TDS:Upgrade(12)
+TDS:Place("Shotgunner", -13.469552993774414, 1.0000029802322388, -18.069307327270508)
+TDS:Upgrade(37)
+TDS:Upgrade(37)
+TDS:Place("Shotgunner", -15.14478588104248, 1.0000027418136597, -16.964279174804688)
+TDS:Place("Shotgunner", -13.702287673950195, 1.0000025033950806, -15.521780967712402)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(39)
+TDS:Upgrade(38)
+TDS:Place("Shotgunner", -7.49378776550293, 1.0000019073486328, -11.776844024658203)
+TDS:Upgrade(40)
+TDS:Upgrade(24)
+TDS:Upgrade(25)
+TDS:Place("Paintballer", -12.120087623596191, 1.0000022649765015, -13.86626148223877)
+TDS:Place("Paintballer", -15.727898597717285, 1.000002384185791, -14.453605651855469)
+TDS:Upgrade(42)
+TDS:Upgrade(42)
+TDS:Upgrade(41)
+TDS:Upgrade(41)
+TDS:Upgrade(41)
+TDS:Upgrade(42)
+TDS:Upgrade(41)
+TDS:Upgrade(41)
+TDS:Upgrade(42)
+TDS:Upgrade(42)
+
+-- [ Wave 19 ] --
+TDS:Place("Soldier", -10.098472595214844, 1.0000019073486328, -11.950536727905273)
+TDS:Place("Soldier", -14.596689224243164, 1.0000019073486328, -11.809775352478027)
+TDS:Upgrade(44)
+TDS:Upgrade(44)
+TDS:Upgrade(43)
+TDS:Upgrade(43)
+TDS:Upgrade(33)
+TDS:Upgrade(32)
+TDS:Upgrade(31)
+TDS:Upgrade(17)
+TDS:Upgrade(16)
+TDS:Upgrade(12)
+TDS:Upgrade(19)
+TDS:Upgrade(22)
+TDS:Upgrade(23)
+TDS:Upgrade(21)
+TDS:Upgrade(20)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(24)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(25)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(9)
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(40)
+TDS:Upgrade(26)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(35)
+TDS:Upgrade(36)
+TDS:Upgrade(39)
+TDS:Upgrade(38)
+TDS:Upgrade(18)
+TDS:Upgrade(37)
+TDS:Upgrade(16)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(30)
+TDS:Upgrade(28)
+TDS:Upgrade(13)
+TDS:Upgrade(4)
+TDS:Upgrade(32)
+TDS:Upgrade(29)
+TDS:Upgrade(15)
+TDS:Upgrade(17)
+TDS:Upgrade(40)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(34)
+TDS:Upgrade(27)
+TDS:Upgrade(14)
+TDS:Upgrade(31)
+TDS:Upgrade(33)
+TDS:Upgrade(26)
+TDS:Upgrade(35)
+TDS:Upgrade(36)
+TDS:Upgrade(39)
+TDS:Upgrade(38)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(22)
+TDS:Upgrade(21)
+TDS:Upgrade(23)
+TDS:Upgrade(24)
+TDS:Upgrade(25)
+TDS:Upgrade(20)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(43)
+TDS:Upgrade(44)
+TDS:Upgrade(12)
+TDS:Upgrade(40)
+TDS:Upgrade(26)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(9)
+TDS:Upgrade(35)
+TDS:Upgrade(15)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(36)
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(39)
+TDS:Upgrade(38)
+TDS:Upgrade(37)
+TDS:Upgrade(13)
+TDS:Upgrade(28)
+TDS:Upgrade(4)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(32)
+TDS:Upgrade(33)
+TDS:Upgrade(43)
+TDS:Upgrade(44)
+TDS:Upgrade(29)
+TDS:Upgrade(27)
+TDS:Upgrade(14)
+TDS:Upgrade(31)
+TDS:Upgrade(34)
+TDS:Upgrade(30)
+
+-- [[ END OF STRATEGY ]]
