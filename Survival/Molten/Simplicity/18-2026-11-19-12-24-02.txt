@@ -1,0 +1,173 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMedic = true
+_G.AutoNecro = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoStarCannon = true
+_G.GUIWallpaperTransparency = 100
+_G.StarCannonMin = 100
+_G.SupportCaravan = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Scout", "Freezer", "Shotgunner", "Ace Pilot", "Pulse Trooper")
+TDS:Mode("Molten")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Ace Pilot", -3.695676326751709, 0.9999908804893494, -3.160928726196289)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Place("Scout", -2.6830995082855225, 0.9999831914901733, 2.2738590240478516)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Shotgunner", -18.364578247070312, 0.9999834895133972, -4.653487205505371)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Place("Ace Pilot", -6.735353946685791, 0.9999871850013733, -3.1609249114990234)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Place("Freezer", -12.626832962036133, 1.0000005960464478, -2.8473153114318848)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", -18.287931442260742, 1.0000004768371582, -2.2911338806152344)
+TDS:Upgrade(6)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:Place("Pulse Trooper", -9.554466247558594, 0.9999831914901733, -0.6281572580337524)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Place("Shotgunner", -17.848697662353516, 1.0000011920928955, -6.859635353088379)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Place("Ace Pilot", -12.691572189331055, 0.9999998211860657, 1.5118911266326904)
+TDS:Upgrade(9)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+TDS:Upgrade(9)
+TDS:Place("Ace Pilot", -0.6553540229797363, 0.9999831914901733, -3.1609249114990234)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 17 ] --
+TDS:Place("Shotgunner", 1.8849682807922363, 0.9999831914901733, -3.160921096801758)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Shotgunner", 4.700382232666016, 0.9999831914901733, -3.0545949935913086)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Shotgunner", -15.370613098144531, 0.999989926815033, -8.82820987701416)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 19 ] --
+TDS:Place("Pulse Trooper", 5.979745864868164, 0.9999831914901733, -6.085655689239502)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Shotgunner", 0.3076883554458618, 0.9999831914901733, 2.2822675704956055)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 20 ] --
+TDS:Place("Shotgunner", 2.708080768585205, 0.9999831914901733, 2.2217867374420166)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Shotgunner", 4.748080730438232, 0.9999831914901733, 2.2217867374420166)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+TDS:Upgrade(10)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 23 ] --
+TDS:Place("Pulse Trooper", 5.691940784454346, 0.9999931454658508, -10.616523742675781)
+TDS:Place("Pulse Trooper", 10.261037826538086, 0.9999940395355225, -10.469460487365723)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(4)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+
+-- [ Wave 25 ] --
+TDS:Place("Scout", 0.28841328620910645, 0.9999831914901733, -8.879030227661133)
+TDS:Place("Scout", -2.751586675643921, 1.0000014305114746, -8.879030227661133)
+TDS:Place("Scout", 0.28841328620910645, 0.9999986290931702, -11.91903018951416)
+TDS:Place("Scout", -2.296933174133301, 0.999993622303009, -15.481637954711914)
+TDS:Place("Scout", -2.7612669467926025, 1.0000020265579224, -12.477309226989746)
+TDS:Place("Scout", 0.7691764831542969, 0.9999909400939941, -16.81028175354004)
+TDS:Place("Scout", -5.20686149597168, 0.9999915361404419, -10.671577453613281)
+TDS:Place("Scout", -7.616019248962402, 0.9999918937683105, -8.827347755432129)
+TDS:Place("Scout", -10.65601921081543, 0.9999876618385315, -8.827347755432129)
+TDS:Place("Scout", -13.275285720825195, 0.9999882578849792, -10.370410919189453)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Place("Pulse Trooper", 8.566868782043457, 0.9999831914901733, 2.6394033432006836)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Place("Shotgunner", 24.6661319732666, 0.9999979138374329, 13.17634391784668)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+
+-- [[ END OF STRATEGY ]]
