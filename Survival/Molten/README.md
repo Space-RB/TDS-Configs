@@ -16,10 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Meltdown | 1 | [Open](Meltdown/README.md) |
+| Simplicity | 20 | [Open](Simplicity/README.md) |
 
 | Unknown | 35 | [Open](Unknown/README.md) |
-| Simplicity | 19 | [Open](Simplicity/README.md) |
 | Dead Ahead | 13 | [Open](Dead%20Ahead/README.md) |
 | Black Spot Exchange | 11 | [Open](Black%20Spot%20Exchange/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
@@ -42,6 +41,7 @@ Choose one of the categories below to continue.
 | Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
 | Crossroads | 1 | [Open](Crossroads/README.md) |
 | Farm Lands | 1 | [Open](Farm%20Lands/README.md) |
+| Meltdown | 1 | [Open](Meltdown/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Night Station | 1 | [Open](Night%20Station/README.md) |
 | Retro Stained Temple | 1 | [Open](Retro%20Stained%20Temple/README.md) |
