@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 19 | [Open](Simplicity/README.md) |
+| Winter Abyss | 3 | [Open](Winter%20Abyss/README.md) |
 
 | Unknown | 35 | [Open](Unknown/README.md) |
+| Simplicity | 19 | [Open](Simplicity/README.md) |
 | Dead Ahead | 13 | [Open](Dead%20Ahead/README.md) |
 | Black Spot Exchange | 11 | [Open](Black%20Spot%20Exchange/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
@@ -34,7 +35,6 @@ Choose one of the categories below to continue.
 | Rocket Arena | 2 | [Open](Rocket%20Arena/README.md) |
 | The Heavens | 2 | [Open](The%20Heavens/README.md) |
 | Toyboard | 2 | [Open](Toyboard/README.md) |
-| Winter Abyss | 2 | [Open](Winter%20Abyss/README.md) |
 | Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
 | Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
 | Chess Board | 1 | [Open](Chess%20Board/README.md) |
