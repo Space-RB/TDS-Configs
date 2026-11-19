@@ -1,0 +1,63 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Minigunner", "Farm", "EvolvedEnforcer", "Electroshocker", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Outskirts Commune", {})
+TDS:Place("Farm", 32.30155944824219, 501.2264099121094, 8.586341857910156)
+TDS:Upgrade(1)
+TDS:Place("Electroshocker", -12.480684280395508, 501.3104248046875, 27.316232681274414)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", 31.238475799560547, 501.2078857421875, 4.880155563354492)
+TDS:Upgrade(3)
+TDS:Place("Farm", 27.33967399597168, 501.18927001953125, 9.450982093811035)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Place("Electroshocker", 6.427347183227539, 501.25848388671875, 21.525487899780273)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+TDS:Place("Farm", 22.888505935668945, 501.2004699707031, 12.444255828857422)
+TDS:Upgrade(6)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", 27.165782928466797, 501.1579284667969, 14.063861846923828)
+TDS:Upgrade(7)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Place("Minigunner", 0.1829061508178711, 501.3516540527344, 17.42233657836914)
+TDS:Upgrade(8)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 12 ] --
+TDS:Place("EvolvedEnforcer", -10.053226470947266, 501.3092041015625, 26.56853675842285)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
