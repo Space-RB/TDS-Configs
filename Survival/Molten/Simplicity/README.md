@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 22 recorded strategies available for this map**
+**📦 23 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -41,6 +41,7 @@ Select a strategy below and open its config file.
 | 20 | 2026-11-19 16:59 UTC | Molten | ExplodingEnemies, Glass, HiddenEnemies, Limitation | Brawler, Engineer, Hacker, DJ Booth, Star Cannon | [Open](20-2026-11-19-16-59-54.txt) |
 | 21 | 2026-11-19 17:06 UTC | Molten | ExplodingEnemies, Glass, HiddenEnemies, Limitation | Gladiator, Commander, DJ Booth, Star Cannon, None | [Open](21-2026-11-19-17-06-57.txt) |
 | 22 | 2026-11-19 17:09 UTC | Molten | ExplodingEnemies, Glass, HiddenEnemies, Limitation | Gladiator, Commander, DJ Booth, Star Cannon, None | [Open](22-2026-11-19-17-09-37.txt) |
+| 23 | 2026-11-19 17:25 UTC | Molten | ExplodingEnemies, Glass, HiddenEnemies, Limitation | Brawler, Engineer, Hacker, DJ Booth, Star Cannon | [Open](23-2026-11-19-17-25-07.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
