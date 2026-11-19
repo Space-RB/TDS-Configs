@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Winter Abyss | 4 | [Open](Winter%20Abyss/README.md) |
+| Meltdown | 1 | [Open](Meltdown/README.md) |
 
 | Unknown | 35 | [Open](Unknown/README.md) |
 | Simplicity | 19 | [Open](Simplicity/README.md) |
@@ -27,6 +27,7 @@ Choose one of the categories below to continue.
 | Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
 | U-Turn | 6 | [Open](U-Turn/README.md) |
 | Lay By | 4 | [Open](Lay%20By/README.md) |
+| Winter Abyss | 4 | [Open](Winter%20Abyss/README.md) |
 | Forest Camp | 3 | [Open](Forest%20Camp/README.md) |
 | Retro Lighthouse | 3 | [Open](Retro%20Lighthouse/README.md) |
 | Grass Isle | 2 | [Open](Grass%20Isle/README.md) |
