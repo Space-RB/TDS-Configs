@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 24 | [Open](Simplicity/README.md) |
+| Ruby Escort | 1 | [Open](Ruby%20Escort/README.md) |
 
 | Unknown | 35 | [Open](Unknown/README.md) |
+| Simplicity | 24 | [Open](Simplicity/README.md) |
 | Dead Ahead | 13 | [Open](Dead%20Ahead/README.md) |
 | Black Spot Exchange | 11 | [Open](Black%20Spot%20Exchange/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
