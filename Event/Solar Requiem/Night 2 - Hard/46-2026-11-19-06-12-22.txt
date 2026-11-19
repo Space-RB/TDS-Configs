@@ -1,0 +1,76 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Engineer", "Hacker", "DJ Booth", "EvolvedKingpin", "EvolvedJuggernaut")
+TDS:Mode("Act2")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Engineer", 2.737088203430176, 47.80534744262695, -5.663190841674805)
+TDS:Place("Engineer", 0.01924300193786621, 47.73910903930664, -4.392446517944336)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Place("Engineer", -1.6562175750732422, 47.7213249206543, -1.8464735746383667)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Engineer", -1.9835805892944336, 47.730308532714844, 1.1855157613754272)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Engineer", -0.5593361854553223, 47.62394332885742, 4.05493688583374)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Place("Engineer", 2.135618209838867, 47.698028564453125, 5.769972324371338)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Hacker", 5.8202362060546875, 47.77680587768555, -5.5936784744262695)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 9 ] --
+TDS:Place("DJ Booth", 9.133747100830078, 47.80126953125, -2.256863832473755)
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Place("EvolvedKingpin", -5.970241546630859, 46.952850341796875, -26.1053409576416)
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
