@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 70 | [Open](Simplicity/README.md) |
+| Coral Deep | 2 | [Open](Coral%20Deep/README.md) |
 
 | Unknown | 86 | [Open](Unknown/README.md) |
+| Simplicity | 70 | [Open](Simplicity/README.md) |
 | Lay By | 37 | [Open](Lay%20By/README.md) |
 | Cataclysm | 22 | [Open](Cataclysm/README.md) |
 | U-Turn | 9 | [Open](U-Turn/README.md) |
@@ -32,7 +33,6 @@ Choose one of the categories below to continue.
 | Retro Crossroads | 2 | [Open](Retro%20Crossroads/README.md) |
 | Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
-| Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
 | Crossroads | 1 | [Open](Crossroads/README.md) |
 | Crystal Cave | 1 | [Open](Crystal%20Cave/README.md) |
 | Farm Lands | 1 | [Open](Farm%20Lands/README.md) |
