@@ -1,0 +1,45 @@
+_G.AutoMercenary = true
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.MatchTrackerEnabled = false
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Brawler", "Engineer", "Hacker", "DJ Booth", "Star Cannon")
+TDS:Mode("Molten")
+TDS:GameInfo("Simplicity", {"ExplodingEnemies", "Glass", "HiddenEnemies", "Limitation"})
+TDS:Ready()
+TDS:Place("Brawler", -18.18948745727539, 0.9999834895133972, -4.574911117553711)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Place("Engineer", -7.718062877655029, 0.9999861121177673, -3.5541696548461914)
+
+-- [ Wave 7 ] --
+TDS:Place("Brawler", -18.123249053955078, 0.9999834895133972, -6.613835334777832)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Place("Brawler", -18.18948745727539, 1.0000004768371582, -2.5349111557006836)
+TDS:Upgrade(4)
+
+-- [[ END OF STRATEGY ]]
