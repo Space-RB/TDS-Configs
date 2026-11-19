@@ -1,0 +1,29 @@
+_G.AutoMercenary = true
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.MatchTrackerEnabled = false
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gladiator", "Commander", "DJ Booth", "Star Cannon", "None")
+TDS:Mode("Molten")
+TDS:GameInfo("Simplicity", {"ExplodingEnemies", "Glass", "HiddenEnemies", "Limitation"})
+TDS:Ready()
+TDS:Place("Gladiator", -20.797683715820312, 1.000002384185791, -14.090164184570312)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
