@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Gilded Path | 69 | [Open](Gilded%20Path/README.md) |
+| Retro Crossroads | 1 | [Open](Retro%20Crossroads/README.md) |
 
 | Unknown | 103 | [Open](Unknown/README.md) |
+| Gilded Path | 69 | [Open](Gilded%20Path/README.md) |
 | Dead Ahead | 48 | [Open](Dead%20Ahead/README.md) |
 | Black Spot Exchange | 5 | [Open](Black%20Spot%20Exchange/README.md) |
 | Lay By | 5 | [Open](Lay%20By/README.md) |
