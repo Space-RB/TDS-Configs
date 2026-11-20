@@ -1,0 +1,235 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.AutoGatlingSettings = {gui_hidden = true, max_multi_targets = 4}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Farm", "Soldier", "Electroshocker", "DJ Booth", "Gatling Gun")
+TDS:Mode("Molten")
+TDS:GameInfo("Chess Board", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Soldier", -18.641691207885742, 0, 1.8863105773925781)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Electroshocker", -21.61849021911621, 0, -2.4624834060668945)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Place("Farm", -36.93375015258789, 0, -37.503265380859375)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", -32.30126190185547, 0, -37.67729568481445)
+TDS:Upgrade(4)
+TDS:Place("Farm", -36.803585052490234, 0, -32.9381103515625)
+TDS:Upgrade(5)
+TDS:Place("Soldier", -16.773555755615234, 0, -0.7751655578613281)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Place("Farm", -31.968841552734375, 0, -32.52522659301758)
+TDS:Upgrade(7)
+TDS:Place("Farm", -27.713516235351562, 0, -37.844482421875)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+TDS:Place("Farm", -27.454601287841797, 0, -32.816162109375)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 9 ] --
+TDS:Place("Farm", -23.27130889892578, 0, -37.62340545654297)
+TDS:Upgrade(10)
+TDS:Place("Farm", -22.767196655273438, 0, -32.65521240234375)
+TDS:Upgrade(11)
+TDS:Place("DJ Booth", -14.600151062011719, 0, 2.6304051876068115)
+TDS:Upgrade(12)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(6)
+TDS:Place("Soldier", -10.892899513244629, 0, 1.024824857711792)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(11)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(7)
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(6)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(9)
+TDS:Upgrade(4)
+
+-- [ Wave 14 ] --
+TDS:Place("Soldier", -18.006938934326172, 0, 5.290195465087891)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Soldier", -18.659469604492188, 0, -3.1594743728637695)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(7)
+TDS:Upgrade(3)
+
+-- [ Wave 16 ] --
+TDS:Place("Gatling Gun", -14.842147827148438, 0, 7.954334259033203)
+TDS:Upgrade(16)
+TDS:Upgrade(3)
+TDS:Upgrade(8)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(16)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(3)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(14)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(15)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(16)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(16)
+
+-- [ Wave 27 ] --
+TDS:Place("Electroshocker", -7.904882431030273, 0, 15.325719833374023)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 28 ] --
+TDS:Place("Electroshocker", -10.697620391845703, 0, 12.408140182495117)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Electroshocker", -11.366769790649414, 0, 8.627645492553711)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Soldier", -11.89895248413086, 0, 5.634589672088623)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Soldier", -8.469024658203125, 0, 6.699312210083008)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Place("Soldier", -7.899596214294434, 0, 10.0650634765625)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Place("Electroshocker", -9.22866153717041, 0, 3.755750894546509)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(16)
+
+-- [ Wave 31 ] --
+TDS:Place("Soldier", -18.812326431274414, 0, 9.199372291564941)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Place("Soldier", -15.563352584838867, 0, 11.398117065429688)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Place("Soldier", -5.713784217834473, 0, 7.983932971954346)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Place("Electroshocker", -6.235544204711914, 0, 12.78506851196289)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+
+-- [[ END OF STRATEGY ]]
