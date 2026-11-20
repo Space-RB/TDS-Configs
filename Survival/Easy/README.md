@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Gilded Path | 68 | [Open](Gilded%20Path/README.md) |
+| Four Seasons | 2 | [Open](Four%20Seasons/README.md) |
 
 | Unknown | 103 | [Open](Unknown/README.md) |
+| Gilded Path | 68 | [Open](Gilded%20Path/README.md) |
 | Dead Ahead | 48 | [Open](Dead%20Ahead/README.md) |
 | Black Spot Exchange | 5 | [Open](Black%20Spot%20Exchange/README.md) |
 | Lay By | 5 | [Open](Lay%20By/README.md) |
@@ -32,7 +33,6 @@ Choose one of the categories below to continue.
 | Night Station | 2 | [Open](Night%20Station/README.md) |
 | Construction Crazy | 1 | [Open](Construction%20Crazy/README.md) |
 | Cyber City | 1 | [Open](Cyber%20City/README.md) |
-| Four Seasons | 1 | [Open](Four%20Seasons/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Infernal Abyss | 1 | [Open](Infernal%20Abyss/README.md) |
 | Lighthaos | 1 | [Open](Lighthaos/README.md) |
