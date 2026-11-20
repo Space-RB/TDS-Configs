@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 6 recorded strategies available for this map**
+**📦 7 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -25,6 +25,7 @@ Select a strategy below and open its config file.
 | 4 | 2026-11-07 21:46 UTC | Frost | — | Brawler, Sniper, None | [Open](4-2026-11-07-21-46-27.txt) |
 | 5 | 2026-11-07 22:00 UTC | Frost | — | Sniper, Assassin, Electroshocker, EvolvedKingpin, None | [Open](5-2026-11-07-22-00-33.txt) |
 | 6 | 2026-11-07 22:09 UTC | Frost | — | Sniper, Assassin, Electroshocker, EvolvedKingpin, None | [Open](6-2026-11-07-22-09-46.txt) |
+| 7 | 2026-11-20 20:17 UTC | Frost | — | Hacker, Turret, Military Base, Militant, Gatling Gun | [Open](7-2026-11-20-20-17-59.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
