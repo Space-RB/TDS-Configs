@@ -16,10 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Gilded Path | 1 | [Open](Gilded%20Path/README.md) |
+| Simplicity | 74 | [Open](Simplicity/README.md) |
 
 | Unknown | 86 | [Open](Unknown/README.md) |
-| Simplicity | 73 | [Open](Simplicity/README.md) |
 | Lay By | 40 | [Open](Lay%20By/README.md) |
 | Cataclysm | 22 | [Open](Cataclysm/README.md) |
 | U-Turn | 9 | [Open](U-Turn/README.md) |
@@ -37,6 +36,7 @@ Choose one of the categories below to continue.
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
 | Crossroads | 1 | [Open](Crossroads/README.md) |
 | Crystal Cave | 1 | [Open](Crystal%20Cave/README.md) |
+| Gilded Path | 1 | [Open](Gilded%20Path/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Honey Valley | 1 | [Open](Honey%20Valley/README.md) |
 | Infernal Abyss | 1 | [Open](Infernal%20Abyss/README.md) |
