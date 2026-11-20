@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Retro Crossroads | 3 | [Open](Retro%20Crossroads/README.md) |
+| Farm Lands | 2 | [Open](Farm%20Lands/README.md) |
 
 | Unknown | 86 | [Open](Unknown/README.md) |
 | Simplicity | 70 | [Open](Simplicity/README.md) |
@@ -26,6 +26,7 @@ Choose one of the categories below to continue.
 | Dusty Bridges | 6 | [Open](Dusty%20Bridges/README.md) |
 | Winter Abyss | 5 | [Open](Winter%20Abyss/README.md) |
 | Winter Stronghold | 4 | [Open](Winter%20Stronghold/README.md) |
+| Retro Crossroads | 3 | [Open](Retro%20Crossroads/README.md) |
 | Summer Castle | 3 | [Open](Summer%20Castle/README.md) |
 | Toyboard | 3 | [Open](Toyboard/README.md) |
 | Abyssal Trench | 2 | [Open](Abyssal%20Trench/README.md) |
@@ -35,7 +36,6 @@ Choose one of the categories below to continue.
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
 | Crossroads | 1 | [Open](Crossroads/README.md) |
 | Crystal Cave | 1 | [Open](Crystal%20Cave/README.md) |
-| Farm Lands | 1 | [Open](Farm%20Lands/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Honey Valley | 1 | [Open](Honey%20Valley/README.md) |
 | Infernal Abyss | 1 | [Open](Infernal%20Abyss/README.md) |
