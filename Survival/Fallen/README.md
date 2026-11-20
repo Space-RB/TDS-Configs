@@ -16,10 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Lay By | 40 | [Open](Lay%20By/README.md) |
+| Retro Crossroads | 3 | [Open](Retro%20Crossroads/README.md) |
 
 | Unknown | 86 | [Open](Unknown/README.md) |
 | Simplicity | 70 | [Open](Simplicity/README.md) |
+| Lay By | 40 | [Open](Lay%20By/README.md) |
 | Cataclysm | 22 | [Open](Cataclysm/README.md) |
 | U-Turn | 9 | [Open](U-Turn/README.md) |
 | Dusty Bridges | 6 | [Open](Dusty%20Bridges/README.md) |
@@ -30,7 +31,6 @@ Choose one of the categories below to continue.
 | Abyssal Trench | 2 | [Open](Abyssal%20Trench/README.md) |
 | Coral Deep | 2 | [Open](Coral%20Deep/README.md) |
 | Northern Lights | 2 | [Open](Northern%20Lights/README.md) |
-| Retro Crossroads | 2 | [Open](Retro%20Crossroads/README.md) |
 | Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
 | Crossroads | 1 | [Open](Crossroads/README.md) |
