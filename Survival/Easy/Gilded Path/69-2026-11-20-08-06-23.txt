@@ -1,0 +1,80 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Shotgunner", "Soldier", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Gilded Path", {"ExplodingEnemies", "Glass", "HiddenEnemies"})
+TDS:Ready()
+TDS:Place("Soldier", -1.8218555450439453, 1.0114169120788574, 18.974369049072266)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", -4.764335632324219, 1.0132725238800049, 19.738182067871094)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Soldier", 1.1462187767028809, 0.9630061388015747, 18.31700325012207)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Shotgunner", -12.808965682983398, 1.0164363384246826, 25.918540954589844)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Shotgunner", 7.039706707000732, 0.9615882635116577, 26.080839157104492)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+TDS:Place("Shotgunner", -13.11190128326416, 1.0107662677764893, 23.897356033325195)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", 6.280325889587402, 0.961358904838562, 24.18744468688965)
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(7)
+TDS:Place("Shotgunner", -11.227190971374512, 0.9965931177139282, 24.678030014038086)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Place("Shotgunner", 5.020288944244385, 0.9598668813705444, 25.791784286499023)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 14 ] --
+TDS:Place("Shotgunner", -11.493460655212402, 0.9944612383842468, 22.655481338500977)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Shotgunner", 4.260908126831055, 0.9636427164077759, 23.89838981628418)
+TDS:Upgrade(11)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
