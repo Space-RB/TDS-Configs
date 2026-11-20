@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Construction Crazy | 1 | [Open](Construction%20Crazy/README.md) |
+| Chess Board | 2 | [Open](Chess%20Board/README.md) |
 
 | Unknown | 35 | [Open](Unknown/README.md) |
 | Simplicity | 24 | [Open](Simplicity/README.md) |
@@ -38,7 +38,7 @@ Choose one of the categories below to continue.
 | Toyboard | 2 | [Open](Toyboard/README.md) |
 | Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
 | Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
-| Chess Board | 1 | [Open](Chess%20Board/README.md) |
+| Construction Crazy | 1 | [Open](Construction%20Crazy/README.md) |
 | Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
 | Crossroads | 1 | [Open](Crossroads/README.md) |
 | Farm Lands | 1 | [Open](Farm%20Lands/README.md) |
