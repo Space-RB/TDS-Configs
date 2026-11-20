@@ -1,0 +1,49 @@
+_G.AntiLag = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Crook Boss", "Golden Minigunner", "Golden Scout", "Shotgunner", "Star Cannon")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wrecked Battlefield", {})
+TDS:Ready()
+TDS:Place("Scout", 9.824287414550781, 3.5999886989593506, 16.204227447509766)
+TDS:Upgrade(1)
+TDS:Place("Scout", 11.673503875732422, 3.599989414215088, 13.803093910217285)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Shotgunner", -2.5230941772460938, 0.9999388456344604, 33.78635787963867)
+
+-- [ Wave 6 ] --
+TDS:Place("Crook Boss", 6.997391700744629, 3.59997820854187, 17.21341323852539)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Place("Minigunner", 3.957468271255493, 3.59997820854187, 17.191865921020508)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
