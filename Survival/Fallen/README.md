@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 73 | [Open](Simplicity/README.md) |
+| Gilded Path | 1 | [Open](Gilded%20Path/README.md) |
 
 | Unknown | 86 | [Open](Unknown/README.md) |
+| Simplicity | 73 | [Open](Simplicity/README.md) |
 | Lay By | 40 | [Open](Lay%20By/README.md) |
 | Cataclysm | 22 | [Open](Cataclysm/README.md) |
 | U-Turn | 9 | [Open](U-Turn/README.md) |
