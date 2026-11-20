@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 528 recorded strategies available for this map**
+**📦 529 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -547,6 +547,7 @@ Select a strategy below and open its config file.
 | 526 | 2026-11-20 15:28 UTC | Hardcore | — | Electroshocker, EvolvedJuggernaut, None | [Open](526-2026-11-20-15-28-21.txt) |
 | 527 | 2026-11-20 15:30 UTC | Hardcore | — | Electroshocker, EvolvedJuggernaut, None | [Open](527-2026-11-20-15-30-21.txt) |
 | 528 | 2026-11-20 15:32 UTC | Hardcore | — | Electroshocker, EvolvedJuggernaut, None | [Open](528-2026-11-20-15-32-16.txt) |
+| 529 | 2026-11-20 16:48 UTC | Hardcore | — | Electroshocker, EvolvedJuggernaut, None | [Open](529-2026-11-20-16-48-33.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
