@@ -1,0 +1,22 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Cowboy", "DJ Booth", "EvolvedKingpin", "Crook Boss")
+TDS:Mode("Fallen")
+TDS:GameInfo("Space City", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", 36.06248092651367, 0.9830405116081238, -5.927898406982422)
+
+-- [ Wave 3 ] --
+TDS:Place("Pyromancer", -11.355852127075195, 1.077939748764038, -28.74359893798828)
+
+-- [[ END OF STRATEGY ]]
