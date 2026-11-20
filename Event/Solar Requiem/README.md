@@ -16,13 +16,13 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Night 1 - Hard | 120 | [Open](Night%201%20-%20Hard/README.md) |
+| Night 3 - Easy | 22 | [Open](Night%203%20-%20Easy/README.md) |
 
 | Night 3 - Hard | 147 | [Open](Night%203%20-%20Hard/README.md) |
+| Night 1 - Hard | 120 | [Open](Night%201%20-%20Hard/README.md) |
 | Night 4 - Hard | 97 | [Open](Night%204%20-%20Hard/README.md) |
 | Night 2 - Hard | 47 | [Open](Night%202%20-%20Hard/README.md) |
 | Night 1 - Easy | 27 | [Open](Night%201%20-%20Easy/README.md) |
-| Night 3 - Easy | 21 | [Open](Night%203%20-%20Easy/README.md) |
 | Night 4 - Easy | 17 | [Open](Night%204%20-%20Easy/README.md) |
 | Night 2 - Easy | 6 | [Open](Night%202%20-%20Easy/README.md) |
 </div>
