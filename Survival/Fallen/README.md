@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 74 | [Open](Simplicity/README.md) |
+| Space City | 1 | [Open](Space%20City/README.md) |
 
 | Unknown | 86 | [Open](Unknown/README.md) |
+| Simplicity | 74 | [Open](Simplicity/README.md) |
 | Lay By | 40 | [Open](Lay%20By/README.md) |
 | Cataclysm | 22 | [Open](Cataclysm/README.md) |
 | U-Turn | 9 | [Open](U-Turn/README.md) |
