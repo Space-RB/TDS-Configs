@@ -1,0 +1,133 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.GUIAutoLoadWindowSize = false
+_G.GUIWallpaperTransparency = 20
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Assassin", "DJ Booth", "EvolvedJuggernaut", "Crook Boss", "Star Cannon")
+TDS:Mode("Act3Easy")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 6.911251068115234, 103.24095916748047, 115.45800018310547)
+TDS:Place("Assassin", 5.528574466705322, 103.16831970214844, 113.95806884765625)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Place("Assassin", 5.629518508911133, 103.30744171142578, 117.04505920410156)
+TDS:Place("Assassin", 4.2468390464782715, 103.23401641845703, 115.54512786865234)
+TDS:Upgrade(4)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Place("Crook Boss", -8.365447044372559, 104.10909271240234, 121.80130767822266)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+TDS:Place("Crook Boss", -9.716059684753418, 103.96163177490234, 119.08770751953125)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Place("Crook Boss", -6.7171783447265625, 103.6737060546875, 119.24694061279297)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(7)
+TDS:Place("DJ Booth", -4.979245185852051, 103.26911926269531, 115.6290283203125)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(6)
+TDS:Place("Crook Boss", -8.987263679504395, 103.5780029296875, 116.13636016845703)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 14 ] --
+TDS:Place("Crook Boss", -3.7446718215942383, 103.67552947998047, 119.88397216796875)
+TDS:Upgrade(10)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(10)
+TDS:Upgrade(3)
+
+-- [ Wave 17 ] --
+TDS:Place("EvolvedJuggernaut", 0.02878284454345703, 103.1487045288086, 115.0622329711914)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(4)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(11)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(5)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 22 ] --
+TDS:Place("Assassin", 1.891679286956787, 101.19338989257812, 85.88228607177734)
+TDS:Place("Assassin", 5.741142749786377, 101.02484893798828, 79.68769836425781)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Assassin", 5.882942199707031, 101.05135345458984, 77.65263366699219)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(11)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(11, 2)
+TDS:Upgrade(8)
+
+-- [ Wave 24 ] --
+TDS:Place("Star Cannon", 4.561655521392822, 111.3031005859375, 94.55379486083984)
+TDS:Upgrade(15)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
