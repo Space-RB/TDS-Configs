@@ -1,0 +1,70 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.GUIWallpaperTransparency = 100
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Assassin", "Shotgunner", "Crook Boss", "Ace Pilot", "None")
+TDS:Mode("Intermediate")
+TDS:GameInfo("Hot Spot", {})
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Assassin", 9.516744613647461, -2.26281476020813, -39.44449996948242)
+
+-- [ Wave 3 ] --
+TDS:Place("Assassin", 4.436392784118652, -2.2543792724609375, -38.98164367675781)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Ace Pilot", 9.527366638183594, -2.2722692489624023, -33.922706604003906)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Crook Boss", 4.436392784118652, -2.2574687004089355, -36.44164276123047)
+
+-- [ Wave 8 ] --
+TDS:Place("Assassin", 4.476991176605225, -2.248485565185547, -44.031272888183594)
+TDS:Upgrade(6)
+TDS:Place("Assassin", 9.506683349609375, -2.269411563873291, -48.11687469482422)
+TDS:Upgrade(7)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(5)
+TDS:Place("Ace Pilot", 0.5413241386413574, -2.224524974822998, -34.34800338745117)
+TDS:Place("Ace Pilot", -2.4759681224823, -1.8294481039047241, -34.71628189086914)
+
+-- [ Wave 10 ] --
+TDS:Place("Ace Pilot", 12.08091926574707, -2.2688920497894287, -32.272666931152344)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Place("Assassin", 9.529247283935547, -2.2749834060668945, -43.45655059814453)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+TDS:Place("Assassin", 4.454179286956787, -2.249279499053955, -48.10613250732422)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Place("Shotgunner", 4.482815265655518, -2.261624574661255, -33.25867462158203)
+TDS:Upgrade(13)
+
+-- [ Wave 13 ] --
+TDS:Place("Shotgunner", 12.285552978515625, -2.2583608627319336, -41.01620864868164)
+TDS:Upgrade(14)
+
+-- [[ END OF STRATEGY ]]
