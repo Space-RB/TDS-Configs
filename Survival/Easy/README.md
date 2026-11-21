@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Retro Crossroads | 1 | [Open](Retro%20Crossroads/README.md) |
+| Winter Stronghold | 2 | [Open](Winter%20Stronghold/README.md) |
 
 | Unknown | 103 | [Open](Unknown/README.md) |
 | Gilded Path | 69 | [Open](Gilded%20Path/README.md) |
@@ -40,13 +40,13 @@ Choose one of the categories below to continue.
 | Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
 | Pier Pressure | 1 | [Open](Pier%20Pressure/README.md) |
 | Portland | 1 | [Open](Portland/README.md) |
+| Retro Crossroads | 1 | [Open](Retro%20Crossroads/README.md) |
 | Retro Lighthouse | 1 | [Open](Retro%20Lighthouse/README.md) |
 | Ruby Escort | 1 | [Open](Ruby%20Escort/README.md) |
 | The Heights | 1 | [Open](The%20Heights/README.md) |
 | Toyboard | 1 | [Open](Toyboard/README.md) |
 | U-Turn | 1 | [Open](U-Turn/README.md) |
 | Winter Bridges | 1 | [Open](Winter%20Bridges/README.md) |
-| Winter Stronghold | 1 | [Open](Winter%20Stronghold/README.md) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to quickly find the required map or category.</p>
