@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Sugar Rush | 1 | [Open](Sugar%20Rush/README.md) |
+| Abandoned City | 1 | [Open](Abandoned%20City/README.md) |
 
 | Unknown | 35 | [Open](Unknown/README.md) |
 | Simplicity | 24 | [Open](Simplicity/README.md) |
@@ -50,6 +50,7 @@ Choose one of the categories below to continue.
 | Ruby Escort | 1 | [Open](Ruby%20Escort/README.md) |
 | Sky Islands | 1 | [Open](Sky%20Islands/README.md) |
 | Spring Fever | 1 | [Open](Spring%20Fever/README.md) |
+| Sugar Rush | 1 | [Open](Sugar%20Rush/README.md) |
 | The Heights | 1 | [Open](The%20Heights/README.md) |
 | Tropical Isles | 1 | [Open](Tropical%20Isles/README.md) |
 </div>
