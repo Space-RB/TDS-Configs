@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Hot Spot | 1 | [Open](Hot%20Spot/README.md) |
+| Hot Spot | 2 | [Open](Hot%20Spot/README.md) |
 
 | Lay By | 6 | [Open](Lay%20By/README.md) |
 | Unknown | 6 | [Open](Unknown/README.md) |
