@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 94 recorded strategies available for this map**
+**📦 95 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -113,6 +113,7 @@ Select a strategy below and open its config file.
 | 92 | 2026-11-18 21:47 UTC | Frost | — | EvolvedKingpin, DJ Booth, Golden Scout, Farm, EvolvedJuggernaut | [Open](92-2026-11-18-21-47-05.txt) |
 | 93 | 2026-11-20 12:47 UTC | Frost | — | EvolvedJuggernaut, Gatling Gun, Commander, DJ Booth, Assassin | [Open](93-2026-11-20-12-47-15.txt) |
 | 94 | 2026-11-20 15:26 UTC | Frost | — | Gatling Gun, DJ Booth, Engineer, Commander, Cowboy | [Open](94-2026-11-20-15-26-01.txt) |
+| 95 | 2026-11-21 10:52 UTC | Frost | — | Crook Boss, Assassin, Commander, Freezer, None | [Open](95-2026-11-21-10-52-29.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
