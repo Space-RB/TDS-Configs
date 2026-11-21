@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 54 recorded strategies available for this map**
+**📦 55 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -73,6 +73,7 @@ Select a strategy below and open its config file.
 | 52 | 2026-11-11 13:12 UTC | Frost | — | Trapper, Hacker, Mercenary Base, Gatling Gun, Medic | [Open](52-2026-11-11-13-12-06.txt) |
 | 53 | 2026-11-11 13:22 UTC | Frost | — | Trapper, Hacker, Mercenary Base, Gatling Gun, Medic | [Open](53-2026-11-11-13-22-34.txt) |
 | 54 | 2026-11-21 22:02 UTC | Frost | — | Minigunner, Trapper, None | [Open](54-2026-11-21-22-02-12.txt) |
+| 55 | 2026-11-21 22:12 UTC | Frost | — | Minigunner, Trapper, None | [Open](55-2026-11-21-22-12-17.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
