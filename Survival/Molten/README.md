@@ -16,12 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Chess Board | 2 | [Open](Chess%20Board/README.md) |
+| Black Spot Exchange | 12 | [Open](Black%20Spot%20Exchange/README.md) |
 
 | Unknown | 35 | [Open](Unknown/README.md) |
 | Simplicity | 24 | [Open](Simplicity/README.md) |
 | Dead Ahead | 13 | [Open](Dead%20Ahead/README.md) |
-| Black Spot Exchange | 11 | [Open](Black%20Spot%20Exchange/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
 | Cataclysm | 7 | [Open](Cataclysm/README.md) |
 | Dusty Bridges | 7 | [Open](Dusty%20Bridges/README.md) |
@@ -30,6 +29,7 @@ Choose one of the categories below to continue.
 | Winter Abyss | 4 | [Open](Winter%20Abyss/README.md) |
 | Forest Camp | 3 | [Open](Forest%20Camp/README.md) |
 | Retro Lighthouse | 3 | [Open](Retro%20Lighthouse/README.md) |
+| Chess Board | 2 | [Open](Chess%20Board/README.md) |
 | Grass Isle | 2 | [Open](Grass%20Isle/README.md) |
 | Hot Spot | 2 | [Open](Hot%20Spot/README.md) |
 | Retro The Heights | 2 | [Open](Retro%20The%20Heights/README.md) |
