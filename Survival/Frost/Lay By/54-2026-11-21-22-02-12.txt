@@ -1,0 +1,50 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.HideUsername = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Minigunner", "Trapper", "None", "None", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Lay By", {})
+TDS:Ready()
+TDS:Place("Trapper", 3.216257095336914, 243, 156.99420166015625)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Trapper", -4.424829483032227, 243, 157.96018981933594)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Trapper", 2.977660655975342, 243, 160.5953826904297)
+TDS:Upgrade(3)
+TDS:Place("Trapper", -4.501222610473633, 243, 161.6230010986328)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:Place("Trapper", 3.6575305461883545, 243, 164.3675537109375)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(5)
+TDS:Place("Trapper", -3.616248607635498, 243, 164.86427307128906)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Place("Trapper", 3.728609323501587, 243, 167.40672302246094)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+
+-- [[ END OF STRATEGY ]]
