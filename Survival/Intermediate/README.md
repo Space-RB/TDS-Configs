@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Grass Isle | 2 | [Open](Grass%20Isle/README.md) |
+| Hot Spot | 1 | [Open](Hot%20Spot/README.md) |
 
 | Lay By | 6 | [Open](Lay%20By/README.md) |
 | Unknown | 6 | [Open](Unknown/README.md) |
@@ -24,6 +24,7 @@ Choose one of the categories below to continue.
 | Dead Ahead | 4 | [Open](Dead%20Ahead/README.md) |
 | Retro Lighthouse | 3 | [Open](Retro%20Lighthouse/README.md) |
 | Chess Board | 2 | [Open](Chess%20Board/README.md) |
+| Grass Isle | 2 | [Open](Grass%20Isle/README.md) |
 | Ruby Escort | 2 | [Open](Ruby%20Escort/README.md) |
 | The Heights | 2 | [Open](The%20Heights/README.md) |
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
