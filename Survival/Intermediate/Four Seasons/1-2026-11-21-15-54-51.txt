@@ -1,0 +1,35 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.GUIWallpaperTransparency = 100
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Boomerang", "Crook Boss", "Pyromancer", "Freezer", "Minigunner")
+TDS:Mode("Intermediate")
+TDS:GameInfo("Four Seasons", {})
+TDS:Ready()
+
+-- [ Wave 3 ] --
+TDS:Place("Pyromancer", 4.115411758422852, 0.7500039935112, -29.10755157470703)
+
+-- [ Wave 6 ] --
+TDS:Place("Crook Boss", -2.3707046508789062, 0.7500027418136597, -21.642789840698242)
+
+-- [ Wave 8 ] --
+TDS:Place("Crook Boss", 0.9479131698608398, 0.750002920627594, -22.558094024658203)
+
+-- [ Wave 9 ] --
+TDS:Place("Crook Boss", 0.3546762466430664, 1.7499961853027344, -19.436752319335938)
+
+-- [ Wave 11 ] --
+TDS:Place("Crook Boss", -2.730121612548828, 1.7499830722808838, -17.646509170532227)
+
+-- [ Wave 12 ] --
+TDS:Place("Crook Boss", -5.618376731872559, 0.7500021457672119, -20.45758819580078)
+
+-- [[ END OF STRATEGY ]]
