@@ -16,11 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Hot Spot | 2 | [Open](Hot%20Spot/README.md) |
+| Lay By | 54 | [Open](Lay%20By/README.md) |
 
 | Unknown | 102 | [Open](Unknown/README.md) |
 | Simplicity | 95 | [Open](Simplicity/README.md) |
-| Lay By | 53 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 10 | [Open](Retro%20Crossroads/README.md) |
 | Winter Abyss | 7 | [Open](Winter%20Abyss/README.md) |
 | Crossroads | 6 | [Open](Crossroads/README.md) |
@@ -36,6 +35,7 @@ Choose one of the categories below to continue.
 | Cataclysm | 2 | [Open](Cataclysm/README.md) |
 | Crystal Cave | 2 | [Open](Crystal%20Cave/README.md) |
 | Dead Ahead | 2 | [Open](Dead%20Ahead/README.md) |
+| Hot Spot | 2 | [Open](Hot%20Spot/README.md) |
 | Pier Pressure | 2 | [Open](Pier%20Pressure/README.md) |
 | Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
 | Construction Crazy | 1 | [Open](Construction%20Crazy/README.md) |
