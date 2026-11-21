@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 95 | [Open](Simplicity/README.md) |
+| Hot Spot | 2 | [Open](Hot%20Spot/README.md) |
 
 | Unknown | 102 | [Open](Unknown/README.md) |
+| Simplicity | 95 | [Open](Simplicity/README.md) |
 | Lay By | 53 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 10 | [Open](Retro%20Crossroads/README.md) |
 | Winter Abyss | 7 | [Open](Winter%20Abyss/README.md) |
@@ -41,7 +42,6 @@ Choose one of the categories below to continue.
 | Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
 | Gilded Path | 1 | [Open](Gilded%20Path/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
-| Hot Spot | 1 | [Open](Hot%20Spot/README.md) |
 | Iceville | 1 | [Open](Iceville/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Necropolis | 1 | [Open](Necropolis/README.md) |
