@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 78 | [Open](Simplicity/README.md) |
+| Wrecked Battlefield | 3 | [Open](Wrecked%20Battlefield/README.md) |
 
 | Unknown | 86 | [Open](Unknown/README.md) |
+| Simplicity | 78 | [Open](Simplicity/README.md) |
 | Lay By | 40 | [Open](Lay%20By/README.md) |
 | Cataclysm | 22 | [Open](Cataclysm/README.md) |
 | U-Turn | 9 | [Open](U-Turn/README.md) |
@@ -33,7 +34,6 @@ Choose one of the categories below to continue.
 | Farm Lands | 2 | [Open](Farm%20Lands/README.md) |
 | Northern Lights | 2 | [Open](Northern%20Lights/README.md) |
 | Sky Islands | 2 | [Open](Sky%20Islands/README.md) |
-| Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
 | Crossroads | 1 | [Open](Crossroads/README.md) |
 | Crystal Cave | 1 | [Open](Crystal%20Cave/README.md) |
