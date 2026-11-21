@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Space City | 1 | [Open](Space%20City/README.md) |
+| Sky Islands | 2 | [Open](Sky%20Islands/README.md) |
 
 | Unknown | 86 | [Open](Unknown/README.md) |
 | Simplicity | 74 | [Open](Simplicity/README.md) |
@@ -44,7 +44,7 @@ Choose one of the categories below to continue.
 | Lighthaos | 1 | [Open](Lighthaos/README.md) |
 | Night Station | 1 | [Open](Night%20Station/README.md) |
 | Portland | 1 | [Open](Portland/README.md) |
-| Sky Islands | 1 | [Open](Sky%20Islands/README.md) |
+| Space City | 1 | [Open](Space%20City/README.md) |
 | The Heights | 1 | [Open](The%20Heights/README.md) |
 </div>
 
