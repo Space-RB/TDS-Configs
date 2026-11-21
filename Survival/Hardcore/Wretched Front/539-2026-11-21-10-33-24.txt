@@ -1,0 +1,138 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Pyromancer", "Boomerang", "EvolvedJuggernaut", "Engineer", "Farm")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", -5.916585445404053, 0.9584529995918274, -32.1546630859375)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Place("Farm", 9.58307933807373, 1.3154972791671753, 35.04655456542969)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", 13.107048988342285, 1.2419476509094238, 34.71016311645508)
+TDS:Place("Farm", 16.646297454833984, 1.1685173511505127, 34.78315734863281)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Place("Farm", 20.186298370361328, 1.0448925495147705, 34.78315734863281)
+TDS:Place("Farm", 20.592391967773438, 0.9862117767333984, 30.72212028503418)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", 20.592391967773438, 0.9225224256515503, 27.18212127685547)
+TDS:Place("Farm", 20.592391967773438, 0.8096204996109009, 23.642120361328125)
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Place("Farm", 29.7672176361084, 0.44377410411834717, 23.444814682006836)
+
+-- [ Wave 8 ] --
+TDS:Place("Farm", 21.94708824157715, 0.6837993860244751, 20.371597290039062)
+TDS:Upgrade(10)
+TDS:Place("Farm", 23.55565643310547, 0.5654476881027222, 17.139087677001953)
+TDS:Upgrade(11)
+TDS:Place("Farm", 21.989398956298828, 0.47506970167160034, 13.964431762695312)
+TDS:Upgrade(12)
+TDS:Place("Boomerang", -10.951483726501465, -0.03253728151321411, -16.559791564941406)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 10 ] --
+TDS:Place("Boomerang", 9.87329387664795, 1.3046596050262451, 22.646560668945312)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Place("Engineer", 6.536105155944824, 1.388415813446045, 27.938766479492188)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 14 ] --
+TDS:Place("Engineer", 3.4960899353027344, 1.417410135269165, 27.938770294189453)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Engineer", 0.45608997344970703, 1.4462519884109497, 27.938770294189453)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 15 ] --
+TDS:Place("Engineer", -2.5839099884033203, 1.4748187065124512, 27.938770294189453)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Engineer", 6.536105155944824, 1.374851942062378, 30.97876739501953)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [ Wave 16 ] --
+TDS:Place("Engineer", -5.797703266143799, 1.469355821609497, 22.660932540893555)
+TDS:Place("Engineer", -5.4089155197143555, 1.5034353733062744, 29.037742614746094)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(2)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(19)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(21)
+
+-- [ Wave 22 ] --
+TDS:Place("EvolvedJuggernaut", 5.833293914794922, 1.35039484500885, 22.646560668945312)
+TDS:Upgrade(22)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(22)
+
+-- [[ END OF STRATEGY ]]
