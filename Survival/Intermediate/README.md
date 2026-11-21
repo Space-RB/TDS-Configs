@@ -16,12 +16,13 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Hot Spot | 3 | [Open](Hot%20Spot/README.md) |
+| Four Seasons | 1 | [Open](Four%20Seasons/README.md) |
 
 | Lay By | 6 | [Open](Lay%20By/README.md) |
 | Unknown | 6 | [Open](Unknown/README.md) |
 | Black Spot Exchange | 4 | [Open](Black%20Spot%20Exchange/README.md) |
 | Dead Ahead | 4 | [Open](Dead%20Ahead/README.md) |
+| Hot Spot | 3 | [Open](Hot%20Spot/README.md) |
 | Retro Lighthouse | 3 | [Open](Retro%20Lighthouse/README.md) |
 | Chess Board | 2 | [Open](Chess%20Board/README.md) |
 | Grass Isle | 2 | [Open](Grass%20Isle/README.md) |
