@@ -1,0 +1,51 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.GUIWallpaperTransparency = 100
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Assassin", "Shotgunner", "Crook Boss", "Ace Pilot", "None")
+TDS:Mode("Intermediate")
+TDS:GameInfo("Hot Spot", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 4.474074840545654, -2.2546162605285645, -38.97645568847656)
+
+-- [ Wave 2 ] --
+TDS:Place("Assassin", 9.658782958984375, -2.2740890979766846, -33.330692291259766)
+TDS:Place("Assassin", -13.03255844116211, -2.1486995220184326, -37.944618225097656)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Ace Pilot", -4.347691535949707, -1.5917680263519287, -29.308719635009766)
+
+-- [ Wave 5 ] --
+TDS:Place("Ace Pilot", 20.361095428466797, -1.8930506706237793, -18.597639083862305)
+
+-- [ Wave 6 ] --
+TDS:Place("Shotgunner", 10.000190734863281, -2.2617125511169434, -39.34957504272461)
+TDS:Upgrade(6)
+
+-- [ Wave 8 ] --
+TDS:Place("Shotgunner", 3.9083471298217773, -2.244835376739502, -44.170166015625)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(7)
+TDS:Place("Shotgunner", 9.977344512939453, -2.264925718307495, -41.798248291015625)
+TDS:Upgrade(8)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [[ END OF STRATEGY ]]
