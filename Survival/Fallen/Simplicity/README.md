@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 75 recorded strategies available for this map**
+**📦 76 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -93,6 +93,7 @@ Select a strategy below and open its config file.
 | 73 | 2026-11-20 14:36 UTC | Fallen | — | DJ Booth, Commander, Minigunner, Tesla, Soldier | [Open](73-2026-11-20-14-36-31.txt) |
 | 74 | 2026-11-20 17:33 UTC | Fallen | — | Shotgunner, Militant, None | [Open](74-2026-11-20-17-33-34.txt) |
 | 75 | 2026-11-20 20:27 UTC | Fallen | Glass | Golden Minigunner, Ranger, Crook Boss, Firework Technician, Cowboy | [Open](75-2026-11-20-20-27-41.txt) |
+| 76 | 2026-11-21 04:43 UTC | Fallen | — | Assassin, DJ Booth, Commander, Minigunner, Crook Boss | [Open](76-2026-11-21-04-43-03.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
