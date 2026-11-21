@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Intermediate | 45 | [Open](Intermediate/README.md) |
+| Intermediate | 46 | [Open](Intermediate/README.md) |
 
 | Hardcore | 776 | [Open](Hardcore/README.md) |
 | Frost | 328 | [Open](Frost/README.md) |
