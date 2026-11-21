@@ -1,0 +1,34 @@
+_G.AntiLag = true
+_G.AutoDJ = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Minigunner", "Golden Crook Boss", "Boomerang", "Farm", "EvolvedJuggernaut")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Farm", -20.835189819335938, 0.4979194402694702, -22.572404861450195)
+TDS:Place("Farm", -19.891098022460938, 0.7157249450683594, -25.9942684173584)
+TDS:Place("Farm", -17.6812744140625, 0.9251679182052612, -29.042665481567383)
+TDS:Place("Farm", -16.280391693115234, 0.9628782272338867, -32.4344482421875)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", -16.398258209228516, 1.0211836099624634, -35.97248458862305)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [[ END OF STRATEGY ]]
