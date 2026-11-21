@@ -1,0 +1,79 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.AutoGatlingSettings = {gui_hidden = true, max_multi_targets = 4}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "DJ Booth", "Electroshocker", "Farm", "Golden Crook Boss")
+TDS:Mode("Molten")
+TDS:GameInfo("Sugar Rush", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Electroshocker", -29.972068786621094, 13.25984001159668, -25.5599365234375)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Electroshocker", -16.586515426635742, 13.236327171325684, -54.788047790527344)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Electroshocker", -16.519546508789062, 13.237141609191895, -51.74878692626953)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Place("Electroshocker", -13.567238807678223, 13.257441520690918, -54.74601745605469)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Place("Farm", -54.85917282104492, 11.15560531616211, -22.346223831176758)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Place("DJ Booth", -20.471824645996094, 13.218814849853516, -53.26261901855469)
+TDS:Upgrade(6)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+TDS:Place("Farm", -55.40034866333008, 11.391009330749512, -25.999591827392578)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(7)
+TDS:Place("Farm", -55.41792297363281, 11.433087348937988, -30.2523193359375)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(1)
+TDS:Place("Crook Boss", -17.403911590576172, 13.064794540405273, -16.580726623535156)
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
