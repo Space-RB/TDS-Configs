@@ -1,0 +1,111 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.GUICardTransparency = 0
+_G.GUISectionTransparency = 0
+_G.GUIWallpaperDim = 0
+_G.GUIWallpaperTransparency = 0
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Assassin", "DJ Booth", "Commander", "Minigunner", "Crook Boss")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", -18.15108871459961, 1.0000005960464478, -3.1055312156677246, true)
+TDS:Place("Assassin", -18.221229553222656, 0.9999834895133972, -5.4697651863098145, true)
+TDS:Upgrade(1, true)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1, true)
+TDS:Upgrade(2, true)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2, true)
+
+-- [ Wave 6 ] --
+TDS:Place("Crook Boss", -1.8395652770996094, 0.9999831914901733, 3.085092067718506, true)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3, true)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3, true)
+
+-- [ Wave 10 ] --
+TDS:Place("Crook Boss", 0.38410472869873047, 0.9999831914901733, 3.1881394386291504, true)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4, true)
+TDS:Upgrade(4, true)
+
+-- [ Wave 12 ] --
+TDS:Place("DJ Booth", -8.243720054626465, 0.9999831914901733, -0.4819154739379883, true)
+TDS:Upgrade(5, true)
+TDS:Upgrade(5, true)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(5, true)
+TDS:Place("Commander", -1.3246650695800781, 0.9999938011169434, -3.2483997344970703, true)
+TDS:Upgrade(6, true)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6, true)
+TDS:Place("Commander", -4.258082389831543, 0.9999902248382568, -3.295346260070801, true)
+TDS:Upgrade(7, true)
+TDS:Upgrade(7, true)
+
+-- [ Wave 15 ] --
+TDS:Place("Commander", -7.393260955810547, 0.999986469745636, -3.4730892181396484, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(8, true)
+TDS:Place("Crook Boss", 2.8384883403778076, 0.9999831914901733, 3.29641056060791, true)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(9, true)
+TDS:Upgrade(9, true)
+TDS:Place("Crook Boss", 1.0155620574951172, 0.9999929666519165, -3.1691672801971436, true)
+TDS:Upgrade(10, true)
+TDS:Upgrade(10, true)
+TDS:Place("Crook Boss", 3.2108492851257324, 0.9999831914901733, -3.2048892974853516, true)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(11, true)
+TDS:Upgrade(11, true)
+
+-- [ Wave 18 ] --
+TDS:Place("Assassin", -18.115867614746094, 0.9999834895133972, -7.479226112365723, true)
+TDS:Upgrade(1, true)
+TDS:Upgrade(12, true)
+TDS:Upgrade(2, true)
+TDS:Upgrade(12, true)
+TDS:Upgrade(12, true)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(5, true)
+TDS:Place("Minigunner", 0.00009799003601074219, 0.9999831914901733, -8.938267707824707, true)
+TDS:Upgrade(13, true)
+TDS:Upgrade(13, true)
+TDS:Place("Minigunner", 0.15410208702087402, 0.9999983310699463, -11.40295124053955, true)
+TDS:Upgrade(14, true)
+TDS:Upgrade(14, true)
+
+-- [ Wave 20 ] --
+TDS:Place("Minigunner", -2.470628023147583, 1.2000004053115845, -8.530242919921875, true)
+TDS:Place("Minigunner", -2.5272111892700195, 1.2000013589859009, -8.766908645629883, true)
+TDS:Upgrade(15, true)
+TDS:Upgrade(15, true)
+TDS:Upgrade(16, true)
+TDS:Upgrade(16, true)
+
+-- [ Wave 21 ] --
+TDS:Place("Commander", -6.183412075042725, 1.2567710876464844, -8.55195140838623, true)
+TDS:Place("Commander", -6.114083290100098, 1.1136857271194458, -8.799510955810547, true)
+
+-- [[ END OF STRATEGY ]]
