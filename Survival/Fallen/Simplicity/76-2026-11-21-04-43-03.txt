@@ -1,0 +1,65 @@
+_G.AutoDJ = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.MatchTrackerEnabled = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Assassin", "DJ Booth", "Commander", "Minigunner", "Crook Boss")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+TDS:Place("Assassin", -18.164779663085938, 1.0000004768371582, -2.715944290161133, true)
+TDS:Place("Assassin", -18.13043975830078, 0.9999834895133972, -4.988588333129883, true)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1, true)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2, true)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1, true)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2, true)
+
+-- [ Wave 6 ] --
+TDS:Place("Crook Boss", -2.150406837463379, 0.9999854564666748, 3.1041383743286133, true)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3, true)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3, true)
+
+-- [ Wave 10 ] --
+TDS:Place("Crook Boss", -0.49248504638671875, 0.999987006187439, 3.0199875831604004, true)
+TDS:Upgrade(4, true)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4, true)
+
+-- [ Wave 12 ] --
+TDS:Place("DJ Booth", -8.287530899047852, 0.9999997615814209, 1.8154630661010742, true)
+TDS:Upgrade(5, true)
+TDS:Upgrade(5, true)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(5, true)
+
+-- [ Wave 14 ] --
+TDS:Place("Commander", -7.658835411071777, 0.9999861121177673, -3.349355697631836, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(6, true)
+TDS:Place("Commander", -5.5356245040893555, 0.9999887347221375, -3.38094162940979, true)
+TDS:Place("Commander", -6.012141227722168, 0.9999880790710449, -3.1576242446899414, true)
+
+-- [[ END OF STRATEGY ]]
