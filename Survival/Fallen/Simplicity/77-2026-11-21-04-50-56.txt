@@ -1,0 +1,42 @@
+_G.AutoDJ = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.GUICardTransparency = 0
+_G.GUISectionTransparency = 0
+_G.GUIWallpaperDim = 0
+_G.GUIWallpaperTransparency = 0
+_G.MatchTrackerEnabled = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Assassin", "DJ Booth", "Commander", "Minigunner", "Crook Boss")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+TDS:Place("Assassin", -18.14907455444336, 1.0000004768371582, -2.7560672760009766, true)
+TDS:Place("Assassin", -18.214956283569336, 0.9999834895133972, -4.739720344543457, true)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1, true)
+TDS:Upgrade(1, true)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2, true)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2, true)
+
+-- [ Wave 6 ] --
+TDS:Place("Crook Boss", -2.014328956604004, 0.9999855756759644, 3.140963554382324, true)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3, true)
+
+-- [[ END OF STRATEGY ]]
