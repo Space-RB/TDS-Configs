@@ -16,10 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Wrecked Battlefield | 3 | [Open](Wrecked%20Battlefield/README.md) |
+| Simplicity | 79 | [Open](Simplicity/README.md) |
 
 | Unknown | 86 | [Open](Unknown/README.md) |
-| Simplicity | 78 | [Open](Simplicity/README.md) |
 | Lay By | 40 | [Open](Lay%20By/README.md) |
 | Cataclysm | 22 | [Open](Cataclysm/README.md) |
 | U-Turn | 9 | [Open](U-Turn/README.md) |
@@ -29,6 +28,7 @@ Choose one of the categories below to continue.
 | Retro Crossroads | 3 | [Open](Retro%20Crossroads/README.md) |
 | Summer Castle | 3 | [Open](Summer%20Castle/README.md) |
 | Toyboard | 3 | [Open](Toyboard/README.md) |
+| Wrecked Battlefield | 3 | [Open](Wrecked%20Battlefield/README.md) |
 | Abyssal Trench | 2 | [Open](Abyssal%20Trench/README.md) |
 | Coral Deep | 2 | [Open](Coral%20Deep/README.md) |
 | Farm Lands | 2 | [Open](Farm%20Lands/README.md) |
