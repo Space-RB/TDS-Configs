@@ -16,10 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Dead Ahead | 50 | [Open](Dead%20Ahead/README.md) |
+| Grass Isle | 2 | [Open](Grass%20Isle/README.md) |
 
 | Unknown | 103 | [Open](Unknown/README.md) |
 | Gilded Path | 69 | [Open](Gilded%20Path/README.md) |
+| Dead Ahead | 50 | [Open](Dead%20Ahead/README.md) |
 | Black Spot Exchange | 5 | [Open](Black%20Spot%20Exchange/README.md) |
 | Lay By | 5 | [Open](Lay%20By/README.md) |
 | Coral Deep | 3 | [Open](Coral%20Deep/README.md) |
@@ -34,7 +35,6 @@ Choose one of the categories below to continue.
 | Winter Stronghold | 2 | [Open](Winter%20Stronghold/README.md) |
 | Construction Crazy | 1 | [Open](Construction%20Crazy/README.md) |
 | Cyber City | 1 | [Open](Cyber%20City/README.md) |
-| Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Infernal Abyss | 1 | [Open](Infernal%20Abyss/README.md) |
 | Lighthaos | 1 | [Open](Lighthaos/README.md) |
 | Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
