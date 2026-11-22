@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 35 recorded strategies available for this map**
+**📦 36 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -53,6 +53,7 @@ Select a strategy below and open its config file.
 | 33 | 2026-11-15 13:32 UTC | Badlands | — | Assassin, Hacker, EvolvedJuggernaut, Shotgunner, Commander | [Open](33-2026-11-15-13-32-44.txt) |
 | 34 | 2026-11-19 01:10 UTC | Pizza Party | — | Commander, Hacker, Brawler, Trapper, None | [Open](34-2026-11-19-01-10-20.txt) |
 | 35 | 2026-11-20 19:44 UTC | Pizza Party | — | Shotgunner, Golden Pyromancer, None | [Open](35-2026-11-20-19-44-32.txt) |
+| 36 | 2026-11-22 12:39 UTC | Badlands | — | Engineer, Gatling Gun, EvolvedKingpin, DJ Booth, Assassin | [Open](36-2026-11-22-12-39-42.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
