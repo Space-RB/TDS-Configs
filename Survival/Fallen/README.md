@@ -16,12 +16,12 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| U-Turn | 10 | [Open](U-Turn/README.md) |
+| Simplicity | 81 | [Open](Simplicity/README.md) |
 
 | Unknown | 86 | [Open](Unknown/README.md) |
-| Simplicity | 80 | [Open](Simplicity/README.md) |
 | Lay By | 40 | [Open](Lay%20By/README.md) |
 | Cataclysm | 22 | [Open](Cataclysm/README.md) |
+| U-Turn | 10 | [Open](U-Turn/README.md) |
 | Dusty Bridges | 6 | [Open](Dusty%20Bridges/README.md) |
 | Winter Abyss | 5 | [Open](Winter%20Abyss/README.md) |
 | Winter Stronghold | 5 | [Open](Winter%20Stronghold/README.md) |
