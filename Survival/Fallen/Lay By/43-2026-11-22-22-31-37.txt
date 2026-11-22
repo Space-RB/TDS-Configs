@@ -1,0 +1,70 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.HideUsername = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Minigunner", "Brawler", "EvolvedJuggernaut", "None", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("Lay By", {})
+TDS:Ready()
+TDS:Place("Brawler", 3.8834874629974365, 243, 160.5928192138672)
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", -3.5604496002197266, 243, 160.98016357421875)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Place("Brawler", 3.5433475971221924, 243, 162.91419982910156)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+TDS:Place("Brawler", -4.007822036743164, 243, 164.43357849121094)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Place("Brawler", 3.577979326248169, 243, 158.59278869628906)
+TDS:Upgrade(5)
+
+-- [ Wave 5 ] --
+TDS:Place("Brawler", -3.7204670906066895, 243, 158.96499633789062)
+TDS:Upgrade(6)
+
+-- [ Wave 6 ] --
+TDS:Place("Brawler", 2.9604337215423584, 243, 164.869140625)
+TDS:Upgrade(7)
+TDS:Place("Brawler", -2.7049543857574463, 243, 166.5432586669922)
+TDS:Upgrade(8)
+
+-- [ Wave 7 ] --
+TDS:Place("Brawler", -2.7299089431762695, 243, 162.84344482421875)
+TDS:Upgrade(9)
+TDS:Place("Brawler", 2.5325546264648438, 243, 166.83197021484375)
+TDS:Upgrade(10)
+
+-- [ Wave 8 ] --
+TDS:Place("Minigunner", 2.5325546264648438, 243, 169.37196350097656)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+
+-- [ Wave 12 ] --
+TDS:Place("Minigunner", -2.6962270736694336, 243, 169.30923461914062)
+TDS:Upgrade(12)
+
+-- [[ END OF STRATEGY ]]
