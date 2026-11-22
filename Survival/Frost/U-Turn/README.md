@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 6 recorded strategies available for this map**
+**📦 7 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -25,6 +25,7 @@ Select a strategy below and open its config file.
 | 4 | 2026-11-07 23:46 UTC | Frost | — | Engineer, Time Dilator, EvolvedOperator, Elf Camp, EvolvedKingpin | [Open](4-2026-11-07-23-46-24.txt) |
 | 5 | 2026-11-07 23:47 UTC | Frost | — | Engineer, Time Dilator, EvolvedOperator, Elf Camp, EvolvedKingpin | [Open](5-2026-11-07-23-47-38.txt) |
 | 6 | 2026-11-16 14:33 UTC | Frost | — | Engineer, EvolvedKingpin, EvolvedJuggernaut, DJ Booth, Commander | [Open](6-2026-11-16-14-33-36.txt) |
+| 7 | 2026-11-22 00:36 UTC | Frost | — | EvolvedJuggernaut, Golden Pyromancer, EvolvedKingpin, DJ Booth, Cowboy | [Open](7-2026-11-22-00-36-56.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
