@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Abandoned City | 1 | [Open](Abandoned%20City/README.md) |
+| Crossroads | 2 | [Open](Crossroads/README.md) |
 
 | Unknown | 35 | [Open](Unknown/README.md) |
 | Simplicity | 24 | [Open](Simplicity/README.md) |
@@ -38,10 +38,10 @@ Choose one of the categories below to continue.
 | The Heavens | 2 | [Open](The%20Heavens/README.md) |
 | Toyboard | 2 | [Open](Toyboard/README.md) |
 | Wrecked Battlefield | 2 | [Open](Wrecked%20Battlefield/README.md) |
+| Abandoned City | 1 | [Open](Abandoned%20City/README.md) |
 | Abyssal Trench | 1 | [Open](Abyssal%20Trench/README.md) |
 | Construction Crazy | 1 | [Open](Construction%20Crazy/README.md) |
 | Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
-| Crossroads | 1 | [Open](Crossroads/README.md) |
 | Farm Lands | 1 | [Open](Farm%20Lands/README.md) |
 | Meltdown | 1 | [Open](Meltdown/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
