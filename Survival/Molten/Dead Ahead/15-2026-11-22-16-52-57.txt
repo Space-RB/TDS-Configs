@@ -1,0 +1,186 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {gui_hidden = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Soldier", "Commander", "Gatling Gun", "DJ Booth", "Golden Crook Boss")
+TDS:Mode("Molten")
+TDS:GameInfo("Dead Ahead", {"Committed", "ExplodingEnemies", "FlyingEnemies", "Glass", "HiddenEnemies", "Limitation"})
+TDS:Ready()
+TDS:Place("Soldier", 0.15499621629714966, 1.020002007484436, -22.855249404907227)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", 0.15499621629714966, 1.0200011730194092, -19.815250396728516)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+TDS:Place("Soldier", 3.1711764335632324, 1.000003695487976, -22.475439071655273)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+TDS:Place("Soldier", 3.1711764335632324, 1.0000032186508179, -19.435440063476562)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Soldier", -5.000903129577637, 1.000003695487976, -22.643407821655273)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Place("Soldier", -8.029014587402344, 1.000003695487976, -22.37481689453125)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("DJ Booth", 0.36246609687805176, 1.0200001001358032, -15.796196937561035)
+
+-- [ Wave 11 ] --
+TDS:Place("Gatling Gun", 4.870948791503906, 1.0000026226043701, -16.330223083496094)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(8)
+TDS:Place("Commander", -5.000903129577637, 1.0000032186508179, -19.603408813476562)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Commander", -5.000903129577637, 1.0000027418136597, -16.56340789794922)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Commander", -5.186089515686035, 1.000002145767212, -13.552624702453613)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 30 ] --
+TDS:Place("Crook Boss", -8.029014587402344, 1.0000030994415283, -19.33481788635254)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(5)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Place("Crook Boss", -8.029014587402344, 1.0000026226043701, -16.294818878173828)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(13)
+TDS:Place("Crook Boss", 6.206233501434326, 1.0000032186508179, -19.60873031616211)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(14)
+TDS:Place("Crook Boss", 6.206233024597168, 1.000003695487976, -22.64872932434082)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(11)
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Place("Soldier", -5.000903129577637, 1.0000041723251343, -25.683406829833984)
+TDS:Place("Soldier", 0.29307568073272705, 1.0200029611587524, -25.861188888549805)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 34 ] --
+TDS:Place("Soldier", -8.029014587402344, 1.0000041723251343, -25.41481590270996)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Soldier", 3.580561637878418, 1.0000041723251343, -25.487747192382812)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Soldier", 6.615618705749512, 1.0000041723251343, -25.66103744506836)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Crook Boss", -8.212004661560059, 1.000002145767212, -13.260331153869629)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Place("Soldier", -10.661731719970703, 1.0000038146972656, -23.894817352294922)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Place("Soldier", -10.661731719970703, 1.0000033378601074, -20.85481834411621)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+
+-- [[ END OF STRATEGY ]]
