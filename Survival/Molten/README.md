@@ -16,10 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Dead Ahead | 15 | [Open](Dead%20Ahead/README.md) |
+| Gilded Path | 1 | [Open](Gilded%20Path/README.md) |
 
 | Unknown | 35 | [Open](Unknown/README.md) |
 | Simplicity | 24 | [Open](Simplicity/README.md) |
+| Dead Ahead | 15 | [Open](Dead%20Ahead/README.md) |
 | Black Spot Exchange | 12 | [Open](Black%20Spot%20Exchange/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
 | Cataclysm | 7 | [Open](Cataclysm/README.md) |
