@@ -1,0 +1,132 @@
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedOperator", "EvolvedEnforcer", "EvolvedKingpin", "EvolvedJuggernaut", "Hacker")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {})
+TDS:Place("EvolvedOperator", -16.624120712280273, 0.9999895095825195, -8.849071502685547)
+TDS:Upgrade(1)
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Place("EvolvedOperator", -14.084120750427246, 0.9999876022338867, -8.849071502685547)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("EvolvedOperator", -16.773387908935547, 0.9999922513961792, -11.384681701660156)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Place("EvolvedOperator", -14.23338794708252, 0.9999913573265076, -11.384681701660156)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:Place("EvolvedOperator", -16.98394775390625, 0.9999951124191284, -13.915939331054688)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(5)
+TDS:Place("EvolvedOperator", -14.443947792053223, 0.999995231628418, -13.915939331054688)
+TDS:Upgrade(6)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Place("EvolvedEnforcer", -12.09555721282959, 1.0000005960464478, -3.5888423919677734)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Place("EvolvedEnforcer", -10.055557250976562, 1.0000005960464478, -3.5888423919677734)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Place("EvolvedEnforcer", -8.015557289123535, 0.9999857544898987, -3.5888423919677734)
+TDS:Upgrade(9)
+
+-- [ Wave 14 ] --
+TDS:Place("Hacker", -11.294120788574219, 0.9999822378158569, -8.849071502685547)
+TDS:Upgrade(10)
+TDS:Place("EvolvedEnforcer", -12.669568061828613, 1.0000003576278687, -1.6152400970458984)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 16 ] --
+TDS:Place("EvolvedEnforcer", -10.629631042480469, 1.0000003576278687, -1.6312828063964844)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("EvolvedKingpin", -5.579983711242676, 0.9999884963035583, -2.931209087371826)
+TDS:SetOption(13, "Unit 1", "Money Runner")
+TDS:Upgrade(13)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(13)
+TDS:SetOption(13, "Unit 2", "Money Runner")
+
+-- [ Wave 18 ] --
+TDS:WaitForWave(18)
+TDS:Sell(13)
+TDS:Place("EvolvedKingpin", -5.5780029296875, 0.9999884963035583, -2.8747494220733643)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:SetOption(14, "Unit 1", "Money Runner")
+TDS:SetOption(14, "Unit 2", "Money Runner")
+TDS:Upgrade(14)
+TDS:Place("EvolvedKingpin", -2.5380029678344727, 0.9999921917915344, -2.8747494220733643)
+
+-- [ Wave 19 ] --
+TDS:SetOption(15, "Unit 1", "Money Runner")
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:SetOption(15, "Unit 2", "Money Runner")
+TDS:VoteSkip(19)
+TDS:Place("EvolvedKingpin", -2.6793899536132812, 0.9999831914901733, 2.221639633178711)
+TDS:Upgrade(16)
+
+-- [ Wave 20 ] --
+TDS:SetOption(16, "Unit 1", "Money Runner")
+TDS:Upgrade(16)
+TDS:SetOption(16, "Unit 2", "Money Runner")
+TDS:Upgrade(16)
+TDS:VoteSkip(20)
+TDS:Place("EvolvedKingpin", 0.3606100082397461, 0.9999831914901733, 2.221639633178711)
+TDS:Upgrade(17)
+TDS:SetOption(17, "Unit 1", "Money Runner")
+
+-- [ Wave 21 ] --
+TDS:Upgrade(17)
+TDS:SetOption(17, "Unit 2", "Money Runner")
+TDS:VoteSkip(21)
+TDS:Upgrade(17)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(10)
+TDS:Place("Hacker", 0.5019969940185547, 0.9999831914901733, -2.8747494220733643)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [[ END OF STRATEGY ]]
