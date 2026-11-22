@@ -1,0 +1,43 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "EvolvedKingpin", "Engineer", "Gladiator", "Assassin")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Outskirts Commune", {})
+TDS:Unequip("Assassin")
+TDS:Equip("Hacker")
+TDS:Place("Hacker", -7.718320846557617, 501.3341979980469, 30.29265594482422)
+TDS:Unequip("Hacker")
+TDS:Equip("EvolvedJuggernaut")
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Gladiator", 18.029338836669922, 501.2703552246094, 23.69428825378418)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Gladiator", 18.029338836669922, 501.26763916015625, 21.65428924560547)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Gladiator", 18.029338836669922, 501.26715087890625, 19.614288330078125)
+
+-- [[ END OF STRATEGY ]]
