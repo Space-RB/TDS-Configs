@@ -16,11 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Grass Isle | 2 | [Open](Grass%20Isle/README.md) |
+| Dead Ahead | 51 | [Open](Dead%20Ahead/README.md) |
 
 | Unknown | 103 | [Open](Unknown/README.md) |
 | Gilded Path | 69 | [Open](Gilded%20Path/README.md) |
-| Dead Ahead | 50 | [Open](Dead%20Ahead/README.md) |
 | Black Spot Exchange | 5 | [Open](Black%20Spot%20Exchange/README.md) |
 | Lay By | 5 | [Open](Lay%20By/README.md) |
 | Coral Deep | 3 | [Open](Coral%20Deep/README.md) |
@@ -31,6 +30,7 @@ Choose one of the categories below to continue.
 | Crossroads | 2 | [Open](Crossroads/README.md) |
 | Forest Camp | 2 | [Open](Forest%20Camp/README.md) |
 | Four Seasons | 2 | [Open](Four%20Seasons/README.md) |
+| Grass Isle | 2 | [Open](Grass%20Isle/README.md) |
 | Night Station | 2 | [Open](Night%20Station/README.md) |
 | Winter Stronghold | 2 | [Open](Winter%20Stronghold/README.md) |
 | Construction Crazy | 1 | [Open](Construction%20Crazy/README.md) |
