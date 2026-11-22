@@ -1,0 +1,137 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Scout", "Sniper", "Demoman", "Soldier", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Dead Ahead", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Soldier", 1.453656792640686, 1.000002145767212, -12.945515632629395)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", 1.3501458168029785, 0.9499914050102234, -9.827778816223145)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Demoman", -5.1746344566345215, 1.0000040531158447, -24.782468795776367)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Place("Demoman", 1.5856456756591797, 1.000004529953003, -27.81045913696289)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Place("Soldier", 1.4268512725830078, 1.0000038146972656, -23.159645080566406)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Place("Soldier", 1.614814281463623, 1.0000027418136597, -16.490415573120117)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Soldier", -5.670986652374268, 1.0000025033950806, -15.106588363647461)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Soldier", -6.1684699058532715, 1.0000019073486328, -11.633538246154785)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Soldier", -8.741408348083496, 1.0000022649765015, -13.726146697998047)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Soldier", -7.0534563064575195, 1.0000014305114746, -8.604968070983887)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Soldier", -9.45159912109375, 1.0000016689300537, -10.6461820602417)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Soldier", -6.886985778808594, 1.0000008344650269, -5.256241798400879)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Soldier", 4.674046039581299, 0.9499602913856506, -13.058199882507324)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 19 ] --
+TDS:Place("Soldier", 5.051619529724121, 1.0000027418136597, -16.71364402770996)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 20 ] --
+TDS:Place("Soldier", 7.913145065307617, 1.0000019073486328, -11.963737487792969)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Soldier", 8.529104232788086, 1.0000025033950806, -15.569336891174316)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Soldier", -8.410603523254395, 1.0000027418136597, -16.86294937133789)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Soldier", 0.7425985336303711, 0.9999910593032837, -3.6871166229248047)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Soldier", -10.87478256225586, 1.000001311302185, -7.881526947021484)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Soldier", -5.528316497802734, 1.0000003576278687, -2.186666488647461)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Soldier", 3.8047657012939453, 0.9999918937683105, -1.6979026794433594)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(18)
+TDS:Upgrade(20)
+
+-- [[ END OF STRATEGY ]]
