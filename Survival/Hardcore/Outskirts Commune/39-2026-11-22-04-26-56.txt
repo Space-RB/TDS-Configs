@@ -1,0 +1,216 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "EvolvedKingpin", "Engineer", "Gladiator", "Hacker")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Outskirts Commune", {})
+TDS:Place("Hacker", -7.51502799987793, 501.33599853515625, 30.547813415527344)
+TDS:Unequip("Hacker")
+TDS:Equip("EvolvedJuggernaut")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Gladiator", 18.042146682739258, 501.270263671875, 23.631484985351562)
+
+-- [ Wave 2 ] --
+TDS:Place("Gladiator", 18.042146682739258, 501.2675476074219, 21.59148406982422)
+
+-- [ Wave 4 ] --
+TDS:Place("Gladiator", 18.042146682739258, 501.2671813964844, 19.551483154296875)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Place("Gladiator", 16.002147674560547, 501.2984313964844, 23.631484985351562)
+TDS:Place("Gladiator", 16.002147674560547, 501.29095458984375, 21.59148597717285)
+
+-- [ Wave 11 ] --
+TDS:Place("Gladiator", 16.00214385986328, 501.2720031738281, 19.55148696899414)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:VoteSkip(13)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 17 ] --
+TDS:Place("Gatling Gun", 2.7977116107940674, 505.09814453125, 7.751189231872559)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(8)
+TDS:VoteSkip(19)
+TDS:Upgrade(3)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 23 ] --
+TDS:Place("Engineer", 9.858654975891113, 501.653564453125, 5.8691325187683105)
+TDS:Place("Engineer", 9.858654975891113, 501.4859313964844, 8.90913200378418)
+TDS:Place("Engineer", 6.842774868011475, 501.627685546875, 8.780664443969727)
+TDS:Place("Engineer", 9.858654975891113, 501.3182678222656, 11.949131965637207)
+TDS:Place("Engineer", 6.842774868011475, 501.50689697265625, 11.820664405822754)
+TDS:Place("Engineer", 3.8520612716674805, 501.5914306640625, 12.065228462219238)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(14)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Ability(5, "War Cry")
+TDS:Ability(6, "War Cry")
+TDS:Ability(7, "War Cry")
+TDS:Ability(3, "War Cry")
+TDS:Ability(2, "War Cry")
+TDS:Ability(4, "War Cry")
+
+-- [ Wave 29 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(13)
+TDS:Upgrade(11)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:VoteSkip(31)
+
+-- [ Wave 32 ] --
+TDS:Ability(7, "War Cry")
+TDS:Ability(6, "War Cry")
+TDS:Ability(4, "War Cry")
+TDS:Ability(5, "War Cry")
+TDS:Ability(3, "War Cry")
+TDS:Ability(2, "War Cry", true)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 33 ] --
+TDS:Ability(7, "War Cry")
+TDS:Ability(6, "War Cry")
+TDS:Ability(5, "War Cry")
+TDS:Ability(4, "War Cry")
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 34 ] --
+TDS:Place("EvolvedKingpin", 9.858654975891113, 501.274169921875, 14.989131927490234)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15, 2)
+TDS:SetOption(15, "Unit 1", "Bouncer")
+TDS:SetOption(15, "Unit 2", "Bouncer")
+TDS:SetOption(15, "Unit 3", "Bouncer")
+
+-- [ Wave 35 ] --
+TDS:Place("EvolvedKingpin", 6.842774868011475, 501.1797790527344, 14.860664367675781)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16, 2)
+TDS:SetOption(16, "Unit 1", "Bouncer")
+TDS:SetOption(16, "Unit 3", "Bouncer")
+TDS:SetOption(16, "Unit 2", "Bouncer")
+
+-- [ Wave 36 ] --
+TDS:Place("EvolvedKingpin", 3.8520612716674805, 501.2792053222656, 15.105228424072266)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17, 2)
+TDS:SetOption(17, "Unit 1", "Bouncer")
+TDS:SetOption(17, "Unit 2", "Bouncer")
+TDS:SetOption(17, "Unit 3", "Bouncer")
+TDS:Ability(7, "War Cry", true)
+TDS:Ability(6, "War Cry", true)
+TDS:Ability(5, "War Cry", true)
+TDS:Ability(4, "War Cry", true)
+TDS:Ability(3, "War Cry", true)
+TDS:Place("EvolvedKingpin", 1.226790189743042, 501.5469970703125, 13.598052978515625)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18, 2)
+TDS:SetOption(18, "Unit 1", "Bouncer")
+TDS:SetOption(18, "Unit 2", "Bouncer")
+TDS:SetOption(18, "Unit 3", "Bouncer")
+
+-- [ Wave 37 ] --
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]
