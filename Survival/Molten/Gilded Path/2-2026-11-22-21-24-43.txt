@@ -1,0 +1,38 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedKingpin", "Engineer", "Frost Blaster", "Golden Pyromancer", "Farm")
+TDS:Mode("Molten")
+TDS:GameInfo("Gilded Path", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", 5.926368713378906, 0.9544734954833984, -28.910266876220703)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Frost Blaster", 6.55120849609375, 0.9505282044410706, -25.93517303466797)
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Engineer", -2.0526928901672363, 0.9750038385391235, 22.361703872680664)
+TDS:Place("Farm", -21.45965003967285, 2.6334798336029053, 38.026004791259766)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Place("Engineer", -4.995676040649414, 0.9802688360214233, 23.12357521057129)
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Place("Frost Blaster", 8.815296173095703, 0.9679301977157593, -27.96384620666504)
+
+-- [[ END OF STRATEGY ]]
