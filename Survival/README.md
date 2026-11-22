@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Molten | 164 | [Open](Molten/README.md) |
+| Molten | 165 | [Open](Molten/README.md) |
 
 | Hardcore | 789 | [Open](Hardcore/README.md) |
 | Frost | 334 | [Open](Frost/README.md) |
