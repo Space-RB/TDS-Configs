@@ -1,0 +1,24 @@
+_G.AntiLag = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Engineer", "Gatling Gun", "EvolvedKingpin", "DJ Booth", "Assassin")
+TDS:Mode("Badlands")
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 3.680004358291626, 1.0000022649765015, 4.5951337814331055)
+
+-- [[ END OF STRATEGY ]]
