@@ -1,0 +1,66 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Farm", "Engineer", "Accelerator", "EvolvedKingpin", "EvolvedJuggernaut")
+TDS:Mode("Fallen")
+TDS:GameInfo("Candy Valley", {})
+TDS:Ready()
+TDS:Place("Engineer", -6.315884590148926, 0.6269841194152832, -3.2768917083740234)
+
+-- [ Wave 2 ] --
+TDS:Place("Engineer", -6.7397685050964355, 0.6263337135314941, 0.21700668334960938)
+
+-- [ Wave 3 ] --
+TDS:Place("Engineer", -10.182361602783203, 0.62699294090271, -3.010204315185547)
+TDS:Place("Engineer", -10.520767211914062, 0.6263337135314941, 0.4849815368652344)
+
+-- [ Wave 4 ] --
+TDS:Place("Engineer", -14.019745826721191, 0.6263337135314941, 0.6617202758789062)
+TDS:Place("Engineer", -13.60743522644043, 0.6270031929016113, -2.7023792266845703)
+
+-- [ Wave 5 ] --
+TDS:Place("Farm", 22.38953399658203, 0.6266465187072754, -19.92807960510254)
+TDS:Place("Farm", 22.755348205566406, 0.6267421245574951, -15.97978401184082)
+TDS:Place("Farm", 22.242847442626953, 0.6268448829650879, -11.726676940917969)
+TDS:Place("Farm", 18.370128631591797, 0.6268389225006104, -11.970298767089844)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", 18.343971252441406, 0.6267476081848145, -15.745258331298828)
+TDS:Place("Farm", 18.28227424621582, 0.6266520023345947, -19.695541381835938)
+TDS:Place("Farm", 13.894367218017578, 0.6268360614776611, -12.095390319824219)
+TDS:Place("Farm", 14.231645584106445, 0.626734733581543, -16.27971649169922)
+
+-- [ Wave 7 ] --
+TDS:Place("Farm", 24.254188537597656, 0.6265511512756348, -23.86227798461914)
+TDS:Place("Farm", 26.499032974243164, 0.6269750595092773, -12.800003051757812)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(7)
+TDS:Upgrade(16)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [[ END OF STRATEGY ]]
