@@ -1,0 +1,161 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.AutoGatlingSettings = {beta_dps = true, gui_hidden = true, rainbow_bullet_lines = true, rainbow_esp = true, show_bullet_lines = true, target_esp = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Hacker", "DJ Booth", "Engineer", "Gatling Gun", "Tesla")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {})
+TDS:Place("Engineer", -2.1335058212280273, 0.9999831914901733, -3.301363945007324, true)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1, true)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1, true)
+
+-- [ Wave 5 ] --
+TDS:Place("Engineer", -2.0833144187927246, 0.9999930262565613, -3.596085548400879, true)
+TDS:Upgrade(2, true)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2, true)
+TDS:Place("Engineer", -1.8819494247436523, 0.9999831914901733, -3.515190601348877, true)
+TDS:Upgrade(3, true)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3, true)
+TDS:Place("Engineer", -2.2330002784729004, 0.999992847442627, -3.5870118141174316, true)
+TDS:Upgrade(4, true)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1, true)
+
+-- [ Wave 11 ] --
+TDS:Place("Gatling Gun", 15.780399322509766, 0.9999632835388184, 0.19356155395507812, true)
+
+-- [ Wave 12 ] --
+TDS:Place("DJ Booth", 4.51071310043335, 0.9999866485595703, 3.341866970062256, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(6, true)
+TDS:SetOption(6, "Track", "Green")
+
+-- [ Wave 13 ] --
+TDS:Upgrade(6, true)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6, true)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(5, true)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(5, true)
+
+-- [ Wave 19 ] --
+TDS:Place("Tesla", 2.5361509323120117, 0.9999926686286926, -3.5862956047058105, true)
+TDS:Place("Tesla", 2.5361506938934326, 0.9999926686286926, -3.5862960815429688, true)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(7, true)
+TDS:Upgrade(8, true)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(7, true)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(8, true)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(5, true)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(5, true)
+TDS:Upgrade(6, true)
+
+-- [ Wave 26 ] --
+TDS:Place("Hacker", -9.406527519226074, 0.9999831914901733, 1.5539460182189941)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 28 ] --
+TDS:Place("Hacker", 12.372157096862793, 0.9999789595603943, -2.5669918060302734)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(7, true)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(8, true)
+TDS:Upgrade(8, true)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(7, true)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(5, true)
+TDS:Upgrade(5, true)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(10, 2)
+TDS:Place("Engineer", -1.9463558197021484, 0.9999831914901733, -3.7218198776245117, true)
+TDS:Place("Engineer", -3.5270893573760986, 2.623870849609375, -3.1255736351013184, true)
+TDS:Upgrade(1, true)
+TDS:Upgrade(2, true)
+TDS:Upgrade(3, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(12, true)
+TDS:Upgrade(1, true)
+TDS:Upgrade(2, true)
+TDS:Upgrade(3, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(12, true)
+TDS:Upgrade(1, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(12, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(2, true)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(2, true)
+TDS:Upgrade(3, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(11, true)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(3, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(12, true)
+TDS:Upgrade(12, true)
+TDS:Upgrade(12, true)
+
+-- [ Wave 39 ] --
+TDS:Ability(9, "Hologram Tower")
+TDS:SetOption(6, "Track", "Red")
+
+-- [[ END OF STRATEGY ]]
