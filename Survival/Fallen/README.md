@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Candy Valley | 2 | [Open](Candy%20Valley/README.md) |
+| Candy Valley | 3 | [Open](Candy%20Valley/README.md) |
 
 | Unknown | 86 | [Open](Unknown/README.md) |
 | Simplicity | 84 | [Open](Simplicity/README.md) |
