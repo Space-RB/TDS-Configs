@@ -16,10 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Gilded Path | 3 | [Open](Gilded%20Path/README.md) |
+| Simplicity | 25 | [Open](Simplicity/README.md) |
 
 | Unknown | 35 | [Open](Unknown/README.md) |
-| Simplicity | 24 | [Open](Simplicity/README.md) |
 | Dead Ahead | 15 | [Open](Dead%20Ahead/README.md) |
 | Black Spot Exchange | 12 | [Open](Black%20Spot%20Exchange/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
@@ -29,6 +28,7 @@ Choose one of the categories below to continue.
 | Lay By | 4 | [Open](Lay%20By/README.md) |
 | Winter Abyss | 4 | [Open](Winter%20Abyss/README.md) |
 | Forest Camp | 3 | [Open](Forest%20Camp/README.md) |
+| Gilded Path | 3 | [Open](Gilded%20Path/README.md) |
 | Retro Lighthouse | 3 | [Open](Retro%20Lighthouse/README.md) |
 | Chess Board | 2 | [Open](Chess%20Board/README.md) |
 | Crossroads | 2 | [Open](Crossroads/README.md) |
