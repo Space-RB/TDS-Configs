@@ -16,12 +16,13 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Gilded Path | 4 | [Open](Gilded%20Path/README.md) |
+| Mason Arch | 1 | [Open](Mason%20Arch/README.md) |
 
 | Unknown | 16 | [Open](Unknown/README.md) |
 | Dead Ahead | 11 | [Open](Dead%20Ahead/README.md) |
 | Lay By | 8 | [Open](Lay%20By/README.md) |
 | Black Spot Exchange | 6 | [Open](Black%20Spot%20Exchange/README.md) |
+| Gilded Path | 4 | [Open](Gilded%20Path/README.md) |
 | Crossroads | 3 | [Open](Crossroads/README.md) |
 | Retro Crossroads | 3 | [Open](Retro%20Crossroads/README.md) |
 | Infernal Abyss | 2 | [Open](Infernal%20Abyss/README.md) |
