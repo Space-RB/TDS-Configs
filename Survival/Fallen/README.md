@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Crossroads | 2 | [Open](Crossroads/README.md) |
+| Space City | 2 | [Open](Space%20City/README.md) |
 
 | Unknown | 86 | [Open](Unknown/README.md) |
 | Simplicity | 84 | [Open](Simplicity/README.md) |
@@ -33,6 +33,7 @@ Choose one of the categories below to continue.
 | Wrecked Battlefield | 3 | [Open](Wrecked%20Battlefield/README.md) |
 | Abyssal Trench | 2 | [Open](Abyssal%20Trench/README.md) |
 | Coral Deep | 2 | [Open](Coral%20Deep/README.md) |
+| Crossroads | 2 | [Open](Crossroads/README.md) |
 | Farm Lands | 2 | [Open](Farm%20Lands/README.md) |
 | Northern Lights | 2 | [Open](Northern%20Lights/README.md) |
 | Sky Islands | 2 | [Open](Sky%20Islands/README.md) |
@@ -44,7 +45,6 @@ Choose one of the categories below to continue.
 | Lighthaos | 1 | [Open](Lighthaos/README.md) |
 | Night Station | 1 | [Open](Night%20Station/README.md) |
 | Portland | 1 | [Open](Portland/README.md) |
-| Space City | 1 | [Open](Space%20City/README.md) |
 | The Heights | 1 | [Open](The%20Heights/README.md) |
 </div>
 
