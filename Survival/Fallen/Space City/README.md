@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 2 recorded strategies available for this map**
+**📦 3 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -21,6 +21,7 @@ Select a strategy below and open its config file.
 | 1 | 2026-11-20 23:09 UTC | Fallen | — | Pyromancer, Cowboy, DJ Booth, EvolvedKingpin, Crook Boss | [Open](1-2026-11-20-23-09-42.txt) |
 
 | 2 | 2026-11-23 02:58 UTC | Fallen | — | Gatling Gun, DJ Booth, Trapper, Necromancer, Golden Crook Boss | [Open](2-2026-11-23-02-58-02.txt) |
+| 3 | 2026-11-23 04:13 UTC | Fallen | — | Golden Demoman, Golden Crook Boss, Trapper, Gatling Gun, DJ Booth | [Open](3-2026-11-23-04-13-47.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
