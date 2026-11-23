@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Space City | 2 | [Open](Space%20City/README.md) |
+| Space City | 3 | [Open](Space%20City/README.md) |
 
 | Unknown | 86 | [Open](Unknown/README.md) |
 | Simplicity | 84 | [Open](Simplicity/README.md) |
