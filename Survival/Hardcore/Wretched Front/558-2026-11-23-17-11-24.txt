@@ -1,0 +1,29 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedEnforcer", "None", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 5 ] --
+TDS:Place("EvolvedEnforcer", 1.0985865592956543, 1.4515565633773804, 32.826698303222656)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Place("EvolvedEnforcer", 0.919865608215332, 1.4478434324264526, 30.755884170532227)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+
+-- [[ END OF STRATEGY ]]
