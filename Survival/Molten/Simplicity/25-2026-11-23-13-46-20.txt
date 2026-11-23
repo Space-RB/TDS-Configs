@@ -1,0 +1,46 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("DJ Booth", "Star Cannon", "Hacker", "Engineer", "Brawler")
+TDS:Mode("Molten")
+TDS:GameInfo("Simplicity", {"ExplodingEnemies", "Glass", "HiddenEnemies"})
+TDS:Ready()
+TDS:Place("Brawler", -18.506927490234375, 0.9999834895133972, -6.353018760681152)
+TDS:Place("Brawler", -23.731138229370117, 1.0000011920928955, -6.576998710632324)
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", -18.17259407043457, 1.0000007152557373, -4.340601921081543)
+
+-- [ Wave 2 ] --
+TDS:Place("Brawler", -18.17259407043457, 1.0000004768371582, -2.3006019592285156)
+TDS:Place("Brawler", -23.731138229370117, 1.0000008344650269, -4.536998748779297)
+
+-- [ Wave 4 ] --
+TDS:Place("Brawler", -23.731138229370117, 1.0000004768371582, -2.4969987869262695)
+TDS:Place("Brawler", -23.731138229370117, 1.0000001192092896, -0.4569988250732422)
+TDS:Place("Brawler", -25.81714630126953, 1.0000015497207642, -8.867579460144043)
+
+-- [ Wave 5 ] --
+TDS:Place("Brawler", -25.81714630126953, 1.0000011920928955, -6.827579498291016)
+TDS:Place("Brawler", -25.81714630126953, 1.0000017881393433, -10.90757942199707)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+TDS:Place("Brawler", -18.204448699951172, 1.0000003576278687, -1.8522920608520508)
+TDS:Upgrade(11)
+TDS:Place("Brawler", -18.59229850769043, 1.0000007152557373, -3.8241586685180664)
+TDS:Upgrade(12)
+TDS:Place("Brawler", -18.59229850769043, 0.9999834895133972, -5.864158630371094)
+TDS:Upgrade(13)
+
+-- [[ END OF STRATEGY ]]
