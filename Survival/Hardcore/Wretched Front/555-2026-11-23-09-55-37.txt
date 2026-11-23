@@ -1,0 +1,93 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Farm", "EvolvedJuggernaut", "Shotgunner", "Boomerang", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", -26.761388778686523, -0.6522170305252075, -12.66231632232666)
+TDS:Place("Farm", -26.646236419677734, -0.7839791774749756, -8.878131866455078)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", -22.205093383789062, -0.17561817169189453, -13.250041961669922)
+TDS:Place("Farm", -22.45990562438965, -0.3895765542984009, -9.71922492980957)
+TDS:Place("Farm", -25.291536331176758, -0.7348415851593018, -5.607598304748535)
+TDS:Upgrade(5)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Boomerang", 3.8683509826660156, 1.1102644205093384, 18.968767166137695)
+TDS:Upgrade(6)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Place("Boomerang", -4.475872993469238, 0.9621096253395081, -31.471860885620117)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Place("Shotgunner", -13.934162139892578, -0.5368713140487671, 1.0213556289672852)
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Place("Shotgunner", -1.500840187072754, 1.4697165489196777, 30.418664932250977)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 14 ] --
+TDS:Place("Shotgunner", -16.744674682617188, -0.5076300501823425, -4.962100505828857)
+TDS:Upgrade(10)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 19 ] --
+TDS:Place("EvolvedJuggernaut", -7.073334693908691, -0.2034003883600235, -7.442498207092285)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(11)
+
+-- [[ END OF STRATEGY ]]
