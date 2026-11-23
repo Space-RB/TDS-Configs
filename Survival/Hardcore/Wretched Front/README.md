@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 552 recorded strategies available for this map**
+**📦 553 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -571,6 +571,7 @@ Select a strategy below and open its config file.
 | 550 | 2026-11-22 16:07 UTC | Hardcore | — | Pyromancer, Boomerang, Engineer, EvolvedJuggernaut, Farm | [Open](550-2026-11-22-16-07-33.txt) |
 | 551 | 2026-11-22 17:55 UTC | Hardcore | — | Electroshocker, EvolvedJuggernaut, None | [Open](551-2026-11-22-17-55-02.txt) |
 | 552 | 2026-11-22 22:29 UTC | Hardcore | — | Gatling Gun, Farm, Turret, EvolvedJuggernaut, Golden Minigunner | [Open](552-2026-11-22-22-29-37.txt) |
+| 553 | 2026-11-23 01:28 UTC | Hardcore | — | Farm, Golden Crook Boss, EvolvedKingpin, Boomerang, Gatling Gun | [Open](553-2026-11-23-01-28-13.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
