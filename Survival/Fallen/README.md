@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Candy Valley | 3 | [Open](Candy%20Valley/README.md) |
+| Crossroads | 2 | [Open](Crossroads/README.md) |
 
 | Unknown | 86 | [Open](Unknown/README.md) |
 | Simplicity | 84 | [Open](Simplicity/README.md) |
@@ -26,6 +26,7 @@ Choose one of the categories below to continue.
 | Dusty Bridges | 6 | [Open](Dusty%20Bridges/README.md) |
 | Winter Abyss | 5 | [Open](Winter%20Abyss/README.md) |
 | Winter Stronghold | 5 | [Open](Winter%20Stronghold/README.md) |
+| Candy Valley | 3 | [Open](Candy%20Valley/README.md) |
 | Retro Crossroads | 3 | [Open](Retro%20Crossroads/README.md) |
 | Summer Castle | 3 | [Open](Summer%20Castle/README.md) |
 | Toyboard | 3 | [Open](Toyboard/README.md) |
@@ -35,7 +36,6 @@ Choose one of the categories below to continue.
 | Farm Lands | 2 | [Open](Farm%20Lands/README.md) |
 | Northern Lights | 2 | [Open](Northern%20Lights/README.md) |
 | Sky Islands | 2 | [Open](Sky%20Islands/README.md) |
-| Crossroads | 1 | [Open](Crossroads/README.md) |
 | Crystal Cave | 1 | [Open](Crystal%20Cave/README.md) |
 | Gilded Path | 1 | [Open](Gilded%20Path/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
