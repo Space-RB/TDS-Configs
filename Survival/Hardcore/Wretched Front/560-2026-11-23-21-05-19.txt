@@ -1,0 +1,254 @@
+_G.AutoGatling = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoGatlingSettings = {beta_dps = true, gui_hidden = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Tesla", "Hacker", "Farm", "Golden Pyromancer")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Place("Pyromancer", -2.562893867492676, 0.9989875555038452, -33.825782775878906)
+TDS:Upgrade(1)
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:VoteSkip(3)
+TDS:Place("Farm", -10.434903144836426, 1.5417964458465576, 24.404695510864258)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:VoteSkip(4)
+TDS:Upgrade(2)
+TDS:Place("Farm", -10.435240745544434, 1.536236047744751, 27.944671630859375)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:VoteSkip(5)
+TDS:Upgrade(3)
+TDS:Place("Farm", -10.435595512390137, 1.4817426204681396, 31.48467254638672)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:SetTarget(1, "Random")
+TDS:SetTarget(1, "Farthest")
+TDS:Upgrade(4)
+TDS:Place("Farm", -10.435948371887207, 1.4034953117370605, 35.02467346191406)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(5)
+TDS:Place("Farm", -10.436279296875, 1.3159066438674927, 38.56464385986328)
+TDS:Upgrade(6)
+TDS:VoteSkip(7)
+TDS:Upgrade(6)
+TDS:Place("Farm", -13.91272258758545, 1.5644198656082153, 24.8389892578125)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:VoteSkip(8)
+
+-- [ Wave 9 ] --
+TDS:VoteSkip(9)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", 6.5992431640625, 2.797966480255127, -1.1227426528930664)
+TDS:Place("Farm", -13.70612907409668, 1.560215950012207, 29.29937171936035)
+TDS:Upgrade(9)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(9)
+TDS:Place("Farm", -13.706483840942383, 1.4892091751098633, 32.83937072753906)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Farm", -13.70683479309082, 1.3144707679748535, 36.379371643066406)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Farm", -13.707152366638184, 1.2141716480255127, 39.9193115234375)
+TDS:Upgrade(12)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:VoteSkip(15)
+TDS:Upgrade(8)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 20 ] --
+TDS:Place("Hacker", -2.765974521636963, 0.8280848860740662, -23.98860740661621)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:VoteSkip(20)
+TDS:Upgrade(3)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(3)
+TDS:Place("Tesla", -2.082974433898926, 0.10418566316366196, -4.242380142211914, true)
+
+-- [ Wave 22 ] --
+TDS:Place("Tesla", -2.1050939559936523, 0.10068071633577347, -3.9945762157440186, true)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(4)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(1)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(13, 2)
+TDS:Upgrade(14, true)
+TDS:Upgrade(14, true)
+TDS:Upgrade(15, true)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(15, true)
+TDS:Upgrade(8)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(8)
+TDS:VoteSkip(32)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(14, true)
+TDS:Upgrade(15, true)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(14, true)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(15, true)
+TDS:Place("Hacker", 0.014642953872680664, 0.26801782846450806, 10.653644561767578)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16, 2)
+TDS:Place("Pyromancer", -0.39028000831604004, 0.15110540390014648, -9.53515338897705)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(17)
+TDS:Place("Pyromancer", 5.054018020629883, 1.4020814895629883, 27.717622756958008)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Pyromancer", 6.3947248458862305, 0.18042360246181488, 6.36751127243042)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [ Wave 38 ] --
+TDS:Place("Pyromancer", -6.093811988830566, -0.2374076247215271, -3.4451470375061035)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Pyromancer", 2.4009628295898438, 0.6483752131462097, -20.606151580810547)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Place("Pyromancer", -7.887112617492676, 0.2897896468639374, -19.23537254333496)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+
+-- [ Wave 44 ] --
+TDS:Ability(13, "Hologram Tower", {towerPosition = Vector3.new(10.547050476074219, 3.367094039916992, 0.5760571956634521), towerToClone = 8})
+
+-- [ Wave 45 ] --
+TDS:Ability(13, "Hologram Tower", {towerPosition = Vector3.new(11.120782852172852, 3.396604061126709, 0.38555121421813965), towerToClone = 8}, true)
+TDS:Place("Pyromancer", -4.319228172302246, 1.0142152309417725, -45.90326690673828)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Place("Pyromancer", 2.380610466003418, 1.2887277603149414, -43.86809539794922)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:WaitForWave(45)
+TDS:Sell(13)
+TDS:Place("Hacker", -7.076292991638184, 1.026686429977417, -44.62256622314453)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+
+-- [[ END OF STRATEGY ]]
