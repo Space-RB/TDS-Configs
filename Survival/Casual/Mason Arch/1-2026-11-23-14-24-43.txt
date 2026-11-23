@@ -1,0 +1,62 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Sniper", "Demoman", "Farm", "Freezer", "Soldier")
+TDS:Mode("Casual")
+TDS:GameInfo("Mason Arch", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Soldier", -3.7011184692382812, 1.3999930620193481, 42.52008819580078)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", -17.182010650634766, 1.4149935245513916, 31.085784912109375)
+TDS:Upgrade(1)
+TDS:Place("Soldier", 4.1512932777404785, 1.3999931812286377, 41.75251007080078)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+TDS:Place("Farm", -17.166955947875977, 1.4149935245513916, 35.494468688964844)
+TDS:Place("Farm", -16.90479850769043, 1.4149935245513916, 40.33988952636719)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", -16.629852294921875, 1.4149935245513916, 44.809757232666016)
+TDS:Upgrade(6)
+TDS:Place("Soldier", -3.6892738342285156, 1.399993658065796, 39.08346176147461)
+TDS:Place("Soldier", 3.6511971950531006, 1.399993658065796, 38.75392532348633)
+
+-- [ Wave 5 ] --
+TDS:Place("Soldier", -4.177446365356445, 1.399994134902954, 36.08291244506836)
+TDS:Place("Soldier", 4.0180463790893555, 1.399994134902954, 35.6754035949707)
+TDS:Upgrade(10)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Place("Farm", -17.1702938079834, 1.4149935245513916, 27.371170043945312)
+TDS:Upgrade(11)
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Place("Soldier", -3.1082353591918945, 1.0500080585479736, -44.34194564819336)
+TDS:Upgrade(12)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]
