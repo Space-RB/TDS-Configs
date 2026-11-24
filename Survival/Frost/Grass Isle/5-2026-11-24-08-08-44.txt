@@ -1,0 +1,345 @@
+_G.AutoGatling = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.GUIClickSound = true
+_G.GUIClickSoundVolume = 100
+_G.GUICursorId = "rbxasset://textures/ArrowCursor.png"
+_G.GUICustomCursor = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {beta_dps = true, ignore_lead_mutation = false, max_multi_targets = 3}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Hacker", "Time Dilator", "Firework Technician", "Assassin")
+TDS:Mode("Frost")
+TDS:GameInfo("Grass Isle", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 17.145320892333984, 1.0000027418136597, -16.57682991027832, true)
+TDS:Place("Assassin", 17.373693466186523, 1.0000027418136597, -16.63823127746582, true)
+TDS:Place("Assassin", 18.22050666809082, 2.5177245140075684, -38.265472412109375, true)
+
+-- [ Wave 2 ] --
+TDS:Place("Assassin", 17.225852966308594, 1.0000027418136597, -16.67032241821289, true)
+TDS:Place("Assassin", 17.225852966308594, 1.0000027418136597, -16.67032241821289, true)
+
+-- [ Wave 3 ] --
+TDS:Place("Assassin", 17.225852966308594, 1.0000027418136597, -16.67032241821289, true)
+TDS:Place("Assassin", 17.225852966308594, 1.0000027418136597, -16.67032241821289, true)
+TDS:Place("Assassin", 17.225852966308594, 1.0000027418136597, -16.67032241821289, true)
+
+-- [ Wave 4 ] --
+TDS:Place("Assassin", 17.277923583984375, 1.0000027418136597, -16.609451293945312, true)
+TDS:Place("Assassin", 17.277923583984375, 1.0000027418136597, -16.609451293945312, true)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1, true)
+TDS:Upgrade(2, true)
+TDS:Upgrade(3, true)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1, true)
+TDS:Upgrade(2, true)
+TDS:Upgrade(3, true)
+TDS:Upgrade(4, true)
+
+-- [ Wave 11 ] --
+TDS:Place("Gatling Gun", 5.170024871826172, 5.657224655151367, -21.682954788208008)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 16 ] --
+TDS:Place("Firework Technician", 10.07114315032959, 1.0000028610229492, -17.39495849609375)
+TDS:Upgrade(12)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(1, true)
+TDS:Upgrade(2, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(5, true)
+TDS:Upgrade(6, true)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(3, true)
+TDS:Upgrade(5, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(7, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(5, true)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(6, true)
+TDS:Upgrade(7, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(9, true)
+TDS:Upgrade(10, true)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(7, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(9, true)
+TDS:Upgrade(10, true)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(1, true)
+TDS:Upgrade(2, true)
+TDS:Upgrade(3, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(9, true)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 26 ] --
+TDS:Place("Hacker", 7.041141510009766, 1.0000028610229492, -17.641307830810547)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(4, true)
+TDS:Upgrade(5, true)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(6, true)
+TDS:Upgrade(7, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(9, true)
+TDS:Upgrade(10, true)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(10, true)
+
+-- [ Wave 32 ] --
+TDS:Place("Assassin", 14.65322208404541, 1.0000016689300537, -10.487191200256348, true)
+TDS:Place("Assassin", 14.65322208404541, 1.0000016689300537, -10.487191200256348, true)
+TDS:Place("Assassin", 14.65322208404541, 1.0000016689300537, -10.487191200256348, true)
+TDS:Place("Assassin", 14.65322208404541, 1.0000016689300537, -10.487191200256348, true)
+TDS:Place("Assassin", 14.65322208404541, 1.0000016689300537, -10.487191200256348, true)
+TDS:Place("Assassin", 14.65322208404541, 1.0000016689300537, -10.487191200256348, true)
+TDS:Place("Assassin", 14.65322208404541, 1.0000016689300537, -10.487191200256348, true)
+TDS:Place("Assassin", 14.65322208404541, 1.0000016689300537, -10.487191200256348, true)
+TDS:Place("Assassin", 14.65322208404541, 1.0000016689300537, -10.487191200256348, true)
+TDS:Place("Assassin", 14.65322208404541, 1.0000016689300537, -10.487191200256348, true)
+TDS:Place("Assassin", 14.65322208404541, 1.0000016689300537, -10.487191200256348, true)
+TDS:Place("Assassin", 14.65322208404541, 1.0000016689300537, -10.487191200256348, true)
+TDS:Upgrade(14, true)
+TDS:Upgrade(15, true)
+TDS:Upgrade(16, true)
+TDS:Upgrade(17, true)
+TDS:Upgrade(18, true)
+TDS:Upgrade(19, true)
+TDS:Upgrade(20, true)
+TDS:Upgrade(21, true)
+TDS:Upgrade(22, true)
+TDS:Upgrade(23, true)
+TDS:Upgrade(24, true)
+TDS:Upgrade(25, true)
+TDS:Upgrade(14, true)
+TDS:Upgrade(15, true)
+TDS:Upgrade(16, true)
+TDS:Upgrade(17, true)
+TDS:Upgrade(18, true)
+TDS:Upgrade(19, true)
+TDS:Upgrade(20, true)
+TDS:Upgrade(21, true)
+TDS:Upgrade(22, true)
+TDS:Upgrade(23, true)
+TDS:Upgrade(24, true)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(25, true)
+TDS:Upgrade(13)
+TDS:Upgrade(14, true)
+TDS:Upgrade(15, true)
+TDS:Upgrade(16, true)
+TDS:Upgrade(17, true)
+TDS:Upgrade(18, true)
+TDS:Upgrade(19, true)
+TDS:Upgrade(20, true)
+TDS:Upgrade(21, true)
+TDS:Upgrade(22, true)
+TDS:Upgrade(23, true)
+TDS:Upgrade(24, true)
+TDS:Upgrade(25, true)
+TDS:Upgrade(13)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(14, true)
+TDS:Upgrade(15, true)
+TDS:Upgrade(16, true)
+TDS:Upgrade(17, true)
+TDS:Upgrade(18, true)
+TDS:Upgrade(19, true)
+TDS:Upgrade(20, true)
+TDS:Upgrade(21, true)
+TDS:Upgrade(22, true)
+TDS:Upgrade(23, true)
+TDS:Upgrade(24, true)
+TDS:Upgrade(25, true)
+
+-- [ Wave 36 ] --
+TDS:Place("Time Dilator", -11.059053421020508, 0.9999808669090271, 3.507619857788086)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+
+-- [ Wave 37 ] --
+TDS:Place("Assassin", 16.02166748046875, 0.99998539686203, -22.211957931518555, true)
+TDS:Place("Assassin", 16.02166748046875, 0.99998539686203, -22.211957931518555, true)
+TDS:Place("Assassin", 16.095685958862305, 0.99998539686203, -22.01862335205078, true)
+TDS:Place("Assassin", 16.095685958862305, 0.99998539686203, -22.018627166748047, true)
+TDS:Place("Assassin", 16.095685958862305, 0.99998539686203, -22.018627166748047, true)
+TDS:Place("Assassin", 16.095685958862305, 0.99998539686203, -22.018627166748047, true)
+TDS:Place("Assassin", 16.095685958862305, 0.99998539686203, -22.018625259399414, true)
+TDS:Place("Assassin", 16.095685958862305, 0.99998539686203, -22.018627166748047, true)
+TDS:Place("Assassin", 16.095685958862305, 0.99998539686203, -22.018627166748047, true)
+TDS:Place("Assassin", 16.095685958862305, 0.99998539686203, -22.018627166748047, true)
+TDS:Place("Assassin", 16.095685958862305, 0.99998539686203, -22.018625259399414, true)
+TDS:Place("Assassin", 16.095685958862305, 0.99998539686203, -22.018627166748047, true)
+TDS:Place("Assassin", 16.095685958862305, 0.99998539686203, -22.018627166748047, true)
+TDS:Upgrade(27, true)
+TDS:Upgrade(28, true)
+TDS:Upgrade(29, true)
+TDS:Upgrade(30, true)
+
+-- [ Wave 38 ] --
+TDS:Upgrade(31, true)
+TDS:Upgrade(32, true)
+TDS:Upgrade(33, true)
+TDS:Upgrade(34, true)
+TDS:Upgrade(35, true)
+TDS:Upgrade(36, true)
+TDS:Upgrade(37, true)
+TDS:Upgrade(38, true)
+TDS:Upgrade(39, true)
+TDS:Upgrade(27, true)
+TDS:Upgrade(28, true)
+TDS:Upgrade(29, true)
+TDS:Upgrade(30, true)
+TDS:Upgrade(31, true)
+TDS:Upgrade(32, true)
+TDS:Upgrade(33, true)
+TDS:Upgrade(34, true)
+TDS:Upgrade(35, true)
+TDS:Upgrade(36, true)
+TDS:Upgrade(37, true)
+TDS:Upgrade(38, true)
+TDS:Upgrade(39, true)
+TDS:Upgrade(27, true)
+TDS:Upgrade(28, true)
+TDS:Upgrade(29, true)
+TDS:Upgrade(30, true)
+TDS:Upgrade(31, true)
+TDS:Upgrade(32, true)
+TDS:Upgrade(33, true)
+TDS:Upgrade(34, true)
+TDS:Upgrade(35, true)
+TDS:Upgrade(36, true)
+TDS:Upgrade(37, true)
+TDS:Upgrade(38, true)
+TDS:Upgrade(39, true)
+TDS:Upgrade(27, true)
+TDS:Upgrade(28, true)
+TDS:Upgrade(29, true)
+TDS:Upgrade(30, true)
+TDS:Upgrade(31, true)
+TDS:Upgrade(32, true)
+TDS:Upgrade(33, true)
+TDS:Upgrade(34, true)
+TDS:Upgrade(35, true)
+TDS:Upgrade(36, true)
+TDS:Upgrade(37, true)
+TDS:Upgrade(38, true)
+TDS:Upgrade(39, true)
+TDS:Ability(13, "Hologram Tower", {towerPosition = Vector3.new(9.028247833251953, 1.000003695487976, -22.36369514465332), towerToClone = 11})
+
+-- [ Wave 39 ] --
+TDS:Place("Hacker", -13.528082847595215, 1.0000004768371582, -2.7901172637939453)
+TDS:Upgrade(40)
+TDS:Upgrade(40)
+TDS:Upgrade(40)
+TDS:Upgrade(40)
+TDS:Upgrade(40)
+
+-- [ Wave 40 ] --
+TDS:Place("Assassin", 17.316987991333008, 1.0000030994415283, -19.15492057800293, true)
+TDS:Place("Assassin", 17.316987991333008, 1.0000030994415283, -19.15492057800293, true)
+TDS:Place("Assassin", 17.3884334564209, 1.0000030994415283, -19.032438278198242, true)
+TDS:Place("Assassin", 17.261783599853516, 1.0000030994415283, -19.08951187133789, true)
+TDS:Place("Assassin", 17.261783599853516, 1.0000030994415283, -19.08951187133789, true)
+TDS:Place("Assassin", 17.261783599853516, 1.0000030994415283, -19.08951187133789, true)
+TDS:Place("Assassin", 17.261783599853516, 1.0000030994415283, -19.08951187133789, true)
+TDS:Place("Assassin", 17.261783599853516, 1.0000030994415283, -19.08951187133789, true)
+TDS:Place("Assassin", 17.261783599853516, 1.0000030994415283, -19.08951187133789, true)
+TDS:Place("Assassin", 17.261783599853516, 1.0000030994415283, -19.08951187133789, true)
+TDS:Upgrade(41, true)
+TDS:Upgrade(42, true)
+TDS:Upgrade(43, true)
+TDS:Upgrade(44, true)
+TDS:Upgrade(45, true)
+TDS:Upgrade(46, true)
+TDS:Upgrade(47, true)
+TDS:Upgrade(48, true)
+TDS:Upgrade(49, true)
+TDS:Upgrade(50, true)
+TDS:Upgrade(41, true)
+TDS:Upgrade(42, true)
+TDS:Upgrade(43, true)
+TDS:Upgrade(44, true)
+TDS:Upgrade(45, true)
+TDS:Upgrade(46, true)
+TDS:Upgrade(47, true)
+TDS:Upgrade(48, true)
+TDS:Upgrade(49, true)
+TDS:Upgrade(50, true)
+TDS:Upgrade(41, true)
+TDS:Upgrade(42, true)
+TDS:Upgrade(43, true)
+TDS:Upgrade(44, true)
+TDS:Upgrade(45, true)
+TDS:Upgrade(46, true)
+TDS:Upgrade(47, true)
+TDS:Upgrade(48, true)
+TDS:Upgrade(49, true)
+TDS:Upgrade(50, true)
+TDS:Upgrade(41, true)
+TDS:Upgrade(42, true)
+TDS:Upgrade(43, true)
+TDS:Upgrade(44, true)
+TDS:Upgrade(45, true)
+TDS:Upgrade(46, true)
+TDS:Upgrade(47, true)
+TDS:Upgrade(48, true)
+TDS:Upgrade(49, true)
+TDS:Upgrade(50, true)
+TDS:Ability(13, "Hologram Tower", {towerPosition = Vector3.new(8.873846054077148, 1.000003457069397, -21.274154663085938), towerToClone = 11})
+TDS:Ability(40, "Hologram Tower", {towerPosition = Vector3.new(9.016666412353516, 1.0000035762786865, -21.555620193481445), towerToClone = 11}, true)
+
+-- [[ END OF STRATEGY ]]
