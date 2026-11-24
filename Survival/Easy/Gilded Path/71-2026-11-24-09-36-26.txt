@@ -1,0 +1,81 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.GUICardTransparency = 100
+_G.GUIClickSound = true
+_G.GUIClickSoundVolume = 93
+_G.GUIMusicId = "9043887091"
+_G.GUISectionTransparency = 100
+_G.GUISidebarTransparency = 100
+_G.GUIWallpaperDim = 0
+_G.GUIWallpaperId = "IMG_4990.jpeg"
+_G.GUIWallpaperTransparency = 1
+_G.GUIWindowTransparency = 100
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Electroshocker", "Shotgunner", "Soldier", "Demoman", "EvolvedJuggernaut")
+TDS:Mode("Easy")
+TDS:GameInfo("Gilded Path", {"ExplodingEnemies", "Glass", "Limitation"})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Soldier", -2.509941816329956, 1.0081406831741333, 14.362959861755371)
+TDS:Upgrade(12)
+TDS:Place("Soldier", 0.0407099723815918, 0.9613573551177979, 16.744220733642578)
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", -3.0508785247802734, 1.0121029615402222, 17.354446411132812)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+
+-- [ Wave 4 ] --
+TDS:Place("Soldier", 0.0474853515625, 0.950088381767273, 12.742818832397461)
+TDS:Upgrade(15)
+TDS:Place("Soldier", -6.140176773071289, 0.9706829786300659, 17.456531524658203)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(16)
+TDS:Place("Soldier", -5.540854454040527, 0.9634202718734741, 14.12807846069336)
+TDS:Upgrade(17)
+TDS:Place("Soldier", 3.0136101245880127, 0.9462828636169434, 13.408924102783203)
+TDS:Upgrade(18)
+TDS:Place("Soldier", 3.2443103790283203, 0.9551272392272949, 16.556047439575195)
+TDS:Upgrade(19)
+
+-- [ Wave 6 ] --
+TDS:Place("Electroshocker", -0.819793701171875, 0.9729026556015015, 29.3647518157959)
+TDS:Upgrade(20)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(20)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(18)
+TDS:Upgrade(13)
+TDS:Upgrade(15)
+TDS:Upgrade(12)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+
+-- [ Wave 12 ] --
+TDS:Place("EvolvedJuggernaut", -0.3582735061645508, 0.9458807706832886, 4.522857666015625)
+
+-- [ Wave 13 ] --
+TDS:Place("Soldier", 10.209239959716797, 1.0090831518173218, -42.81868362426758)
+TDS:Place("Demoman", 6.295803070068359, 0.9533385038375854, -24.509639739990234)
+TDS:Upgrade(23)
+TDS:Upgrade(21)
+
+-- [[ END OF STRATEGY ]]
