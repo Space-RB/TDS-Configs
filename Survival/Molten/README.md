@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 25 | [Open](Simplicity/README.md) |
+| Crossroads | 3 | [Open](Crossroads/README.md) |
 
 | Unknown | 35 | [Open](Unknown/README.md) |
+| Simplicity | 25 | [Open](Simplicity/README.md) |
 | Dead Ahead | 15 | [Open](Dead%20Ahead/README.md) |
 | Black Spot Exchange | 12 | [Open](Black%20Spot%20Exchange/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
@@ -31,7 +32,6 @@ Choose one of the categories below to continue.
 | Gilded Path | 3 | [Open](Gilded%20Path/README.md) |
 | Retro Lighthouse | 3 | [Open](Retro%20Lighthouse/README.md) |
 | Chess Board | 2 | [Open](Chess%20Board/README.md) |
-| Crossroads | 2 | [Open](Crossroads/README.md) |
 | Grass Isle | 2 | [Open](Grass%20Isle/README.md) |
 | Hot Spot | 2 | [Open](Hot%20Spot/README.md) |
 | Retro The Heights | 2 | [Open](Retro%20The%20Heights/README.md) |
