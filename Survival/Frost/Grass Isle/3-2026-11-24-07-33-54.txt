@@ -1,0 +1,59 @@
+_G.AutoGatling = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.GUIClickSound = true
+_G.GUIClickSoundVolume = 100
+_G.GUICursorId = "rbxasset://textures/ArrowCursor.png"
+_G.GUICustomCursor = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {beta_dps = true, ignore_lead_mutation = false, max_multi_targets = 3}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Hacker", "Time Dilator", "Firework Technician", "Assassin")
+TDS:Mode("Frost")
+TDS:GameInfo("Grass Isle", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 15.386116981506348, 1.0000038146972656, -23.075136184692383)
+TDS:Place("Assassin", 17.174945831298828, 0.99998539686203, -22.04490089416504)
+TDS:Place("Assassin", 18.35971450805664, 1.0000033378601074, -20.3445987701416)
+
+-- [ Wave 2 ] --
+TDS:Place("Assassin", 18.909345626831055, 1.0000029802322388, -18.363195419311523)
+
+-- [ Wave 3 ] --
+TDS:Place("Assassin", 18.746488571166992, 1.0000026226043701, -16.311120986938477)
+TDS:Place("Assassin", 18.08770751953125, 1.000002384185791, -14.335885047912598)
+TDS:Place("Assassin", 17.120399475097656, 1.0000020265579224, -12.531256675720215)
+
+-- [ Wave 4 ] --
+TDS:Place("Assassin", 15.677901268005371, 1.0000017881393433, -11.08875846862793)
+TDS:Place("Assassin", 14.05250358581543, 1.0000016689300537, -9.846144676208496)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 11 ] --
+TDS:Place("Gatling Gun", 5.150628566741943, 5.657224655151367, -21.656841278076172)
+
+-- [[ END OF STRATEGY ]]
