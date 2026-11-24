@@ -1,0 +1,54 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Brawler", "Scout", "Shotgunner", "Minigunner", "None")
+TDS:Mode("Frost")
+TDS:GameInfo("Retro Crossroads", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", -133.09011840820312, -44.53631591796875, 30.82326889038086)
+TDS:Upgrade(1)
+TDS:Place("Brawler", -124.37571716308594, -44.53631591796875, 29.724092483520508)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Brawler", -131.75296020507812, -44.53631591796875, 23.214279174804688)
+TDS:Upgrade(3)
+TDS:Place("Brawler", -125.0073013305664, -44.53631591796875, 22.60327911376953)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Place("Scout", -132.2898712158203, -44.53631591796875, 19.702919006347656)
+TDS:Upgrade(5)
+
+-- [ Wave 5 ] --
+TDS:Place("Shotgunner", -124.97248840332031, -44.53631591796875, 19.360729217529297)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Place("Minigunner", -121.49658203125, -44.53631591796875, 32.849830627441406)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+TDS:Place("Minigunner", -121.25526428222656, -44.53631591796875, 38.34748077392578)
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]
