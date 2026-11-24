@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 3 recorded strategies available for this map**
+**📦 4 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -22,6 +22,7 @@ Select a strategy below and open its config file.
 
 | 2 | 2026-11-24 07:28 UTC | Frost | — | Gatling Gun, Hacker, Time Dilator, Firework Technician, Assassin | [Open](2-2026-11-24-07-28-08.txt) |
 | 3 | 2026-11-24 07:33 UTC | Frost | — | Gatling Gun, Hacker, Time Dilator, Firework Technician, Assassin | [Open](3-2026-11-24-07-33-54.txt) |
+| 4 | 2026-11-24 07:48 UTC | Frost | — | Gatling Gun, Hacker, Time Dilator, Firework Technician, Assassin | [Open](4-2026-11-24-07-48-42.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
