@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 2 recorded strategies available for this map**
+**📦 3 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -21,6 +21,7 @@ Select a strategy below and open its config file.
 | 1 | 2026-10-21 09:39 UTC | Fallen | — | Golden Demoman, Soldier, Engineer, Scout, None | [Open](1-2026-10-21-09-39-24.txt) |
 
 | 2 | 2026-11-03 17:59 UTC | Fallen | — | Commander, Engineer, DJ Booth, None | [Open](2-2026-11-03-17-59-52.txt) |
+| 3 | 2026-11-24 20:30 UTC | Fallen | — | Brawler, Scout, Shotgunner, Minigunner, Assassin | [Open](3-2026-11-24-20-30-03.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
