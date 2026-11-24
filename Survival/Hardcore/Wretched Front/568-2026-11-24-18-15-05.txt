@@ -1,0 +1,35 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.GUIMusicId = "9043887091"
+_G.MatchTrackerEnabled = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedJuggernaut", "Electroshocker", "EvolvedOperator", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Electroshocker", 3.5177392959594727, 0.6171725988388062, -17.58139419555664)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Place("EvolvedOperator", 1.4804496765136719, 0.4257514774799347, -15.724372863769531)
+
+-- [ Wave 15 ] --
+TDS:Place("EvolvedJuggernaut", -0.3888123035430908, 0.568777322769165, -19.37462043762207)
+
+-- [[ END OF STRATEGY ]]
