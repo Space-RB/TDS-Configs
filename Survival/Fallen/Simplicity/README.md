@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 86 recorded strategies available for this map**
+**📦 87 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -104,6 +104,7 @@ Select a strategy below and open its config file.
 | 84 | 2026-11-22 20:16 UTC | Fallen | — | EvolvedOperator, EvolvedEnforcer, EvolvedKingpin, EvolvedJuggernaut, Hacker | [Open](84-2026-11-22-20-16-39.txt) |
 | 85 | 2026-11-22 20:38 UTC | Fallen | — | EvolvedOperator, EvolvedEnforcer, EvolvedKingpin, EvolvedJuggernaut, Hacker | [Open](85-2026-11-22-20-38-31.txt) |
 | 86 | 2026-11-23 21:29 UTC | Fallen | — | Tesla, Golden Soldier, Farm, DJ Booth, Accelerator | [Open](86-2026-11-23-21-29-49.txt) |
+| 87 | 2026-11-24 23:11 UTC | Fallen | — | Golden Minigunner, DJ Booth, Crook Boss, Turret, Assassin | [Open](87-2026-11-24-23-11-07.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
