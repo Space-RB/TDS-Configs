@@ -1,0 +1,25 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Scout", "Shotgunner", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Dead Ahead", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", 10.592096328735352, 1.000001311302185, -7.758962631225586)
+TDS:Place("Scout", 8.058298110961914, 1.0000017881393433, -10.771294593811035)
+TDS:Place("Scout", 7.7317352294921875, 0.9499594569206238, -6.729432106018066)
+
+-- [ Wave 2 ] --
+TDS:Place("Scout", 11.07236099243164, 1.0000017881393433, -11.167557716369629)
+TDS:Place("Scout", 6.095532417297363, 1.0000022649765015, -13.927896499633789)
+
+-- [[ END OF STRATEGY ]]
