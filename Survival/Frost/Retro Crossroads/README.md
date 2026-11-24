@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 10 recorded strategies available for this map**
+**📦 11 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -29,6 +29,7 @@ Select a strategy below and open its config file.
 | 8 | 2026-10-30 07:53 UTC | Frost | Glass, Limitation | Gatling Gun, EvolvedJuggernaut, Golden Cowboy, Mortar, Hacker | [Open](8-2026-10-30-07-53-33.txt) |
 | 9 | 2026-10-30 08:02 UTC | Frost | Glass, Limitation | Gatling Gun, EvolvedJuggernaut, Golden Cowboy, Mortar, Hacker | [Open](9-2026-10-30-08-02-40.txt) |
 | 10 | 2026-11-07 06:59 UTC | Frost | — | Brawler, None | [Open](10-2026-11-07-06-59-25.txt) |
+| 11 | 2026-11-24 19:56 UTC | Frost | — | Brawler, Scout, Shotgunner, Minigunner, None | [Open](11-2026-11-24-19-56-51.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
