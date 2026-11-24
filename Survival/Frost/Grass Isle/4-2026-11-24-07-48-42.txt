@@ -1,0 +1,177 @@
+_G.AutoGatling = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.GUIClickSound = true
+_G.GUIClickSoundVolume = 100
+_G.GUICursorId = "rbxasset://textures/ArrowCursor.png"
+_G.GUICustomCursor = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {beta_dps = true, ignore_lead_mutation = false, max_multi_targets = 3}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Hacker", "Time Dilator", "Firework Technician", "Assassin")
+TDS:Mode("Frost")
+TDS:GameInfo("Grass Isle", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", 15.771477699279785, 1.0000038146972656, -22.894075393676758)
+TDS:Place("Assassin", 17.484302520751953, 0.99998539686203, -21.7299747467041)
+
+-- [ Wave 2 ] --
+TDS:Place("Assassin", 18.557174682617188, 1.0000033378601074, -19.95689582824707)
+
+-- [ Wave 3 ] --
+TDS:Place("Assassin", 18.866191864013672, 1.0000029802322388, -17.86454200744629)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Place("Assassin", 18.549617767333984, 1.0000026226043701, -15.823183059692383)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", 4.8601884841918945, 5.657227039337158, -21.761764526367188)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 17 ] --
+TDS:Place("Firework Technician", 9.950691223144531, 1.0000028610229492, -17.601985931396484)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 18 ] --
+TDS:Place("Hacker", 6.92912483215332, 1.0000028610229492, -17.936260223388672)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 20 ] --
+TDS:Place("Time Dilator", 8.017855644226074, 1.000002384185791, -14.30600357055664)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 23 ] --
+TDS:WaitForWave(23)
+TDS:Sell(9)
+TDS:Place("Time Dilator", -22.188833236694336, 0.9999999403953552, 0.2800922393798828)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(7)
+TDS:Place("Assassin", 17.768943786621094, 1.0000022649765015, -13.938468933105469)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Assassin", 16.810443878173828, 1.0000020265579224, -12.166980743408203)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 25 ] --
+TDS:Place("Assassin", 15.367945671081543, 1.0000017881393433, -10.724482536315918)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Assassin", 13.483231544494629, 1.0000016689300537, -9.943808555603027)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Assassin", 11.563836097717285, 1.0000015497207642, -9.225099563598633)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Assassin", 13.886763572692871, 1.0000039339065552, -23.67474937438965)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 29 ] --
+TDS:Place("Hacker", -11.952937126159668, 1.000001311302185, -7.889402389526367)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Time Dilator", 15.672167778015137, 0.9999797344207764, 16.676727294921875)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(17)
+
+-- [[ END OF STRATEGY ]]
