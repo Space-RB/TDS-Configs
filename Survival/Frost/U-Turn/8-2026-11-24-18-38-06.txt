@@ -1,0 +1,31 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.GUIClickSound = true
+_G.GUIClickSoundVolume = 100
+_G.GUICursorId = "rbxasset://textures/ArrowCursor.png"
+_G.GUICustomCursor = true
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Accelerator", "Warden", "Golden Cowboy", "DJ Booth", "Brawler")
+TDS:Mode("Frost")
+TDS:GameInfo("U-Turn", {})
+TDS:Ready()
+TDS:Place("Brawler", 11.326179504394531, 1.0000064373016357, -16.390884399414062, true)
+TDS:Place("Brawler", 11.326179504394531, 1.0000064373016357, -16.390884399414062, true)
+
+-- [ Wave 1 ] --
+TDS:Place("Brawler", 11.399200439453125, 1.0000064373016357, -16.5898494720459, true)
+
+-- [ Wave 2 ] --
+TDS:Place("Brawler", 11.234916687011719, 1.0000064373016357, -16.467239379882812, true)
+
+-- [[ END OF STRATEGY ]]
