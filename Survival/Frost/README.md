@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Grass Isle | 2 | [Open](Grass%20Isle/README.md) |
+| Grass Isle | 3 | [Open](Grass%20Isle/README.md) |
 
 | Unknown | 102 | [Open](Unknown/README.md) |
 | Simplicity | 99 | [Open](Simplicity/README.md) |
