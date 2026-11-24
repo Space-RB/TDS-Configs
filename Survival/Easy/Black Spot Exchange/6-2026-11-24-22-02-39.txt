@@ -1,0 +1,180 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Scout", "Demoman", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Black Spot Exchange", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", -20.244495391845703, 1.999998927116394, 4.792842388153076)
+TDS:Place("Scout", -17.263484954833984, 1.999998927116394, 5.388814449310303)
+TDS:Place("Scout", -20.544702529907227, 1.9999995231628418, 1.372544288635254)
+TDS:Place("Scout", -17.5062198638916, 1.9999995231628418, 1.2765040397644043)
+TDS:VoteSkip(1)
+TDS:Place("Scout", -20.625524520874023, 2, -1.6663808822631836)
+
+-- [ Wave 2 ] --
+TDS:Place("Scout", -17.6071720123291, 2, -2.0285234451293945)
+TDS:VoteSkip(2)
+
+-- [ Wave 3 ] --
+TDS:VoteSkip(3)
+TDS:Place("Demoman", -0.36107146739959717, 1.9991357326507568, -0.16836881637573242)
+TDS:Upgrade(7)
+
+-- [ Wave 4 ] --
+TDS:VoteSkip(4)
+
+-- [ Wave 5 ] --
+TDS:Place("Demoman", -0.3983907699584961, 1.9991352558135986, 2.871401786804199)
+TDS:VoteSkip(5)
+TDS:Upgrade(8)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+TDS:VoteSkip(6)
+TDS:Upgrade(6)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(7)
+TDS:VoteSkip(7)
+TDS:Place("Scout", -3.0122499465942383, 1.9991354942321777, 1.319197177886963)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(8)
+TDS:VoteSkip(8)
+TDS:Place("Demoman", 2.2527878284454346, 1.9991354942321777, 1.383835792541504)
+TDS:Upgrade(10)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(10)
+TDS:VoteSkip(9)
+
+-- [ Wave 10 ] --
+TDS:Place("Demoman", 2.2239584922790527, 1.9991350173950195, 4.423698902130127)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:VoteSkip(10)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:VoteSkip(11)
+TDS:Upgrade(9)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(11)
+TDS:WaitForWave(12)
+TDS:Sell(1)
+TDS:Sell(3)
+TDS:Sell(5)
+TDS:Place("Demoman", -3.0122499465942383, 1.9991350173950195, 4.35919713973999)
+TDS:Upgrade(12)
+TDS:Sell(2)
+TDS:Sell(4)
+TDS:Sell(6)
+TDS:Place("Demoman", -0.3983905613422394, 1.9991347789764404, 5.911401748657227)
+TDS:Upgrade(13)
+TDS:Place("Scout", -12.07351303100586, 1.9991201162338257, 5.487793922424316)
+TDS:Place("Scout", -11.652759552001953, 1.9991283416748047, 2.4770524501800537)
+TDS:Place("Scout", -11.527473449707031, 1.9995391368865967, -0.5603649616241455)
+TDS:Place("Scout", 11.844717025756836, 1.9991164207458496, 6.051679611206055)
+TDS:Place("Scout", 11.514854431152344, 1.9991258382797241, 3.0296289920806885)
+
+-- [ Wave 13 ] --
+TDS:Place("Scout", 11.514854431152344, 1.9991309642791748, -0.010370969772338867)
+TDS:Upgrade(19)
+TDS:Upgrade(18)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(19)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:VoteSkip(13)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(18)
+TDS:Upgrade(17)
+TDS:VoteSkip(14)
+TDS:Place("Demoman", 2.3356001377105713, 1.9999823570251465, -1.6550359725952148)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(20)
+TDS:Place("Demoman", -2.9792494773864746, 2.0000617504119873, -1.7132776975631714)
+TDS:Upgrade(21)
+TDS:Upgrade(20)
+TDS:Upgrade(21)
+TDS:VoteSkip(15)
+TDS:Upgrade(21)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(20)
+TDS:Upgrade(7)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:VoteSkip(16)
+TDS:Upgrade(8)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+TDS:VoteSkip(17)
+TDS:Upgrade(10)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+TDS:Place("Demoman", 2.215420961380005, 2.009775400161743, 7.463687419891357)
+TDS:Place("Demoman", -3.12669038772583, 1.9991345405578613, 7.540615558624268)
+TDS:VoteSkip(18)
+TDS:Upgrade(8)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(22)
+TDS:VoteSkip(19)
+TDS:Upgrade(23)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(20)
+TDS:WaitForWave(20)
+TDS:Sell(14)
+TDS:Sell(15)
+TDS:Sell(16)
+TDS:Upgrade(12)
+TDS:Upgrade(22)
+TDS:Upgrade(23)
+TDS:Upgrade(21)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
