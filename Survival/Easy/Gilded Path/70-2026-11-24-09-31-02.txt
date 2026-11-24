@@ -1,0 +1,84 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.GUICardTransparency = 100
+_G.GUIClickSound = true
+_G.GUIClickSoundVolume = 93
+_G.GUIMusicId = "9043887091"
+_G.GUISectionTransparency = 100
+_G.GUISidebarTransparency = 100
+_G.GUIWallpaperDim = 0
+_G.GUIWallpaperId = "IMG_4990.jpeg"
+_G.GUIWallpaperTransparency = 1
+_G.GUIWindowTransparency = 100
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Electroshocker", "Shotgunner", "Soldier", "Demoman", "EvolvedJuggernaut")
+TDS:Mode("Easy")
+TDS:GameInfo("Gilded Path", {"ExplodingEnemies", "Glass", "Limitation"})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Soldier", -4.065269470214844, 0.9647488594055176, 15.780326843261719)
+TDS:Upgrade(1)
+TDS:Place("Soldier", -1.1093339920043945, 0.962559700012207, 16.603618621826172)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Place("Soldier", -3.047882318496704, 1.012129783630371, 19.262022018432617)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Place("Electroshocker", -0.48436689376831055, 0.972498893737793, 29.048320770263672)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Demoman", -8.13990306854248, 0.9794025421142578, 20.610036849975586)
+TDS:Place("Demoman", 3.3936548233032227, 0.9660327434539795, 21.780241012573242)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+TDS:Place("Shotgunner", 6.589165687561035, 0.9575098752975464, 27.861425399780273)
+
+-- [ Wave 9 ] --
+TDS:Place("Shotgunner", -10.937423706054688, 0.9924156069755554, 24.43409538269043)
+TDS:Place("Shotgunner", 4.897467136383057, 0.9500384330749512, 29.92500877380371)
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", -11.917638778686523, 0.996327817440033, 22.359088897705078)
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Place("EvolvedJuggernaut", 9.861085891723633, 0.9742212295532227, -22.374853134155273)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(11)
+
+-- [[ END OF STRATEGY ]]
