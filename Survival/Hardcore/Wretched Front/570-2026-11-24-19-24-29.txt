@@ -1,0 +1,27 @@
+_G.AutoGatling = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Farm", "Engineer", "Ace Pilot", "Hacker")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 5 ] --
+TDS:Place("Ace Pilot", 10.47247314453125, 1.1430411338806152, 21.476354598999023)
+TDS:Place("Ace Pilot", 4.831195831298828, 1.4079811573028564, 29.494213104248047)
+TDS:Place("Ace Pilot", 0.8464279174804688, 1.4464826583862305, 29.968292236328125)
+
+-- [ Wave 6 ] --
+TDS:Place("Ace Pilot", 4.347200393676758, 1.4051063060760498, 34.647090911865234)
+
+-- [[ END OF STRATEGY ]]
