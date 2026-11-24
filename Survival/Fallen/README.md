@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 85 | [Open](Simplicity/README.md) |
+| Abyssal Trench | 3 | [Open](Abyssal%20Trench/README.md) |
 
 | Unknown | 86 | [Open](Unknown/README.md) |
+| Simplicity | 85 | [Open](Simplicity/README.md) |
 | Lay By | 42 | [Open](Lay%20By/README.md) |
 | Cataclysm | 22 | [Open](Cataclysm/README.md) |
 | U-Turn | 11 | [Open](U-Turn/README.md) |
@@ -31,7 +32,6 @@ Choose one of the categories below to continue.
 | Summer Castle | 3 | [Open](Summer%20Castle/README.md) |
 | Toyboard | 3 | [Open](Toyboard/README.md) |
 | Wrecked Battlefield | 3 | [Open](Wrecked%20Battlefield/README.md) |
-| Abyssal Trench | 2 | [Open](Abyssal%20Trench/README.md) |
 | Coral Deep | 2 | [Open](Coral%20Deep/README.md) |
 | Crossroads | 2 | [Open](Crossroads/README.md) |
 | Farm Lands | 2 | [Open](Farm%20Lands/README.md) |
