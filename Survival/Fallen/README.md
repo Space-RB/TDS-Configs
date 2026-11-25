@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Grass Isle | 2 | [Open](Grass%20Isle/README.md) |
+| Crossroads | 3 | [Open](Crossroads/README.md) |
 
 | Simplicity | 86 | [Open](Simplicity/README.md) |
 | Unknown | 86 | [Open](Unknown/README.md) |
@@ -34,8 +34,8 @@ Choose one of the categories below to continue.
 | Toyboard | 3 | [Open](Toyboard/README.md) |
 | Wrecked Battlefield | 3 | [Open](Wrecked%20Battlefield/README.md) |
 | Coral Deep | 2 | [Open](Coral%20Deep/README.md) |
-| Crossroads | 2 | [Open](Crossroads/README.md) |
 | Farm Lands | 2 | [Open](Farm%20Lands/README.md) |
+| Grass Isle | 2 | [Open](Grass%20Isle/README.md) |
 | Northern Lights | 2 | [Open](Northern%20Lights/README.md) |
 | Sky Islands | 2 | [Open](Sky%20Islands/README.md) |
 | Crystal Cave | 1 | [Open](Crystal%20Cave/README.md) |
