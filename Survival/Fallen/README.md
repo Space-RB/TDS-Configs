@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Crossroads | 4 | [Open](Crossroads/README.md) |
+| Crossroads | 5 | [Open](Crossroads/README.md) |
 
 | Simplicity | 88 | [Open](Simplicity/README.md) |
 | Unknown | 86 | [Open](Unknown/README.md) |
