@@ -1,0 +1,45 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Farm", "Turret", "Tesla", "Commander", "DJ Booth")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+TDS:Place("Farm", -9.16706371307373, 1.8661880493164062, 25.267641067504883)
+TDS:Place("Farm", -12.702880859375, 1.8661880493164062, 25.095609664916992)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", -12.76109504699707, 1.8661905527114868, 21.556087493896484)
+TDS:Place("Farm", -9.2252779006958, 1.8661909103393555, 21.728120803833008)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", -9.39024543762207, 1.8661892414093018, 18.23200035095215)
+TDS:Place("Farm", -12.923881530761719, 1.8661866188049316, 18.019832611083984)
+TDS:Upgrade(6)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", -5.852904319763184, 1.8661892414093018, 18.094823837280273)
+TDS:Upgrade(7)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Place("Turret", -2.6884865760803223, 0.9999831914901733, 2.3089675903320312)
+
+-- [ Wave 10 ] --
+TDS:Place("Commander", -7.712079048156738, 0.9999992847442627, 4.682132244110107)
+TDS:Upgrade(9)
+
+-- [[ END OF STRATEGY ]]
