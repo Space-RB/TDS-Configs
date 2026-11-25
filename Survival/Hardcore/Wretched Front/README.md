@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 572 recorded strategies available for this map**
+**📦 573 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -591,6 +591,7 @@ Select a strategy below and open its config file.
 | 570 | 2026-11-24 19:24 UTC | Hardcore | — | Gatling Gun, Farm, Engineer, Ace Pilot, Hacker | [Open](570-2026-11-24-19-24-29.txt) |
 | 571 | 2026-11-25 01:17 UTC | Hardcore | — | Minigunner, Turret, Shotgunner, Farm, Boomerang | [Open](571-2026-11-25-01-17-59.txt) |
 | 572 | 2026-11-25 04:45 UTC | Hardcore | — | Farm, Boomerang, EvolvedJuggernaut, Minigunner, Crook Boss | [Open](572-2026-11-25-04-45-20.txt) |
+| 573 | 2026-11-25 09:51 UTC | Hardcore | — | Boomerang, Farm, Minigunner, EvolvedJuggernaut, None | [Open](573-2026-11-25-09-51-49.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
