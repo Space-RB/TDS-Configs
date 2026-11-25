@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 86 | [Open](Simplicity/README.md) |
+| Grass Isle | 2 | [Open](Grass%20Isle/README.md) |
 
+| Simplicity | 86 | [Open](Simplicity/README.md) |
 | Unknown | 86 | [Open](Unknown/README.md) |
 | Lay By | 42 | [Open](Lay%20By/README.md) |
 | Cataclysm | 22 | [Open](Cataclysm/README.md) |
@@ -39,7 +40,6 @@ Choose one of the categories below to continue.
 | Sky Islands | 2 | [Open](Sky%20Islands/README.md) |
 | Crystal Cave | 1 | [Open](Crystal%20Cave/README.md) |
 | Gilded Path | 1 | [Open](Gilded%20Path/README.md) |
-| Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
 | Honey Valley | 1 | [Open](Honey%20Valley/README.md) |
 | Infernal Abyss | 1 | [Open](Infernal%20Abyss/README.md) |
 | Lighthaos | 1 | [Open](Lighthaos/README.md) |
