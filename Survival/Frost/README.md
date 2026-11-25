@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Midnight Issue | 10 | [Open](Midnight%20Issue/README.md) |
+| Midnight Issue | 11 | [Open](Midnight%20Issue/README.md) |
 
 | Simplicity | 102 | [Open](Simplicity/README.md) |
 | Unknown | 102 | [Open](Unknown/README.md) |
