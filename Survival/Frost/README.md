@@ -16,12 +16,12 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Midnight Issue | 11 | [Open](Midnight%20Issue/README.md) |
+| Simplicity | 103 | [Open](Simplicity/README.md) |
 
-| Simplicity | 102 | [Open](Simplicity/README.md) |
 | Unknown | 102 | [Open](Unknown/README.md) |
 | Lay By | 55 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 12 | [Open](Retro%20Crossroads/README.md) |
+| Midnight Issue | 11 | [Open](Midnight%20Issue/README.md) |
 | U-Turn | 8 | [Open](U-Turn/README.md) |
 | Winter Abyss | 7 | [Open](Winter%20Abyss/README.md) |
 | Crossroads | 6 | [Open](Crossroads/README.md) |
