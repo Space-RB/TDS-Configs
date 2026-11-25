@@ -16,10 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Crossroads | 3 | [Open](Crossroads/README.md) |
+| Simplicity | 26 | [Open](Simplicity/README.md) |
 
 | Unknown | 35 | [Open](Unknown/README.md) |
-| Simplicity | 25 | [Open](Simplicity/README.md) |
 | Dead Ahead | 15 | [Open](Dead%20Ahead/README.md) |
 | Black Spot Exchange | 12 | [Open](Black%20Spot%20Exchange/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
@@ -28,6 +27,7 @@ Choose one of the categories below to continue.
 | U-Turn | 6 | [Open](U-Turn/README.md) |
 | Lay By | 4 | [Open](Lay%20By/README.md) |
 | Winter Abyss | 4 | [Open](Winter%20Abyss/README.md) |
+| Crossroads | 3 | [Open](Crossroads/README.md) |
 | Forest Camp | 3 | [Open](Forest%20Camp/README.md) |
 | Gilded Path | 3 | [Open](Gilded%20Path/README.md) |
 | Retro Lighthouse | 3 | [Open](Retro%20Lighthouse/README.md) |
