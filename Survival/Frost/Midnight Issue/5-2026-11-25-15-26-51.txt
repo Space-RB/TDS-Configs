@@ -1,0 +1,26 @@
+_G.AutoGatling = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {gui_hidden = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Hacker", "Farm", "Star Cannon", "EvolvedJuggernaut")
+TDS:Mode("Frost")
+TDS:GameInfo("Midnight Issue", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", 5.182311058044434, 49.92744064331055, -16.495121002197266)
+TDS:Place("Farm", 8.691051483154297, 49.92744445800781, -16.768644332885742)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", 12.231022834777832, 49.92744445800781, -16.782899856567383)
+
+-- [[ END OF STRATEGY ]]
