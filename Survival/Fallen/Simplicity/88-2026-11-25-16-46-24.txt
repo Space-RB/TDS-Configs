@@ -1,0 +1,18 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Assassin", "DJ Booth", "Crook Boss", "Commander", "Turret")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+TDS:Place("Assassin", -17.718175888061523, 1.0000003576278687, -1.8507633209228516)
+TDS:Place("Assassin", -18.498849868774414, 1.0000007152557373, -3.7354774475097656)
+
+-- [[ END OF STRATEGY ]]
