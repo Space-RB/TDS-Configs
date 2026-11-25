@@ -1,0 +1,41 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Commander", "DJ Booth", "Soldier", "Turret", "Tesla")
+TDS:Mode("Frost")
+TDS:GameInfo("Midnight Issue", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Soldier", 21.987403869628906, 49.927406311035156, -13.967756271362305)
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", 22.02899169921875, 49.927330017089844, -8.909725189208984)
+
+-- [ Wave 3 ] --
+TDS:Place("Soldier", 25.02740478515625, 49.927406311035156, -13.967756271362305)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Place("Soldier", 25.068992614746094, 49.927330017089844, -8.909725189208984)
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(5)
+
+-- [[ END OF STRATEGY ]]
