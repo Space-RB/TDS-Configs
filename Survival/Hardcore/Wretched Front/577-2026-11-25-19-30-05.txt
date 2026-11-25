@@ -1,0 +1,60 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.GUICursorId = "rbxasset://textures/Cursors/CrossKeyboard.png"
+_G.GUICustomCursor = true
+_G.GUIWallpaperDim = 13
+_G.GUIWallpaperTransparency = 30
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "EvolvedEnforcer", "Gatling Gun", "EvolvedJuggernaut", "EvolvedOperator")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", -5.637618064880371, 0.9557679891586304, -31.676973342895508)
+TDS:Upgrade(1)
+TDS:Place("EvolvedOperator", -8.156611442565918, 0.9773417711257935, -32.002967834472656)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Place("EvolvedOperator", -7.179434776306152, 0.943498969078064, -29.658458709716797)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+TDS:Place("EvolvedOperator", -6.614795207977295, 0.9802441596984863, -34.021484375)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("EvolvedEnforcer", 5.378668785095215, 0.6045491099357605, -15.657999038696289)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Place("EvolvedEnforcer", 13.458927154541016, 1.0508508682250977, 21.119752883911133)
+
+-- [ Wave 15 ] --
+TDS:Place("EvolvedOperator", -1.2202262878417969, 1.4714288711547852, 32.08890914916992)
+TDS:Place("EvolvedOperator", 1.5029592514038086, 1.4443888664245605, 31.53375244140625)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
