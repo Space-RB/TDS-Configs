@@ -1,0 +1,73 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoGatlingSettings = {gui_hidden = true, rainbow_bullet_lines = true, rainbow_esp = true, show_bullet_lines = true, target_esp = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("DJ Booth", "Commander", "Gatling Gun", "Spotlight Tech", "Assassin")
+TDS:Mode("Badlands")
+TDS:Ready()
+TDS:Place("Assassin", -0.062376976013183594, 1.199995517730713, 11.756799697875977, true)
+TDS:Place("Assassin", -5.9019365310668945, 1.1999789476394653, 12.02295970916748, true)
+TDS:Place("Assassin", -4.32991886138916, 1.1999802589416504, 7.0430498123168945, true)
+
+-- [ Wave 1 ] --
+TDS:Place("Assassin", -4.839468955993652, 1.0539145469665527, 6.91513729095459, true)
+TDS:Place("Assassin", -4.699764251708984, 1.1999975442886353, 6.982234477996826, true)
+
+-- [ Wave 2 ] --
+TDS:Place("Assassin", -4.935564041137695, 1.199995517730713, 7.059298992156982, true)
+TDS:Place("Assassin", -4.935474872589111, 1.199995517730713, 6.935530662536621, true)
+
+-- [ Wave 3 ] --
+TDS:Place("Assassin", -5.121494293212891, 1.0856528282165527, 6.961741924285889, true)
+TDS:Place("Assassin", -5.1287078857421875, 1.0489811897277832, 6.9629340171813965, true)
+TDS:Place("Assassin", -4.948638439178467, 1.0000022649765015, 6.7550883293151855, true)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1, true)
+TDS:Upgrade(2, true)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3, true)
+TDS:Upgrade(1, true)
+TDS:Upgrade(2, true)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(5, true)
+TDS:Upgrade(6, true)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4, true)
+TDS:Upgrade(5, true)
+TDS:Upgrade(6, true)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(7, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(10, true)
+TDS:Upgrade(7, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(9, true)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(9, true)
+TDS:Upgrade(1, true)
+
+-- [ Wave 10 ] --
+TDS:Place("DJ Booth", -5.320919513702393, 1.0000022649765015, 2.785411834716797)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [[ END OF STRATEGY ]]
