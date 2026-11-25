@@ -16,9 +16,8 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Crossroads | 3 | [Open](Crossroads/README.md) |
+| Simplicity | 87 | [Open](Simplicity/README.md) |
 
-| Simplicity | 86 | [Open](Simplicity/README.md) |
 | Unknown | 86 | [Open](Unknown/README.md) |
 | Lay By | 42 | [Open](Lay%20By/README.md) |
 | Cataclysm | 22 | [Open](Cataclysm/README.md) |
@@ -28,6 +27,7 @@ Choose one of the categories below to continue.
 | Winter Stronghold | 5 | [Open](Winter%20Stronghold/README.md) |
 | Abyssal Trench | 3 | [Open](Abyssal%20Trench/README.md) |
 | Candy Valley | 3 | [Open](Candy%20Valley/README.md) |
+| Crossroads | 3 | [Open](Crossroads/README.md) |
 | Retro Crossroads | 3 | [Open](Retro%20Crossroads/README.md) |
 | Space City | 3 | [Open](Space%20City/README.md) |
 | Summer Castle | 3 | [Open](Summer%20Castle/README.md) |
