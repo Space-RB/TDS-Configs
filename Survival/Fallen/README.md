@@ -16,13 +16,14 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Crossroads | 6 | [Open](Crossroads/README.md) |
+| Rocket Arena | 1 | [Open](Rocket%20Arena/README.md) |
 
 | Simplicity | 88 | [Open](Simplicity/README.md) |
 | Unknown | 86 | [Open](Unknown/README.md) |
 | Lay By | 42 | [Open](Lay%20By/README.md) |
 | Cataclysm | 22 | [Open](Cataclysm/README.md) |
 | U-Turn | 11 | [Open](U-Turn/README.md) |
+| Crossroads | 6 | [Open](Crossroads/README.md) |
 | Dusty Bridges | 6 | [Open](Dusty%20Bridges/README.md) |
 | Winter Abyss | 5 | [Open](Winter%20Abyss/README.md) |
 | Winter Stronghold | 5 | [Open](Winter%20Stronghold/README.md) |
