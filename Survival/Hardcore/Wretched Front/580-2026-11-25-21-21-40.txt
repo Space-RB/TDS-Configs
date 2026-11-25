@@ -1,0 +1,24 @@
+_G.AutoGatling = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedJuggernaut", "Gatling Gun", "Farm", "Golden Pyromancer", "EvolvedKingpin")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", -16.695087432861328, 1.506579875946045, 33.745723724365234)
+TDS:Place("Farm", -12.42330265045166, 1.4038870334625244, 33.65462112426758)
+TDS:Place("Farm", -11.492724418640137, 1.5029408931732178, 29.302417755126953)
+
+-- [[ END OF STRATEGY ]]
