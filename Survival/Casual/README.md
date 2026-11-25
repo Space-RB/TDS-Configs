@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Mason Arch | 1 | [Open](Mason%20Arch/README.md) |
+| Simplicity | 2 | [Open](Simplicity/README.md) |
 
 | Unknown | 16 | [Open](Unknown/README.md) |
 | Dead Ahead | 11 | [Open](Dead%20Ahead/README.md) |
@@ -33,12 +33,12 @@ Choose one of the categories below to continue.
 | Farm Lands | 1 | [Open](Farm%20Lands/README.md) |
 | Four Seasons | 1 | [Open](Four%20Seasons/README.md) |
 | Grass Isle | 1 | [Open](Grass%20Isle/README.md) |
+| Mason Arch | 1 | [Open](Mason%20Arch/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Moon Base | 1 | [Open](Moon%20Base/README.md) |
 | Necropolis | 1 | [Open](Necropolis/README.md) |
 | Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
 | Retro Zone | 1 | [Open](Retro%20Zone/README.md) |
-| Simplicity | 1 | [Open](Simplicity/README.md) |
 | Space City | 1 | [Open](Space%20City/README.md) |
 </div>
 
