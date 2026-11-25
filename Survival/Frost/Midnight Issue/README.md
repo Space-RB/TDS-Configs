@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 6 recorded strategies available for this map**
+**📦 7 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -25,6 +25,7 @@ Select a strategy below and open its config file.
 | 4 | 2026-11-25 15:14 UTC | Frost | — | Commander, DJ Booth, Soldier, Turret, Tesla | [Open](4-2026-11-25-15-14-48.txt) |
 | 5 | 2026-11-25 15:26 UTC | Frost | — | Gatling Gun, Hacker, Farm, Star Cannon, EvolvedJuggernaut | [Open](5-2026-11-25-15-26-51.txt) |
 | 6 | 2026-11-25 15:31 UTC | Frost | — | Commander, DJ Booth, Soldier, Turret, Tesla | [Open](6-2026-11-25-15-31-39.txt) |
+| 7 | 2026-11-25 15:31 UTC | Frost | — | Gatling Gun, Hacker, Farm, Star Cannon, EvolvedJuggernaut | [Open](7-2026-11-25-15-31-48.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
