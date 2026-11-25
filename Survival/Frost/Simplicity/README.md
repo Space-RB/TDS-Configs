@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 100 recorded strategies available for this map**
+**📦 101 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -119,6 +119,7 @@ Select a strategy below and open its config file.
 | 98 | 2026-11-23 06:32 UTC | Frost | — | Assassin, Crook Boss, Freezer, Commander, None | [Open](98-2026-11-23-06-32-21.txt) |
 | 99 | 2026-11-23 08:51 UTC | Frost | — | Hacker, DJ Booth, Engineer, Gatling Gun, Tesla | [Open](99-2026-11-23-08-51-18.txt) |
 | 100 | 2026-11-25 00:37 UTC | Frost | — | DJ Booth, Warden, Militant, Commander, Turret | [Open](100-2026-11-25-00-37-10.txt) |
+| 101 | 2026-11-25 14:12 UTC | Frost | — | Farm, Turret, Tesla, Commander, DJ Booth | [Open](101-2026-11-25-14-12-43.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
