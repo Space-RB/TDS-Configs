@@ -1,0 +1,95 @@
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.GUICursorId = "rbxasset://textures/Cursors/CrossKeyboard.png"
+_G.GUICustomCursor = true
+_G.GUIWallpaperDim = 13
+_G.GUIWallpaperTransparency = 30
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedEnforcer", "EvolvedJuggernaut", "EvolvedOperator", "Farm", "Golden Crook Boss")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {"Committed", "Glass"})
+TDS:Ready()
+TDS:Place("EvolvedOperator", -3.4311351776123047, 0.9816291332244873, -32.694210052490234)
+TDS:Place("EvolvedOperator", -5.97066593170166, 0.9628834128379822, -32.6453742980957)
+TDS:Place("EvolvedOperator", -8.510570526123047, 0.9877487421035767, -32.66731643676758)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", -36.53903579711914, -1.4128639698028564, -9.321480751037598)
+TDS:Place("Farm", -36.77289581298828, -1.500469446182251, -5.629889488220215)
+TDS:Place("Farm", -36.928916931152344, -1.6738402843475342, -2.093329429626465)
+TDS:Place("Farm", -36.88243103027344, -2.0410118103027344, 1.4463651180267334)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", -37.23615264892578, -2.339445114135742, 4.968648433685303)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Place("EvolvedEnforcer", 3.7790870666503906, 0.46000316739082336, -14.823801040649414)
+TDS:Upgrade(9)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Place("EvolvedOperator", 4.177896499633789, 1.4126105308532715, 28.740455627441406)
+
+-- [ Wave 13 ] --
+TDS:Place("EvolvedOperator", 1.6389102935791016, 1.436787724494934, 28.812253952026367)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("EvolvedOperator", -0.8947188854217529, 1.4602757692337036, 28.632469177246094)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 14 ] --
+TDS:Place("EvolvedEnforcer", 12.632116317749023, 1.1632869243621826, 21.764434814453125)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(8)
+
+-- [ Wave 18 ] --
+TDS:Place("EvolvedJuggernaut", 1.7318806648254395, 0.5200431942939758, 13.954328536987305)
+TDS:Upgrade(14)
+
+-- [[ END OF STRATEGY ]]
