@@ -16,8 +16,9 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 102 | [Open](Simplicity/README.md) |
+| Midnight Issue | 2 | [Open](Midnight%20Issue/README.md) |
 
+| Simplicity | 102 | [Open](Simplicity/README.md) |
 | Unknown | 102 | [Open](Unknown/README.md) |
 | Lay By | 55 | [Open](Lay%20By/README.md) |
 | Retro Crossroads | 12 | [Open](Retro%20Crossroads/README.md) |
@@ -44,7 +45,6 @@ Choose one of the categories below to continue.
 | Gilded Path | 1 | [Open](Gilded%20Path/README.md) |
 | Iceville | 1 | [Open](Iceville/README.md) |
 | Lighthaos | 1 | [Open](Lighthaos/README.md) |
-| Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Necropolis | 1 | [Open](Necropolis/README.md) |
 | Portland | 1 | [Open](Portland/README.md) |
 | Retro Rocket Arena | 1 | [Open](Retro%20Rocket%20Arena/README.md) |
