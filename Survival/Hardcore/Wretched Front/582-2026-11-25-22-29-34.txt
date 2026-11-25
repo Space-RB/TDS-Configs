@@ -1,0 +1,55 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedEnforcer", "Military Base", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Military Base", -4.039830684661865, 1.4136420488357544, 39.04792022705078)
+TDS:Place("Military Base", -8.571634292602539, 1.345019817352295, 38.775516510009766)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 1 ] --
+TDS:Place("Military Base", -13.079827308654785, 1.2427356243133545, 39.311824798583984)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Place("Military Base", -5.605154991149902, 1.293750524520874, 43.29267501831055)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Place("Military Base", -10.142362594604492, 1.1861560344696045, 43.13407897949219)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Place("EvolvedEnforcer", 13.368618965148926, 1.224934697151184, 26.955509185791016)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
