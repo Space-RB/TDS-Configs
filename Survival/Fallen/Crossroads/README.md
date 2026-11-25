@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 5 recorded strategies available for this map**
+**📦 6 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -24,6 +24,7 @@ Select a strategy below and open its config file.
 | 3 | 2026-11-25 00:58 UTC | Fallen | — | Farm, Engineer, Accelerator, EvolvedKingpin, EvolvedJuggernaut | [Open](3-2026-11-25-00-58-46.txt) |
 | 4 | 2026-11-25 21:12 UTC | Fallen | — | Farm, Engineer, Accelerator, EvolvedKingpin, EvolvedJuggernaut | [Open](4-2026-11-25-21-12-23.txt) |
 | 5 | 2026-11-25 21:16 UTC | Fallen | — | Farm, Engineer, Accelerator, EvolvedKingpin, EvolvedJuggernaut | [Open](5-2026-11-25-21-16-48.txt) |
+| 6 | 2026-11-25 21:30 UTC | Fallen | — | Farm, Engineer, Accelerator, EvolvedKingpin, EvolvedJuggernaut | [Open](6-2026-11-25-21-30-52.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
