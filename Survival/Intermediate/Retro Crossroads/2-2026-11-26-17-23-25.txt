@@ -1,0 +1,157 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Crook Boss", "Commander", "Ace Pilot", "Militant", "None")
+TDS:Mode("Intermediate")
+TDS:GameInfo("Retro Crossroads", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Militant", -119.8388442993164, -44.53631591796875, 36.512306213378906)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Militant", -118.02287292480469, -44.53631591796875, 34.07430648803711)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Ace Pilot", -121.47349548339844, -44.53631591796875, 33.94919967651367)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Place("Commander", -116.85951232910156, -44.53631591796875, 36.88290023803711)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Crook Boss", -126.11172485351562, -44.53631591796875, 29.28021812438965)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+TDS:VoteSkip(10)
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:VoteSkip(12)
+TDS:Place("Crook Boss", -126.11172485351562, -44.486289978027344, 32.32021713256836)
+
+-- [ Wave 13 ] --
+TDS:Place("Crook Boss", -123.19993591308594, -44.53631591796875, 31.446674346923828)
+
+-- [ Wave 14 ] --
+TDS:Place("Crook Boss", -120.89769744873047, -44.53631591796875, 29.463672637939453)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Place("Ace Pilot", -118.30270385742188, -44.53631591796875, 31.047212600708008)
+TDS:Place("Ace Pilot", -124.19693756103516, -44.486289978027344, 35.29960250854492)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(3)
+TDS:Upgrade(10)
+
+-- [ Wave 19 ] --
+TDS:Place("Militant", -122.56233215332031, -44.53631591796875, 37.862945556640625)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(7)
+TDS:VoteSkip(19)
+
+-- [ Wave 20 ] --
+TDS:Place("Commander", -120.00101470947266, -44.53631591796875, 39.547977447509766)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(3)
+TDS:Upgrade(9)
+TDS:Place("Militant", -124.49060821533203, -44.486289978027344, 40.17087936401367)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(11)
+TDS:Upgrade(13)
+TDS:Place("Commander", -115.54144287109375, -44.53631591796875, 32.31814193725586)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 29 ] --
+TDS:Place("Crook Boss", -115.82157135009766, -44.53631591796875, 29.29107666015625)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+TDS:Upgrade(4)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(14)
+TDS:Upgrade(4)
+TDS:Upgrade(12)
+
+-- [[ END OF STRATEGY ]]
