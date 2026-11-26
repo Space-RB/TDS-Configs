@@ -16,9 +16,8 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Rocket Arena | 1 | [Open](Rocket%20Arena/README.md) |
+| Simplicity | 89 | [Open](Simplicity/README.md) |
 
-| Simplicity | 88 | [Open](Simplicity/README.md) |
 | Unknown | 86 | [Open](Unknown/README.md) |
 | Lay By | 42 | [Open](Lay%20By/README.md) |
 | Cataclysm | 22 | [Open](Cataclysm/README.md) |
@@ -46,6 +45,7 @@ Choose one of the categories below to continue.
 | Lighthaos | 1 | [Open](Lighthaos/README.md) |
 | Night Station | 1 | [Open](Night%20Station/README.md) |
 | Portland | 1 | [Open](Portland/README.md) |
+| Rocket Arena | 1 | [Open](Rocket%20Arena/README.md) |
 | The Heights | 1 | [Open](The%20Heights/README.md) |
 </div>
 
