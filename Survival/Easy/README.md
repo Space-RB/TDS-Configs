@@ -16,13 +16,12 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Retro Crossroads | 2 | [Open](Retro%20Crossroads/README.md) |
+| Lay By | 6 | [Open](Lay%20By/README.md) |
 
 | Unknown | 103 | [Open](Unknown/README.md) |
 | Gilded Path | 72 | [Open](Gilded%20Path/README.md) |
 | Dead Ahead | 55 | [Open](Dead%20Ahead/README.md) |
 | Black Spot Exchange | 6 | [Open](Black%20Spot%20Exchange/README.md) |
-| Lay By | 5 | [Open](Lay%20By/README.md) |
 | Coral Deep | 3 | [Open](Coral%20Deep/README.md) |
 | Mason Arch | 3 | [Open](Mason%20Arch/README.md) |
 | Simplicity | 3 | [Open](Simplicity/README.md) |
@@ -33,6 +32,7 @@ Choose one of the categories below to continue.
 | Four Seasons | 2 | [Open](Four%20Seasons/README.md) |
 | Grass Isle | 2 | [Open](Grass%20Isle/README.md) |
 | Night Station | 2 | [Open](Night%20Station/README.md) |
+| Retro Crossroads | 2 | [Open](Retro%20Crossroads/README.md) |
 | Winter Stronghold | 2 | [Open](Winter%20Stronghold/README.md) |
 | Construction Crazy | 1 | [Open](Construction%20Crazy/README.md) |
 | Cyber City | 1 | [Open](Cyber%20City/README.md) |
