@@ -1,0 +1,70 @@
+_G.AutoGatling = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.GUICardTransparency = 100
+_G.GUIClickSound = true
+_G.GUIClickSoundVolume = 93
+_G.GUIMusicId = "9043887091"
+_G.GUISectionTransparency = 100
+_G.GUISidebarTransparency = 100
+_G.GUIWallpaperDim = 0
+_G.GUIWallpaperId = "IMG_4990.jpeg"
+_G.GUIWallpaperTransparency = 1
+_G.GUIWindowTransparency = 100
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {beta_wave_reload = true, show_bullet_lines = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Soldier", "Demoman", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Gilded Path", {"ExplodingEnemies", "Glass", "Limitation"})
+TDS:Ready()
+TDS:Place("Soldier", -0.5269312858581543, 0.9642809629440308, 17.869281768798828)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+TDS:Place("Soldier", -1.7794357538223267, 0.9786531925201416, 15.09929370880127)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+TDS:Place("Soldier", 1.316439151763916, 0.9555478096008301, 15.427906036376953)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Demoman", 2.522038459777832, 0.9672849178314209, 25.77528953552246)
+TDS:Upgrade(4)
+TDS:Place("Demoman", -5.415435791015625, 0.9816391468048096, 23.549732208251953)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Place("Gatling Gun", 0.247314453125, 0.9375532865524292, 9.689519882202148)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(6)
+
+-- [[ END OF STRATEGY ]]
