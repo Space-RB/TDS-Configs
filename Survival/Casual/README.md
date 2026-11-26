@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Rocket Arena | 1 | [Open](Rocket%20Arena/README.md) |
+| Rocket Arena | 2 | [Open](Rocket%20Arena/README.md) |
 
 | Unknown | 16 | [Open](Unknown/README.md) |
 | Dead Ahead | 11 | [Open](Dead%20Ahead/README.md) |
