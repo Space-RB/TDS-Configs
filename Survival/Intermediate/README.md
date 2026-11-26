@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Four Seasons | 1 | [Open](Four%20Seasons/README.md) |
+| Retro Crossroads | 2 | [Open](Retro%20Crossroads/README.md) |
 
 | Lay By | 6 | [Open](Lay%20By/README.md) |
 | Unknown | 6 | [Open](Unknown/README.md) |
@@ -31,13 +31,13 @@ Choose one of the categories below to continue.
 | Candy Valley | 1 | [Open](Candy%20Valley/README.md) |
 | Coral Deep | 1 | [Open](Coral%20Deep/README.md) |
 | Forest Camp | 1 | [Open](Forest%20Camp/README.md) |
+| Four Seasons | 1 | [Open](Four%20Seasons/README.md) |
 | Harbor | 1 | [Open](Harbor/README.md) |
 | Infernal Abyss | 1 | [Open](Infernal%20Abyss/README.md) |
 | Mason Arch | 1 | [Open](Mason%20Arch/README.md) |
 | Medieval Times | 1 | [Open](Medieval%20Times/README.md) |
 | Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 | Night Station | 1 | [Open](Night%20Station/README.md) |
-| Retro Crossroads | 1 | [Open](Retro%20Crossroads/README.md) |
 | Retro Zone | 1 | [Open](Retro%20Zone/README.md) |
 | Tropical Isles | 1 | [Open](Tropical%20Isles/README.md) |
 | U-Turn | 1 | [Open](U-Turn/README.md) |
