@@ -16,10 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Dead Ahead | 55 | [Open](Dead%20Ahead/README.md) |
+| Retro Crossroads | 2 | [Open](Retro%20Crossroads/README.md) |
 
 | Unknown | 103 | [Open](Unknown/README.md) |
 | Gilded Path | 72 | [Open](Gilded%20Path/README.md) |
+| Dead Ahead | 55 | [Open](Dead%20Ahead/README.md) |
 | Black Spot Exchange | 6 | [Open](Black%20Spot%20Exchange/README.md) |
 | Lay By | 5 | [Open](Lay%20By/README.md) |
 | Coral Deep | 3 | [Open](Coral%20Deep/README.md) |
@@ -40,7 +41,6 @@ Choose one of the categories below to continue.
 | Northern Lights | 1 | [Open](Northern%20Lights/README.md) |
 | Pier Pressure | 1 | [Open](Pier%20Pressure/README.md) |
 | Portland | 1 | [Open](Portland/README.md) |
-| Retro Crossroads | 1 | [Open](Retro%20Crossroads/README.md) |
 | Retro Lighthouse | 1 | [Open](Retro%20Lighthouse/README.md) |
 | Ruby Escort | 1 | [Open](Ruby%20Escort/README.md) |
 | The Heights | 1 | [Open](The%20Heights/README.md) |
