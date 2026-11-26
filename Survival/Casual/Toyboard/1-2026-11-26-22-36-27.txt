@@ -1,0 +1,18 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Farm", "Commander", "DJ Booth", "None", "None")
+TDS:Mode("Casual")
+TDS:GameInfo("Toyboard", {})
+TDS:Ready()
+TDS:Place("Farm", -8.873200416564941, 1.6870002746582031, -39.74188232421875)
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
