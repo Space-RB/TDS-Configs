@@ -16,11 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Midnight Issue | 2 | [Open](Midnight%20Issue/README.md) |
+| Lay By | 43 | [Open](Lay%20By/README.md) |
 
 | Simplicity | 91 | [Open](Simplicity/README.md) |
 | Unknown | 86 | [Open](Unknown/README.md) |
-| Lay By | 42 | [Open](Lay%20By/README.md) |
 | Cataclysm | 23 | [Open](Cataclysm/README.md) |
 | U-Turn | 11 | [Open](U-Turn/README.md) |
 | Crossroads | 6 | [Open](Crossroads/README.md) |
@@ -37,6 +36,7 @@ Choose one of the categories below to continue.
 | Coral Deep | 2 | [Open](Coral%20Deep/README.md) |
 | Farm Lands | 2 | [Open](Farm%20Lands/README.md) |
 | Grass Isle | 2 | [Open](Grass%20Isle/README.md) |
+| Midnight Issue | 2 | [Open](Midnight%20Issue/README.md) |
 | Northern Lights | 2 | [Open](Northern%20Lights/README.md) |
 | Sky Islands | 2 | [Open](Sky%20Islands/README.md) |
 | Crystal Cave | 1 | [Open](Crystal%20Cave/README.md) |
