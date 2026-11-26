@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 107 recorded strategies available for this map**
+**📦 108 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -126,6 +126,7 @@ Select a strategy below and open its config file.
 | 105 | 2026-11-26 08:56 UTC | Frost | — | EvolvedJuggernaut, EvolvedKingpin, Golden Scout, Hacker, DJ Booth | [Open](105-2026-11-26-08-56-35.txt) |
 | 106 | 2026-11-26 16:21 UTC | Frost | — | Brawler, Shotgunner, Pyromancer, Commander, None | [Open](106-2026-11-26-16-21-30.txt) |
 | 107 | 2026-11-26 16:25 UTC | Frost | — | Brawler, Shotgunner, Pyromancer, Commander, None | [Open](107-2026-11-26-16-25-07.txt) |
+| 108 | 2026-11-26 16:52 UTC | Frost | — | Brawler, Shotgunner, Pyromancer, Commander, Militant | [Open](108-2026-11-26-16-52-46.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
