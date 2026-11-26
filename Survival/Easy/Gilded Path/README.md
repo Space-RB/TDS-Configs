@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 71 recorded strategies available for this map**
+**📦 72 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -90,6 +90,7 @@ Select a strategy below and open its config file.
 | 69 | 2026-11-20 08:06 UTC | Easy | ExplodingEnemies, Glass, HiddenEnemies | Shotgunner, Soldier, None | [Open](69-2026-11-20-08-06-23.txt) |
 | 70 | 2026-11-24 09:31 UTC | Easy | ExplodingEnemies, Glass, Limitation | Electroshocker, Shotgunner, Soldier, Demoman, EvolvedJuggernaut | [Open](70-2026-11-24-09-31-02.txt) |
 | 71 | 2026-11-24 09:36 UTC | Easy | ExplodingEnemies, Glass, Limitation | Electroshocker, Shotgunner, Soldier, Demoman, EvolvedJuggernaut | [Open](71-2026-11-24-09-36-26.txt) |
+| 72 | 2026-11-26 12:17 UTC | Easy | ExplodingEnemies, Glass, Limitation | Gatling Gun, Soldier, Demoman, None | [Open](72-2026-11-26-12-17-13.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
