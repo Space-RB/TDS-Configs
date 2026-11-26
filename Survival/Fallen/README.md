@@ -16,11 +16,12 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Cataclysm | 23 | [Open](Cataclysm/README.md) |
+| Midnight Issue | 1 | [Open](Midnight%20Issue/README.md) |
 
 | Simplicity | 91 | [Open](Simplicity/README.md) |
 | Unknown | 86 | [Open](Unknown/README.md) |
 | Lay By | 42 | [Open](Lay%20By/README.md) |
+| Cataclysm | 23 | [Open](Cataclysm/README.md) |
 | U-Turn | 11 | [Open](U-Turn/README.md) |
 | Crossroads | 6 | [Open](Crossroads/README.md) |
 | Dusty Bridges | 6 | [Open](Dusty%20Bridges/README.md) |
