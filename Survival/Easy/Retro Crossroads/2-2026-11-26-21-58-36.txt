@@ -1,0 +1,127 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Farm", "Minigunner", "Paintballer", "Boomerang", "Militant")
+TDS:Mode("Easy")
+TDS:GameInfo("Retro Crossroads", {})
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Boomerang", -120.48938751220703, -44.53631591796875, 35.29553985595703)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", -116.55818176269531, -44.53631591796875, 60.294212341308594)
+TDS:Place("Farm", -120.09571838378906, -44.53631591796875, 60.42619705200195)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:Place("Farm", -119.7483901977539, -44.53631591796875, 64.18305206298828)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Place("Paintballer", -125.71391296386719, -44.53631591796875, 29.676162719726562)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+TDS:Place("Farm", -116.08773040771484, -44.53631591796875, 64.35643005371094)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Farm", -112.55288696289062, -44.53631591796875, 64.16548919677734)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:Place("Paintballer", -125.77198791503906, -44.53631591796875, 2.4249305725097656)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(8)
+TDS:Place("Farm", -112.2964859008789, -44.53631591796875, 60.54895782470703)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Farm", -123.61185455322266, -44.53631591796875, 60.03904724121094)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Farm", -123.52945709228516, -44.53631591796875, 64.28158569335938)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Farm", -127.1867904663086, -44.41131591796875, 60.248172760009766)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Farm", -127.54717254638672, -44.41131591796875, 64.38169860839844)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Minigunner", -121.44219207763672, -44.53631591796875, 38.18236541748047)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(10)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(13)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(8)
+TDS:Place("Paintballer", -125.58320617675781, -44.53631591796875, 14.729817390441895)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 19 ] --
+TDS:Place("Minigunner", -123.46585083007812, -44.486289978027344, 35.91379928588867)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Place("Militant", -122.42395782470703, -44.53631591796875, 32.950538635253906)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(16)
+
+-- [[ END OF STRATEGY ]]
