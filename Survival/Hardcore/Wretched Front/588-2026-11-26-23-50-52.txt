@@ -1,0 +1,151 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Minigunner", "Turret", "Farm", "Boomerang", "EvolvedOperator")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("EvolvedOperator", 10.923186302185059, 0.3015521168708801, 11.256503105163574)
+TDS:Place("Farm", 8.9536771774292, 1.3253268003463745, 35.38072204589844)
+TDS:Place("Farm", 12.522080421447754, 1.2540779113769531, 35.40862274169922)
+TDS:Place("Farm", 16.210227966308594, 1.1831839084625244, 35.32917022705078)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", 19.72692108154297, 1.070034384727478, 35.73472213745117)
+TDS:Place("Farm", 23.25501251220703, 1.0372778177261353, 35.444580078125)
+TDS:Upgrade(6)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", 21.618515014648438, 1.0048571825027466, 32.10702896118164)
+TDS:Upgrade(7)
+TDS:Upgrade(5)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+TDS:Place("Farm", 21.632465362548828, 0.920856237411499, 28.56705665588379)
+TDS:Upgrade(8)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(6)
+TDS:Place("Boomerang", 9.483902931213379, 1.2683665752410889, 22.244274139404297)
+TDS:Upgrade(9)
+TDS:Upgrade(5)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(9)
+TDS:Place("Farm", 21.367149353027344, 0.8442233800888062, 24.931106567382812)
+TDS:Upgrade(10)
+TDS:Place("Farm", 21.491357803344727, 0.7207139134407043, 21.39329719543457)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Place("Boomerang", 6.385556221008301, 1.3318982124328613, 22.364013671875)
+TDS:Upgrade(12)
+
+-- [ Wave 11 ] --
+TDS:Place("Minigunner", 5.979161262512207, 1.3942389488220215, 28.179405212402344)
+TDS:Upgrade(2)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:Place("Boomerang", 3.2182064056396484, 1.3517035245895386, 22.056825637817383)
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(14)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(14)
+TDS:Upgrade(1)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 18 ] --
+TDS:Place("EvolvedOperator", -13.222890853881836, -0.5331267714500427, 0.9113016128540039)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("EvolvedOperator", -3.8684744834899902, 1.3855650424957275, 40.466522216796875)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(16)
+TDS:Place("Minigunner", 5.559647560119629, 1.393107295036316, 31.190319061279297)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Minigunner", 2.856410026550293, 1.4231607913970947, 27.773893356323242)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Minigunner", 2.520772933959961, 1.4337130784988403, 31.107616424560547)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("EvolvedOperator", -1.338820457458496, 0.9736853837966919, -31.628334045410156)
+TDS:Upgrade(20)
+TDS:Place("EvolvedOperator", -2.969599723815918, 0.2139180302619934, -16.184030532836914)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(21)
+
+-- [ Wave 22 ] --
+TDS:Place("Minigunner", -0.18254327774047852, 1.4520900249481201, 27.853654861450195)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Place("Minigunner", -0.8417575359344482, 1.4659115076065063, 31.336200714111328)
+TDS:Upgrade(23)
+
+-- [[ END OF STRATEGY ]]
