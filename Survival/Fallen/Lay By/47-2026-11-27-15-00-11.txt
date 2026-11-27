@@ -1,0 +1,179 @@
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoStarCannon = true
+_G.StarCannonMin = 100
+_G.TimeScaleEnabled = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Star Cannon", "Military Base", "Trapper", "Mercenary Base")
+TDS:Mode("Fallen")
+TDS:GameInfo("Lay By", {"Committed", "ExplodingEnemies", "Fog", "Glass", "HiddenEnemies", "Limitation"})
+TDS:Ready()
+TDS:Place("Trapper", -2.508138656616211, 242.99996948242188, 235.9278106689453)
+
+-- [ Wave 1 ] --
+TDS:Place("Trapper", -2.508138656616211, 242.99996948242188, 232.8878173828125)
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", 2.995044708251953, 242.99996948242188, 235.94351196289062)
+
+-- [ Wave 3 ] --
+TDS:Place("Trapper", 2.533395767211914, 242.99998474121094, 232.91802978515625)
+TDS:Place("Trapper", -2.508138656616211, 242.99998474121094, 229.8478240966797)
+
+-- [ Wave 4 ] --
+TDS:Place("Trapper", 2.533395767211914, 242.99998474121094, 229.87803649902344)
+
+-- [ Wave 5 ] --
+TDS:Place("Trapper", -2.508138656616211, 242.99998474121094, 226.80783081054688)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", -6.523223876953125, 245.8369140625, 216.21807861328125)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 17 ] --
+TDS:Place("Military Base", -14.112286567687988, 242.99998474121094, 223.65908813476562)
+TDS:Place("Military Base", -18.333232879638672, 242.99998474121094, 221.98719787597656)
+TDS:Place("Military Base", -14.844396591186523, 242.99998474121094, 219.08209228515625)
+
+-- [ Wave 18 ] --
+TDS:Place("Military Base", -22.599655151367188, 242.99998474121094, 220.43502807617188)
+TDS:Place("Military Base", -19.110820770263672, 242.99998474121094, 217.52992248535156)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(11)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+
+-- [ Wave 28 ] --
+TDS:Place("Mercenary Base", -2.5597801208496094, 242.99998474121094, 217.8597869873047)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+
+-- [ Wave 36 ] --
+TDS:Place("Mercenary Base", -2.7781028747558594, 242.99998474121094, 213.2350311279297)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Mercenary Base", -2.7761688232421875, 242.99998474121094, 208.69503784179688)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Star Cannon", -7.218871593475342, 245.92379760742188, 211.22630310058594)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 38 ] --
+TDS:Upgrade(17)
+
+-- [ Wave 40 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
