@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 45 recorded strategies available for this map**
+**📦 46 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -64,6 +64,7 @@ Select a strategy below and open its config file.
 | 43 | 2026-11-22 22:31 UTC | Fallen | — | Minigunner, Brawler, EvolvedJuggernaut, None | [Open](43-2026-11-22-22-31-37.txt) |
 | 44 | 2026-11-26 21:27 UTC | Fallen | Committed, Fog, HiddenEnemies | Gatling Gun, DJ Booth, Mercenary Base, Trapper, Hacker | [Open](44-2026-11-26-21-27-39.txt) |
 | 45 | 2026-11-27 14:04 UTC | Fallen | Committed, ExplodingEnemies, Fog, Glass, HiddenEnemies, Limitation | Gatling Gun, Star Cannon, Military Base, Trapper, Mercenary Base | [Open](45-2026-11-27-14-04-45.txt) |
+| 46 | 2026-11-27 14:15 UTC | Fallen | Committed, ExplodingEnemies, Fog, Glass, HiddenEnemies, Limitation | Gatling Gun, Star Cannon, Military Base, Trapper, Mercenary Base | [Open](46-2026-11-27-14-15-00.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
