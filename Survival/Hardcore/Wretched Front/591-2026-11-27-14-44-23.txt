@@ -1,0 +1,183 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoMoonPuzzle = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.AutoStarCannon = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StarCannonMin = 100
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Farm", "Military Base", "Electroshocker", "Crook Boss", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Farm", -11.597580909729004, 1.3192085027694702, 37.576881408691406)
+TDS:Upgrade(1)
+TDS:Place("Farm", -11.815410614013672, 1.4133926630020142, 33.68622589111328)
+TDS:Upgrade(2)
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", -11.503252983093262, 1.494039535522461, 29.87180519104004)
+TDS:Upgrade(3)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Place("Farm", -11.533500671386719, 1.548149824142456, 26.331911087036133)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Place("Electroshocker", 9.889289855957031, 1.296310305595398, 22.568050384521484)
+TDS:Upgrade(5)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", -15.137578010559082, 1.345931887626648, 37.58102035522461)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Farm", -15.337015151977539, 1.5036908388137817, 34.0466423034668)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(7)
+TDS:Place("Electroshocker", 6.849289894104004, 1.3359074592590332, 22.568050384521484)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Place("Crook Boss", 3.809795379638672, 1.3668389320373535, 22.512611389160156)
+TDS:Upgrade(9)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(9)
+TDS:Place("Farm", -15.142675399780273, 1.553904414176941, 30.511980056762695)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Farm", -15.460006713867188, 1.5497969388961792, 26.927642822265625)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Farm", -18.62713623046875, 1.254702091217041, 38.176490783691406)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Farm", -18.82657241821289, 1.4504871368408203, 34.642112731933594)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Place("Electroshocker", 12.924182891845703, 1.1747453212738037, 22.391910552978516)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Electroshocker", 4.129624843597412, 1.1921143531799316, 19.489482879638672)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(15)
+TDS:Place("Electroshocker", 7.169118881225586, 1.047424077987671, 19.544921875)
+TDS:Place("Electroshocker", 10.209117889404297, 0.9102510809898376, 19.544921875)
+TDS:Place("Electroshocker", 13.244010925292969, 0.9980907440185547, 19.36878204345703)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(8)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(14)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+
+-- [ Wave 22 ] --
+TDS:Place("Military Base", 17.271942138671875, 1.1886237859725952, 41.675994873046875)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(15)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(18)
+
+-- [ Wave 30 ] --
+TDS:Place("Military Base", 21.06848907470703, 1.0321002006530762, 39.18644714355469)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Military Base", 12.868708610534668, 1.2626919746398926, 40.57004165649414)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+
+-- [[ END OF STRATEGY ]]
