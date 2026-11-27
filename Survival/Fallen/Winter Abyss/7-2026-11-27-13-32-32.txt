@@ -1,0 +1,175 @@
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoStarCannon = true
+_G.ClaimRewards = true
+_G.MatchTrackerEnabled = false
+_G.StarCannonMin = 100
+_G.AutoGatlingSettings = {beta_wave_reload = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Star Cannon", "Military Base", "Trapper", "Mercenary Base")
+TDS:Mode("Fallen")
+TDS:GameInfo("Winter Abyss", {"Committed", "ExplodingEnemies", "Fog", "Glass", "HiddenEnemies", "Limitation", "Quarantine"})
+TDS:Ready()
+TDS:Place("Trapper", -11.051298141479492, 2.0917835235595703, 20.671222686767578, true)
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", -12.349428176879883, 2.1311404705047607, 20.796180725097656, true)
+TDS:Place("Trapper", -10.29366683959961, 2.3965229988098145, 23.550220489501953, true)
+
+-- [ Wave 4 ] --
+TDS:Place("Trapper", -11.69425106048584, 2.059763193130493, 22.319232940673828, true)
+TDS:Place("Trapper", -11.80221939086914, 2.0652434825897217, 22.25335693359375, true)
+
+-- [ Wave 5 ] --
+TDS:Place("Trapper", -5.6611433029174805, 2.403184652328491, 20.264663696289062, true)
+TDS:Place("Trapper", -8.172603607177734, 2.3948259353637695, 24.113739013671875, true)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1, true)
+TDS:Upgrade(3, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(7, true)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(5, true)
+
+-- [ Wave 9 ] --
+TDS:Place("Gatling Gun", -5.911516189575195, 4.783177852630615, 11.093832015991211)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(8)
+TDS:Place("Military Base", -20.79966163635254, 2.4842634201049805, 2.9448070526123047, true)
+TDS:Place("Military Base", -21.050472259521484, 2.4987597465515137, 2.894385814666748, true)
+TDS:Place("Military Base", -19.880510330200195, 2.4404611587524414, 2.5644235610961914, true)
+TDS:Place("Military Base", -19.370710372924805, 2.411445140838623, 2.6396727561950684, true)
+TDS:Place("Military Base", -18.17107582092285, 2.348055362701416, 2.520327091217041, true)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(13, true)
+TDS:Upgrade(13, true)
+TDS:Upgrade(13, true)
+TDS:Upgrade(12, true)
+TDS:Upgrade(12, true)
+TDS:Upgrade(12, true)
+TDS:Upgrade(9, true)
+TDS:Upgrade(9, true)
+TDS:Upgrade(9, true)
+TDS:Upgrade(10, true)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(11, true)
+TDS:Upgrade(10, true)
+TDS:Upgrade(10, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(11, true)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 23 ] --
+TDS:Place("Mercenary Base", -7.741931915283203, 1.9818100929260254, 7.645362854003906, true)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(14, true)
+TDS:Upgrade(14, true)
+TDS:Upgrade(14, true)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(10, true)
+TDS:Upgrade(13, true)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(9, true)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(12, true)
+TDS:Upgrade(11, true)
+TDS:Upgrade(14, true)
+TDS:Upgrade(14, true)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(13, true)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(12, true)
+TDS:Upgrade(9, true)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(10, true)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(11, true)
+
+-- [ Wave 36 ] --
+TDS:Place("Star Cannon", -0.844641923904419, 5.459616184234619, 9.575672149658203, true)
+TDS:Upgrade(14, true)
+TDS:Upgrade(15, true)
+TDS:Upgrade(15, true)
+TDS:Upgrade(15, true)
+
+-- [ Wave 37 ] --
+TDS:Place("Mercenary Base", -6.093535900115967, 2.403156280517578, 4.805418968200684, true)
+TDS:Place("Mercenary Base", -4.743380546569824, 1.9942511320114136, 4.732161998748779, true)
+
+-- [ Wave 38 ] --
+TDS:Upgrade(15, true)
+TDS:Upgrade(17, true)
+TDS:Upgrade(17, true)
+TDS:Upgrade(17, true)
+TDS:Upgrade(17, true)
+TDS:Upgrade(17, true)
+TDS:Upgrade(17, true)
+TDS:Upgrade(16, true)
+TDS:Upgrade(16, true)
+TDS:Upgrade(16, true)
+TDS:Upgrade(16, true)
+TDS:Upgrade(16, true)
+TDS:Upgrade(16, true)
+
+-- [ Wave 40 ] --
+TDS:Upgrade(3, true)
+TDS:Upgrade(3, true)
+TDS:Upgrade(3, true)
+TDS:Upgrade(7, true)
+TDS:Upgrade(7, true)
+TDS:Upgrade(7, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(1, true)
+TDS:Upgrade(1, true)
+TDS:Upgrade(1, true)
+TDS:Upgrade(2, true)
+TDS:Upgrade(2, true)
+TDS:Upgrade(2, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(4, true)
+TDS:Upgrade(5, true)
+TDS:Upgrade(5, true)
+TDS:Upgrade(5, true)
+
+-- [[ END OF STRATEGY ]]
