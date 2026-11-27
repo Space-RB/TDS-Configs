@@ -1,0 +1,49 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedJuggernaut", "Hunter", "Pyromancer", "Military Base", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", -7.011161804199219, 0.9662809371948242, -32.15650177001953)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 11 ] --
+TDS:Place("Hunter", 4.119213104248047, 1.356618881225586, 22.352828979492188)
+
+-- [ Wave 13 ] --
+TDS:Place("Hunter", 4.44770622253418, 1.1441110372543335, 19.330629348754883)
+
+-- [ Wave 14 ] --
+TDS:Place("Hunter", 0.9772696495056152, 1.3944246768951416, 22.655597686767578)
+
+-- [ Wave 16 ] --
+TDS:Place("Hunter", 1.4515767097473145, 1.343835473060608, 19.561933517456055)
+
+-- [ Wave 20 ] --
+TDS:Place("EvolvedJuggernaut", 8.15562915802002, 1.2907836437225342, 22.239147186279297)
+
+-- [ Wave 21 ] --
+TDS:Place("Military Base", 30.81653594970703, 0.6991303563117981, 31.14627456665039)
+
+-- [[ END OF STRATEGY ]]
