@@ -16,10 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Infernal Abyss | 3 | [Open](Infernal%20Abyss/README.md) |
+| Dev | 15 | [Open](Dev/README.md) |
 
 | Lay By | 19 | [Open](Lay%20By/README.md) |
-| Dev | 14 | [Open](Dev/README.md) |
+| Infernal Abyss | 3 | [Open](Infernal%20Abyss/README.md) |
 | Polluted Wasteland II | 1 | [Open](Polluted%20Wasteland%20II/README.md) |
 </div>
 
