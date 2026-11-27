@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 609 recorded strategies available for this map**
+**📦 610 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -628,6 +628,7 @@ Select a strategy below and open its config file.
 | 607 | 2026-11-27 18:00 UTC | Hardcore | — | Boomerang, Crook Boss, Farm, Military Base, EvolvedJuggernaut | [Open](607-2026-11-27-18-00-03.txt) |
 | 608 | 2026-11-27 18:04 UTC | Hardcore | — | Golden Pyromancer, Shotgunner, EvolvedKingpin, Military Base, Gatling Gun | [Open](608-2026-11-27-18-04-15.txt) |
 | 609 | 2026-11-27 18:08 UTC | Hardcore | — | EvolvedJuggernaut, Hunter, Pyromancer, Military Base, None | [Open](609-2026-11-27-18-08-23.txt) |
+| 610 | 2026-11-27 18:20 UTC | Hardcore | — | Farm, Military Base, Boomerang, Golden Crook Boss, Minigunner | [Open](610-2026-11-27-18-20-17.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
