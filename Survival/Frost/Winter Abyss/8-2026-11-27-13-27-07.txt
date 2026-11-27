@@ -1,0 +1,74 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Mercenary Base", "DJ Booth", "Trapper", "Military Base")
+TDS:Mode("Frost")
+TDS:GameInfo("Winter Abyss", {"HiddenEnemies"})
+TDS:Ready()
+TDS:Place("Trapper", -5.84596061706543, 1.9866702556610107, 3.318683624267578)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", -10.911312103271484, 2.078233242034912, 2.6832056045532227)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Place("Trapper", -10.911312103271484, 2.0331003665924072, -0.3567943572998047)
+TDS:Upgrade(3)
+TDS:Place("Trapper", -6.702537536621094, 1.9737539291381836, 6.2696757316589355)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Trapper", -9.418251037597656, 1.9975961446762085, 7.57602596282959)
+TDS:Place("Trapper", -13.719961166381836, 2.1068837642669678, 3.8465776443481445)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", -9.821396827697754, 7.2647929191589355, -36.56269073486328)
+
+-- [ Wave 12 ] --
+TDS:Place("DJ Booth", -5.626954078674316, 4.972055912017822, -39.50691604614258)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Place("Mercenary Base", -10.345246315002441, 4.977243900299072, -40.64509963989258)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]
