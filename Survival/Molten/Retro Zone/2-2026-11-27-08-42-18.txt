@@ -1,0 +1,28 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Shotgunner", "Engineer", "Farm", "Boomerang", "EvolvedJuggernaut")
+TDS:Mode("Molten")
+TDS:GameInfo("Retro Zone", {})
+TDS:Ready()
+TDS:Place("Boomerang", -62.407379150390625, 30.861268997192383, -40.509056091308594)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Boomerang", -58.74569320678711, 30.861268997192383, -40.438392639160156)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Boomerang", -65.71449279785156, 30.861268997192383, -40.301109313964844)
+TDS:Upgrade(3)
+
+-- [[ END OF STRATEGY ]]
