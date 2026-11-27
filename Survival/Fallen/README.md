@@ -16,11 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Spring Fever | 1 | [Open](Spring%20Fever/README.md) |
+| Lay By | 44 | [Open](Lay%20By/README.md) |
 
 | Simplicity | 92 | [Open](Simplicity/README.md) |
 | Unknown | 86 | [Open](Unknown/README.md) |
-| Lay By | 43 | [Open](Lay%20By/README.md) |
 | Cataclysm | 23 | [Open](Cataclysm/README.md) |
 | U-Turn | 11 | [Open](U-Turn/README.md) |
 | Winter Abyss | 8 | [Open](Winter%20Abyss/README.md) |
@@ -48,6 +47,7 @@ Choose one of the categories below to continue.
 | Night Station | 1 | [Open](Night%20Station/README.md) |
 | Portland | 1 | [Open](Portland/README.md) |
 | Rocket Arena | 1 | [Open](Rocket%20Arena/README.md) |
+| Spring Fever | 1 | [Open](Spring%20Fever/README.md) |
 | The Heights | 1 | [Open](The%20Heights/README.md) |
 </div>
 
