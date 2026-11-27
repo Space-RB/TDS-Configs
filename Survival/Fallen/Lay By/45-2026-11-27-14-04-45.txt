@@ -1,0 +1,52 @@
+_G.AutoGatling = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Star Cannon", "Military Base", "Trapper", "Mercenary Base")
+TDS:Mode("Fallen")
+TDS:GameInfo("Lay By", {"Committed", "ExplodingEnemies", "Fog", "Glass", "HiddenEnemies", "Limitation"})
+TDS:Ready()
+TDS:Place("Trapper", 3.9879989624023438, 242.99998474121094, 214.84397888183594)
+
+-- [ Wave 1 ] --
+TDS:Place("Trapper", 2.5237503051757812, 242.99998474121094, 217.4703826904297)
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", 2.5237503051757812, 242.99998474121094, 220.5103759765625)
+
+-- [ Wave 3 ] --
+TDS:Place("Trapper", 2.5237503051757812, 242.99998474121094, 223.5503692626953)
+
+-- [ Wave 4 ] --
+TDS:Place("Trapper", -2.517925262451172, 242.99998474121094, 224.1025390625)
+TDS:Place("Trapper", -2.517925262451172, 243.12417602539062, 221.0625457763672)
+
+-- [ Wave 5 ] --
+TDS:Place("Trapper", -2.517925262451172, 242.99998474121094, 227.1425323486328)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", -5.345297813415527, 245.82969665527344, 216.28970336914062)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(8)
+
+-- [[ END OF STRATEGY ]]
