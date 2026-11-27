@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 4 recorded strategies available for this map**
+**📦 5 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -22,6 +22,7 @@ Select a strategy below and open its config file.
 
 | 3 | 2026-11-04 10:24 UTC | Frost | — | EvolvedKingpin, Spotlight Tech, Farm, Engineer, DJ Booth | [Open](3-2026-11-04-10-24-13.txt) |
 | 4 | 2026-11-04 10:55 UTC | Frost | — | EvolvedKingpin, Spotlight Tech, Farm, Minigunner, DJ Booth | [Open](4-2026-11-04-10-55-07.txt) |
+| 5 | 2026-11-27 23:35 UTC | Frost | — | DJ Booth, Spotlight Tech, EvolvedKingpin, Farm, Engineer | [Open](5-2026-11-27-23-35-40.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
