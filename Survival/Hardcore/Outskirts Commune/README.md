@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 40 recorded strategies available for this map**
+**📦 41 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -59,6 +59,7 @@ Select a strategy below and open its config file.
 | 38 | 2026-11-22 04:14 UTC | Hardcore | — | Gatling Gun, EvolvedKingpin, Engineer, Gladiator, Assassin | [Open](38-2026-11-22-04-14-18.txt) |
 | 39 | 2026-11-22 04:26 UTC | Hardcore | — | Gatling Gun, EvolvedKingpin, Engineer, Gladiator, Hacker | [Open](39-2026-11-22-04-26-56.txt) |
 | 40 | 2026-11-24 16:57 UTC | Hardcore | — | Electroshocker, Sniper, None | [Open](40-2026-11-24-16-57-46.txt) |
+| 41 | 2026-11-27 23:48 UTC | Hardcore | — | Electroshocker, Sniper, None | [Open](41-2026-11-27-23-48-33.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
