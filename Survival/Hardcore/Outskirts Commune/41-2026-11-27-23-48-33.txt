@@ -1,0 +1,49 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Electroshocker", "Sniper", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Outskirts Commune", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Electroshocker", -12.000171661376953, 501.3016052246094, 26.547916412353516)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Place("Electroshocker", 13.163936614990234, 501.29058837890625, 21.40609359741211)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 11 ] --
+TDS:Place("Sniper", 0.2780036926269531, 504.5487060546875, 10.575342178344727)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Place("Sniper", 2.852848529815674, 504.7577819824219, 10.21582317352295)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 14 ] --
+TDS:Place("Sniper", 0.09396052360534668, 504.81036376953125, 8.04201889038086)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [[ END OF STRATEGY ]]
