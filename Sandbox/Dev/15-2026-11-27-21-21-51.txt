@@ -1,0 +1,33 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoMoonPuzzle = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "DJ Booth", "Time Dilator", "Mercenary Base", "Gatling Gun")
+TDS:Mode("Sandbox")
+TDS:GameInfo("Dev", {})
+TDS:Ready()
+TDS:Place("Trapper", -11.87409782409668, 0.9695725440979004, 0.036805152893066406, true)
+TDS:Place("Trapper", -12.389975547790527, 0.969571590423584, 0.12812089920043945, true)
+TDS:Place("Trapper", -13.062250137329102, 0.969571590423584, -0.33925580978393555, true)
+TDS:Place("Trapper", -15.680736541748047, 0.969571590423584, -0.8115124702453613, true)
+TDS:Place("Trapper", -15.999337196350098, 0.969571590423584, -0.5791842937469482, true)
+TDS:Place("Trapper", -15.647317886352539, 0.969571590423584, 0.2843163013458252, true)
+
+-- [[ END OF STRATEGY ]]
