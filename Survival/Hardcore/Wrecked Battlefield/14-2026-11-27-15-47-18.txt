@@ -1,0 +1,201 @@
+_G.AutoGatling = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.GUIWallpaperTransparency = 100
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Military Base", "Farm", "Saboteur", "EvolvedKingpin")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wrecked Battlefield", {})
+TDS:Ready()
+TDS:Place("Farm", -18.0645694732666, 3.599992036819458, 23.678775787353516)
+TDS:Place("Farm", -18.208005905151367, 3.599968433380127, 19.216846466064453)
+TDS:Place("Farm", -18.327266693115234, 3.599958896636963, 15.400123596191406)
+TDS:Place("Farm", -21.58220863342285, 3.599979877471924, 12.211097717285156)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Saboteur", -12.255788803100586, 3.599980354309082, 2.277874231338501)
+TDS:Upgrade(5)
+TDS:Place("Farm", -24.85600471496582, 3.5999832153320312, 10.610095977783203)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", -24.829463958740234, 3.5999903678894043, 14.149995803833008)
+TDS:Place("Farm", -23.008380889892578, 3.599976062774658, 17.635499954223633)
+TDS:Upgrade(8)
+
+-- [ Wave 5 ] --
+TDS:Place("Saboteur", -11.399171829223633, 3.599980354309082, 5.19481086730957)
+TDS:Upgrade(9)
+
+-- [ Wave 6 ] --
+TDS:Place("Saboteur", -12.603731155395508, 3.5999655723571777, -0.7420263290405273)
+TDS:Upgrade(10)
+TDS:Place("Farm", -22.250492095947266, 3.599958896636963, 21.86433982849121)
+TDS:Upgrade(11)
+
+-- [ Wave 7 ] --
+TDS:Place("Farm", -22.877643585205078, 3.5999958515167236, 25.52789306640625)
+TDS:Upgrade(12)
+TDS:Place("Farm", -19.928937911987305, 3.5999953746795654, 27.486652374267578)
+TDS:Upgrade(13)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", -9.452617645263672, 6.846391677856445, 1.7095634937286377)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(8)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Place("Military Base", -12.627826690673828, 0.9999656677246094, -4.4552202224731445)
+TDS:Upgrade(15)
+
+-- [ Wave 15 ] --
+TDS:Place("Military Base", -16.14722442626953, 0.999963641166687, -1.5872173309326172)
+TDS:Upgrade(16)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(5)
+TDS:Upgrade(10)
+
+-- [ Wave 17 ] --
+TDS:Place("Saboteur", -12.77076244354248, 0.9999576210975647, 6.974799633026123)
+TDS:Upgrade(17)
+TDS:Place("Saboteur", -14.409418106079102, 0.999959409236908, 4.423569202423096)
+TDS:Upgrade(18)
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(3)
+TDS:Upgrade(8)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(14)
+TDS:Place("Military Base", -8.307661056518555, 0.9999665021896362, -5.7156171798706055)
+TDS:Upgrade(19)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Place("Saboteur", -16.450448989868164, 0.9999610185623169, 2.1906332969665527)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [ Wave 22 ] --
+TDS:Place("Military Base", -4.133810043334961, 0.9999676942825317, -7.40828800201416)
+TDS:Place("Military Base", -0.13434100151062012, 0.9999691843986511, -9.556740760803223)
+TDS:Upgrade(21)
+TDS:Upgrade(22)
+TDS:Place("EvolvedKingpin", -10.064634323120117, 3.599980354309082, -2.413606643676758)
+TDS:Upgrade(23)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(23)
+TDS:Place("EvolvedKingpin", -6.797524929046631, 3.599987268447876, -3.261854410171509)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(15)
+TDS:Upgrade(19)
+TDS:Upgrade(21)
+TDS:Upgrade(22)
+TDS:Place("Saboteur", -10.6211576461792, 0.9999561309814453, 9.124526023864746)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Place("Saboteur", -16.741168975830078, 0.9999536275863647, 12.739296913146973)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(15)
+
+-- [ Wave 27 ] --
+TDS:Place("EvolvedKingpin", -3.691434383392334, 3.5999655723571777, -4.036774635314941)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+
+-- [ Wave 28 ] --
+TDS:Place("EvolvedKingpin", -1.8156380653381348, 3.5999999046325684, -0.2835195064544678)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(19)
+TDS:Upgrade(21)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(22)
+TDS:Upgrade(25)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(26)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(2)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(10)
+TDS:Upgrade(5)
+TDS:Upgrade(9)
+TDS:Upgrade(20)
+TDS:Upgrade(23)
+TDS:Upgrade(24)
+TDS:Upgrade(27)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(28)
+
+-- [[ END OF STRATEGY ]]
