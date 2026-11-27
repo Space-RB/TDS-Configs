@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 7 recorded strategies available for this map**
+**📦 8 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -26,6 +26,7 @@ Select a strategy below and open its config file.
 | 5 | 2026-11-08 15:04 UTC | Fallen | — | EvolvedKingpin, Tesla, Minigunner, Sniper, Assassin | [Open](5-2026-11-08-15-04-26.txt) |
 | 6 | 2026-11-27 13:17 UTC | Fallen | Committed, ExplodingEnemies, Fog, Glass, HiddenEnemies, Limitation, Quarantine | Gatling Gun, Star Cannon, Military Base, Trapper, Mercenary Base | [Open](6-2026-11-27-13-17-57.txt) |
 | 7 | 2026-11-27 13:32 UTC | Fallen | Committed, ExplodingEnemies, Fog, Glass, HiddenEnemies, Limitation, Quarantine | Gatling Gun, Star Cannon, Military Base, Trapper, Mercenary Base | [Open](7-2026-11-27-13-32-32.txt) |
+| 8 | 2026-11-27 13:56 UTC | Fallen | Committed, ExplodingEnemies, Fog, Glass, HiddenEnemies, Limitation, Quarantine | Gatling Gun, Star Cannon, Military Base, Trapper, Mercenary Base | [Open](8-2026-11-27-13-56-15.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
