@@ -16,9 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 27 | [Open](Simplicity/README.md) |
+| Retro Zone | 1 | [Open](Retro%20Zone/README.md) |
 
 | Unknown | 35 | [Open](Unknown/README.md) |
+| Simplicity | 27 | [Open](Simplicity/README.md) |
 | Dead Ahead | 15 | [Open](Dead%20Ahead/README.md) |
 | Black Spot Exchange | 14 | [Open](Black%20Spot%20Exchange/README.md) |
 | Retro Crossroads | 9 | [Open](Retro%20Crossroads/README.md) |
