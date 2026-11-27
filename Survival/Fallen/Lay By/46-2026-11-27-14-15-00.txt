@@ -1,0 +1,168 @@
+_G.AutoGatling = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Star Cannon", "Military Base", "Trapper", "Mercenary Base")
+TDS:Mode("Fallen")
+TDS:GameInfo("Lay By", {"Committed", "ExplodingEnemies", "Fog", "Glass", "HiddenEnemies", "Limitation"})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Trapper", 2.518857955932617, 242.99998474121094, 217.3140869140625)
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", -2.506093978881836, 242.99998474121094, 217.46751403808594)
+TDS:Place("Trapper", -2.5060935020446777, 243.1247100830078, 220.50750732421875)
+
+-- [ Wave 3 ] --
+TDS:Place("Trapper", 2.518857955932617, 242.99998474121094, 220.3540802001953)
+TDS:Place("Trapper", -2.5060925483703613, 243.12457275390625, 223.54750061035156)
+
+-- [ Wave 4 ] --
+TDS:Place("Trapper", 2.518857955932617, 242.99998474121094, 223.39407348632812)
+
+-- [ Wave 5 ] --
+TDS:Place("Trapper", -2.506092071533203, 242.99998474121094, 226.58749389648438)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Place("Gatling Gun", -6.0278778076171875, 242.99998474121094, 217.10885620117188)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 17 ] --
+TDS:Place("Military Base", -13.15528678894043, 242.99998474121094, 220.2953643798828)
+TDS:Place("Military Base", -17.693302154541016, 242.99998474121094, 220.42959594726562)
+TDS:Place("Military Base", -22.228713989257812, 242.99998474121094, 220.22552490234375)
+TDS:Place("Military Base", -14.978920936584473, 242.99998474121094, 216.13772583007812)
+TDS:Place("Military Base", -19.784276962280273, 242.99998474121094, 216.3997802734375)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(12)
+TDS:Place("Mercenary Base", -3.3350486755371094, 242.99998474121094, 213.769287109375)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(11)
+TDS:Upgrade(13)
+TDS:Upgrade(9)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(10)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+
+-- [ Wave 36 ] --
+TDS:Place("Mercenary Base", -3.3053035736083984, 242.99998474121094, 209.22938537597656)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Mercenary Base", 2.518857955932617, 242.99998474121094, 213.5240936279297)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 37 ] --
+TDS:Place("Star Cannon", -8.212096214294434, 245.9929656982422, 213.40638732910156)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 39 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
