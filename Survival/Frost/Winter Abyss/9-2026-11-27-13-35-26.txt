@@ -1,0 +1,104 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMercenary = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Mercenary Base", "DJ Booth", "Trapper", "Military Base")
+TDS:Mode("Frost")
+TDS:GameInfo("Winter Abyss", {"HiddenEnemies"})
+TDS:Ready()
+TDS:Place("Trapper", -5.894571304321289, 1.9860833883285522, 3.366781711578369)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Trapper", -6.73109245300293, 1.9735822677612305, 6.262294769287109)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Place("Trapper", -10.942424774169922, 2.0796217918395996, 2.642885208129883)
+TDS:Place("Trapper", -10.942424774169922, 2.033010959625244, -0.39711475372314453)
+
+-- [ Wave 7 ] --
+TDS:Place("Trapper", -13.751073837280273, 2.107682466506958, 3.8062572479248047)
+TDS:Place("Trapper", -9.4215087890625, 1.9977209568023682, 7.623689651489258)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", -10.5087251663208, 7.313791751861572, -36.0016975402832)
+
+-- [ Wave 11 ] --
+TDS:Place("DJ Booth", -5.940960884094238, 4.972393035888672, -39.541473388671875)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(8)
+TDS:Place("Mercenary Base", -10.771647453308105, 4.9775285720825195, -40.61649703979492)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 24 ] --
+TDS:Place("Mercenary Base", -5.276961326599121, 4.980190753936768, -45.7946891784668)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [[ END OF STRATEGY ]]
