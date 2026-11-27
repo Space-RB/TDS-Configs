@@ -1,0 +1,183 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoMoonPuzzle = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.AutoStarCannon = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StarCannonMin = 100
+_G.StreamerMode = true
+_G.TimeScaleEnabled = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Farm", "Electroshocker", "Crook Boss", "EvolvedMechaBase", "Boomerang")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Farm", -11.236028671264648, 1.3081724643707275, 38.16217803955078)
+TDS:Place("Farm", -11.155717849731445, 1.4226561784744263, 33.762874603271484)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", -11.387141227722168, 1.4912316799163818, 30.14259910583496)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Place("Farm", -11.333945274353027, 1.5494771003723145, 26.39904022216797)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Place("Electroshocker", 10.370931625366211, 1.277681589126587, 22.47264862060547)
+TDS:Upgrade(5)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", -15.022276878356934, 1.2764701843261719, 38.138370513916016)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Farm", -15.284595489501953, 1.4921085834503174, 34.30927276611328)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(7)
+TDS:Place("Electroshocker", 7.330931663513184, 1.3265526294708252, 22.47264862060547)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Place("Crook Boss", 4.290931701660156, 1.3598592281341553, 22.47264862060547)
+TDS:Upgrade(9)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(9)
+TDS:Place("Farm", -14.92646312713623, 1.5568828582763672, 30.78743553161621)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Farm", -14.769922256469727, 1.5714969635009766, 27.250898361206055)
+TDS:Upgrade(11)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Farm", -18.482465744018555, 1.154128074645996, 39.260677337646484)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Farm", -19.354572296142578, 1.430236577987671, 35.28114700317383)
+TDS:Upgrade(13)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Electroshocker", 13.409564971923828, 1.1393074989318848, 22.38149070739746)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(5)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(8)
+TDS:Place("Electroshocker", 4.962338447570801, 1.158715844154358, 19.550434112548828)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Electroshocker", 8.002338409423828, 1.0064390897750854, 19.550434112548828)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Electroshocker", 11.042337417602539, 0.9174174070358276, 19.550434112548828)
+TDS:Upgrade(17)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(17)
+TDS:Place("Electroshocker", 14.07937240600586, 0.931527316570282, 19.41619873046875)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(14)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(8)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(14)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(17)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(18)
+TDS:Place("Boomerang", 6.505616188049316, 1.3889238834381104, 28.041006088256836)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Boomerang", -5.227001190185547, 1.5100464820861816, 33.38356399536133)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+
+-- [ Wave 24 ] --
+TDS:Place("EvolvedMechaBase", 1.6290106773376465, 1.3894767761230469, 45.091854095458984)
+TDS:Upgrade(21)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(21)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(21)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(17)
+TDS:Upgrade(16)
+
+-- [[ END OF STRATEGY ]]
