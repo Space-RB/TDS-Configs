@@ -1,0 +1,82 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Pyromancer", "Military Base", "Golden Soldier", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Pyromancer", -11.366429328918457, 1.1162389516830444, -40.75173568725586)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", -0.9102587699890137, 0.857378363609314, -25.000473022460938)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Soldier", -2.9658007621765137, 0.7017498016357422, -22.77863883972168)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Soldier", 0.8633580803871155, 0.6821850538253784, -22.5728759765625)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Place("Pyromancer", -5.044172286987305, 0.9684092998504639, -32.52949523925781)
+TDS:Upgrade(5)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Place("Military Base", -16.543106079101562, 1.1260557174682617, -38.3868408203125)
+TDS:Upgrade(6)
+
+-- [ Wave 14 ] --
+TDS:Place("Military Base", -17.06512451171875, 0.9646552205085754, -33.876953125)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 16 ] --
+TDS:Place("Military Base", -17.341266632080078, 0.9331768155097961, -28.978153228759766)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Place("Military Base", -17.919353485107422, 0.8068447113037109, -24.516307830810547)
+
+-- [ Wave 19 ] --
+TDS:Place("Soldier", 10.018547058105469, 1.2516616582870483, 22.175182342529297)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 20 ] --
+TDS:Place("Military Base", -21.315601348876953, 0.8564728498458862, -37.434837341308594)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [[ END OF STRATEGY ]]
