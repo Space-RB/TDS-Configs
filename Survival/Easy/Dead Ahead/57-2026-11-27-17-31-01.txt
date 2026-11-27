@@ -1,0 +1,103 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Military Base", "Militant", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Dead Ahead", {})
+TDS:Ready()
+TDS:Place("Militant", 3.016094207763672, 1.0000040531158447, -24.709136962890625)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Militant", -5.569648742675781, 1.0000040531158447, -25.16132164001465)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Militant", 1.5090389251708984, 1.0000035762786865, -21.659317016601562)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Place("Military Base", 13.506977081298828, 0.9999974370002747, 33.749977111816406)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+TDS:Place("Military Base", 15.055527687072754, 0.9999974370002747, 27.98848533630371)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("Military Base", 17.49760627746582, 0.9999974370002747, 23.113983154296875)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 12 ] --
+TDS:Place("Military Base", 16.299297332763672, 0.9999979138374329, 16.870445251464844)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 13 ] --
+TDS:Place("Military Base", 12.485435485839844, 0.9999974370002747, 20.36362648010254)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 14 ] --
+TDS:Place("Militant", -5.820403099060059, 1.0000035762786865, -21.80398941040039)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Militant", 2.490182876586914, 1.0000030994415283, -18.736116409301758)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Militant", -6.336368560791016, 0.9999960064888, -28.540943145751953)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(2)
+TDS:Upgrade(11)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(7)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+
+-- [ Wave 20 ] --
+TDS:Place("Militant", -6.257137298583984, 1.0000029802322388, -18.6678524017334)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Militant", 2.459752082824707, 1.0000025033950806, -15.42235279083252)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(7)
+
+-- [[ END OF STRATEGY ]]
