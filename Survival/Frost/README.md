@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Winter Abyss | 8 | [Open](Winter%20Abyss/README.md) |
+| Winter Abyss | 9 | [Open](Winter%20Abyss/README.md) |
 
 | Simplicity | 109 | [Open](Simplicity/README.md) |
 | Unknown | 102 | [Open](Unknown/README.md) |
