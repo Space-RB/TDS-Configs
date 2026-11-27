@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 75 recorded strategies available for this map**
+**📦 76 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -94,6 +94,7 @@ Select a strategy below and open its config file.
 | 73 | 2026-11-27 12:59 UTC | Easy | Fog, Glass | Golden Soldier, Minigunner, Shotgunner, None | [Open](73-2026-11-27-12-59-34.txt) |
 | 74 | 2026-11-27 13:03 UTC | Easy | Fog, Glass | Golden Soldier, Minigunner, Shotgunner, None | [Open](74-2026-11-27-13-03-09.txt) |
 | 75 | 2026-11-27 13:03 UTC | Easy | Fog, Glass | Golden Soldier, Minigunner, Shotgunner, None | [Open](75-2026-11-27-13-03-55.txt) |
+| 76 | 2026-11-27 13:07 UTC | Easy | Fog, Glass | Golden Soldier, Minigunner, Shotgunner, None | [Open](76-2026-11-27-13-07-54.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
