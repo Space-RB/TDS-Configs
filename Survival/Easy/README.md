@@ -16,12 +16,12 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Lay By | 6 | [Open](Lay%20By/README.md) |
+| Gilded Path | 73 | [Open](Gilded%20Path/README.md) |
 
 | Unknown | 103 | [Open](Unknown/README.md) |
-| Gilded Path | 72 | [Open](Gilded%20Path/README.md) |
 | Dead Ahead | 55 | [Open](Dead%20Ahead/README.md) |
 | Black Spot Exchange | 6 | [Open](Black%20Spot%20Exchange/README.md) |
+| Lay By | 6 | [Open](Lay%20By/README.md) |
 | Coral Deep | 3 | [Open](Coral%20Deep/README.md) |
 | Mason Arch | 3 | [Open](Mason%20Arch/README.md) |
 | Simplicity | 3 | [Open](Simplicity/README.md) |
