@@ -1,0 +1,78 @@
+_G.AutoGatling = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.GUIWallpaperTransparency = 100
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "Military Base", "Saboteur", "EvolvedKingpin", "DJ Booth")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Saboteur", -2.402509927749634, 0.9999831914901733, 2.215806245803833)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Saboteur", 1.0244784355163574, 0.9999831914901733, 2.257080078125)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Saboteur", 4.350428104400635, 0.9999831914901733, 2.2945375442504883)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Saboteur", -2.776651382446289, 0.9999919533729553, -3.0129308700561523)
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", 3.7666776180267334, 10.0264253616333, 10.334898948669434)
+
+-- [ Wave 11 ] --
+TDS:Place("DJ Booth", 2.1885738372802734, 0.9999831914901733, 9.433180809020996)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 15 ] --
+TDS:Place("Military Base", -3.706698179244995, 1.8661959171295166, 16.224008560180664)
+TDS:Place("Military Base", 0.7214975357055664, 1.8662080764770508, 17.864683151245117)
+TDS:Place("Military Base", 5.042638778686523, 1.8662078380584717, 19.65376091003418)
+
+-- [ Wave 16 ] --
+TDS:Place("Military Base", 1.4313664436340332, 1.8662073612213135, 22.78135871887207)
+TDS:Place("Military Base", -3.300041913986206, 1.8662075996398926, 20.8997745513916)
+
+-- [ Wave 17 ] --
+TDS:Place("EvolvedKingpin", 7.510117530822754, 0.9999831914901733, 2.452561378479004)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 18 ] --
+TDS:Place("EvolvedKingpin", 10.650260925292969, 0.9999911189079285, 2.441106081008911)
+TDS:Upgrade(13)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 20 ] --
+TDS:Place("EvolvedKingpin", 7.013157367706299, 0.9999831914901733, -3.4497547149658203)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [[ END OF STRATEGY ]]
