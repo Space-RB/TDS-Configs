@@ -1,0 +1,30 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Soldier", "Minigunner", "Shotgunner", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Gilded Path", {"Fog", "Glass"})
+TDS:Ready()
+TDS:Place("Soldier", 8.76702880859375, 0.9077537059783936, -0.8910713195800781)
+
+-- [ Wave 1 ] --
+TDS:Place("Soldier", -0.7766227722167969, 0.9768372774124146, 26.054363250732422)
+
+-- [ Wave 3 ] --
+TDS:Place("Soldier", -7.717752456665039, 0.979759931564331, 21.07109832763672)
+
+-- [ Wave 5 ] --
+TDS:Place("Shotgunner", -12.780670166015625, 1.0159064531326294, 25.833576202392578)
+
+-- [ Wave 6 ] --
+TDS:Place("Soldier", 6.260645389556885, 0.9532977342605591, -24.474750518798828)
+TDS:Place("Soldier", 8.601099014282227, 0.9673134088516235, -22.534679412841797)
+
+-- [[ END OF STRATEGY ]]
