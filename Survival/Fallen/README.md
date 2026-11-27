@@ -16,10 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Lay By | 43 | [Open](Lay%20By/README.md) |
+| Simplicity | 92 | [Open](Simplicity/README.md) |
 
-| Simplicity | 91 | [Open](Simplicity/README.md) |
 | Unknown | 86 | [Open](Unknown/README.md) |
+| Lay By | 43 | [Open](Lay%20By/README.md) |
 | Cataclysm | 23 | [Open](Cataclysm/README.md) |
 | U-Turn | 11 | [Open](U-Turn/README.md) |
 | Crossroads | 6 | [Open](Crossroads/README.md) |
