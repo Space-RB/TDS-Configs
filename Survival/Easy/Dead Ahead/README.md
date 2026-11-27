@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 55 recorded strategies available for this map**
+**📦 56 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -74,6 +74,7 @@ Select a strategy below and open its config file.
 | 53 | 2026-11-24 05:59 UTC | Easy | — | Golden Scout, Shotgunner, None | [Open](53-2026-11-24-05-59-25.txt) |
 | 54 | 2026-11-24 06:10 UTC | Easy | — | Shotgunner, Brawler, Saboteur, None | [Open](54-2026-11-24-06-10-01.txt) |
 | 55 | 2026-11-26 19:59 UTC | Easy | Fog, Glass, Limitation | Golden Soldier, None | [Open](55-2026-11-26-19-59-28.txt) |
+| 56 | 2026-11-27 15:36 UTC | Easy | ExplodingEnemies, FlyingEnemies, Fog, Glass, HiddenEnemies, Limitation, Quarantine | Gatling Gun, Golden Soldier, Pursuit, None | [Open](56-2026-11-27-15-36-24.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
