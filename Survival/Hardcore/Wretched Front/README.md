@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 595 recorded strategies available for this map**
+**📦 596 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -614,6 +614,7 @@ Select a strategy below and open its config file.
 | 593 | 2026-11-27 16:40 UTC | Hardcore | — | Golden Scout, DJ Booth, Mercenary Base, Gatling Gun, Military Base | [Open](593-2026-11-27-16-40-08.txt) |
 | 594 | 2026-11-27 17:07 UTC | Hardcore | — | Golden Pyromancer, Military Base, EvolvedOperator, None | [Open](594-2026-11-27-17-07-02.txt) |
 | 595 | 2026-11-27 17:08 UTC | Hardcore | — | Farm, Boomerang, Turret, Golden Minigunner, Military Base | [Open](595-2026-11-27-17-08-02.txt) |
+| 596 | 2026-11-27 17:11 UTC | Hardcore | — | Military Base, Pyromancer, None | [Open](596-2026-11-27-17-11-07.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
