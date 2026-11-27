@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 14 recorded strategies available for this map**
+**📦 15 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -33,6 +33,7 @@ Select a strategy below and open its config file.
 | 12 | 2026-10-15 16:59 UTC | Sandbox | — | Crook Boss, Pyromancer, None | [Open](12-2026-10-15-16-59-42.txt) |
 | 13 | 2026-10-25 06:21 UTC | Sandbox | — | EvolvedEnforcer, None | [Open](13-2026-10-25-06-21-05.txt) |
 | 14 | 2026-11-06 17:31 UTC | Sandbox | — | Trapper, DJ Booth, Hacker, Assassin, Time Dilator | [Open](14-2026-11-06-17-31-02.txt) |
+| 15 | 2026-11-27 21:21 UTC | Sandbox | — | Trapper, DJ Booth, Time Dilator, Mercenary Base, Gatling Gun | [Open](15-2026-11-27-21-21-51.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
