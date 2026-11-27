@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 591 recorded strategies available for this map**
+**📦 592 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -610,6 +610,7 @@ Select a strategy below and open its config file.
 | 589 | 2026-11-27 13:23 UTC | Hardcore | Committed, ExplodingEnemies, HiddenEnemies, Limitation | Farm, Hacker, Gatling Gun, Turret, Golden Minigunner | [Open](589-2026-11-27-13-23-57.txt) |
 | 590 | 2026-11-27 14:14 UTC | Hardcore | — | Farm, Military Base, Electroshocker, Crook Boss, None | [Open](590-2026-11-27-14-14-39.txt) |
 | 591 | 2026-11-27 14:44 UTC | Hardcore | — | Farm, Military Base, Electroshocker, Crook Boss, None | [Open](591-2026-11-27-14-44-23.txt) |
+| 592 | 2026-11-27 15:49 UTC | Hardcore | — | Farm, Boomerang, Turret, Golden Minigunner, Military Base | [Open](592-2026-11-27-15-49-17.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
