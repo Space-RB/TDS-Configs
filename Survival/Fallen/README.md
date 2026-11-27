@@ -16,15 +16,15 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 92 | [Open](Simplicity/README.md) |
+| Winter Abyss | 6 | [Open](Winter%20Abyss/README.md) |
 
+| Simplicity | 92 | [Open](Simplicity/README.md) |
 | Unknown | 86 | [Open](Unknown/README.md) |
 | Lay By | 43 | [Open](Lay%20By/README.md) |
 | Cataclysm | 23 | [Open](Cataclysm/README.md) |
 | U-Turn | 11 | [Open](U-Turn/README.md) |
 | Crossroads | 6 | [Open](Crossroads/README.md) |
 | Dusty Bridges | 6 | [Open](Dusty%20Bridges/README.md) |
-| Winter Abyss | 5 | [Open](Winter%20Abyss/README.md) |
 | Winter Stronghold | 5 | [Open](Winter%20Stronghold/README.md) |
 | Abyssal Trench | 3 | [Open](Abyssal%20Trench/README.md) |
 | Candy Valley | 3 | [Open](Candy%20Valley/README.md) |
