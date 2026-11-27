@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Retro Zone | 1 | [Open](Retro%20Zone/README.md) |
+| Retro Zone | 2 | [Open](Retro%20Zone/README.md) |
 
 | Unknown | 35 | [Open](Unknown/README.md) |
 | Simplicity | 27 | [Open](Simplicity/README.md) |
