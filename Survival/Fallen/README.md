@@ -16,13 +16,14 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Winter Abyss | 8 | [Open](Winter%20Abyss/README.md) |
+| Spring Fever | 1 | [Open](Spring%20Fever/README.md) |
 
 | Simplicity | 92 | [Open](Simplicity/README.md) |
 | Unknown | 86 | [Open](Unknown/README.md) |
 | Lay By | 43 | [Open](Lay%20By/README.md) |
 | Cataclysm | 23 | [Open](Cataclysm/README.md) |
 | U-Turn | 11 | [Open](U-Turn/README.md) |
+| Winter Abyss | 8 | [Open](Winter%20Abyss/README.md) |
 | Crossroads | 6 | [Open](Crossroads/README.md) |
 | Dusty Bridges | 6 | [Open](Dusty%20Bridges/README.md) |
 | Winter Stronghold | 5 | [Open](Winter%20Stronghold/README.md) |
