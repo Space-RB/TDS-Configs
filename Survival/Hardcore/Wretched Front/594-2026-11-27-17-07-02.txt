@@ -1,0 +1,78 @@
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Pyromancer", "Military Base", "EvolvedOperator", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Pyromancer", -6.461731433868408, 0.9537684917449951, -31.496166229248047)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Place("EvolvedOperator", -1.012186050415039, 0.8651703000068665, -25.073299407958984)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Place("EvolvedOperator", 0.22100496292114258, 0.685155987739563, -22.659074783325195)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Place("EvolvedOperator", -2.444549560546875, 0.6720971465110779, -22.59587287902832)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Place("EvolvedOperator", -0.9093008041381836, 0.5874123573303223, -20.384429931640625)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Place("Military Base", -1.231964349746704, 1.4686224460601807, 30.968917846679688)
+
+-- [ Wave 14 ] --
+TDS:Place("Military Base", 4.198258876800537, 1.4169154167175293, 30.711458206176758)
+
+-- [ Wave 15 ] --
+TDS:Place("Military Base", 3.966958999633789, 1.4067354202270508, 36.596641540527344)
+
+-- [ Wave 16 ] --
+TDS:Place("Military Base", 4.159987926483154, 1.445971965789795, 41.716827392578125)
+
+-- [ Wave 17 ] --
+TDS:Place("Military Base", 9.98585033416748, 1.3023228645324707, 37.62476348876953)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [[ END OF STRATEGY ]]
