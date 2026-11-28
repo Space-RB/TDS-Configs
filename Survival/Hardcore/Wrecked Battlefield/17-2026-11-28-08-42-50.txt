@@ -1,0 +1,50 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoMoonPuzzle = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.AutoStarCannon = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StarCannonMin = 100
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Assassin", "EvolvedJuggernaut", "None", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wrecked Battlefield", {})
+TDS:Ready()
+TDS:Place("Assassin", -4.013588905334473, 0.9999346733093262, 39.82790756225586)
+TDS:Place("Assassin", -3.910931348800659, 0.9999332427978516, 41.86532211303711)
+TDS:Place("Assassin", -4.368236064910889, 0.9999318718910217, 43.836185455322266)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Place("EvolvedJuggernaut", 33.6829948425293, 3.599991798400879, -16.283525466918945)
+
+-- [[ END OF STRATEGY ]]
