@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 650 recorded strategies available for this map**
+**📦 651 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -669,6 +669,7 @@ Select a strategy below and open its config file.
 | 648 | 2026-11-28 11:05 UTC | Hardcore | — | Farm, Boomerang, Crook Boss, EvolvedMechaBase, None | [Open](648-2026-11-28-11-05-15.txt) |
 | 649 | 2026-11-28 11:11 UTC | Hardcore | — | EvolvedMechaBase, Farm, Crook Boss, Golden Pyromancer, Electroshocker | [Open](649-2026-11-28-11-11-01.txt) |
 | 650 | 2026-11-28 11:11 UTC | Hardcore | — | Farm, EvolvedMechaBase, Boomerang, Crook Boss, EvolvedJuggernaut | [Open](650-2026-11-28-11-11-13.txt) |
+| 651 | 2026-11-28 11:18 UTC | Hardcore | — | EvolvedMechaBase, Pyromancer, Farm, Military Base, EvolvedOperator | [Open](651-2026-11-28-11-18-16.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
