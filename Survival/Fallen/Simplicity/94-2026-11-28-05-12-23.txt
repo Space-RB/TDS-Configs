@@ -1,0 +1,125 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {gui_hidden = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedMechaBase", "Gatling Gun", "Hacker", "Golden Soldier", "Necromancer")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {})
+TDS:Ready()
+TDS:Place("Soldier", -12.29050350189209, 1.0000005960464478, -3.3193259239196777)
+
+-- [ Wave 2 ] --
+TDS:Place("Soldier", -12.693344116210938, 1.0000001192092896, -0.31877946853637695)
+TDS:Place("Soldier", -9.309096336364746, 1.0000007152557373, -3.7177200317382812)
+TDS:Place("Soldier", -9.67735481262207, 0.9999831914901733, -0.7001074552536011)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Place("Gatling Gun", -15.93336009979248, 0.9999985694885254, 9.134870529174805)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 30 ] --
+TDS:Place("EvolvedMechaBase", -11.791242599487305, 1.7725193500518799, 14.088412284851074)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("EvolvedMechaBase", -3.0870354175567627, 0.9999831914901733, 11.898981094360352)
+TDS:Place("Hacker", -17.716697692871094, 1.0000003576278687, -1.799959659576416)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Hacker", -12.401468276977539, 0.9999996423721313, 2.707176446914673)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 31 ] --
+TDS:Place("EvolvedMechaBase", -5.52484655380249, 1.8661892414093018, 20.604074478149414)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(10)
+TDS:Upgrade(6, 2)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(7, 2)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(10, 2)
+TDS:Upgrade(9)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 36 ] --
+TDS:Place("Necromancer", -6.269280433654785, 0.9999879002571106, -3.6842589378356934)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Necromancer", -7.7061614990234375, 0.9999998211860657, 1.633606195449829)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Necromancer", -9.640286445617676, 0.9999994039535522, 3.978976249694824)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [[ END OF STRATEGY ]]
