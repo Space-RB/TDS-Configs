@@ -1,0 +1,41 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedMechaBase", "Crook Boss", "Pyromancer", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Unknown Garden", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", 62.68526840209961, 302.68414306640625, -8.64435863494873)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 8 ] --
+TDS:Place("Crook Boss", 93.86133575439453, 301.5291442871094, 11.9442720413208)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 21 ] --
+TDS:Place("EvolvedMechaBase", 129.59503173828125, 299.8299255371094, -13.596549987792969)
+
+-- [[ END OF STRATEGY ]]
