@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 7 recorded strategies available for this map**
+**📦 8 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -26,6 +26,7 @@ Select a strategy below and open its config file.
 | 5 | 2026-11-10 06:26 UTC | Hardcore | — | Minigunner, Crook Boss, Electroshocker, None | [Open](5-2026-11-10-06-26-14.txt) |
 | 6 | 2026-11-28 04:56 UTC | Hardcore | — | EvolvedMechaBase, Crook Boss, Pyromancer, None | [Open](6-2026-11-28-04-56-45.txt) |
 | 7 | 2026-11-28 04:59 UTC | Hardcore | — | EvolvedMechaBase, Crook Boss, Pyromancer, None | [Open](7-2026-11-28-04-59-34.txt) |
+| 8 | 2026-11-28 05:56 UTC | Hardcore | — | EvolvedMechaBase, Crook Boss, Pyromancer, None | [Open](8-2026-11-28-05-56-14.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
