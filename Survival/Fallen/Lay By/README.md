@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 53 recorded strategies available for this map**
+**📦 54 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -72,6 +72,7 @@ Select a strategy below and open its config file.
 | 51 | 2026-11-28 00:07 UTC | Fallen | Committed, ExplodingEnemies, Fog, Glass, HiddenEnemies, Limitation | Trapper, Gatling Gun, DJ Booth, EvolvedMechaBase, Hacker | [Open](51-2026-11-28-00-07-38.txt) |
 | 52 | 2026-11-28 08:09 UTC | Fallen | Committed, ExplodingEnemies, Fog, Glass, HiddenEnemies, Limitation, Quarantine | EvolvedMechaBase, Hacker, Gatling Gun, DJ Booth, Trapper | [Open](52-2026-11-28-08-09-29.txt) |
 | 53 | 2026-11-28 08:54 UTC | Fallen | Committed, ExplodingEnemies, Fog, Glass, HiddenEnemies, Limitation | Trapper, Gatling Gun, DJ Booth, EvolvedMechaBase, Hacker | [Open](53-2026-11-28-08-54-43.txt) |
+| 54 | 2026-11-28 09:11 UTC | Fallen | Committed, ExplodingEnemies, Fog, Glass, HiddenEnemies, Limitation | Trapper, Gatling Gun, DJ Booth, EvolvedMechaBase, Hacker | [Open](54-2026-11-28-09-11-20.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
