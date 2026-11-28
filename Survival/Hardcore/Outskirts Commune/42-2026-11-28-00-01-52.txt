@@ -1,0 +1,94 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Electroshocker", "Sniper", "Military Base", "None", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Outskirts Commune", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Electroshocker", -11.152482032775879, 501.3016662597656, 26.7233829498291)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 7 ] --
+TDS:Place("Electroshocker", 11.46285629272461, 501.2926940917969, 21.678813934326172)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Place("Sniper", -1.2648820877075195, 504.58819580078125, 9.80880069732666)
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Place("Sniper", -0.06916475296020508, 504.7765808105469, 7.567850112915039)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Place("Sniper", 1.4297428131103516, 504.7308044433594, 9.87843132019043)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Place("Sniper", 2.470844268798828, 505.1075744628906, 7.5678253173828125)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:Place("Sniper", 4.507931709289551, 505.1202392578125, 9.21492862701416)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 16 ] --
+TDS:Place("Sniper", 1.2008183002471924, 505.05126953125, 5.368135929107666)
+TDS:Upgrade(8)
+TDS:Place("Sniper", 4.8576741218566895, 505.3226623535156, 6.699122428894043)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 19 ] --
+TDS:Place("Military Base", 9.872831344604492, 501.4030456542969, 10.410054206848145)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+
+-- [ Wave 21 ] --
+TDS:Place("Sniper", 4.646635055541992, 505.2383117675781, 7.742188453674316)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Electroshocker", -15.147857666015625, 502.7893371582031, -14.549556732177734)
+TDS:Upgrade(12)
+TDS:Place("Electroshocker", -16.372398376464844, 502.978271484375, -17.332019805908203)
+TDS:Place("Electroshocker", -13.350444793701172, 502.9174499511719, -17.001272201538086)
+TDS:Place("Electroshocker", -17.87540626525879, 503.11260986328125, -19.97447395324707)
+TDS:Place("Electroshocker", -19.412334442138672, 503.0235595703125, -17.351604461669922)
+TDS:Place("Electroshocker", -13.589351654052734, 503.0982666015625, -20.00895881652832)
+TDS:Place("Electroshocker", -15.809261322021484, 503.2463684082031, -22.183013916015625)
+
+-- [[ END OF STRATEGY ]]
