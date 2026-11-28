@@ -1,0 +1,179 @@
+_G.AutoGatling = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.HideUsername = true
+_G.StreamerMode = true
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Farm", "EvolvedMechaBase", "Gatling Gun", "Assassin", "None")
+TDS:Mode("Fallen")
+TDS:GameInfo("Toyboard", {})
+TDS:Ready()
+TDS:Place("Farm", -2.4547300338745117, 1.6870002746582031, -38.23334503173828)
+TDS:Place("Farm", -1.8431158065795898, 1.6870002746582031, -41.72010803222656)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Assassin", 8.064687728881836, 1.6870002746582031, -3.90910005569458)
+TDS:Place("Assassin", 8.064687728881836, 1.6870002746582031, -1.8691000938415527)
+
+-- [ Wave 3 ] --
+TDS:Place("Assassin", 10.104686737060547, 1.6870002746582031, -3.90910005569458)
+TDS:Place("Farm", 1.6456565856933594, 1.6870002746582031, -41.12005615234375)
+TDS:Place("Farm", 1.034043312072754, 1.6870002746582031, -37.6332893371582)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", 5.173338890075684, 1.6870002746582031, -41.41510772705078)
+TDS:Upgrade(8)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Place("Farm", 4.561725616455078, 1.6870002746582031, -37.9283447265625)
+TDS:Upgrade(9)
+TDS:Place("Farm", -5.305085182189941, 1.6870002746582031, -42.45927429199219)
+TDS:Place("Farm", -6.973443508148193, 1.6870002746582031, -45.58148193359375)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Place("Farm", -5.9166998863220215, 1.6870002746582031, -38.972511291503906)
+TDS:Place("Farm", -9.0418119430542, 1.6870002746582031, -40.63542175292969)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Place("Assassin", 10.104686737060547, 1.6870002746582031, -1.8691000938415527)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(12)
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 11 ] --
+TDS:Place("Gatling Gun", -8.725316047668457, 1.6870002746582031, -2.010662078857422)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(15)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(15)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(15)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+TDS:Upgrade(13)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(13)
+TDS:Upgrade(10)
+TDS:Upgrade(12)
+TDS:Upgrade(7)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(6)
+TDS:Upgrade(8)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+TDS:Upgrade(12)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(2)
+TDS:Upgrade(6)
+TDS:Upgrade(8)
+TDS:Place("EvolvedMechaBase", -8.725316047668457, 1.6870002746582031, -8.55066204071045)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(16)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(16)
+
+-- [ Wave 24 ] --
+TDS:Place("EvolvedMechaBase", -17.76284408569336, 1.6870002746582031, -8.762036323547363)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 25 ] --
+TDS:Place("EvolvedMechaBase", -15.486927032470703, 1.6870002746582031, -0.013219833374023438)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(18, 2)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(15)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(15)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(15)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [[ END OF STRATEGY ]]
