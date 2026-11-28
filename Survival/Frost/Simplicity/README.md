@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 112 recorded strategies available for this map**
+**📦 113 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -131,6 +131,7 @@ Select a strategy below and open its config file.
 | 110 | 2026-11-27 18:37 UTC | Frost | — | Gatling Gun, Military Base, Saboteur, EvolvedKingpin, DJ Booth | [Open](110-2026-11-27-18-37-53.txt) |
 | 111 | 2026-11-27 18:49 UTC | Frost | — | Military Base, EvolvedOperator, None | [Open](111-2026-11-27-18-49-04.txt) |
 | 112 | 2026-11-28 07:42 UTC | Frost | — | EvolvedMechaBase, Hacker, Pyromancer, EvolvedKingpin, EvolvedJuggernaut | [Open](112-2026-11-28-07-42-24.txt) |
+| 113 | 2026-11-28 08:39 UTC | Frost | — | EvolvedMechaBase, Pyromancer, EvolvedJuggernaut, Engineer, Hacker | [Open](113-2026-11-28-08-39-32.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
