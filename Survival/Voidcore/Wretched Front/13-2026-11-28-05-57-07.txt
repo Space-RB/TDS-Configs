@@ -1,0 +1,27 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoMilitary = true
+_G.AutoNecro = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoSkipCutscenes = true
+_G.AutoGatlingSettings = {auto_fire = false, beta_dps = true, bypass_boss_for_fast_enemies = true, max_multi_targets = 2, prioritize_bosses = true, rainbow_bullet_lines = true, show_bullet_lines = true, target_esp = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Pyromancer", "EvolvedKingpin", "Golden Scout", "Military Base", "Gatling Gun")
+TDS:Mode("Voidcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Pyromancer", -6.783843994140625, 0.9612963795661926, -31.902877807617188)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
