@@ -1,0 +1,100 @@
+_G.AntiLag = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.MatchTrackerEnabled = false
+_G.SellFarms = true
+_G.SellFarmsWave = 40
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedMechaBase", "Farm", "Crook Boss", "Golden Pyromancer", "Electroshocker")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Electroshocker", 11.61396312713623, 1.266231894493103, 22.694026947021484)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Place("Farm", 24.767963409423828, 0.7186611294746399, 39.65974807739258)
+TDS:Upgrade(2)
+TDS:Place("Farm", 21.475120544433594, 0.9500605463981628, 40.95927429199219)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", 21.840805053710938, 1.047119379043579, 37.43821334838867)
+TDS:Upgrade(4)
+TDS:Place("Farm", 18.58156967163086, 1.1236793994903564, 38.940853118896484)
+TDS:Upgrade(5)
+
+-- [ Wave 5 ] --
+TDS:Place("Farm", 25.133651733398438, 1.0501461029052734, 36.13868713378906)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:Place("Farm", 18.933582305908203, 1.0982508659362793, 35.418399810791016)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(7)
+TDS:Place("Farm", 22.13640594482422, 1.0209174156188965, 33.91057586669922)
+TDS:Upgrade(8)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+TDS:Place("Farm", 26.751689910888672, 0.976109504699707, 33.034542083740234)
+TDS:Upgrade(9)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(5)
+TDS:Place("Farm", 29.9838809967041, 0.7812585830688477, 31.590747833251953)
+TDS:Upgrade(10)
+TDS:Place("Farm", 15.610869407653809, 1.205325961112976, 37.0156135559082)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(11)
+TDS:Upgrade(4)
+TDS:Upgrade(11)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 12 ] --
+TDS:Place("Pyromancer", 12.961782455444336, 1.032108187675476, 19.969144821166992)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(12)
+TDS:Upgrade(6)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(11)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(1)
+
+-- [[ END OF STRATEGY ]]
