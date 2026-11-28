@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 15 recorded strategies available for this map**
+**📦 16 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -34,6 +34,7 @@ Select a strategy below and open its config file.
 | 13 | 2026-11-20 06:59 UTC | Hardcore | — | Golden Crook Boss, Golden Minigunner, Golden Scout, Shotgunner, Star Cannon | [Open](13-2026-11-20-06-59-16.txt) |
 | 14 | 2026-11-27 15:47 UTC | Hardcore | — | Gatling Gun, Military Base, Farm, Saboteur, EvolvedKingpin | [Open](14-2026-11-27-15-47-18.txt) |
 | 15 | 2026-11-28 02:25 UTC | Hardcore | — | Gatling Gun, DJ Booth, Military Base, Accelerator, Farm | [Open](15-2026-11-28-02-25-33.txt) |
+| 16 | 2026-11-28 08:38 UTC | Hardcore | — | Assassin, EvolvedJuggernaut, None | [Open](16-2026-11-28-08-38-28.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
