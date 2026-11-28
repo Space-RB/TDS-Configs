@@ -1,0 +1,174 @@
+_G.AutoDJ = true
+_G.AutoGatling = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "Gatling Gun", "DJ Booth", "EvolvedMechaBase", "Hacker")
+TDS:Mode("Fallen")
+TDS:GameInfo("Lay By", {"Committed", "ExplodingEnemies", "Fog", "Glass", "HiddenEnemies", "Limitation"})
+TDS:Ready()
+TDS:Place("Trapper", -2.5028610229492188, 242.99996948242188, 232.03318786621094)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:VoteSkip(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:VoteSkip(4)
+TDS:Place("Trapper", -2.5028610229492188, 242.99998474121094, 228.99319458007812)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+TDS:SetOption(2, "Trap", "Landmine")
+
+-- [ Wave 8 ] --
+TDS:VoteSkip(8)
+
+-- [ Wave 9 ] --
+TDS:VoteSkip(9)
+TDS:Place("Gatling Gun", -4.835938930511475, 245.85348510742188, 172.72128295898438)
+
+-- [ Wave 10 ] --
+TDS:Place("DJ Booth", -8.922183990478516, 243, 174.08291625976562)
+TDS:SetOption(4, "Track", "Green")
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 29 ] --
+TDS:Place("EvolvedMechaBase", -2.557605266571045, 243, 166.83554077148438)
+TDS:Upgrade(5)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(5)
+TDS:Place("EvolvedMechaBase", -9.953763961791992, 243, 161.6376190185547)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(6)
+TDS:Place("EvolvedMechaBase", -18.020572662353516, 243, 165.71783447265625)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:SetOption(1, "Trap", "Bear Traps")
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 36 ] --
+TDS:Place("Trapper", -2.5028610229492188, 242.99998474121094, 225.9532012939453)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:SetOption(8, "Trap", "Landmine")
+TDS:Place("Hacker", 2.515814781188965, 242.99998474121094, 274.3155212402344)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9, 2)
+TDS:Place("Hacker", 2.5234737396240234, 242.99996948242188, 234.97572326660156)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10, 2)
+TDS:SetOption(4, "Track", "Red")
+
+-- [ Wave 38 ] --
+TDS:Place("Trapper", -2.5194334983825684, 242.99998474121094, 285.24505615234375)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:SetOption(11, "Trap", "Bear Traps")
+TDS:Place("Trapper", -2.501201629638672, 242.99998474121094, 282.23028564453125)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:SetOption(12, "Trap", "Bear Traps")
+TDS:Place("Trapper", 2.521198272705078, 242.99998474121094, 281.73895263671875)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:SetOption(13, "Trap", "Bear Traps")
+TDS:Place("Trapper", 2.521198272705078, 242.99998474121094, 284.7789611816406)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:SetOption(14, "Trap", "Bear Traps")
+
+-- [ Wave 40 ] --
+TDS:Ability(5, "Shock Barrier", {pathDistance = 3.6659547012169718, pathName = "1"})
+TDS:Ability(7, "Shock Barrier", {pathDistance = 7.942321748010795, pathName = "1"})
+TDS:Ability(6, "Shock Barrier", {pathDistance = 11.98953242648811, pathName = "1"})
+TDS:Ability(5, "Bliss of Finality")
+TDS:Ability(9, "Hologram Tower", {towerPosition = Vector3.new(-8.239411354064941, 245.99295043945312, 168.62173461914062), towerToClone = 3}, true)
+
+-- [[ END OF STRATEGY ]]
