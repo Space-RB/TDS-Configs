@@ -16,7 +16,7 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Unknown Garden | 8 | [Open](Unknown%20Garden/README.md) |
+| Unknown Garden | 9 | [Open](Unknown%20Garden/README.md) |
 
 | Wretched Front | 639 | [Open](Wretched%20Front/README.md) |
 | Unknown | 182 | [Open](Unknown/README.md) |
