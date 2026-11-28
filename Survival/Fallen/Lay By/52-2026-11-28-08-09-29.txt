@@ -1,0 +1,145 @@
+_G.AutoGatling = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoGatlingSettings = {beta_dps = true, gui_hidden = true}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedMechaBase", "Hacker", "Gatling Gun", "DJ Booth", "Trapper")
+TDS:Mode("Fallen")
+TDS:GameInfo("Lay By", {"Committed", "ExplodingEnemies", "Fog", "Glass", "HiddenEnemies", "Limitation", "Quarantine"})
+TDS:Place("Trapper", -2.7587859630584717, 243.1131134033203, 219.6524658203125, true)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1, true)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1, true)
+TDS:Place("Trapper", -2.665454864501953, 242.99998474121094, 224.14459228515625, true)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2, true)
+TDS:Upgrade(2, true)
+
+-- [ Wave 6 ] --
+TDS:SetOption(1, "Trap", "Landmine")
+TDS:Place("Trapper", -2.7010726928710938, 242.99998474121094, 215.0738525390625, true)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3, true)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3, true)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", -5.457613945007324, 245.8607635498047, 172.47711181640625, true)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4, true)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(4, true)
+
+-- [ Wave 16 ] --
+TDS:Place("DJ Booth", -4.409188747406006, 243, 174.9686279296875, true)
+
+-- [ Wave 22 ] --
+TDS:SetOption(5, "Track", "Green")
+TDS:Upgrade(5, true)
+TDS:Upgrade(5, true)
+TDS:Upgrade(5, true)
+TDS:Upgrade(5, true)
+TDS:Upgrade(5, true)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(4, true)
+TDS:Upgrade(4, true)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(4, true)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(4, true)
+
+-- [ Wave 30 ] --
+TDS:Place("EvolvedMechaBase", -4.2338104248046875, 243, 165.9603729248047, true)
+
+-- [ Wave 31 ] --
+TDS:Place("EvolvedMechaBase", -4.5844292640686035, 243.16795349121094, 154.87054443359375, true)
+TDS:Place("EvolvedMechaBase", -14.866765975952148, 243, 169.74945068359375, true)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(6, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(6, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(8, true)
+TDS:Upgrade(8, true)
+TDS:WaitForWave(32)
+TDS:Sell(1)
+TDS:Sell(2)
+TDS:Sell(3)
+TDS:Sell(4)
+TDS:Sell(5)
+TDS:Sell(6)
+TDS:Sell(7)
+TDS:Sell(8)
+TDS:Place("Trapper", -2.7587857246398926, 243.1131134033203, 219.6524658203125)
+TDS:Place("Trapper", -2.665454864501953, 242.99998474121094, 224.14459228515625)
+TDS:Place("Trapper", -2.7010726928710938, 242.99998474121094, 215.0738525390625)
+TDS:Place("Gatling Gun", -5.457613468170166, 245.86073303222656, 172.47711181640625)
+TDS:Place("DJ Booth", -8.628957748413086, 243, 174.8182830810547)
+TDS:Place("EvolvedMechaBase", -4.2338104248046875, 243, 165.9603729248047)
+TDS:Place("EvolvedMechaBase", -14.866765975952148, 243, 169.74945068359375)
+TDS:Place("EvolvedMechaBase", 4.667751789093018, 243, 174.1746063232422)
+TDS:VoteSkip(32)
+TDS:SetOption(13, "Track", "Red")
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 35 ] --
+TDS:Place("Hacker", 3.5866336822509766, 242.99996948242188, 235.7059326171875, true)
+TDS:Place("Hacker", 3.6010074615478516, 243, 206.47373962402344, true)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(18, true)
+TDS:Upgrade(18, true)
+TDS:Upgrade(18, true)
+TDS:Upgrade(18, true)
+TDS:Upgrade(18, 2, true)
+TDS:Upgrade(17, true)
+TDS:Upgrade(17, true)
+TDS:Upgrade(17, true)
+TDS:Upgrade(17, true)
+TDS:Upgrade(17, 2, true)
+
+-- [[ END OF STRATEGY ]]
