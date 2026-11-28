@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 15 recorded strategies available for this map**
+**📦 16 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -34,6 +34,7 @@ Select a strategy below and open its config file.
 | 13 | 2026-11-09 21:04 UTC | Molten | — | Commander, Golden Scout, None | [Open](13-2026-11-09-21-04-13.txt) |
 | 14 | 2026-11-22 16:28 UTC | Molten | Committed, ExplodingEnemies, FlyingEnemies, Glass, HiddenEnemies, Limitation | Golden Soldier, Commander, Gatling Gun, DJ Booth, Golden Crook Boss | [Open](14-2026-11-22-16-28-14.txt) |
 | 15 | 2026-11-22 16:52 UTC | Molten | Committed, ExplodingEnemies, FlyingEnemies, Glass, HiddenEnemies, Limitation | Golden Soldier, Commander, Gatling Gun, DJ Booth, Golden Crook Boss | [Open](15-2026-11-22-16-52-57.txt) |
+| 16 | 2026-11-28 05:49 UTC | Molten | Committed, ExplodingEnemies, FlyingEnemies, Glass, HiddenEnemies, Limitation | EvolvedOperator, DJ Booth, Commander, Gatling Gun, EvolvedJuggernaut | [Open](16-2026-11-28-05-49-15.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
