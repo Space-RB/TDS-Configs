@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 643 recorded strategies available for this map**
+**📦 644 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -662,6 +662,7 @@ Select a strategy below and open its config file.
 | 641 | 2026-11-28 07:47 UTC | Hardcore | — | Golden Pyromancer, Military Base, Golden Crook Boss, Engineer, None | [Open](641-2026-11-28-07-47-01.txt) |
 | 642 | 2026-11-28 08:15 UTC | Hardcore | — | Military Base, Militant, Pyromancer, Farm, Electroshocker | [Open](642-2026-11-28-08-15-18.txt) |
 | 643 | 2026-11-28 09:14 UTC | Hardcore | — | EvolvedMechaBase, Pyromancer, Farm, Military Base, Golden Soldier | [Open](643-2026-11-28-09-14-49.txt) |
+| 644 | 2026-11-28 09:16 UTC | Hardcore | — | Golden Pyromancer, Hunter, None | [Open](644-2026-11-28-09-16-11.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
