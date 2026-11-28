@@ -16,10 +16,11 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Lay By | 50 | [Open](Lay%20By/README.md) |
+| Toyboard | 4 | [Open](Toyboard/README.md) |
 
 | Simplicity | 92 | [Open](Simplicity/README.md) |
 | Unknown | 86 | [Open](Unknown/README.md) |
+| Lay By | 50 | [Open](Lay%20By/README.md) |
 | Cataclysm | 23 | [Open](Cataclysm/README.md) |
 | U-Turn | 11 | [Open](U-Turn/README.md) |
 | Winter Abyss | 8 | [Open](Winter%20Abyss/README.md) |
@@ -31,7 +32,6 @@ Choose one of the categories below to continue.
 | Retro Crossroads | 3 | [Open](Retro%20Crossroads/README.md) |
 | Space City | 3 | [Open](Space%20City/README.md) |
 | Summer Castle | 3 | [Open](Summer%20Castle/README.md) |
-| Toyboard | 3 | [Open](Toyboard/README.md) |
 | Wrecked Battlefield | 3 | [Open](Wrecked%20Battlefield/README.md) |
 | Coral Deep | 2 | [Open](Coral%20Deep/README.md) |
 | Farm Lands | 2 | [Open](Farm%20Lands/README.md) |
