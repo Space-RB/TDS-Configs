@@ -16,10 +16,10 @@ Choose one of the categories below to continue.
 
 | Categorie | Strategies | Open |
 |:---:|---:|:---:|
-| Simplicity | 93 | [Open](Simplicity/README.md) |
+| Lay By | 51 | [Open](Lay%20By/README.md) |
 
+| Simplicity | 93 | [Open](Simplicity/README.md) |
 | Unknown | 86 | [Open](Unknown/README.md) |
-| Lay By | 50 | [Open](Lay%20By/README.md) |
 | Cataclysm | 23 | [Open](Cataclysm/README.md) |
 | U-Turn | 11 | [Open](U-Turn/README.md) |
 | Winter Abyss | 8 | [Open](Winter%20Abyss/README.md) |
