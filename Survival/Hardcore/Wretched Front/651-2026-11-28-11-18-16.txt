@@ -1,0 +1,274 @@
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.HideUsername = true
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("EvolvedMechaBase", "Pyromancer", "Farm", "Military Base", "EvolvedOperator")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Pyromancer", -3.9308018684387207, 0.9787788391113281, -32.76993179321289)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:Place("Farm", -16.535709381103516, 0.8269006013870239, -23.529781341552734)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", -17.386383056640625, 0.9080630540847778, -27.867813110351562)
+
+-- [ Wave 4 ] --
+TDS:Place("Farm", -16.860538482666016, 0.9638442993164062, -31.33736801147461)
+TDS:Place("Farm", -16.35007095336914, 0.9616059064865112, -34.840370178222656)
+TDS:Place("Farm", -16.35007095336914, 1.1362335681915283, -38.38037109375)
+
+-- [ Wave 5 ] --
+TDS:Place("Farm", -19.764175415039062, 0.7093814611434937, -24.981884002685547)
+TDS:Place("Farm", -22.145793914794922, 0.6520135998725891, -29.20265769958496)
+TDS:Place("Farm", -20.289493560791016, 0.8679391145706177, -32.216941833496094)
+TDS:Place("Farm", -19.779056549072266, 0.947920024394989, -35.719947814941406)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", -23.237133026123047, 0.35364383459091187, -25.29680633544922)
+TDS:Upgrade(2)
+TDS:Place("EvolvedOperator", -0.8099370002746582, 0.315141499042511, -15.610201835632324)
+TDS:Upgrade(12)
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(3)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(12)
+TDS:Place("EvolvedOperator", -3.2469582557678223, 0.20410338044166565, -16.32611083984375)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 14 ] --
+TDS:Place("EvolvedOperator", -4.416525363922119, -0.004397094249725342, -10.96136474609375)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("EvolvedOperator", -2.069784164428711, 0.08209151029586792, -9.989401817321777)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Military Base", -18.410879135131836, -0.24127097427845, -12.403326034545898)
+TDS:Upgrade(16)
+
+-- [ Wave 15 ] --
+TDS:Place("Military Base", -21.621143341064453, -0.4162674844264984, -9.193061828613281)
+TDS:Upgrade(17)
+TDS:Place("Military Base", -22.79618263244629, -0.18994826078414917, -13.578365325927734)
+TDS:Upgrade(18)
+TDS:Place("Military Base", -23.759044647216797, -0.6135526895523071, -5.187943458557129)
+TDS:Upgrade(19)
+TDS:Place("Military Base", -26.158628463745117, -0.7433091402053833, -9.041979789733887)
+TDS:Upgrade(20)
+
+-- [ Wave 16 ] --
+TDS:Place("EvolvedOperator", 0.5275126695632935, 0.16928046941757202, -8.645561218261719)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(19)
+TDS:Upgrade(17)
+TDS:Upgrade(20)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(18)
+TDS:Upgrade(19)
+TDS:Upgrade(17)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(20)
+TDS:Upgrade(16)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(18)
+
+-- [ Wave 22 ] --
+TDS:Place("EvolvedMechaBase", -19.97519302368164, -0.6008961796760559, 0.4518589973449707)
+TDS:Upgrade(22)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(22)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(22)
+
+-- [ Wave 25 ] --
+TDS:Place("EvolvedMechaBase", -19.97519302368164, -0.5354571342468262, 9.491859436035156)
+TDS:Upgrade(23)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(23)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(23)
+
+-- [ Wave 28 ] --
+TDS:Place("EvolvedMechaBase", -27.94574546813965, -0.5660553574562073, 4.7170538902282715)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Place("EvolvedOperator", -6.615974426269531, -0.08634787797927856, -12.244791984558105)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+
+-- [ Wave 31 ] --
+TDS:Place("EvolvedOperator", -1.8336963653564453, 0.016694843769073486, -7.460441589355469)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Place("EvolvedOperator", -4.180263519287109, -0.06945109367370605, -8.432510375976562)
+TDS:Upgrade(27)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Place("EvolvedOperator", -6.473382949829102, -0.1514430046081543, -9.524848937988281)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Place("EvolvedOperator", -1.6641745567321777, -0.03515699505805969, 6.834128379821777)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Place("EvolvedOperator", 1.8155949115753174, 1.3625038862228394, 21.17755699157715)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Place("Pyromancer", -3.9308018684387207, 0.9787788391113281, -32.76993179321289)
+TDS:Place("Farm", -16.535709381103516, 0.8269006013870239, -23.529781341552734)
+TDS:Place("Farm", -17.386383056640625, 0.9080630540847778, -27.867813110351562)
+TDS:Place("Farm", -16.860538482666016, 0.9638442993164062, -31.33736801147461)
+TDS:Place("Farm", -16.35007095336914, 0.9616059064865112, -34.840370178222656)
+TDS:Place("Farm", -16.35007095336914, 1.1362335681915283, -38.38037109375)
+TDS:Place("Farm", -19.764175415039062, 0.7093814611434937, -24.981884002685547)
+TDS:Place("Farm", -22.145793914794922, 0.6520135998725891, -29.20265769958496)
+TDS:Place("Farm", -20.289493560791016, 0.8679391145706177, -32.216941833496094)
+TDS:Place("Farm", -19.779056549072266, 0.947920024394989, -35.719947814941406)
+TDS:Place("Farm", -23.237133026123047, 0.35364383459091187, -25.29680633544922)
+TDS:Place("EvolvedOperator", -0.8099370002746582, 0.315141499042511, -15.610201835632324)
+TDS:Place("EvolvedOperator", -3.2469582557678223, 0.20410338044166565, -16.32611083984375)
+TDS:Place("EvolvedOperator", -4.416525363922119, -0.004397094249725342, -10.96136474609375)
+TDS:Place("EvolvedOperator", -2.069784164428711, 0.08209151029586792, -9.989401817321777)
+TDS:Place("Military Base", -18.410879135131836, -0.24127097427845, -12.403326034545898)
+TDS:Place("Military Base", -21.621143341064453, -0.4162674844264984, -9.193061828613281)
+TDS:Place("Military Base", -22.79618263244629, -0.18994826078414917, -13.578365325927734)
+TDS:Place("Military Base", -23.759044647216797, -0.6135526895523071, -5.187943458557129)
+TDS:Place("Military Base", -26.158628463745117, -0.7433091402053833, -9.041979789733887)
+TDS:Place("EvolvedOperator", 0.5275126695632935, 0.16928046941757202, -8.645561218261719)
+TDS:Place("EvolvedMechaBase", -19.97519302368164, -0.6008961796760559, 0.4518589973449707)
+TDS:Place("EvolvedMechaBase", -19.97519302368164, -0.5354571342468262, 9.491859436035156)
+TDS:Place("EvolvedMechaBase", -27.94574546813965, -0.5660553574562073, 4.7170538902282715)
+TDS:Place("EvolvedOperator", -6.615974426269531, -0.08634787797927856, -12.244791984558105)
+TDS:Upgrade(31)
+TDS:Upgrade(32)
+TDS:Upgrade(33)
+TDS:Upgrade(34)
+TDS:Place("EvolvedOperator", 0.11104238033294678, 0.05620076507329941, -0.4301929473876953)
+TDS:Upgrade(56)
+TDS:Upgrade(56)
+TDS:Upgrade(56)
+TDS:Upgrade(56)
+TDS:Upgrade(56)
+TDS:Upgrade(56)
+TDS:Place("EvolvedOperator", 6.306624889373779, 0.33804020285606384, 14.090951919555664)
+TDS:Upgrade(57)
+TDS:Upgrade(57)
+TDS:Upgrade(57)
+TDS:Upgrade(57)
+TDS:Upgrade(57)
+TDS:Place("EvolvedOperator", 1.9273838996887207, 1.432713508605957, 28.10201644897461)
+TDS:Upgrade(58)
+TDS:Upgrade(58)
+TDS:Upgrade(58)
+TDS:Upgrade(58)
+TDS:Upgrade(58)
+TDS:Upgrade(58)
+
+-- [[ END OF STRATEGY ]]
