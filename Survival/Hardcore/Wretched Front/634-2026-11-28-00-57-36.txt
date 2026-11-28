@@ -1,0 +1,139 @@
+_G.AutoMoonPuzzle = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Military Base", "Militant", "Pyromancer", "Farm", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Pyromancer", -10.50017261505127, 1.0372869968414307, -35.48914337158203)
+
+-- [ Wave 2 ] --
+TDS:Place("Pyromancer", -10.852110862731934, 0.9667062163352966, -27.707618713378906)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Place("Pyromancer", -10.074461936950684, 0.99053955078125, -31.332979202270508)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Farm", 18.20028305053711, 0.60396409034729, -3.270395278930664)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Farm", 14.241512298583984, 0.5835846662521362, -4.404799461364746)
+TDS:Upgrade(5)
+TDS:Place("Farm", 18.74384880065918, 0.5078572630882263, 1.6855106353759766)
+TDS:Upgrade(6)
+TDS:Place("Farm", 17.965587615966797, 0.7478847503662109, -8.984295845031738)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(1)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Place("Militant", 16.311128616333008, 0.4174809455871582, 14.429397583007812)
+TDS:Upgrade(8)
+TDS:Place("Militant", 17.391925811767578, 0.5831744074821472, 17.323923110961914)
+TDS:Upgrade(9)
+TDS:Place("Militant", 16.03835678100586, 0.7845252752304077, 20.541820526123047)
+TDS:Upgrade(10)
+TDS:Place("Militant", 15.526782035827637, 1.0158625841140747, 23.551149368286133)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(11)
+TDS:Place("Militant", 15.526782035827637, 1.1008960008621216, 26.591148376464844)
+TDS:Upgrade(12)
+
+-- [ Wave 14 ] --
+TDS:Place("Militant", 12.072576522827148, 0.6324012279510498, 17.49265480041504)
+TDS:Upgrade(13)
+TDS:Place("Militant", 12.890058517456055, 1.0608859062194824, 20.420679092407227)
+TDS:Upgrade(14)
+TDS:Place("Militant", 12.574285507202148, 1.2174997329711914, 24.27528190612793)
+TDS:Upgrade(15)
+TDS:Place("Militant", 12.48222541809082, 1.2412834167480469, 27.313888549804688)
+TDS:Upgrade(16)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(4)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Place("Military Base", 27.05502700805664, 0.4708295464515686, 8.864779472351074)
+
+-- [ Wave 17 ] --
+TDS:Place("Military Base", 27.05902099609375, 0.5023595690727234, 14.231340408325195)
+TDS:Upgrade(18)
+TDS:Place("Military Base", 26.964998245239258, 0.6234052777290344, 19.768388748168945)
+
+-- [ Wave 18 ] --
+TDS:Place("Military Base", 26.875667572021484, 0.5857582092285156, 4.187427520751953)
+TDS:Upgrade(20)
+TDS:Upgrade(17)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(20)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [ Wave 20 ] --
+TDS:Place("Military Base", 26.074377059936523, 0.7702535390853882, -0.32019758224487305)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(20)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(19)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(14)
+TDS:Upgrade(10)
+TDS:Upgrade(15)
+TDS:Upgrade(11)
+TDS:Upgrade(16)
+TDS:Upgrade(12)
+
+-- [ Wave 25 ] --
+TDS:Place("Pyromancer", 10.918956756591797, 0.29847580194473267, 11.03897476196289)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+
+-- [[ END OF STRATEGY ]]
