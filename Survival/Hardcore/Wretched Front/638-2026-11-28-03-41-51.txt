@@ -1,0 +1,39 @@
+_G.AutoMercenary = true
+_G.AutoMilitary = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.AutoXP = true
+_G.ClaimRewards = true
+_G.HideUsername = true
+_G.StartHubStrategy = "85cabcb9-9211-4e2d-8723-6d63af2f6823"
+_G.StreamerMode = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Military Base", "Farm", "Electroshocker", "Crook Boss", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Place("Farm", -11.533492088317871, 1.5481500625610352, 26.331899642944336)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Place("Electroshocker", 9.889289855957031, 1.296310305595398, 22.568050384521484)
+
+-- [[ END OF STRATEGY ]]
