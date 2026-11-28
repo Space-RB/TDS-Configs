@@ -1,0 +1,168 @@
+_G.AutoGatling = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Trapper", "Gatling Gun", "DJ Booth", "EvolvedMechaBase", "Hacker")
+TDS:Mode("Fallen")
+TDS:GameInfo("Lay By", {"Committed", "ExplodingEnemies", "Fog", "Glass", "HiddenEnemies", "Limitation"})
+TDS:Ready()
+TDS:Place("Trapper", -2.5540294647216797, 242.99998474121094, 226.75608825683594)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:VoteSkip(2)
+
+-- [ Wave 3 ] --
+TDS:VoteSkip(3)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:VoteSkip(4)
+TDS:Place("Trapper", -2.5540285110473633, 243.12127685546875, 223.71609497070312)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+TDS:VoteSkip(5)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+TDS:SetOption(2, "Trap", "Landmine")
+
+-- [ Wave 8 ] --
+TDS:VoteSkip(8)
+
+-- [ Wave 9 ] --
+TDS:VoteSkip(9)
+TDS:Place("Gatling Gun", -4.875237464904785, 245.86314392089844, 172.15443420410156)
+
+-- [ Wave 10 ] --
+TDS:Place("DJ Booth", -4.702134132385254, 243, 175.86976623535156)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+TDS:SetOption(4, "Track", "Green")
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:SetOption(2, "Trap", "Bear Traps")
+
+-- [ Wave 29 ] --
+TDS:VoteSkip(29)
+TDS:Upgrade(3)
+
+-- [ Wave 30 ] --
+TDS:Place("EvolvedMechaBase", 5.067079544067383, 243, 175.8654327392578)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 32 ] --
+TDS:Place("EvolvedMechaBase", 3.094856023788452, 243, 167.04319763183594)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 33 ] --
+TDS:Ability(5, "Shock Barrier", {pathDistance = 6.207641528841217, pathName = "1"})
+TDS:Ability(6, "Shock Barrier", {pathDistance = 12.088561956950905, pathName = "1"})
+TDS:Upgrade(6)
+TDS:Place("EvolvedMechaBase", -4.918281555175781, 243, 162.5789337158203)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(7)
+TDS:Place("Hacker", 2.531968116760254, 242.99998474121094, 276.9491882324219)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(8, 2)
+TDS:Place("Hacker", 2.6269893646240234, 242.99996948242188, 234.09857177734375)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9, 2)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:SetOption(1, "Trap", "Landmine")
+
+-- [ Wave 37 ] --
+TDS:Place("Trapper", -2.5540294647216797, 242.99998474121094, 229.79608154296875)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:SetOption(10, "Trap", "Landmine")
+TDS:Ability(5, "Bliss of Finality")
+TDS:Ability(5, "Shock Barrier", {pathDistance = 3.821563528211612, pathName = "1"})
+TDS:Ability(6, "Shock Barrier", {pathDistance = 8.407745469187844, pathName = "1"})
+TDS:Ability(7, "Shock Barrier", {pathDistance = 12.90795911902375, pathName = "1"})
+TDS:VoteSkip(37)
+
+-- [ Wave 38 ] --
+TDS:Ability(9, "Hologram Tower", {towerPosition = Vector3.new(-7.705746173858643, 245.99295043945312, 168.2549285888672), towerToClone = 3}, true)
+
+-- [ Wave 39 ] --
+TDS:Ability(6, "Bliss of Finality")
+TDS:Ability(5, "Shock Barrier", {pathDistance = 3.8141478325838016, pathName = "1"}, true)
+TDS:Ability(6, "Shock Barrier", {pathDistance = 8.520233204101787, pathName = "1"}, true)
+TDS:Ability(7, "Shock Barrier", {pathDistance = 12.564910831366008, pathName = "1"}, true)
+
+-- [ Wave 40 ] --
+TDS:SetOption(4, "Track", "Red")
+TDS:Ability(7, "Bliss of Finality")
+
+-- [[ END OF STRATEGY ]]
