@@ -1,0 +1,90 @@
+_G.AutoDJ = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.AutoStarCannon = true
+_G.GUICursorId = "rbxasset://textures/Cursors/CrossKeyboard.png"
+_G.GUICustomCursor = true
+_G.StarCannonMin = 100
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Military Base", "Assassin", "EvolvedEnforcer", "Militant", "Pyromancer")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Place("Militant", -7.106335639953613, 0.9984660148620605, -35.327980041503906)
+
+-- [ Wave 7 ] --
+TDS:Place("Militant", -4.067505836486816, 1.0020904541015625, -35.24363708496094)
+TDS:Place("Militant", -4.55175256729126, 0.9691320657730103, -32.242454528808594)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Place("Militant", -3.9041812419891357, 0.9724974632263184, -29.272226333618164)
+TDS:Upgrade(5)
+TDS:Place("Militant", -6.942257881164551, 0.9381834268569946, -29.380355834960938)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Place("Military Base", -16.228744506835938, 0.9965670704841614, -35.648193359375)
+
+-- [ Wave 13 ] --
+TDS:Place("EvolvedEnforcer", -2.0238330364227295, 0.9897447228431702, -32.48988723754883)
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 19 ] --
+TDS:Place("Militant", -1.2874460220336914, 0.7858546376228333, -24.276702880859375)
+TDS:Upgrade(9)
+TDS:Place("Militant", 0.9024462699890137, 0.6647447943687439, -22.168155670166016)
+TDS:Upgrade(10)
+TDS:Place("Military Base", -16.59766387939453, 0.9640877842903137, -31.123207092285156)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 22 ] --
+TDS:Place("Militant", 5.975667953491211, 1.3947725296020508, 28.414857864379883)
+TDS:Place("Militant", 2.83750581741333, 1.424941062927246, 28.52701187133789)
+TDS:Place("Militant", -0.11035966873168945, 1.4541115760803223, 29.269773483276367)
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+
+-- [[ END OF STRATEGY ]]
