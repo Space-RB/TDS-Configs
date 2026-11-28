@@ -1,0 +1,37 @@
+_G.AutoGatling = true
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = false
+_G.GUIWallpaperTransparency = 100
+_G.AutoGatlingSettings = {}
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Gatling Gun", "DJ Booth", "Military Base", "Accelerator", "Farm")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wrecked Battlefield", {})
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Farm", 31.963056564331055, 3.5999016761779785, 4.193520545959473)
+TDS:Place("Farm", 30.092859268188477, 3.5999791622161865, 11.382030487060547)
+TDS:Place("Farm", 32.211917877197266, 3.5999865531921387, 15.356632232666016)
+TDS:Place("Farm", 35.677574157714844, 3.5999016761779785, 12.327315330505371)
+TDS:Place("Farm", 27.882553100585938, 3.599998950958252, 6.66288423538208)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Farm", 22.908985137939453, 3.599979877471924, 5.111926078796387)
+TDS:Place("Farm", 27.916698455810547, 3.5999996662139893, 0.925684928894043)
+
+-- [ Wave 4 ] --
+TDS:Place("Military Base", 5.9611053466796875, 0.9999793767929077, -24.10543441772461)
+
+-- [[ END OF STRATEGY ]]
