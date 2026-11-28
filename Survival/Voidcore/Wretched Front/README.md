@@ -4,7 +4,7 @@
 
 [← Back to the previous catalog](../README.md)
 
-**📦 12 recorded strategies available for this map**
+**📦 13 recorded strategies available for this map**
 
 Select a strategy below and open its config file.
 
@@ -31,6 +31,7 @@ Select a strategy below and open its config file.
 | 10 | 2026-11-05 03:48 UTC | Voidcore | — | Farm, EvolvedKingpin, EvolvedJuggernaut, Shotgunner, Electroshocker | [Open](10-2026-11-05-03-48-03.txt) |
 | 11 | 2026-11-05 03:51 UTC | Voidcore | — | Farm, EvolvedKingpin, EvolvedJuggernaut, Shotgunner, Electroshocker | [Open](11-2026-11-05-03-51-21.txt) |
 | 12 | 2026-11-07 08:57 UTC | Voidcore | — | Star Cannon, Firework Technician, Hacker, Gatling Gun, Farm | [Open](12-2026-11-07-08-57-33.txt) |
+| 13 | 2026-11-28 05:57 UTC | Voidcore | — | Golden Pyromancer, EvolvedKingpin, Golden Scout, Military Base, Gatling Gun | [Open](13-2026-11-28-05-57-07.txt) |
 </div>
 
 <p align="center">💡 Use <b>Ctrl+F</b> to find a date, tower, modifier, or mode.</p>
