@@ -1,0 +1,80 @@
+_G.AutoChain = true
+_G.AutoDJ = true
+_G.AutoReady = false
+_G.AutoRejoin = true
+_G.AutoRestart = true
+_G.AutoSkip = true
+_G.AutoSkipCutscenes = true
+_G.ClaimRewards = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+TDS:Loadout("Golden Pyromancer", "Military Base", "Golden Crook Boss", "Engineer", "None")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+TDS:Ready()
+TDS:Place("Pyromancer", -7.013517379760742, 0.959666907787323, -31.480276107788086)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Engineer", 1.7590407133102417, 0.6237771511077881, -20.241567611694336)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Engineer", -1.55043625831604, 0.598220705986023, -20.81011962890625)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Place("Engineer", -0.32479047775268555, 0.5086168050765991, -18.02814292907715)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Place("Crook Boss", -0.2898530960083008, 0.32215616106987, -14.987310409545898)
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 17 ] --
+TDS:Place("Engineer", -3.579014778137207, 0.38617566227912903, -18.545949935913086)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 18 ] --
+TDS:Place("Military Base", -4.905717849731445, 1.0746521949768066, -41.99539566040039)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Engineer", 2.5433108806610107, 0.5822952389717102, -17.020374298095703)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 20 ] --
+TDS:Place("Engineer", -7.58375358581543, -0.13181763887405396, -11.747469902038574)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 23 ] --
+TDS:Place("Military Base", 4.676041603088379, 0.31129881739616394, -5.450187683105469)
+
+-- [[ END OF STRATEGY ]]
